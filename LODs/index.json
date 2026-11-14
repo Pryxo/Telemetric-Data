@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "maps": {
+    "telos:hub": { "file": "LODs/hub.zip", "version": 1, "sha256": "a19dc0e1258ec266b43cca25f6b91ff1e5d80b6952f2112bdd091a938db5f407", "size": 7379394 },
+    "telos:realm": { "file": "LODs/realm.zip", "version": 1, "sha256": "5dc6890fbc489853bab930322e0761a64d4ea0729797aa66247cc0080ce305c8", "size": 74292714 },
+    "telos:neo_eden": { "file": "LODs/neo_eden.zip", "version": 1, "sha256": "13fb7b3163ef04731613020d5997662438c47e022f400153ece33fbe30911e24", "size": 35137891 },
+    "telos:raphaels_castle": { "file": "LODs/raphaels_castle.zip", "version": 1, "sha256": "f792f6af5d93a0267d88585e02586efcd024646401c73511348a6c49114b223d", "size": 1580784 },
+    "telos:raphaels_chamber": { "file": "LODs/raphaels_chamber.zip", "version": 1, "sha256": "c88be1d984cc0dd798f453801e10181087e42484828a56d231886a1b7a860c49", "size": 3894888 }
+  }
+}
