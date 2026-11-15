@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "_comment": "Item rarity colours. Key = last part of the item's tooltip style (telos:untiered/bloodshot -> bloodshot, telos:tiered/8 -> 8). colour = #RRGGBB.",
+  "rarities": {
+    "irradiated": { "label": "Irradiated", "color": "#15CD15" },
+    "gilded":     { "label": "Gilded",     "color": "#DF5320" },
+    "royal":      { "label": "Royal",      "color": "#AA00AA" },
+    "bloodshot":  { "label": "Bloodshot",  "color": "#AA0000" },
+    "voidbound":  { "label": "Voidbound",  "color": "#8D15F0" },
+    "unholy":     { "label": "Unholy",     "color": "#BFBFBF" },
+    "companion":  { "label": "Companion",  "color": "#FFAA00" },
+    "shiny":      { "label": "Shiny",      "color": "#00FFFF" }
+  }
+}

@@ -16,20 +16,29 @@ The mod reads files from `https://raw.githubusercontent.com/Pryxo/Telemetric-Dat
 ## Layout
 | Path | What |
 |---|---|
-| `voxy/index.json` | List of prebuilt Voxy maps |
-| `voxy/<dungeon_name>.zip` | Voxy LOD store of one fixed-layout dungeon |
+| `LODs/index.json` | List of prebuilt Voxy maps |
+| `LODs/<dungeon_name>.zip` | Voxy LOD store of one fixed-layout dungeon |
+| `telos/bosses.json` | Bosses (label, type, boss-bar name hash) |
+| `telos/rarities.json` | Item rarity colours, keyed by the last part of the tooltip style |
+| `telos/bags.json` | Loot bag types (drop totem model, drop sound) |
+| `telos/*.json` (others) | Minibosses, dungeons, portals, items, companions, classes, season pass, traits |
+
+The Telos tables in `telos/` (except `rarities.json` / `bags.json`) come from
+[Melinoe](https://github.com/House-Hades/Melinoe) (House-Hades, LGPL-3.0), used with the authors' permission.
+Telemetric bundles a copy of `telos/` in its jar and downloads the newest one on start, so an edit here reaches
+every player on their next game start. Players can override a file locally in `config/telemetric/data/telos/`.
 
 ## Voxy maps
 Used by Telemetric's **Visual → Voxy Modifier**. Every instance of a whitelisted dungeon shares one Voxy
 store, key `telos:<dungeon_name>` (HUD name lower case, non-letters → `_`, e.g. `Rustborn Kingdom: Part I` →
 `telos:rustborn_kingdom_part_i`), saved under `.voxy/saves/telosrealms/<world-id>/` for every Telos address.
 
-`voxy/index.json`:
+`LODs/index.json`:
 ```json
 {
   "version": 1,
   "maps": {
-    "telos:goblin_lair": { "file": "voxy/goblin_lair.zip", "version": 1, "sha256": "<hex of the zip>", "size": 12345 }
+    "telos:goblin_lair": { "file": "LODs/goblin_lair.zip", "version": 1, "sha256": "<hex of the zip>", "size": 12345 }
   }
 }
 ```
