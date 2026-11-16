@@ -1,38 +1,46 @@
 {
   "version": 1,
-  "_comment": "Item rarity colours. Key = last part of the item's tooltip style (telos:untiered/bloodshot -> bloodshot). colour = #RRGGBB, from the item name. companions = pet/mount rarities (name colour).",
+  "_comment": "Item rarity colours. Key = last part of the item's tooltip style (telos:untiered/bloodshot -> bloodshot). colour = #RRGGBB, from the item name. glyph = chat icon (default font, server pack) from manual glyphs. companions = pet/mount rarities (name colour).",
   "rarities": {
     "bloodshot": {
       "label": "Bloodshot",
-      "color": "#B7220A"
+      "color": "#B7220A",
+      "glyph": "\ud814\udf1c"
     },
     "gilded": {
       "label": "Gilded",
-      "color": "#DE7500"
+      "color": "#DE7500",
+      "glyph": "\ud818\udcf1"
     },
     "irradiated": {
       "label": "Irradiated",
-      "color": "#15CD15"
+      "color": "#15CD15",
+      "glyph": "\ud814\udf19"
     },
     "royal": {
       "label": "Royal",
-      "color": "#CF08CF"
+      "color": "#CF08CF",
+      "glyph": "\ud814\udf1b"
     },
     "unholy": {
       "label": "Unholy",
-      "color": "#B6D9D4"
+      "color": "#B6D9D4",
+      "glyph": "\ud815\udc66"
     },
     "voidbound": {
       "label": "Voidbound",
-      "color": "#D194F2"
+      "color": "#D194F2",
+      "glyph": "\ud818\ude35"
     },
     "companion": {
       "label": "Companion",
-      "color": "#FFAA00"
+      "color": "#FFAA00",
+      "glyph": "\ud814\udf1a"
     },
     "shiny": {
       "label": "Shiny",
-      "color": "#00FFFF"
+      "color": "#00FFFF",
+      "glyph": "\ud818\ude80"
     }
   },
   "companions": {
