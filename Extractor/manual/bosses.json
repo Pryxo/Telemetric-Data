@@ -50,6 +50,13 @@
         "Nebula's Battleaxe",
         "Dusk Weaver",
         "Archon's Glare"
+      ],
+      "Ophanim": [
+        "Final Destination",
+        "Oracle's End",
+        "Crown Of Ethereal Radiance",
+        "Lumine",
+        "Astralflare"
       ]
     },
     "Dawn Of Creation": {
@@ -76,6 +83,13 @@
         "Visage Of The Night",
         "Baphomet's Bomb",
         "Blood Of The Heretics"
+      ],
+      "Seraphim": [
+        "Feathers Of The Seraph",
+        "Seraph's Essence",
+        "Empyrean Epitome",
+        "Thanatos",
+        "Seraphix"
       ]
     },
     "Seraph's Domain": {
@@ -135,11 +149,6 @@
       "Chungus": {
         "call": "The void strengthens me, (?<player>.+)!"
       },
-      "Freddy": {
-        "call": "YOU WILL NOT BE SPARED! YOU WILL NOT BE SAVED, (?<player>.+)!",
-        "icon": "telos:material/boss/freddy",
-        "area": "Realm"
-      },
       "Glumi": {
         "call": "You will not access the sacred caverns, (?<player>.+)!"
       },
@@ -148,9 +157,6 @@
       },
       "Lotil": {
         "call": "You will NOT take my symbolic shield away from me, (?<player>.+)!"
-      },
-      "Oozul": {
-        "call": "Don't expose mortals such as (?<player>.+) to Chronos!"
       },
       "Tidol": {
         "call": "Face my trident, (?<player>.+)!"

@@ -27,8 +27,6 @@
             "𕌚 Skull Cavern[telos:material/dungeon/skull_cavern]"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "   ",
@@ -253,43 +251,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/skull_cavern",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/skull_cavern"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    103,
-                    -86,
-                    -68,
-                    92,
-                    -99,
-                    93,
-                    71,
-                    -45,
-                    -88,
-                    -35,
-                    107,
-                    -71,
-                    -33,
-                    -103,
-                    65,
-                    94
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/skull_cavern",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -309,8 +271,6 @@
             "𕌚 Thornwood Wargrove[telos:material/dungeon/thornwood_wargrove]"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "  ",
@@ -469,43 +429,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/thornwood_wargrove",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/thornwood_wargrove"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -10,
-                    7,
-                    97,
-                    -128,
-                    -15,
-                    -15,
-                    79,
-                    104,
-                    -87,
-                    96,
-                    45,
-                    -53,
-                    -128,
-                    -111,
-                    -123,
-                    63
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/thornwood_wargrove",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -528,8 +452,6 @@
             "𕌚 Goblin Lair[telos:material/dungeon/goblin_lair]"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "     ",
@@ -754,43 +676,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/goblin_lair",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/goblin_lair"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    14,
-                    126,
-                    20,
-                    29,
-                    35,
-                    -17,
-                    73,
-                    -37,
-                    -119,
-                    62,
-                    -91,
-                    35,
-                    122,
-                    -111,
-                    71,
-                    87
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/goblin_lair",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -813,8 +699,6 @@
             "𕌚 Sakura Shrine[telos:material/dungeon/sakura_shrine]"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "      ",
@@ -1039,43 +923,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/sakura_shrine",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/sakura_shrine"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    9,
-                    22,
-                    -100,
-                    24,
-                    87,
-                    -1,
-                    64,
-                    -103,
-                    -120,
-                    -112,
-                    -77,
-                    62,
-                    -107,
-                    70,
-                    -19,
-                    75
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/sakura_shrine",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -1095,8 +943,6 @@
             "𕌚 Secluded Woodland[telos:material/dungeon/secluded_woodland]"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "     ",
@@ -1255,43 +1101,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/secluded_woodland",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/secluded_woodland"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -39,
-                    -113,
-                    34,
-                    122,
-                    42,
-                    -12,
-                    78,
-                    -83,
-                    -71,
-                    53,
-                    93,
-                    -47,
-                    56,
-                    21,
-                    2,
-                    -50
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/secluded_woodland",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -1311,8 +1121,6 @@
             "𕌚 Desert Temple[telos:material/dungeon/desert_temple]"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "    ",
@@ -1475,43 +1283,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/desert_temple",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/desert_temple"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -94,
-                    14,
-                    85,
-                    86,
-                    -68,
-                    -4,
-                    77,
-                    -109,
-                    -106,
-                    53,
-                    -46,
-                    -56,
-                    -114,
-                    -100,
-                    -21,
-                    88
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/desert_temple",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -1534,8 +1306,6 @@
             "𕌚 Tomb of Shadows[telos:material/dungeon/tomb_of_shadows]"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "        ",
@@ -1760,43 +1530,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/tomb_of_shadows",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/tomb_of_shadows"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -36,
-                    28,
-                    -108,
-                    3,
-                    -97,
-                    -1,
-                    73,
-                    -15,
-                    -127,
-                    -97,
-                    -120,
-                    -2,
-                    123,
-                    -123,
-                    -60,
-                    34
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/tomb_of_shadows",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -1819,8 +1553,6 @@
             "𕌚 Abyss of Demons[telos:material/dungeon/abyss_of_demons]"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "       ",
@@ -2045,43 +1777,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/abyss_of_demons",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/abyss_of_demons"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -74,
-                    7,
-                    -38,
-                    -88,
-                    64,
-                    109,
-                    74,
-                    -22,
-                    -105,
-                    -17,
-                    -14,
-                    -102,
-                    -56,
-                    -117,
-                    102,
-                    -128
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/abyss_of_demons",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -2104,8 +1800,6 @@
             "𕌚 Ice Cave[telos:material/dungeon/ice_cave]"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "    ",
@@ -2330,43 +2024,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/ice_cave",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/ice_cave"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    117,
-                    105,
-                    15,
-                    124,
-                    7,
-                    -100,
-                    74,
-                    -23,
-                    -77,
-                    49,
-                    1,
-                    97,
-                    44,
-                    0,
-                    -103,
-                    95
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/ice_cave",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -2386,8 +2044,6 @@
             "𕌚 Dwarven Frostkeep[telos:material/dungeon/dwarven_frostkeep]"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "     ",
@@ -2546,43 +2202,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/dwarven_frostkeep",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/dwarven_frostkeep"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -31,
-                    14,
-                    31,
-                    107,
-                    33,
-                    101,
-                    66,
-                    76,
-                    -69,
-                    -29,
-                    118,
-                    -46,
-                    -123,
-                    -77,
-                    -84,
-                    119
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/dwarven_frostkeep",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -2602,8 +2222,6 @@
             "𕌚 Undead Lair[telos:material/dungeon/undead_lair]"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "    ",
@@ -2762,43 +2380,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/undead_lair",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/undead_lair"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    71,
-                    -63,
-                    93,
-                    57,
-                    -127,
-                    56,
-                    65,
-                    -28,
-                    -107,
-                    37,
-                    -66,
-                    -3,
-                    -19,
-                    110,
-                    26,
-                    68
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/undead_lair",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -2818,8 +2400,6 @@
             "𕌚 Treasure Cave[telos:material/dungeon/treasure_cave]"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "  ",
@@ -2982,43 +2562,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/treasure_cave",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/treasure_cave"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    78,
-                    -47,
-                    35,
-                    -113,
-                    68,
-                    119,
-                    69,
-                    64,
-                    -95,
-                    -59,
-                    122,
-                    37,
-                    72,
-                    116,
-                    -88,
-                    -19
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/treasure_cave",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -3038,8 +2582,6 @@
             "𕌚 Kobold's Den[telos:material/dungeon/kobolds_den]"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "        ",
@@ -3198,43 +2740,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/kobolds_den",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/kobolds_den"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    102,
-                    -120,
-                    -37,
-                    -10,
-                    95,
-                    -17,
-                    66,
-                    96,
-                    -124,
-                    -77,
-                    -33,
-                    6,
-                    53,
-                    43,
-                    -80,
-                    -25
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/kobolds_den",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -3257,8 +2763,6 @@
             "𕌚 Depths of Purgatory[telos:material/dungeon/depths_of_purgatory]"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "         ",
@@ -3483,43 +2987,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/purgatory",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/purgatory"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    111,
-                    -50,
-                    100,
-                    -60,
-                    14,
-                    11,
-                    66,
-                    121,
-                    -85,
-                    53,
-                    -101,
-                    -63,
-                    -28,
-                    1,
-                    86,
-                    -126
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/purgatory",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -3542,8 +3010,6 @@
             "𕌚 Corvus Crypt[telos:material/dungeon/corvus_crypt]"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "  ",
@@ -3768,43 +3234,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/corvus_crypt",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/corvus_crypt"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    5,
-                    -46,
-                    -75,
-                    -127,
-                    -117,
-                    -78,
-                    66,
-                    20,
-                    -86,
-                    -82,
-                    -37,
-                    -9,
-                    51,
-                    105,
-                    106,
-                    123
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/corvus_crypt",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -3826,8 +3256,6 @@
             "𕌚 Frozen Ruins[telos:material/dungeon/frozen_ruins]"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "       ",
@@ -4030,43 +3458,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/frozen_ruins",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/frozen_ruins"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    37,
-                    79,
-                    10,
-                    50,
-                    50,
-                    66,
-                    74,
-                    -115,
-                    -98,
-                    24,
-                    23,
-                    108,
-                    -59,
-                    -98,
-                    74,
-                    -94
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/frozen_ruins",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -4088,8 +3480,6 @@
             "𕌚 Omnipotent's Citadel[telos:material/dungeon/omnipotents_citadel]"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "   ",
@@ -4292,43 +3682,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/omnipotents_citadel",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/omnipotents_citadel"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -84,
-                    -118,
-                    -126,
-                    82,
-                    107,
-                    70,
-                    67,
-                    -78,
-                    -91,
-                    9,
-                    82,
-                    -120,
-                    66,
-                    -123,
-                    41,
-                    98
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/omnipotents_citadel",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -4349,8 +3703,6 @@
             "𕌚 Fungal Cavern[telos:material/dungeon/fungal_cavern]"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "        ",
@@ -4531,43 +3883,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/fungal_cavern",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/fungal_cavern"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -97,
-                    -6,
-                    -97,
-                    11,
-                    51,
-                    -116,
-                    67,
-                    83,
-                    -92,
-                    43,
-                    -39,
-                    -78,
-                    -74,
-                    -116,
-                    -98,
-                    -113
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/fungal_cavern",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -4587,8 +3903,6 @@
             "𕌚 Corsair's Conductorium[telos:material/dungeon/corsairs_conductorium]"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "   ",
@@ -4751,43 +4065,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/corsairs_conductorium",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/corsairs_conductorium"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -4,
-                    15,
-                    72,
-                    -28,
-                    -120,
-                    110,
-                    74,
-                    -40,
-                    -121,
-                    -126,
-                    -8,
-                    -128,
-                    16,
-                    120,
-                    49,
-                    45
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/corsairs_conductorium",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -4810,8 +4088,6 @@
             "𕌚 Midnight Stronghold[telos:material/dungeon/midnight_stronghold]"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "    ",
@@ -5036,43 +4312,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/midnight_stronghold",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/midnight_stronghold"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    106,
-                    -28,
-                    -121,
-                    -25,
-                    -15,
-                    109,
-                    77,
-                    119,
-                    -76,
-                    108,
-                    -90,
-                    72,
-                    7,
-                    -35,
-                    -68,
-                    -116
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/midnight_stronghold",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -5095,8 +4335,6 @@
             "𕌚 Anubis Lair[telos:material/dungeon/anubis_lair]"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "   ",
@@ -5321,43 +4559,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/anubis_lair",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/anubis_lair"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    79,
-                    -36,
-                    45,
-                    -122,
-                    -48,
-                    108,
-                    78,
-                    -102,
-                    -92,
-                    14,
-                    -105,
-                    73,
-                    27,
-                    110,
-                    67,
-                    51
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/anubis_lair",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -5380,8 +4582,6 @@
             "𕌚 Tartarus[telos:material/dungeon/tartarus]"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "     ",
@@ -5606,43 +4806,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/tartarus",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/tartarus"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -45,
-                    72,
-                    13,
-                    -28,
-                    -53,
-                    -66,
-                    78,
-                    23,
-                    -109,
-                    87,
-                    -98,
-                    -58,
-                    -97,
-                    -6,
-                    -71,
-                    101
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/tartarus",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -5665,8 +4829,6 @@
             "𕌚 Cultist's Hideout[telos:material/dungeon/cultists_hideout]"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "      ",
@@ -5891,43 +5053,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/cultists_hideout",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/cultists_hideout"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -39,
-                    -62,
-                    -128,
-                    24,
-                    -1,
-                    78,
-                    79,
-                    -74,
-                    -69,
-                    47,
-                    -83,
-                    40,
-                    -92,
-                    85,
-                    -111,
-                    75
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/cultists_hideout",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -5947,8 +5073,6 @@
             "𕌚 Illarius' Hideout[telos:material/dungeon/illarius_hideout]"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "     ",
@@ -6111,43 +5235,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/illarius_hideout",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/illarius_hideout"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    42,
-                    62,
-                    -80,
-                    73,
-                    -12,
-                    -54,
-                    67,
-                    -93,
-                    -83,
-                    -128,
-                    14,
-                    72,
-                    -4,
-                    -31,
-                    -100,
-                    -76
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/illarius_hideout",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -6170,8 +5258,6 @@
             "𕌚 Aurora Sanctum[telos:material/dungeon/aurora_sanctum]"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "        ",
@@ -6396,43 +5482,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/aurora_sanctum",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/aurora_sanctum"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    84,
-                    -15,
-                    61,
-                    98,
-                    -51,
-                    5,
-                    73,
-                    21,
-                    -108,
-                    114,
-                    99,
-                    -64,
-                    59,
-                    22,
-                    -43,
-                    -9
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/aurora_sanctum",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -6452,8 +5502,6 @@
             "𕌚 Aviary[telos:material/dungeon/aviary]"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "  ",
@@ -6612,43 +5660,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/aviary",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/aviary"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -91,
-                    -47,
-                    -67,
-                    35,
-                    -35,
-                    125,
-                    78,
-                    60,
-                    -124,
-                    65,
-                    -13,
-                    49,
-                    54,
-                    -95,
-                    -104,
-                    110
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/aviary",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -6668,8 +5680,6 @@
             "𕌚 Dreadwood Thicket[telos:material/dungeon/dreadwood_thicket]"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "     ",
@@ -6832,43 +5842,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/dreadwood_thicket",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/dreadwood_thicket"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    30,
-                    86,
-                    74,
-                    -58,
-                    -33,
-                    105,
-                    73,
-                    47,
-                    -93,
-                    102,
-                    -82,
-                    94,
-                    106,
-                    19,
-                    31,
-                    36
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/dreadwood_thicket",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -6890,8 +5864,6 @@
             "𕌚 Resounding Ruins[telos:material/dungeon/resounding_ruins]"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "       ",
@@ -7094,43 +6066,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/resounding_ruins",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/resounding_ruins"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    94,
-                    -112,
-                    109,
-                    59,
-                    -128,
-                    9,
-                    68,
-                    97,
-                    -106,
-                    121,
-                    -127,
-                    90,
-                    86,
-                    112,
-                    -91,
-                    -79
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/resounding_ruins",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -7154,8 +6090,6 @@
             "𕌚 Rustborn Kingdom[telos:material/dungeon/shatters]"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "        ",
@@ -7394,43 +6328,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/shatters",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/shatters"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    30,
-                    -104,
-                    10,
-                    80,
-                    118,
-                    79,
-                    71,
-                    -65,
-                    -125,
-                    23,
-                    -89,
-                    -46,
-                    -106,
-                    12,
-                    22,
-                    73
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/shatters",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -7450,8 +6348,6 @@
             "𕌚 Raph's Chamber[telos:material/dungeon/onyx]"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "     ",
@@ -7610,43 +6506,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/onyx",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/onyx"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    71,
-                    106,
-                    15,
-                    119,
-                    75,
-                    -103,
-                    71,
-                    94,
-                    -102,
-                    -86,
-                    94,
-                    53,
-                    -79,
-                    -18,
-                    69,
-                    65
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/onyx",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -7670,8 +6530,6 @@
             "𕌚 Seraph's Domain[telos:material/dungeon/hardmode_celestials_province]"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "      ",
@@ -7910,43 +6768,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/celestials_province",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/celestials_province"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    71,
-                    -55,
-                    117,
-                    -9,
-                    49,
-                    -88,
-                    78,
-                    -62,
-                    -121,
-                    51,
-                    -95,
-                    -31,
-                    -96,
-                    -74,
-                    -66,
-                    109
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/celestials_province",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -7969,8 +6791,6 @@
             "𕌚 Tenebris[telos:material/dungeon/tenebris]"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "   ",
@@ -8195,43 +7015,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/tenebris",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/tenebris"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -25,
-                    -34,
-                    -75,
-                    -122,
-                    -85,
-                    83,
-                    74,
-                    -94,
-                    -74,
-                    103,
-                    -89,
-                    -18,
-                    -30,
-                    61,
-                    52,
-                    -82
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/tenebris",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -8253,8 +7037,6 @@
             "𕌚 Neo Eden[telos:material/dungeon/neo_eden]"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "     ",
@@ -8457,43 +7239,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/neo_eden",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/neo_eden"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -55,
-                    -4,
-                    -35,
-                    126,
-                    -82,
-                    -98,
-                    66,
-                    -100,
-                    -119,
-                    -121,
-                    -113,
-                    -35,
-                    -101,
-                    5,
-                    -93,
-                    -18
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/neo_eden",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -8513,8 +7259,6 @@
             "𕌚 Valley of the Lost[telos:material/dungeon/valley_of_the_lost]"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "      ",
@@ -8673,43 +7417,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/valley_of_the_lost",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/valley_of_the_lost"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    19,
-                    103,
-                    40,
-                    99,
-                    -27,
-                    -30,
-                    79,
-                    33,
-                    -118,
-                    58,
-                    63,
-                    38,
-                    -114,
-                    -27,
-                    20,
-                    103
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/valley_of_the_lost",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -8735,8 +7443,6 @@
             "Click to view more"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "       ",
@@ -8976,43 +7682,7 @@
                   "color": "#7A9AAA"
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/starter",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/starter"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -126,
-                    63,
-                    122,
-                    -121,
-                    31,
-                    90,
-                    79,
-                    -56,
-                    -71,
-                    90,
-                    -127,
-                    -81,
-                    -46,
-                    -38,
-                    -35,
-                    -98
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/starter",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -9034,8 +7704,6 @@
             "Supporter rank."
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "   ",
@@ -9226,43 +7894,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/supporter",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/supporter"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -105,
-                    23,
-                    -111,
-                    -67,
-                    -97,
-                    -39,
-                    64,
-                    -97,
-                    -127,
-                    28,
-                    -88,
-                    47,
-                    -100,
-                    -115,
-                    -25,
-                    -34
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/supporter",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -9283,8 +7915,6 @@
             "𖄕DPS » 11.0"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "         ",
@@ -9490,43 +8120,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/freddys_pizzeria",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/freddys_pizzeria"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    108,
-                    -60,
-                    80,
-                    -64,
-                    -15,
-                    13,
-                    65,
-                    26,
-                    -75,
-                    108,
-                    -27,
-                    48,
-                    85,
-                    -118,
-                    -17,
-                    -80
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/freddys_pizzeria",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -9536,37 +8130,12 @@
           "model": "telos:mob/nothing",
           "lore": [],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Previous page",
                 "color": "#C78A7A",
                 "bold": true,
                 "italic": false
-              },
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    29,
-                    126,
-                    115,
-                    81,
-                    120,
-                    -46,
-                    78,
-                    -102,
-                    -77,
-                    -91,
-                    -5,
-                    20,
-                    26,
-                    -97,
-                    110,
-                    120
-                  ]
-                }
               }
             }
           }
@@ -9577,37 +8146,12 @@
           "model": "telos:mob/nothing",
           "lore": [],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Previous page",
                 "color": "#C78A7A",
                 "bold": true,
                 "italic": false
-              },
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -23,
-                    -81,
-                    -115,
-                    -82,
-                    75,
-                    91,
-                    78,
-                    -65,
-                    -119,
-                    -99,
-                    -56,
-                    -48,
-                    73,
-                    56,
-                    -60,
-                    107
-                  ]
-                }
               }
             }
           }
@@ -9618,37 +8162,12 @@
           "model": "telos:mob/nothing",
           "lore": [],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Previous page",
                 "color": "#C78A7A",
                 "bold": true,
                 "italic": false
-              },
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    122,
-                    -88,
-                    62,
-                    -3,
-                    -47,
-                    -69,
-                    67,
-                    118,
-                    -75,
-                    56,
-                    81,
-                    79,
-                    -119,
-                    -19,
-                    -23,
-                    -18
-                  ]
-                }
               }
             }
           }
@@ -9671,8 +8190,6 @@
             "be obtained through events or other obscure means."
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Pet Information",
@@ -9830,30 +8347,7 @@
                   "color": "gray",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -71,
-                    -93,
-                    126,
-                    -39,
-                    -14,
-                    77,
-                    69,
-                    -93,
-                    -94,
-                    67,
-                    -22,
-                    67,
-                    -113,
-                    105,
-                    -57,
-                    -10
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -9863,37 +8357,12 @@
           "model": "telos:mob/nothing",
           "lore": [],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "View pet skins",
                 "color": "#7A9AAA",
                 "bold": true,
                 "italic": false
-              },
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    102,
-                    -47,
-                    61,
-                    -78,
-                    119,
-                    95,
-                    67,
-                    111,
-                    -127,
-                    -59,
-                    -114,
-                    13,
-                    -27,
-                    -10,
-                    28,
-                    55
-                  ]
-                }
               }
             }
           }
@@ -9904,37 +8373,12 @@
           "model": "telos:mob/nothing",
           "lore": [],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "View pet skins",
                 "color": "#7A9AAA",
                 "bold": true,
                 "italic": false
-              },
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -32,
-                    74,
-                    59,
-                    112,
-                    80,
-                    -95,
-                    71,
-                    76,
-                    -94,
-                    -85,
-                    88,
-                    68,
-                    111,
-                    39,
-                    -73,
-                    -117
-                  ]
-                }
               }
             }
           }
@@ -9971,8 +8415,6 @@
             "14/09/2024)"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "      ",
@@ -10253,43 +8695,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/ophanoid",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/ophanoid"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -107,
-                    80,
-                    77,
-                    35,
-                    11,
-                    44,
-                    76,
-                    -10,
-                    -118,
-                    3,
-                    60,
-                    111,
-                    -107,
-                    82,
-                    53,
-                    79
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/ophanoid",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -10315,8 +8721,6 @@
             "an active Supporter+"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "   ",
@@ -10545,43 +8949,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/ophanoid_echo",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/ophanoid_echo"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -81,
-                    -121,
-                    -64,
-                    46,
-                    74,
-                    -73,
-                    75,
-                    -64,
-                    -87,
-                    -82,
-                    70,
-                    22,
-                    -98,
-                    -121,
-                    104,
-                    70
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/ophanoid_echo",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -10609,8 +8977,6 @@
             "bundle"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "       ",
@@ -10854,43 +9220,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/paws",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/paws"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    47,
-                    75,
-                    101,
-                    31,
-                    36,
-                    113,
-                    67,
-                    -121,
-                    -107,
-                    -46,
-                    2,
-                    117,
-                    69,
-                    24,
-                    101,
-                    93
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/paws",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -10916,8 +9246,6 @@
             "#1: A New Era"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "        ",
@@ -11146,43 +9474,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/nyxie",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/nyxie"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -97,
-                    -106,
-                    86,
-                    85,
-                    -113,
-                    101,
-                    77,
-                    0,
-                    -89,
-                    -116,
-                    -96,
-                    120,
-                    -127,
-                    -93,
-                    -81,
-                    32
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/nyxie",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -11210,8 +9502,6 @@
             "Nexus"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "          ",
@@ -11451,43 +9741,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/d0",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/d0"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -55,
-                    62,
-                    -114,
-                    0,
-                    51,
-                    99,
-                    67,
-                    85,
-                    -71,
-                    -122,
-                    114,
-                    115,
-                    3,
-                    -24,
-                    -36,
-                    21
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/d0",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -11513,8 +9767,6 @@
             "#1: A New Era"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "[chibi true seraphim]",
@@ -11732,43 +9984,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/chibi_true_seraphim",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/chibi_true_seraphim"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    67,
-                    -54,
-                    37,
-                    -33,
-                    38,
-                    123,
-                    65,
-                    108,
-                    -117,
-                    125,
-                    -37,
-                    -60,
-                    -81,
-                    -43,
-                    -12,
-                    119
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/chibi_true_seraphim",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -11794,8 +10010,6 @@
             "#2: Awakened Nexus"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "        ",
@@ -12024,43 +10238,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/withy",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/withy"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -114,
-                    -126,
-                    124,
-                    109,
-                    97,
-                    -67,
-                    64,
-                    68,
-                    -114,
-                    -92,
-                    33,
-                    -61,
-                    -86,
-                    -28,
-                    57,
-                    -58
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/withy",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -12086,8 +10264,6 @@
             "Awakened Nexus"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "[chibi voided omnipotent]",
@@ -12302,43 +10478,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/chibi_voided_omnipotent",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/chibi_voided_omnipotent"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    23,
-                    93,
-                    124,
-                    76,
-                    -101,
-                    -35,
-                    72,
-                    -68,
-                    -100,
-                    -93,
-                    -98,
-                    -122,
-                    97,
-                    -62,
-                    72,
-                    118
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/chibi_voided_omnipotent",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -12364,8 +10504,6 @@
             "#2: Awakened Nexus"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "[chibi true ophanim]",
@@ -12588,43 +10726,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/chibi_true_ophanim",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/chibi_true_ophanim"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -86,
-                    -32,
-                    67,
-                    -103,
-                    -11,
-                    -33,
-                    75,
-                    120,
-                    -77,
-                    -25,
-                    126,
-                    40,
-                    -24,
-                    -63,
-                    -86,
-                    108
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/chibi_true_ophanim",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -12650,8 +10752,6 @@
             "#3: Radiance"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "      ",
@@ -12880,43 +10980,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/aetheron",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/aetheron"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    48,
-                    59,
-                    -107,
-                    -76,
-                    -26,
-                    -106,
-                    70,
-                    -76,
-                    -116,
-                    -26,
-                    21,
-                    53,
-                    -76,
-                    -43,
-                    103,
-                    101
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/aetheron",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -12942,8 +11006,6 @@
             "#3: Radiance"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "      ",
@@ -13172,43 +11234,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/cryolume",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/cryolume"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -22,
-                    112,
-                    36,
-                    -87,
-                    73,
-                    -51,
-                    69,
-                    -86,
-                    -107,
-                    105,
-                    -50,
-                    41,
-                    -110,
-                    -67,
-                    -78,
-                    -29
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/cryolume",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -13235,8 +11261,6 @@
             "Season #3: Radiance"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "        ",
@@ -13471,43 +11495,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/raaah",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/raaah"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -4,
-                    -89,
-                    -107,
-                    -95,
-                    -117,
-                    64,
-                    70,
-                    52,
-                    -128,
-                    -20,
-                    -114,
-                    15,
-                    93,
-                    125,
-                    29,
-                    -84
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/raaah",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -13533,8 +11521,6 @@
             "#4: False Eden"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "    ",
@@ -13763,43 +11749,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/endydragon",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/endydragon"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    45,
-                    -2,
-                    102,
-                    -76,
-                    119,
-                    -84,
-                    69,
-                    -86,
-                    -100,
-                    -95,
-                    75,
-                    2,
-                    24,
-                    -46,
-                    61,
-                    66
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/endydragon",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -13826,8 +11776,6 @@
             "Season #4: False Eden"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "  ",
@@ -14062,43 +12010,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/chibi_cherubim",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/chibi_cherubim"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -30,
-                    -26,
-                    90,
-                    4,
-                    -92,
-                    -41,
-                    73,
-                    -120,
-                    -120,
-                    109,
-                    -115,
-                    18,
-                    113,
-                    50,
-                    8,
-                    0
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/chibi_cherubim",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -14125,8 +12037,6 @@
             "Dark"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "       ",
@@ -14360,43 +12270,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/psilas",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/psilas"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    51,
-                    -23,
-                    -8,
-                    103,
-                    111,
-                    -5,
-                    69,
-                    -111,
-                    -85,
-                    98,
-                    48,
-                    -55,
-                    -127,
-                    96,
-                    -13,
-                    58
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/psilas",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -14424,8 +12298,6 @@
             "Devouring Dark"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "       ",
@@ -14670,43 +12542,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/phillip",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/phillip"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -16,
-                    48,
-                    39,
-                    121,
-                    -64,
-                    82,
-                    64,
-                    10,
-                    -108,
-                    124,
-                    58,
-                    -17,
-                    94,
-                    114,
-                    116,
-                    71
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/phillip",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -14734,8 +12570,6 @@
             "Devouring Dark"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "[chibi voided mass]",
@@ -14974,43 +12808,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/pet/chibi_voided_mass",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:pet/chibi_voided_mass"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    36,
-                    -71,
-                    42,
-                    94,
-                    -50,
-                    -58,
-                    78,
-                    55,
-                    -98,
-                    -18,
-                    10,
-                    -43,
-                    -13,
-                    102,
-                    87,
-                    80
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:pet/chibi_voided_mass",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -15020,37 +12818,12 @@
           "model": "telos:mob/nothing",
           "lore": [],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Return to pets",
                 "color": "#C78A7A",
                 "bold": true,
                 "italic": false
-              },
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -48,
-                    -117,
-                    64,
-                    -16,
-                    -105,
-                    118,
-                    73,
-                    113,
-                    -128,
-                    -60,
-                    -37,
-                    96,
-                    77,
-                    -25,
-                    -66,
-                    -109
-                  ]
-                }
               }
             }
           }
@@ -15061,37 +12834,12 @@
           "model": "telos:mob/nothing",
           "lore": [],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Return to pets",
                 "color": "#C78A7A",
                 "bold": true,
                 "italic": false
-              },
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -63,
-                    52,
-                    -13,
-                    9,
-                    -22,
-                    22,
-                    74,
-                    -39,
-                    -66,
-                    126,
-                    -75,
-                    11,
-                    -49,
-                    -77,
-                    105,
-                    85
-                  ]
-                }
               }
             }
           }
@@ -15102,37 +12850,12 @@
           "model": "telos:mob/nothing",
           "lore": [],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Return to pets",
                 "color": "#C78A7A",
                 "bold": true,
                 "italic": false
-              },
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -22,
-                    34,
-                    111,
-                    -41,
-                    -104,
-                    -82,
-                    70,
-                    -55,
-                    -88,
-                    59,
-                    -40,
-                    -39,
-                    -31,
-                    9,
-                    28,
-                    20
-                  ]
-                }
               }
             }
           }
@@ -15146,8 +12869,6 @@
             "season pass rewards or from legendary crates."
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Pet Skin Information",
@@ -15166,30 +12887,7 @@
                   "color": "gray",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    78,
-                    -119,
-                    -80,
-                    -80,
-                    -46,
-                    59,
-                    69,
-                    38,
-                    -95,
-                    -70,
-                    -123,
-                    55,
-                    -87,
-                    107,
-                    -32,
-                    94
-                  ]
-                }
-              }
+              ]
             }
           }
         }

@@ -30,8 +30,6 @@
             "▪ %weather_beach%"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Beach",
@@ -166,30 +164,7 @@
                   "color": "white",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -86,
-                    -18,
-                    104,
-                    -59,
-                    -115,
-                    39,
-                    66,
-                    30,
-                    -106,
-                    -64,
-                    -120,
-                    -61,
-                    -76,
-                    118,
-                    -56,
-                    -86
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -218,8 +193,6 @@
             "▪ %weather_jungle%"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "The Jungle",
@@ -402,30 +375,7 @@
                   "color": "white",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    106,
-                    21,
-                    -18,
-                    111,
-                    -30,
-                    -45,
-                    64,
-                    -128,
-                    -118,
-                    119,
-                    -44,
-                    -127,
-                    94,
-                    113,
-                    -72,
-                    71
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -452,8 +402,6 @@
             "▪ %weather_swamp%"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Swamp",
@@ -604,30 +552,7 @@
                   "color": "white",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    21,
-                    -17,
-                    -87,
-                    93,
-                    -86,
-                    -75,
-                    71,
-                    41,
-                    -102,
-                    36,
-                    -94,
-                    93,
-                    89,
-                    -88,
-                    66,
-                    -45
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -653,8 +578,6 @@
             "▪ %weather_desert%"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Desert",
@@ -789,30 +712,7 @@
                   "color": "white",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    30,
-                    62,
-                    -84,
-                    41,
-                    -65,
-                    -117,
-                    64,
-                    -119,
-                    -120,
-                    -38,
-                    -60,
-                    11,
-                    -52,
-                    39,
-                    54,
-                    64
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -839,8 +739,6 @@
             "▪ %weather_crimson_forest%"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Crimson Forest",
@@ -991,30 +889,7 @@
                   "color": "white",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -74,
-                    109,
-                    -84,
-                    -5,
-                    -93,
-                    76,
-                    78,
-                    25,
-                    -87,
-                    -26,
-                    -126,
-                    -29,
-                    -117,
-                    61,
-                    103,
-                    -85
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -1041,8 +916,6 @@
             "▪ %weather_permafrost%"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Permafrost",
@@ -1193,30 +1066,7 @@
                   "color": "white",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -61,
-                    -39,
-                    1,
-                    63,
-                    -54,
-                    31,
-                    79,
-                    36,
-                    -111,
-                    19,
-                    -102,
-                    6,
-                    38,
-                    -36,
-                    81,
-                    -112
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -1244,8 +1094,6 @@
             "▪ %weather_necropolis%"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Necropolis",
@@ -1412,30 +1260,7 @@
                   "color": "white",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -75,
-                    -17,
-                    48,
-                    -101,
-                    34,
-                    -117,
-                    74,
-                    7,
-                    -113,
-                    90,
-                    69,
-                    79,
-                    -110,
-                    124,
-                    -122,
-                    39
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -1464,8 +1289,6 @@
             "▪ %weather_shadowlands%"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Shadowlands",
@@ -1637,30 +1460,7 @@
                   "color": "white",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -45,
-                    102,
-                    0,
-                    118,
-                    31,
-                    -12,
-                    79,
-                    -118,
-                    -126,
-                    -65,
-                    -98,
-                    5,
-                    -80,
-                    -53,
-                    123,
-                    88
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -1688,8 +1488,6 @@
             "▪ %weather_radiant_isles%"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Radiant Isles",
@@ -1845,30 +1643,7 @@
                   "color": "white",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    23,
-                    -23,
-                    5,
-                    -97,
-                    98,
-                    -95,
-                    65,
-                    103,
-                    -120,
-                    -4,
-                    43,
-                    -61,
-                    -61,
-                    -27,
-                    -24,
-                    67
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -1894,8 +1669,6 @@
             "▪ %weather_voided_abyss%"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Voided Abyss",
@@ -2041,30 +1814,7 @@
                   "color": "white",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -76,
-                    102,
-                    53,
-                    -91,
-                    68,
-                    -68,
-                    69,
-                    49,
-                    -127,
-                    -6,
-                    3,
-                    46,
-                    111,
-                    89,
-                    107,
-                    -47
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -2074,37 +1824,12 @@
           "model": "telos:mob/nothing",
           "lore": [],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Previous page",
                 "color": "#C78A7A",
                 "bold": true,
                 "italic": false
-              },
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    90,
-                    -54,
-                    -26,
-                    114,
-                    118,
-                    15,
-                    71,
-                    126,
-                    -88,
-                    21,
-                    -6,
-                    107,
-                    -11,
-                    -42,
-                    -45,
-                    -73
-                  ]
-                }
               }
             }
           }
@@ -2115,37 +1840,12 @@
           "model": "telos:mob/nothing",
           "lore": [],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Previous page",
                 "color": "#C78A7A",
                 "bold": true,
                 "italic": false
-              },
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    85,
-                    95,
-                    -33,
-                    -9,
-                    100,
-                    115,
-                    71,
-                    -42,
-                    -110,
-                    -116,
-                    122,
-                    -85,
-                    -2,
-                    91,
-                    81,
-                    22
-                  ]
-                }
               }
             }
           }
@@ -2156,37 +1856,12 @@
           "model": "telos:mob/nothing",
           "lore": [],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Previous page",
                 "color": "#C78A7A",
                 "bold": true,
                 "italic": false
-              },
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -62,
-                    35,
-                    84,
-                    105,
-                    -89,
-                    -110,
-                    73,
-                    -62,
-                    -65,
-                    -55,
-                    77,
-                    91,
-                    -71,
-                    5,
-                    83,
-                    -31
-                  ]
-                }
               }
             }
           }
@@ -2209,8 +1884,6 @@
             "in the realm."
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Biome Information",
@@ -2305,30 +1978,7 @@
                   "color": "gray",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    39,
-                    -34,
-                    39,
-                    -6,
-                    116,
-                    51,
-                    72,
-                    25,
-                    -108,
-                    -76,
-                    127,
-                    48,
-                    -27,
-                    117,
-                    -90,
-                    -7
-                  ]
-                }
-              }
+              ]
             }
           }
         }

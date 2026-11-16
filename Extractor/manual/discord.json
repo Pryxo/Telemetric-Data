@@ -1,0 +1,33 @@
+{
+  "_comment": "Hand-written (Social -> Discord RPC, from Melinoe's Discord RPC, with permission). applicationId: the Discord application whose name and art the presence shows (image keys = that application's Rich Presence art assets). modeImages: small image per character mode (Tab 'Class' mode). areaTexts: second line while in that area and not fighting. Texts may use {mod} (mod name). Max 2 buttons.",
+  "version": 1,
+  "applicationId": "1571787993952428052",
+  "largeImage": "large",
+  "smallImage": "small",
+  "modeImages": { "normal": "normal", "seasonal": "seasonal", "hardcore": "hardcore_ironman" },
+  "modeNames": { "normal": "Normal", "seasonal": "Seasonal", "hardcore": "Hardcore Ironman" },
+  "texts": {
+    "connecting": "Logging onto Telos",
+    "offTelos": "Deciding whether to play...",
+    "exploring": "Exploring the realm...",
+    "fighting": "Fighting {boss}",
+    "dungeon": "Clearing the dungeon...",
+    "character": "Level {level} {mode} {class}",
+    "mod": "Running on {mod}!"
+  },
+  "buttons": [
+    { "label": "Play Telos", "url": "https://discord.gg/telosmc" }
+  ],
+  "areaTexts": {
+    "The Nexus": "Talking with Wumpus...",
+    "Beach": "Battling pirates...",
+    "Jungle": "Climbing the trees...",
+    "Swamp": "Finding mushrooms...",
+    "Desert": "Searching for water...",
+    "Crimson Forest": "Burning their feet...",
+    "Permafrost": "Freezing their nose off...",
+    "Necropolis": "Talking to spirits...",
+    "Shadowlands": "Scaring shadows...",
+    "Radiant Isles": "Feeling radiance..."
+  }
+}

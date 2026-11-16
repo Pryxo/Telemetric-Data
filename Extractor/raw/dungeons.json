@@ -28,8 +28,6 @@
             "Click to view page"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Lowland Dungeons",
@@ -169,30 +167,7 @@
                   "color": "#7A9AAA",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:material/dungeon/skull_cavern",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    84,
-                    68,
-                    6,
-                    -19,
-                    28,
-                    108,
-                    75,
-                    -39,
-                    -79,
-                    -9,
-                    -53,
-                    44,
-                    0,
-                    -34,
-                    -11,
-                    125
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -217,8 +192,6 @@
             "Click to view page"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Centre Dungeons",
@@ -352,30 +325,7 @@
                   "color": "#7A9AAA",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:material/dungeon/abyss_of_demons",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    12,
-                    -78,
-                    -1,
-                    121,
-                    -39,
-                    -58,
-                    67,
-                    -17,
-                    -117,
-                    -21,
-                    -13,
-                    38,
-                    99,
-                    23,
-                    -34,
-                    115
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -402,8 +352,6 @@
             "Click to view page"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Realm Mini Bosses",
@@ -605,30 +553,7 @@
                   "color": "#7A9AAA",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:material/boss/brakk",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    57,
-                    -32,
-                    -118,
-                    77,
-                    75,
-                    82,
-                    64,
-                    -86,
-                    -123,
-                    -3,
-                    99,
-                    59,
-                    5,
-                    -71,
-                    -92,
-                    -124
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -650,8 +575,6 @@
             "Click to view page"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Realm Bosses",
@@ -763,30 +686,7 @@
                   "color": "#7A9AAA",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:material/boss/anubis",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -49,
-                    -122,
-                    -45,
-                    -34,
-                    -92,
-                    39,
-                    66,
-                    73,
-                    -68,
-                    -122,
-                    -70,
-                    -71,
-                    -21,
-                    38,
-                    -106,
-                    -26
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -809,8 +709,6 @@
             "Click to view page"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Higher Dungeons",
@@ -933,30 +831,7 @@
                   "color": "#7A9AAA",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:material/dungeon/onyx",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -23,
-                    -20,
-                    -74,
-                    61,
-                    -21,
-                    -11,
-                    64,
-                    -2,
-                    -73,
-                    -76,
-                    51,
-                    103,
-                    -26,
-                    10,
-                    82,
-                    47
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -981,8 +856,6 @@
             "Click to view page"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Radiant Isles",
@@ -1116,30 +989,7 @@
                   "color": "#7A9AAA",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:material/boss/cog_sentinel",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -14,
-                    -68,
-                    44,
-                    -98,
-                    72,
-                    95,
-                    75,
-                    64,
-                    -76,
-                    -126,
-                    11,
-                    76,
-                    20,
-                    -111,
-                    -55,
-                    96
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -1164,8 +1014,6 @@
             "Click to view page"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Voided Abyss",
@@ -1299,30 +1147,7 @@
                   "color": "#7A9AAA",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:material/pet/chibi_voided_mass",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    106,
-                    14,
-                    91,
-                    -35,
-                    74,
-                    64,
-                    72,
-                    85,
-                    -98,
-                    -23,
-                    25,
-                    71,
-                    -99,
-                    -115,
-                    -55,
-                    94
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -1346,8 +1171,6 @@
             "Click to view page"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Shadowlands",
@@ -1465,30 +1288,7 @@
                   "color": "#7A9AAA",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:material/boss/defender",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    114,
-                    4,
-                    -27,
-                    -89,
-                    4,
-                    71,
-                    77,
-                    -18,
-                    -88,
-                    -107,
-                    105,
-                    -121,
-                    -32,
-                    99,
-                    -107,
-                    -32
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -1498,37 +1298,12 @@
           "model": "telos:mob/nothing",
           "lore": [],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Previous page",
                 "color": "#C78A7A",
                 "bold": true,
                 "italic": false
-              },
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -93,
-                    24,
-                    -82,
-                    -14,
-                    -120,
-                    -19,
-                    72,
-                    -73,
-                    -81,
-                    48,
-                    23,
-                    -48,
-                    56,
-                    95,
-                    -62,
-                    93
-                  ]
-                }
               }
             }
           }
@@ -1539,37 +1314,12 @@
           "model": "telos:mob/nothing",
           "lore": [],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Previous page",
                 "color": "#C78A7A",
                 "bold": true,
                 "italic": false
-              },
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    7,
-                    -56,
-                    -127,
-                    32,
-                    -32,
-                    -41,
-                    73,
-                    34,
-                    -128,
-                    -59,
-                    0,
-                    35,
-                    -104,
-                    -71,
-                    116,
-                    -84
-                  ]
-                }
               }
             }
           }
@@ -1580,37 +1330,12 @@
           "model": "telos:mob/nothing",
           "lore": [],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Previous page",
                 "color": "#C78A7A",
                 "bold": true,
                 "italic": false
-              },
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    29,
-                    55,
-                    -88,
-                    56,
-                    -50,
-                    -17,
-                    67,
-                    -6,
-                    -82,
-                    -10,
-                    49,
-                    3,
-                    -120,
-                    66,
-                    -116,
-                    79
-                  ]
-                }
               }
             }
           }
@@ -1630,8 +1355,6 @@
             "𕌚 Companion (char/acc): 15 / 36"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "All Statistics",
@@ -1856,30 +1579,7 @@
                   "color": "white",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    88,
-                    -46,
-                    79,
-                    70,
-                    110,
-                    86,
-                    72,
-                    -12,
-                    -118,
-                    107,
-                    -122,
-                    31,
-                    3,
-                    -8,
-                    -66,
-                    -24
-                  ]
-                }
-              }
+              ]
             }
           }
         }
@@ -1918,8 +1618,6 @@
             "Drops at: The Beach"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "   ",
@@ -2261,43 +1959,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/dungeon/skull_cavern",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/skull_cavern"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    17,
-                    -125,
-                    74,
-                    -80,
-                    46,
-                    -14,
-                    64,
-                    70,
-                    -66,
-                    -66,
-                    -63,
-                    37,
-                    52,
-                    -15,
-                    115,
-                    106
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/skull_cavern",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -2329,8 +1991,6 @@
             "Drops at: Jungle"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "[thornwood wargrove]",
@@ -2675,43 +2335,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/dungeon/thornwood_wargrove",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/thornwood_wargrove"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    49,
-                    -72,
-                    -43,
-                    57,
-                    24,
-                    -123,
-                    74,
-                    30,
-                    -95,
-                    -42,
-                    -60,
-                    -62,
-                    62,
-                    69,
-                    -16,
-                    -106
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/thornwood_wargrove",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -2747,8 +2371,6 @@
             "Drops at: Jungle"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "    ",
@@ -3124,43 +2746,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/dungeon/goblin_lair",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/goblin_lair"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    62,
-                    -70,
-                    38,
-                    4,
-                    -81,
-                    84,
-                    78,
-                    -16,
-                    -80,
-                    67,
-                    -95,
-                    61,
-                    -61,
-                    33,
-                    -88,
-                    72
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/goblin_lair",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -3197,8 +2783,6 @@
             "Drops at: Desert"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "  ",
@@ -3598,43 +3182,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/dungeon/desert_temple",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/desert_temple"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    72,
-                    -124,
-                    -109,
-                    71,
-                    86,
-                    -41,
-                    70,
-                    47,
-                    -85,
-                    84,
-                    127,
-                    119,
-                    43,
-                    81,
-                    85,
-                    -41
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/desert_temple",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -3670,8 +3218,6 @@
             "Drops at: Desert"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": " ",
@@ -4070,43 +3616,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/dungeon/tomb_of_shadows",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/tomb_of_shadows"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    1,
-                    -67,
-                    -31,
-                    74,
-                    4,
-                    44,
-                    78,
-                    -108,
-                    -66,
-                    66,
-                    124,
-                    -81,
-                    -76,
-                    -50,
-                    -47,
-                    -34
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/tomb_of_shadows",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -4138,8 +3648,6 @@
             "Drops at: Swamp"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "   ",
@@ -4494,43 +4002,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/dungeon/sakura_shrine",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/sakura_shrine"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    0,
-                    75,
-                    -109,
-                    124,
-                    83,
-                    68,
-                    79,
-                    22,
-                    -70,
-                    93,
-                    -120,
-                    -114,
-                    -73,
-                    31,
-                    -29,
-                    -74
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/sakura_shrine",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -4565,8 +4037,6 @@
             "Drops at: Swamp"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "[secluded woodland]",
@@ -4955,43 +4425,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/dungeon/secluded_woodland",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/secluded_woodland"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    99,
-                    -25,
-                    59,
-                    101,
-                    73,
-                    -56,
-                    68,
-                    -23,
-                    -69,
-                    25,
-                    -3,
-                    66,
-                    -77,
-                    6,
-                    89,
-                    83
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/secluded_woodland",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -5001,37 +4435,12 @@
           "model": "telos:mob/nothing",
           "lore": [],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Previous page",
                 "color": "#C78A7A",
                 "bold": true,
                 "italic": false
-              },
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -23,
-                    8,
-                    -97,
-                    9,
-                    -114,
-                    64,
-                    74,
-                    -36,
-                    -77,
-                    106,
-                    -38,
-                    3,
-                    -102,
-                    74,
-                    -78,
-                    48
-                  ]
-                }
               }
             }
           }
@@ -5042,37 +4451,12 @@
           "model": "telos:mob/nothing",
           "lore": [],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Previous page",
                 "color": "#C78A7A",
                 "bold": true,
                 "italic": false
-              },
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    0,
-                    -36,
-                    -29,
-                    -64,
-                    -32,
-                    60,
-                    78,
-                    -128,
-                    -87,
-                    -66,
-                    -10,
-                    -12,
-                    -31,
-                    16,
-                    81,
-                    106
-                  ]
-                }
               }
             }
           }
@@ -5083,37 +4467,12 @@
           "model": "telos:mob/nothing",
           "lore": [],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Previous page",
                 "color": "#C78A7A",
                 "bold": true,
                 "italic": false
-              },
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    29,
-                    -36,
-                    -109,
-                    100,
-                    100,
-                    79,
-                    68,
-                    -40,
-                    -67,
-                    -95,
-                    20,
-                    116,
-                    58,
-                    85,
-                    48,
-                    90
-                  ]
-                }
               }
             }
           }
@@ -5146,8 +4505,6 @@
             "Difficulty: Free"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Lowland Dungeons",
@@ -5348,30 +4705,7 @@
                   "color": "white",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -46,
-                    66,
-                    78,
-                    -110,
-                    14,
-                    11,
-                    77,
-                    -120,
-                    -86,
-                    66,
-                    -114,
-                    103,
-                    -96,
-                    -20,
-                    96,
-                    37
-                  ]
-                }
-              }
+              ]
             }
           }
         }
@@ -5416,8 +4750,6 @@
             "Forest"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": " ",
@@ -5844,43 +5176,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/dungeon/abyss_of_demons",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/abyss_of_demons"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -43,
-                    126,
-                    42,
-                    99,
-                    -5,
-                    0,
-                    77,
-                    -36,
-                    -123,
-                    108,
-                    37,
-                    118,
-                    -103,
-                    5,
-                    35,
-                    38
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/abyss_of_demons",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -5917,8 +5213,6 @@
             "Drops at: Necropolis"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "    ",
@@ -6320,43 +5614,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/dungeon/undead_lair",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/undead_lair"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -43,
-                    -11,
-                    -33,
-                    -60,
-                    123,
-                    52,
-                    65,
-                    7,
-                    -104,
-                    53,
-                    -125,
-                    -114,
-                    -85,
-                    102,
-                    -92,
-                    63
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/undead_lair",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -6394,8 +5652,6 @@
             "Drops at: Permafrost"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "      ",
@@ -6807,43 +6063,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/dungeon/ice_cave",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/ice_cave"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    16,
-                    -45,
-                    101,
-                    115,
-                    116,
-                    -73,
-                    64,
-                    120,
-                    -69,
-                    47,
-                    -115,
-                    27,
-                    -50,
-                    -46,
-                    51,
-                    91
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/ice_cave",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -6878,8 +6098,6 @@
             "Drops at: Permafrost"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "[dwarven frostkeep]",
@@ -7263,43 +6481,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/dungeon/dwarven_frostkeep",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/dwarven_frostkeep"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -118,
-                    -110,
-                    60,
-                    62,
-                    -88,
-                    31,
-                    74,
-                    13,
-                    -69,
-                    67,
-                    51,
-                    -77,
-                    -60,
-                    -29,
-                    69,
-                    -5
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/dwarven_frostkeep",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -7339,8 +6521,6 @@
             "Drops at: Necropolis"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "  ",
@@ -7773,43 +6953,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/dungeon/treasure_cave",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/treasure_cave"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -55,
-                    69,
-                    44,
-                    -77,
-                    -76,
-                    -76,
-                    77,
-                    -61,
-                    -90,
-                    -21,
-                    -28,
-                    -100,
-                    11,
-                    105,
-                    -100,
-                    -13
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/treasure_cave",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -7843,8 +6987,6 @@
             "Drops at: Crimson Forest"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "[depths of purgatory]",
@@ -8246,43 +7388,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/dungeon/depths_of_purgatory",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/depths_of_purgatory"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -83,
-                    -106,
-                    121,
-                    99,
-                    -53,
-                    -68,
-                    68,
-                    -71,
-                    -108,
-                    98,
-                    -123,
-                    -25,
-                    -56,
-                    58,
-                    -70,
-                    110
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/depths_of_purgatory",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -8319,8 +7425,6 @@
             "Drops at: Permafrost"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "   ",
@@ -8754,43 +7858,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/dungeon/frozen_ruins",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/frozen_ruins"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -70,
-                    121,
-                    55,
-                    -23,
-                    -114,
-                    -128,
-                    74,
-                    97,
-                    -108,
-                    -71,
-                    103,
-                    19,
-                    88,
-                    -110,
-                    -22,
-                    -63
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/frozen_ruins",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -8826,8 +7894,6 @@
             "Forest"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "    ",
@@ -9212,43 +8278,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/dungeon/kobolds_den",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/kobolds_den"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    43,
-                    -52,
-                    -81,
-                    56,
-                    -38,
-                    62,
-                    73,
-                    30,
-                    -84,
-                    -53,
-                    -72,
-                    -28,
-                    -127,
-                    31,
-                    -93,
-                    23
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/kobolds_den",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -9286,8 +8316,6 @@
             "Drops at: Necropolis"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "   ",
@@ -9711,43 +8739,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/dungeon/corvus_crypt",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/corvus_crypt"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -96,
-                    -112,
-                    -48,
-                    -117,
-                    -87,
-                    123,
-                    67,
-                    4,
-                    -91,
-                    -128,
-                    -3,
-                    44,
-                    -86,
-                    32,
-                    -95,
-                    102
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/corvus_crypt",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -9757,37 +8749,12 @@
           "model": "telos:mob/nothing",
           "lore": [],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Previous page",
                 "color": "#C78A7A",
                 "bold": true,
                 "italic": false
-              },
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    108,
-                    61,
-                    108,
-                    28,
-                    -22,
-                    36,
-                    66,
-                    96,
-                    -107,
-                    -35,
-                    -90,
-                    -49,
-                    25,
-                    -21,
-                    22,
-                    -92
-                  ]
-                }
               }
             }
           }
@@ -9798,37 +8765,12 @@
           "model": "telos:mob/nothing",
           "lore": [],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Previous page",
                 "color": "#C78A7A",
                 "bold": true,
                 "italic": false
-              },
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -123,
-                    65,
-                    25,
-                    -51,
-                    -64,
-                    105,
-                    66,
-                    127,
-                    -75,
-                    79,
-                    -76,
-                    88,
-                    -35,
-                    -79,
-                    36,
-                    91
-                  ]
-                }
               }
             }
           }
@@ -9839,37 +8781,12 @@
           "model": "telos:mob/nothing",
           "lore": [],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Previous page",
                 "color": "#C78A7A",
                 "bold": true,
                 "italic": false
-              },
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    46,
-                    14,
-                    -125,
-                    -34,
-                    -96,
-                    -115,
-                    71,
-                    120,
-                    -126,
-                    43,
-                    -25,
-                    -49,
-                    62,
-                    36,
-                    -14,
-                    -78
-                  ]
-                }
               }
             }
           }
@@ -9903,8 +8820,6 @@
             "Difficulty: Easy"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Centre Dungeons",
@@ -10099,30 +9014,7 @@
                   "color": "white",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    19,
-                    8,
-                    63,
-                    -102,
-                    13,
-                    21,
-                    68,
-                    -19,
-                    -109,
-                    -5,
-                    46,
-                    -63,
-                    88,
-                    -127,
-                    -88,
-                    -32
-                  ]
-                }
-              }
+              ]
             }
           }
         }
@@ -10152,8 +9044,6 @@
             "Beach"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "        ",
@@ -10354,43 +9244,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/boss/brakk",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/miniboss_brakk"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -8,
-                    23,
-                    -1,
-                    85,
-                    -1,
-                    -37,
-                    65,
-                    -85,
-                    -108,
-                    -20,
-                    -87,
-                    -89,
-                    -80,
-                    2,
-                    -74,
-                    -66
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/miniboss_brakk",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -10413,8 +9267,6 @@
             "Jungle"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "      ",
@@ -10599,43 +9451,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/boss/grimleaf",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/miniboss_grimleaf"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -61,
-                    70,
-                    119,
-                    83,
-                    -112,
-                    -76,
-                    64,
-                    20,
-                    -109,
-                    -103,
-                    111,
-                    110,
-                    88,
-                    100,
-                    59,
-                    55
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/miniboss_grimleaf",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -10658,8 +9474,6 @@
             "Crimson Forest"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "      ",
@@ -10849,43 +9663,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/boss/hellmesh",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/miniboss_hellmesh"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    47,
-                    41,
-                    31,
-                    -121,
-                    -116,
-                    -58,
-                    77,
-                    -92,
-                    -89,
-                    -29,
-                    -19,
-                    100,
-                    11,
-                    -52,
-                    -19,
-                    -81
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/miniboss_hellmesh",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -10908,8 +9686,6 @@
             "Permafrost"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "         ",
@@ -11085,43 +9861,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/boss/nocs",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/miniboss_nocs"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    118,
-                    0,
-                    -9,
-                    -22,
-                    -34,
-                    -76,
-                    73,
-                    32,
-                    -84,
-                    -84,
-                    13,
-                    122,
-                    5,
-                    35,
-                    -50,
-                    26
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/miniboss_nocs",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -11146,8 +9886,6 @@
             "Necropolis"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "    ",
@@ -11339,43 +10077,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/boss/gravesbane",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/miniboss_gravesbane"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    6,
-                    17,
-                    -92,
-                    42,
-                    -41,
-                    -5,
-                    75,
-                    4,
-                    -98,
-                    93,
-                    -67,
-                    5,
-                    -44,
-                    -62,
-                    72,
-                    55
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/miniboss_gravesbane",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -11385,37 +10087,12 @@
           "model": "telos:mob/nothing",
           "lore": [],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Previous page",
                 "color": "#C78A7A",
                 "bold": true,
                 "italic": false
-              },
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -7,
-                    23,
-                    113,
-                    -26,
-                    71,
-                    -118,
-                    68,
-                    -5,
-                    -96,
-                    87,
-                    55,
-                    -55,
-                    18,
-                    -6,
-                    -20,
-                    -57
-                  ]
-                }
               }
             }
           }
@@ -11426,37 +10103,12 @@
           "model": "telos:mob/nothing",
           "lore": [],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Previous page",
                 "color": "#C78A7A",
                 "bold": true,
                 "italic": false
-              },
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -96,
-                    63,
-                    21,
-                    -76,
-                    90,
-                    48,
-                    71,
-                    11,
-                    -93,
-                    67,
-                    12,
-                    -84,
-                    78,
-                    52,
-                    -25,
-                    -55
-                  ]
-                }
               }
             }
           }
@@ -11467,37 +10119,12 @@
           "model": "telos:mob/nothing",
           "lore": [],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Previous page",
                 "color": "#C78A7A",
                 "bold": true,
                 "italic": false
-              },
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -116,
-                    64,
-                    -2,
-                    -80,
-                    36,
-                    -21,
-                    76,
-                    65,
-                    -74,
-                    -35,
-                    -61,
-                    -5,
-                    -85,
-                    108,
-                    62,
-                    78
-                  ]
-                }
               }
             }
           }
@@ -11530,8 +10157,6 @@
             "Difficulty: Easy - Medium"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Realm Mini Bosses",
@@ -11746,30 +10371,7 @@
                   "color": "white",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    13,
-                    -33,
-                    -121,
-                    -59,
-                    124,
-                    54,
-                    73,
-                    104,
-                    -68,
-                    61,
-                    42,
-                    53,
-                    -85,
-                    21,
-                    -66,
-                    50
-                  ]
-                }
-              }
+              ]
             }
           }
         }
@@ -11810,8 +10412,6 @@
             "Kingdom Dungeon"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "      ",
@@ -12144,43 +10744,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/boss/chungus",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/event_chungus"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    78,
-                    -105,
-                    62,
-                    -62,
-                    9,
-                    71,
-                    66,
-                    111,
-                    -114,
-                    -55,
-                    54,
-                    -110,
-                    83,
-                    -26,
-                    11,
-                    66
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/event_chungus",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -12213,8 +10777,6 @@
             "Dungeon"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "      ",
@@ -12528,43 +11090,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/boss/illarius",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/event_illarius"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -106,
-                    -92,
-                    -87,
-                    -111,
-                    -19,
-                    -37,
-                    79,
-                    77,
-                    -79,
-                    66,
-                    -80,
-                    -58,
-                    27,
-                    -21,
-                    -10,
-                    98
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/event_illarius",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -12594,8 +11120,6 @@
             "Dungeon"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "      ",
@@ -12887,43 +11411,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/boss/astaroth",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/event_astaroth"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -121,
-                    43,
-                    -73,
-                    -109,
-                    -99,
-                    -78,
-                    75,
-                    59,
-                    -68,
-                    11,
-                    31,
-                    83,
-                    6,
-                    60,
-                    -17,
-                    25
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/event_astaroth",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -12955,8 +11443,6 @@
             "Dungeon"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "        ",
@@ -13259,43 +11745,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/boss/glumi",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/event_glumi"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -109,
-                    -102,
-                    92,
-                    -61,
-                    102,
-                    -83,
-                    78,
-                    -93,
-                    -111,
-                    -41,
-                    -95,
-                    -115,
-                    -98,
-                    -107,
-                    -78,
-                    95
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/event_glumi",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -13328,8 +11778,6 @@
             "Citadel Dungeon"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "        ",
@@ -13647,43 +12095,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/boss/lotil",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/event_lotil"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -1,
-                    -113,
-                    -31,
-                    -37,
-                    -51,
-                    111,
-                    66,
-                    32,
-                    -73,
-                    115,
-                    -127,
-                    -108,
-                    2,
-                    29,
-                    -14,
-                    43
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/event_lotil",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -13715,8 +12127,6 @@
             "Conductorium Dungeon"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "        ",
@@ -14034,43 +12444,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/boss/tidol",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/event_tidol"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -70,
-                    99,
-                    -78,
-                    65,
-                    -62,
-                    121,
-                    76,
-                    -109,
-                    -124,
-                    -107,
-                    -72,
-                    47,
-                    -60,
-                    -92,
-                    102,
-                    -94
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/event_tidol",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -14100,8 +12474,6 @@
             "Dungeon"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "        ",
@@ -14403,43 +12775,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/boss/valus",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/event_valus"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -80,
-                    52,
-                    114,
-                    54,
-                    111,
-                    103,
-                    67,
-                    111,
-                    -102,
-                    31,
-                    118,
-                    98,
-                    -64,
-                    113,
-                    18,
-                    19
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/event_valus",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -14473,8 +12809,6 @@
             "Dungeon"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "       ",
@@ -14783,43 +13117,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/boss/anubis",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/event_anubis"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -18,
-                    -69,
-                    -8,
-                    -115,
-                    71,
-                    64,
-                    78,
-                    90,
-                    -66,
-                    6,
-                    -31,
-                    98,
-                    105,
-                    -20,
-                    -57,
-                    -20
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/event_anubis",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -14850,8 +13148,6 @@
             "Halloween Event Boss"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "    ",
@@ -15124,43 +13420,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/boss/hollowbane",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/event_hollowbane"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    127,
-                    58,
-                    21,
-                    -4,
-                    60,
-                    42,
-                    77,
-                    -115,
-                    -74,
-                    83,
-                    -28,
-                    113,
-                    -49,
-                    -94,
-                    28,
-                    105
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/event_hollowbane",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -15170,37 +13430,12 @@
           "model": "telos:mob/nothing",
           "lore": [],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Previous page",
                 "color": "#C78A7A",
                 "bold": true,
                 "italic": false
-              },
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -1,
-                    -61,
-                    -15,
-                    110,
-                    52,
-                    -35,
-                    68,
-                    -35,
-                    -109,
-                    87,
-                    27,
-                    -92,
-                    -75,
-                    -58,
-                    -40,
-                    -112
-                  ]
-                }
               }
             }
           }
@@ -15211,37 +13446,12 @@
           "model": "telos:mob/nothing",
           "lore": [],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Previous page",
                 "color": "#C78A7A",
                 "bold": true,
                 "italic": false
-              },
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -49,
-                    -71,
-                    127,
-                    83,
-                    -44,
-                    -86,
-                    72,
-                    -94,
-                    -93,
-                    30,
-                    -66,
-                    -49,
-                    20,
-                    9,
-                    111,
-                    -66
-                  ]
-                }
               }
             }
           }
@@ -15252,37 +13462,12 @@
           "model": "telos:mob/nothing",
           "lore": [],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Previous page",
                 "color": "#C78A7A",
                 "bold": true,
                 "italic": false
-              },
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -2,
-                    59,
-                    -96,
-                    -93,
-                    -55,
-                    108,
-                    76,
-                    116,
-                    -87,
-                    -87,
-                    103,
-                    72,
-                    104,
-                    14,
-                    -3,
-                    -110
-                  ]
-                }
               }
             }
           }
@@ -15313,8 +13498,6 @@
             "Difficulty: Medium"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Realm Bosses",
@@ -15487,30 +13670,7 @@
                   "color": "white",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -15,
-                    124,
-                    15,
-                    73,
-                    -124,
-                    72,
-                    78,
-                    -5,
-                    -73,
-                    -1,
-                    -13,
-                    -84,
-                    40,
-                    63,
-                    42,
-                    -8
-                  ]
-                }
-              }
+              ]
             }
           }
         }
@@ -15552,8 +13712,6 @@
             "Drops from: Lotil 𕍙"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "[omnipotent's citadel]",
@@ -15985,43 +14143,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/dungeon/omnipotents_citadel",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/omnipotents_citadel"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -7,
-                    18,
-                    -63,
-                    -7,
-                    58,
-                    -89,
-                    68,
-                    -67,
-                    -125,
-                    39,
-                    -52,
-                    102,
-                    98,
-                    -114,
-                    5,
-                    -82
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/omnipotents_citadel",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -16056,8 +14178,6 @@
             "Drops from: Glumi 𕍝"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "  ",
@@ -16453,43 +14573,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/dungeon/fungal_cavern",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/fungal_cavern"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -78,
-                    59,
-                    -91,
-                    -75,
-                    -101,
-                    96,
-                    67,
-                    70,
-                    -97,
-                    44,
-                    106,
-                    -16,
-                    81,
-                    49,
-                    127,
-                    72
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/fungal_cavern",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -16522,8 +14606,6 @@
             "Drops from: Tidol 𕍞"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "[corsair's conductorium]",
@@ -16903,43 +14985,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/dungeon/corsairs_conductorium",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/corsairs_conductorium"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    117,
-                    -79,
-                    85,
-                    63,
-                    88,
-                    3,
-                    73,
-                    -111,
-                    -108,
-                    36,
-                    -106,
-                    -42,
-                    32,
-                    53,
-                    -2,
-                    77
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/corsairs_conductorium",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -16977,8 +15023,6 @@
             "Drops from: Anubis 𕍢"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "    ",
@@ -17431,43 +15475,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/dungeon/anubis_lair",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/anubis_lair"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    93,
-                    9,
-                    -17,
-                    87,
-                    75,
-                    118,
-                    69,
-                    99,
-                    -100,
-                    12,
-                    -123,
-                    114,
-                    81,
-                    -63,
-                    68,
-                    -83
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/anubis_lair",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -17499,8 +15507,6 @@
             "Drops from: Astaroth 𕍛"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "      ",
@@ -17842,43 +15848,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/dungeon/tartarus",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/tartarus"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -99,
-                    123,
-                    16,
-                    7,
-                    59,
-                    -55,
-                    66,
-                    80,
-                    -86,
-                    77,
-                    69,
-                    -91,
-                    113,
-                    103,
-                    67,
-                    123
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/tartarus",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -17917,8 +15887,6 @@
             "Drops from: Valus 𕍟"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "[cultist's hideout]",
@@ -18364,43 +16332,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/dungeon/cultists_hideout",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/cultists_hideout"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -57,
-                    79,
-                    -56,
-                    -31,
-                    96,
-                    87,
-                    73,
-                    -10,
-                    -90,
-                    -100,
-                    -56,
-                    118,
-                    -60,
-                    -8,
-                    77,
-                    -19
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/cultists_hideout",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -18439,8 +16371,6 @@
             "Drops from: Illarius 𕍧"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": " ",
@@ -18920,43 +16850,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/dungeon/illarius_hideout",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/illarius_hideout"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -8,
-                    -15,
-                    -27,
-                    -122,
-                    -74,
-                    -99,
-                    79,
-                    22,
-                    -89,
-                    44,
-                    -71,
-                    -38,
-                    -71,
-                    21,
-                    -81,
-                    104
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/illarius_hideout",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -19010,8 +16904,6 @@
             "Realm Bosses defeated"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "  ",
@@ -19682,43 +17574,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/dungeon/onyx",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/onyx"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -11,
-                    -14,
-                    31,
-                    -84,
-                    59,
-                    79,
-                    69,
-                    -54,
-                    -76,
-                    19,
-                    83,
-                    75,
-                    119,
-                    -119,
-                    -81,
-                    -27
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/onyx",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -19780,8 +17636,6 @@
             "Drops from: Chungus 𕍜"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "[rustborn kingdom]",
@@ -20665,43 +18519,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/dungeon/shatters",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/shatters"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -21,
-                    29,
-                    -21,
-                    -101,
-                    6,
-                    34,
-                    73,
-                    -8,
-                    -70,
-                    97,
-                    -54,
-                    -33,
-                    -36,
-                    -18,
-                    -125,
-                    -68
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/shatters",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -20744,8 +18562,6 @@
             "Drops from: Ophanim 𕴿"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": " ",
@@ -21324,43 +19140,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/dungeon/hardmode_shatters",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/hardmode_shatters"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    110,
-                    -46,
-                    100,
-                    -104,
-                    126,
-                    -15,
-                    71,
-                    109,
-                    -66,
-                    127,
-                    -45,
-                    -68,
-                    36,
-                    107,
-                    -47,
-                    100
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/hardmode_shatters",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -21370,37 +19150,12 @@
           "model": "telos:mob/nothing",
           "lore": [],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Previous page",
                 "color": "#C78A7A",
                 "bold": true,
                 "italic": false
-              },
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -62,
-                    31,
-                    -42,
-                    113,
-                    -18,
-                    27,
-                    65,
-                    38,
-                    -69,
-                    5,
-                    -31,
-                    -48,
-                    115,
-                    35,
-                    6,
-                    -85
-                  ]
-                }
               }
             }
           }
@@ -21411,37 +19166,12 @@
           "model": "telos:mob/nothing",
           "lore": [],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Previous page",
                 "color": "#C78A7A",
                 "bold": true,
                 "italic": false
-              },
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -109,
-                    -1,
-                    98,
-                    116,
-                    -63,
-                    -44,
-                    73,
-                    -5,
-                    -120,
-                    -70,
-                    -17,
-                    14,
-                    -31,
-                    75,
-                    90,
-                    54
-                  ]
-                }
               }
             }
           }
@@ -21452,37 +19182,12 @@
           "model": "telos:mob/nothing",
           "lore": [],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Previous page",
                 "color": "#C78A7A",
                 "bold": true,
                 "italic": false
-              },
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -64,
-                    121,
-                    -62,
-                    -65,
-                    53,
-                    -31,
-                    71,
-                    -85,
-                    -88,
-                    49,
-                    -36,
-                    39,
-                    71,
-                    -46,
-                    -31,
-                    65
-                  ]
-                }
               }
             }
           }
@@ -21514,8 +19219,6 @@
             "Difficulty: Medium - Hard"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Higher Dungeons",
@@ -21699,30 +19402,7 @@
                   "color": "white",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    18,
-                    95,
-                    117,
-                    -55,
-                    67,
-                    40,
-                    66,
-                    -18,
-                    -70,
-                    71,
-                    -33,
-                    74,
-                    102,
-                    -35,
-                    -122,
-                    43
-                  ]
-                }
-              }
+              ]
             }
           }
         }
@@ -21750,8 +19430,6 @@
             "Radiant Isles"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "         ",
@@ -21939,43 +19617,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/boss/luna",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/miniboss_luna"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    30,
-                    89,
-                    -92,
-                    61,
-                    102,
-                    -48,
-                    70,
-                    91,
-                    -115,
-                    -54,
-                    -101,
-                    -2,
-                    14,
-                    -96,
-                    -33,
-                    -21
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/miniboss_luna",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -22000,8 +19642,6 @@
             "Radiant Isles"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "      ",
@@ -22199,43 +19839,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/boss/aurehog",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/miniboss_aurehog"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    23,
-                    102,
-                    46,
-                    -19,
-                    -34,
-                    -19,
-                    74,
-                    -34,
-                    -111,
-                    11,
-                    49,
-                    46,
-                    -102,
-                    50,
-                    -121,
-                    13
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/miniboss_aurehog",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -22264,8 +19868,6 @@
             "Dungeon"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "   ",
@@ -22532,43 +20134,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/boss/cog_sentinel",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/event_cog_sentinel"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -11,
-                    -66,
-                    20,
-                    -56,
-                    -50,
-                    105,
-                    78,
-                    82,
-                    -90,
-                    97,
-                    -101,
-                    25,
-                    -56,
-                    -105,
-                    -67,
-                    51
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/event_cog_sentinel",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -22603,8 +20169,6 @@
             "Drops at: Radiant Isles"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "  ",
@@ -23034,43 +20598,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/dungeon/aurora_sanctum",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/aurora_sanctum"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    123,
-                    -31,
-                    -5,
-                    -51,
-                    -118,
-                    -84,
-                    64,
-                    -4,
-                    -121,
-                    100,
-                    -21,
-                    40,
-                    -8,
-                    -30,
-                    -123,
-                    32
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/aurora_sanctum",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -23108,8 +20636,6 @@
             "Isles"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "       ",
@@ -23540,43 +21066,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/dungeon/aviary",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/aviary"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -23,
-                    73,
-                    -3,
-                    -42,
-                    -68,
-                    -24,
-                    77,
-                    68,
-                    -111,
-                    13,
-                    38,
-                    45,
-                    80,
-                    -4,
-                    -12,
-                    -106
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/aviary",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -23634,8 +21124,6 @@
             "Sentinel 𖀹"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "      ",
@@ -24455,43 +21943,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/dungeon/neo_eden",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/neo_eden"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    101,
-                    34,
-                    117,
-                    -54,
-                    -56,
-                    -102,
-                    69,
-                    57,
-                    -85,
-                    103,
-                    -94,
-                    -95,
-                    45,
-                    -10,
-                    34,
-                    24
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/neo_eden",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -24501,37 +21953,12 @@
           "model": "telos:mob/nothing",
           "lore": [],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Previous page",
                 "color": "#C78A7A",
                 "bold": true,
                 "italic": false
-              },
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -60,
-                    -49,
-                    7,
-                    -2,
-                    59,
-                    -45,
-                    74,
-                    -121,
-                    -84,
-                    121,
-                    56,
-                    -91,
-                    111,
-                    -59,
-                    102,
-                    127
-                  ]
-                }
               }
             }
           }
@@ -24542,37 +21969,12 @@
           "model": "telos:mob/nothing",
           "lore": [],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Previous page",
                 "color": "#C78A7A",
                 "bold": true,
                 "italic": false
-              },
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -122,
-                    -91,
-                    -4,
-                    -63,
-                    115,
-                    41,
-                    69,
-                    -12,
-                    -118,
-                    -107,
-                    19,
-                    -52,
-                    48,
-                    40,
-                    90,
-                    85
-                  ]
-                }
               }
             }
           }
@@ -24583,37 +21985,12 @@
           "model": "telos:mob/nothing",
           "lore": [],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Previous page",
                 "color": "#C78A7A",
                 "bold": true,
                 "italic": false
-              },
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    111,
-                    -112,
-                    119,
-                    107,
-                    -7,
-                    40,
-                    67,
-                    -97,
-                    -102,
-                    114,
-                    4,
-                    -107,
-                    -123,
-                    -43,
-                    -58,
-                    -66
-                  ]
-                }
               }
             }
           }
@@ -24646,8 +22023,6 @@
             "Difficulty: Hard"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Radiant Isles",
@@ -24826,30 +22201,7 @@
                   "color": "white",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -69,
-                    35,
-                    -3,
-                    -97,
-                    -115,
-                    18,
-                    73,
-                    126,
-                    -100,
-                    -64,
-                    -79,
-                    -84,
-                    -110,
-                    1,
-                    31,
-                    7
-                  ]
-                }
-              }
+              ]
             }
           }
         }
@@ -24877,8 +22229,6 @@
             "Voided Abyss"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "        ",
@@ -25066,43 +22416,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/boss/oozul",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/miniboss_oozul"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    72,
-                    -21,
-                    73,
-                    78,
-                    75,
-                    13,
-                    70,
-                    57,
-                    -116,
-                    66,
-                    50,
-                    89,
-                    2,
-                    84,
-                    127,
-                    -85
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/miniboss_oozul",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -25124,8 +22438,6 @@
             "Voided Abyss"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "         ",
@@ -25313,43 +22625,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/boss/vudu",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/miniboss_vudu"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    119,
-                    -24,
-                    119,
-                    -8,
-                    123,
-                    -41,
-                    71,
-                    -110,
-                    -99,
-                    -37,
-                    -3,
-                    -74,
-                    -49,
-                    -123,
-                    63,
-                    40
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/miniboss_vudu",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -25384,8 +22660,6 @@
             "Drops at: Voided Abyss"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "[midnight stronghold]",
@@ -25822,43 +23096,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/dungeon/midnight_stronghold",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/midnight_stronghold"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    115,
-                    -43,
-                    -94,
-                    -91,
-                    104,
-                    96,
-                    75,
-                    57,
-                    -83,
-                    57,
-                    -86,
-                    76,
-                    -106,
-                    -85,
-                    44,
-                    56
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/midnight_stronghold",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -25889,8 +23127,6 @@
             "Abyss"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "[valley of the lost]",
@@ -26227,43 +23463,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/dungeon/valley_of_the_lost",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/valley_of_the_lost"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -104,
-                    2,
-                    55,
-                    24,
-                    44,
-                    -2,
-                    64,
-                    39,
-                    -87,
-                    6,
-                    -64,
-                    -68,
-                    -96,
-                    41,
-                    -128,
-                    -31
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/valley_of_the_lost",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -26299,8 +23499,6 @@
             "Drops at: Voided Abyss"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "      ",
@@ -26684,43 +23882,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/dungeon/tenebris",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/tenebris"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    100,
-                    -108,
-                    -25,
-                    -124,
-                    -96,
-                    -55,
-                    77,
-                    126,
-                    -106,
-                    -127,
-                    101,
-                    24,
-                    -97,
-                    102,
-                    -92,
-                    -81
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/tenebris",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -26730,37 +23892,12 @@
           "model": "telos:mob/nothing",
           "lore": [],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Previous page",
                 "color": "#C78A7A",
                 "bold": true,
                 "italic": false
-              },
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    117,
-                    -40,
-                    -102,
-                    83,
-                    88,
-                    100,
-                    72,
-                    -104,
-                    -77,
-                    65,
-                    -75,
-                    -39,
-                    59,
-                    -88,
-                    28,
-                    -8
-                  ]
-                }
               }
             }
           }
@@ -26771,37 +23908,12 @@
           "model": "telos:mob/nothing",
           "lore": [],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Previous page",
                 "color": "#C78A7A",
                 "bold": true,
                 "italic": false
-              },
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    92,
-                    -90,
-                    111,
-                    102,
-                    -125,
-                    -22,
-                    76,
-                    -71,
-                    -119,
-                    -26,
-                    -65,
-                    -73,
-                    8,
-                    -81,
-                    -10,
-                    -70
-                  ]
-                }
               }
             }
           }
@@ -26812,37 +23924,12 @@
           "model": "telos:mob/nothing",
           "lore": [],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Previous page",
                 "color": "#C78A7A",
                 "bold": true,
                 "italic": false
-              },
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -56,
-                    51,
-                    71,
-                    -88,
-                    67,
-                    -36,
-                    77,
-                    -120,
-                    -95,
-                    -123,
-                    89,
-                    102,
-                    -105,
-                    -84,
-                    113,
-                    26
-                  ]
-                }
               }
             }
           }
@@ -26876,8 +23963,6 @@
             "Difficulty: Hard"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Voided Abyss",
@@ -27072,30 +24157,7 @@
                   "color": "white",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -87,
-                    -14,
-                    -4,
-                    72,
-                    -61,
-                    -3,
-                    66,
-                    -104,
-                    -113,
-                    78,
-                    2,
-                    -107,
-                    -51,
-                    -42,
-                    31,
-                    36
-                  ]
-                }
-              }
+              ]
             }
           }
         }
@@ -27128,8 +24190,6 @@
             "Shadowlands"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "       ",
@@ -27366,43 +24426,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/boss/warden",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/event_warden"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    121,
-                    -81,
-                    -126,
-                    -105,
-                    38,
-                    22,
-                    68,
-                    -1,
-                    -127,
-                    4,
-                    13,
-                    -18,
-                    24,
-                    7,
-                    51,
-                    43
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/event_warden",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -27427,8 +24451,6 @@
             "Shadowlands"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "       ",
@@ -27665,43 +24687,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/boss/herald",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/event_herald"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    10,
-                    93,
-                    41,
-                    -74,
-                    58,
-                    -84,
-                    77,
-                    4,
-                    -127,
-                    -27,
-                    -40,
-                    120,
-                    11,
-                    29,
-                    -41,
-                    -35
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/event_herald",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -27727,8 +24713,6 @@
             "Shadowlands"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "       ",
@@ -27975,43 +24959,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/boss/reaper",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/event_reaper"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    106,
-                    -58,
-                    62,
-                    8,
-                    15,
-                    -110,
-                    71,
-                    -44,
-                    -114,
-                    -83,
-                    29,
-                    -89,
-                    -53,
-                    16,
-                    -3,
-                    -114
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/event_reaper",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -28038,8 +24986,6 @@
             "Province Dungeon"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "      ",
@@ -28271,43 +25217,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/boss/defender",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/event_defender"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -88,
-                    51,
-                    -33,
-                    -15,
-                    102,
-                    74,
-                    73,
-                    72,
-                    -101,
-                    45,
-                    3,
-                    9,
-                    -16,
-                    104,
-                    25,
-                    20
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/event_defender",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -28345,8 +25255,6 @@
             "Shadowlands"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "[dreadwood thicket]",
@@ -28776,43 +25684,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/dungeon/dreadwood_thicket",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/dreadwood_thicket"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    98,
-                    -12,
-                    115,
-                    23,
-                    8,
-                    47,
-                    77,
-                    -118,
-                    -118,
-                    57,
-                    -3,
-                    78,
-                    -2,
-                    -9,
-                    -83,
-                    127
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/dreadwood_thicket",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -28846,8 +25718,6 @@
             "Shadowlands"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": " ",
@@ -29232,43 +26102,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/dungeon/resounding_ruins",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/resounding_ruins"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    24,
-                    -103,
-                    56,
-                    69,
-                    47,
-                    -80,
-                    73,
-                    -29,
-                    -127,
-                    49,
-                    -15,
-                    106,
-                    89,
-                    59,
-                    -117,
-                    -2
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/resounding_ruins",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -29308,8 +26142,6 @@
             "Drops from: Defender 𕍦"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "[celestial's province]",
@@ -29821,43 +26653,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/dungeon/celestials_province",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/celestials_province"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -99,
-                    -74,
-                    -101,
-                    106,
-                    -39,
-                    24,
-                    73,
-                    106,
-                    -120,
-                    -52,
-                    -43,
-                    117,
-                    44,
-                    -54,
-                    -47,
-                    61
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/celestials_province",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -29898,8 +26694,6 @@
             "Drops from: Seraphim 𖆿"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "  ",
@@ -30392,43 +27186,7 @@
                   "italic": false
                 }
               ],
-              "minecraft:tooltip_style": "telos:background",
-              "minecraft:item_model": "telos:material/dungeon/hardmode_celestials_province",
-              "minecraft:max_stack_size": 1,
-              "minecraft:use_cooldown": {
-                "seconds": 1.4E-45,
-                "cooldown_group": "telos:wiki/hardmode_celestials_province"
-              },
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -28,
-                    52,
-                    19,
-                    116,
-                    101,
-                    -53,
-                    65,
-                    -84,
-                    -78,
-                    -88,
-                    23,
-                    82,
-                    -40,
-                    -100,
-                    -46,
-                    119
-                  ],
-                  "realm:data_features": [
-                    "{\"type\":\"traits\",\"traits\":[]}"
-                  ],
-                  "realm:item_type": "telos:wiki/hardmode_celestials_province",
-                  "realm:data_uuid": [
-                    0,
-                    0
-                  ]
-                }
-              }
+              "minecraft:tooltip_style": "telos:background"
             }
           }
         },
@@ -30438,37 +27196,12 @@
           "model": "telos:mob/nothing",
           "lore": [],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Previous page",
                 "color": "#C78A7A",
                 "bold": true,
                 "italic": false
-              },
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -22,
-                    -95,
-                    34,
-                    126,
-                    -39,
-                    -98,
-                    64,
-                    122,
-                    -107,
-                    119,
-                    37,
-                    121,
-                    -34,
-                    84,
-                    -37,
-                    107
-                  ]
-                }
               }
             }
           }
@@ -30479,37 +27212,12 @@
           "model": "telos:mob/nothing",
           "lore": [],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Previous page",
                 "color": "#C78A7A",
                 "bold": true,
                 "italic": false
-              },
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    116,
-                    -37,
-                    -80,
-                    -113,
-                    -128,
-                    -20,
-                    71,
-                    76,
-                    -68,
-                    60,
-                    -128,
-                    92,
-                    -39,
-                    2,
-                    -43,
-                    -117
-                  ]
-                }
               }
             }
           }
@@ -30520,37 +27228,12 @@
           "model": "telos:mob/nothing",
           "lore": [],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Previous page",
                 "color": "#C78A7A",
                 "bold": true,
                 "italic": false
-              },
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -23,
-                    27,
-                    -66,
-                    -51,
-                    31,
-                    -21,
-                    79,
-                    -68,
-                    -112,
-                    5,
-                    66,
-                    42,
-                    112,
-                    97,
-                    -59,
-                    -43
-                  ]
-                }
               }
             }
           }
@@ -30583,8 +27266,6 @@
             "Difficulty: Hard"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Shadowlands",
@@ -30763,30 +27444,7 @@
                   "color": "white",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -89,
-                    76,
-                    -65,
-                    122,
-                    -26,
-                    47,
-                    70,
-                    85,
-                    -128,
-                    -122,
-                    -72,
-                    99,
-                    96,
-                    11,
-                    44,
-                    23
-                  ]
-                }
-              }
+              ]
             }
           }
         }

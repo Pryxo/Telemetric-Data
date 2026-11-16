@@ -42,8 +42,6 @@
             "them. They also use a Bloodshot Fragment for rerolling."
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Reroll Information",
@@ -629,30 +627,7 @@
                   "color": "gray",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:material/misc/fragment",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -20,
-                    -114,
-                    123,
-                    29,
-                    105,
-                    -127,
-                    79,
-                    -44,
-                    -125,
-                    -55,
-                    108,
-                    -81,
-                    -28,
-                    58,
-                    33,
-                    -92
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -676,8 +651,6 @@
             "  of your ability's cooldown."
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Slot 1: Base Stats",
@@ -874,30 +847,7 @@
                   "color": "gray",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:material/misc/wiki_trait1",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -40,
-                    78,
-                    93,
-                    -6,
-                    59,
-                    42,
-                    70,
-                    -101,
-                    -96,
-                    126,
-                    -16,
-                    -9,
-                    -42,
-                    -6,
-                    -45,
-                    102
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -923,8 +873,6 @@
             "with no Velocity."
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Slot 2: Modifiers",
@@ -1087,30 +1035,7 @@
                   "color": "gray",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:material/misc/wiki_trait2",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    80,
-                    -29,
-                    -2,
-                    -49,
-                    -3,
-                    80,
-                    74,
-                    65,
-                    -118,
-                    -7,
-                    93,
-                    8,
-                    -58,
-                    69,
-                    37,
-                    -74
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -1132,8 +1057,6 @@
             "  the item categories on the right)."
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Slot 3: Unique Traits",
@@ -1259,30 +1182,7 @@
                   "color": "gray",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:material/misc/wiki_trait3",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -86,
-                    -71,
-                    -83,
-                    49,
-                    -32,
-                    90,
-                    76,
-                    -38,
-                    -91,
-                    -112,
-                    -102,
-                    110,
-                    16,
-                    -127,
-                    60,
-                    -79
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -1297,8 +1197,6 @@
             "Click to view page"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Weapon Traits",
@@ -1327,30 +1225,7 @@
                   "color": "#7A9AAA",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:material/misc/weapon_active",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    99,
-                    88,
-                    23,
-                    -112,
-                    -77,
-                    -61,
-                    68,
-                    -58,
-                    -123,
-                    -103,
-                    59,
-                    12,
-                    -119,
-                    -33,
-                    -3,
-                    58
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -1365,8 +1240,6 @@
             "Click to view page"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Ability Traits",
@@ -1395,30 +1268,7 @@
                   "color": "#7A9AAA",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:material/misc/ability_active",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    109,
-                    16,
-                    -79,
-                    -60,
-                    -93,
-                    10,
-                    73,
-                    80,
-                    -68,
-                    -38,
-                    41,
-                    16,
-                    22,
-                    127,
-                    -46,
-                    42
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -1433,8 +1283,6 @@
             "Click to view page"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Armour Traits",
@@ -1463,30 +1311,7 @@
                   "color": "#7A9AAA",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:material/misc/armour_active",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -39,
-                    -58,
-                    -112,
-                    103,
-                    78,
-                    -104,
-                    72,
-                    74,
-                    -81,
-                    76,
-                    -71,
-                    -65,
-                    67,
-                    -47,
-                    80,
-                    -40
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -1496,37 +1321,12 @@
           "model": "telos:mob/nothing",
           "lore": [],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Previous page",
                 "color": "#C78A7A",
                 "bold": true,
                 "italic": false
-              },
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    93,
-                    27,
-                    -124,
-                    -39,
-                    74,
-                    -64,
-                    74,
-                    17,
-                    -70,
-                    6,
-                    102,
-                    7,
-                    -122,
-                    -69,
-                    108,
-                    43
-                  ]
-                }
               }
             }
           }
@@ -1537,37 +1337,12 @@
           "model": "telos:mob/nothing",
           "lore": [],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Previous page",
                 "color": "#C78A7A",
                 "bold": true,
                 "italic": false
-              },
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    124,
-                    32,
-                    61,
-                    -120,
-                    47,
-                    -6,
-                    64,
-                    30,
-                    -91,
-                    59,
-                    -3,
-                    -88,
-                    34,
-                    -46,
-                    92,
-                    -102
-                  ]
-                }
               }
             }
           }
@@ -1578,37 +1353,12 @@
           "model": "telos:mob/nothing",
           "lore": [],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Previous page",
                 "color": "#C78A7A",
                 "bold": true,
                 "italic": false
-              },
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -57,
-                    6,
-                    52,
-                    7,
-                    79,
-                    -7,
-                    74,
-                    53,
-                    -113,
-                    127,
-                    -115,
-                    -28,
-                    -49,
-                    -35,
-                    -14,
-                    -114
-                  ]
-                }
               }
             }
           }
@@ -1628,8 +1378,6 @@
             "▪ Follow the arrow directly to his location"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Where to Reroll",
@@ -1727,30 +1475,7 @@
                   "color": "gray",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -109,
-                    87,
-                    40,
-                    -18,
-                    13,
-                    100,
-                    69,
-                    90,
-                    -123,
-                    62,
-                    120,
-                    -45,
-                    -96,
-                    33,
-                    84,
-                    31
-                  ]
-                }
-              }
+              ]
             }
           }
         }
@@ -1771,8 +1496,6 @@
             "Currently viewing"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Weapon Traits",
@@ -1801,30 +1524,7 @@
                   "color": "#7A9AAA",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:material/misc/weapon_active",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -42,
-                    14,
-                    22,
-                    -76,
-                    55,
-                    126,
-                    69,
-                    -60,
-                    -123,
-                    -72,
-                    -119,
-                    89,
-                    64,
-                    -82,
-                    65,
-                    -108
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -1862,8 +1562,6 @@
             "them. They also use a Bloodshot Fragment for rerolling."
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Reroll Information",
@@ -2449,30 +2147,7 @@
                   "color": "gray",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:material/misc/fragment",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -96,
-                    -100,
-                    41,
-                    -105,
-                    -53,
-                    -88,
-                    78,
-                    -33,
-                    -71,
-                    69,
-                    44,
-                    111,
-                    -96,
-                    32,
-                    103,
-                    -26
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -2496,8 +2171,6 @@
             "  of your ability's cooldown."
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Slot 1: Base Stats",
@@ -2694,30 +2367,7 @@
                   "color": "gray",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:material/misc/wiki_trait1",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    56,
-                    -117,
-                    -17,
-                    -2,
-                    -98,
-                    106,
-                    76,
-                    -32,
-                    -121,
-                    6,
-                    34,
-                    8,
-                    13,
-                    -61,
-                    -116,
-                    -72
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -2743,8 +2393,6 @@
             "with no Velocity."
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Slot 2: Modifiers",
@@ -2907,30 +2555,7 @@
                   "color": "gray",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:material/misc/wiki_trait2",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -33,
-                    104,
-                    -7,
-                    113,
-                    9,
-                    -71,
-                    73,
-                    -28,
-                    -99,
-                    18,
-                    -86,
-                    43,
-                    127,
-                    93,
-                    -6,
-                    2
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -2952,8 +2577,6 @@
             "  the item categories on the right)."
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Slot 3: Unique Traits",
@@ -3079,30 +2702,7 @@
                   "color": "gray",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:material/misc/wiki_trait3",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -4,
-                    -24,
-                    39,
-                    61,
-                    -117,
-                    -76,
-                    74,
-                    123,
-                    -84,
-                    -125,
-                    -93,
-                    -82,
-                    4,
-                    -27,
-                    -114,
-                    -37
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -3124,8 +2724,6 @@
             "Buff Scaling: (3, 4.5, 6, 8.5, 10)%"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Slot 1: Base Stats",
@@ -3298,30 +2896,7 @@
                   "color": "gray",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:material/misc/wiki_trait1",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -89,
-                    -55,
-                    -57,
-                    21,
-                    61,
-                    -68,
-                    73,
-                    111,
-                    -95,
-                    -100,
-                    -26,
-                    -123,
-                    52,
-                    -97,
-                    -33,
-                    91
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -3341,8 +2916,6 @@
             "Buff Scaling: (6, 8, 10, 13, 15)%"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Slot 2: Modifiers",
@@ -3504,30 +3077,7 @@
                   "color": "gray",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:material/misc/wiki_trait2",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -14,
-                    79,
-                    7,
-                    -42,
-                    112,
-                    47,
-                    70,
-                    -99,
-                    -72,
-                    35,
-                    71,
-                    94,
-                    -12,
-                    -116,
-                    11,
-                    -44
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -3561,8 +3111,6 @@
             "in a 5 block radius. (20s cooldown)"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Slot 3: Unique Traits",
@@ -3914,30 +3462,7 @@
                   "color": "gray",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:material/misc/wiki_trait3",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    62,
-                    64,
-                    -117,
-                    17,
-                    121,
-                    88,
-                    73,
-                    115,
-                    -117,
-                    11,
-                    -50,
-                    -99,
-                    11,
-                    -42,
-                    -54,
-                    8
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -3952,8 +3477,6 @@
             "Currently viewing"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Weapon Traits",
@@ -3982,30 +3505,7 @@
                   "color": "#7A9AAA",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:material/misc/weapon_active",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    38,
-                    -107,
-                    74,
-                    -91,
-                    31,
-                    13,
-                    64,
-                    -71,
-                    -95,
-                    94,
-                    -42,
-                    68,
-                    -41,
-                    126,
-                    -40,
-                    86
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -4020,8 +3520,6 @@
             "Click to view page"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Ability Traits",
@@ -4050,30 +3548,7 @@
                   "color": "#7A9AAA",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:material/misc/ability_active",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    10,
-                    -25,
-                    87,
-                    -110,
-                    79,
-                    -81,
-                    69,
-                    -74,
-                    -70,
-                    -22,
-                    16,
-                    114,
-                    -92,
-                    -46,
-                    -128,
-                    84
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -4088,8 +3563,6 @@
             "Click to view page"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Armour Traits",
@@ -4118,30 +3591,7 @@
                   "color": "#7A9AAA",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:material/misc/armour_active",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    120,
-                    -83,
-                    66,
-                    -46,
-                    -27,
-                    -106,
-                    68,
-                    63,
-                    -116,
-                    -66,
-                    -81,
-                    7,
-                    -4,
-                    -99,
-                    -96,
-                    46
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -4151,37 +3601,12 @@
           "model": "telos:mob/nothing",
           "lore": [],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Previous page",
                 "color": "#C78A7A",
                 "bold": true,
                 "italic": false
-              },
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -73,
-                    -124,
-                    40,
-                    31,
-                    106,
-                    -44,
-                    79,
-                    1,
-                    -114,
-                    -78,
-                    -4,
-                    -58,
-                    37,
-                    28,
-                    -45,
-                    -125
-                  ]
-                }
               }
             }
           }
@@ -4192,37 +3617,12 @@
           "model": "telos:mob/nothing",
           "lore": [],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Previous page",
                 "color": "#C78A7A",
                 "bold": true,
                 "italic": false
-              },
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    117,
-                    12,
-                    -102,
-                    102,
-                    -46,
-                    -106,
-                    69,
-                    -26,
-                    -92,
-                    -19,
-                    -95,
-                    -20,
-                    109,
-                    -61,
-                    -96,
-                    59
-                  ]
-                }
               }
             }
           }
@@ -4233,37 +3633,12 @@
           "model": "telos:mob/nothing",
           "lore": [],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Previous page",
                 "color": "#C78A7A",
                 "bold": true,
                 "italic": false
-              },
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -10,
-                    -124,
-                    90,
-                    -28,
-                    -111,
-                    -25,
-                    70,
-                    103,
-                    -85,
-                    -91,
-                    -72,
-                    -57,
-                    -81,
-                    17,
-                    126,
-                    -117
-                  ]
-                }
               }
             }
           }
@@ -4282,8 +3657,6 @@
             "The color of the number matches the tier it belongs to."
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Scaling Explanation",
@@ -4377,30 +3750,7 @@
                   "color": "gray",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -53,
-                    -86,
-                    62,
-                    123,
-                    73,
-                    52,
-                    70,
-                    62,
-                    -101,
-                    -64,
-                    41,
-                    -98,
-                    34,
-                    -106,
-                    64,
-                    -123
-                  ]
-                }
-              }
+              ]
             }
           }
         }
@@ -4421,8 +3771,6 @@
             "Currently viewing"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Ability Traits",
@@ -4451,30 +3799,7 @@
                   "color": "#7A9AAA",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:material/misc/ability_active",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    56,
-                    -50,
-                    -108,
-                    83,
-                    3,
-                    19,
-                    67,
-                    39,
-                    -123,
-                    106,
-                    81,
-                    13,
-                    -110,
-                    -25,
-                    -40,
-                    -30
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -4512,8 +3837,6 @@
             "them. They also use a Bloodshot Fragment for rerolling."
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Reroll Information",
@@ -5099,30 +4422,7 @@
                   "color": "gray",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:material/misc/fragment",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    114,
-                    106,
-                    -65,
-                    15,
-                    113,
-                    -114,
-                    68,
-                    -32,
-                    -97,
-                    -6,
-                    105,
-                    104,
-                    -114,
-                    -28,
-                    -87,
-                    -51
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -5146,8 +4446,6 @@
             "  of your ability's cooldown."
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Slot 1: Base Stats",
@@ -5344,30 +4642,7 @@
                   "color": "gray",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:material/misc/wiki_trait1",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -59,
-                    -68,
-                    116,
-                    -66,
-                    80,
-                    1,
-                    72,
-                    -76,
-                    -68,
-                    -117,
-                    94,
-                    4,
-                    -72,
-                    -98,
-                    -103,
-                    43
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -5393,8 +4668,6 @@
             "with no Velocity."
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Slot 2: Modifiers",
@@ -5557,30 +4830,7 @@
                   "color": "gray",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:material/misc/wiki_trait2",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    45,
-                    11,
-                    -57,
-                    -65,
-                    -30,
-                    81,
-                    79,
-                    73,
-                    -97,
-                    85,
-                    0,
-                    65,
-                    22,
-                    -11,
-                    4,
-                    35
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -5602,8 +4852,6 @@
             "  the item categories on the right)."
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Slot 3: Unique Traits",
@@ -5729,30 +4977,7 @@
                   "color": "gray",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:material/misc/wiki_trait3",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -2,
-                    -46,
-                    85,
-                    125,
-                    -1,
-                    -48,
-                    72,
-                    -32,
-                    -106,
-                    -77,
-                    -35,
-                    127,
-                    -77,
-                    -29,
-                    -121,
-                    43
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -5777,8 +5002,6 @@
             "▪ 𖉅On𖉯 +5.0𖄒For 0.5*𖁴"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Slot 1: Temp Stat",
@@ -6187,30 +5410,7 @@
                   "color": "gray",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:material/misc/wiki_trait1",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    123,
-                    68,
-                    -50,
-                    69,
-                    -89,
-                    -128,
-                    77,
-                    17,
-                    -115,
-                    -43,
-                    28,
-                    28,
-                    -107,
-                    -81,
-                    -36,
-                    -58
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -6243,8 +5443,6 @@
             "Buff Scaling: (6, 8, 10, 13, 15)%"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Slot 2: Modifiers",
@@ -6789,30 +5987,7 @@
                   "color": "gray",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:material/misc/wiki_trait2",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    71,
-                    -64,
-                    79,
-                    -85,
-                    -104,
-                    -110,
-                    78,
-                    -62,
-                    -71,
-                    15,
-                    -94,
-                    -114,
-                    -55,
-                    -79,
-                    -97,
-                    -1
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -6846,8 +6021,6 @@
             "dealing (11, 18, 25, 38, 45) damage on impact. (5s CD)"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Slot 3: Unique Traits",
@@ -7210,30 +6383,7 @@
                   "color": "gray",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:material/misc/wiki_trait3",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -12,
-                    79,
-                    8,
-                    100,
-                    47,
-                    -52,
-                    79,
-                    1,
-                    -94,
-                    98,
-                    -114,
-                    59,
-                    15,
-                    53,
-                    -98,
-                    60
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -7248,8 +6398,6 @@
             "Click to view page"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Weapon Traits",
@@ -7278,30 +6426,7 @@
                   "color": "#7A9AAA",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:material/misc/weapon_active",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -99,
-                    -85,
-                    -63,
-                    -96,
-                    -122,
-                    -29,
-                    76,
-                    114,
-                    -124,
-                    -77,
-                    -110,
-                    -13,
-                    114,
-                    49,
-                    35,
-                    49
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -7316,8 +6441,6 @@
             "Currently viewing"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Ability Traits",
@@ -7346,30 +6469,7 @@
                   "color": "#7A9AAA",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:material/misc/ability_active",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -101,
-                    95,
-                    35,
-                    45,
-                    -84,
-                    74,
-                    64,
-                    50,
-                    -124,
-                    42,
-                    -63,
-                    111,
-                    30,
-                    -12,
-                    76,
-                    -10
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -7384,8 +6484,6 @@
             "Click to view page"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Armour Traits",
@@ -7414,30 +6512,7 @@
                   "color": "#7A9AAA",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:material/misc/armour_active",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    52,
-                    58,
-                    16,
-                    -56,
-                    -63,
-                    87,
-                    67,
-                    63,
-                    -69,
-                    -90,
-                    -13,
-                    -117,
-                    -48,
-                    124,
-                    -94,
-                    -3
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -7447,37 +6522,12 @@
           "model": "telos:mob/nothing",
           "lore": [],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Previous page",
                 "color": "#C78A7A",
                 "bold": true,
                 "italic": false
-              },
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -60,
-                    114,
-                    -85,
-                    28,
-                    -120,
-                    30,
-                    72,
-                    98,
-                    -118,
-                    -117,
-                    -87,
-                    -80,
-                    55,
-                    -35,
-                    -94,
-                    -7
-                  ]
-                }
               }
             }
           }
@@ -7488,37 +6538,12 @@
           "model": "telos:mob/nothing",
           "lore": [],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Previous page",
                 "color": "#C78A7A",
                 "bold": true,
                 "italic": false
-              },
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    25,
-                    67,
-                    0,
-                    120,
-                    91,
-                    -47,
-                    68,
-                    117,
-                    -115,
-                    24,
-                    102,
-                    -127,
-                    40,
-                    42,
-                    -53,
-                    69
-                  ]
-                }
               }
             }
           }
@@ -7529,37 +6554,12 @@
           "model": "telos:mob/nothing",
           "lore": [],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Previous page",
                 "color": "#C78A7A",
                 "bold": true,
                 "italic": false
-              },
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -93,
-                    -103,
-                    39,
-                    77,
-                    126,
-                    -49,
-                    71,
-                    66,
-                    -78,
-                    111,
-                    84,
-                    -88,
-                    49,
-                    -30,
-                    -104,
-                    -76
-                  ]
-                }
               }
             }
           }
@@ -7578,8 +6578,6 @@
             "The color of the number matches the tier it belongs to."
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Scaling Explanation",
@@ -7673,30 +6671,7 @@
                   "color": "gray",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -103,
-                    126,
-                    92,
-                    32,
-                    31,
-                    64,
-                    71,
-                    44,
-                    -119,
-                    87,
-                    -117,
-                    -105,
-                    -121,
-                    1,
-                    -117,
-                    -119
-                  ]
-                }
-              }
+              ]
             }
           }
         }
@@ -7717,8 +6692,6 @@
             "Currently viewing"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Armour Traits",
@@ -7747,30 +6720,7 @@
                   "color": "#7A9AAA",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:material/misc/armour_active",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    18,
-                    -100,
-                    -11,
-                    45,
-                    -125,
-                    67,
-                    65,
-                    119,
-                    -127,
-                    46,
-                    24,
-                    36,
-                    28,
-                    -15,
-                    54,
-                    99
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -7808,8 +6758,6 @@
             "them. They also use a Bloodshot Fragment for rerolling."
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Reroll Information",
@@ -8395,30 +7343,7 @@
                   "color": "gray",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:material/misc/fragment",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -110,
-                    12,
-                    38,
-                    -121,
-                    70,
-                    10,
-                    65,
-                    109,
-                    -79,
-                    -32,
-                    110,
-                    -80,
-                    -56,
-                    -42,
-                    -93,
-                    25
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -8442,8 +7367,6 @@
             "  of your ability's cooldown."
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Slot 1: Base Stats",
@@ -8640,30 +7563,7 @@
                   "color": "gray",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:material/misc/wiki_trait1",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -65,
-                    -91,
-                    40,
-                    -47,
-                    31,
-                    -33,
-                    79,
-                    -105,
-                    -70,
-                    31,
-                    -121,
-                    -78,
-                    -103,
-                    -21,
-                    -87,
-                    95
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -8689,8 +7589,6 @@
             "with no Velocity."
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Slot 2: Modifiers",
@@ -8853,30 +7751,7 @@
                   "color": "gray",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:material/misc/wiki_trait2",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -23,
-                    -15,
-                    90,
-                    123,
-                    28,
-                    105,
-                    76,
-                    12,
-                    -97,
-                    -66,
-                    -107,
-                    121,
-                    -6,
-                    68,
-                    -34,
-                    -73
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -8898,8 +7773,6 @@
             "  the item categories on the right)."
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Slot 3: Unique Traits",
@@ -9025,30 +7898,7 @@
                   "color": "gray",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:material/misc/wiki_trait3",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -127,
-                    118,
-                    18,
-                    94,
-                    -88,
-                    -85,
-                    68,
-                    113,
-                    -102,
-                    -90,
-                    -41,
-                    124,
-                    -69,
-                    -58,
-                    58,
-                    -26
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -9068,8 +7918,6 @@
             "▪ + 𖄏Vitality (0.5, 1, 1.5, 2.5, 3)"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Slot 1: Base Stats",
@@ -9424,30 +8272,7 @@
                   "color": "white",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:material/misc/wiki_trait1",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -119,
-                    110,
-                    23,
-                    -82,
-                    33,
-                    -6,
-                    70,
-                    -21,
-                    -102,
-                    51,
-                    -13,
-                    -63,
-                    18,
-                    -108,
-                    -100,
-                    -90
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -9491,8 +8316,6 @@
             "Stat Buff Scaling: (12, 16, 20, 26, 30)%"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Slot 2: Modifiers",
@@ -10204,30 +9027,7 @@
                   "color": "gray",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:material/misc/wiki_trait2",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -55,
-                    103,
-                    110,
-                    124,
-                    -75,
-                    91,
-                    74,
-                    -77,
-                    -69,
-                    -127,
-                    -26,
-                    125,
-                    84,
-                    24,
-                    -31,
-                    116
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -10245,8 +9045,6 @@
             "All of them are listed below."
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Slot 3: Unique Traits",
@@ -10290,30 +9088,7 @@
                   "color": "gray",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:material/misc/wiki_trait3",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    64,
-                    111,
-                    -88,
-                    103,
-                    -8,
-                    95,
-                    78,
-                    -4,
-                    -77,
-                    61,
-                    -117,
-                    -5,
-                    4,
-                    41,
-                    -53,
-                    -25
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -10328,8 +9103,6 @@
             "Click to view page"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Weapon Traits",
@@ -10358,30 +9131,7 @@
                   "color": "#7A9AAA",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:material/misc/weapon_active",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -98,
-                    114,
-                    73,
-                    59,
-                    -123,
-                    40,
-                    79,
-                    44,
-                    -126,
-                    -39,
-                    44,
-                    22,
-                    -123,
-                    66,
-                    -70,
-                    -69
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -10396,8 +9146,6 @@
             "Click to view page"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Ability Traits",
@@ -10426,30 +9174,7 @@
                   "color": "#7A9AAA",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:material/misc/ability_active",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -121,
-                    12,
-                    30,
-                    37,
-                    -30,
-                    -29,
-                    69,
-                    56,
-                    -103,
-                    -74,
-                    34,
-                    3,
-                    -52,
-                    -71,
-                    21,
-                    -41
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -10464,8 +9189,6 @@
             "Currently viewing"
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Armour Traits",
@@ -10494,30 +9217,7 @@
                   "color": "#7A9AAA",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:material/misc/armour_active",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    92,
-                    38,
-                    -117,
-                    5,
-                    116,
-                    104,
-                    71,
-                    22,
-                    -86,
-                    46,
-                    -84,
-                    -113,
-                    77,
-                    -79,
-                    -63,
-                    61
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -10547,8 +9247,6 @@
             "damage/sec while within 8 blocks."
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Slot 3: Helmet Uniques",
@@ -10970,30 +9668,7 @@
                   "color": "gray",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:material/armour/heavy/helmet/t1",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    90,
-                    31,
-                    51,
-                    -118,
-                    57,
-                    0,
-                    68,
-                    33,
-                    -90,
-                    64,
-                    14,
-                    -19,
-                    -35,
-                    39,
-                    -46,
-                    31
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -11020,8 +9695,6 @@
             "(1.05x, 1.075x, 1.1x, 1.15x, 1.175x) until hit."
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Slot 3: Chestplate Uniques",
@@ -11340,30 +10013,7 @@
                   "color": "gray",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:material/armour/heavy/chestplate/t1",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    27,
-                    -51,
-                    47,
-                    80,
-                    -40,
-                    17,
-                    78,
-                    -82,
-                    -97,
-                    113,
-                    122,
-                    22,
-                    4,
-                    10,
-                    -54,
-                    89
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -11392,8 +10042,6 @@
             "more damage to enemies below 40% HP."
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Slot 3: Leggings Uniques",
@@ -11723,30 +10371,7 @@
                   "color": "gray",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:material/armour/heavy/leggings/t1",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -6,
-                    63,
-                    77,
-                    -109,
-                    90,
-                    92,
-                    68,
-                    32,
-                    -91,
-                    26,
-                    -59,
-                    17,
-                    -94,
-                    44,
-                    -64,
-                    61
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -11778,8 +10403,6 @@
             "(10, 11, 12, 14, 15). Resets on hit."
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Slot 3: Boots Uniques",
@@ -12143,30 +10766,7 @@
                   "color": "gray",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:material/armour/heavy/boots/t1",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -10,
-                    -82,
-                    127,
-                    -29,
-                    -122,
-                    61,
-                    77,
-                    72,
-                    -99,
-                    101,
-                    -100,
-                    7,
-                    -36,
-                    -75,
-                    -100,
-                    -102
-                  ]
-                }
-              }
+              ]
             }
           }
         },
@@ -12176,37 +10776,12 @@
           "model": "telos:mob/nothing",
           "lore": [],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Previous page",
                 "color": "#C78A7A",
                 "bold": true,
                 "italic": false
-              },
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -80,
-                    -107,
-                    19,
-                    110,
-                    -66,
-                    -23,
-                    66,
-                    -98,
-                    -75,
-                    -70,
-                    -35,
-                    88,
-                    -41,
-                    55,
-                    -36,
-                    -35
-                  ]
-                }
               }
             }
           }
@@ -12217,37 +10792,12 @@
           "model": "telos:mob/nothing",
           "lore": [],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Previous page",
                 "color": "#C78A7A",
                 "bold": true,
                 "italic": false
-              },
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    -33,
-                    -92,
-                    115,
-                    -89,
-                    -41,
-                    -92,
-                    76,
-                    103,
-                    -69,
-                    -41,
-                    -41,
-                    118,
-                    94,
-                    -62,
-                    126,
-                    -52
-                  ]
-                }
               }
             }
           }
@@ -12258,37 +10808,12 @@
           "model": "telos:mob/nothing",
           "lore": [],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Previous page",
                 "color": "#C78A7A",
                 "bold": true,
                 "italic": false
-              },
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    41,
-                    -80,
-                    -56,
-                    -60,
-                    -11,
-                    -117,
-                    66,
-                    -49,
-                    -119,
-                    -71,
-                    118,
-                    82,
-                    -94,
-                    -114,
-                    -116,
-                    -117
-                  ]
-                }
               }
             }
           }
@@ -12307,8 +10832,6 @@
             "The color of the number matches the tier it belongs to."
           ],
           "item": {
-            "id": "minecraft:stick",
-            "count": 1,
             "components": {
               "minecraft:custom_name": {
                 "text": "Scaling Explanation",
@@ -12402,30 +10925,7 @@
                   "color": "gray",
                   "italic": false
                 }
-              ],
-              "minecraft:item_model": "telos:mob/nothing",
-              "minecraft:custom_data": {
-                "PublicBukkitValues": {
-                  "toughwiki:if-uuid": [
-                    80,
-                    -89,
-                    -112,
-                    -61,
-                    74,
-                    20,
-                    76,
-                    111,
-                    -121,
-                    -59,
-                    -117,
-                    -67,
-                    -101,
-                    96,
-                    37,
-                    -78
-                  ]
-                }
-              }
+              ]
             }
           }
         }

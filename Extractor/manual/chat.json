@@ -1,0 +1,33 @@
+{
+  "_comment": "Hand-written (Chat module, from Melinoe's Chat tab, with permission). tabs: chat tabs in bar order after 'All'. A message gets the FIRST category in 'categories' whose regex (Java, find anywhere in the plain text) matches; 'builtin: callout' = a player callout (chat/Callouts). A tab shows its own category plus the ones in 'also'. shown = ticked by default in Chat -> Tabs. channel = server chat mode (/chat <id>) the tab switches to while open (leaving it for 'All' switches back to default). utility: whole-message regexes of server lines Chat -> Hide Utility Messages removes.",
+  "version": 1,
+  "categories": [
+    { "key": "guild", "patterns": ["\\[Guild\\]"] },
+    { "key": "group", "patterns": ["\\[Group\\]"] },
+    { "key": "callouts", "builtin": "callout" },
+    { "key": "messages", "patterns": ["(?:^|\\s)(?:To|From) [^┅]*┅"] },
+    { "key": "drops", "patterns": [" got .+ from ", " - Dropped .+ pity from "] },
+    { "key": "crafts", "patterns": [" has just crafted "] },
+    { "key": "deaths", "patterns": [
+      " fell off against ", " had their bits blown off by ", " was torn in half by ", " was spangled by ",
+      " got snapped in half by ", " had their head removed by ", " was diagnosed with 'skill issue' by ",
+      " dieded by ", " had their day ruined by "
+    ] },
+    { "key": "chat", "patterns": [": "] }
+  ],
+  "tabs": [
+    { "name": "Chat", "category": "chat", "also": ["callouts"], "channel": "default", "shown": false },
+    { "name": "Callouts", "category": "callouts", "shown": true },
+    { "name": "Group", "category": "group", "channel": "group", "shown": false },
+    { "name": "Guild", "category": "guild", "channel": "guild", "shown": true },
+    { "name": "Messages", "category": "messages", "shown": true },
+    { "name": "Drops", "category": "drops", "shown": true },
+    { "name": "Deaths", "category": "deaths", "shown": false },
+    { "name": "Crafts", "category": "crafts", "shown": false }
+  ],
+  "utility": [
+    "Auction items have been updated\\.",
+    "Auto-sell earnings: .*",
+    "\\+.* Fame gained!.*"
+  ]
+}

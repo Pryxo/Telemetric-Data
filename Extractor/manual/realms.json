@@ -1,0 +1,16 @@
+{
+  "_comment": "Hand-written (Keybinds -> Realm Selector, from Melinoe's realm lists, with permission). A region is picked by the region part of the Tab 'Server' value ('[<region>, <realm>]'): the first region whose 'prefix' starts it (case-insensitive). realms = normal realms, hubs = hub / mission servers (own row). Every button runs /joinq <name>.",
+  "version": 1,
+  "regions": [
+    { "name": "NA", "prefix": "n",
+      "realms": ["Ashburn", "Bayou", "Cedar", "Dakota", "Eagleton", "Farrion", "Groveridge", "Nalwood"],
+      "hubs": ["Hub-1", "Hub-2", "Missions"] },
+    { "name": "EU", "prefix": "g",
+      "realms": ["Astra", "Balkan", "Creska", "Darkon", "Draskov", "Estenmoor", "Falkenburg", "Galla", "Harvenfeld",
+        "Helmburg", "Holloway", "Inderfall", "Ivarn", "Jarnholm", "Jarnwald", "Krausenfeld", "Larpswood", "Lindenburg"],
+      "hubs": ["Hub-1", "Hub-2", "Hub-3", "Missions"] },
+    { "name": "SG", "prefix": "",
+      "realms": ["Asura", "Bayan", "Chantara"],
+      "hubs": ["Hub-1", "Missions"] }
+  ]
+}
