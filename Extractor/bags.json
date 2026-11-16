@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "_comment": "Loot bags: one per rarity + the hand-written ones from manual/bags.json (companion, shiny, event bags). color = rarity colour (rarities.json). guessed = totem / sound / model paths guessed from the rarity key (not on the wiki). group = Lifetime Stats row (default: key).",
+  "_comment": "Loot bags: one per rarity + the hand-written ones from manual/bags.json (companion, shiny, event bags). color = rarity colour (rarities.json). guessed = totem / sound / model paths guessed from the rarity key (not on the wiki). group = Lifetime Stats row (default: key). icon = pouch glyph (default font, server pack) for bags FAQ -> Loot Information has none for (shiny U+16280, halloween U+15460, lovebound U+1545E, christmas U+1545F).",
   "bags": [
     {
       "key": "bloodshot",
@@ -66,6 +66,7 @@
     },
     {
       "key": "shiny",
+      "icon": "\ud818\ude80",
       "label": "Shiny",
       "totem": "mob/pouch/shiny_totem",
       "sound": "shiny",
@@ -74,6 +75,7 @@
     },
     {
       "key": "halloween",
+      "icon": "\ud815\udc60",
       "label": "Halloween",
       "totem": "mob/pouch/halloween_totem",
       "sound": "halloween",
@@ -82,6 +84,7 @@
     },
     {
       "key": "valentine",
+      "icon": "\ud815\udc5e",
       "label": "Valentine",
       "totem": "mob/pouch/valentine_totem",
       "sound": "valentines",
@@ -90,6 +93,7 @@
     },
     {
       "key": "christmas",
+      "icon": "\ud815\udc5f",
       "label": "Christmas",
       "totem": "mob/pouch/christmas_totem",
       "sound": "christmas",
