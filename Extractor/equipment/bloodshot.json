@@ -1,0 +1,2780 @@
+{
+  "source": "wiki: Equipment Information",
+  "scanned": "2026-11-16T00:48:58.136322800Z",
+  "count": 80,
+  "items": [
+    {
+      "id": "telos:armour/heavy/helmet/ut-crown",
+      "name": "Crown Of Ethereal Radiance",
+      "model": "telos:material/armour/heavy/helmet/ut-crown",
+      "type": "armour/heavy/helmet",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Rustborn Kingdom",
+        "icon": "telos:material/dungeon/shatters"
+      },
+      "stats": {
+        "Health": "+2",
+        "Attack": "+8",
+        "Defense": "+16",
+        "Critical Chance": "+9"
+      },
+      "shiny": {
+        "id": "telos:armour/heavy/helmet/ut-crown-shiny",
+        "model": "telos:material/armour/heavy/helmet/ut-crown-shiny"
+      },
+      "classes": [
+        "Knight",
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:armour/heavy/helmet/ut-contract",
+      "name": "Sacrificial Contract",
+      "model": "telos:material/armour/heavy/helmet/ut-contract",
+      "type": "armour/heavy/helmet",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "stats": {
+        "Attack": "1",
+        "Defense": "+10",
+        "Vitality": "+6",
+        "Critical Chance": "+35"
+      },
+      "text": [
+        "Ability: Every time you",
+        "critical hit, gain Attack for",
+        "10.0s (1.0s cooldown)."
+      ],
+      "shiny": {
+        "id": "telos:armour/heavy/helmet/ut-contract-shiny",
+        "model": "telos:material/armour/heavy/helmet/ut-contract-shiny"
+      },
+      "classes": [
+        "Knight",
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:armour/heavy/chestplate/ut-onyx",
+      "name": "Wrathguard",
+      "model": "telos:material/armour/heavy/chestplate/ut-onyx",
+      "type": "armour/heavy/chestplate",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Raph's Chamber",
+        "icon": "telos:material/dungeon/onyx"
+      },
+      "stats": {
+        "Attack": "+12",
+        "Defense": "+13",
+        "Evasion": "+4",
+        "Critical Chance": "+6"
+      },
+      "shiny": {
+        "id": "telos:armour/heavy/chestplate/ut-onyx-shiny",
+        "model": "telos:material/armour/heavy/chestplate/ut-onyx-shiny"
+      },
+      "classes": [
+        "Knight",
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:armour/heavy/chestplate/ut-berserker",
+      "name": "Plating Of The Berserker",
+      "model": "telos:material/armour/heavy/chestplate/ut-berserker",
+      "type": "armour/heavy/chestplate",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "stats": {
+        "Health": "+12",
+        "Critical Damage": "10",
+        "Cooldown": "10s"
+      },
+      "text": [
+        "Ability: On ability use, gain",
+        "Critical Damage for 9.0s and",
+        "start draining 1.0 HP per",
+        "second. While draining, gain 0.5",
+        "Critical Damage for each HP",
+        "missing."
+      ],
+      "shiny": {
+        "id": "telos:armour/heavy/chestplate/ut-berserker-shiny",
+        "model": "telos:material/armour/heavy/chestplate/ut-berserker-shiny"
+      },
+      "classes": [
+        "Knight",
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:armour/heavy/leggings/ut-phantasmic",
+      "name": "Phantasmic Greaves",
+      "model": "telos:material/armour/heavy/leggings/ut-phantasmic",
+      "type": "armour/heavy/leggings",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Defender",
+        "icon": "telos:material/boss/defender"
+      },
+      "stats": {
+        "Attack": "+9",
+        "Defense": "+12",
+        "Speed": "+13",
+        "Critical Chance": "+8"
+      },
+      "shiny": {
+        "id": "telos:armour/heavy/leggings/ut-phantasmic-shiny",
+        "model": "telos:material/armour/heavy/leggings/ut-phantasmic-shiny"
+      },
+      "classes": [
+        "Knight",
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:armour/heavy/leggings/ut-lost",
+      "name": "Greaves Of The Lost",
+      "model": "telos:material/armour/heavy/leggings/ut-lost",
+      "type": "armour/heavy/leggings",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "stats": {
+        "Health": "+3",
+        "Defense": "+16",
+        "Vitality": "30",
+        "Critical Chance": "+6",
+        "Damage": "4",
+        "Summons": "4",
+        "Cooldown": "20s"
+      },
+      "text": [
+        "Ability: Sneak 3 times in",
+        "quick succession to",
+        "summon souls of the",
+        "damned that hit nearby",
+        "enemies 4 times before",
+        "attempting to steal their",
+        "lifeforce, dealing 2.0x",
+        "damage over 2.0s and",
+        "granting you Vitality for",
+        "5s. The souls disappear",
+        "if the armour is",
+        "unequipped."
+      ],
+      "shiny": {
+        "id": "telos:armour/heavy/leggings/ut-lost-shiny",
+        "model": "telos:material/armour/heavy/leggings/ut-lost-shiny"
+      },
+      "classes": [
+        "Knight",
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:armour/heavy/boots/ut-inferno",
+      "name": "Dauntless Inferno",
+      "model": "telos:material/armour/heavy/boots/ut-inferno",
+      "type": "armour/heavy/boots",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Neo Eden",
+        "icon": "telos:material/dungeon/neo_eden"
+      },
+      "stats": {
+        "Defense": "+8",
+        "Speed": "+7",
+        "Critical Damage": "+9",
+        "Damage": "8",
+        "Summons": "4",
+        "Cooldown": "15s"
+      },
+      "text": [
+        "Ability: After damaging",
+        "with your weapon, your",
+        "next attack will summon",
+        "homing hammers to",
+        "strike the enemy,",
+        "followed by a giant",
+        "hammer that deals 6.25x",
+        "damage in a small AoE."
+      ],
+      "classes": [
+        "Knight",
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:armour/heavy/boots/ut-hypersonic",
+      "name": "Hypersonic Sabatons",
+      "model": "telos:material/armour/heavy/boots/ut-hypersonic",
+      "type": "armour/heavy/boots",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "stats": {
+        "Speed": "0.5",
+        "Evasion": "+10"
+      },
+      "text": [
+        "Ability: Gain stacking",
+        "Speed while moving (max",
+        "48). Stop for 1.5s to lose",
+        "it. Gain 0.1 Attack and",
+        "Critical Chance per point",
+        "of total Speed."
+      ],
+      "shiny": {
+        "id": "telos:armour/heavy/boots/ut-hypersonic-shiny",
+        "model": "telos:material/armour/heavy/boots/ut-hypersonic-shiny"
+      },
+      "classes": [
+        "Knight",
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:weapon/sword/ut-doom",
+      "name": "Sonic Doom",
+      "model": "telos:material/weapon/sword/ut-doom",
+      "type": "weapon/sword",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Resounding Ruins",
+        "icon": "telos:material/dungeon/resounding_ruins"
+      },
+      "stats": {
+        "Damage": "13",
+        "Range": "5",
+        "Slashes": "1",
+        "Pierces": "Yes",
+        "Cooldown": "0.4s"
+      },
+      "text": [
+        "Ability: This sword",
+        "auto-attacks without",
+        "the need to click as",
+        "long as a valid target",
+        "is in front of you.",
+        "After hitting 4 slashes,",
+        "your fifth attack will",
+        "summon a ghastly hand",
+        "that deals 3.3x damage",
+        "in a small AoE. You only",
+        "attack after",
+        "successfully targeting",
+        "an enemy."
+      ],
+      "classes": [
+        "Knight"
+      ]
+    },
+    {
+      "id": "telos:weapon/sword/ut-battleaxe",
+      "name": "Nebula's Battleaxe",
+      "model": "telos:material/weapon/sword/ut-battleaxe",
+      "type": "weapon/sword",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Rustborn Kingdom",
+        "icon": "telos:material/dungeon/shatters"
+      },
+      "stats": {
+        "Damage": "22.5",
+        "Range": "9",
+        "Shots": "1",
+        "Velocity": "25",
+        "Pierces": "Yes",
+        "Cooldown": "0.6s"
+      },
+      "text": [
+        "Ability: Projectile is a",
+        "throwing axe."
+      ],
+      "shiny": {
+        "id": "telos:weapon/sword/ut-battleaxe-shiny",
+        "model": "telos:material/weapon/sword/ut-battleaxe-shiny"
+      },
+      "classes": [
+        "Knight"
+      ]
+    },
+    {
+      "id": "telos:weapon/sword/ut-onyx",
+      "name": "Retribution",
+      "model": "telos:material/weapon/sword/ut-onyx",
+      "type": "weapon/sword",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Raph's Chamber",
+        "icon": "telos:material/dungeon/onyx"
+      },
+      "stats": {
+        "Damage": "70",
+        "Range": "4.5",
+        "Slashes": "1",
+        "Pierces": "Yes",
+        "Cooldown": "1.6s"
+      },
+      "text": [
+        "Ability: After hitting 2",
+        "slashes in a row, your",
+        "third attack will summon",
+        "a beam instead, dealing",
+        "1.4x damage. You only",
+        "attack after",
+        "successfully targeting",
+        "an enemy."
+      ],
+      "shiny": {
+        "id": "telos:weapon/sword/ut-onyx-shiny",
+        "model": "telos:material/weapon/sword/ut-onyx-shiny"
+      },
+      "classes": [
+        "Knight"
+      ]
+    },
+    {
+      "id": "telos:weapon/sword/ut-prominence",
+      "name": "Prominence",
+      "model": "telos:material/weapon/sword/ut-prominence",
+      "type": "weapon/sword",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Neo Eden",
+        "icon": "telos:material/dungeon/neo_eden"
+      },
+      "stats": {
+        "Damage": "142",
+        "Range": "6.5",
+        "Slashes": "1",
+        "Pierces": "Yes",
+        "Cooldown": "3s"
+      },
+      "text": [
+        "Ability: Summons a mace",
+        "that swings from left",
+        "to right (alternates)."
+      ],
+      "shiny": {
+        "id": "telos:weapon/sword/ut-prominence-shiny",
+        "model": "telos:material/weapon/sword/ut-prominence-shiny"
+      },
+      "classes": [
+        "Knight"
+      ]
+    },
+    {
+      "id": "telos:ability/shield/ut-torrent",
+      "name": "Oceanic Torrent",
+      "model": "telos:material/ability/shield/ut-torrent",
+      "type": "ability/shield",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Corsair's Conductorium",
+        "icon": "telos:material/dungeon/corsairs_conductorium"
+      },
+      "stats": {
+        "Damage": "5.5",
+        "Range": "8",
+        "Shots": "10",
+        "Velocity": "15",
+        "Pierces": "No",
+        "Cooldown": "12s"
+      },
+      "text": [
+        "Ability: Shoots a school of",
+        "fish. On hit, they will jump",
+        "from beneath an enemy and",
+        "deal 0.88x damage in a",
+        "small AoE then land, dealing",
+        "an additional 0.88x damage",
+        "in a small AoE or healing",
+        "you for 0.2 HP if you are",
+        "below 66% HP."
+      ],
+      "classes": [
+        "Knight"
+      ]
+    },
+    {
+      "id": "telos:ability/shield/ut-shrouded",
+      "name": "Shrouded Shield",
+      "model": "telos:material/ability/shield/ut-shrouded",
+      "type": "ability/shield",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Defender",
+        "icon": "telos:material/boss/defender"
+      },
+      "stats": {
+        "Damage": "25",
+        "Range": "5",
+        "Shots": "3",
+        "Velocity": "10",
+        "Pierces": "Yes",
+        "Cooldown": "10s"
+      },
+      "text": [
+        "Passive: Shoots a",
+        "barrage of",
+        "projectiles. For every",
+        "shield hit, spawn a",
+        "rotating shield for",
+        "1.0s that deals 1.0x",
+        "damage before",
+        "breaking."
+      ],
+      "shiny": {
+        "id": "telos:ability/shield/ut-shrouded-shiny",
+        "model": "telos:material/ability/shield/ut-shrouded-shiny"
+      },
+      "classes": [
+        "Knight"
+      ]
+    },
+    {
+      "id": "telos:ability/shield/ut-totalreflection",
+      "name": "Shield Of Total Reflection",
+      "model": "telos:material/ability/shield/ut-totalreflection",
+      "type": "ability/shield",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "stats": {
+        "Speed": "80",
+        "Invulnerability": "2s",
+        "Damage": "30",
+        "Range": "15",
+        "Cooldown": "11s"
+      },
+      "text": [
+        "Passive: Deals damage to the",
+        "nearest enemy upon taking",
+        "damage and spawns a shield",
+        "behind you (Max 3).",
+        "Ability: Grants Invulnerability and",
+        "Speed, and turns your shields",
+        "into an offensive stance. During",
+        "this stance, running through an",
+        "enemy deals 1.0x damage for",
+        "each shield owned. Colliding with",
+        "an enemy breaks the shields."
+      ],
+      "shiny": {
+        "id": "telos:ability/shield/ut-totalreflection-shiny",
+        "model": "telos:material/ability/shield/ut-totalreflection-shiny"
+      },
+      "classes": [
+        "Knight"
+      ]
+    },
+    {
+      "id": "telos:ability/emblem/ut-visage",
+      "name": "Visage Of The Night",
+      "model": "telos:material/ability/emblem/ut-visage",
+      "type": "ability/emblem",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Celestial's Province",
+        "icon": "telos:material/dungeon/celestials_province"
+      },
+      "stats": {
+        "Critical Chance": "10",
+        "Range": "4",
+        "Cooldown": "11s"
+      },
+      "text": [
+        "Passive: Buffs your",
+        "attack speed by +25%.",
+        "Ability: Buffs your attack",
+        "speed by 33% and",
+        "creates an aura that",
+        "buffs your allies' attack",
+        "speed by 25%. Grants",
+        "Critical Chance to",
+        "everyone buffed for",
+        "8.0s."
+      ],
+      "shiny": {
+        "id": "telos:ability/emblem/ut-visage-shiny",
+        "model": "telos:material/ability/emblem/ut-visage-shiny"
+      },
+      "classes": [
+        "Knight"
+      ]
+    },
+    {
+      "id": "telos:ability/emblem/ut-oblivion",
+      "name": "Oblivion's Reach",
+      "model": "telos:material/ability/emblem/ut-oblivion",
+      "type": "ability/emblem",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Tenebris",
+        "icon": "telos:material/dungeon/tenebris"
+      },
+      "stats": {
+        "Vitality": "15",
+        "Damage": "222",
+        "Range": "6",
+        "Cooldown": "12s"
+      },
+      "text": [
+        "Ability: Summon a voided",
+        "blade above you and",
+        "mark the closest",
+        "enemy within 2.5x",
+        "range blocks, forming",
+        "a bond with it. After",
+        "1.5s the blade falls,",
+        "granting allies in its",
+        "radius +25% attack",
+        "speed for 8.0s.",
+        "If you are caught in",
+        "the radius, lose 40% of",
+        "your current HP, gain",
+        "+33% attack speed for",
+        "8.0s and deal damage",
+        "to the marked enemy.",
+        "Otherwise the blade",
+        "deals 0.6x damage",
+        "where it lands, and you",
+        "gain +33% attack speed",
+        "for 6.0s and Vitality",
+        "for 8.0s."
+      ],
+      "classes": [
+        "Knight"
+      ]
+    },
+    {
+      "id": "telos:armour/light/helmet/ut-sentinel",
+      "name": "Custodian's Visor",
+      "model": "telos:material/armour/light/helmet/ut-sentinel",
+      "type": "armour/light/helmet",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Rustborn Kingdom",
+        "icon": "telos:material/dungeon/shatters"
+      },
+      "stats": {
+        "Health": "+2",
+        "Attack": "+10",
+        "Speed": "+11",
+        "Evasion": "+5",
+        "Critical Chance": "+10"
+      },
+      "shiny": {
+        "id": "telos:armour/light/helmet/ut-sentinel-shiny",
+        "model": "telos:material/armour/light/helmet/ut-sentinel-shiny"
+      },
+      "classes": [
+        "Assassin",
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:armour/light/helmet/ut-memories",
+      "name": "Hat Of Lost Memories",
+      "model": "telos:material/armour/light/helmet/ut-memories",
+      "type": "armour/light/helmet",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "stats": {
+        "Attack": "+8",
+        "Defense": "+16",
+        "Speed": "-12",
+        "Critical Chance": "+8",
+        "Range": "9",
+        "Shots": "1",
+        "Velocity": "25",
+        "Pierces": "Yes",
+        "Cooldown": "5s"
+      },
+      "text": [
+        "Ability: On ability use, lose",
+        "40% of your Speed for",
+        "4s, causing your next",
+        "main attack to fire an",
+        "explosive shot that deals",
+        "damage equal to the",
+        "Speed lost in a 0.75x",
+        "block radius."
+      ],
+      "shiny": {
+        "id": "telos:armour/light/helmet/ut-memories-shiny",
+        "model": "telos:material/armour/light/helmet/ut-memories-shiny"
+      },
+      "classes": [
+        "Assassin",
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:armour/light/chestplate/ut-reaper",
+      "name": "Reaper's Vest",
+      "model": "telos:material/armour/light/chestplate/ut-reaper",
+      "type": "armour/light/chestplate",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Reaper",
+        "icon": "telos:material/boss/reaper"
+      },
+      "stats": {
+        "Attack": "+13",
+        "Defense": "+12",
+        "Evasion": "+3",
+        "Critical Chance": "+7"
+      },
+      "classes": [
+        "Assassin",
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:armour/light/chestplate/ut-forbidden",
+      "name": "Forbidden Fleece",
+      "model": "telos:material/armour/light/chestplate/ut-forbidden",
+      "type": "armour/light/chestplate",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Neo Eden",
+        "icon": "telos:material/dungeon/neo_eden"
+      },
+      "stats": {
+        "Health": "+2",
+        "Speed": "+11",
+        "Evasion": "+10",
+        "Critical Chance": "+10",
+        "Damage": "2.5",
+        "Shots": "30",
+        "Pierces": "No",
+        "Cooldown": "7.5s"
+      },
+      "text": [
+        "Ability: After damaging",
+        "with your weapon, begin",
+        "to grow wings that",
+        "reach full size after 5",
+        "successful hits. At full",
+        "size, they will fire",
+        "projectiles at the",
+        "enemy every 0.75s",
+        "before dissipating."
+      ],
+      "classes": [
+        "Assassin",
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:armour/light/chestplate/ut-barter",
+      "name": "Blessed Barter",
+      "model": "telos:material/armour/light/chestplate/ut-barter",
+      "type": "armour/light/chestplate",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "stats": {
+        "Health": "+2",
+        "Defense": "+12",
+        "Speed": "+14",
+        "Vitality": "+6",
+        "Attack": "0.4"
+      },
+      "text": [
+        "Ability: Each point of",
+        "Vitality grants Attack",
+        "and 0.25% increased",
+        "weapon damage."
+      ],
+      "shiny": {
+        "id": "telos:armour/light/chestplate/ut-barter-shiny",
+        "model": "telos:material/armour/light/chestplate/ut-barter-shiny"
+      },
+      "classes": [
+        "Assassin",
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:armour/light/leggings/ut-onyx",
+      "name": "Bloodstrider",
+      "model": "telos:material/armour/light/leggings/ut-onyx",
+      "type": "armour/light/leggings",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Raph's Chamber",
+        "icon": "telos:material/dungeon/onyx"
+      },
+      "stats": {
+        "Attack": "+11",
+        "Defense": "+12",
+        "Speed": "+15",
+        "Critical Chance": "+7"
+      },
+      "shiny": {
+        "id": "telos:armour/light/leggings/ut-onyx-shiny",
+        "model": "telos:material/armour/light/leggings/ut-onyx-shiny"
+      },
+      "classes": [
+        "Assassin",
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:armour/light/boots/ut-nature",
+      "name": "Nature's Gift",
+      "model": "telos:material/armour/light/boots/ut-nature",
+      "type": "armour/light/boots",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Dreadwood Thicket",
+        "icon": "telos:material/dungeon/dreadwood_thicket"
+      },
+      "stats": {
+        "Health": "+2",
+        "Attack": "+6",
+        "Defense": "+7",
+        "Vitality": "+4",
+        "Heal": "9",
+        "Cooldown": "360s"
+      },
+      "text": [
+        "Ability: When below 30%",
+        "health, heal HP over",
+        "1.5s. Cooldown resets",
+        "upon changing worlds",
+        "or dungeons."
+      ],
+      "shiny": {
+        "id": "telos:armour/light/boots/ut-nature-shiny",
+        "model": "telos:material/armour/light/boots/ut-nature-shiny"
+      },
+      "classes": [
+        "Assassin",
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:armour/light/boots/ut-serpents",
+      "name": "Serpent's Soul",
+      "model": "telos:material/armour/light/boots/ut-serpents",
+      "type": "armour/light/boots",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Neo Eden",
+        "icon": "telos:material/dungeon/neo_eden"
+      },
+      "stats": {
+        "Attack": "+4",
+        "Speed": "+9",
+        "Evasion": "+5",
+        "Critical Chance": "+12",
+        "Critical Damage": "+10"
+      },
+      "classes": [
+        "Assassin",
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:armour/light/boots/ut-daybreak",
+      "name": "Daybreak Sandals",
+      "model": "telos:material/armour/light/boots/ut-daybreak",
+      "type": "armour/light/boots",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "stats": {
+        "Health": "+3",
+        "Attack": "+15",
+        "Speed": "+10",
+        "Evasion": "+6",
+        "Damage": "8",
+        "Range": "15",
+        "Cooldown": "10s"
+      },
+      "text": [
+        "Ability: Deal damage to",
+        "the nearest target",
+        "every 0.5s while",
+        "airborne. Lunge",
+        "forward upon sneaking",
+        "whilst airborne.",
+        "Alternatively, sneak 3",
+        "times in quick",
+        "succession to fling",
+        "yourself 5 blocks into",
+        "the air, then sneak",
+        "while airborne to",
+        "double jump."
+      ],
+      "shiny": {
+        "id": "telos:armour/light/boots/ut-daybreak-shiny",
+        "model": "telos:material/armour/light/boots/ut-daybreak-shiny"
+      },
+      "classes": [
+        "Assassin",
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:weapon/dagger/ut-poniard",
+      "name": "Valerion's Poniard",
+      "model": "telos:material/weapon/dagger/ut-poniard",
+      "type": "weapon/dagger",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Rustborn Kingdom",
+        "icon": "telos:material/dungeon/shatters"
+      },
+      "stats": {
+        "Damage": "10",
+        "Range": "10",
+        "Shots": "1",
+        "Velocity": "25",
+        "Pierces": "Yes",
+        "Cooldown": "0.6s"
+      },
+      "text": [
+        "Ability: Successful hits",
+        "inflict a DoT debuff that",
+        "deals 0.025 damage 6",
+        "times before exploding,",
+        "dealing 1.4x damage in a",
+        "4 block radius."
+      ],
+      "shiny": {
+        "id": "telos:weapon/dagger/ut-poniard-shiny",
+        "model": "telos:material/weapon/dagger/ut-poniard-shiny"
+      },
+      "classes": [
+        "Assassin"
+      ]
+    },
+    {
+      "id": "telos:weapon/dagger/ut-onyx",
+      "name": "Malice",
+      "model": "telos:material/weapon/dagger/ut-onyx",
+      "type": "weapon/dagger",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Raph's Chamber",
+        "icon": "telos:material/dungeon/onyx"
+      },
+      "stats": {
+        "Damage": "2.25",
+        "Range": "7",
+        "Velocity": "15",
+        "Pierces": "No"
+      },
+      "text": [
+        "Ability: This dagger",
+        "auto-attacks without",
+        "the need to click as",
+        "long as a valid target",
+        "is within range. Fire a",
+        "storm of daggers to",
+        "the nearest enemy."
+      ],
+      "shiny": {
+        "id": "telos:weapon/dagger/ut-onyx-shiny",
+        "model": "telos:material/weapon/dagger/ut-onyx-shiny"
+      },
+      "classes": [
+        "Assassin"
+      ]
+    },
+    {
+      "id": "telos:weapon/dagger/ut-six",
+      "name": "Category Six",
+      "model": "telos:material/weapon/dagger/ut-six",
+      "type": "weapon/dagger",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Neo Eden",
+        "icon": "telos:material/dungeon/neo_eden"
+      },
+      "stats": {
+        "Damage": "6",
+        "Range": "6",
+        "Shots": "6",
+        "Velocity": "20",
+        "Pierces": "No",
+        "Cooldown": "0.7s"
+      },
+      "shiny": {
+        "id": "telos:weapon/dagger/ut-six-shiny",
+        "model": "telos:material/weapon/dagger/ut-six-shiny"
+      },
+      "classes": [
+        "Assassin"
+      ]
+    },
+    {
+      "id": "telos:weapon/dagger/ut-lastrites",
+      "name": "Last Rites",
+      "model": "telos:material/weapon/dagger/ut-lastrites",
+      "type": "weapon/dagger",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "stats": {
+        "Damage": "36",
+        "Range": "8",
+        "Shots": "1",
+        "Velocity": "25",
+        "Pierces": "No",
+        "Cooldown": "1s"
+      },
+      "text": [
+        "Ability: Every 6th hit",
+        "dashes you into the",
+        "enemy for 0.7x damage",
+        "and summons a giant",
+        "dagger above them.",
+        "Crouch + attack as it",
+        "lands to Superbreak",
+        "for 2.6x damage in a 3",
+        "block radius and gain 2",
+        "Critical Damage (max",
+        "10). Missing or",
+        "switching weapons",
+        "resets it."
+      ],
+      "shiny": {
+        "id": "telos:weapon/dagger/ut-lastrites-shiny",
+        "model": "telos:material/weapon/dagger/ut-lastrites-shiny"
+      },
+      "classes": [
+        "Assassin"
+      ]
+    },
+    {
+      "id": "telos:ability/cloak/ut-darkness",
+      "name": "Cloak Of Ionised Darkness",
+      "model": "telos:material/ability/cloak/ut-darkness",
+      "type": "ability/cloak",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Anubis Lair",
+        "icon": "telos:material/dungeon/anubis_lair"
+      },
+      "stats": {
+        "Critical Chance": "10",
+        "Speed": "35",
+        "Invulnerability": "1s",
+        "Cooldown": "10s"
+      },
+      "text": [
+        "Ability: Makes you invisible for",
+        "6.0s. Grants Invulnerability and",
+        "summons a shadow clone at",
+        "your location. Reactivate while",
+        "invisible to teleport to the",
+        "clone and gain Invulnerability.",
+        "Grants Critical Chance and",
+        "Speed while invisible."
+      ],
+      "classes": [
+        "Assassin"
+      ]
+    },
+    {
+      "id": "telos:ability/cloak/ut-fire",
+      "name": "Afterburner",
+      "model": "telos:material/ability/cloak/ut-fire",
+      "type": "ability/cloak",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Defender",
+        "icon": "telos:material/boss/defender"
+      },
+      "stats": {
+        "Damage": "13",
+        "Range": "7",
+        "Flames": "2",
+        "Velocity": "20",
+        "Pierces": "Yes",
+        "Cooldown": "12s"
+      },
+      "text": [
+        "Passive: Summons 2",
+        "orbiting flames.",
+        "Ability: Makes you",
+        "invisible for 7.0s. Your",
+        "flames will now",
+        "additionally deal 0.1x",
+        "damage 4 times in a",
+        "small AoE. Upon leaving",
+        "invisibility, 2",
+        "projectiles are fired",
+        "dealing 3.6x damage."
+      ],
+      "shiny": {
+        "id": "telos:ability/cloak/ut-fire-shiny",
+        "model": "telos:material/ability/cloak/ut-fire-shiny"
+      },
+      "classes": [
+        "Assassin"
+      ]
+    },
+    {
+      "id": "telos:ability/cloak/ut-gust",
+      "name": "Gust Of Death",
+      "model": "telos:material/ability/cloak/ut-gust",
+      "type": "ability/cloak",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "stats": {
+        "Speed": "45",
+        "Attack": "25",
+        "Critical Chance": "20",
+        "Cooldown": "8s"
+      },
+      "text": [
+        "Passive: Makes you",
+        "invisible and grants",
+        "Speed. Taking damage or",
+        "attacking with your",
+        "weapon will remove these",
+        "effects and put you on",
+        "cooldown. As you leave",
+        "the invisibility, gain",
+        "Attack, Critical Chance",
+        "and Invisibility for 4.0s",
+        "and inflict Slowness on",
+        "enemies in a 7 block",
+        "radius for 1.5s."
+      ],
+      "shiny": {
+        "id": "telos:ability/cloak/ut-gust-shiny",
+        "model": "telos:material/ability/cloak/ut-gust-shiny"
+      },
+      "classes": [
+        "Assassin"
+      ]
+    },
+    {
+      "id": "telos:ability/poison/ut-heretics",
+      "name": "Blood Of The Heretics",
+      "model": "telos:material/ability/poison/ut-heretics",
+      "type": "ability/poison",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Celestial's Province",
+        "icon": "telos:material/dungeon/celestials_province"
+      },
+      "stats": {
+        "Damage": "75",
+        "Range": "18",
+        "Velocity": "25",
+        "Cooldown": "11s"
+      },
+      "text": [
+        "Ability: Instantly deals",
+        "damage to the target and",
+        "inflicts a poison effect to",
+        "enemies dealing 1.2x",
+        "damage over 4s (6 ticks)."
+      ],
+      "shiny": {
+        "id": "telos:ability/poison/ut-heretics-shiny",
+        "model": "telos:material/ability/poison/ut-heretics-shiny"
+      },
+      "classes": [
+        "Assassin"
+      ]
+    },
+    {
+      "id": "telos:ability/poison/ut-panacea",
+      "name": "Crystal Panacea",
+      "model": "telos:material/ability/poison/ut-panacea",
+      "type": "ability/poison",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "stats": {
+        "Damage": "75",
+        "Range": "15",
+        "Velocity": "15",
+        "Defense": "1.5",
+        "Cooldown": "6s"
+      },
+      "text": [
+        "Ability: Inflicts a poison",
+        "effect to enemies in a",
+        "0.5x block radius for",
+        "5s (5 ticks). Upon the",
+        "fifth tick of poison",
+        "expiring, turn into a",
+        "half-crystal hybrid",
+        "for 6s.",
+        "While a hybrid, each",
+        "tick of poison deals an",
+        "extra instance of",
+        "damage, dealing 0.04x",
+        "of the tick's damage in",
+        "a 0.2x radius and",
+        "granting you Defense",
+        "for 5s."
+      ],
+      "shiny": {
+        "id": "telos:ability/poison/ut-panacea-shiny",
+        "model": "telos:material/ability/poison/ut-panacea-shiny"
+      },
+      "classes": [
+        "Assassin"
+      ]
+    },
+    {
+      "id": "telos:weapon/katana/ut-bane",
+      "name": "Valerion's Bane",
+      "model": "telos:material/weapon/katana/ut-bane",
+      "type": "weapon/katana",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Rustborn Kingdom",
+        "icon": "telos:material/dungeon/shatters"
+      },
+      "stats": {
+        "Damage": "24",
+        "Range": "5",
+        "Slashes": "2",
+        "Pierces": "Yes",
+        "Cooldown": "1.2s"
+      },
+      "text": [
+        "Ability: After hitting 4",
+        "slashes in a row, your",
+        "next attack will instead",
+        "summon 4 light swords",
+        "from the ground, dealing",
+        "0.7x damage each and",
+        "paralyzing enemies for",
+        "1.0s. You only attack",
+        "after successfully",
+        "targeting an enemy."
+      ],
+      "shiny": {
+        "id": "telos:weapon/katana/ut-bane-shiny",
+        "model": "telos:material/weapon/katana/ut-bane-shiny"
+      },
+      "classes": [
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:weapon/katana/ut-onyx",
+      "name": "Reikon",
+      "model": "telos:material/weapon/katana/ut-onyx",
+      "type": "weapon/katana",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Raph's Chamber",
+        "icon": "telos:material/dungeon/onyx"
+      },
+      "stats": {
+        "Damage": "18",
+        "Range": "9",
+        "Shots": "4",
+        "Velocity": "25",
+        "Pierces": "No",
+        "Cooldown": "1.8s"
+      },
+      "shiny": {
+        "id": "telos:weapon/katana/ut-onyx-shiny",
+        "model": "telos:material/weapon/katana/ut-onyx-shiny"
+      },
+      "classes": [
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:weapon/katana/ut-dawnbringer",
+      "name": "Dawnbringer",
+      "model": "telos:material/weapon/katana/ut-dawnbringer",
+      "type": "weapon/katana",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Warden",
+        "icon": "telos:material/boss/warden"
+      },
+      "stats": {
+        "Damage": "15.5",
+        "Range": "6",
+        "Shots": "2",
+        "Velocity": "25",
+        "Pierces": "Yes",
+        "Cooldown": "0.6s"
+      },
+      "text": [
+        "Ability: Projectiles are",
+        "axeheads that follow a",
+        "specific pattern."
+      ],
+      "classes": [
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:weapon/katana/ut-nachash",
+      "name": "Nachash Of The First Lie",
+      "model": "telos:material/weapon/katana/ut-nachash",
+      "type": "weapon/katana",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Neo Eden",
+        "icon": "telos:material/dungeon/neo_eden"
+      },
+      "stats": {
+        "Damage": "16.5",
+        "Range": "6.5",
+        "Slashes": "1",
+        "Pierces": "Yes",
+        "Cooldown": "0.6s"
+      },
+      "text": [
+        "Ability: After landing 2 hits",
+        "within 1.0s, summon snakes",
+        "that deal 0.2x damage a total",
+        "of 8 times. You only attack",
+        "after successfully targeting",
+        "an enemy."
+      ],
+      "shiny": {
+        "id": "telos:weapon/katana/ut-nachash-shiny",
+        "model": "telos:material/weapon/katana/ut-nachash-shiny"
+      },
+      "classes": [
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:ability/kunai/ut-key",
+      "name": "Master's Key",
+      "model": "telos:material/ability/kunai/ut-key",
+      "type": "ability/kunai",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Cog Sentinel",
+        "icon": "telos:material/boss/cog_sentinel"
+      },
+      "stats": {
+        "Defense": "10",
+        "Evasion": "10",
+        "Damage": "7.5",
+        "Range": "8",
+        "Shots": "3",
+        "Velocity": "20",
+        "Pierces": "Yes",
+        "Cooldown": "11s"
+      },
+      "text": [
+        "Ability: Shoots kunai",
+        "projectiles that",
+        "explode at max range",
+        "(dealing 1.5x damage in",
+        "a 0.4 block radius) and",
+        "leave a soulfire zone",
+        "with a 1.25x block",
+        "radius. Enemies hit are",
+        "marked, causing your",
+        "katana to deal +20%",
+        "damage for 5.0s.",
+        "Standing in the soulfire",
+        "zone grants invisibility,",
+        "Defense, and Evasion",
+        "for 7s."
+      ],
+      "classes": [
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:ability/star/ut-resurgence",
+      "name": "Resurgence",
+      "model": "telos:material/ability/star/ut-resurgence",
+      "type": "ability/star",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Aviary",
+        "icon": "telos:material/dungeon/aviary"
+      },
+      "stats": {
+        "Damage": "100",
+        "Range": "10",
+        "Shots": "1",
+        "Velocity": "20",
+        "Pierces": "No",
+        "Cooldown": "10s"
+      },
+      "text": [
+        "Ability: Shoots a star",
+        "projectile that splits",
+        "into 4 shots that",
+        "converge onto a",
+        "target, each dealing",
+        "0.08x damage."
+      ],
+      "classes": [
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:ability/star/ut-plan",
+      "name": "Plan B",
+      "model": "telos:material/ability/star/ut-plan",
+      "type": "ability/star",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Valley of the Lost",
+        "icon": "telos:material/dungeon/valley_of_the_lost"
+      },
+      "stats": {
+        "Attack": "12",
+        "Damage": "11.5",
+        "Range": "7",
+        "Velocity": "20",
+        "Pierces": "No",
+        "Cooldown": "4s"
+      },
+      "text": [
+        "Passive: Have a chance",
+        "to gain and store a",
+        "star every weapon hit",
+        "at the same rate as",
+        "your Critical Chance",
+        "whenever hitting an",
+        "enemy with your main",
+        "attack (Max 5).",
+        "Ability: Shoot all star",
+        "projectiles that have",
+        "been stored. If at max",
+        "stacks, grants Attack",
+        "and negative -0.15",
+        "Health per second for",
+        "10.0s. Duration",
+        "refreshes and stats",
+        "stack if used again at",
+        "max stacks. (Crouching",
+        "whilst activating the",
+        "ability will remove all",
+        "past stacks)"
+      ],
+      "shiny": {
+        "id": "telos:ability/star/ut-plan-shiny",
+        "model": "telos:material/ability/star/ut-plan-shiny"
+      },
+      "classes": [
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:ability/kunai/ut-feathers",
+      "name": "Feathers Of The Seraph",
+      "model": "telos:material/ability/kunai/ut-feathers",
+      "type": "ability/kunai",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Seraph's Domain",
+        "icon": "telos:material/dungeon/hardmode_celestials_province"
+      },
+      "stats": {
+        "Damage": "8",
+        "Range": "6",
+        "Shots": "5",
+        "Velocity": "25",
+        "Pierces": "Yes",
+        "Cooldown": "8s"
+      },
+      "text": [
+        "Ability: Shoots kunai",
+        "projectiles that pause then",
+        "return to you at max range.",
+        "Enemies hit are marked,",
+        "causing your katana to deal",
+        "+20% damage to them for",
+        "3.5s."
+      ],
+      "shiny": {
+        "id": "telos:ability/kunai/ut-feathers-shiny",
+        "model": "telos:material/ability/kunai/ut-feathers-shiny"
+      },
+      "classes": [
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:ability/kunai/ut-worlds",
+      "name": "Conflicting Worlds",
+      "model": "telos:material/ability/kunai/ut-worlds",
+      "type": "ability/kunai",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "stats": {
+        "Damage": "30",
+        "Range": "6",
+        "Shots": "1",
+        "Velocity": "35",
+        "Pierces": "Yes",
+        "Cooldown": "10s"
+      },
+      "text": [
+        "Ability: Shoots a kunai",
+        "projectile that returns",
+        "to you at max range and",
+        "deals 1.4x damage. The",
+        "returning shot of the",
+        "kunai summons a piece",
+        "of another world",
+        "dropped on the enemy",
+        "hit dealing 0.8x damage,",
+        "and 0.5x damage to",
+        "other enemies in a 0.5x",
+        "radius. Enemies hit by",
+        "the returning shot are",
+        "also marked, causing",
+        "your katana to deal",
+        "+20% damage to them for",
+        "4.0s."
+      ],
+      "shiny": {
+        "id": "telos:ability/kunai/ut-worlds-shiny",
+        "model": "telos:material/ability/kunai/ut-worlds-shiny"
+      },
+      "classes": [
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:armour/magical/helmet/ut-mage",
+      "name": "Archon's Glare",
+      "model": "telos:material/armour/magical/helmet/ut-mage",
+      "type": "armour/magical/helmet",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Rustborn Kingdom",
+        "icon": "telos:material/dungeon/shatters"
+      },
+      "stats": {
+        "Attack": "+17",
+        "Defense": "+9",
+        "Speed": "+10",
+        "Critical Chance": "+10"
+      },
+      "shiny": {
+        "id": "telos:armour/magical/helmet/ut-mage-shiny",
+        "model": "telos:material/armour/magical/helmet/ut-mage-shiny"
+      },
+      "classes": [
+        "Necromancer",
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:armour/magical/helmet/ut-nightfall",
+      "name": "Nightfall",
+      "model": "telos:material/armour/magical/helmet/ut-nightfall",
+      "type": "armour/magical/helmet",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "stats": {
+        "Defense": "50",
+        "Speed": "20",
+        "Evasion": "+5",
+        "Vitality": "+6",
+        "Range": "8",
+        "Cooldown": "30s"
+      },
+      "text": [
+        "Ability: Upon falling",
+        "below 50% HP, cover",
+        "the area around you",
+        "in shadows for 4s.",
+        "While inside the",
+        "shadows you are",
+        "invisible and gain",
+        "Defense and Speed."
+      ],
+      "shiny": {
+        "id": "telos:armour/magical/helmet/ut-nightfall-shiny",
+        "model": "telos:material/armour/magical/helmet/ut-nightfall-shiny"
+      },
+      "classes": [
+        "Necromancer",
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:armour/magical/chestplate/ut-dusk",
+      "name": "Mantle Of The Last Dusk",
+      "model": "telos:material/armour/magical/chestplate/ut-dusk",
+      "type": "armour/magical/chestplate",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Midnight Stronghold",
+        "icon": "telos:material/dungeon/midnight_stronghold"
+      },
+      "stats": {
+        "Health": "+3",
+        "Attack": "+15",
+        "Defense": "+7",
+        "Critical Damage": "+6"
+      },
+      "classes": [
+        "Necromancer",
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:armour/magical/chestplate/ut-spiritbloom",
+      "name": "Spiritbloom Gown",
+      "model": "telos:material/armour/magical/chestplate/ut-spiritbloom",
+      "type": "armour/magical/chestplate",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Dreadwood Thicket",
+        "icon": "telos:material/dungeon/dreadwood_thicket"
+      },
+      "stats": {
+        "Speed": "+16",
+        "Evasion": "+4",
+        "Vitality": "+5",
+        "Critical Chance": "+12"
+      },
+      "text": [
+        "Ability: Adds a 1.45x",
+        "multiplier to all",
+        "off-hand ability damage."
+      ],
+      "shiny": {
+        "id": "telos:armour/magical/chestplate/ut-spiritbloom-shiny",
+        "model": "telos:material/armour/magical/chestplate/ut-spiritbloom-shiny"
+      },
+      "classes": [
+        "Necromancer",
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:armour/magical/leggings/ut-shadow",
+      "name": "Shadow Silk",
+      "model": "telos:material/armour/magical/leggings/ut-shadow",
+      "type": "armour/magical/leggings",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Tenebris",
+        "icon": "telos:material/dungeon/tenebris"
+      },
+      "stats": {
+        "Attack": "+6",
+        "Defense": "+7",
+        "Evasion": "+5",
+        "Critical Chance": "+11",
+        "Damage": "87.5",
+        "Range": "15",
+        "Shots": "1",
+        "Pierces": "Yes",
+        "Cooldown": "15s"
+      },
+      "text": [
+        "Ability: Sneak 3 times in",
+        "quick succession to",
+        "summon a voided beam",
+        "that will slam down in",
+        "front of you."
+      ],
+      "classes": [
+        "Necromancer",
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:armour/magical/leggings/ut-glory",
+      "name": "Leggings Of False Glory",
+      "model": "telos:material/armour/magical/leggings/ut-glory",
+      "type": "armour/magical/leggings",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Neo Eden",
+        "icon": "telos:material/dungeon/neo_eden"
+      },
+      "stats": {
+        "Health": "+2",
+        "Attack": "+12",
+        "Speed": "+10",
+        "Vitality": "+4",
+        "Heal": "0.03",
+        "Damage": "0.6"
+      },
+      "text": [
+        "Ability: On ability use, start",
+        "gaining electric charge for",
+        "15.0s or until you stop",
+        "sprinting or using your ability",
+        "again. After that, deal damage",
+        "and heal HP for every 0.1s.",
+        "Using your ability before the",
+        "time is up will force it to",
+        "activate and restart the",
+        "charge cycle."
+      ],
+      "classes": [
+        "Necromancer",
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:armour/magical/leggings/ut-deepnorth",
+      "name": "Deep North's Breeze",
+      "model": "telos:material/armour/magical/leggings/ut-deepnorth",
+      "type": "armour/magical/leggings",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "stats": {
+        "Defense": "+13",
+        "Speed": "12",
+        "Vitality": "+6",
+        "Critical Damage": "6",
+        "Range": "8",
+        "Cooldown": "10s"
+      },
+      "text": [
+        "Ability: Taking damage",
+        "inflicts slowness to",
+        "enemies for 4s and",
+        "applies Brittle. Hitting a",
+        "Brittle enemy with your",
+        "weapon shatters it into",
+        "snow, leaving a frozen",
+        "field on it that grants",
+        "nearby players Speed",
+        "and Critical Damage for",
+        "5s."
+      ],
+      "shiny": {
+        "id": "telos:armour/magical/leggings/ut-deepnorth-shiny",
+        "model": "telos:material/armour/magical/leggings/ut-deepnorth-shiny"
+      },
+      "classes": [
+        "Necromancer",
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:armour/magical/boots/ut-onyx",
+      "name": "Rueforge",
+      "model": "telos:material/armour/magical/boots/ut-onyx",
+      "type": "armour/magical/boots",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Raph's Chamber",
+        "icon": "telos:material/dungeon/onyx"
+      },
+      "stats": {
+        "Health": "+2",
+        "Attack": "+16",
+        "Defense": "+6",
+        "Critical Chance": "+11"
+      },
+      "shiny": {
+        "id": "telos:armour/magical/boots/ut-onyx-shiny",
+        "model": "telos:material/armour/magical/boots/ut-onyx-shiny"
+      },
+      "classes": [
+        "Necromancer",
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:armour/magical/boots/ut-repentance",
+      "name": "Repentance",
+      "model": "telos:material/armour/magical/boots/ut-repentance",
+      "type": "armour/magical/boots",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Celestial's Province",
+        "icon": "telos:material/dungeon/celestials_province"
+      },
+      "stats": {
+        "Speed": "+14",
+        "Critical Chance": "+7",
+        "Damage": "300",
+        "Cooldown": "15s"
+      },
+      "text": [
+        "Ability: After damaging",
+        "with your weapon, begin",
+        "the formation of a",
+        "pentagram over 15s. On",
+        "ability use with a",
+        "fully-formed",
+        "pentagram, it will",
+        "detonate in a 6 block",
+        "radius.",
+        "Warning: Deals 66% of",
+        "your current HP if",
+        "caught in the radius."
+      ],
+      "classes": [
+        "Necromancer",
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:weapon/staff/ut-onyx",
+      "name": "Martyr",
+      "model": "telos:material/weapon/staff/ut-onyx",
+      "type": "weapon/staff",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Raph's Chamber",
+        "icon": "telos:material/dungeon/onyx"
+      },
+      "stats": {
+        "Damage": "12.25",
+        "Range": "10",
+        "Shots": "3",
+        "Velocity": "20",
+        "Pierces": "Yes",
+        "Cooldown": "1s"
+      },
+      "text": [
+        "Ability: Summons a",
+        "stream of projectiles",
+        "that travel upwards. It",
+        "will fire the attack",
+        "below valid targets in",
+        "front of you,",
+        "otherwise firing them",
+        "at the maximum range."
+      ],
+      "shiny": {
+        "id": "telos:weapon/staff/ut-onyx-shiny",
+        "model": "telos:material/weapon/staff/ut-onyx-shiny"
+      },
+      "classes": [
+        "Necromancer"
+      ]
+    },
+    {
+      "id": "telos:weapon/staff/ut-echo",
+      "name": "Echolurkator",
+      "model": "telos:material/weapon/staff/ut-echo",
+      "type": "weapon/staff",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Resounding Ruins",
+        "icon": "telos:material/dungeon/resounding_ruins"
+      },
+      "stats": {
+        "Damage": "10.5",
+        "Range": "14",
+        "Shots": "1",
+        "Velocity": "30",
+        "Pierces": "Yes",
+        "Cooldown": "0.5s"
+      },
+      "text": [
+        "Ability: Instead of firing",
+        "a projectile, summon a",
+        "row of echo spikes",
+        "from the ground. An",
+        "enemy can be hit by",
+        "these spikes up to 4",
+        "times every 1.0s."
+      ],
+      "classes": [
+        "Necromancer"
+      ]
+    },
+    {
+      "id": "telos:weapon/staff/ut-destination",
+      "name": "Final Destination",
+      "model": "telos:material/weapon/staff/ut-destination",
+      "type": "weapon/staff",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Rustborn Kingdom",
+        "icon": "telos:material/dungeon/shatters"
+      },
+      "stats": {
+        "Damage": "2",
+        "Range": "9",
+        "Shots": "44",
+        "Velocity": "20",
+        "Pierces": "No",
+        "Cooldown": "2s"
+      },
+      "shiny": {
+        "id": "telos:weapon/staff/ut-destination-shiny",
+        "model": "telos:material/weapon/staff/ut-destination-shiny"
+      },
+      "classes": [
+        "Necromancer"
+      ]
+    },
+    {
+      "id": "telos:weapon/staff/ut-pentecost",
+      "name": "Flames Of Pentecost",
+      "model": "telos:material/weapon/staff/ut-pentecost",
+      "type": "weapon/staff",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Neo Eden",
+        "icon": "telos:material/dungeon/neo_eden"
+      },
+      "stats": {
+        "Damage": "18",
+        "Range": "8",
+        "Shots": "5",
+        "Velocity": "20",
+        "Pierces": "No",
+        "Cooldown": "2.4s"
+      },
+      "text": [
+        "Ability: After hitting all 5",
+        "shots, create an",
+        "explosion that deals 1.4x",
+        "damage in a 1.0x block",
+        "radius."
+      ],
+      "shiny": {
+        "id": "telos:weapon/staff/ut-pentecost-shiny",
+        "model": "telos:material/weapon/staff/ut-pentecost-shiny"
+      },
+      "classes": [
+        "Necromancer"
+      ]
+    },
+    {
+      "id": "telos:ability/skull/ut-terrarium",
+      "name": "Cranium Terrarium",
+      "model": "telos:material/ability/skull/ut-terrarium",
+      "type": "ability/skull",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Illarius' Hideout",
+        "icon": "telos:material/dungeon/illarius_hideout"
+      },
+      "stats": {
+        "Vitality": "6",
+        "Damage": "3",
+        "Range": "22",
+        "Velocity": "15",
+        "Pierces": "No",
+        "Cooldown": "15s"
+      },
+      "text": [
+        "Ability: Summons 5 ent",
+        "minions that disappear",
+        "after 15s.",
+        "Archer:",
+        "5.0x DMG/3.0s (4",
+        "attacks)",
+        "Mage:",
+        "4.5x DMG/2.0s (5",
+        "attacks)",
+        "Melee:",
+        "1.0x DMG/2.0s (5",
+        "attacks, 2 hits each)",
+        "Paladin:",
+        "3.0x DMG/5.0s (1",
+        "attack, 5 hits)",
+        "Entling:",
+        "Vitality to players in",
+        "0.6x range"
+      ],
+      "classes": [
+        "Necromancer"
+      ]
+    },
+    {
+      "id": "telos:ability/skull/ut-usnea",
+      "name": "Usnea",
+      "model": "telos:material/ability/skull/ut-usnea",
+      "type": "ability/skull",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Dreadwood Thicket",
+        "icon": "telos:material/dungeon/dreadwood_thicket"
+      },
+      "stats": {
+        "Damage": "4",
+        "Range": "20",
+        "Velocity": "20",
+        "Summons": "3",
+        "Pierces": "No",
+        "Cooldown": "10s"
+      },
+      "text": [
+        "Ability: Summons ram",
+        "riders that disappear",
+        "after 15s or after 4",
+        "attacks which have a",
+        "2.5s CD between each",
+        "throw, each hit dealing",
+        "1.5x damage. When",
+        "expiring, the ram rider",
+        "will charge towards the",
+        "nearest enemy dealing",
+        "5.0x damage in a small",
+        "AoE and spawning a",
+        "totem that deals 0.6x",
+        "damage every 0.5s in a",
+        "0.25x range and",
+        "despawning after 5",
+        "waves."
+      ],
+      "shiny": {
+        "id": "telos:ability/skull/ut-usnea-shiny",
+        "model": "telos:material/ability/skull/ut-usnea-shiny"
+      },
+      "classes": [
+        "Necromancer"
+      ]
+    },
+    {
+      "id": "telos:ability/skull/ut-epitome",
+      "name": "Empyrean Epitome",
+      "model": "telos:material/ability/skull/ut-epitome",
+      "type": "ability/skull",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Seraph's Domain",
+        "icon": "telos:material/dungeon/hardmode_celestials_province"
+      },
+      "stats": {
+        "Critical Chance": "15",
+        "Evasion": "10",
+        "Damage": "5.5",
+        "Range": "24",
+        "Velocity": "15",
+        "Summons": "3",
+        "Pierces": "No",
+        "Cooldown": "8s"
+      },
+      "text": [
+        "Ability: Summons 3",
+        "seraphim that disappear",
+        "after 15s.",
+        "Ranger:",
+        "2.0x DMG/2.5s (2x)",
+        "Striker:",
+        "2.25x DMG (4x)",
+        "Buffer:",
+        "Critical chance and",
+        "evasion to players in a",
+        "0.4x range radius.",
+        "When a mob is expiring it",
+        "will shoot a beam to the",
+        "nearest enemy dealing",
+        "2.0x damage over 1s to",
+        "enemies in a 1.0x block",
+        "range"
+      ],
+      "shiny": {
+        "id": "telos:ability/skull/ut-epitome-shiny",
+        "model": "telos:material/ability/skull/ut-epitome-shiny"
+      },
+      "classes": [
+        "Necromancer"
+      ]
+    },
+    {
+      "id": "telos:ability/scripture/ut-blessing",
+      "name": "Sun's Blessing",
+      "model": "telos:material/ability/scripture/ut-blessing",
+      "type": "ability/scripture",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Aurora Sanctum",
+        "icon": "telos:material/dungeon/aurora_sanctum"
+      },
+      "stats": {
+        "Defense": "10",
+        "Vitality": "10",
+        "Attack": "10",
+        "Heal": "6",
+        "Damage": "70",
+        "Range": "7",
+        "Pierces": "No",
+        "Cooldown": "10s"
+      },
+      "text": [
+        "Ability: Passively",
+        "summons 2 mirrors at",
+        "your sides. On use if",
+        "crouching, the mirrors",
+        "shoots an explosion",
+        "forward forming a 1.1x",
+        "range block AoE and",
+        "healing yourself 0.9x",
+        "heal and nearby",
+        "players within that",
+        "radius at a 50% rate.",
+        "If a player is healed",
+        "by you from this, gain",
+        "Attack for 5s. If",
+        "you're not crouching,",
+        "heal yourself and",
+        "rotate the mirrors",
+        "around you and shine",
+        "a beam that deals",
+        "0.15x damage to",
+        "enemies and grants",
+        "allies Defense for 10s",
+        "and Vitality for 5s and",
+        "heal them for 50% of",
+        "your heal."
+      ],
+      "classes": [
+        "Necromancer"
+      ]
+    },
+    {
+      "id": "telos:ability/scripture/ut-one",
+      "name": "All For One",
+      "model": "telos:material/ability/scripture/ut-one",
+      "type": "ability/scripture",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Valley of the Lost",
+        "icon": "telos:material/dungeon/valley_of_the_lost"
+      },
+      "stats": {
+        "Defense": "8",
+        "Evasion": "7.5",
+        "Vitality": "7.5",
+        "Critical Damage": "2",
+        "Invulnerability": "2s",
+        "Heal": "5",
+        "Range": "10",
+        "Cooldown": "12s"
+      },
+      "text": [
+        "Ability: Immediately heal",
+        "yourself and nearby",
+        "allies at a 50% rate, on",
+        "top of marking them. If",
+        "these players shift",
+        "three times in quick",
+        "succession whilst",
+        "looking up, they will be",
+        "teleported to you and",
+        "gain Invulnerability as",
+        "well as Defense,",
+        "Evasion and Vitality for",
+        "10.0s. You will also be",
+        "granted Critical Damage",
+        "for each player that",
+        "was marked and 0.5x",
+        "Defense for each",
+        "player that used the",
+        "rift for 7.0s (Max 8",
+        "allies, allies have a",
+        "10.0s CD for marking)"
+      ],
+      "shiny": {
+        "id": "telos:ability/scripture/ut-one-shiny",
+        "model": "telos:material/ability/scripture/ut-one-shiny"
+      },
+      "classes": [
+        "Necromancer"
+      ]
+    },
+    {
+      "id": "telos:weapon/bow/ut-amethyst",
+      "name": "Amethyst Wormpiercer",
+      "model": "telos:material/weapon/bow/ut-amethyst",
+      "type": "weapon/bow",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Fungal Cavern",
+        "icon": "telos:material/dungeon/fungal_cavern"
+      },
+      "stats": {
+        "Damage": "80",
+        "Range": "12",
+        "Shots": "1",
+        "Velocity": "25",
+        "Pierces": "No",
+        "Cooldown": "2s"
+      },
+      "text": [
+        "Ability: After sneaking for",
+        "2.0s, your next shot will",
+        "become a piercing laser",
+        "with 1.2x range that deals",
+        "1.3x damage. You may store",
+        "up to 3 empowered shots."
+      ],
+      "classes": [
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:weapon/bow/ut-onyx",
+      "name": "Rapture",
+      "model": "telos:material/weapon/bow/ut-onyx",
+      "type": "weapon/bow",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Raph's Chamber",
+        "icon": "telos:material/dungeon/onyx"
+      },
+      "stats": {
+        "Damage": "17.75",
+        "Range": "10",
+        "Shots": "1",
+        "Velocity": "35",
+        "Pierces": "Yes",
+        "Cooldown": "0.8s"
+      },
+      "text": [
+        "Ability: Projectile will",
+        "return to you at max",
+        "range and deals",
+        "damage a second time."
+      ],
+      "shiny": {
+        "id": "telos:weapon/bow/ut-onyx-shiny",
+        "model": "telos:material/weapon/bow/ut-onyx-shiny"
+      },
+      "classes": [
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:weapon/bow/ut-oracle",
+      "name": "Oracle's End",
+      "model": "telos:material/weapon/bow/ut-oracle",
+      "type": "weapon/bow",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Rustborn Kingdom",
+        "icon": "telos:material/dungeon/shatters"
+      },
+      "stats": {
+        "Damage": "11.25",
+        "Range": "8.5",
+        "Shots": "1",
+        "Velocity": "20",
+        "Pierces": "No",
+        "Cooldown": "0.9s"
+      },
+      "text": [
+        "Ability: Projectile marks a",
+        "target without dealing",
+        "damage, summoning 4",
+        "homing arrows to damage",
+        "the target."
+      ],
+      "shiny": {
+        "id": "telos:weapon/bow/ut-oracle-shiny",
+        "model": "telos:material/weapon/bow/ut-oracle-shiny"
+      },
+      "classes": [
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:weapon/bow/ut-searah",
+      "name": "Se'arah",
+      "model": "telos:material/weapon/bow/ut-searah",
+      "type": "weapon/bow",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Neo Eden",
+        "icon": "telos:material/dungeon/neo_eden"
+      },
+      "stats": {
+        "Damage": "3.5",
+        "Range": "7",
+        "Shots": "5",
+        "Velocity": "15",
+        "Pierces": "No",
+        "Cooldown": "1.2s"
+      },
+      "text": [
+        "Ability: Projectiles are",
+        "tornadoes that pause",
+        "at max range or upon",
+        "hitting an enemy,",
+        "gaining a lifetime of",
+        "5.0s and dealing an",
+        "additional 0.6x damage",
+        "every 1.0s."
+      ],
+      "shiny": {
+        "id": "telos:weapon/bow/ut-searah-shiny",
+        "model": "telos:material/weapon/bow/ut-searah-shiny"
+      },
+      "classes": [
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:weapon/bow/ut-keraunos",
+      "name": "Keraunos",
+      "model": "telos:material/weapon/bow/ut-keraunos",
+      "type": "weapon/bow",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "stats": {
+        "Damage": "6",
+        "Range": "8",
+        "Shots": "5",
+        "Velocity": "35",
+        "Pierces": "No",
+        "Cooldown": "1s"
+      },
+      "text": [
+        "Ability: Hitting all 5",
+        "shots summons a",
+        "lightning strike on the",
+        "enemy, dealing 2.0x",
+        "damage in a 3.0 block",
+        "radius and inflicting",
+        "Electric Shock for 2.0s,",
+        "causing enemies to gain",
+        "Slowness and take 0.2x",
+        "damage every 0.4s."
+      ],
+      "shiny": {
+        "id": "telos:weapon/bow/ut-keraunos-shiny",
+        "model": "telos:material/weapon/bow/ut-keraunos-shiny"
+      },
+      "classes": [
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:ability/trap/ut-blackhole",
+      "name": "Black Hole Singularity",
+      "model": "telos:material/ability/trap/ut-blackhole",
+      "type": "ability/trap",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Omnipotent's Citadel",
+        "icon": "telos:material/dungeon/omnipotents_citadel"
+      },
+      "stats": {
+        "Attack": "10",
+        "Damage": "16.5",
+        "Range": "20",
+        "Velocity": "15",
+        "Cooldown": "12s"
+      },
+      "text": [
+        "Ability: Inflicts paralysis to",
+        "enemies in a 0.25x block",
+        "radius while doing Damage",
+        "over Time over 4 seconds,",
+        "the 4th hit dealing 6.66x",
+        "damage. Also gives attack",
+        "for 5s when thrown."
+      ],
+      "classes": [
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:ability/trap/ut-last",
+      "name": "Last Stand",
+      "model": "telos:material/ability/trap/ut-last",
+      "type": "ability/trap",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Herald",
+        "icon": "telos:material/boss/herald"
+      },
+      "stats": {
+        "Damage": "11.5",
+        "Range": "20",
+        "Velocity": "15",
+        "Cooldown": "14s"
+      },
+      "text": [
+        "Ability: Throws a trap",
+        "that effects the",
+        "nearest target.",
+        "Inflicting slowness for",
+        "4.0s. Summons 4",
+        "projectiles that rotate",
+        "around the enemy for",
+        "3.5s, gaining an extra",
+        "+1.5x damage every",
+        "1.0s they are active",
+        "(max +4.5x damage).",
+        "Reactivate while",
+        "projectiles are active",
+        "to slam them into the",
+        "enemy."
+      ],
+      "classes": [
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:ability/trap/ut-arrowhurricane",
+      "name": "Arrowhurricane Trap",
+      "model": "telos:material/ability/trap/ut-arrowhurricane",
+      "type": "ability/trap",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "stats": {
+        "Damage": "6.5",
+        "Range": "15",
+        "Velocity": "25",
+        "Cooldown": "10s"
+      },
+      "text": [
+        "Ability: Throws a trap that",
+        "paralyzes targets in a",
+        "0.25x block radius for",
+        "2.5s and summons a",
+        "voided rain storm that",
+        "follows the enemy, dealing",
+        "damage every 0.2s for",
+        "5.0s in a 0.4x block",
+        "radius."
+      ],
+      "shiny": {
+        "id": "telos:ability/trap/ut-arrowhurricane-shiny",
+        "model": "telos:material/ability/trap/ut-arrowhurricane-shiny"
+      },
+      "classes": [
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:ability/bomb/ut-desperado",
+      "name": "Desperado",
+      "model": "telos:material/ability/bomb/ut-desperado",
+      "type": "ability/bomb",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Valley of the Lost",
+        "icon": "telos:material/dungeon/valley_of_the_lost"
+      },
+      "stats": {
+        "Speed": "50",
+        "Damage": "125",
+        "Range": "6",
+        "Cooldown": "9s"
+      },
+      "text": [
+        "Ability: Become unstable",
+        "for 3.0s and gain",
+        "Speed for the",
+        "duration, increasing",
+        "the bomb's damage by",
+        "0.12x every 0.5s (Max",
+        "5 stacks). Using your",
+        "ability again while",
+        "unstable will create a",
+        "large explosion,",
+        "granting you 2.0s of",
+        "invulnerability and",
+        "propelling you",
+        "backwards. Cooldown",
+        "begins upon leaving",
+        "the explosive state.",
+        "Warning: Trying to",
+        "explode when no enemy",
+        "is in radius or",
+        "reaching the full",
+        "duration will cause you",
+        "to implode, reducing",
+        "your health by 66%."
+      ],
+      "shiny": {
+        "id": "telos:ability/bomb/ut-desperado-shiny",
+        "model": "telos:material/ability/bomb/ut-desperado-shiny"
+      },
+      "classes": [
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:ability/bomb/ut-baphomet",
+      "name": "Baphomet's Bomb",
+      "model": "telos:material/ability/bomb/ut-baphomet",
+      "type": "ability/bomb",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Celestial's Province",
+        "icon": "telos:material/dungeon/celestials_province"
+      },
+      "stats": {
+        "Damage": "40",
+        "Range": "5",
+        "Cooldown": "12s"
+      },
+      "text": [
+        "Ability: Creates a small",
+        "explosion that damages",
+        "enemies and propels",
+        "you backward. After",
+        "0.75s, grants",
+        "invulnerability while",
+        "dashing you towards",
+        "your cursor, dealing",
+        "3.2x damage on impact.",
+        "Cooldown begins upon",
+        "landing."
+      ],
+      "shiny": {
+        "id": "telos:ability/bomb/ut-baphomet-shiny",
+        "model": "telos:material/ability/bomb/ut-baphomet-shiny"
+      },
+      "classes": [
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:weapon/sceptre/ut-onyx",
+      "name": "Calamity",
+      "model": "telos:material/weapon/sceptre/ut-onyx",
+      "type": "weapon/sceptre",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Raph's Chamber",
+        "icon": "telos:material/dungeon/onyx"
+      },
+      "stats": {
+        "Damage": "16.5",
+        "Range": "7",
+        "Beams": "3",
+        "Pierces": "Yes",
+        "Cooldown": "1.2s"
+      },
+      "text": [
+        "Ability: After hitting the",
+        "first 2 beams, the third",
+        "beam will become a",
+        "laser with 1.25 range",
+        "that deals 1.5x more",
+        "damage"
+      ],
+      "shiny": {
+        "id": "telos:weapon/sceptre/ut-onyx-shiny",
+        "model": "telos:material/weapon/sceptre/ut-onyx-shiny"
+      },
+      "classes": [
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:weapon/sceptre/ut-dusk",
+      "name": "Dusk Weaver",
+      "model": "telos:material/weapon/sceptre/ut-dusk",
+      "type": "weapon/sceptre",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Rustborn Kingdom",
+        "icon": "telos:material/dungeon/shatters"
+      },
+      "stats": {
+        "Damage": "9",
+        "Range": "8",
+        "Beams": "1",
+        "Pierces": "Yes",
+        "Cooldown": "2.8s"
+      },
+      "text": [
+        "Ability: Summons a static",
+        "beam that damages all",
+        "enemies in its path every",
+        "0.2s for 3s."
+      ],
+      "shiny": {
+        "id": "telos:weapon/sceptre/ut-dusk-shiny",
+        "model": "telos:material/weapon/sceptre/ut-dusk-shiny"
+      },
+      "classes": [
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:weapon/sceptre/ut-firmament",
+      "name": "Fractured Firmament",
+      "model": "telos:material/weapon/sceptre/ut-firmament",
+      "type": "weapon/sceptre",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Neo Eden",
+        "icon": "telos:material/dungeon/neo_eden"
+      },
+      "stats": {
+        "Damage": "37",
+        "Range": "7",
+        "Beams": "1",
+        "Pierces": "Yes",
+        "Cooldown": "1.2s"
+      },
+      "text": [
+        "Ability: Summons a meteor.",
+        "After 4 successful",
+        "strikes, launch the meteor",
+        "at the nearest enemy,",
+        "dealing 2.5x damage in a",
+        "0.85 block radius and",
+        "leaving fire on the",
+        "ground that deals 0.25x",
+        "damage for 4 ticks."
+      ],
+      "shiny": {
+        "id": "telos:weapon/sceptre/ut-firmament-shiny",
+        "model": "telos:material/weapon/sceptre/ut-firmament-shiny"
+      },
+      "classes": [
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:ability/orb/ut-essence",
+      "name": "Seraph's Essence",
+      "model": "telos:material/ability/orb/ut-essence",
+      "type": "ability/orb",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Seraph's Domain",
+        "icon": "telos:material/dungeon/hardmode_celestials_province"
+      },
+      "stats": {
+        "Damage": "22",
+        "Velocity": "20",
+        "Range": "4",
+        "Shots": "8",
+        "Pierces": "Yes",
+        "Cooldown": "10s"
+      },
+      "text": [
+        "Ability: Summons",
+        "projectiles in front of",
+        "you that converge into",
+        "the middle."
+      ],
+      "shiny": {
+        "id": "telos:ability/orb/ut-essence-shiny",
+        "model": "telos:material/ability/orb/ut-essence-shiny"
+      },
+      "classes": [
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:ability/orb/ut-horizon",
+      "name": "Event Horizon",
+      "model": "telos:material/ability/orb/ut-horizon",
+      "type": "ability/orb",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Tenebris",
+        "icon": "telos:material/dungeon/tenebris"
+      },
+      "stats": {
+        "Damage": "6.5",
+        "Cooldown": "7s"
+      },
+      "text": [
+        "Passive: Damages in an",
+        "AoE around you every",
+        "0.5s and increases its",
+        "radius from 6 to 8",
+        "blocks of range upon",
+        "hitting an enemy.",
+        "Active: Summons a",
+        "whirlpool granting allies",
+        "Vitality, Speed, and",
+        "Critical Chance equal to",
+        "(2xRange)."
+      ],
+      "shiny": {
+        "id": "telos:ability/orb/ut-horizon-shiny",
+        "model": "telos:material/ability/orb/ut-horizon-shiny"
+      },
+      "classes": [
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:ability/jewel/ut-souls",
+      "name": "Souls Of The Cult",
+      "model": "telos:material/ability/jewel/ut-souls",
+      "type": "ability/jewel",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Cultist's Hideout",
+        "icon": "telos:material/dungeon/cultists_hideout"
+      },
+      "stats": {
+        "Damage": "4",
+        "Range": "11",
+        "Shots": "3",
+        "Velocity": "20",
+        "Pierces": "No",
+        "Cooldown": "10s"
+      },
+      "text": [
+        "Passive: Summons souls",
+        "that rotate around",
+        "you and shoot",
+        "projectiles towards",
+        "the nearest enemy",
+        "every second.",
+        "Ability: Projectiles deal",
+        "1.25x damage but have",
+        "0.75x range for 6s."
+      ],
+      "classes": [
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:ability/jewel/ut-spinestone",
+      "name": "Spinestone",
+      "model": "telos:material/ability/jewel/ut-spinestone",
+      "type": "ability/jewel",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "source": {
+        "name": "Resounding Ruins",
+        "icon": "telos:material/dungeon/resounding_ruins"
+      },
+      "stats": {
+        "Damage": "30",
+        "Range": "10",
+        "Shots": "4",
+        "Velocity": "20",
+        "Pierces": "No",
+        "Cooldown": "12s"
+      },
+      "text": [
+        "Ability: Summons jewels",
+        "that rotate around",
+        "you and seek the",
+        "nearest enemy (lasts",
+        "6s). If all jewels hit an",
+        "enemy, projects an",
+        "echo orb that sticks to",
+        "an enemy and impales",
+        "them with 7 spears",
+        "dealing 0.2x damage",
+        "each."
+      ],
+      "shiny": {
+        "id": "telos:ability/jewel/ut-spinestone-shiny",
+        "model": "telos:material/ability/jewel/ut-spinestone-shiny"
+      },
+      "classes": [
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:ability/jewel/ut-wildtides",
+      "name": "Wild Tides",
+      "model": "telos:material/ability/jewel/ut-wildtides",
+      "type": "ability/jewel",
+      "rarity": "bloodshot",
+      "tierPoints": 12,
+      "stats": {
+        "Damage": "10.8",
+        "Range": "9",
+        "Shots": "6",
+        "Velocity": "15",
+        "Pierces": "No",
+        "Cooldown": "12s"
+      },
+      "text": [
+        "Ability: Summons jewels",
+        "that rotate around",
+        "you and seek the",
+        "nearest enemy (lasts",
+        "10s). On hit, create a",
+        "ripple dealing a total",
+        "of 1.5x damage and",
+        "paralyzing for 0.8s in",
+        "an expanding 0.9x",
+        "block radius. Other",
+        "enemies hit cause an",
+        "explosion to happen",
+        "dealing an additional",
+        "1.67x damage in a 1x",
+        "radius (0.85s delay",
+        "per shot)."
+      ],
+      "shiny": {
+        "id": "telos:ability/jewel/ut-wildtides-shiny",
+        "model": "telos:material/ability/jewel/ut-wildtides-shiny"
+      },
+      "classes": [
+        "Arcanist"
+      ]
+    }
+  ],
+  "color": "#B7220A"
+}

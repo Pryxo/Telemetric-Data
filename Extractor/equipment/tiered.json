@@ -1,0 +1,4940 @@
+{
+  "source": "wiki: Equipment Information",
+  "scanned": "2026-11-16T00:48:58.136322800Z",
+  "count": 240,
+  "items": [
+    {
+      "id": "telos:ability/bomb/t1",
+      "name": "Starter Bomb",
+      "model": "telos:material/ability/bomb/t1",
+      "type": "ability/bomb",
+      "tier": 1,
+      "tierPoints": 1,
+      "stats": {
+        "Damage": "10.5",
+        "Range": "2.5",
+        "Cooldown": "9s"
+      },
+      "text": [
+        "Ability: Creates a small",
+        "explosion that damages",
+        "enemies and propels",
+        "you backward.",
+        "Cooldown begins upon",
+        "landing."
+      ],
+      "classes": [
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:ability/cloak/t1",
+      "name": "Starter Cloak",
+      "model": "telos:material/ability/cloak/t1",
+      "type": "ability/cloak",
+      "tier": 1,
+      "tierPoints": 1,
+      "stats": {
+        "Speed": "7",
+        "Attack": "4",
+        "Critical Chance": "9",
+        "Cooldown": "14s"
+      },
+      "text": [
+        "Ability: Makes you",
+        "invisible for 2.0s.",
+        "Grants Speed, Attack,",
+        "and Critical Chance for",
+        "3.0s."
+      ],
+      "classes": [
+        "Assassin"
+      ]
+    },
+    {
+      "id": "telos:ability/emblem/t1",
+      "name": "Starter Emblem",
+      "model": "telos:material/ability/emblem/t1",
+      "type": "ability/emblem",
+      "tier": 1,
+      "tierPoints": 1,
+      "stats": {
+        "Speed": "20",
+        "Range": "4",
+        "Cooldown": "15s"
+      },
+      "text": [
+        "Ability: Buffs your",
+        "attack speed by 33%",
+        "and your allies' by 25%",
+        "for 4.0s (does not",
+        "stack). Grants Speed",
+        "for 4.0s."
+      ],
+      "classes": [
+        "Knight"
+      ]
+    },
+    {
+      "id": "telos:ability/jewel/t1",
+      "name": "Starter Jewel",
+      "model": "telos:material/ability/jewel/t1",
+      "type": "ability/jewel",
+      "tier": 1,
+      "tierPoints": 1,
+      "stats": {
+        "Damage": "7",
+        "Range": "10",
+        "Shots": "3",
+        "Velocity": "15",
+        "Pierces": "No",
+        "Cooldown": "13s"
+      },
+      "text": [
+        "Ability: Summons jewels",
+        "that rotate around",
+        "you and seek the",
+        "nearest enemy (lasts",
+        "6s)."
+      ],
+      "classes": [
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:ability/kunai/t1",
+      "name": "Starter Kunai",
+      "model": "telos:material/ability/kunai/t1",
+      "type": "ability/kunai",
+      "tier": 1,
+      "tierPoints": 1,
+      "stats": {
+        "Damage": "2",
+        "Range": "7",
+        "Shots": "3",
+        "Velocity": "25",
+        "Pierces": "Yes",
+        "Cooldown": "10s"
+      },
+      "text": [
+        "Ability: Shoots kunai",
+        "projectiles that return",
+        "to you at max range.",
+        "Enemies hit are marked,",
+        "causing your katana to",
+        "deal +20% damage to",
+        "them for 2.0s."
+      ],
+      "classes": [
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:ability/orb/t1",
+      "name": "Starter Orb",
+      "model": "telos:material/ability/orb/t1",
+      "type": "ability/orb",
+      "tier": 1,
+      "tierPoints": 1,
+      "stats": {
+        "Speed": "9",
+        "Damage": "30",
+        "Range": "6",
+        "Cooldown": "13s"
+      },
+      "text": [
+        "Ability: Damages in an",
+        "AoE around you and",
+        "grants Speed for 3s."
+      ],
+      "classes": [
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:ability/poison/t1",
+      "name": "Starter Poison",
+      "model": "telos:material/ability/poison/t1",
+      "type": "ability/poison",
+      "tier": 1,
+      "tierPoints": 1,
+      "stats": {
+        "Damage": "35",
+        "Range": "20",
+        "Velocity": "15",
+        "Cooldown": "14s"
+      },
+      "text": [
+        "Ability: Inflicts a poison",
+        "effect to enemies in a",
+        "0.25x block radius for",
+        "4s (4 ticks)."
+      ],
+      "classes": [
+        "Assassin"
+      ]
+    },
+    {
+      "id": "telos:ability/scripture/t1",
+      "name": "Starter Scripture",
+      "model": "telos:material/ability/scripture/t1",
+      "type": "ability/scripture",
+      "tier": 1,
+      "tierPoints": 1,
+      "stats": {
+        "Heal": "1",
+        "Damage": "10",
+        "Range": "10",
+        "Pierces": "No",
+        "Cooldown": "12s"
+      },
+      "text": [
+        "Ability: Unleashes 2",
+        "projectiles from your",
+        "target that home in on",
+        "you and allies within",
+        "0.6x radius blocks,",
+        "healing yourself and",
+        "nearby allies at 50% of",
+        "the rate. Players",
+        "receiving healing from",
+        "others get a 3s healing",
+        "cooldown (self-heals",
+        "unaffected)."
+      ],
+      "classes": [
+        "Necromancer"
+      ]
+    },
+    {
+      "id": "telos:ability/shield/t1",
+      "name": "Starter Shield",
+      "model": "telos:material/ability/shield/t1",
+      "type": "ability/shield",
+      "tier": 1,
+      "tierPoints": 1,
+      "stats": {
+        "Defense": "10",
+        "Damage": "9",
+        "Range": "5",
+        "Shots": "4",
+        "Velocity": "10",
+        "Pierces": "Yes",
+        "Cooldown": "15s"
+      },
+      "text": [
+        "Ability: Shoots a",
+        "barrage of projectiles",
+        "and grants Defense",
+        "for 3s."
+      ],
+      "classes": [
+        "Knight"
+      ]
+    },
+    {
+      "id": "telos:ability/skull/t1",
+      "name": "Starter Skull",
+      "model": "telos:material/ability/skull/t1",
+      "type": "ability/skull",
+      "tier": 1,
+      "tierPoints": 1,
+      "stats": {
+        "Damage": "1.5",
+        "Range": "30",
+        "Velocity": "20",
+        "Summons": "3",
+        "Pierces": "No",
+        "Cooldown": "10s"
+      },
+      "text": [
+        "Ability: Summons 3",
+        "skeletal minions that",
+        "disappear after 15s",
+        "or after 5 attacks.",
+        "Archer:",
+        "0.4x DMG/2.0s",
+        "Mage:",
+        "0.5x DMG/1.5s",
+        "Melee:",
+        "0.75x DMG/2.0s (2x)"
+      ],
+      "classes": [
+        "Necromancer"
+      ]
+    },
+    {
+      "id": "telos:ability/star/t1",
+      "name": "Starter Star",
+      "model": "telos:material/ability/star/t1",
+      "type": "ability/star",
+      "tier": 1,
+      "tierPoints": 1,
+      "stats": {
+        "Speed": "10",
+        "Damage": "20",
+        "Range": "12",
+        "Shots": "1",
+        "Velocity": "35",
+        "Pierces": "No",
+        "Cooldown": "11s"
+      },
+      "text": [
+        "Ability: Shoots a star",
+        "projectile and grants",
+        "Speed for 3s."
+      ],
+      "classes": [
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:ability/trap/t1",
+      "name": "Starter Trap",
+      "model": "telos:material/ability/trap/t1",
+      "type": "ability/trap",
+      "tier": 1,
+      "tierPoints": 1,
+      "stats": {
+        "Damage": "19",
+        "Range": "20",
+        "Velocity": "15",
+        "Cooldown": "12s"
+      },
+      "text": [
+        "Ability: Throws a trap",
+        "that inflicts slowness",
+        "to enemies in a 0.3x",
+        "block radius for 3s."
+      ],
+      "classes": [
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:armour/heavy/boots/t1",
+      "name": "Starter Sabatons",
+      "model": "telos:material/armour/heavy/boots/t1",
+      "type": "armour/heavy/boots",
+      "tier": 1,
+      "tierPoints": 1,
+      "stats": {
+        "Defense": "+5",
+        "Vitality": "+1"
+      },
+      "classes": [
+        "Knight",
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:armour/heavy/chestplate/t1",
+      "name": "Starter Chestplate",
+      "model": "telos:material/armour/heavy/chestplate/t1",
+      "type": "armour/heavy/chestplate",
+      "tier": 1,
+      "tierPoints": 1,
+      "stats": {
+        "Defense": "+5",
+        "Vitality": "+1"
+      },
+      "classes": [
+        "Knight",
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:armour/heavy/helmet/t1",
+      "name": "Starter Mask",
+      "model": "telos:material/armour/heavy/helmet/t1",
+      "type": "armour/heavy/helmet",
+      "tier": 1,
+      "tierPoints": 1,
+      "stats": {
+        "Defense": "+5",
+        "Vitality": "+1"
+      },
+      "classes": [
+        "Knight",
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:armour/heavy/leggings/t1",
+      "name": "Starter Greaves",
+      "model": "telos:material/armour/heavy/leggings/t1",
+      "type": "armour/heavy/leggings",
+      "tier": 1,
+      "tierPoints": 1,
+      "stats": {
+        "Defense": "+5",
+        "Vitality": "+1"
+      },
+      "classes": [
+        "Knight",
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:armour/light/boots/t1",
+      "name": "Starter Sandals",
+      "model": "telos:material/armour/light/boots/t1",
+      "type": "armour/light/boots",
+      "tier": 1,
+      "tierPoints": 1,
+      "stats": {
+        "Defense": "+2",
+        "Speed": "+2"
+      },
+      "classes": [
+        "Assassin",
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:armour/light/chestplate/t1",
+      "name": "Starter Armour",
+      "model": "telos:material/armour/light/chestplate/t1",
+      "type": "armour/light/chestplate",
+      "tier": 1,
+      "tierPoints": 1,
+      "stats": {
+        "Defense": "+2",
+        "Speed": "+2"
+      },
+      "classes": [
+        "Assassin",
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:armour/light/helmet/t1",
+      "name": "Starter Hat",
+      "model": "telos:material/armour/light/helmet/t1",
+      "type": "armour/light/helmet",
+      "tier": 1,
+      "tierPoints": 1,
+      "stats": {
+        "Defense": "+2",
+        "Speed": "+2"
+      },
+      "classes": [
+        "Assassin",
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:armour/light/leggings/t1",
+      "name": "Starter Chaps",
+      "model": "telos:material/armour/light/leggings/t1",
+      "type": "armour/light/leggings",
+      "tier": 1,
+      "tierPoints": 1,
+      "stats": {
+        "Defense": "+2",
+        "Speed": "+2"
+      },
+      "classes": [
+        "Assassin",
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:armour/magical/boots/t1",
+      "name": "Starter Boots",
+      "model": "telos:material/armour/magical/boots/t1",
+      "type": "armour/magical/boots",
+      "tier": 1,
+      "tierPoints": 1,
+      "stats": {
+        "Attack": "+1",
+        "Defense": "+1"
+      },
+      "classes": [
+        "Necromancer",
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:armour/magical/chestplate/t1",
+      "name": "Starter Robe",
+      "model": "telos:material/armour/magical/chestplate/t1",
+      "type": "armour/magical/chestplate",
+      "tier": 1,
+      "tierPoints": 1,
+      "stats": {
+        "Attack": "+1",
+        "Defense": "+1"
+      },
+      "classes": [
+        "Necromancer",
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:armour/magical/helmet/t1",
+      "name": "Starter Hood",
+      "model": "telos:material/armour/magical/helmet/t1",
+      "type": "armour/magical/helmet",
+      "tier": 1,
+      "tierPoints": 1,
+      "stats": {
+        "Attack": "+1",
+        "Defense": "+1"
+      },
+      "classes": [
+        "Necromancer",
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:armour/magical/leggings/t1",
+      "name": "Starter Leggings",
+      "model": "telos:material/armour/magical/leggings/t1",
+      "type": "armour/magical/leggings",
+      "tier": 1,
+      "tierPoints": 1,
+      "stats": {
+        "Attack": "+1",
+        "Defense": "+1"
+      },
+      "classes": [
+        "Necromancer",
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:weapon/bow/t1",
+      "name": "Starter Bow",
+      "model": "telos:material/weapon/bow/t1",
+      "type": "weapon/bow",
+      "tier": 1,
+      "tierPoints": 1,
+      "stats": {
+        "Damage": "1.25",
+        "Range": "13",
+        "Shots": "3",
+        "Velocity": "20",
+        "Pierces": "Yes",
+        "Cooldown": "0.6s"
+      },
+      "classes": [
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:weapon/dagger/t1",
+      "name": "Starter Dagger",
+      "model": "telos:material/weapon/dagger/t1",
+      "type": "weapon/dagger",
+      "tier": 1,
+      "tierPoints": 1,
+      "stats": {
+        "Damage": "3.75",
+        "Range": "9",
+        "Shots": "1",
+        "Velocity": "30",
+        "Pierces": "No",
+        "Cooldown": "0.6s"
+      },
+      "classes": [
+        "Assassin"
+      ]
+    },
+    {
+      "id": "telos:weapon/katana/t1",
+      "name": "Training Stick",
+      "model": "telos:material/weapon/katana/t1",
+      "type": "weapon/katana",
+      "tier": 1,
+      "tierPoints": 1,
+      "stats": {
+        "Damage": "4.75",
+        "Range": "6",
+        "Slashes": "1",
+        "Pierces": "Yes",
+        "Cooldown": "0.5s"
+      },
+      "text": [
+        "Ability: You only attack",
+        "after successfully",
+        "targeting an enemy."
+      ],
+      "classes": [
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:weapon/sceptre/t1",
+      "name": "Starter Sceptre",
+      "model": "telos:material/weapon/sceptre/t1",
+      "type": "weapon/sceptre",
+      "tier": 1,
+      "tierPoints": 1,
+      "stats": {
+        "Damage": "5",
+        "Range": "8",
+        "Beams": "1",
+        "Pierces": "Yes",
+        "Cooldown": "0.8s"
+      },
+      "classes": [
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:weapon/staff/t1",
+      "name": "Starter Staff",
+      "model": "telos:material/weapon/staff/t1",
+      "type": "weapon/staff",
+      "tier": 1,
+      "tierPoints": 1,
+      "stats": {
+        "Damage": "3.25",
+        "Range": "15",
+        "Shots": "1",
+        "Velocity": "35",
+        "Pierces": "No",
+        "Cooldown": "0.6s"
+      },
+      "classes": [
+        "Necromancer"
+      ]
+    },
+    {
+      "id": "telos:weapon/sword/t1",
+      "name": "Starter Sword",
+      "model": "telos:material/weapon/sword/t1",
+      "type": "weapon/sword",
+      "tier": 1,
+      "tierPoints": 1,
+      "stats": {
+        "Damage": "8.5",
+        "Range": "5",
+        "Slashes": "1",
+        "Pierces": "Yes",
+        "Cooldown": "1s"
+      },
+      "text": [
+        "Ability: You only attack",
+        "after successfully",
+        "targeting an enemy."
+      ],
+      "classes": [
+        "Knight"
+      ]
+    },
+    {
+      "id": "telos:ability/bomb/t2",
+      "name": "Volcanic Bomb",
+      "model": "telos:material/ability/bomb/t2",
+      "type": "ability/bomb",
+      "tier": 2,
+      "tierPoints": 2,
+      "stats": {
+        "Damage": "16",
+        "Range": "2.5",
+        "Cooldown": "9s"
+      },
+      "text": [
+        "Ability: Creates a small",
+        "explosion that damages",
+        "enemies and propels",
+        "you backward. Cooldown",
+        "begins upon landing."
+      ],
+      "classes": [
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:ability/cloak/t2",
+      "name": "Speedrunner Cloak",
+      "model": "telos:material/ability/cloak/t2",
+      "type": "ability/cloak",
+      "tier": 2,
+      "tierPoints": 2,
+      "stats": {
+        "Speed": "7",
+        "Attack": "4",
+        "Critical Chance": "9",
+        "Cooldown": "13s"
+      },
+      "text": [
+        "Ability: Makes you",
+        "invisible for 2.0s.",
+        "Grants Speed, Attack,",
+        "and Critical Chance for",
+        "3.0s."
+      ],
+      "classes": [
+        "Assassin"
+      ]
+    },
+    {
+      "id": "telos:ability/emblem/t2",
+      "name": "Topaz Emblem",
+      "model": "telos:material/ability/emblem/t2",
+      "type": "ability/emblem",
+      "tier": 2,
+      "tierPoints": 2,
+      "stats": {
+        "Speed": "25",
+        "Range": "4",
+        "Cooldown": "15s"
+      },
+      "text": [
+        "Ability: Buffs your",
+        "attack speed by 33%",
+        "and your allies' by 25%",
+        "for 4.0s (does not",
+        "stack). Grants Speed",
+        "for 4.0s."
+      ],
+      "classes": [
+        "Knight"
+      ]
+    },
+    {
+      "id": "telos:ability/jewel/t2",
+      "name": "Moonstone Jewel",
+      "model": "telos:material/ability/jewel/t2",
+      "type": "ability/jewel",
+      "tier": 2,
+      "tierPoints": 2,
+      "stats": {
+        "Damage": "9",
+        "Range": "10",
+        "Shots": "3",
+        "Velocity": "15",
+        "Pierces": "No",
+        "Cooldown": "12s"
+      },
+      "text": [
+        "Ability: Summons jewels",
+        "that rotate around you",
+        "and seek the nearest",
+        "enemy (lasts 6s)."
+      ],
+      "classes": [
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:ability/kunai/t2",
+      "name": "Blackstone Kunai",
+      "model": "telos:material/ability/kunai/t2",
+      "type": "ability/kunai",
+      "tier": 2,
+      "tierPoints": 2,
+      "stats": {
+        "Damage": "3",
+        "Range": "7",
+        "Shots": "3",
+        "Velocity": "25",
+        "Pierces": "Yes",
+        "Cooldown": "10s"
+      },
+      "text": [
+        "Ability: Shoots kunai",
+        "projectiles that return",
+        "to you at max range.",
+        "Enemies hit are marked,",
+        "causing your katana to",
+        "deal +20% damage to",
+        "them for 2.0s."
+      ],
+      "classes": [
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:ability/orb/t2",
+      "name": "Sapphire Orb",
+      "model": "telos:material/ability/orb/t2",
+      "type": "ability/orb",
+      "tier": 2,
+      "tierPoints": 2,
+      "stats": {
+        "Speed": "12",
+        "Damage": "35",
+        "Range": "6",
+        "Cooldown": "13s"
+      },
+      "text": [
+        "Ability: Damages in an",
+        "AoE around you and",
+        "grants Speed for 3s."
+      ],
+      "classes": [
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:ability/poison/t2",
+      "name": "Vermilion Venom",
+      "model": "telos:material/ability/poison/t2",
+      "type": "ability/poison",
+      "tier": 2,
+      "tierPoints": 2,
+      "stats": {
+        "Damage": "45",
+        "Range": "20",
+        "Velocity": "15",
+        "Cooldown": "14s"
+      },
+      "text": [
+        "Ability: Inflicts a poison",
+        "effect to enemies in a",
+        "0.25x block radius for",
+        "4s (4 ticks)."
+      ],
+      "classes": [
+        "Assassin"
+      ]
+    },
+    {
+      "id": "telos:ability/scripture/t2",
+      "name": "Scripture Of The Goblin",
+      "model": "telos:material/ability/scripture/t2",
+      "type": "ability/scripture",
+      "tier": 2,
+      "tierPoints": 2,
+      "stats": {
+        "Heal": "1",
+        "Damage": "15",
+        "Range": "10",
+        "Pierces": "No",
+        "Cooldown": "12s"
+      },
+      "text": [
+        "Ability: Unleashes 2",
+        "projectiles from your target",
+        "that home in on you and",
+        "allies within 0.6x radius",
+        "blocks, healing yourself and",
+        "nearby allies at 50% of the",
+        "rate. Players receiving",
+        "healing from others get a 3s",
+        "healing cooldown (self-heals",
+        "unaffected)."
+      ],
+      "classes": [
+        "Necromancer"
+      ]
+    },
+    {
+      "id": "telos:ability/shield/t2",
+      "name": "Cobble Shield",
+      "model": "telos:material/ability/shield/t2",
+      "type": "ability/shield",
+      "tier": 2,
+      "tierPoints": 2,
+      "stats": {
+        "Defense": "10",
+        "Damage": "9",
+        "Range": "5",
+        "Shots": "4",
+        "Velocity": "10",
+        "Pierces": "Yes",
+        "Cooldown": "14s"
+      },
+      "text": [
+        "Ability: Shoots a",
+        "barrage of projectiles",
+        "and grants Defense",
+        "for 3s."
+      ],
+      "classes": [
+        "Knight"
+      ]
+    },
+    {
+      "id": "telos:ability/skull/t2",
+      "name": "Blood Eye Skull",
+      "model": "telos:material/ability/skull/t2",
+      "type": "ability/skull",
+      "tier": 2,
+      "tierPoints": 2,
+      "stats": {
+        "Damage": "2",
+        "Range": "30",
+        "Velocity": "20",
+        "Summons": "3",
+        "Pierces": "No",
+        "Cooldown": "10s"
+      },
+      "text": [
+        "Ability: Summons 3",
+        "skeletal minions that",
+        "disappear after 15s",
+        "or after 5 attacks.",
+        "Archer:",
+        "0.4x DMG/2.0s",
+        "Mage:",
+        "0.5x DMG/1.5s",
+        "Melee:",
+        "0.75x DMG/2.0s (2x)"
+      ],
+      "classes": [
+        "Necromancer"
+      ]
+    },
+    {
+      "id": "telos:ability/star/t2",
+      "name": "Silver Star",
+      "model": "telos:material/ability/star/t2",
+      "type": "ability/star",
+      "tier": 2,
+      "tierPoints": 2,
+      "stats": {
+        "Speed": "10",
+        "Damage": "20",
+        "Range": "12",
+        "Shots": "1",
+        "Velocity": "35",
+        "Pierces": "No",
+        "Cooldown": "10s"
+      },
+      "text": [
+        "Ability: Shoots a star",
+        "projectile and grants",
+        "Speed for 4s."
+      ],
+      "classes": [
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:ability/trap/t2",
+      "name": "Wind Trap",
+      "model": "telos:material/ability/trap/t2",
+      "type": "ability/trap",
+      "tier": 2,
+      "tierPoints": 2,
+      "stats": {
+        "Damage": "19",
+        "Range": "20",
+        "Velocity": "15",
+        "Cooldown": "11s"
+      },
+      "text": [
+        "Ability: Throws a trap",
+        "that inflicts slowness to",
+        "enemies in a 0.3x block",
+        "radius for 3s."
+      ],
+      "classes": [
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:armour/heavy/boots/t2",
+      "name": "Iron Sabatons",
+      "model": "telos:material/armour/heavy/boots/t2",
+      "type": "armour/heavy/boots",
+      "tier": 2,
+      "tierPoints": 2,
+      "stats": {
+        "Defense": "+6",
+        "Vitality": "+1"
+      },
+      "classes": [
+        "Knight",
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:armour/heavy/chestplate/t2",
+      "name": "Iron Chestplate",
+      "model": "telos:material/armour/heavy/chestplate/t2",
+      "type": "armour/heavy/chestplate",
+      "tier": 2,
+      "tierPoints": 2,
+      "stats": {
+        "Defense": "+6",
+        "Vitality": "+1"
+      },
+      "classes": [
+        "Knight",
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:armour/heavy/helmet/t2",
+      "name": "Iron Mask",
+      "model": "telos:material/armour/heavy/helmet/t2",
+      "type": "armour/heavy/helmet",
+      "tier": 2,
+      "tierPoints": 2,
+      "stats": {
+        "Defense": "+6",
+        "Vitality": "+1"
+      },
+      "classes": [
+        "Knight",
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:armour/heavy/leggings/t2",
+      "name": "Iron Greaves",
+      "model": "telos:material/armour/heavy/leggings/t2",
+      "type": "armour/heavy/leggings",
+      "tier": 2,
+      "tierPoints": 2,
+      "stats": {
+        "Defense": "+6",
+        "Vitality": "+1"
+      },
+      "classes": [
+        "Knight",
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:armour/light/boots/t2",
+      "name": "Wolfskin Sandals",
+      "model": "telos:material/armour/light/boots/t2",
+      "type": "armour/light/boots",
+      "tier": 2,
+      "tierPoints": 2,
+      "stats": {
+        "Defense": "+3",
+        "Speed": "+3"
+      },
+      "classes": [
+        "Assassin",
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:armour/light/chestplate/t2",
+      "name": "Wolfskin Armour",
+      "model": "telos:material/armour/light/chestplate/t2",
+      "type": "armour/light/chestplate",
+      "tier": 2,
+      "tierPoints": 2,
+      "stats": {
+        "Defense": "+3",
+        "Speed": "+3"
+      },
+      "classes": [
+        "Assassin",
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:armour/light/helmet/t2",
+      "name": "Wolfskin Hat",
+      "model": "telos:material/armour/light/helmet/t2",
+      "type": "armour/light/helmet",
+      "tier": 2,
+      "tierPoints": 2,
+      "stats": {
+        "Defense": "+3",
+        "Speed": "+3"
+      },
+      "classes": [
+        "Assassin",
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:armour/light/leggings/t2",
+      "name": "Wolfskin Chaps",
+      "model": "telos:material/armour/light/leggings/t2",
+      "type": "armour/light/leggings",
+      "tier": 2,
+      "tierPoints": 2,
+      "stats": {
+        "Defense": "+3",
+        "Speed": "+3"
+      },
+      "classes": [
+        "Assassin",
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:armour/magical/boots/t2",
+      "name": "Novice Boots",
+      "model": "telos:material/armour/magical/boots/t2",
+      "type": "armour/magical/boots",
+      "tier": 2,
+      "tierPoints": 2,
+      "stats": {
+        "Attack": "+1",
+        "Defense": "+2"
+      },
+      "classes": [
+        "Necromancer",
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:armour/magical/chestplate/t2",
+      "name": "Novice Robe",
+      "model": "telos:material/armour/magical/chestplate/t2",
+      "type": "armour/magical/chestplate",
+      "tier": 2,
+      "tierPoints": 2,
+      "stats": {
+        "Attack": "+1",
+        "Defense": "+2"
+      },
+      "classes": [
+        "Necromancer",
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:armour/magical/helmet/t2",
+      "name": "Novice Hood",
+      "model": "telos:material/armour/magical/helmet/t2",
+      "type": "armour/magical/helmet",
+      "tier": 2,
+      "tierPoints": 2,
+      "stats": {
+        "Attack": "+1",
+        "Defense": "+2"
+      },
+      "classes": [
+        "Necromancer",
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:armour/magical/leggings/t2",
+      "name": "Novice Leggings",
+      "model": "telos:material/armour/magical/leggings/t2",
+      "type": "armour/magical/leggings",
+      "tier": 2,
+      "tierPoints": 2,
+      "stats": {
+        "Attack": "+1",
+        "Defense": "+2"
+      },
+      "classes": [
+        "Necromancer",
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:weapon/bow/t2",
+      "name": "Tinkered Bow",
+      "model": "telos:material/weapon/bow/t2",
+      "type": "weapon/bow",
+      "tier": 2,
+      "tierPoints": 2,
+      "stats": {
+        "Damage": "1.5",
+        "Range": "13",
+        "Shots": "3",
+        "Velocity": "20",
+        "Pierces": "Yes",
+        "Cooldown": "0.6s"
+      },
+      "classes": [
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:weapon/dagger/t2",
+      "name": "Silver Dagger",
+      "model": "telos:material/weapon/dagger/t2",
+      "type": "weapon/dagger",
+      "tier": 2,
+      "tierPoints": 2,
+      "stats": {
+        "Damage": "4.5",
+        "Range": "9",
+        "Shots": "1",
+        "Velocity": "30",
+        "Pierces": "No",
+        "Cooldown": "0.6s"
+      },
+      "classes": [
+        "Assassin"
+      ]
+    },
+    {
+      "id": "telos:weapon/katana/t2",
+      "name": "Copper Bar",
+      "model": "telos:material/weapon/katana/t2",
+      "type": "weapon/katana",
+      "tier": 2,
+      "tierPoints": 2,
+      "stats": {
+        "Damage": "5.5",
+        "Range": "6",
+        "Slashes": "1",
+        "Pierces": "Yes",
+        "Cooldown": "0.5s"
+      },
+      "text": [
+        "Ability: You only attack",
+        "after successfully",
+        "targeting an enemy."
+      ],
+      "classes": [
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:weapon/sceptre/t2",
+      "name": "Silverleaf Sceptre",
+      "model": "telos:material/weapon/sceptre/t2",
+      "type": "weapon/sceptre",
+      "tier": 2,
+      "tierPoints": 2,
+      "stats": {
+        "Damage": "6",
+        "Range": "8",
+        "Beams": "1",
+        "Pierces": "Yes",
+        "Cooldown": "0.8s"
+      },
+      "classes": [
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:weapon/staff/t2",
+      "name": "Fire Staff",
+      "model": "telos:material/weapon/staff/t2",
+      "type": "weapon/staff",
+      "tier": 2,
+      "tierPoints": 2,
+      "stats": {
+        "Damage": "3.75",
+        "Range": "15",
+        "Shots": "1",
+        "Velocity": "35",
+        "Pierces": "No",
+        "Cooldown": "0.6s"
+      },
+      "classes": [
+        "Necromancer"
+      ]
+    },
+    {
+      "id": "telos:weapon/sword/t2",
+      "name": "Charred Sword",
+      "model": "telos:material/weapon/sword/t2",
+      "type": "weapon/sword",
+      "tier": 2,
+      "tierPoints": 2,
+      "stats": {
+        "Damage": "10.5",
+        "Range": "5",
+        "Slashes": "1",
+        "Pierces": "Yes",
+        "Cooldown": "1s"
+      },
+      "text": [
+        "Ability: You only attack",
+        "after successfully",
+        "targeting an enemy."
+      ],
+      "classes": [
+        "Knight"
+      ]
+    },
+    {
+      "id": "telos:ability/bomb/t3",
+      "name": "Seaweed Bomb",
+      "model": "telos:material/ability/bomb/t3",
+      "type": "ability/bomb",
+      "tier": 3,
+      "tierPoints": 3,
+      "stats": {
+        "Damage": "16",
+        "Range": "2.5",
+        "Cooldown": "8s"
+      },
+      "text": [
+        "Ability: Creates a small",
+        "explosion that damages",
+        "enemies and propels",
+        "you backward.",
+        "Cooldown begins upon",
+        "landing."
+      ],
+      "classes": [
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:ability/cloak/t3",
+      "name": "Stone Padded Cloak",
+      "model": "telos:material/ability/cloak/t3",
+      "type": "ability/cloak",
+      "tier": 3,
+      "tierPoints": 3,
+      "stats": {
+        "Speed": "14",
+        "Attack": "8",
+        "Critical Chance": "12",
+        "Cooldown": "13s"
+      },
+      "text": [
+        "Ability: Makes you",
+        "invisible for 2.0s. Grants",
+        "Speed, Attack, and",
+        "Critical Chance for 3.0s."
+      ],
+      "classes": [
+        "Assassin"
+      ]
+    },
+    {
+      "id": "telos:ability/emblem/t3",
+      "name": "Bronze Emblem",
+      "model": "telos:material/ability/emblem/t3",
+      "type": "ability/emblem",
+      "tier": 3,
+      "tierPoints": 3,
+      "stats": {
+        "Speed": "25",
+        "Range": "4",
+        "Cooldown": "14s"
+      },
+      "text": [
+        "Ability: Buffs your",
+        "attack speed by 33%",
+        "and your allies' by 25%",
+        "for 5.0s (does not",
+        "stack). Grants Speed",
+        "for 5.0s."
+      ],
+      "classes": [
+        "Knight"
+      ]
+    },
+    {
+      "id": "telos:ability/jewel/t3",
+      "name": "Sunstone Jewel",
+      "model": "telos:material/ability/jewel/t3",
+      "type": "ability/jewel",
+      "tier": 3,
+      "tierPoints": 3,
+      "stats": {
+        "Damage": "11",
+        "Range": "10",
+        "Shots": "3",
+        "Velocity": "15",
+        "Pierces": "No",
+        "Cooldown": "12s"
+      },
+      "text": [
+        "Ability: Summons jewels",
+        "that rotate around you",
+        "and seek the nearest",
+        "enemy (lasts 6s)."
+      ],
+      "classes": [
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:ability/kunai/t3",
+      "name": "Scissor Like Kunai",
+      "model": "telos:material/ability/kunai/t3",
+      "type": "ability/kunai",
+      "tier": 3,
+      "tierPoints": 3,
+      "stats": {
+        "Damage": "3",
+        "Range": "7",
+        "Shots": "3",
+        "Velocity": "25",
+        "Pierces": "Yes",
+        "Cooldown": "9s"
+      },
+      "text": [
+        "Ability: Shoots kunai",
+        "projectiles that",
+        "return to you at max",
+        "range. Enemies hit are",
+        "marked, causing your",
+        "katana to deal +20%",
+        "damage to them for",
+        "2.0s."
+      ],
+      "classes": [
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:ability/orb/t3",
+      "name": "Blood Orb",
+      "model": "telos:material/ability/orb/t3",
+      "type": "ability/orb",
+      "tier": 3,
+      "tierPoints": 3,
+      "stats": {
+        "Speed": "15",
+        "Damage": "40",
+        "Range": "6",
+        "Cooldown": "13s"
+      },
+      "text": [
+        "Ability: Damages in an",
+        "AoE around you and",
+        "grants Speed for 4s."
+      ],
+      "classes": [
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:ability/poison/t3",
+      "name": "Grape Medicine",
+      "model": "telos:material/ability/poison/t3",
+      "type": "ability/poison",
+      "tier": 3,
+      "tierPoints": 3,
+      "stats": {
+        "Damage": "45",
+        "Range": "20",
+        "Velocity": "15",
+        "Cooldown": "13s"
+      },
+      "text": [
+        "Ability: Inflicts a poison",
+        "effect to enemies in a",
+        "0.25x block radius for",
+        "4s (4 ticks)."
+      ],
+      "classes": [
+        "Assassin"
+      ]
+    },
+    {
+      "id": "telos:ability/scripture/t3",
+      "name": "Scripture Of Sapphire Essence",
+      "model": "telos:material/ability/scripture/t3",
+      "type": "ability/scripture",
+      "tier": 3,
+      "tierPoints": 3,
+      "stats": {
+        "Heal": "1",
+        "Damage": "15",
+        "Range": "10",
+        "Pierces": "No",
+        "Cooldown": "11s"
+      },
+      "text": [
+        "Ability: Unleashes 2 projectiles from",
+        "your target that home in on you and",
+        "allies within 0.6x radius blocks,",
+        "healing yourself and nearby allies",
+        "at 50% of the rate. Players",
+        "receiving healing from others get a",
+        "3s healing cooldown (self-heals",
+        "unaffected)."
+      ],
+      "classes": [
+        "Necromancer"
+      ]
+    },
+    {
+      "id": "telos:ability/shield/t3",
+      "name": "Adventurer's Shield",
+      "model": "telos:material/ability/shield/t3",
+      "type": "ability/shield",
+      "tier": 3,
+      "tierPoints": 3,
+      "stats": {
+        "Defense": "10",
+        "Damage": "12",
+        "Range": "5",
+        "Shots": "4",
+        "Velocity": "10",
+        "Pierces": "Yes",
+        "Cooldown": "14s"
+      },
+      "text": [
+        "Ability: Shoots a barrage",
+        "of projectiles and",
+        "grants Defense for 3s."
+      ],
+      "classes": [
+        "Knight"
+      ]
+    },
+    {
+      "id": "telos:ability/skull/t3",
+      "name": "Witch Skull",
+      "model": "telos:material/ability/skull/t3",
+      "type": "ability/skull",
+      "tier": 3,
+      "tierPoints": 3,
+      "stats": {
+        "Damage": "2",
+        "Range": "30",
+        "Velocity": "20",
+        "Summons": "3",
+        "Pierces": "No",
+        "Cooldown": "9s"
+      },
+      "text": [
+        "Ability: Summons 3",
+        "skeletal minions that",
+        "disappear after 15s",
+        "or after 5 attacks.",
+        "Archer:",
+        "0.4x DMG/2.0s",
+        "Mage:",
+        "0.5x DMG/1.5s",
+        "Melee:",
+        "0.75x DMG/2.0s (2x)"
+      ],
+      "classes": [
+        "Necromancer"
+      ]
+    },
+    {
+      "id": "telos:ability/star/t3",
+      "name": "Quartz Star",
+      "model": "telos:material/ability/star/t3",
+      "type": "ability/star",
+      "tier": 3,
+      "tierPoints": 3,
+      "stats": {
+        "Speed": "10",
+        "Damage": "25",
+        "Range": "12",
+        "Shots": "1",
+        "Velocity": "35",
+        "Pierces": "No",
+        "Cooldown": "10s"
+      },
+      "text": [
+        "Ability: Shoots a star",
+        "projectile and grants",
+        "Speed for 4s."
+      ],
+      "classes": [
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:ability/trap/t3",
+      "name": "Blood Trap",
+      "model": "telos:material/ability/trap/t3",
+      "type": "ability/trap",
+      "tier": 3,
+      "tierPoints": 3,
+      "stats": {
+        "Damage": "35",
+        "Range": "20",
+        "Velocity": "15",
+        "Cooldown": "11s"
+      },
+      "text": [
+        "Ability: Throws a trap",
+        "that inflicts slowness to",
+        "enemies in a 0.3x block",
+        "radius for 3s."
+      ],
+      "classes": [
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:armour/heavy/boots/t3",
+      "name": "Chainmail Sabatons",
+      "model": "telos:material/armour/heavy/boots/t3",
+      "type": "armour/heavy/boots",
+      "tier": 3,
+      "tierPoints": 3,
+      "stats": {
+        "Defense": "+7",
+        "Vitality": "+1"
+      },
+      "classes": [
+        "Knight",
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:armour/heavy/chestplate/t3",
+      "name": "Chainmail Chestplate",
+      "model": "telos:material/armour/heavy/chestplate/t3",
+      "type": "armour/heavy/chestplate",
+      "tier": 3,
+      "tierPoints": 3,
+      "stats": {
+        "Defense": "+7",
+        "Vitality": "+1"
+      },
+      "classes": [
+        "Knight",
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:armour/heavy/helmet/t3",
+      "name": "Chainmail Mask",
+      "model": "telos:material/armour/heavy/helmet/t3",
+      "type": "armour/heavy/helmet",
+      "tier": 3,
+      "tierPoints": 3,
+      "stats": {
+        "Defense": "+7",
+        "Vitality": "+1"
+      },
+      "classes": [
+        "Knight",
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:armour/heavy/leggings/t3",
+      "name": "Chainmail Greaves",
+      "model": "telos:material/armour/heavy/leggings/t3",
+      "type": "armour/heavy/leggings",
+      "tier": 3,
+      "tierPoints": 3,
+      "stats": {
+        "Defense": "+7",
+        "Vitality": "+1"
+      },
+      "classes": [
+        "Knight",
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:armour/light/boots/t3",
+      "name": "Snakeskin Sandals",
+      "model": "telos:material/armour/light/boots/t3",
+      "type": "armour/light/boots",
+      "tier": 3,
+      "tierPoints": 3,
+      "stats": {
+        "Defense": "+4",
+        "Speed": "+4"
+      },
+      "classes": [
+        "Assassin",
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:armour/light/chestplate/t3",
+      "name": "Snakeskin Armour",
+      "model": "telos:material/armour/light/chestplate/t3",
+      "type": "armour/light/chestplate",
+      "tier": 3,
+      "tierPoints": 3,
+      "stats": {
+        "Defense": "+4",
+        "Speed": "+4"
+      },
+      "classes": [
+        "Assassin",
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:armour/light/helmet/t3",
+      "name": "Snakeskin Hat",
+      "model": "telos:material/armour/light/helmet/t3",
+      "type": "armour/light/helmet",
+      "tier": 3,
+      "tierPoints": 3,
+      "stats": {
+        "Defense": "+4",
+        "Speed": "+4"
+      },
+      "classes": [
+        "Assassin",
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:armour/light/leggings/t3",
+      "name": "Snakeskin Chaps",
+      "model": "telos:material/armour/light/leggings/t3",
+      "type": "armour/light/leggings",
+      "tier": 3,
+      "tierPoints": 3,
+      "stats": {
+        "Defense": "+4",
+        "Speed": "+4"
+      },
+      "classes": [
+        "Assassin",
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:armour/magical/boots/t3",
+      "name": "Boots Of The Acolyte",
+      "model": "telos:material/armour/magical/boots/t3",
+      "type": "armour/magical/boots",
+      "tier": 3,
+      "tierPoints": 3,
+      "stats": {
+        "Attack": "+2",
+        "Defense": "+3"
+      },
+      "classes": [
+        "Necromancer",
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:armour/magical/chestplate/t3",
+      "name": "Robe Of The Acolyte",
+      "model": "telos:material/armour/magical/chestplate/t3",
+      "type": "armour/magical/chestplate",
+      "tier": 3,
+      "tierPoints": 3,
+      "stats": {
+        "Attack": "+2",
+        "Defense": "+3"
+      },
+      "classes": [
+        "Necromancer",
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:armour/magical/helmet/t3",
+      "name": "Hood Of The Acolyte",
+      "model": "telos:material/armour/magical/helmet/t3",
+      "type": "armour/magical/helmet",
+      "tier": 3,
+      "tierPoints": 3,
+      "stats": {
+        "Attack": "+2",
+        "Defense": "+3"
+      },
+      "classes": [
+        "Necromancer",
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:armour/magical/leggings/t3",
+      "name": "Leggings Of The Acolyte",
+      "model": "telos:material/armour/magical/leggings/t3",
+      "type": "armour/magical/leggings",
+      "tier": 3,
+      "tierPoints": 3,
+      "stats": {
+        "Attack": "+2",
+        "Defense": "+3"
+      },
+      "classes": [
+        "Necromancer",
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:weapon/bow/t3",
+      "name": "Iron Bow",
+      "model": "telos:material/weapon/bow/t3",
+      "type": "weapon/bow",
+      "tier": 3,
+      "tierPoints": 3,
+      "stats": {
+        "Damage": "1.75",
+        "Range": "13",
+        "Shots": "3",
+        "Velocity": "20",
+        "Pierces": "Yes",
+        "Cooldown": "0.6s"
+      },
+      "classes": [
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:weapon/dagger/t3",
+      "name": "Ruby Dagger",
+      "model": "telos:material/weapon/dagger/t3",
+      "type": "weapon/dagger",
+      "tier": 3,
+      "tierPoints": 3,
+      "stats": {
+        "Damage": "5.25",
+        "Range": "9",
+        "Shots": "1",
+        "Velocity": "30",
+        "Pierces": "No",
+        "Cooldown": "0.6s"
+      },
+      "classes": [
+        "Assassin"
+      ]
+    },
+    {
+      "id": "telos:weapon/katana/t3",
+      "name": "Steel Bar",
+      "model": "telos:material/weapon/katana/t3",
+      "type": "weapon/katana",
+      "tier": 3,
+      "tierPoints": 3,
+      "stats": {
+        "Damage": "6.5",
+        "Range": "6",
+        "Slashes": "1",
+        "Pierces": "Yes",
+        "Cooldown": "0.5s"
+      },
+      "text": [
+        "Ability: You only attack",
+        "after successfully",
+        "targeting an enemy."
+      ],
+      "classes": [
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:weapon/sceptre/t3",
+      "name": "Cherry Blossom Sceptre",
+      "model": "telos:material/weapon/sceptre/t3",
+      "type": "weapon/sceptre",
+      "tier": 3,
+      "tierPoints": 3,
+      "stats": {
+        "Damage": "8",
+        "Range": "8",
+        "Beams": "1",
+        "Pierces": "Yes",
+        "Cooldown": "0.8s"
+      },
+      "classes": [
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:weapon/staff/t3",
+      "name": "Serpent Staff",
+      "model": "telos:material/weapon/staff/t3",
+      "type": "weapon/staff",
+      "tier": 3,
+      "tierPoints": 3,
+      "stats": {
+        "Damage": "4.75",
+        "Range": "15",
+        "Shots": "1",
+        "Velocity": "35",
+        "Pierces": "No",
+        "Cooldown": "0.6s"
+      },
+      "classes": [
+        "Necromancer"
+      ]
+    },
+    {
+      "id": "telos:weapon/sword/t3",
+      "name": "Long Sword",
+      "model": "telos:material/weapon/sword/t3",
+      "type": "weapon/sword",
+      "tier": 3,
+      "tierPoints": 3,
+      "stats": {
+        "Damage": "13",
+        "Range": "5",
+        "Slashes": "1",
+        "Pierces": "Yes",
+        "Cooldown": "1s"
+      },
+      "text": [
+        "Ability: You only attack",
+        "after successfully",
+        "targeting an enemy."
+      ],
+      "classes": [
+        "Knight"
+      ]
+    },
+    {
+      "id": "telos:ability/bomb/t4",
+      "name": "Firework Bomb",
+      "model": "telos:material/ability/bomb/t4",
+      "type": "ability/bomb",
+      "tier": 4,
+      "tierPoints": 4,
+      "stats": {
+        "Damage": "16",
+        "Range": "3",
+        "Cooldown": "8s"
+      },
+      "text": [
+        "Ability: Creates a large",
+        "explosion that damages",
+        "enemies and propels",
+        "you backward. Cooldown",
+        "begins upon landing."
+      ],
+      "classes": [
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:ability/cloak/t4",
+      "name": "Blood Seeker Cloak",
+      "model": "telos:material/ability/cloak/t4",
+      "type": "ability/cloak",
+      "tier": 4,
+      "tierPoints": 4,
+      "stats": {
+        "Speed": "14",
+        "Attack": "8",
+        "Critical Chance": "12",
+        "Cooldown": "13s"
+      },
+      "text": [
+        "Ability: Makes you",
+        "invisible for 3.0s. Grants",
+        "Speed, Attack, and",
+        "Critical Chance for 4.0s."
+      ],
+      "classes": [
+        "Assassin"
+      ]
+    },
+    {
+      "id": "telos:ability/emblem/t4",
+      "name": "Ruby Emblem",
+      "model": "telos:material/ability/emblem/t4",
+      "type": "ability/emblem",
+      "tier": 4,
+      "tierPoints": 4,
+      "stats": {
+        "Speed": "28",
+        "Range": "4",
+        "Cooldown": "14s"
+      },
+      "text": [
+        "Ability: Buffs your",
+        "attack speed by 33%",
+        "and your allies' by 25%",
+        "for 5.0s (does not",
+        "stack). Grants Speed",
+        "for 5.0s."
+      ],
+      "classes": [
+        "Knight"
+      ]
+    },
+    {
+      "id": "telos:ability/jewel/t4",
+      "name": "Opal Jewel",
+      "model": "telos:material/ability/jewel/t4",
+      "type": "ability/jewel",
+      "tier": 4,
+      "tierPoints": 4,
+      "stats": {
+        "Damage": "13",
+        "Range": "10",
+        "Shots": "3",
+        "Velocity": "15",
+        "Pierces": "No",
+        "Cooldown": "12s"
+      },
+      "text": [
+        "Ability: Summons jewels",
+        "that rotate around you",
+        "and seek the nearest",
+        "enemy (lasts 6s)."
+      ],
+      "classes": [
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:ability/kunai/t4",
+      "name": "Emerald Kunai",
+      "model": "telos:material/ability/kunai/t4",
+      "type": "ability/kunai",
+      "tier": 4,
+      "tierPoints": 4,
+      "stats": {
+        "Damage": "3",
+        "Range": "7",
+        "Shots": "3",
+        "Velocity": "25",
+        "Pierces": "Yes",
+        "Cooldown": "9s"
+      },
+      "text": [
+        "Ability: Shoots kunai",
+        "projectiles that return",
+        "to you at max range.",
+        "Enemies hit are marked,",
+        "causing your katana to",
+        "deal +20% damage to",
+        "them for 2.5s."
+      ],
+      "classes": [
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:ability/orb/t4",
+      "name": "Dragon Hide Orb",
+      "model": "telos:material/ability/orb/t4",
+      "type": "ability/orb",
+      "tier": 4,
+      "tierPoints": 4,
+      "stats": {
+        "Speed": "15",
+        "Damage": "50",
+        "Range": "6",
+        "Cooldown": "13s"
+      },
+      "text": [
+        "Ability: Damages in an",
+        "AoE around you and",
+        "grants Speed for 4s."
+      ],
+      "classes": [
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:ability/poison/t4",
+      "name": "Maitotoxin Flask",
+      "model": "telos:material/ability/poison/t4",
+      "type": "ability/poison",
+      "tier": 4,
+      "tierPoints": 4,
+      "stats": {
+        "Damage": "45",
+        "Range": "20",
+        "Velocity": "15",
+        "Cooldown": "13s"
+      },
+      "text": [
+        "Ability: Inflicts a poison",
+        "effect to enemies in a",
+        "0.3x block radius for",
+        "4s (4 ticks)."
+      ],
+      "classes": [
+        "Assassin"
+      ]
+    },
+    {
+      "id": "telos:ability/scripture/t4",
+      "name": "Scripture Of The True Witch",
+      "model": "telos:material/ability/scripture/t4",
+      "type": "ability/scripture",
+      "tier": 4,
+      "tierPoints": 4,
+      "stats": {
+        "Heal": "1",
+        "Damage": "15",
+        "Range": "10",
+        "Pierces": "No",
+        "Cooldown": "11s"
+      },
+      "text": [
+        "Ability: Unleashes 3 projectiles",
+        "from your target that home in on",
+        "you and allies within 0.6x radius",
+        "blocks, healing yourself and",
+        "nearby allies at 50% of the rate.",
+        "Players receiving healing from",
+        "others get a 3s healing cooldown",
+        "(self-heals unaffected)."
+      ],
+      "classes": [
+        "Necromancer"
+      ]
+    },
+    {
+      "id": "telos:ability/shield/t4",
+      "name": "Quartz Shield",
+      "model": "telos:material/ability/shield/t4",
+      "type": "ability/shield",
+      "tier": 4,
+      "tierPoints": 4,
+      "stats": {
+        "Defense": "15",
+        "Damage": "12",
+        "Range": "5",
+        "Shots": "4",
+        "Velocity": "10",
+        "Pierces": "Yes",
+        "Cooldown": "14s"
+      },
+      "text": [
+        "Ability: Shoots a",
+        "barrage of projectiles",
+        "and grants Defense",
+        "for 4s."
+      ],
+      "classes": [
+        "Knight"
+      ]
+    },
+    {
+      "id": "telos:ability/skull/t4",
+      "name": "Goblin Skull",
+      "model": "telos:material/ability/skull/t4",
+      "type": "ability/skull",
+      "tier": 4,
+      "tierPoints": 4,
+      "stats": {
+        "Damage": "2.5",
+        "Range": "30",
+        "Velocity": "20",
+        "Summons": "3",
+        "Pierces": "No",
+        "Cooldown": "9s"
+      },
+      "text": [
+        "Ability: Summons 3",
+        "skeletal minions that",
+        "disappear after 15s",
+        "or after 5 attacks.",
+        "Archer:",
+        "0.4x DMG/2.0s",
+        "Mage:",
+        "0.5x DMG/1.5s",
+        "Melee:",
+        "0.75x DMG/2.0s (2x)"
+      ],
+      "classes": [
+        "Necromancer"
+      ]
+    },
+    {
+      "id": "telos:ability/star/t4",
+      "name": "Star Of Love",
+      "model": "telos:material/ability/star/t4",
+      "type": "ability/star",
+      "tier": 4,
+      "tierPoints": 4,
+      "stats": {
+        "Speed": "20",
+        "Damage": "30",
+        "Range": "12",
+        "Shots": "1",
+        "Velocity": "35",
+        "Pierces": "No",
+        "Cooldown": "10s"
+      },
+      "text": [
+        "Ability: Shoots a star",
+        "projectile and grants",
+        "Speed for 4s."
+      ],
+      "classes": [
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:ability/trap/t4",
+      "name": "Dragon Slayer Trap",
+      "model": "telos:material/ability/trap/t4",
+      "type": "ability/trap",
+      "tier": 4,
+      "tierPoints": 4,
+      "stats": {
+        "Damage": "35",
+        "Range": "20",
+        "Velocity": "15",
+        "Cooldown": "11s"
+      },
+      "text": [
+        "Ability: Throws a trap",
+        "that inflicts slowness to",
+        "enemies in a 0.2x block",
+        "radius for 4s."
+      ],
+      "classes": [
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:armour/heavy/boots/t4",
+      "name": "Silver Sabatons",
+      "model": "telos:material/armour/heavy/boots/t4",
+      "type": "armour/heavy/boots",
+      "tier": 4,
+      "tierPoints": 4,
+      "stats": {
+        "Defense": "+8",
+        "Vitality": "+2"
+      },
+      "classes": [
+        "Knight",
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:armour/heavy/chestplate/t4",
+      "name": "Silver Chestplate",
+      "model": "telos:material/armour/heavy/chestplate/t4",
+      "type": "armour/heavy/chestplate",
+      "tier": 4,
+      "tierPoints": 4,
+      "stats": {
+        "Defense": "+8",
+        "Vitality": "+2"
+      },
+      "classes": [
+        "Knight",
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:armour/heavy/helmet/t4",
+      "name": "Silver Mask",
+      "model": "telos:material/armour/heavy/helmet/t4",
+      "type": "armour/heavy/helmet",
+      "tier": 4,
+      "tierPoints": 4,
+      "stats": {
+        "Defense": "+8",
+        "Vitality": "+2"
+      },
+      "classes": [
+        "Knight",
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:armour/heavy/leggings/t4",
+      "name": "Silver Greaves",
+      "model": "telos:material/armour/heavy/leggings/t4",
+      "type": "armour/heavy/leggings",
+      "tier": 4,
+      "tierPoints": 4,
+      "stats": {
+        "Defense": "+8",
+        "Vitality": "+2"
+      },
+      "classes": [
+        "Knight",
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:armour/light/boots/t4",
+      "name": "Bearskin Sandals",
+      "model": "telos:material/armour/light/boots/t4",
+      "type": "armour/light/boots",
+      "tier": 4,
+      "tierPoints": 4,
+      "stats": {
+        "Defense": "+5",
+        "Speed": "+6"
+      },
+      "classes": [
+        "Assassin",
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:armour/light/chestplate/t4",
+      "name": "Bearskin Armour",
+      "model": "telos:material/armour/light/chestplate/t4",
+      "type": "armour/light/chestplate",
+      "tier": 4,
+      "tierPoints": 4,
+      "stats": {
+        "Defense": "+5",
+        "Speed": "+6"
+      },
+      "classes": [
+        "Assassin",
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:armour/light/helmet/t4",
+      "name": "Bearskin Hat",
+      "model": "telos:material/armour/light/helmet/t4",
+      "type": "armour/light/helmet",
+      "tier": 4,
+      "tierPoints": 4,
+      "stats": {
+        "Defense": "+5",
+        "Speed": "+6"
+      },
+      "classes": [
+        "Assassin",
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:armour/light/leggings/t4",
+      "name": "Bearskin Chaps",
+      "model": "telos:material/armour/light/leggings/t4",
+      "type": "armour/light/leggings",
+      "tier": 4,
+      "tierPoints": 4,
+      "stats": {
+        "Defense": "+5",
+        "Speed": "+6"
+      },
+      "classes": [
+        "Assassin",
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:armour/magical/boots/t4",
+      "name": "Boots Of Robert",
+      "model": "telos:material/armour/magical/boots/t4",
+      "type": "armour/magical/boots",
+      "tier": 4,
+      "tierPoints": 4,
+      "stats": {
+        "Attack": "+3",
+        "Defense": "+4"
+      },
+      "classes": [
+        "Necromancer",
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:armour/magical/chestplate/t4",
+      "name": "Robe Of Robert",
+      "model": "telos:material/armour/magical/chestplate/t4",
+      "type": "armour/magical/chestplate",
+      "tier": 4,
+      "tierPoints": 4,
+      "stats": {
+        "Attack": "+3",
+        "Defense": "+4"
+      },
+      "classes": [
+        "Necromancer",
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:armour/magical/helmet/t4",
+      "name": "Hood Of Robert",
+      "model": "telos:material/armour/magical/helmet/t4",
+      "type": "armour/magical/helmet",
+      "tier": 4,
+      "tierPoints": 4,
+      "stats": {
+        "Attack": "+3",
+        "Defense": "+4"
+      },
+      "classes": [
+        "Necromancer",
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:armour/magical/leggings/t4",
+      "name": "Leggings Of Robert",
+      "model": "telos:material/armour/magical/leggings/t4",
+      "type": "armour/magical/leggings",
+      "tier": 4,
+      "tierPoints": 4,
+      "stats": {
+        "Attack": "+3",
+        "Defense": "+4"
+      },
+      "classes": [
+        "Necromancer",
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:weapon/bow/t4",
+      "name": "Blackwood Bow",
+      "model": "telos:material/weapon/bow/t4",
+      "type": "weapon/bow",
+      "tier": 4,
+      "tierPoints": 4,
+      "stats": {
+        "Damage": "2.25",
+        "Range": "13",
+        "Shots": "3",
+        "Velocity": "20",
+        "Pierces": "Yes",
+        "Cooldown": "0.6s"
+      },
+      "classes": [
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:weapon/dagger/t4",
+      "name": "Topaz Dagger",
+      "model": "telos:material/weapon/dagger/t4",
+      "type": "weapon/dagger",
+      "tier": 4,
+      "tierPoints": 4,
+      "stats": {
+        "Damage": "6.75",
+        "Range": "9",
+        "Shots": "1",
+        "Velocity": "30",
+        "Pierces": "No",
+        "Cooldown": "0.6s"
+      },
+      "classes": [
+        "Assassin"
+      ]
+    },
+    {
+      "id": "telos:weapon/katana/t4",
+      "name": "Titanium Katana",
+      "model": "telos:material/weapon/katana/t4",
+      "type": "weapon/katana",
+      "tier": 4,
+      "tierPoints": 4,
+      "stats": {
+        "Damage": "7.75",
+        "Range": "6",
+        "Slashes": "1",
+        "Pierces": "Yes",
+        "Cooldown": "0.5s"
+      },
+      "text": [
+        "Ability: You only attack",
+        "after successfully",
+        "targeting an enemy."
+      ],
+      "classes": [
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:weapon/sceptre/t4",
+      "name": "Steelwood Sceptre",
+      "model": "telos:material/weapon/sceptre/t4",
+      "type": "weapon/sceptre",
+      "tier": 4,
+      "tierPoints": 4,
+      "stats": {
+        "Damage": "10",
+        "Range": "8",
+        "Beams": "1",
+        "Pierces": "Yes",
+        "Cooldown": "0.8s"
+      },
+      "classes": [
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:weapon/staff/t4",
+      "name": "Bee Staff",
+      "model": "telos:material/weapon/staff/t4",
+      "type": "weapon/staff",
+      "tier": 4,
+      "tierPoints": 4,
+      "stats": {
+        "Damage": "6",
+        "Range": "15",
+        "Shots": "1",
+        "Velocity": "35",
+        "Pierces": "No",
+        "Cooldown": "0.6s"
+      },
+      "classes": [
+        "Necromancer"
+      ]
+    },
+    {
+      "id": "telos:weapon/sword/t4",
+      "name": "Magical Glass Sword",
+      "model": "telos:material/weapon/sword/t4",
+      "type": "weapon/sword",
+      "tier": 4,
+      "tierPoints": 4,
+      "stats": {
+        "Damage": "15.5",
+        "Range": "5",
+        "Slashes": "1",
+        "Pierces": "Yes",
+        "Cooldown": "1s"
+      },
+      "text": [
+        "Ability: You only attack",
+        "after successfully",
+        "targeting an enemy."
+      ],
+      "classes": [
+        "Knight"
+      ]
+    },
+    {
+      "id": "telos:ability/bomb/t5",
+      "name": "Abyssal Bomb",
+      "model": "telos:material/ability/bomb/t5",
+      "type": "ability/bomb",
+      "tier": 5,
+      "tierPoints": 5,
+      "stats": {
+        "Damage": "16",
+        "Range": "3",
+        "Cooldown": "7s"
+      },
+      "text": [
+        "Ability: Creates a large",
+        "explosion that damages",
+        "enemies and propels",
+        "you backward.",
+        "Cooldown begins upon",
+        "landing."
+      ],
+      "classes": [
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:ability/cloak/t5",
+      "name": "Waterwalker Cloak",
+      "model": "telos:material/ability/cloak/t5",
+      "type": "ability/cloak",
+      "tier": 5,
+      "tierPoints": 5,
+      "stats": {
+        "Speed": "14",
+        "Attack": "8",
+        "Critical Chance": "12",
+        "Cooldown": "12s"
+      },
+      "text": [
+        "Ability: Makes you",
+        "invisible for 3.0s. Grants",
+        "Speed, Attack, and",
+        "Critical Chance for 4.0s."
+      ],
+      "classes": [
+        "Assassin"
+      ]
+    },
+    {
+      "id": "telos:ability/emblem/t5",
+      "name": "Devil's Emblem",
+      "model": "telos:material/ability/emblem/t5",
+      "type": "ability/emblem",
+      "tier": 5,
+      "tierPoints": 5,
+      "stats": {
+        "Speed": "30",
+        "Range": "4",
+        "Cooldown": "14s"
+      },
+      "text": [
+        "Ability: Buffs your",
+        "attack speed by 33%",
+        "and your allies' by 25%",
+        "for 5.0s (does not",
+        "stack). Grants Speed",
+        "for 5.0s."
+      ],
+      "classes": [
+        "Knight"
+      ]
+    },
+    {
+      "id": "telos:ability/jewel/t5",
+      "name": "Jade Jewel",
+      "model": "telos:material/ability/jewel/t5",
+      "type": "ability/jewel",
+      "tier": 5,
+      "tierPoints": 5,
+      "stats": {
+        "Damage": "15",
+        "Range": "10",
+        "Shots": "3",
+        "Velocity": "15",
+        "Pierces": "No",
+        "Cooldown": "12s"
+      },
+      "text": [
+        "Ability: Summons jewels",
+        "that rotate around you",
+        "and seek the nearest",
+        "enemy (lasts 6s)."
+      ],
+      "classes": [
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:ability/kunai/t5",
+      "name": "Cobalt Kunai",
+      "model": "telos:material/ability/kunai/t5",
+      "type": "ability/kunai",
+      "tier": 5,
+      "tierPoints": 5,
+      "stats": {
+        "Damage": "3",
+        "Range": "7",
+        "Shots": "3",
+        "Velocity": "25",
+        "Pierces": "Yes",
+        "Cooldown": "8s"
+      },
+      "text": [
+        "Ability: Shoots kunai",
+        "projectiles that",
+        "return to you at max",
+        "range. Enemies hit are",
+        "marked, causing your",
+        "katana to deal +20%",
+        "damage to them for",
+        "2.5s."
+      ],
+      "classes": [
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:ability/orb/t5",
+      "name": "Universal Orb",
+      "model": "telos:material/ability/orb/t5",
+      "type": "ability/orb",
+      "tier": 5,
+      "tierPoints": 5,
+      "stats": {
+        "Speed": "15",
+        "Damage": "50",
+        "Range": "6",
+        "Cooldown": "12s"
+      },
+      "text": [
+        "Ability: Damages in an",
+        "AoE around you and",
+        "grants Speed for 4s."
+      ],
+      "classes": [
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:ability/poison/t5",
+      "name": "Poisonous Spirit",
+      "model": "telos:material/ability/poison/t5",
+      "type": "ability/poison",
+      "tier": 5,
+      "tierPoints": 5,
+      "stats": {
+        "Damage": "55",
+        "Range": "20",
+        "Velocity": "15",
+        "Cooldown": "13s"
+      },
+      "text": [
+        "Ability: Inflicts a poison",
+        "effect to enemies in a",
+        "0.3x block radius for",
+        "4s (4 ticks)."
+      ],
+      "classes": [
+        "Assassin"
+      ]
+    },
+    {
+      "id": "telos:ability/scripture/t5",
+      "name": "Sands Of Time Scripture",
+      "model": "telos:material/ability/scripture/t5",
+      "type": "ability/scripture",
+      "tier": 5,
+      "tierPoints": 5,
+      "stats": {
+        "Heal": "1",
+        "Damage": "20",
+        "Range": "10",
+        "Pierces": "No",
+        "Cooldown": "10s"
+      },
+      "text": [
+        "Ability: Unleashes 3",
+        "projectiles from your target",
+        "that home in on you and",
+        "allies within 0.6x radius",
+        "blocks, healing yourself and",
+        "nearby allies at 50% of the",
+        "rate. Players receiving",
+        "healing from others get a 3s",
+        "healing cooldown (self-heals",
+        "unaffected)."
+      ],
+      "classes": [
+        "Necromancer"
+      ]
+    },
+    {
+      "id": "telos:ability/shield/t5",
+      "name": "Golden Shield",
+      "model": "telos:material/ability/shield/t5",
+      "type": "ability/shield",
+      "tier": 5,
+      "tierPoints": 5,
+      "stats": {
+        "Defense": "15",
+        "Damage": "15",
+        "Range": "5",
+        "Shots": "4",
+        "Velocity": "10",
+        "Pierces": "Yes",
+        "Cooldown": "14s"
+      },
+      "text": [
+        "Ability: Shoots a",
+        "barrage of projectiles",
+        "and grants Defense",
+        "for 4s."
+      ],
+      "classes": [
+        "Knight"
+      ]
+    },
+    {
+      "id": "telos:ability/skull/t5",
+      "name": "Enchanted Goblin Skull",
+      "model": "telos:material/ability/skull/t5",
+      "type": "ability/skull",
+      "tier": 5,
+      "tierPoints": 5,
+      "stats": {
+        "Damage": "3",
+        "Range": "30",
+        "Velocity": "20",
+        "Summons": "3",
+        "Pierces": "No",
+        "Cooldown": "9s"
+      },
+      "text": [
+        "Ability: Summons 3 skeletal",
+        "minions that disappear after",
+        "15s or after 5 attacks.",
+        "Archer:",
+        "0.4x DMG/2.0s",
+        "Mage:",
+        "0.5x DMG/1.5s",
+        "Melee:",
+        "0.75x DMG/2.0s (2x)"
+      ],
+      "classes": [
+        "Necromancer"
+      ]
+    },
+    {
+      "id": "telos:ability/star/t5",
+      "name": "Vine Star",
+      "model": "telos:material/ability/star/t5",
+      "type": "ability/star",
+      "tier": 5,
+      "tierPoints": 5,
+      "stats": {
+        "Speed": "20",
+        "Damage": "30",
+        "Range": "12",
+        "Shots": "1",
+        "Velocity": "35",
+        "Pierces": "No",
+        "Cooldown": "9s"
+      },
+      "text": [
+        "Ability: Shoots a star",
+        "projectile and grants",
+        "Speed for 4s."
+      ],
+      "classes": [
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:ability/trap/t5",
+      "name": "Everdark Trap",
+      "model": "telos:material/ability/trap/t5",
+      "type": "ability/trap",
+      "tier": 5,
+      "tierPoints": 5,
+      "stats": {
+        "Damage": "35",
+        "Range": "20",
+        "Velocity": "15",
+        "Cooldown": "10s"
+      },
+      "text": [
+        "Ability: Throws a trap",
+        "that inflicts slowness",
+        "to enemies in a 0.2x",
+        "block radius for 4s."
+      ],
+      "classes": [
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:armour/heavy/boots/t5",
+      "name": "Mithril Sabatons",
+      "model": "telos:material/armour/heavy/boots/t5",
+      "type": "armour/heavy/boots",
+      "tier": 5,
+      "tierPoints": 5,
+      "stats": {
+        "Defense": "+9",
+        "Vitality": "+2"
+      },
+      "classes": [
+        "Knight",
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:armour/heavy/chestplate/t5",
+      "name": "Mithril Chestplate",
+      "model": "telos:material/armour/heavy/chestplate/t5",
+      "type": "armour/heavy/chestplate",
+      "tier": 5,
+      "tierPoints": 5,
+      "stats": {
+        "Defense": "+9",
+        "Vitality": "+2"
+      },
+      "classes": [
+        "Knight",
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:armour/heavy/helmet/t5",
+      "name": "Mithril Mask",
+      "model": "telos:material/armour/heavy/helmet/t5",
+      "type": "armour/heavy/helmet",
+      "tier": 5,
+      "tierPoints": 5,
+      "stats": {
+        "Defense": "+9",
+        "Vitality": "+2"
+      },
+      "classes": [
+        "Knight",
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:armour/heavy/leggings/t5",
+      "name": "Mithril Greaves",
+      "model": "telos:material/armour/heavy/leggings/t5",
+      "type": "armour/heavy/leggings",
+      "tier": 5,
+      "tierPoints": 5,
+      "stats": {
+        "Defense": "+9",
+        "Vitality": "+2"
+      },
+      "classes": [
+        "Knight",
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:armour/light/boots/t5",
+      "name": "Wyvern Skin Sandals",
+      "model": "telos:material/armour/light/boots/t5",
+      "type": "armour/light/boots",
+      "tier": 5,
+      "tierPoints": 5,
+      "stats": {
+        "Defense": "+6",
+        "Speed": "+7"
+      },
+      "classes": [
+        "Assassin",
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:armour/light/chestplate/t5",
+      "name": "Wyvern Skin Armour",
+      "model": "telos:material/armour/light/chestplate/t5",
+      "type": "armour/light/chestplate",
+      "tier": 5,
+      "tierPoints": 5,
+      "stats": {
+        "Defense": "+6",
+        "Speed": "+7"
+      },
+      "classes": [
+        "Assassin",
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:armour/light/helmet/t5",
+      "name": "Wyvern Skin Hat",
+      "model": "telos:material/armour/light/helmet/t5",
+      "type": "armour/light/helmet",
+      "tier": 5,
+      "tierPoints": 5,
+      "stats": {
+        "Defense": "+6",
+        "Speed": "+7"
+      },
+      "classes": [
+        "Assassin",
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:armour/light/leggings/t5",
+      "name": "Wyvern Skin Chaps",
+      "model": "telos:material/armour/light/leggings/t5",
+      "type": "armour/light/leggings",
+      "tier": 5,
+      "tierPoints": 5,
+      "stats": {
+        "Defense": "+6",
+        "Speed": "+7"
+      },
+      "classes": [
+        "Assassin",
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:armour/magical/boots/t5",
+      "name": "Boots Of The Neophyte",
+      "model": "telos:material/armour/magical/boots/t5",
+      "type": "armour/magical/boots",
+      "tier": 5,
+      "tierPoints": 5,
+      "stats": {
+        "Attack": "+4",
+        "Defense": "+5"
+      },
+      "classes": [
+        "Necromancer",
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:armour/magical/chestplate/t5",
+      "name": "Robe Of The Neophyte",
+      "model": "telos:material/armour/magical/chestplate/t5",
+      "type": "armour/magical/chestplate",
+      "tier": 5,
+      "tierPoints": 5,
+      "stats": {
+        "Attack": "+4",
+        "Defense": "+5"
+      },
+      "classes": [
+        "Necromancer",
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:armour/magical/helmet/t5",
+      "name": "Hood Of The Neophyte",
+      "model": "telos:material/armour/magical/helmet/t5",
+      "type": "armour/magical/helmet",
+      "tier": 5,
+      "tierPoints": 5,
+      "stats": {
+        "Attack": "+4",
+        "Defense": "+5"
+      },
+      "classes": [
+        "Necromancer",
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:armour/magical/leggings/t5",
+      "name": "Leggings Of The Neophyte",
+      "model": "telos:material/armour/magical/leggings/t5",
+      "type": "armour/magical/leggings",
+      "tier": 5,
+      "tierPoints": 5,
+      "stats": {
+        "Attack": "+4",
+        "Defense": "+5"
+      },
+      "classes": [
+        "Necromancer",
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:weapon/bow/t5",
+      "name": "Golden Bow",
+      "model": "telos:material/weapon/bow/t5",
+      "type": "weapon/bow",
+      "tier": 5,
+      "tierPoints": 5,
+      "stats": {
+        "Damage": "2.75",
+        "Range": "13",
+        "Shots": "3",
+        "Velocity": "20",
+        "Pierces": "Yes",
+        "Cooldown": "0.6s"
+      },
+      "classes": [
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:weapon/dagger/t5",
+      "name": "Obsidian Dagger",
+      "model": "telos:material/weapon/dagger/t5",
+      "type": "weapon/dagger",
+      "tier": 5,
+      "tierPoints": 5,
+      "stats": {
+        "Damage": "8",
+        "Range": "9",
+        "Shots": "1",
+        "Velocity": "30",
+        "Pierces": "No",
+        "Cooldown": "0.6s"
+      },
+      "classes": [
+        "Assassin"
+      ]
+    },
+    {
+      "id": "telos:weapon/katana/t5",
+      "name": "Orion",
+      "model": "telos:material/weapon/katana/t5",
+      "type": "weapon/katana",
+      "tier": 5,
+      "tierPoints": 5,
+      "stats": {
+        "Damage": "8.75",
+        "Range": "6",
+        "Slashes": "1",
+        "Pierces": "Yes",
+        "Cooldown": "0.5s"
+      },
+      "text": [
+        "Ability: You only attack",
+        "after successfully",
+        "targeting an enemy."
+      ],
+      "classes": [
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:weapon/sceptre/t5",
+      "name": "Goldleaf Sceptre",
+      "model": "telos:material/weapon/sceptre/t5",
+      "type": "weapon/sceptre",
+      "tier": 5,
+      "tierPoints": 5,
+      "stats": {
+        "Damage": "12.5",
+        "Range": "8",
+        "Beams": "1",
+        "Pierces": "Yes",
+        "Cooldown": "0.8s"
+      },
+      "classes": [
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:weapon/staff/t5",
+      "name": "Staff Of The Deep Seas",
+      "model": "telos:material/weapon/staff/t5",
+      "type": "weapon/staff",
+      "tier": 5,
+      "tierPoints": 5,
+      "stats": {
+        "Damage": "7.25",
+        "Range": "15",
+        "Shots": "1",
+        "Velocity": "35",
+        "Pierces": "No",
+        "Cooldown": "0.6s"
+      },
+      "classes": [
+        "Necromancer"
+      ]
+    },
+    {
+      "id": "telos:weapon/sword/t5",
+      "name": "Honey Sword",
+      "model": "telos:material/weapon/sword/t5",
+      "type": "weapon/sword",
+      "tier": 5,
+      "tierPoints": 5,
+      "stats": {
+        "Damage": "18",
+        "Range": "5",
+        "Slashes": "1",
+        "Pierces": "Yes",
+        "Cooldown": "1s"
+      },
+      "text": [
+        "Ability: You only attack",
+        "after successfully",
+        "targeting an enemy."
+      ],
+      "classes": [
+        "Knight"
+      ]
+    },
+    {
+      "id": "telos:ability/bomb/t6",
+      "name": "Sulphuric Bomb",
+      "model": "telos:material/ability/bomb/t6",
+      "type": "ability/bomb",
+      "tier": 6,
+      "tierPoints": 6,
+      "stats": {
+        "Damage": "24",
+        "Range": "3",
+        "Cooldown": "7s"
+      },
+      "text": [
+        "Ability: Creates a large",
+        "explosion that damages",
+        "enemies and propels",
+        "you backward.",
+        "Cooldown begins upon",
+        "landing."
+      ],
+      "classes": [
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:ability/cloak/t6",
+      "name": "Skywalker Cloak",
+      "model": "telos:material/ability/cloak/t6",
+      "type": "ability/cloak",
+      "tier": 6,
+      "tierPoints": 6,
+      "stats": {
+        "Speed": "14",
+        "Attack": "8",
+        "Critical Chance": "12",
+        "Cooldown": "11s"
+      },
+      "text": [
+        "Ability: Makes you",
+        "invisible for 3.0s. Grants",
+        "Speed, Attack, and",
+        "Critical Chance for 4.0s."
+      ],
+      "classes": [
+        "Assassin"
+      ]
+    },
+    {
+      "id": "telos:ability/emblem/t6",
+      "name": "Mythril Emblem",
+      "model": "telos:material/ability/emblem/t6",
+      "type": "ability/emblem",
+      "tier": 6,
+      "tierPoints": 6,
+      "stats": {
+        "Speed": "30",
+        "Range": "4",
+        "Cooldown": "13s"
+      },
+      "text": [
+        "Ability: Buffs your",
+        "attack speed by 33%",
+        "and your allies' by 25%",
+        "for 5.0s (does not",
+        "stack). Grants Speed",
+        "for 5.0s."
+      ],
+      "classes": [
+        "Knight"
+      ]
+    },
+    {
+      "id": "telos:ability/jewel/t6",
+      "name": "Casting Jewel",
+      "model": "telos:material/ability/jewel/t6",
+      "type": "ability/jewel",
+      "tier": 6,
+      "tierPoints": 6,
+      "stats": {
+        "Damage": "15",
+        "Range": "10",
+        "Shots": "3",
+        "Velocity": "15",
+        "Pierces": "No",
+        "Cooldown": "11s"
+      },
+      "text": [
+        "Ability: Summons jewels",
+        "that rotate around you",
+        "and seek the nearest",
+        "enemy (lasts 6s)."
+      ],
+      "classes": [
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:ability/kunai/t6",
+      "name": "Spider Fang Kunai",
+      "model": "telos:material/ability/kunai/t6",
+      "type": "ability/kunai",
+      "tier": 6,
+      "tierPoints": 6,
+      "stats": {
+        "Damage": "4",
+        "Range": "7",
+        "Shots": "3",
+        "Velocity": "25",
+        "Pierces": "Yes",
+        "Cooldown": "8s"
+      },
+      "text": [
+        "Ability: Shoots kunai",
+        "projectiles that",
+        "return to you at max",
+        "range. Enemies hit are",
+        "marked, causing your",
+        "katana to deal +20%",
+        "damage to them for",
+        "2.5s."
+      ],
+      "classes": [
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:ability/orb/t6",
+      "name": "Moonstone Orb",
+      "model": "telos:material/ability/orb/t6",
+      "type": "ability/orb",
+      "tier": 6,
+      "tierPoints": 6,
+      "stats": {
+        "Speed": "20",
+        "Damage": "55",
+        "Range": "6",
+        "Cooldown": "12s"
+      },
+      "text": [
+        "Ability: Damages in an",
+        "AoE around you and",
+        "grants Speed for 4s."
+      ],
+      "classes": [
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:ability/poison/t6",
+      "name": "Dragon Tear Poison",
+      "model": "telos:material/ability/poison/t6",
+      "type": "ability/poison",
+      "tier": 6,
+      "tierPoints": 6,
+      "stats": {
+        "Damage": "65",
+        "Range": "20",
+        "Velocity": "15",
+        "Cooldown": "13s"
+      },
+      "text": [
+        "Ability: Inflicts a poison",
+        "effect to enemies in a",
+        "0.3x block radius for 4s",
+        "(4 ticks)."
+      ],
+      "classes": [
+        "Assassin"
+      ]
+    },
+    {
+      "id": "telos:ability/scripture/t6",
+      "name": "Scripture Of Dark Magic",
+      "model": "telos:material/ability/scripture/t6",
+      "type": "ability/scripture",
+      "tier": 6,
+      "tierPoints": 6,
+      "stats": {
+        "Heal": "1",
+        "Damage": "25",
+        "Range": "10",
+        "Pierces": "No",
+        "Cooldown": "10s"
+      },
+      "text": [
+        "Ability: Unleashes 3",
+        "projectiles from your target",
+        "that home in on you and",
+        "allies within 0.6x radius",
+        "blocks, healing yourself and",
+        "nearby allies at 50% of the",
+        "rate. Players receiving",
+        "healing from others get a 3s",
+        "healing cooldown (self-heals",
+        "unaffected)."
+      ],
+      "classes": [
+        "Necromancer"
+      ]
+    },
+    {
+      "id": "telos:ability/shield/t6",
+      "name": "Mythril Shield",
+      "model": "telos:material/ability/shield/t6",
+      "type": "ability/shield",
+      "tier": 6,
+      "tierPoints": 6,
+      "stats": {
+        "Defense": "15",
+        "Damage": "15",
+        "Range": "5",
+        "Shots": "4",
+        "Velocity": "10",
+        "Pierces": "Yes",
+        "Cooldown": "13s"
+      },
+      "text": [
+        "Ability: Shoots a",
+        "barrage of",
+        "projectiles and grants",
+        "Defense for 4s."
+      ],
+      "classes": [
+        "Knight"
+      ]
+    },
+    {
+      "id": "telos:ability/skull/t6",
+      "name": "Firewood Skull",
+      "model": "telos:material/ability/skull/t6",
+      "type": "ability/skull",
+      "tier": 6,
+      "tierPoints": 6,
+      "stats": {
+        "Damage": "3.5",
+        "Range": "30",
+        "Velocity": "20",
+        "Summons": "3",
+        "Pierces": "No",
+        "Cooldown": "9s"
+      },
+      "text": [
+        "Ability: Summons 3",
+        "skeletal minions that",
+        "disappear after 15s",
+        "or after 5 attacks.",
+        "Archer:",
+        "0.4x DMG/2.0s",
+        "Mage:",
+        "0.5x DMG/1.5s",
+        "Melee:",
+        "0.75x DMG/2.0s (2x)"
+      ],
+      "classes": [
+        "Necromancer"
+      ]
+    },
+    {
+      "id": "telos:ability/star/t6",
+      "name": "Prismarine Star",
+      "model": "telos:material/ability/star/t6",
+      "type": "ability/star",
+      "tier": 6,
+      "tierPoints": 6,
+      "stats": {
+        "Speed": "20",
+        "Damage": "35",
+        "Range": "12",
+        "Shots": "1",
+        "Velocity": "35",
+        "Pierces": "No",
+        "Cooldown": "9s"
+      },
+      "text": [
+        "Ability: Shoots a star",
+        "projectile and grants",
+        "Speed for 4s."
+      ],
+      "classes": [
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:ability/trap/t6",
+      "name": "Shadowcaster Trap",
+      "model": "telos:material/ability/trap/t6",
+      "type": "ability/trap",
+      "tier": 6,
+      "tierPoints": 6,
+      "stats": {
+        "Damage": "35",
+        "Range": "20",
+        "Velocity": "15",
+        "Cooldown": "10s"
+      },
+      "text": [
+        "Ability: Throws a trap",
+        "that inflicts slowness to",
+        "enemies in a 0.2x block",
+        "radius for 4s."
+      ],
+      "classes": [
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:armour/heavy/boots/t6",
+      "name": "Dragonscale Sabatons",
+      "model": "telos:material/armour/heavy/boots/t6",
+      "type": "armour/heavy/boots",
+      "tier": 6,
+      "tierPoints": 6,
+      "stats": {
+        "Defense": "+10",
+        "Vitality": "+2"
+      },
+      "classes": [
+        "Knight",
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:armour/heavy/chestplate/t6",
+      "name": "Dragonscale Chestplate",
+      "model": "telos:material/armour/heavy/chestplate/t6",
+      "type": "armour/heavy/chestplate",
+      "tier": 6,
+      "tierPoints": 6,
+      "stats": {
+        "Defense": "+10",
+        "Vitality": "+2"
+      },
+      "classes": [
+        "Knight",
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:armour/heavy/helmet/t6",
+      "name": "Dragonscale Mask",
+      "model": "telos:material/armour/heavy/helmet/t6",
+      "type": "armour/heavy/helmet",
+      "tier": 6,
+      "tierPoints": 6,
+      "stats": {
+        "Defense": "+10",
+        "Vitality": "+2"
+      },
+      "classes": [
+        "Knight",
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:armour/heavy/leggings/t6",
+      "name": "Dragonscale Greaves",
+      "model": "telos:material/armour/heavy/leggings/t6",
+      "type": "armour/heavy/leggings",
+      "tier": 6,
+      "tierPoints": 6,
+      "stats": {
+        "Defense": "+10",
+        "Vitality": "+2"
+      },
+      "classes": [
+        "Knight",
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:armour/light/boots/t6",
+      "name": "Drake Hide Sandals",
+      "model": "telos:material/armour/light/boots/t6",
+      "type": "armour/light/boots",
+      "tier": 6,
+      "tierPoints": 6,
+      "stats": {
+        "Defense": "+7",
+        "Speed": "+8"
+      },
+      "classes": [
+        "Assassin",
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:armour/light/chestplate/t6",
+      "name": "Drake Hide Armour",
+      "model": "telos:material/armour/light/chestplate/t6",
+      "type": "armour/light/chestplate",
+      "tier": 6,
+      "tierPoints": 6,
+      "stats": {
+        "Defense": "+7",
+        "Speed": "+8"
+      },
+      "classes": [
+        "Assassin",
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:armour/light/helmet/t6",
+      "name": "Drake Hide Hat",
+      "model": "telos:material/armour/light/helmet/t6",
+      "type": "armour/light/helmet",
+      "tier": 6,
+      "tierPoints": 6,
+      "stats": {
+        "Defense": "+7",
+        "Speed": "+8"
+      },
+      "classes": [
+        "Assassin",
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:armour/light/leggings/t6",
+      "name": "Drake Hide Chaps",
+      "model": "telos:material/armour/light/leggings/t6",
+      "type": "armour/light/leggings",
+      "tier": 6,
+      "tierPoints": 6,
+      "stats": {
+        "Defense": "+7",
+        "Speed": "+8"
+      },
+      "classes": [
+        "Assassin",
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:armour/magical/boots/t6",
+      "name": "Boots Of The Adept",
+      "model": "telos:material/armour/magical/boots/t6",
+      "type": "armour/magical/boots",
+      "tier": 6,
+      "tierPoints": 6,
+      "stats": {
+        "Attack": "+5",
+        "Defense": "+6"
+      },
+      "classes": [
+        "Necromancer",
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:armour/magical/chestplate/t6",
+      "name": "Robe Of The Adept",
+      "model": "telos:material/armour/magical/chestplate/t6",
+      "type": "armour/magical/chestplate",
+      "tier": 6,
+      "tierPoints": 6,
+      "stats": {
+        "Attack": "+5",
+        "Defense": "+6"
+      },
+      "classes": [
+        "Necromancer",
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:armour/magical/helmet/t6",
+      "name": "Hood Of The Adept",
+      "model": "telos:material/armour/magical/helmet/t6",
+      "type": "armour/magical/helmet",
+      "tier": 6,
+      "tierPoints": 6,
+      "stats": {
+        "Attack": "+5",
+        "Defense": "+6"
+      },
+      "classes": [
+        "Necromancer",
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:armour/magical/leggings/t6",
+      "name": "Leggings Of The Adept",
+      "model": "telos:material/armour/magical/leggings/t6",
+      "type": "armour/magical/leggings",
+      "tier": 6,
+      "tierPoints": 6,
+      "stats": {
+        "Attack": "+5",
+        "Defense": "+6"
+      },
+      "classes": [
+        "Necromancer",
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:weapon/bow/t6",
+      "name": "Enchanted Grass Bow",
+      "model": "telos:material/weapon/bow/t6",
+      "type": "weapon/bow",
+      "tier": 6,
+      "tierPoints": 6,
+      "stats": {
+        "Damage": "3.25",
+        "Range": "13",
+        "Shots": "3",
+        "Velocity": "20",
+        "Pierces": "Yes",
+        "Cooldown": "0.6s"
+      },
+      "classes": [
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:weapon/dagger/t6",
+      "name": "Amethyst Dagger",
+      "model": "telos:material/weapon/dagger/t6",
+      "type": "weapon/dagger",
+      "tier": 6,
+      "tierPoints": 6,
+      "stats": {
+        "Damage": "9.75",
+        "Range": "9",
+        "Shots": "1",
+        "Velocity": "30",
+        "Pierces": "No",
+        "Cooldown": "0.6s"
+      },
+      "classes": [
+        "Assassin"
+      ]
+    },
+    {
+      "id": "telos:weapon/katana/t6",
+      "name": "Hellforged Katana",
+      "model": "telos:material/weapon/katana/t6",
+      "type": "weapon/katana",
+      "tier": 6,
+      "tierPoints": 6,
+      "stats": {
+        "Damage": "9.5",
+        "Range": "6",
+        "Slashes": "1",
+        "Pierces": "Yes",
+        "Cooldown": "0.5s"
+      },
+      "text": [
+        "Ability: You only attack",
+        "after successfully",
+        "targeting an enemy."
+      ],
+      "classes": [
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:weapon/sceptre/t6",
+      "name": "Chaosbark Sceptre",
+      "model": "telos:material/weapon/sceptre/t6",
+      "type": "weapon/sceptre",
+      "tier": 6,
+      "tierPoints": 6,
+      "stats": {
+        "Damage": "14.5",
+        "Range": "8",
+        "Beams": "1",
+        "Pierces": "Yes",
+        "Cooldown": "0.8s"
+      },
+      "classes": [
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:weapon/staff/t6",
+      "name": "Staff Of The Arachna",
+      "model": "telos:material/weapon/staff/t6",
+      "type": "weapon/staff",
+      "tier": 6,
+      "tierPoints": 6,
+      "stats": {
+        "Damage": "8.75",
+        "Range": "15",
+        "Shots": "1",
+        "Velocity": "35",
+        "Pierces": "No",
+        "Cooldown": "0.6s"
+      },
+      "classes": [
+        "Necromancer"
+      ]
+    },
+    {
+      "id": "telos:weapon/sword/t6",
+      "name": "Enchanted Honey Sword",
+      "model": "telos:material/weapon/sword/t6",
+      "type": "weapon/sword",
+      "tier": 6,
+      "tierPoints": 6,
+      "stats": {
+        "Damage": "20",
+        "Range": "5",
+        "Slashes": "1",
+        "Pierces": "Yes",
+        "Cooldown": "1s"
+      },
+      "text": [
+        "Ability: You only attack after",
+        "successfully targeting an",
+        "enemy."
+      ],
+      "classes": [
+        "Knight"
+      ]
+    },
+    {
+      "id": "telos:ability/bomb/t7",
+      "name": "Skytide Bomb",
+      "model": "telos:material/ability/bomb/t7",
+      "type": "ability/bomb",
+      "tier": 7,
+      "tierPoints": 7,
+      "stats": {
+        "Damage": "32",
+        "Range": "3",
+        "Cooldown": "7s"
+      },
+      "text": [
+        "Ability: Creates a large",
+        "explosion that damages",
+        "enemies and propels",
+        "you backward.",
+        "Cooldown begins upon",
+        "landing."
+      ],
+      "classes": [
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:ability/cloak/t7",
+      "name": "Shadow Blessed Cloak",
+      "model": "telos:material/ability/cloak/t7",
+      "type": "ability/cloak",
+      "tier": 7,
+      "tierPoints": 7,
+      "stats": {
+        "Speed": "21",
+        "Attack": "12",
+        "Critical Chance": "15",
+        "Cooldown": "11s"
+      },
+      "text": [
+        "Ability: Makes you invisible",
+        "for 3.0s. Grants Speed,",
+        "Attack, and Critical Chance",
+        "for 4.0s."
+      ],
+      "classes": [
+        "Assassin"
+      ]
+    },
+    {
+      "id": "telos:ability/emblem/t7",
+      "name": "Golden Emblem",
+      "model": "telos:material/ability/emblem/t7",
+      "type": "ability/emblem",
+      "tier": 7,
+      "tierPoints": 7,
+      "stats": {
+        "Speed": "35",
+        "Range": "4",
+        "Cooldown": "13s"
+      },
+      "text": [
+        "Ability: Buffs your",
+        "attack speed by 33%",
+        "and your allies' by 25%",
+        "for 5.0s (does not",
+        "stack). Grants Speed",
+        "for 5.0s."
+      ],
+      "classes": [
+        "Knight"
+      ]
+    },
+    {
+      "id": "telos:ability/jewel/t7",
+      "name": "Pearly Jewel",
+      "model": "telos:material/ability/jewel/t7",
+      "type": "ability/jewel",
+      "tier": 7,
+      "tierPoints": 7,
+      "stats": {
+        "Damage": "17",
+        "Range": "10",
+        "Shots": "3",
+        "Velocity": "15",
+        "Pierces": "No",
+        "Cooldown": "11s"
+      },
+      "text": [
+        "Ability: Summons jewels",
+        "that rotate around",
+        "you and seek the",
+        "nearest enemy (lasts",
+        "6s)."
+      ],
+      "classes": [
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:ability/kunai/t7",
+      "name": "Spinal Kunai",
+      "model": "telos:material/ability/kunai/t7",
+      "type": "ability/kunai",
+      "tier": 7,
+      "tierPoints": 7,
+      "stats": {
+        "Damage": "4",
+        "Range": "7",
+        "Shots": "3",
+        "Velocity": "25",
+        "Pierces": "Yes",
+        "Cooldown": "7s"
+      },
+      "text": [
+        "Ability: Shoots kunai",
+        "projectiles that return",
+        "to you at max range.",
+        "Enemies hit are marked,",
+        "causing your katana to",
+        "deal +20% damage to",
+        "them for 2.5s."
+      ],
+      "classes": [
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:ability/orb/t7",
+      "name": "Reapers Orb",
+      "model": "telos:material/ability/orb/t7",
+      "type": "ability/orb",
+      "tier": 7,
+      "tierPoints": 7,
+      "stats": {
+        "Speed": "20",
+        "Damage": "55",
+        "Range": "6",
+        "Cooldown": "11s"
+      },
+      "text": [
+        "Ability: Damages in an",
+        "AoE around you and",
+        "grants Speed for 4s."
+      ],
+      "classes": [
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:ability/poison/t7",
+      "name": "Rose Petal Poison",
+      "model": "telos:material/ability/poison/t7",
+      "type": "ability/poison",
+      "tier": 7,
+      "tierPoints": 7,
+      "stats": {
+        "Damage": "65",
+        "Range": "20",
+        "Velocity": "15",
+        "Cooldown": "12s"
+      },
+      "text": [
+        "Ability: Inflicts a poison",
+        "effect to enemies in a",
+        "0.3 xblock radius for",
+        "4s (4 ticks)."
+      ],
+      "classes": [
+        "Assassin"
+      ]
+    },
+    {
+      "id": "telos:ability/scripture/t7",
+      "name": "Fungal Infested Scripture",
+      "model": "telos:material/ability/scripture/t7",
+      "type": "ability/scripture",
+      "tier": 7,
+      "tierPoints": 7,
+      "stats": {
+        "Heal": "1",
+        "Damage": "25",
+        "Range": "10",
+        "Pierces": "No",
+        "Cooldown": "10s"
+      },
+      "text": [
+        "Ability: Unleashes 4 projectiles",
+        "from your target that home in",
+        "on you and allies within 0.6x",
+        "radius blocks, healing yourself",
+        "and nearby allies at 50% of the",
+        "rate. Players receiving healing",
+        "from others get a 3s healing",
+        "cooldown (self-heals",
+        "unaffected)."
+      ],
+      "classes": [
+        "Necromancer"
+      ]
+    },
+    {
+      "id": "telos:ability/shield/t7",
+      "name": "Cloud Imbued Shield",
+      "model": "telos:material/ability/shield/t7",
+      "type": "ability/shield",
+      "tier": 7,
+      "tierPoints": 7,
+      "stats": {
+        "Defense": "15",
+        "Damage": "18",
+        "Range": "5",
+        "Shots": "4",
+        "Velocity": "10",
+        "Pierces": "Yes",
+        "Cooldown": "13s"
+      },
+      "text": [
+        "Ability: Shoots a barrage",
+        "of projectiles and",
+        "grants Defense for 4s."
+      ],
+      "classes": [
+        "Knight"
+      ]
+    },
+    {
+      "id": "telos:ability/skull/t7",
+      "name": "Crystal Glass Skull",
+      "model": "telos:material/ability/skull/t7",
+      "type": "ability/skull",
+      "tier": 7,
+      "tierPoints": 7,
+      "stats": {
+        "Damage": "4",
+        "Range": "30",
+        "Velocity": "20",
+        "Summons": "3",
+        "Pierces": "No",
+        "Cooldown": "9s"
+      },
+      "text": [
+        "Ability: Summons 3 skeletal",
+        "minions that disappear",
+        "after 15s or after 5",
+        "attacks.",
+        "Archer:",
+        "0.4x DMG/2.0s",
+        "Mage:",
+        "0.5x DMG/1.5s",
+        "Melee:",
+        "0.75x DMG/2.0s (2x)"
+      ],
+      "classes": [
+        "Necromancer"
+      ]
+    },
+    {
+      "id": "telos:ability/star/t7",
+      "name": "Poison Ivy Star",
+      "model": "telos:material/ability/star/t7",
+      "type": "ability/star",
+      "tier": 7,
+      "tierPoints": 7,
+      "stats": {
+        "Speed": "20",
+        "Damage": "35",
+        "Range": "12",
+        "Shots": "1",
+        "Velocity": "35",
+        "Pierces": "No",
+        "Cooldown": "8s"
+      },
+      "text": [
+        "Ability: Shoots a star",
+        "projectile and grants",
+        "Speed for 4s."
+      ],
+      "classes": [
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:ability/trap/t7",
+      "name": "Zombified Trap",
+      "model": "telos:material/ability/trap/t7",
+      "type": "ability/trap",
+      "tier": 7,
+      "tierPoints": 7,
+      "stats": {
+        "Damage": "35",
+        "Range": "20",
+        "Velocity": "15",
+        "Cooldown": "9s"
+      },
+      "text": [
+        "Ability: Throws a trap",
+        "that inflicts slowness",
+        "to enemies in a 0.2x",
+        "block radius for 4s."
+      ],
+      "classes": [
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:armour/heavy/boots/t7",
+      "name": "Acropolis Sabatons",
+      "model": "telos:material/armour/heavy/boots/t7",
+      "type": "armour/heavy/boots",
+      "tier": 7,
+      "tierPoints": 7,
+      "stats": {
+        "Defense": "+11",
+        "Vitality": "+2"
+      },
+      "classes": [
+        "Knight",
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:armour/heavy/chestplate/t7",
+      "name": "Acropolis Chestplate",
+      "model": "telos:material/armour/heavy/chestplate/t7",
+      "type": "armour/heavy/chestplate",
+      "tier": 7,
+      "tierPoints": 7,
+      "stats": {
+        "Defense": "+11",
+        "Vitality": "+2"
+      },
+      "classes": [
+        "Knight",
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:armour/heavy/helmet/t7",
+      "name": "Acropolis Mask",
+      "model": "telos:material/armour/heavy/helmet/t7",
+      "type": "armour/heavy/helmet",
+      "tier": 7,
+      "tierPoints": 7,
+      "stats": {
+        "Defense": "+11",
+        "Vitality": "+2"
+      },
+      "classes": [
+        "Knight",
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:armour/heavy/leggings/t7",
+      "name": "Acropolis Greaves",
+      "model": "telos:material/armour/heavy/leggings/t7",
+      "type": "armour/heavy/leggings",
+      "tier": 7,
+      "tierPoints": 7,
+      "stats": {
+        "Defense": "+11",
+        "Vitality": "+2"
+      },
+      "classes": [
+        "Knight",
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:armour/light/boots/t7",
+      "name": "Ornate Sandals",
+      "model": "telos:material/armour/light/boots/t7",
+      "type": "armour/light/boots",
+      "tier": 7,
+      "tierPoints": 7,
+      "stats": {
+        "Defense": "+8",
+        "Speed": "+9"
+      },
+      "classes": [
+        "Assassin",
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:armour/light/chestplate/t7",
+      "name": "Ornate Armour",
+      "model": "telos:material/armour/light/chestplate/t7",
+      "type": "armour/light/chestplate",
+      "tier": 7,
+      "tierPoints": 7,
+      "stats": {
+        "Defense": "+8",
+        "Speed": "+9"
+      },
+      "classes": [
+        "Assassin",
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:armour/light/helmet/t7",
+      "name": "Ornate Hat",
+      "model": "telos:material/armour/light/helmet/t7",
+      "type": "armour/light/helmet",
+      "tier": 7,
+      "tierPoints": 7,
+      "stats": {
+        "Defense": "+8",
+        "Speed": "+9"
+      },
+      "classes": [
+        "Assassin",
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:armour/light/leggings/t7",
+      "name": "Ornate Chaps",
+      "model": "telos:material/armour/light/leggings/t7",
+      "type": "armour/light/leggings",
+      "tier": 7,
+      "tierPoints": 7,
+      "stats": {
+        "Defense": "+8",
+        "Speed": "+9"
+      },
+      "classes": [
+        "Assassin",
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:armour/magical/boots/t7",
+      "name": "Boots Of Illusionist",
+      "model": "telos:material/armour/magical/boots/t7",
+      "type": "armour/magical/boots",
+      "tier": 7,
+      "tierPoints": 7,
+      "stats": {
+        "Attack": "+6",
+        "Defense": "+7"
+      },
+      "classes": [
+        "Necromancer",
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:armour/magical/chestplate/t7",
+      "name": "Robe Of The Illusionist",
+      "model": "telos:material/armour/magical/chestplate/t7",
+      "type": "armour/magical/chestplate",
+      "tier": 7,
+      "tierPoints": 7,
+      "stats": {
+        "Attack": "+6",
+        "Defense": "+7"
+      },
+      "classes": [
+        "Necromancer",
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:armour/magical/helmet/t7",
+      "name": "Hood Of The Illusionist",
+      "model": "telos:material/armour/magical/helmet/t7",
+      "type": "armour/magical/helmet",
+      "tier": 7,
+      "tierPoints": 7,
+      "stats": {
+        "Attack": "+6",
+        "Defense": "+7"
+      },
+      "classes": [
+        "Necromancer",
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:armour/magical/leggings/t7",
+      "name": "Leggings Of The Illusionist",
+      "model": "telos:material/armour/magical/leggings/t7",
+      "type": "armour/magical/leggings",
+      "tier": 7,
+      "tierPoints": 7,
+      "stats": {
+        "Attack": "+6",
+        "Defense": "+7"
+      },
+      "classes": [
+        "Necromancer",
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:weapon/bow/t7",
+      "name": "Bow Of Witchery",
+      "model": "telos:material/weapon/bow/t7",
+      "type": "weapon/bow",
+      "tier": 7,
+      "tierPoints": 7,
+      "stats": {
+        "Damage": "3.75",
+        "Range": "13",
+        "Shots": "3",
+        "Velocity": "20",
+        "Pierces": "Yes",
+        "Cooldown": "0.6s"
+      },
+      "classes": [
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:weapon/dagger/t7",
+      "name": "Emerald Dagger",
+      "model": "telos:material/weapon/dagger/t7",
+      "type": "weapon/dagger",
+      "tier": 7,
+      "tierPoints": 7,
+      "stats": {
+        "Damage": "11",
+        "Range": "9",
+        "Shots": "1",
+        "Velocity": "30",
+        "Pierces": "No",
+        "Cooldown": "0.6s"
+      },
+      "classes": [
+        "Assassin"
+      ]
+    },
+    {
+      "id": "telos:weapon/katana/t7",
+      "name": "Yasuo",
+      "model": "telos:material/weapon/katana/t7",
+      "type": "weapon/katana",
+      "tier": 7,
+      "tierPoints": 7,
+      "stats": {
+        "Damage": "10",
+        "Range": "6",
+        "Slashes": "1",
+        "Pierces": "Yes",
+        "Cooldown": "0.5s"
+      },
+      "text": [
+        "Ability: You only attack",
+        "after successfully",
+        "targeting an enemy."
+      ],
+      "classes": [
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:weapon/sceptre/t7",
+      "name": "Jadeleaf Sceptre",
+      "model": "telos:material/weapon/sceptre/t7",
+      "type": "weapon/sceptre",
+      "tier": 7,
+      "tierPoints": 7,
+      "stats": {
+        "Damage": "16",
+        "Range": "8",
+        "Beams": "1",
+        "Pierces": "Yes",
+        "Cooldown": "0.8s"
+      },
+      "classes": [
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:weapon/staff/t7",
+      "name": "Staff Of Secrets",
+      "model": "telos:material/weapon/staff/t7",
+      "type": "weapon/staff",
+      "tier": 7,
+      "tierPoints": 7,
+      "stats": {
+        "Damage": "10",
+        "Range": "15",
+        "Shots": "1",
+        "Velocity": "35",
+        "Pierces": "No",
+        "Cooldown": "0.6s"
+      },
+      "classes": [
+        "Necromancer"
+      ]
+    },
+    {
+      "id": "telos:weapon/sword/t7",
+      "name": "Dragonfire Sword",
+      "model": "telos:material/weapon/sword/t7",
+      "type": "weapon/sword",
+      "tier": 7,
+      "tierPoints": 7,
+      "stats": {
+        "Damage": "22.5",
+        "Range": "5",
+        "Slashes": "1",
+        "Pierces": "Yes",
+        "Cooldown": "1s"
+      },
+      "text": [
+        "Ability: You only attack",
+        "after successfully",
+        "targeting an enemy."
+      ],
+      "classes": [
+        "Knight"
+      ]
+    },
+    {
+      "id": "telos:ability/bomb/t8",
+      "name": "Profane Bomb",
+      "model": "telos:material/ability/bomb/t8",
+      "type": "ability/bomb",
+      "tier": 8,
+      "tierPoints": 8,
+      "stats": {
+        "Damage": "32",
+        "Range": "3.75",
+        "Cooldown": "7s"
+      },
+      "text": [
+        "Ability: Creates a",
+        "massive explosion that",
+        "damages enemies and",
+        "propels you backward.",
+        "Cooldown begins upon",
+        "landing."
+      ],
+      "classes": [
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:ability/cloak/t8",
+      "name": "Voided Cloak",
+      "model": "telos:material/ability/cloak/t8",
+      "type": "ability/cloak",
+      "tier": 8,
+      "tierPoints": 8,
+      "stats": {
+        "Speed": "21",
+        "Attack": "12",
+        "Critical Chance": "15",
+        "Cooldown": "11s"
+      },
+      "text": [
+        "Ability: Makes you",
+        "invisible for 4.0s. Grants",
+        "Speed, Attack, and",
+        "Critical Chance for 5.0s."
+      ],
+      "classes": [
+        "Assassin"
+      ]
+    },
+    {
+      "id": "telos:ability/emblem/t8",
+      "name": "Warlord's Emblem",
+      "model": "telos:material/ability/emblem/t8",
+      "type": "ability/emblem",
+      "tier": 8,
+      "tierPoints": 8,
+      "stats": {
+        "Speed": "35",
+        "Range": "4",
+        "Cooldown": "13s"
+      },
+      "text": [
+        "Ability: Buffs your",
+        "attack speed by 33%",
+        "and your allies' by 25%",
+        "for 6.0s (does not",
+        "stack). Grants Speed",
+        "for 6.0s."
+      ],
+      "classes": [
+        "Knight"
+      ]
+    },
+    {
+      "id": "telos:ability/jewel/t8",
+      "name": "Kyanite Jewel",
+      "model": "telos:material/ability/jewel/t8",
+      "type": "ability/jewel",
+      "tier": 8,
+      "tierPoints": 8,
+      "stats": {
+        "Damage": "19",
+        "Range": "10",
+        "Shots": "3",
+        "Velocity": "15",
+        "Pierces": "No",
+        "Cooldown": "11s"
+      },
+      "text": [
+        "Ability: Summons jewels",
+        "that rotate around you",
+        "and seek the nearest",
+        "enemy (lasts 6s)."
+      ],
+      "classes": [
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:ability/kunai/t8",
+      "name": "Crimsonite Kunai",
+      "model": "telos:material/ability/kunai/t8",
+      "type": "ability/kunai",
+      "tier": 8,
+      "tierPoints": 8,
+      "stats": {
+        "Damage": "4",
+        "Range": "7",
+        "Shots": "3",
+        "Velocity": "25",
+        "Pierces": "Yes",
+        "Cooldown": "7s"
+      },
+      "text": [
+        "Ability: Shoots kunai",
+        "projectiles that",
+        "return to you at max",
+        "range. Enemies hit are",
+        "marked, causing your",
+        "katana to deal +20%",
+        "damage to them for",
+        "3.0s."
+      ],
+      "classes": [
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:ability/orb/t8",
+      "name": "Orb Of Unblemished Winters",
+      "model": "telos:material/ability/orb/t8",
+      "type": "ability/orb",
+      "tier": 8,
+      "tierPoints": 8,
+      "stats": {
+        "Speed": "20",
+        "Damage": "65",
+        "Range": "6",
+        "Cooldown": "11s"
+      },
+      "text": [
+        "Ability: Damages in an AoE around",
+        "you and grants Speed for 5s."
+      ],
+      "classes": [
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:ability/poison/t8",
+      "name": "Swamp Venom",
+      "model": "telos:material/ability/poison/t8",
+      "type": "ability/poison",
+      "tier": 8,
+      "tierPoints": 8,
+      "stats": {
+        "Damage": "65",
+        "Range": "20",
+        "Velocity": "15",
+        "Cooldown": "12s"
+      },
+      "text": [
+        "Ability: Inflicts a poison",
+        "effect to enemies in a",
+        "0.35x block radius for",
+        "4s (4 ticks)."
+      ],
+      "classes": [
+        "Assassin"
+      ]
+    },
+    {
+      "id": "telos:ability/scripture/t8",
+      "name": "Scripture Of Holy Sacrifice",
+      "model": "telos:material/ability/scripture/t8",
+      "type": "ability/scripture",
+      "tier": 8,
+      "tierPoints": 8,
+      "stats": {
+        "Heal": "1",
+        "Damage": "30",
+        "Range": "10",
+        "Pierces": "No",
+        "Cooldown": "9s"
+      },
+      "text": [
+        "Ability: Unleashes 4 projectiles",
+        "from your target that home in on",
+        "you and allies within 0.6x radius",
+        "blocks, healing yourself and",
+        "nearby allies at 50% of the rate.",
+        "Players receiving healing from",
+        "others get a 3s healing cooldown",
+        "(self-heals unaffected)."
+      ],
+      "classes": [
+        "Necromancer"
+      ]
+    },
+    {
+      "id": "telos:ability/shield/t8",
+      "name": "Overgrown Shield",
+      "model": "telos:material/ability/shield/t8",
+      "type": "ability/shield",
+      "tier": 8,
+      "tierPoints": 8,
+      "stats": {
+        "Defense": "25",
+        "Damage": "18",
+        "Range": "5",
+        "Shots": "4",
+        "Velocity": "10",
+        "Pierces": "Yes",
+        "Cooldown": "13s"
+      },
+      "text": [
+        "Ability: Shoots a",
+        "barrage of",
+        "projectiles and grants",
+        "Defense for 5s."
+      ],
+      "classes": [
+        "Knight"
+      ]
+    },
+    {
+      "id": "telos:ability/skull/t8",
+      "name": "Clown Skull",
+      "model": "telos:material/ability/skull/t8",
+      "type": "ability/skull",
+      "tier": 8,
+      "tierPoints": 8,
+      "stats": {
+        "Damage": "4",
+        "Range": "30",
+        "Velocity": "20",
+        "Summons": "3",
+        "Pierces": "No",
+        "Cooldown": "8s"
+      },
+      "text": [
+        "Ability: Summons 3",
+        "skeletal minions that",
+        "disappear after 15s",
+        "or after 5 attacks.",
+        "Archer:",
+        "0.4x DMG/2.0s",
+        "Mage:",
+        "0.5x DMG/1.5s",
+        "Melee:",
+        "0.75x DMG/2.0s (2x)"
+      ],
+      "classes": [
+        "Necromancer"
+      ]
+    },
+    {
+      "id": "telos:ability/star/t8",
+      "name": "Morning Star",
+      "model": "telos:material/ability/star/t8",
+      "type": "ability/star",
+      "tier": 8,
+      "tierPoints": 8,
+      "stats": {
+        "Speed": "30",
+        "Damage": "40",
+        "Range": "12",
+        "Shots": "1",
+        "Velocity": "35",
+        "Pierces": "No",
+        "Cooldown": "8s"
+      },
+      "text": [
+        "Ability: Shoots a star",
+        "projectile and grants",
+        "Speed for 4s."
+      ],
+      "classes": [
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:ability/trap/t8",
+      "name": "Translucent Trap",
+      "model": "telos:material/ability/trap/t8",
+      "type": "ability/trap",
+      "tier": 8,
+      "tierPoints": 8,
+      "stats": {
+        "Damage": "35",
+        "Range": "20",
+        "Velocity": "15",
+        "Cooldown": "9s"
+      },
+      "text": [
+        "Ability: Throws a trap",
+        "that inflicts slowness",
+        "to enemies in a 0.25x",
+        "block radius for 5s."
+      ],
+      "classes": [
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:armour/heavy/boots/t8",
+      "name": "Enraged Sabatons",
+      "model": "telos:material/armour/heavy/boots/t8",
+      "type": "armour/heavy/boots",
+      "tier": 8,
+      "tierPoints": 8,
+      "stats": {
+        "Defense": "+12",
+        "Vitality": "+3"
+      },
+      "classes": [
+        "Knight",
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:armour/heavy/chestplate/t8",
+      "name": "Enraged Chestplate",
+      "model": "telos:material/armour/heavy/chestplate/t8",
+      "type": "armour/heavy/chestplate",
+      "tier": 8,
+      "tierPoints": 8,
+      "stats": {
+        "Defense": "+12",
+        "Vitality": "+3"
+      },
+      "classes": [
+        "Knight",
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:armour/heavy/helmet/t8",
+      "name": "Enraged Mask",
+      "model": "telos:material/armour/heavy/helmet/t8",
+      "type": "armour/heavy/helmet",
+      "tier": 8,
+      "tierPoints": 8,
+      "stats": {
+        "Defense": "+12",
+        "Vitality": "+3"
+      },
+      "classes": [
+        "Knight",
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:armour/heavy/leggings/t8",
+      "name": "Enraged Greaves",
+      "model": "telos:material/armour/heavy/leggings/t8",
+      "type": "armour/heavy/leggings",
+      "tier": 8,
+      "tierPoints": 8,
+      "stats": {
+        "Defense": "+12",
+        "Vitality": "+3"
+      },
+      "classes": [
+        "Knight",
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:armour/light/boots/t8",
+      "name": "Hydra Skin Sandals",
+      "model": "telos:material/armour/light/boots/t8",
+      "type": "armour/light/boots",
+      "tier": 8,
+      "tierPoints": 8,
+      "stats": {
+        "Defense": "+9",
+        "Speed": "+11"
+      },
+      "classes": [
+        "Assassin",
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:armour/light/chestplate/t8",
+      "name": "Hydra Skin Armour",
+      "model": "telos:material/armour/light/chestplate/t8",
+      "type": "armour/light/chestplate",
+      "tier": 8,
+      "tierPoints": 8,
+      "stats": {
+        "Defense": "+9",
+        "Speed": "+11"
+      },
+      "classes": [
+        "Assassin",
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:armour/light/helmet/t8",
+      "name": "Hydra Skin Hat",
+      "model": "telos:material/armour/light/helmet/t8",
+      "type": "armour/light/helmet",
+      "tier": 8,
+      "tierPoints": 8,
+      "stats": {
+        "Defense": "+9",
+        "Speed": "+11"
+      },
+      "classes": [
+        "Assassin",
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:armour/light/leggings/t8",
+      "name": "Hydra Skin Chaps",
+      "model": "telos:material/armour/light/leggings/t8",
+      "type": "armour/light/leggings",
+      "tier": 8,
+      "tierPoints": 8,
+      "stats": {
+        "Defense": "+9",
+        "Speed": "+11"
+      },
+      "classes": [
+        "Assassin",
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:armour/magical/boots/t8",
+      "name": "Boots Of The Great Sage",
+      "model": "telos:material/armour/magical/boots/t8",
+      "type": "armour/magical/boots",
+      "tier": 8,
+      "tierPoints": 8,
+      "stats": {
+        "Attack": "+6",
+        "Defense": "+8"
+      },
+      "classes": [
+        "Necromancer",
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:armour/magical/chestplate/t8",
+      "name": "Robe Of The Great Sage",
+      "model": "telos:material/armour/magical/chestplate/t8",
+      "type": "armour/magical/chestplate",
+      "tier": 8,
+      "tierPoints": 8,
+      "stats": {
+        "Attack": "+6",
+        "Defense": "+8"
+      },
+      "classes": [
+        "Necromancer",
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:armour/magical/helmet/t8",
+      "name": "Hood Of The Great Sage",
+      "model": "telos:material/armour/magical/helmet/t8",
+      "type": "armour/magical/helmet",
+      "tier": 8,
+      "tierPoints": 8,
+      "stats": {
+        "Attack": "+6",
+        "Defense": "+8"
+      },
+      "classes": [
+        "Necromancer",
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:armour/magical/leggings/t8",
+      "name": "Leggings Of The Great Sage",
+      "model": "telos:material/armour/magical/leggings/t8",
+      "type": "armour/magical/leggings",
+      "tier": 8,
+      "tierPoints": 8,
+      "stats": {
+        "Attack": "+6",
+        "Defense": "+8"
+      },
+      "classes": [
+        "Necromancer",
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:weapon/bow/t8",
+      "name": "Bow Of Innocent Blood",
+      "model": "telos:material/weapon/bow/t8",
+      "type": "weapon/bow",
+      "tier": 8,
+      "tierPoints": 8,
+      "stats": {
+        "Damage": "4",
+        "Range": "13",
+        "Shots": "3",
+        "Velocity": "20",
+        "Pierces": "Yes",
+        "Cooldown": "0.6s"
+      },
+      "classes": [
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:weapon/dagger/t8",
+      "name": "Dagger Of Lost Souls",
+      "model": "telos:material/weapon/dagger/t8",
+      "type": "weapon/dagger",
+      "tier": 8,
+      "tierPoints": 8,
+      "stats": {
+        "Damage": "12",
+        "Range": "9",
+        "Shots": "1",
+        "Velocity": "30",
+        "Pierces": "No",
+        "Cooldown": "0.6s"
+      },
+      "classes": [
+        "Assassin"
+      ]
+    },
+    {
+      "id": "telos:weapon/katana/t8",
+      "name": "Night Edge",
+      "model": "telos:material/weapon/katana/t8",
+      "type": "weapon/katana",
+      "tier": 8,
+      "tierPoints": 8,
+      "stats": {
+        "Damage": "11",
+        "Range": "6",
+        "Slashes": "1",
+        "Pierces": "Yes",
+        "Cooldown": "0.5s"
+      },
+      "text": [
+        "Ability: You only attack",
+        "after successfully",
+        "targeting an enemy."
+      ],
+      "classes": [
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:weapon/sceptre/t8",
+      "name": "Ashwood Sceptre",
+      "model": "telos:material/weapon/sceptre/t8",
+      "type": "weapon/sceptre",
+      "tier": 8,
+      "tierPoints": 8,
+      "stats": {
+        "Damage": "17",
+        "Range": "8",
+        "Beams": "1",
+        "Pierces": "Yes",
+        "Cooldown": "0.8s"
+      },
+      "classes": [
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:weapon/staff/t8",
+      "name": "Staff Of Knowledge",
+      "model": "telos:material/weapon/staff/t8",
+      "type": "weapon/staff",
+      "tier": 8,
+      "tierPoints": 8,
+      "stats": {
+        "Damage": "10.75",
+        "Range": "15",
+        "Shots": "1",
+        "Velocity": "35",
+        "Pierces": "No",
+        "Cooldown": "0.6s"
+      },
+      "classes": [
+        "Necromancer"
+      ]
+    },
+    {
+      "id": "telos:weapon/sword/t8",
+      "name": "Sword Of The Sea",
+      "model": "telos:material/weapon/sword/t8",
+      "type": "weapon/sword",
+      "tier": 8,
+      "tierPoints": 8,
+      "stats": {
+        "Damage": "24.5",
+        "Range": "5",
+        "Slashes": "1",
+        "Pierces": "Yes",
+        "Cooldown": "1s"
+      },
+      "text": [
+        "Ability: You only attack",
+        "after successfully",
+        "targeting an enemy."
+      ],
+      "classes": [
+        "Knight"
+      ]
+    }
+  ]
+}

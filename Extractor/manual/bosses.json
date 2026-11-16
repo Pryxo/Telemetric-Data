@@ -1,0 +1,277 @@
+{
+  "_comment": "Hand-written. dungeonBosses: final boss of each dungeon as its nameplate shows it (the wiki only names the boss that drops the portal; \"???\" = not written yet). bossDrops: drops of a dungeon's other loot bosses. dungeonAliases: in-game names. tracker: Boss Tracker data. Rebuild JSON keeps everything here and adds new dungeons.",
+  "dungeonBosses": {
+    "Skull Cavern": "Eddie",
+    "Thornwood Wargrove": "Zhum",
+    "Goblin Lair": "Drayruk",
+    "Desert Temple": "Miraj",
+    "Tomb Of Shadows": "Khufu",
+    "Sakura Shrine": "Choji",
+    "Secluded Woodland": "Flora",
+    "Abyss Of Demons": "Malfas",
+    "Undead Lair": "Heptavius",
+    "Ice Cave": "Arctic Colossus",
+    "Dwarven Frostkeep": "Oog",
+    "Treasure Cave": "Magnus",
+    "Depths Of Purgatory": "Pyro",
+    "Frozen Ruins": "Thalor",
+    "Kobold's Den": "Ashenclaw",
+    "Corvus Crypt": "Corvack",
+    "Omnipotent's Citadel": "Omnipotent",
+    "Fungal Cavern": "Prismara",
+    "Corsair's Conductorium": "Thalassar",
+    "Anubis Lair": "Kurvaros",
+    "Tartarus": "Malthar",
+    "Cultist's Hideout": "Silex",
+    "Illarius' Hideout": "Loa",
+    "Raph's Chamber": "Raphael",
+    "Rustborn Kingdom": "Ophanim",
+    "Dawn Of Creation": "True Ophan",
+    "Aurora Sanctum": "Aetheris",
+    "Aviary": "Solarflare",
+    "Neo Eden": "Cherubim",
+    "Midnight Stronghold": "???",
+    "Valley Of The Lost": "???",
+    "Tenebris": "Voided Omnipotent",
+    "Dreadwood Thicket": "Sylvaris",
+    "Resounding Ruins": "Unrest",
+    "Celestial's Province": "Seraphim",
+    "Seraph's Domain": "True Seraph"
+  },
+  "bossDrops": {
+    "_comment": "Dungeons with more than one loot boss: boss -> drop names (as in loottable.json) only that boss gives. Every drop not listed stays with the dungeon's final boss (dungeonBosses).",
+    "Rustborn Kingdom": {
+      "Valerion": [
+        "Valerion's Poniard",
+        "Valerion's Bane",
+        "Custodian's Visor"
+      ],
+      "Nebula": [
+        "Nebula's Battleaxe",
+        "Dusk Weaver",
+        "Archon's Glare"
+      ]
+    },
+    "Dawn Of Creation": {
+      "Valerion": [
+        "Valerion's Poniard",
+        "Valerion's Bane",
+        "Custodian's Visor"
+      ],
+      "Nebula": [
+        "Nebula's Battleaxe",
+        "Dusk Weaver",
+        "Archon's Glare"
+      ],
+      "Ophanim": [
+        "Final Destination",
+        "Oracle's End",
+        "Crown Of Ethereal Radiance",
+        "Lumine",
+        "Astralflare"
+      ]
+    },
+    "Celestial's Province": {
+      "Asmodeus": [
+        "Visage Of The Night",
+        "Baphomet's Bomb",
+        "Blood Of The Heretics"
+      ]
+    },
+    "Seraph's Domain": {
+      "Asmodeus": [
+        "Visage Of The Night",
+        "Baphomet's Bomb",
+        "Blood Of The Heretics"
+      ],
+      "Seraphim": [
+        "Feathers Of The Seraph",
+        "Seraph's Essence",
+        "Empyrean Epitome",
+        "Thanatos",
+        "Seraphix"
+      ]
+    },
+    "Neo Eden": {
+      "Apostle": [
+        "Se'arah",
+        "Category Six",
+        "Leggings Of False Glory"
+      ],
+      "Hierophant": [
+        "Prominence",
+        "Flames Of Pentecost",
+        "Dauntless Inferno"
+      ]
+    },
+    "Raph's Chamber": {
+      "Dark Champion": [
+        "Dark Guardian Sword",
+        "Slow Touch Orb",
+        "Corrupted Chaps"
+      ]
+    }
+  },
+  "dungeonAliases": {
+    "_comment": "In-game location name (HUD box) -> dungeon name in this table, where they differ beyond case, punctuation, a leading 'The' and ': Part ...'.",
+    "Raphael's Chamber": "Raph's Chamber",
+    "Raphael's Castle": "Raph's Chamber",
+    "The Aviary": "Aviary"
+  },
+  "tracker": {
+    "_comment": "Boss Tracker (realm bosses). call = regex for the text after \"[<Boss>] \" when the boss names the player fighting it (group 'player'); idle = always present (shown grey until its spawn line); spawn / defeat = its lines that mark it alive / back to idle; portalSeconds = how long the portal stays after a defeat (default below); progress = the boss whose portal opens once every world boss is down (n/m count); waypoints = extra fixed markers shown with it; icon / area / positions = for bosses the wiki does not list. zones = separate regions of the realm (HUD location): a boss found in a zone is shown only there, and there only its bosses are shown. Lines from Melinoe (House-Hades, used with permission).",
+    "portalSeconds": 30,
+    "zones": [
+      "Shadowlands",
+      "Radiant Isles"
+    ],
+    "bosses": {
+      "Anubis": {
+        "call": "You will not disturb their peace, (?<player>.+)!"
+      },
+      "Astaroth": {
+        "call": "Your futile struggles are mere entertainment for the denizens of the void, (?<player>.+)"
+      },
+      "Chungus": {
+        "call": "The void strengthens me, (?<player>.+)!"
+      },
+      "Freddy": {
+        "call": "YOU WILL NOT BE SPARED! YOU WILL NOT BE SAVED, (?<player>.+)!",
+        "icon": "telos:material/boss/freddy",
+        "area": "Realm"
+      },
+      "Glumi": {
+        "call": "You will not access the sacred caverns, (?<player>.+)!"
+      },
+      "Illarius": {
+        "call": "Don't send me back to Loa, (?<player>.+)!"
+      },
+      "Lotil": {
+        "call": "You will NOT take my symbolic shield away from me, (?<player>.+)!"
+      },
+      "Oozul": {
+        "call": "Don't expose mortals such as (?<player>.+) to Chronos!"
+      },
+      "Tidol": {
+        "call": "Face my trident, (?<player>.+)!"
+      },
+      "Valus": {
+        "call": "You are not worthy of joining our worship, (?<player>.+)!"
+      },
+      "Hollowbane": {
+        "call": "Hollow is your fate, as it is mine (?<player>.+)!"
+      },
+      "Claus": {
+        "call": "The only sleighing happening here is YOU, (?<player>.+)!",
+        "icon": "telos:material/boss/claus",
+        "area": "Realm"
+      },
+      "Raphael": {
+        "progress": true,
+        "portalSeconds": 60,
+        "icon": "telos:material/pet/onyx",
+        "area": "Realm",
+        "positions": [
+          {
+            "x": -15,
+            "y": 243,
+            "z": 88
+          }
+        ]
+      },
+      "Defender": {
+        "call": "I stood for honor, but honor was my undoing (?<player>.+)!"
+      },
+      "Reaper": {
+        "idle": true,
+        "call": "We never knew what fate had in store for us, (?<player>.+)\\. And yet, dead men tell no tales\\.",
+        "spawn": "The spectres watch closely\\.",
+        "defeat": "So we shall persist in spirit\\."
+      },
+      "Herald": {
+        "idle": true,
+        "call": "The flames cast deep shadows, (?<player>.+)\\. There’s a tragic tale within them, growing darker the further you stray\\.",
+        "spawn": "The torch burns bright\\.",
+        "defeat": "Never let go of the light\\."
+      },
+      "Warden": {
+        "idle": true,
+        "call": "Look at it, (?<player>.+)\\. This battle standard is all I have left to honour my fallen brethren\\.",
+        "spawn": "The flag flies once more\\.",
+        "defeat": "Remember us, warriors\\."
+      },
+      "Cog Sentinel": {
+        "idle": true,
+        "positions": [
+          {
+            "x": 100000,
+            "y": 50,
+            "z": 100000
+          }
+        ],
+        "waypoints": [
+          {
+            "name": "Cog Stabilizer (1)",
+            "x": 99627,
+            "y": 45,
+            "z": 99992
+          },
+          {
+            "name": "Cog Stabilizer (2)",
+            "x": 99649,
+            "y": 129,
+            "z": 100180
+          },
+          {
+            "name": "Cog Stabilizer (3)",
+            "x": 99934,
+            "y": 167,
+            "z": 100313
+          },
+          {
+            "name": "Cog Stabilizer (4)",
+            "x": 100027,
+            "y": 71,
+            "z": 100211
+          },
+          {
+            "name": "Cog Stabilizer (5)",
+            "x": 100163,
+            "y": 114,
+            "z": 100110
+          },
+          {
+            "name": "Cog Stabilizer (6)",
+            "x": 100427,
+            "y": 49,
+            "z": 99959
+          },
+          {
+            "name": "Cog Stabilizer (7)",
+            "x": 100074,
+            "y": 48,
+            "z": 99716
+          },
+          {
+            "name": "Cog Stabilizer (8)",
+            "x": 99867,
+            "y": 142,
+            "z": 99594
+          },
+          {
+            "name": "Cog Stabilizer (9)",
+            "x": 99703,
+            "y": 65,
+            "z": 99730
+          },
+          {
+            "name": "Cog Stabilizer (10)",
+            "x": 99806,
+            "y": 9,
+            "z": 99869
+          }
+        ]
+      }
+    }
+  }
+}

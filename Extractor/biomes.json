@@ -1,0 +1,194 @@
+{
+  "source": "wiki: Biome Information",
+  "scanned": "2026-11-16T00:48:09.282290400Z",
+  "count": 10,
+  "biomes": [
+    {
+      "name": "Beach",
+      "description": "The starting coastal region of the realm, inhabited by pirates and scorpions.",
+      "dungeons": [
+        "Skull Cavern"
+      ],
+      "minibosses": [
+        "Scorpion King",
+        "Brakk"
+      ],
+      "eventBosses": [
+        {
+          "boss": "Tidol",
+          "dungeon": "Corsair's Conductorium"
+        }
+      ],
+      "weatherEvent": []
+    },
+    {
+      "name": "The Jungle",
+      "description": "A dense, overgrown woodland reeking with orc camps and goblin tribes.",
+      "dungeons": [
+        "Thornwood Wargrove",
+        "Goblin Lair"
+      ],
+      "minibosses": [
+        "Ku",
+        "Kane",
+        "Lono",
+        "Grimleaf"
+      ],
+      "eventBosses": [
+        {
+          "boss": "Illarius",
+          "dungeon": "Illarius' Hideout"
+        }
+      ],
+      "weatherEvent": []
+    },
+    {
+      "name": "Swamp",
+      "description": "A murky marshland lurking with cursed spirits, hostile flora, and stone golems.",
+      "dungeons": [
+        "Sakura Shrine",
+        "Secluded Woodland"
+      ],
+      "minibosses": [
+        "Kingpin"
+      ],
+      "eventBosses": [
+        {
+          "boss": "Chungus",
+          "dungeon": "Rustborn Kingdom"
+        },
+        {
+          "boss": "Glumi",
+          "dungeon": "Fungal Cavern"
+        }
+      ],
+      "weatherEvent": []
+    },
+    {
+      "name": "Desert",
+      "description": "A scorching wasteland roamed by nomadic desert tribes and weird insects.",
+      "dungeons": [
+        "Desert Temple",
+        "Tomb of Shadows"
+      ],
+      "minibosses": [
+        "Desert Drake"
+      ],
+      "eventBosses": [
+        {
+          "boss": "Anubis",
+          "dungeon": "Anubis Lair"
+        }
+      ],
+      "weatherEvent": []
+    },
+    {
+      "name": "Crimson Forest",
+      "description": "A treacherous forest near the realm's centre, infested with demonic imps and kobolds.",
+      "dungeons": [
+        "Kobold's Den",
+        "Abyss of Demons",
+        "Depths of Purgatory"
+      ],
+      "minibosses": [
+        "Hellmesh"
+      ],
+      "eventBosses": [
+        {
+          "boss": "Astaroth",
+          "dungeon": "Tartarus"
+        }
+      ],
+      "weatherEvent": []
+    },
+    {
+      "name": "Permafrost",
+      "description": "A freezing wasteland near the realm's centre, home to dwarves and ice creatures.",
+      "dungeons": [
+        "Ice Cave",
+        "Dwarven Frostkeep",
+        "Frozen Ruins"
+      ],
+      "minibosses": [
+        "Nocs"
+      ],
+      "eventBosses": [
+        {
+          "boss": "Lotil",
+          "dungeon": "Omnipotent's Citadel"
+        }
+      ],
+      "weatherEvent": []
+    },
+    {
+      "name": "Necropolis",
+      "description": "A cursed graveyard near the realm's centre, haunted and inhabited by corvids and the undead.",
+      "dungeons": [
+        "Undead Lair",
+        "Treasure Cave",
+        "Corvus Crypt",
+        "Raphael's Castle"
+      ],
+      "minibosses": [
+        "Gravesbane"
+      ],
+      "eventBosses": [
+        {
+          "boss": "Valus",
+          "dungeon": "Cultist's Hideout"
+        }
+      ],
+      "weatherEvent": []
+    },
+    {
+      "name": "Shadowlands",
+      "description": "A dark biome hidden beneath the surface. Accessible via the Shadow Teleporter located at the centre plaza.",
+      "dungeons": [
+        "Dreadwood Thicket",
+        "Resounding Ruins"
+      ],
+      "minibosses": [
+        "Reaper",
+        "Herald",
+        "Warden"
+      ],
+      "bosses": [
+        "Defender (Celestial's Province)"
+      ],
+      "weatherEvent": []
+    },
+    {
+      "name": "Radiant Isles",
+      "description": "A heavenly biome isolated from the main realm. Accessible via the Radiant Teleporter located at the centre plaza.",
+      "dungeons": [
+        "Aurora Sanctum",
+        "The Aviary"
+      ],
+      "minibosses": [
+        "Luna",
+        "Aurehog"
+      ],
+      "eventBosses": [
+        {
+          "boss": "Cog Sentinel",
+          "dungeon": "Neo Eden"
+        }
+      ],
+      "weatherEvent": []
+    },
+    {
+      "name": "Voided Abyss",
+      "description": "A voided area located far from the main realm island. Accessible via the void teleporter at the gate in the centre plaza.",
+      "dungeons": [
+        "Midnight Stronghold",
+        "Valley of the Lost",
+        "Tenebris"
+      ],
+      "minibosses": [
+        "Oozul",
+        "Vudu"
+      ],
+      "weatherEvent": []
+    }
+  ]
+}

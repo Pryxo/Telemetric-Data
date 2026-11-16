@@ -1,0 +1,13 @@
+{
+  "_comment": "Hand-written tooltip-style rarities the equipment scan has no file for (key = last part of the item's tooltip style). Scanned rarities keep the wiki colour.",
+  "rarities": {
+    "companion": {
+      "label": "Companion",
+      "color": "#FFAA00"
+    },
+    "shiny": {
+      "label": "Shiny",
+      "color": "#00FFFF"
+    }
+  }
+}

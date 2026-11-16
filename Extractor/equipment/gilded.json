@@ -1,0 +1,1228 @@
+{
+  "source": "wiki: Equipment Information",
+  "scanned": "2026-11-16T00:48:58.136322800Z",
+  "count": 41,
+  "items": [
+    {
+      "id": "telos:armour/heavy/helmet/ut-corvack",
+      "name": "Corvack's Mask",
+      "model": "telos:material/armour/heavy/helmet/ut-corvack",
+      "type": "armour/heavy/helmet",
+      "rarity": "gilded",
+      "tierPoints": 10,
+      "source": {
+        "name": "Corvus Crypt",
+        "icon": "telos:material/dungeon/corvus_crypt"
+      },
+      "stats": {
+        "Attack": "+8",
+        "Defense": "+10",
+        "Speed": "+4"
+      },
+      "shiny": {
+        "id": "telos:armour/heavy/helmet/ut-corvack-shiny",
+        "model": "telos:material/armour/heavy/helmet/ut-corvack-shiny"
+      },
+      "classes": [
+        "Knight",
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:armour/heavy/helmet/ut-vow",
+      "name": "Sacrificial Vow",
+      "model": "telos:material/armour/heavy/helmet/ut-vow",
+      "type": "armour/heavy/helmet",
+      "rarity": "gilded",
+      "tierPoints": 10,
+      "source": {
+        "name": "Oozul",
+        "icon": "telos:material/boss/oozul"
+      },
+      "stats": {
+        "Attack": "-5",
+        "Defense": "+8",
+        "Vitality": "+4",
+        "Critical Chance": "+14"
+      },
+      "shiny": {
+        "id": "telos:armour/heavy/helmet/ut-vow-shiny",
+        "model": "telos:material/armour/heavy/helmet/ut-vow-shiny"
+      },
+      "classes": [
+        "Knight",
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:armour/heavy/chestplate/ut-torment",
+      "name": "Chestplate Of Torment",
+      "model": "telos:material/armour/heavy/chestplate/ut-torment",
+      "type": "armour/heavy/chestplate",
+      "rarity": "gilded",
+      "tierPoints": 10,
+      "source": {
+        "name": "Depths of Purgatory",
+        "icon": "telos:material/dungeon/depths_of_purgatory"
+      },
+      "stats": {
+        "Health": "+1",
+        "Attack": "+6",
+        "Defense": "+11"
+      },
+      "classes": [
+        "Knight",
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:armour/heavy/leggings/ut-spiker",
+      "name": "Spiker's Greaves",
+      "model": "telos:material/armour/heavy/leggings/ut-spiker",
+      "type": "armour/heavy/leggings",
+      "rarity": "gilded",
+      "tierPoints": 10,
+      "source": {
+        "name": "Gravesbane",
+        "icon": "telos:material/boss/gravesbane"
+      },
+      "stats": {
+        "Defense": "+11",
+        "Critical Chance": "+3",
+        "Damage": "4",
+        "Summons": "3",
+        "Cooldown": "12s"
+      },
+      "text": [
+        "Ability: Sneak 3 times in",
+        "quick succession to",
+        "summon Eclipsouls that",
+        "attack the nearest",
+        "enemy up to 4 times",
+        "before despawning."
+      ],
+      "shiny": {
+        "id": "telos:armour/heavy/leggings/ut-spiker-shiny",
+        "model": "telos:material/armour/heavy/leggings/ut-spiker-shiny"
+      },
+      "classes": [
+        "Knight",
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:armour/heavy/boots/ut-lightning",
+      "name": "Lightning Sabatons",
+      "model": "telos:material/armour/heavy/boots/ut-lightning",
+      "type": "armour/heavy/boots",
+      "rarity": "gilded",
+      "tierPoints": 10,
+      "source": {
+        "name": "Treasure Cave",
+        "icon": "telos:material/dungeon/treasure_cave"
+      },
+      "stats": {
+        "Speed": "0.5",
+        "Evasion": "+5"
+      },
+      "text": [
+        "Ability: Gain stacking",
+        "Speed while moving (max",
+        "48). Stop for 1.5s to",
+        "lose it."
+      ],
+      "shiny": {
+        "id": "telos:armour/heavy/boots/ut-lightning-shiny",
+        "model": "telos:material/armour/heavy/boots/ut-lightning-shiny"
+      },
+      "classes": [
+        "Knight",
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:weapon/sword/ut-demonic",
+      "name": "Demonic Blade",
+      "model": "telos:material/weapon/sword/ut-demonic",
+      "type": "weapon/sword",
+      "rarity": "gilded",
+      "tierPoints": 10,
+      "source": {
+        "name": "Abyss of Demons",
+        "icon": "telos:material/dungeon/abyss_of_demons"
+      },
+      "stats": {
+        "Damage": "38",
+        "Range": "5.5",
+        "Slashes": "1",
+        "Pierces": "Yes",
+        "Cooldown": "1.2s"
+      },
+      "text": [
+        "Ability: After hitting 2",
+        "slashes in a row, your",
+        "third attack will be 2",
+        "slashes that deals",
+        "0.65x damage each. You",
+        "only attack after",
+        "successfully targeting",
+        "an enemy."
+      ],
+      "shiny": {
+        "id": "telos:weapon/sword/ut-demonic-shiny",
+        "model": "telos:material/weapon/sword/ut-demonic-shiny"
+      },
+      "classes": [
+        "Knight"
+      ]
+    },
+    {
+      "id": "telos:weapon/sword/ut-chain",
+      "name": "Chain Combustion",
+      "model": "telos:material/weapon/sword/ut-chain",
+      "type": "weapon/sword",
+      "rarity": "gilded",
+      "tierPoints": 10,
+      "source": {
+        "name": "Hellmesh",
+        "icon": "telos:material/boss/hellmesh"
+      },
+      "stats": {
+        "Damage": "6",
+        "Shots": "1",
+        "Velocity": "20",
+        "Pierces": "Yes",
+        "Cooldown": "1s"
+      },
+      "text": [
+        "Ability: Projectile is a",
+        "mace with 7 range that",
+        "deals damage a second",
+        "time when returning to",
+        "you at max range. A",
+        "DoT effect is applied to",
+        "targets in its path that",
+        "deals 0.33x damage per",
+        "second over 5.0",
+        "seconds."
+      ],
+      "classes": [
+        "Knight"
+      ]
+    },
+    {
+      "id": "telos:ability/shield/ut-reflection",
+      "name": "Shield Of Glacial Reflection",
+      "model": "telos:material/ability/shield/ut-reflection",
+      "type": "ability/shield",
+      "rarity": "gilded",
+      "tierPoints": 10,
+      "source": {
+        "name": "Frozen Ruins",
+        "icon": "telos:material/dungeon/frozen_ruins"
+      },
+      "stats": {
+        "Defense": "12",
+        "Damage": "22",
+        "Range": "12",
+        "Cooldown": "8s"
+      },
+      "text": [
+        "Passive: Deals damage to the",
+        "nearest enemy upon taking damage.",
+        "Ability: Increases shield's damage",
+        "by 1.75x and grants Defense for",
+        "5.0s."
+      ],
+      "shiny": {
+        "id": "telos:ability/shield/ut-reflection-shiny",
+        "model": "telos:material/ability/shield/ut-reflection-shiny"
+      },
+      "classes": [
+        "Knight"
+      ]
+    },
+    {
+      "id": "telos:ability/emblem/ut-dwarven",
+      "name": "Dwarven Emblem",
+      "model": "telos:material/ability/emblem/ut-dwarven",
+      "type": "ability/emblem",
+      "rarity": "gilded",
+      "tierPoints": 10,
+      "source": {
+        "name": "Dwarven Frostkeep",
+        "icon": "telos:material/dungeon/dwarven_frostkeep"
+      },
+      "stats": {
+        "Defense": "30",
+        "Range": "4",
+        "Cooldown": "12s"
+      },
+      "text": [
+        "Ability: Buffs your",
+        "attack speed by 33%",
+        "and your allies' by 25%",
+        "for 6.0s (does not",
+        "stack). Gain Defense",
+        "for 6.0s."
+      ],
+      "shiny": {
+        "id": "telos:ability/emblem/ut-dwarven-shiny",
+        "model": "telos:material/ability/emblem/ut-dwarven-shiny"
+      },
+      "classes": [
+        "Knight"
+      ]
+    },
+    {
+      "id": "telos:armour/light/helmet/ut-soul",
+      "name": "Hat Of Lost Souls",
+      "model": "telos:material/armour/light/helmet/ut-soul",
+      "type": "armour/light/helmet",
+      "rarity": "gilded",
+      "tierPoints": 10,
+      "source": {
+        "name": "Undead Lair",
+        "icon": "telos:material/dungeon/undead_lair"
+      },
+      "stats": {
+        "Attack": "+6",
+        "Defense": "+12"
+      },
+      "shiny": {
+        "id": "telos:armour/light/helmet/ut-soul-shiny",
+        "model": "telos:material/armour/light/helmet/ut-soul-shiny"
+      },
+      "classes": [
+        "Assassin",
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:armour/light/chestplate/ut-bearhide",
+      "name": "Frozen Bearhide",
+      "model": "telos:material/armour/light/chestplate/ut-bearhide",
+      "type": "armour/light/chestplate",
+      "rarity": "gilded",
+      "tierPoints": 10,
+      "source": {
+        "name": "Nocs",
+        "icon": "telos:material/boss/nocs"
+      },
+      "stats": {
+        "Speed": "+9",
+        "Evasion": "+7",
+        "Vitality": "-4",
+        "Critical Chance": "+5",
+        "Damage": "2.5",
+        "Range": "8",
+        "Shots": "8",
+        "Velocity": "15",
+        "Pierces": "Yes",
+        "Cooldown": "10s"
+      },
+      "text": [
+        "Ability: Taking damage",
+        "will cause your next",
+        "main attack to slow the",
+        "enemy for 4s and",
+        "unleash piercing ice",
+        "shards."
+      ],
+      "classes": [
+        "Assassin",
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:armour/light/leggings/ut-lightning",
+      "name": "Lightning Chaps",
+      "model": "telos:material/armour/light/leggings/ut-lightning",
+      "type": "armour/light/leggings",
+      "rarity": "gilded",
+      "tierPoints": 10,
+      "source": {
+        "name": "Treasure Cave",
+        "icon": "telos:material/dungeon/treasure_cave"
+      },
+      "stats": {
+        "Speed": "+7",
+        "Evasion": "+8",
+        "Vitality": "+4"
+      },
+      "shiny": {
+        "id": "telos:armour/light/leggings/ut-lightning-shiny",
+        "model": "telos:material/armour/light/leggings/ut-lightning-shiny"
+      },
+      "classes": [
+        "Assassin",
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:armour/light/boots/ut-soulfire",
+      "name": "Soulfire Sandals",
+      "model": "telos:material/armour/light/boots/ut-soulfire",
+      "type": "armour/light/boots",
+      "rarity": "gilded",
+      "tierPoints": 10,
+      "source": {
+        "name": "Aurehog",
+        "icon": "telos:material/boss/aurehog"
+      },
+      "stats": {
+        "Health": "+1",
+        "Attack": "+9",
+        "Damage": "1.5",
+        "Range": "15",
+        "Cooldown": "0.5s"
+      },
+      "text": [
+        "Ability: Deal damage to",
+        "the nearest target",
+        "every 0.5s while",
+        "airborne."
+      ],
+      "shiny": {
+        "id": "telos:armour/light/boots/ut-soulfire-shiny",
+        "model": "telos:material/armour/light/boots/ut-soulfire-shiny"
+      },
+      "classes": [
+        "Assassin",
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:weapon/dagger/ut-gravedigger",
+      "name": "Gravedigger's Shovel",
+      "model": "telos:material/weapon/dagger/ut-gravedigger",
+      "type": "weapon/dagger",
+      "rarity": "gilded",
+      "tierPoints": 10,
+      "source": {
+        "name": "Gravesbane",
+        "icon": "telos:material/boss/gravesbane"
+      },
+      "stats": {
+        "Damage": "18.5",
+        "Range": "7.5",
+        "Shots": "1",
+        "Velocity": "20",
+        "Pierces": "No",
+        "Cooldown": "0.8s"
+      },
+      "text": [
+        "Ability: Successful hits",
+        "create a mark that",
+        "explodes after 3 hits,",
+        "dealing 0.5x damage in a 4",
+        "block radius."
+      ],
+      "classes": [
+        "Assassin"
+      ]
+    },
+    {
+      "id": "telos:weapon/dagger/ut-demonic",
+      "name": "Demonic Dagger",
+      "model": "telos:material/weapon/dagger/ut-demonic",
+      "type": "weapon/dagger",
+      "rarity": "gilded",
+      "tierPoints": 10,
+      "source": {
+        "name": "Abyss of Demons",
+        "icon": "telos:material/dungeon/abyss_of_demons"
+      },
+      "stats": {
+        "Damage": "4.5",
+        "Range": "6",
+        "Shots": "4",
+        "Velocity": "20",
+        "Pierces": "Yes",
+        "Cooldown": "0.6s"
+      },
+      "classes": [
+        "Assassin"
+      ]
+    },
+    {
+      "id": "telos:ability/cloak/ut-dwarven",
+      "name": "Dwarven Cloak",
+      "model": "telos:material/ability/cloak/ut-dwarven",
+      "type": "ability/cloak",
+      "rarity": "gilded",
+      "tierPoints": 10,
+      "source": {
+        "name": "Dwarven Frostkeep",
+        "icon": "telos:material/dungeon/dwarven_frostkeep"
+      },
+      "stats": {
+        "Defense": "20",
+        "Speed": "55",
+        "Evasion": "15",
+        "Cooldown": "12s"
+      },
+      "text": [
+        "Ability: Grants Evasion,",
+        "Speed, and Defense for",
+        "5.0s."
+      ],
+      "classes": [
+        "Assassin"
+      ]
+    },
+    {
+      "id": "telos:ability/poison/ut-venomfang",
+      "name": "Venomfang Serum",
+      "model": "telos:material/ability/poison/ut-venomfang",
+      "type": "ability/poison",
+      "rarity": "gilded",
+      "tierPoints": 10,
+      "source": {
+        "name": "Kobold's Den",
+        "icon": "telos:material/dungeon/kobolds_den"
+      },
+      "stats": {
+        "Damage": "70",
+        "Range": "20",
+        "Velocity": "15",
+        "Cooldown": "9s"
+      },
+      "text": [
+        "Ability: Inflicts a poison",
+        "effect to enemies in a",
+        "0.75x block radius for",
+        "6s (6 ticks)."
+      ],
+      "shiny": {
+        "id": "telos:ability/poison/ut-venomfang-shiny",
+        "model": "telos:material/ability/poison/ut-venomfang-shiny"
+      },
+      "classes": [
+        "Assassin"
+      ]
+    },
+    {
+      "id": "telos:weapon/katana/ut-doom",
+      "name": "Doom Katana",
+      "model": "telos:material/weapon/katana/ut-doom",
+      "type": "weapon/katana",
+      "rarity": "gilded",
+      "tierPoints": 10,
+      "source": {
+        "name": "Undead Lair",
+        "icon": "telos:material/dungeon/undead_lair"
+      },
+      "stats": {
+        "Damage": "15",
+        "Range": "6",
+        "Slashes": "2",
+        "Pierces": "Yes",
+        "Cooldown": "1s"
+      },
+      "shiny": {
+        "id": "telos:weapon/katana/ut-doom-shiny",
+        "model": "telos:material/weapon/katana/ut-doom-shiny"
+      },
+      "classes": [
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:weapon/katana/ut-grasp",
+      "name": "Icy Grasp",
+      "model": "telos:material/weapon/katana/ut-grasp",
+      "type": "weapon/katana",
+      "rarity": "gilded",
+      "tierPoints": 10,
+      "source": {
+        "name": "Nocs",
+        "icon": "telos:material/boss/nocs"
+      },
+      "stats": {
+        "Damage": "10",
+        "Range": "5",
+        "Slashes": "3",
+        "Pierces": "Yes",
+        "Cooldown": "1.2s"
+      },
+      "text": [
+        "Ability: Successful",
+        "strikes grant +1 range,",
+        "up to a maximum of +4",
+        "range (resets after",
+        "4.0s of not hitting an",
+        "enemy). You only attack",
+        "after successfully",
+        "targeting an enemy."
+      ],
+      "classes": [
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:ability/star/ut-frozen",
+      "name": "Frozen Star",
+      "model": "telos:material/ability/star/ut-frozen",
+      "type": "ability/star",
+      "rarity": "gilded",
+      "tierPoints": 10,
+      "source": {
+        "name": "Ice Cave",
+        "icon": "telos:material/dungeon/ice_cave"
+      },
+      "stats": {
+        "Damage": "75",
+        "Range": "13",
+        "Shots": "1",
+        "Velocity": "30",
+        "Pierces": "No",
+        "Cooldown": "10s"
+      },
+      "text": [
+        "Ability: Shoots a star",
+        "projectile that applies",
+        "slowness for 5s."
+      ],
+      "shiny": {
+        "id": "telos:ability/star/ut-frozen-shiny",
+        "model": "telos:material/ability/star/ut-frozen-shiny"
+      },
+      "classes": [
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:ability/star/ut-light",
+      "name": "Star Of Shimmering Light",
+      "model": "telos:material/ability/star/ut-light",
+      "type": "ability/star",
+      "rarity": "gilded",
+      "tierPoints": 10,
+      "source": {
+        "name": "Aurehog",
+        "icon": "telos:material/boss/aurehog"
+      },
+      "stats": {
+        "Damage": "57.5",
+        "Range": "9",
+        "Shots": "1",
+        "Velocity": "30",
+        "Pierces": "No",
+        "Cooldown": "8s"
+      },
+      "text": [
+        "Ability: Shoots a star",
+        "projectile that bounces to",
+        "the nearest enemy within",
+        "range from the initial hit up to",
+        "3 times. Each bounce reduces",
+        "its damage by 10."
+      ],
+      "shiny": {
+        "id": "telos:ability/star/ut-light-shiny",
+        "model": "telos:material/ability/star/ut-light-shiny"
+      },
+      "classes": [
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:ability/kunai/ut-dwarven",
+      "name": "Dwarven Kunai",
+      "model": "telos:material/ability/kunai/ut-dwarven",
+      "type": "ability/kunai",
+      "rarity": "gilded",
+      "tierPoints": 10,
+      "source": {
+        "name": "Dwarven Frostkeep",
+        "icon": "telos:material/dungeon/dwarven_frostkeep"
+      },
+      "stats": {
+        "Defense": "30",
+        "Damage": "13",
+        "Range": "6",
+        "Shots": "3",
+        "Velocity": "30",
+        "Pierces": "Yes",
+        "Cooldown": "12s"
+      },
+      "text": [
+        "Ability: Shoots kunai",
+        "projectiles that return",
+        "to you at max range.",
+        "Grants Defense for 4s",
+        "when returning."
+      ],
+      "classes": [
+        "Samurai"
+      ]
+    },
+    {
+      "id": "telos:armour/magical/helmet/ut-lunar",
+      "name": "Lunar Hood",
+      "model": "telos:material/armour/magical/helmet/ut-lunar",
+      "type": "armour/magical/helmet",
+      "rarity": "gilded",
+      "tierPoints": 10,
+      "source": {
+        "name": "Luna",
+        "icon": "telos:material/boss/luna"
+      },
+      "stats": {
+        "Health": "+1",
+        "Attack": "+8",
+        "Speed": "+7"
+      },
+      "classes": [
+        "Necromancer",
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:armour/magical/chestplate/ut-lizardskin",
+      "name": "Lizardskin Spellcoat",
+      "model": "telos:material/armour/magical/chestplate/ut-lizardskin",
+      "type": "armour/magical/chestplate",
+      "rarity": "gilded",
+      "tierPoints": 10,
+      "source": {
+        "name": "Kobold's Den",
+        "icon": "telos:material/dungeon/kobolds_den"
+      },
+      "stats": {
+        "Health": "+1",
+        "Defense": "+10",
+        "Speed": "+8"
+      },
+      "shiny": {
+        "id": "telos:armour/magical/chestplate/ut-lizardskin-shiny",
+        "model": "telos:material/armour/magical/chestplate/ut-lizardskin-shiny"
+      },
+      "classes": [
+        "Necromancer",
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:armour/magical/leggings/ut-frost",
+      "name": "Frost Leggings",
+      "model": "telos:material/armour/magical/leggings/ut-frost",
+      "type": "armour/magical/leggings",
+      "rarity": "gilded",
+      "tierPoints": 10,
+      "source": {
+        "name": "Frozen Ruins",
+        "icon": "telos:material/dungeon/frozen_ruins"
+      },
+      "stats": {
+        "Defense": "+10",
+        "Speed": "+7",
+        "Vitality": "+4"
+      },
+      "text": [
+        "Ability: Taking damage",
+        "inflicts slowness to",
+        "enemies for 4s."
+      ],
+      "shiny": {
+        "id": "telos:armour/magical/leggings/ut-frost-shiny",
+        "model": "telos:material/armour/magical/leggings/ut-frost-shiny"
+      },
+      "classes": [
+        "Necromancer",
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:armour/magical/boots/ut-star",
+      "name": "Star Striker's",
+      "model": "telos:material/armour/magical/boots/ut-star",
+      "type": "armour/magical/boots",
+      "rarity": "gilded",
+      "tierPoints": 10,
+      "source": {
+        "name": "Hellmesh",
+        "icon": "telos:material/boss/hellmesh"
+      },
+      "stats": {
+        "Defense": "+7",
+        "Vitality": "+5",
+        "Critical Chance": "+5",
+        "Damage": "5",
+        "Shots": "3",
+        "Cooldown": "3s"
+      },
+      "text": [
+        "Ability: After damaging",
+        "with your weapon, rain",
+        "down meteors that deal",
+        "AoE damage."
+      ],
+      "classes": [
+        "Necromancer",
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:weapon/staff/ut-emberheart",
+      "name": "Emberheart Staff",
+      "model": "telos:material/weapon/staff/ut-emberheart",
+      "type": "weapon/staff",
+      "rarity": "gilded",
+      "tierPoints": 10,
+      "source": {
+        "name": "Kobold's Den",
+        "icon": "telos:material/dungeon/kobolds_den"
+      },
+      "stats": {
+        "Damage": "7",
+        "Range": "13",
+        "Shots": "2",
+        "Velocity": "35",
+        "Pierces": "Yes",
+        "Cooldown": "0.6s"
+      },
+      "shiny": {
+        "id": "telos:weapon/staff/ut-emberheart-shiny",
+        "model": "telos:material/weapon/staff/ut-emberheart-shiny"
+      },
+      "classes": [
+        "Necromancer"
+      ]
+    },
+    {
+      "id": "telos:weapon/staff/ut-sharp",
+      "name": "Sharp Pain",
+      "model": "telos:material/weapon/staff/ut-sharp",
+      "type": "weapon/staff",
+      "rarity": "gilded",
+      "tierPoints": 10,
+      "source": {
+        "name": "Vudu",
+        "icon": "telos:material/boss/vudu"
+      },
+      "stats": {
+        "Damage": "15",
+        "Range": "7.5",
+        "Shots": "1",
+        "Velocity": "15",
+        "Pierces": "Yes",
+        "Cooldown": "1s"
+      },
+      "text": [
+        "Ability: On hit, summon a",
+        "void ring on the enemy",
+        "that explodes after 2s",
+        "dealing 0.66x damage in",
+        "a small AoE"
+      ],
+      "classes": [
+        "Necromancer"
+      ]
+    },
+    {
+      "id": "telos:ability/skull/ut-magma",
+      "name": "Magma Infused Skull",
+      "model": "telos:material/ability/skull/ut-magma",
+      "type": "ability/skull",
+      "rarity": "gilded",
+      "tierPoints": 10,
+      "source": {
+        "name": "Abyss of Demons",
+        "icon": "telos:material/dungeon/abyss_of_demons"
+      },
+      "stats": {
+        "Damage": "15",
+        "Range": "20",
+        "Velocity": "15",
+        "Pierces": "No",
+        "Cooldown": "9s"
+      },
+      "text": [
+        "Ability: Summons a lava",
+        "imp that disappears after",
+        "10s or after 3 attacks",
+        "which have a 2.0s CD",
+        "between each throw. Also",
+        "summon extra lava imps",
+        "for each ally near you",
+        "(max 2) within 0.25x",
+        "range that follow them",
+        "and attack for them at",
+        "0.33x damage."
+      ],
+      "classes": [
+        "Necromancer"
+      ]
+    },
+    {
+      "id": "telos:ability/skull/ut-slime",
+      "name": "Skull Shaped Slime",
+      "model": "telos:material/ability/skull/ut-slime",
+      "type": "ability/skull",
+      "rarity": "gilded",
+      "tierPoints": 10,
+      "source": {
+        "name": "Oozul",
+        "icon": "telos:material/boss/oozul"
+      },
+      "stats": {
+        "Vitality": "8",
+        "Damage": "6",
+        "Range": "20",
+        "Velocity": "13",
+        "Pierces": "No",
+        "Cooldown": "9s"
+      },
+      "text": [
+        "Ability: Summons 4 slime",
+        "minions that disappear",
+        "after a max of 13s.",
+        "Frost Mage:",
+        "1.0x DMG/2.0s (4x)",
+        "Melee:",
+        "Lava Mage:",
+        "1.0x DMG/2.0s (4x)",
+        "Melee:",
+        "1.0x DMG/1.5s",
+        "Cleric:",
+        "Vitality to players in",
+        "0.33x range (7s)"
+      ],
+      "classes": [
+        "Necromancer"
+      ]
+    },
+    {
+      "id": "telos:ability/scripture/ut-frostspark",
+      "name": "Frostspark Scripture",
+      "model": "telos:material/ability/scripture/ut-frostspark",
+      "type": "ability/scripture",
+      "rarity": "gilded",
+      "tierPoints": 10,
+      "source": {
+        "name": "Ice Cave",
+        "icon": "telos:material/dungeon/ice_cave"
+      },
+      "stats": {
+        "Heal": "1",
+        "Damage": "55",
+        "Range": "9",
+        "Pierces": "No",
+        "Cooldown": "12s"
+      },
+      "text": [
+        "Ability: Unleashes 6",
+        "projectiles from your",
+        "target that home in on you",
+        "and allies within 0.5 blocks,",
+        "healing yourself and",
+        "nearby allies at 50% of the",
+        "rate. Players receiving",
+        "healing from others get a",
+        "3s healing cooldown",
+        "(self-heals unaffected)."
+      ],
+      "classes": [
+        "Necromancer"
+      ]
+    },
+    {
+      "id": "telos:weapon/bow/ut-doom",
+      "name": "Doom Bow",
+      "model": "telos:material/weapon/bow/ut-doom",
+      "type": "weapon/bow",
+      "rarity": "gilded",
+      "tierPoints": 10,
+      "source": {
+        "name": "Undead Lair",
+        "icon": "telos:material/dungeon/undead_lair"
+      },
+      "stats": {
+        "Damage": "25",
+        "Range": "12",
+        "Shots": "1",
+        "Velocity": "15",
+        "Pierces": "No",
+        "Cooldown": "1s"
+      },
+      "shiny": {
+        "id": "telos:weapon/bow/ut-doom-shiny",
+        "model": "telos:material/weapon/bow/ut-doom-shiny"
+      },
+      "classes": [
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:weapon/bow/ut-lightning",
+      "name": "Lightning Bow",
+      "model": "telos:material/weapon/bow/ut-lightning",
+      "type": "weapon/bow",
+      "rarity": "gilded",
+      "tierPoints": 10,
+      "source": {
+        "name": "Treasure Cave",
+        "icon": "telos:material/dungeon/treasure_cave"
+      },
+      "stats": {
+        "Damage": "5.75",
+        "Range": "8",
+        "Shots": "5",
+        "Velocity": "35",
+        "Pierces": "No",
+        "Cooldown": "1s"
+      },
+      "shiny": {
+        "id": "telos:weapon/bow/ut-lightning-shiny",
+        "model": "telos:material/weapon/bow/ut-lightning-shiny"
+      },
+      "classes": [
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:ability/trap/ut-corvus",
+      "name": "Corvus Trap",
+      "model": "telos:material/ability/trap/ut-corvus",
+      "type": "ability/trap",
+      "rarity": "gilded",
+      "tierPoints": 10,
+      "source": {
+        "name": "Corvus Crypt",
+        "icon": "telos:material/dungeon/corvus_crypt"
+      },
+      "stats": {
+        "Speed": "25",
+        "Damage": "30",
+        "Range": "20",
+        "Velocity": "15",
+        "Cooldown": "5s"
+      },
+      "text": [
+        "Ability: Throws a trap",
+        "that inflicts slowness",
+        "to enemies in a 0.15x",
+        "block radius for 3s.",
+        "Grants Speed for 3s."
+      ],
+      "shiny": {
+        "id": "telos:ability/trap/ut-corvus-shiny",
+        "model": "telos:material/ability/trap/ut-corvus-shiny"
+      },
+      "classes": [
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:ability/bomb/ut-torment",
+      "name": "Bomb Of Torment",
+      "model": "telos:material/ability/bomb/ut-torment",
+      "type": "ability/bomb",
+      "rarity": "gilded",
+      "tierPoints": 10,
+      "source": {
+        "name": "Depths of Purgatory",
+        "icon": "telos:material/dungeon/depths_of_purgatory"
+      },
+      "stats": {
+        "Damage": "60",
+        "Range": "3.5",
+        "Cooldown": "9s"
+      },
+      "text": [
+        "Ability: Unleashes highly",
+        "flammable purgatory gas,",
+        "propelling you forward",
+        "and damaging all enemies",
+        "in your path. You are",
+        "invulnerable while",
+        "airborne and cooldown",
+        "begins upon landing."
+      ],
+      "classes": [
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:ability/bomb/ut-glacial",
+      "name": "Glacial Bomb",
+      "model": "telos:material/ability/bomb/ut-glacial",
+      "type": "ability/bomb",
+      "rarity": "gilded",
+      "tierPoints": 10,
+      "source": {
+        "name": "Frozen Ruins",
+        "icon": "telos:material/dungeon/frozen_ruins"
+      },
+      "stats": {
+        "Damage": "16",
+        "Range": "2.5",
+        "Cooldown": "3s"
+      },
+      "text": [
+        "Ability: Creates a small",
+        "explosion that damages",
+        "enemies and propels",
+        "you backward.",
+        "Cooldown begins upon",
+        "landing."
+      ],
+      "classes": [
+        "Huntress"
+      ]
+    },
+    {
+      "id": "telos:weapon/sceptre/ut-corvus",
+      "name": "Corvus Sceptre",
+      "model": "telos:material/weapon/sceptre/ut-corvus",
+      "type": "weapon/sceptre",
+      "rarity": "gilded",
+      "tierPoints": 10,
+      "source": {
+        "name": "Corvus Crypt",
+        "icon": "telos:material/dungeon/corvus_crypt"
+      },
+      "stats": {
+        "Damage": "35",
+        "Range": "6.5",
+        "Beams": "1",
+        "Pierces": "Yes",
+        "Cooldown": "1.2s"
+      },
+      "classes": [
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:weapon/sceptre/ut-silence",
+      "name": "Screech Of Silence",
+      "model": "telos:material/weapon/sceptre/ut-silence",
+      "type": "weapon/sceptre",
+      "rarity": "gilded",
+      "tierPoints": 10,
+      "source": {
+        "name": "Vudu",
+        "icon": "telos:material/boss/vudu"
+      },
+      "stats": {
+        "Damage": "8",
+        "Range": "8.5",
+        "Shots": "3",
+        "Velocity": "25",
+        "Pierces": "Yes",
+        "Cooldown": "1s"
+      },
+      "text": [
+        "Ability: Each projectile",
+        "is fired after the",
+        "previous shot is hit,",
+        "dealing an additional",
+        "0.12x damage each time"
+      ],
+      "classes": [
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:ability/orb/ut-torment",
+      "name": "Orb Of Torment",
+      "model": "telos:material/ability/orb/ut-torment",
+      "type": "ability/orb",
+      "rarity": "gilded",
+      "tierPoints": 10,
+      "source": {
+        "name": "Depths of Purgatory",
+        "icon": "telos:material/dungeon/depths_of_purgatory"
+      },
+      "stats": {
+        "Speed": "20",
+        "Damage": "3.4",
+        "Range": "8",
+        "Cooldown": "8s"
+      },
+      "text": [
+        "Passive: Damages in an",
+        "AoE around you every",
+        "0.4s.",
+        "Ability: Grants Speed for",
+        "8s."
+      ],
+      "classes": [
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:ability/jewel/ut-frozen",
+      "name": "Frozen Jewel",
+      "model": "telos:material/ability/jewel/ut-frozen",
+      "type": "ability/jewel",
+      "rarity": "gilded",
+      "tierPoints": 10,
+      "source": {
+        "name": "Ice Cave",
+        "icon": "telos:material/dungeon/ice_cave"
+      },
+      "stats": {
+        "Attack": "10",
+        "Critical Chance": "10",
+        "Damage": "19",
+        "Range": "10",
+        "Shots": "4",
+        "Velocity": "15",
+        "Pierces": "No",
+        "Cooldown": "11s"
+      },
+      "text": [
+        "Ability: Summons jewels",
+        "that rotate around you",
+        "and seek the nearest",
+        "enemy (lasts 6s). Grants",
+        "Attack and Critical",
+        "Chance."
+      ],
+      "classes": [
+        "Arcanist"
+      ]
+    },
+    {
+      "id": "telos:ability/jewel/ut-aether",
+      "name": "Jewel Of The Aether",
+      "model": "telos:material/ability/jewel/ut-aether",
+      "type": "ability/jewel",
+      "rarity": "gilded",
+      "tierPoints": 10,
+      "source": {
+        "name": "Luna",
+        "icon": "telos:material/boss/luna"
+      },
+      "stats": {
+        "Damage": "9",
+        "Range": "9",
+        "Shots": "2",
+        "Velocity": "15",
+        "Pierces": "No",
+        "Cooldown": "6s"
+      },
+      "text": [
+        "Ability: Summons jewels",
+        "that rotate around you",
+        "and seek the nearest",
+        "enemy (lasts 5s). On hit,",
+        "create a ripple dealing a",
+        "total of 1.5x damage in",
+        "an expanding 0.9x block",
+        "radius."
+      ],
+      "shiny": {
+        "id": "telos:ability/jewel/ut-aether-shiny",
+        "model": "telos:material/ability/jewel/ut-aether-shiny"
+      },
+      "classes": [
+        "Arcanist"
+      ]
+    }
+  ],
+  "color": "#DE7500"
+}

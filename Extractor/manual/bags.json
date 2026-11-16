@@ -1,0 +1,45 @@
+{
+  "_comment": "Hand-written loot bags the rarity list does not cover. key = file name of the custom image / sound (config/telemetric/bags/<key>.png|.gif|.ogg|.wav); totem = item model path of the drop pop (telos:<totem>); sound = suffix of the drop sound (noise:player.bags.create_<sound>); model = custom model with the image screen (assets/telemetric/models/bags/<model>.json); group = Lifetime Stats row (default: key). A key that is also a rarity replaces the guessed bag. From Melinoe's bag list.",
+  "bags": [
+    {
+      "key": "companion",
+      "label": "Companion",
+      "totem": "mob/pouch/companion",
+      "sound": "companion",
+      "model": "companion",
+      "color": "#FFAA00"
+    },
+    {
+      "key": "shiny",
+      "label": "Shiny",
+      "totem": "mob/pouch/shiny_totem",
+      "sound": "shiny",
+      "model": "shiny_totem",
+      "color": "#00FFFF"
+    },
+    {
+      "key": "halloween",
+      "label": "Halloween",
+      "totem": "mob/pouch/halloween_totem",
+      "sound": "halloween",
+      "model": "halloween_totem",
+      "group": "event"
+    },
+    {
+      "key": "valentine",
+      "label": "Valentine",
+      "totem": "mob/pouch/valentine_totem",
+      "sound": "valentines",
+      "model": "valentine_totem",
+      "group": "event"
+    },
+    {
+      "key": "christmas",
+      "label": "Christmas",
+      "totem": "mob/pouch/christmas_totem",
+      "sound": "christmas",
+      "model": "christmas_totem",
+      "group": "event"
+    }
+  ]
+}

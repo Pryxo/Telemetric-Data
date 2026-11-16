@@ -1,0 +1,5909 @@
+{
+  "source": "wiki: Dungeons & Bosses + equipment, pets, mounts, mount skins",
+  "scanned": "2026-11-16T00:48:18.632414900Z",
+  "version": 4,
+  "_comment": "Dungeon -> Boss -> drops (highest chance first) + normal_drop (T1-T8 equipment tiers, no chance on the wiki). Dungeon boss names come from manual/bosses.json (\"???\" = not written yet; bossDrops there split a dungeon's drops between its loot bosses, the final boss is listed last); bossBarHash / bar / model / bones from bossbars.json. loot = loot group (FAQ -> Loot Information), damageThreshold = % of the boss's damage needed for that loot. chance = percent per kill (fragments can be > 100). kind = fragment / item (equipment, has id + rarity) / material (crafting material, not in the equipment scan) / mountSkin / pet / mount. id = item id, model = its item model (dropped on the ground / in chat sprites). name = the scan's own spelling, wikiName = the dungeon page's when it differs. \"All <rarity> Items\" (each) is expanded to the equipment of that rarity from the dungeon (from = each). Shiny drops share the normal item's boss: chance / 50 (irradiated), / 40 (gilded), / 30 (other rarities). \"Realm\" = minibosses and bosses outside a dungeon. aliases = in-game location name -> dungeon name here.",
+  "shinyDivisor": {
+    "gilded": 40,
+    "irradiated": 50,
+    "default": 30
+  },
+  "aliases": {
+    "Raphael's Chamber": "Raph's Chamber",
+    "Raphael's Castle": "Raph's Chamber",
+    "The Aviary": "Aviary"
+  },
+  "loot": {
+    "Skull Cavern": {
+      "Eddie": {
+        "drops": [
+          {
+            "name": "Irradiated Fragment",
+            "chance": 50.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Blunder Bow",
+            "chance": 33.0,
+            "kind": "item",
+            "loot": "Irradiated",
+            "lootKey": "irradiated",
+            "damageThreshold": 1.0,
+            "wikiName": "Blunderbow",
+            "id": "telos:weapon/bow/ut-blunder",
+            "model": "telos:material/weapon/bow/ut-blunder",
+            "rarity": "irradiated"
+          },
+          {
+            "name": "Scripture Of Lost Treasure",
+            "chance": 33.0,
+            "kind": "item",
+            "loot": "Irradiated",
+            "lootKey": "irradiated",
+            "damageThreshold": 1.0,
+            "wikiName": "Lost Treasure Scripture",
+            "id": "telos:ability/scripture/ut-treasure",
+            "model": "telos:material/ability/scripture/ut-treasure",
+            "rarity": "irradiated"
+          },
+          {
+            "name": "Slime Archer",
+            "chance": 2.0,
+            "kind": "pet",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:pet/skull_cavern",
+            "model": "telos:material/pet/skull_cavern",
+            "rarity": "usual"
+          },
+          {
+            "name": "Golden Stallion",
+            "chance": 2.0,
+            "kind": "mount",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:mount/skull_cavern",
+            "model": "telos:material/mount/skull_cavern",
+            "rarity": "usual"
+          },
+          {
+            "name": "Blunder Bow",
+            "chance": 0.66,
+            "kind": "item",
+            "loot": "Irradiated",
+            "lootKey": "irradiated",
+            "damageThreshold": 1.0,
+            "wikiName": "Blunderbow",
+            "id": "telos:weapon/bow/ut-blunder-shiny",
+            "rarity": "irradiated",
+            "model": "telos:material/weapon/bow/ut-blunder-shiny",
+            "shiny": true
+          }
+        ],
+        "normal_drop": [
+          "T2",
+          "T3"
+        ],
+        "bossBarHash": -167372549
+      }
+    },
+    "Thornwood Wargrove": {
+      "Zhum": {
+        "drops": [
+          {
+            "name": "Irradiated Fragment",
+            "chance": 75.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Asteroid Staff",
+            "chance": 33.0,
+            "kind": "item",
+            "loot": "Irradiated",
+            "lootKey": "irradiated",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/staff/ut-asteroid",
+            "model": "telos:material/weapon/staff/ut-asteroid",
+            "rarity": "irradiated"
+          },
+          {
+            "name": "Ayahuasca Flask",
+            "chance": 33.0,
+            "kind": "item",
+            "loot": "Irradiated",
+            "lootKey": "irradiated",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/poison/ut-flask",
+            "model": "telos:material/ability/poison/ut-flask",
+            "rarity": "irradiated"
+          },
+          {
+            "name": "Wartorn Sandals",
+            "chance": 33.0,
+            "kind": "item",
+            "loot": "Irradiated",
+            "lootKey": "irradiated",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/light/boots/ut-wartorn",
+            "model": "telos:material/armour/light/boots/ut-wartorn",
+            "rarity": "irradiated"
+          },
+          {
+            "name": "Thornwood Druid",
+            "chance": 2.0,
+            "kind": "pet",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:pet/thornwood_wargrove",
+            "model": "telos:material/pet/thornwood_wargrove",
+            "rarity": "usual"
+          },
+          {
+            "name": "Timberbeast",
+            "chance": 2.0,
+            "kind": "mount",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:mount/thornwood_wargrove",
+            "model": "telos:material/mount/thornwood_wargrove",
+            "rarity": "usual"
+          },
+          {
+            "name": "Asteroid Staff",
+            "chance": 0.66,
+            "kind": "item",
+            "loot": "Irradiated",
+            "lootKey": "irradiated",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/staff/ut-asteroid-shiny",
+            "rarity": "irradiated",
+            "model": "telos:material/weapon/staff/ut-asteroid-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Ayahuasca Flask",
+            "chance": 0.66,
+            "kind": "item",
+            "loot": "Irradiated",
+            "lootKey": "irradiated",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/poison/ut-flask-shiny",
+            "rarity": "irradiated",
+            "model": "telos:material/ability/poison/ut-flask-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Wartorn Sandals",
+            "chance": 0.66,
+            "kind": "item",
+            "loot": "Irradiated",
+            "lootKey": "irradiated",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/light/boots/ut-wartorn-shiny",
+            "rarity": "irradiated",
+            "model": "telos:material/armour/light/boots/ut-wartorn-shiny",
+            "shiny": true
+          }
+        ],
+        "normal_drop": [
+          "T3",
+          "T4"
+        ],
+        "bossBarHash": -1381648356
+      }
+    },
+    "Goblin Lair": {
+      "Drayruk": {
+        "drops": [
+          {
+            "name": "Irradiated Fragment",
+            "chance": 75.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Titanium Cleaver",
+            "chance": 33.0,
+            "kind": "item",
+            "loot": "Irradiated",
+            "lootKey": "irradiated",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/sword/ut-cleaver",
+            "model": "telos:material/weapon/sword/ut-cleaver",
+            "rarity": "irradiated"
+          },
+          {
+            "name": "Drayruk's Battle Greaves",
+            "chance": 33.0,
+            "kind": "item",
+            "loot": "Irradiated",
+            "lootKey": "irradiated",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/heavy/leggings/ut-drayruk",
+            "model": "telos:material/armour/heavy/leggings/ut-drayruk",
+            "rarity": "irradiated"
+          },
+          {
+            "name": "Arrowstorm Trap",
+            "chance": 33.0,
+            "kind": "item",
+            "loot": "Irradiated",
+            "lootKey": "irradiated",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/trap/ut-arrowstorm",
+            "model": "telos:material/ability/trap/ut-arrowstorm",
+            "rarity": "irradiated"
+          },
+          {
+            "name": "Shamanoid",
+            "chance": 2.0,
+            "kind": "pet",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:pet/goblin_lair",
+            "model": "telos:material/pet/goblin_lair",
+            "rarity": "usual"
+          },
+          {
+            "name": "Gobblehop",
+            "chance": 2.0,
+            "kind": "mount",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:mount/goblin_lair",
+            "model": "telos:material/mount/goblin_lair",
+            "rarity": "usual"
+          },
+          {
+            "name": "Arrowstorm Trap",
+            "chance": 0.66,
+            "kind": "item",
+            "loot": "Irradiated",
+            "lootKey": "irradiated",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/trap/ut-arrowstorm-shiny",
+            "rarity": "irradiated",
+            "model": "telos:material/ability/trap/ut-arrowstorm-shiny",
+            "shiny": true
+          }
+        ],
+        "normal_drop": [
+          "T3",
+          "T4"
+        ],
+        "bossBarHash": -1659173216
+      }
+    },
+    "Desert Temple": {
+      "Miraj": {
+        "drops": [
+          {
+            "name": "Irradiated Fragment",
+            "chance": 120.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Sceptre Of Thorns",
+            "chance": 33.0,
+            "kind": "item",
+            "loot": "Irradiated",
+            "lootKey": "irradiated",
+            "damageThreshold": 1.0,
+            "wikiName": "Sceptre of Thorns",
+            "id": "telos:weapon/sceptre/ut-thorns",
+            "model": "telos:material/weapon/sceptre/ut-thorns",
+            "rarity": "irradiated"
+          },
+          {
+            "name": "Sandstone Emblem",
+            "chance": 33.0,
+            "kind": "item",
+            "loot": "Irradiated",
+            "lootKey": "irradiated",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/emblem/ut-sandstone",
+            "model": "telos:material/ability/emblem/ut-sandstone",
+            "rarity": "irradiated"
+          },
+          {
+            "name": "Irradiated Fragment",
+            "chance": 25.0,
+            "kind": "fragment",
+            "from": "specificMob"
+          },
+          {
+            "name": "Lost Cleric",
+            "chance": 2.0,
+            "kind": "pet",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:pet/desert_temple",
+            "model": "telos:material/pet/desert_temple",
+            "rarity": "usual"
+          },
+          {
+            "name": "Grumbleglob",
+            "chance": 2.0,
+            "kind": "mount",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:mount/desert_temple",
+            "model": "telos:material/mount/desert_temple",
+            "rarity": "usual"
+          },
+          {
+            "name": "Sandstone Emblem",
+            "chance": 0.66,
+            "kind": "item",
+            "loot": "Irradiated",
+            "lootKey": "irradiated",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/emblem/ut-sandstone-shiny",
+            "rarity": "irradiated",
+            "model": "telos:material/ability/emblem/ut-sandstone-shiny",
+            "shiny": true
+          }
+        ],
+        "normal_drop": [
+          "T4",
+          "T5"
+        ],
+        "bossBarHash": -973820290
+      }
+    },
+    "Tomb Of Shadows": {
+      "Khufu": {
+        "drops": [
+          {
+            "name": "Irradiated Fragment",
+            "chance": 120.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Khufu's Skull",
+            "chance": 33.0,
+            "kind": "item",
+            "loot": "Irradiated",
+            "lootKey": "irradiated",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/skull/ut-khufu",
+            "model": "telos:material/ability/skull/ut-khufu",
+            "rarity": "irradiated"
+          },
+          {
+            "name": "Veil Of Shadows",
+            "chance": 33.0,
+            "kind": "item",
+            "loot": "Irradiated",
+            "lootKey": "irradiated",
+            "damageThreshold": 1.0,
+            "wikiName": "Veil of Shadows",
+            "id": "telos:ability/cloak/ut-shadows",
+            "model": "telos:material/ability/cloak/ut-shadows",
+            "rarity": "irradiated"
+          },
+          {
+            "name": "Hood Of Stealth",
+            "chance": 33.0,
+            "kind": "item",
+            "loot": "Irradiated",
+            "lootKey": "irradiated",
+            "damageThreshold": 1.0,
+            "wikiName": "Hood of Stealth",
+            "id": "telos:armour/magical/helmet/ut-stealth",
+            "model": "telos:material/armour/magical/helmet/ut-stealth",
+            "rarity": "irradiated"
+          },
+          {
+            "name": "Irradiated Fragment",
+            "chance": 25.0,
+            "kind": "fragment",
+            "from": "specificMob"
+          },
+          {
+            "name": "Khufy",
+            "chance": 2.0,
+            "kind": "pet",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:pet/tomb_of_shadows",
+            "model": "telos:material/pet/tomb_of_shadows",
+            "rarity": "usual"
+          },
+          {
+            "name": "Shadow Scorpid",
+            "chance": 2.0,
+            "kind": "mount",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:mount/tomb_of_shadows",
+            "model": "telos:material/mount/tomb_of_shadows",
+            "rarity": "usual"
+          },
+          {
+            "name": "Hood Of Stealth",
+            "chance": 0.66,
+            "kind": "item",
+            "loot": "Irradiated",
+            "lootKey": "irradiated",
+            "damageThreshold": 1.0,
+            "wikiName": "Hood of Stealth",
+            "id": "telos:armour/magical/helmet/ut-stealth-shiny",
+            "rarity": "irradiated",
+            "model": "telos:material/armour/magical/helmet/ut-stealth-shiny",
+            "shiny": true
+          }
+        ],
+        "normal_drop": [
+          "T4",
+          "T5"
+        ],
+        "bossBarHash": 230865898
+      }
+    },
+    "Sakura Shrine": {
+      "Choji": {
+        "drops": [
+          {
+            "name": "Irradiated Fragment",
+            "chance": 120.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Kendo Stick",
+            "chance": 33.0,
+            "kind": "item",
+            "loot": "Irradiated",
+            "lootKey": "irradiated",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/katana/ut-kendo",
+            "model": "telos:material/weapon/katana/ut-kendo",
+            "rarity": "irradiated"
+          },
+          {
+            "name": "Choji's Tunic",
+            "chance": 33.0,
+            "kind": "item",
+            "loot": "Irradiated",
+            "lootKey": "irradiated",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/light/chestplate/ut-tunic",
+            "model": "telos:material/armour/light/chestplate/ut-tunic",
+            "rarity": "irradiated"
+          },
+          {
+            "name": "Irradiated Fragment",
+            "chance": 25.0,
+            "kind": "fragment",
+            "from": "specificMob"
+          },
+          {
+            "name": "Yin Yang",
+            "chance": 2.0,
+            "kind": "pet",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "wikiName": "YinYang",
+            "id": "telos:pet/sakura_shrine",
+            "model": "telos:material/pet/sakura_shrine",
+            "rarity": "usual"
+          },
+          {
+            "name": "Zenpanda",
+            "chance": 2.0,
+            "kind": "mount",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:mount/sakura_shrine",
+            "model": "telos:material/mount/sakura_shrine",
+            "rarity": "usual"
+          },
+          {
+            "name": "Choji's Tunic",
+            "chance": 0.66,
+            "kind": "item",
+            "loot": "Irradiated",
+            "lootKey": "irradiated",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/light/chestplate/ut-tunic-shiny",
+            "rarity": "irradiated",
+            "model": "telos:material/armour/light/chestplate/ut-tunic-shiny",
+            "shiny": true
+          }
+        ],
+        "normal_drop": [
+          "T4",
+          "T5"
+        ],
+        "bossBarHash": -167370627
+      }
+    },
+    "Secluded Woodland": {
+      "Flora": {
+        "drops": [
+          {
+            "name": "Irradiated Fragment",
+            "chance": 120.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Flora Boots",
+            "chance": 33.0,
+            "kind": "item",
+            "loot": "Irradiated",
+            "lootKey": "irradiated",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/magical/boots/ut-flora",
+            "model": "telos:material/armour/magical/boots/ut-flora",
+            "rarity": "irradiated"
+          },
+          {
+            "name": "Cross Grass Dagger",
+            "chance": 33.0,
+            "kind": "item",
+            "loot": "Irradiated",
+            "lootKey": "irradiated",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/dagger/ut-grass",
+            "model": "telos:material/weapon/dagger/ut-grass",
+            "rarity": "irradiated"
+          },
+          {
+            "name": "Overgrown Orb",
+            "chance": 33.0,
+            "kind": "item",
+            "loot": "Irradiated",
+            "lootKey": "irradiated",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/orb/ut-overgrown",
+            "model": "telos:material/ability/orb/ut-overgrown",
+            "rarity": "irradiated"
+          },
+          {
+            "name": "Irradiated Fragment",
+            "chance": 25.0,
+            "kind": "fragment",
+            "from": "specificMob"
+          },
+          {
+            "name": "Undead Ent",
+            "chance": 2.0,
+            "kind": "pet",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:pet/secluded_woodland",
+            "model": "telos:material/pet/secluded_woodland",
+            "rarity": "usual"
+          },
+          {
+            "name": "Thornscale",
+            "chance": 2.0,
+            "kind": "mount",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:mount/secluded_woodland",
+            "model": "telos:material/mount/secluded_woodland",
+            "rarity": "usual"
+          }
+        ],
+        "normal_drop": [
+          "T4",
+          "T5"
+        ],
+        "bossBarHash": 291455870
+      }
+    },
+    "Abyss Of Demons": {
+      "Malfas": {
+        "drops": [
+          {
+            "name": "Gilded Fragment",
+            "chance": 75.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Gilded Fragment",
+            "chance": 10.0,
+            "kind": "fragment",
+            "from": "specificMob"
+          },
+          {
+            "name": "Demonic Blade",
+            "chance": 10.0,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/sword/ut-demonic",
+            "model": "telos:material/weapon/sword/ut-demonic",
+            "rarity": "gilded"
+          },
+          {
+            "name": "Demonic Dagger",
+            "chance": 10.0,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/dagger/ut-demonic",
+            "model": "telos:material/weapon/dagger/ut-demonic",
+            "rarity": "gilded"
+          },
+          {
+            "name": "Magma Infused Skull",
+            "chance": 10.0,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/skull/ut-magma",
+            "model": "telos:material/ability/skull/ut-magma",
+            "rarity": "gilded"
+          },
+          {
+            "name": "Blazey",
+            "chance": 1.0,
+            "kind": "pet",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:pet/abyss_of_demons",
+            "model": "telos:material/pet/abyss_of_demons",
+            "rarity": "strange"
+          },
+          {
+            "name": "Magma Runner",
+            "chance": 1.0,
+            "kind": "mount",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:mount/abyss_of_demons",
+            "model": "telos:material/mount/abyss_of_demons",
+            "rarity": "strange"
+          },
+          {
+            "name": "Demonic Blade",
+            "chance": 0.25,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/sword/ut-demonic-shiny",
+            "rarity": "gilded",
+            "model": "telos:material/weapon/sword/ut-demonic-shiny",
+            "shiny": true
+          }
+        ],
+        "normal_drop": [
+          "T5",
+          "T6",
+          "T7"
+        ],
+        "bossBarHash": -1019671711
+      }
+    },
+    "Undead Lair": {
+      "Heptavius": {
+        "drops": [
+          {
+            "name": "Gilded Fragment",
+            "chance": 75.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Gilded Fragment",
+            "chance": 10.0,
+            "kind": "fragment",
+            "from": "specificMob"
+          },
+          {
+            "name": "Doom Katana",
+            "chance": 10.0,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/katana/ut-doom",
+            "model": "telos:material/weapon/katana/ut-doom",
+            "rarity": "gilded"
+          },
+          {
+            "name": "Doom Bow",
+            "chance": 10.0,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/bow/ut-doom",
+            "model": "telos:material/weapon/bow/ut-doom",
+            "rarity": "gilded"
+          },
+          {
+            "name": "Hat Of Lost Souls",
+            "chance": 10.0,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "wikiName": "Hat of lost Souls",
+            "id": "telos:armour/light/helmet/ut-soul",
+            "model": "telos:material/armour/light/helmet/ut-soul",
+            "rarity": "gilded"
+          },
+          {
+            "name": "Dark Knight",
+            "chance": 1.0,
+            "kind": "pet",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:pet/undead_lair",
+            "model": "telos:material/pet/undead_lair",
+            "rarity": "strange"
+          },
+          {
+            "name": "Necrofox",
+            "chance": 1.0,
+            "kind": "mount",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:mount/undead_lair",
+            "model": "telos:material/mount/undead_lair",
+            "rarity": "strange"
+          },
+          {
+            "name": "Doom Katana",
+            "chance": 0.25,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/katana/ut-doom-shiny",
+            "rarity": "gilded",
+            "model": "telos:material/weapon/katana/ut-doom-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Doom Bow",
+            "chance": 0.25,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/bow/ut-doom-shiny",
+            "rarity": "gilded",
+            "model": "telos:material/weapon/bow/ut-doom-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Hat Of Lost Souls",
+            "chance": 0.25,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "wikiName": "Hat of lost Souls",
+            "id": "telos:armour/light/helmet/ut-soul-shiny",
+            "rarity": "gilded",
+            "model": "telos:material/armour/light/helmet/ut-soul-shiny",
+            "shiny": true
+          }
+        ],
+        "normal_drop": [
+          "T5",
+          "T6",
+          "T7"
+        ],
+        "bossBarHash": -1659169372
+      }
+    },
+    "Ice Cave": {
+      "Arctic Colossus": {
+        "drops": [
+          {
+            "name": "Gilded Fragment",
+            "chance": 75.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Gilded Fragment",
+            "chance": 10.0,
+            "kind": "fragment",
+            "from": "specificMob"
+          },
+          {
+            "name": "Frozen Star",
+            "chance": 10.0,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/star/ut-frozen",
+            "model": "telos:material/ability/star/ut-frozen",
+            "rarity": "gilded"
+          },
+          {
+            "name": "Frostspark Scripture",
+            "chance": 10.0,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/scripture/ut-frostspark",
+            "model": "telos:material/ability/scripture/ut-frostspark",
+            "rarity": "gilded"
+          },
+          {
+            "name": "Frozen Jewel",
+            "chance": 10.0,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/jewel/ut-frozen",
+            "model": "telos:material/ability/jewel/ut-frozen",
+            "rarity": "gilded"
+          },
+          {
+            "name": "Ice Penguin",
+            "chance": 1.0,
+            "kind": "pet",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:pet/ice_cave",
+            "model": "telos:material/pet/ice_cave",
+            "rarity": "strange"
+          },
+          {
+            "name": "Frostfang",
+            "chance": 1.0,
+            "kind": "mount",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:mount/ice_cave",
+            "model": "telos:material/mount/ice_cave",
+            "rarity": "strange"
+          },
+          {
+            "name": "Frozen Star",
+            "chance": 0.25,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/star/ut-frozen-shiny",
+            "rarity": "gilded",
+            "model": "telos:material/ability/star/ut-frozen-shiny",
+            "shiny": true
+          }
+        ],
+        "normal_drop": [
+          "T5",
+          "T6",
+          "T7"
+        ],
+        "bossBarHash": -1659167450
+      }
+    },
+    "Dwarven Frostkeep": {
+      "Oog": {
+        "drops": [
+          {
+            "name": "Gilded Fragment",
+            "chance": 75.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Gilded Fragment",
+            "chance": 10.0,
+            "kind": "fragment",
+            "from": "specificMob"
+          },
+          {
+            "name": "Dwarven Kunai",
+            "chance": 10.0,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/kunai/ut-dwarven",
+            "model": "telos:material/ability/kunai/ut-dwarven",
+            "rarity": "gilded"
+          },
+          {
+            "name": "Dwarven Emblem",
+            "chance": 10.0,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/emblem/ut-dwarven",
+            "model": "telos:material/ability/emblem/ut-dwarven",
+            "rarity": "gilded"
+          },
+          {
+            "name": "Dwarven Cloak",
+            "chance": 10.0,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/cloak/ut-dwarven",
+            "model": "telos:material/ability/cloak/ut-dwarven",
+            "rarity": "gilded"
+          },
+          {
+            "name": "Mini Dwarf",
+            "chance": 1.0,
+            "kind": "pet",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:pet/dwarven_frostkeep",
+            "model": "telos:material/pet/dwarven_frostkeep",
+            "rarity": "strange"
+          },
+          {
+            "name": "Glacial Runner",
+            "chance": 1.0,
+            "kind": "mount",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:mount/dwarven_frostkeep",
+            "model": "telos:material/mount/dwarven_frostkeep",
+            "rarity": "strange"
+          },
+          {
+            "name": "Dwarven Emblem",
+            "chance": 0.25,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/emblem/ut-dwarven-shiny",
+            "rarity": "gilded",
+            "model": "telos:material/ability/emblem/ut-dwarven-shiny",
+            "shiny": true
+          }
+        ],
+        "normal_drop": [
+          "T5",
+          "T6",
+          "T7"
+        ],
+        "bossBarHash": -1659168411
+      }
+    },
+    "Treasure Cave": {
+      "Magnus": {
+        "drops": [
+          {
+            "name": "Gilded Fragment",
+            "chance": 75.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Gilded Fragment",
+            "chance": 10.0,
+            "kind": "fragment",
+            "from": "specificMob"
+          },
+          {
+            "name": "Lightning Bow",
+            "chance": 10.0,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/bow/ut-lightning",
+            "model": "telos:material/weapon/bow/ut-lightning",
+            "rarity": "gilded"
+          },
+          {
+            "name": "Lightning Chaps",
+            "chance": 10.0,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/light/leggings/ut-lightning",
+            "model": "telos:material/armour/light/leggings/ut-lightning",
+            "rarity": "gilded"
+          },
+          {
+            "name": "Lightning Sabatons",
+            "chance": 10.0,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/heavy/boots/ut-lightning",
+            "model": "telos:material/armour/heavy/boots/ut-lightning",
+            "rarity": "gilded"
+          },
+          {
+            "name": "Golden Martial",
+            "chance": 1.0,
+            "kind": "pet",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:pet/treasure_cave",
+            "model": "telos:material/pet/treasure_cave",
+            "rarity": "strange"
+          },
+          {
+            "name": "Midas Construct",
+            "chance": 1.0,
+            "kind": "mount",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:mount/treasure_cave",
+            "model": "telos:material/mount/treasure_cave",
+            "rarity": "strange"
+          },
+          {
+            "name": "Lightning Bow",
+            "chance": 0.25,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/bow/ut-lightning-shiny",
+            "rarity": "gilded",
+            "model": "telos:material/weapon/bow/ut-lightning-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Lightning Chaps",
+            "chance": 0.25,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/light/leggings/ut-lightning-shiny",
+            "rarity": "gilded",
+            "model": "telos:material/armour/light/leggings/ut-lightning-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Lightning Sabatons",
+            "chance": 0.25,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/heavy/boots/ut-lightning-shiny",
+            "rarity": "gilded",
+            "model": "telos:material/armour/heavy/boots/ut-lightning-shiny",
+            "shiny": true
+          }
+        ],
+        "normal_drop": [
+          "T5",
+          "T6",
+          "T7"
+        ],
+        "bossBarHash": -1659166489
+      }
+    },
+    "Depths Of Purgatory": {
+      "Pyro": {
+        "drops": [
+          {
+            "name": "Gilded Fragment",
+            "chance": 120.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Gilded Fragment",
+            "chance": 15.0,
+            "kind": "fragment",
+            "from": "specificMob"
+          },
+          {
+            "name": "Orb Of Torment",
+            "chance": 10.0,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "wikiName": "Orb of Torment",
+            "id": "telos:ability/orb/ut-torment",
+            "model": "telos:material/ability/orb/ut-torment",
+            "rarity": "gilded"
+          },
+          {
+            "name": "Bomb Of Torment",
+            "chance": 10.0,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "wikiName": "Bomb of Torment",
+            "id": "telos:ability/bomb/ut-torment",
+            "model": "telos:material/ability/bomb/ut-torment",
+            "rarity": "gilded"
+          },
+          {
+            "name": "Chestplate Of Torment",
+            "chance": 10.0,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "wikiName": "Chestplate of Torment",
+            "id": "telos:armour/heavy/chestplate/ut-torment",
+            "model": "telos:material/armour/heavy/chestplate/ut-torment",
+            "rarity": "gilded"
+          },
+          {
+            "name": "Royal Fragment",
+            "chance": 5.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Pyroc",
+            "chance": 1.0,
+            "kind": "pet",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:pet/purgatory",
+            "model": "telos:material/pet/purgatory",
+            "rarity": "strange"
+          },
+          {
+            "name": "Hydroscorch",
+            "chance": 1.0,
+            "kind": "mount",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:mount/purgatory",
+            "model": "telos:material/mount/purgatory",
+            "rarity": "strange"
+          }
+        ],
+        "normal_drop": [
+          "T6",
+          "T7"
+        ],
+        "bossBarHash": -1253198526
+      }
+    },
+    "Frozen Ruins": {
+      "Thalor": {
+        "drops": [
+          {
+            "name": "Gilded Fragment",
+            "chance": 120.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Gilded Fragment",
+            "chance": 15.0,
+            "kind": "fragment",
+            "from": "specificMob"
+          },
+          {
+            "name": "Shield Of Glacial Reflection",
+            "chance": 10.0,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "wikiName": "Shield of Glacial Reflection",
+            "id": "telos:ability/shield/ut-reflection",
+            "model": "telos:material/ability/shield/ut-reflection",
+            "rarity": "gilded"
+          },
+          {
+            "name": "Frost Leggings",
+            "chance": 10.0,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/magical/leggings/ut-frost",
+            "model": "telos:material/armour/magical/leggings/ut-frost",
+            "rarity": "gilded"
+          },
+          {
+            "name": "Glacial Bomb",
+            "chance": 10.0,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/bomb/ut-glacial",
+            "model": "telos:material/ability/bomb/ut-glacial",
+            "rarity": "gilded"
+          },
+          {
+            "name": "Royal Fragment",
+            "chance": 5.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Thaily",
+            "chance": 1.0,
+            "kind": "pet",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:pet/frozen_ruins",
+            "model": "telos:material/pet/frozen_ruins",
+            "rarity": "strange"
+          },
+          {
+            "name": "Winterbeast",
+            "chance": 1.0,
+            "kind": "mount",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:mount/frozen_ruins",
+            "model": "telos:material/mount/frozen_ruins",
+            "rarity": "strange"
+          },
+          {
+            "name": "Shield Of Glacial Reflection",
+            "chance": 0.25,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "wikiName": "Shield of Glacial Reflection",
+            "id": "telos:ability/shield/ut-reflection-shiny",
+            "rarity": "gilded",
+            "model": "telos:material/ability/shield/ut-reflection-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Frost Leggings",
+            "chance": 0.25,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/magical/leggings/ut-frost-shiny",
+            "rarity": "gilded",
+            "model": "telos:material/armour/magical/leggings/ut-frost-shiny",
+            "shiny": true
+          }
+        ],
+        "normal_drop": [
+          "T6",
+          "T7"
+        ],
+        "bossBarHash": -1621485232
+      }
+    },
+    "Kobold's Den": {
+      "Ashenclaw": {
+        "drops": [
+          {
+            "name": "Gilded Fragment",
+            "chance": 150.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Emberheart Staff",
+            "chance": 10.0,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/staff/ut-emberheart",
+            "model": "telos:material/weapon/staff/ut-emberheart",
+            "rarity": "gilded"
+          },
+          {
+            "name": "Venomfang Serum",
+            "chance": 10.0,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/poison/ut-venomfang",
+            "model": "telos:material/ability/poison/ut-venomfang",
+            "rarity": "gilded"
+          },
+          {
+            "name": "Lizardskin Spellcoat",
+            "chance": 10.0,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/magical/chestplate/ut-lizardskin",
+            "model": "telos:material/armour/magical/chestplate/ut-lizardskin",
+            "rarity": "gilded"
+          },
+          {
+            "name": "Royal Fragment",
+            "chance": 5.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Blade",
+            "chance": 1.0,
+            "kind": "pet",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:pet/kobolds_den",
+            "model": "telos:material/pet/kobolds_den",
+            "rarity": "strange"
+          },
+          {
+            "name": "Fireclaw",
+            "chance": 1.0,
+            "kind": "mount",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:mount/kobolds_den",
+            "model": "telos:material/mount/kobolds_den",
+            "rarity": "strange"
+          },
+          {
+            "name": "Emberheart Staff",
+            "chance": 0.25,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/staff/ut-emberheart-shiny",
+            "rarity": "gilded",
+            "model": "telos:material/weapon/staff/ut-emberheart-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Venomfang Serum",
+            "chance": 0.25,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/poison/ut-venomfang-shiny",
+            "rarity": "gilded",
+            "model": "telos:material/ability/poison/ut-venomfang-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Lizardskin Spellcoat",
+            "chance": 0.25,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/magical/chestplate/ut-lizardskin-shiny",
+            "rarity": "gilded",
+            "model": "telos:material/armour/magical/chestplate/ut-lizardskin-shiny",
+            "shiny": true
+          }
+        ],
+        "normal_drop": [
+          "T6",
+          "T7"
+        ],
+        "bossBarHash": -167373510
+      }
+    },
+    "Corvus Crypt": {
+      "Corvack": {
+        "drops": [
+          {
+            "name": "Gilded Fragment",
+            "chance": 120.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Gilded Fragment",
+            "chance": 15.0,
+            "kind": "fragment",
+            "from": "specificMob"
+          },
+          {
+            "name": "Corvus Sceptre",
+            "chance": 10.0,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/sceptre/ut-corvus",
+            "model": "telos:material/weapon/sceptre/ut-corvus",
+            "rarity": "gilded"
+          },
+          {
+            "name": "Corvus Trap",
+            "chance": 10.0,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/trap/ut-corvus",
+            "model": "telos:material/ability/trap/ut-corvus",
+            "rarity": "gilded"
+          },
+          {
+            "name": "Corvack's Mask",
+            "chance": 10.0,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/heavy/helmet/ut-corvack",
+            "model": "telos:material/armour/heavy/helmet/ut-corvack",
+            "rarity": "gilded"
+          },
+          {
+            "name": "Royal Fragment",
+            "chance": 5.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Dark Alchemist",
+            "chance": 1.0,
+            "kind": "pet",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:pet/corvus_crypt",
+            "model": "telos:material/pet/corvus_crypt",
+            "rarity": "strange"
+          },
+          {
+            "name": "Shadowclaw",
+            "chance": 1.0,
+            "kind": "mount",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:mount/corvus_crypt",
+            "model": "telos:material/mount/corvus_crypt",
+            "rarity": "strange"
+          },
+          {
+            "name": "Corvus Trap",
+            "chance": 0.25,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/trap/ut-corvus-shiny",
+            "rarity": "gilded",
+            "model": "telos:material/ability/trap/ut-corvus-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Corvack's Mask",
+            "chance": 0.25,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/heavy/helmet/ut-corvack-shiny",
+            "rarity": "gilded",
+            "model": "telos:material/armour/heavy/helmet/ut-corvack-shiny",
+            "shiny": true
+          }
+        ],
+        "normal_drop": [
+          "T6",
+          "T7"
+        ],
+        "bossBarHash": 832610318
+      }
+    },
+    "Omnipotent's Citadel": {
+      "Omnipotent": {
+        "drops": [
+          {
+            "name": "Royal Fragment",
+            "chance": 50.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Sceptre Of Gloom",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "wikiName": "Sceptre of Gloom",
+            "id": "telos:weapon/sceptre/ut-gloom",
+            "model": "telos:material/weapon/sceptre/ut-gloom",
+            "rarity": "royal"
+          },
+          {
+            "name": "Omnipotent Robe",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/magical/chestplate/ut-omnipotent",
+            "model": "telos:material/armour/magical/chestplate/ut-omnipotent",
+            "rarity": "royal"
+          },
+          {
+            "name": "Omnipotent Leggings",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/magical/leggings/ut-omnipotent",
+            "model": "telos:material/armour/magical/leggings/ut-omnipotent",
+            "rarity": "royal"
+          },
+          {
+            "name": "Void Hat",
+            "chance": 1.3,
+            "kind": "item",
+            "from": "specificMob",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/light/helmet/ut-void",
+            "model": "telos:material/armour/light/helmet/ut-void",
+            "rarity": "royal"
+          },
+          {
+            "name": "Black Hole Singularity",
+            "chance": 0.8,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "wikiName": "Blackhole Singularity",
+            "id": "telos:ability/trap/ut-blackhole",
+            "model": "telos:material/ability/trap/ut-blackhole",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Mini Archmage",
+            "chance": 0.4,
+            "kind": "pet",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:pet/omnipotents_citadel",
+            "model": "telos:material/pet/omnipotents_citadel",
+            "rarity": "fabled"
+          },
+          {
+            "name": "Etherrealmare",
+            "chance": 0.4,
+            "kind": "mount",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "wikiName": "Etherealmare",
+            "id": "telos:mount/omnipotents_citadel",
+            "model": "telos:material/mount/omnipotents_citadel",
+            "rarity": "fabled"
+          },
+          {
+            "name": "Sceptre Of Gloom",
+            "chance": 0.0666667,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "wikiName": "Sceptre of Gloom",
+            "id": "telos:weapon/sceptre/ut-gloom-shiny",
+            "rarity": "royal",
+            "model": "telos:material/weapon/sceptre/ut-gloom-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Void Hat",
+            "chance": 0.0433333,
+            "kind": "item",
+            "from": "specificMob",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/light/helmet/ut-void-shiny",
+            "rarity": "royal",
+            "model": "telos:material/armour/light/helmet/ut-void-shiny",
+            "shiny": true
+          }
+        ],
+        "normal_drop": [
+          "T7",
+          "T8"
+        ],
+        "bossBarHash": -1254007688
+      }
+    },
+    "Fungal Cavern": {
+      "Prismara": {
+        "drops": [
+          {
+            "name": "Royal Fragment",
+            "chance": 50.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Crystal Trap",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/trap/ut-crystal",
+            "model": "telos:material/ability/trap/ut-crystal",
+            "rarity": "royal"
+          },
+          {
+            "name": "Crystal Shield",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/shield/ut-crystal",
+            "model": "telos:material/ability/shield/ut-crystal",
+            "rarity": "royal"
+          },
+          {
+            "name": "Crystal Boots",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/magical/boots/ut-fungal",
+            "model": "telos:material/armour/magical/boots/ut-fungal",
+            "rarity": "royal"
+          },
+          {
+            "name": "Amethyst Wormpiercer",
+            "chance": 0.8,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/bow/ut-amethyst",
+            "model": "telos:material/weapon/bow/ut-amethyst",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Minobi",
+            "chance": 0.4,
+            "kind": "pet",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:pet/fungal_cavern",
+            "model": "telos:material/pet/fungal_cavern",
+            "rarity": "fabled"
+          },
+          {
+            "name": "Mycohawk",
+            "chance": 0.4,
+            "kind": "mount",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:mount/fungal_cavern",
+            "model": "telos:material/mount/fungal_cavern",
+            "rarity": "fabled"
+          },
+          {
+            "name": "Crystal Shield",
+            "chance": 0.0666667,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/shield/ut-crystal-shiny",
+            "rarity": "royal",
+            "model": "telos:material/ability/shield/ut-crystal-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Crystal Boots",
+            "chance": 0.0666667,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/magical/boots/ut-fungal-shiny",
+            "rarity": "royal",
+            "model": "telos:material/armour/magical/boots/ut-fungal-shiny",
+            "shiny": true
+          }
+        ],
+        "normal_drop": [
+          "T7",
+          "T8"
+        ],
+        "bossBarHash": -708336010
+      }
+    },
+    "Corsair's Conductorium": {
+      "Thalassar": {
+        "drops": [
+          {
+            "name": "Royal Fragment",
+            "chance": 50.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Spirit Dagger",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/dagger/ut-spirit",
+            "model": "telos:material/weapon/dagger/ut-spirit",
+            "rarity": "royal"
+          },
+          {
+            "name": "Ethereal Longbow",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/bow/ut-ethereal",
+            "model": "telos:material/weapon/bow/ut-ethereal",
+            "rarity": "royal"
+          },
+          {
+            "name": "Spectral Armour",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/light/chestplate/ut-spectral",
+            "model": "telos:material/armour/light/chestplate/ut-spectral",
+            "rarity": "royal"
+          },
+          {
+            "name": "Oceanic Torrent",
+            "chance": 0.8,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/shield/ut-torrent",
+            "model": "telos:material/ability/shield/ut-torrent",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Mini Illusionist",
+            "chance": 0.4,
+            "kind": "pet",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:pet/corsairs_conductorium",
+            "model": "telos:material/pet/corsairs_conductorium",
+            "rarity": "fabled"
+          },
+          {
+            "name": "Spectral Steed",
+            "chance": 0.4,
+            "kind": "mount",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:mount/corsairs_conductorium",
+            "model": "telos:material/mount/corsairs_conductorium",
+            "rarity": "fabled"
+          },
+          {
+            "name": "Ethereal Longbow",
+            "chance": 0.0666667,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/bow/ut-ethereal-shiny",
+            "rarity": "royal",
+            "model": "telos:material/weapon/bow/ut-ethereal-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Spectral Armour",
+            "chance": 0.0666667,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/light/chestplate/ut-spectral-shiny",
+            "rarity": "royal",
+            "model": "telos:material/armour/light/chestplate/ut-spectral-shiny",
+            "shiny": true
+          }
+        ],
+        "normal_drop": [
+          "T7",
+          "T8"
+        ],
+        "bossBarHash": -1621744702
+      }
+    },
+    "Anubis Lair": {
+      "Kurvaros": {
+        "drops": [
+          {
+            "name": "Royal Fragment",
+            "chance": 75.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Royal Fragment",
+            "chance": 5.0,
+            "kind": "fragment",
+            "from": "anyMob"
+          },
+          {
+            "name": "Mechanical Cutlass",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/sword/ut-cutlass",
+            "model": "telos:material/weapon/sword/ut-cutlass",
+            "rarity": "royal"
+          },
+          {
+            "name": "Black Hole Sandals",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "wikiName": "Blackhole Sandals",
+            "id": "telos:armour/light/boots/ut-blackhole",
+            "model": "telos:material/armour/light/boots/ut-blackhole",
+            "rarity": "royal"
+          },
+          {
+            "name": "Voltaic Bomb",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/bomb/ut-voltaic",
+            "model": "telos:material/ability/bomb/ut-voltaic",
+            "rarity": "royal"
+          },
+          {
+            "name": "Cloak Of Ionised Darkness",
+            "chance": 0.8,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "wikiName": "Cloak of Ionised Darkness",
+            "id": "telos:ability/cloak/ut-darkness",
+            "model": "telos:material/ability/cloak/ut-darkness",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Beast Master",
+            "chance": 0.4,
+            "kind": "pet",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:pet/anubis_lair",
+            "model": "telos:material/pet/anubis_lair",
+            "rarity": "fabled"
+          },
+          {
+            "name": "Necrowyrm",
+            "chance": 0.4,
+            "kind": "mount",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:mount/anubis_lair",
+            "model": "telos:material/mount/anubis_lair",
+            "rarity": "fabled"
+          }
+        ],
+        "normal_drop": [
+          "T8"
+        ],
+        "bossBarHash": -342534076
+      }
+    },
+    "Tartarus": {
+      "Malthar": {
+        "drops": [
+          {
+            "name": "Royal Fragment",
+            "chance": 100.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Cinder Reach",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/bow/ut-cinder",
+            "model": "telos:material/weapon/bow/ut-cinder",
+            "rarity": "royal"
+          },
+          {
+            "name": "Cinder Scripture",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/scripture/ut-cinder",
+            "model": "telos:material/ability/scripture/ut-cinder",
+            "rarity": "royal"
+          },
+          {
+            "name": "Scorchscale Leggings",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/light/leggings/ut-scorchscale",
+            "model": "telos:material/armour/light/leggings/ut-scorchscale",
+            "rarity": "royal"
+          },
+          {
+            "name": "Tartalink",
+            "chance": 0.4,
+            "kind": "pet",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:pet/tartarus",
+            "model": "telos:material/pet/tartarus",
+            "rarity": "fabled"
+          },
+          {
+            "name": "Emberaptor",
+            "chance": 0.4,
+            "kind": "mount",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:mount/tartarus",
+            "model": "telos:material/mount/tartarus",
+            "rarity": "fabled"
+          },
+          {
+            "name": "Cinder Reach",
+            "chance": 0.0666667,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/bow/ut-cinder-shiny",
+            "rarity": "royal",
+            "model": "telos:material/weapon/bow/ut-cinder-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Scorchscale Leggings",
+            "chance": 0.0666667,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/light/leggings/ut-scorchscale-shiny",
+            "rarity": "royal",
+            "model": "telos:material/armour/light/leggings/ut-scorchscale-shiny",
+            "shiny": true
+          }
+        ],
+        "normal_drop": [
+          "T8"
+        ],
+        "bossBarHash": 1420701227
+      }
+    },
+    "Cultist's Hideout": {
+      "Silex": {
+        "drops": [
+          {
+            "name": "Royal Fragment",
+            "chance": 120.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Bloodshot Fragment",
+            "chance": 5.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Royal Fragment",
+            "chance": 3.0,
+            "kind": "fragment",
+            "from": "anyMob"
+          },
+          {
+            "name": "Soulrend Ravager",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/katana/ut-soulrend",
+            "model": "telos:material/weapon/katana/ut-soulrend",
+            "rarity": "royal"
+          },
+          {
+            "name": "Staff Of Unholy Sacrifice",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "wikiName": "Staff of Unholy Sacrifice",
+            "id": "telos:weapon/staff/ut-unholy",
+            "model": "telos:material/weapon/staff/ut-unholy",
+            "rarity": "royal"
+          },
+          {
+            "name": "Hood Of The Cultist",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "wikiName": "Cultist Hood",
+            "id": "telos:armour/magical/helmet/ut-cultist",
+            "model": "telos:material/armour/magical/helmet/ut-cultist",
+            "rarity": "royal"
+          },
+          {
+            "name": "Souls Of The Cult",
+            "chance": 0.8,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "wikiName": "Souls of the Cult",
+            "id": "telos:ability/jewel/ut-souls",
+            "model": "telos:material/ability/jewel/ut-souls",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Lil' Monk",
+            "chance": 0.2,
+            "kind": "pet",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:pet/cultists_hideout",
+            "model": "telos:material/pet/cultists_hideout",
+            "rarity": "exotic"
+          },
+          {
+            "name": "Dusk Manticultist",
+            "chance": 0.2,
+            "kind": "mount",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:mount/cultists_hideout",
+            "model": "telos:material/mount/cultists_hideout",
+            "rarity": "exotic"
+          },
+          {
+            "name": "Hood Of The Cultist",
+            "chance": 0.0666667,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "wikiName": "Cultist Hood",
+            "id": "telos:armour/magical/helmet/ut-cultist-shiny",
+            "rarity": "royal",
+            "model": "telos:material/armour/magical/helmet/ut-cultist-shiny",
+            "shiny": true
+          }
+        ],
+        "bossBarHash": -1643392642
+      }
+    },
+    "Illarius' Hideout": {
+      "Loa": {
+        "drops": [
+          {
+            "name": "Royal Fragment",
+            "chance": 120.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Royal Fragment",
+            "chance": 20.0,
+            "kind": "fragment",
+            "from": "specificMob"
+          },
+          {
+            "name": "Bloodshot Fragment",
+            "chance": 5.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Blossom Blade",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/katana/ut-blossom",
+            "model": "telos:material/weapon/katana/ut-blossom",
+            "rarity": "royal"
+          },
+          {
+            "name": "Dilapidated Scripture",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/scripture/ut-dilapidated",
+            "model": "telos:material/ability/scripture/ut-dilapidated",
+            "rarity": "royal"
+          },
+          {
+            "name": "Greatwood Greaves",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/heavy/leggings/ut-greatwood",
+            "model": "telos:material/armour/heavy/leggings/ut-greatwood",
+            "rarity": "royal"
+          },
+          {
+            "name": "Wild Wisps",
+            "chance": 1.8,
+            "kind": "item",
+            "from": "specificMob",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/jewel/ut-wisp",
+            "model": "telos:material/ability/jewel/ut-wisp",
+            "rarity": "royal"
+          },
+          {
+            "name": "Cranium Terrarium",
+            "chance": 0.8,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/skull/ut-terrarium",
+            "model": "telos:material/ability/skull/ut-terrarium",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Elder Ent",
+            "chance": 0.2,
+            "kind": "pet",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:pet/illarius_hideout",
+            "model": "telos:material/pet/illarius_hideout",
+            "rarity": "exotic"
+          },
+          {
+            "name": "Woodland Mantibane",
+            "chance": 0.2,
+            "kind": "mount",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:mount/illarius_hideout",
+            "model": "telos:material/mount/illarius_hideout",
+            "rarity": "exotic"
+          },
+          {
+            "name": "Blossom Blade",
+            "chance": 0.0666667,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/katana/ut-blossom-shiny",
+            "rarity": "royal",
+            "model": "telos:material/weapon/katana/ut-blossom-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Wild Wisps",
+            "chance": 0.06,
+            "kind": "item",
+            "from": "specificMob",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/jewel/ut-wisp-shiny",
+            "rarity": "royal",
+            "model": "telos:material/ability/jewel/ut-wisp-shiny",
+            "shiny": true
+          }
+        ],
+        "bossBarHash": -1382454635
+      }
+    },
+    "Raph's Chamber": {
+      "Dark Champion": {
+        "drops": [
+          {
+            "name": "Dark Guardian Sword",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/sword/ut-guardian",
+            "model": "telos:material/weapon/sword/ut-guardian",
+            "rarity": "royal"
+          },
+          {
+            "name": "Slow Touch Orb",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/orb/ut-slow",
+            "model": "telos:material/ability/orb/ut-slow",
+            "rarity": "royal"
+          },
+          {
+            "name": "Corrupted Chaps",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/light/leggings/ut-corrupted",
+            "model": "telos:material/armour/light/leggings/ut-corrupted",
+            "rarity": "royal"
+          }
+        ]
+      },
+      "Raphael": {
+        "drops": [
+          {
+            "name": "Royal Fragment",
+            "chance": 75.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Bloodshot Fragment",
+            "chance": 50.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Royal Fragment",
+            "chance": 20.0,
+            "kind": "fragment",
+            "from": "specificMob"
+          },
+          {
+            "name": "Royal Fragment",
+            "chance": 10.0,
+            "kind": "fragment",
+            "from": "puzzle"
+          },
+          {
+            "name": "Singed Star",
+            "chance": 2.5,
+            "kind": "item",
+            "from": "specificMob",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/star/ut-singed",
+            "model": "telos:material/ability/star/ut-singed",
+            "rarity": "royal"
+          },
+          {
+            "name": "Royal Fragment",
+            "chance": 2.0,
+            "kind": "fragment",
+            "from": "anyMob"
+          },
+          {
+            "name": "Crimson Sourcestone",
+            "chance": 1.0,
+            "kind": "material",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Exaltling",
+            "chance": 0.2,
+            "kind": "pet",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:pet/onyx",
+            "model": "telos:material/pet/onyx",
+            "rarity": "exotic"
+          },
+          {
+            "name": "Celestial Serpent",
+            "chance": 0.2,
+            "kind": "mount",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:mount/onyx",
+            "model": "telos:material/mount/onyx",
+            "rarity": "exotic"
+          },
+          {
+            "name": "Wrathguard",
+            "chance": 0.1,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "from": "each",
+            "id": "telos:armour/heavy/chestplate/ut-onyx",
+            "model": "telos:material/armour/heavy/chestplate/ut-onyx",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Retribution",
+            "chance": 0.1,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "from": "each",
+            "id": "telos:weapon/sword/ut-onyx",
+            "model": "telos:material/weapon/sword/ut-onyx",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Bloodstrider",
+            "chance": 0.1,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "from": "each",
+            "id": "telos:armour/light/leggings/ut-onyx",
+            "model": "telos:material/armour/light/leggings/ut-onyx",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Malice",
+            "chance": 0.1,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "from": "each",
+            "id": "telos:weapon/dagger/ut-onyx",
+            "model": "telos:material/weapon/dagger/ut-onyx",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Reikon",
+            "chance": 0.1,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "from": "each",
+            "id": "telos:weapon/katana/ut-onyx",
+            "model": "telos:material/weapon/katana/ut-onyx",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Rueforge",
+            "chance": 0.1,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "from": "each",
+            "id": "telos:armour/magical/boots/ut-onyx",
+            "model": "telos:material/armour/magical/boots/ut-onyx",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Martyr",
+            "chance": 0.1,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "from": "each",
+            "id": "telos:weapon/staff/ut-onyx",
+            "model": "telos:material/weapon/staff/ut-onyx",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Rapture",
+            "chance": 0.1,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "from": "each",
+            "id": "telos:weapon/bow/ut-onyx",
+            "model": "telos:material/weapon/bow/ut-onyx",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Calamity",
+            "chance": 0.1,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "from": "each",
+            "id": "telos:weapon/sceptre/ut-onyx",
+            "model": "telos:material/weapon/sceptre/ut-onyx",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Wrathguard",
+            "chance": 0.00333333,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "from": "each",
+            "id": "telos:armour/heavy/chestplate/ut-onyx-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/armour/heavy/chestplate/ut-onyx-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Retribution",
+            "chance": 0.00333333,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "from": "each",
+            "id": "telos:weapon/sword/ut-onyx-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/weapon/sword/ut-onyx-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Bloodstrider",
+            "chance": 0.00333333,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "from": "each",
+            "id": "telos:armour/light/leggings/ut-onyx-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/armour/light/leggings/ut-onyx-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Malice",
+            "chance": 0.00333333,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "from": "each",
+            "id": "telos:weapon/dagger/ut-onyx-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/weapon/dagger/ut-onyx-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Reikon",
+            "chance": 0.00333333,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "from": "each",
+            "id": "telos:weapon/katana/ut-onyx-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/weapon/katana/ut-onyx-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Rueforge",
+            "chance": 0.00333333,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "from": "each",
+            "id": "telos:armour/magical/boots/ut-onyx-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/armour/magical/boots/ut-onyx-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Martyr",
+            "chance": 0.00333333,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "from": "each",
+            "id": "telos:weapon/staff/ut-onyx-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/weapon/staff/ut-onyx-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Rapture",
+            "chance": 0.00333333,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "from": "each",
+            "id": "telos:weapon/bow/ut-onyx-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/weapon/bow/ut-onyx-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Calamity",
+            "chance": 0.00333333,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "from": "each",
+            "id": "telos:weapon/sceptre/ut-onyx-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/weapon/sceptre/ut-onyx-shiny",
+            "shiny": true
+          }
+        ],
+        "normal_drop": [
+          "T8"
+        ],
+        "bossBarHash": 254038329
+      }
+    },
+    "Rustborn Kingdom": {
+      "Valerion": {
+        "drops": [
+          {
+            "name": "Valerion's Poniard",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/dagger/ut-poniard",
+            "model": "telos:material/weapon/dagger/ut-poniard",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Valerion's Bane",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/katana/ut-bane",
+            "model": "telos:material/weapon/katana/ut-bane",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Custodian's Visor",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/light/helmet/ut-sentinel",
+            "model": "telos:material/armour/light/helmet/ut-sentinel",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Valerion's Poniard",
+            "chance": 0.02,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/dagger/ut-poniard-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/weapon/dagger/ut-poniard-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Valerion's Bane",
+            "chance": 0.02,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/katana/ut-bane-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/weapon/katana/ut-bane-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Custodian's Visor",
+            "chance": 0.02,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/light/helmet/ut-sentinel-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/armour/light/helmet/ut-sentinel-shiny",
+            "shiny": true
+          }
+        ],
+        "bossBarHash": -132746136
+      },
+      "Nebula": {
+        "drops": [
+          {
+            "name": "Nebula's Battleaxe",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/sword/ut-battleaxe",
+            "model": "telos:material/weapon/sword/ut-battleaxe",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Dusk Weaver",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/sceptre/ut-dusk",
+            "model": "telos:material/weapon/sceptre/ut-dusk",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Archon's Glare",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/magical/helmet/ut-mage",
+            "model": "telos:material/armour/magical/helmet/ut-mage",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Nebula's Battleaxe",
+            "chance": 0.02,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/sword/ut-battleaxe-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/weapon/sword/ut-battleaxe-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Dusk Weaver",
+            "chance": 0.02,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/sceptre/ut-dusk-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/weapon/sceptre/ut-dusk-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Archon's Glare",
+            "chance": 0.02,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/magical/helmet/ut-mage-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/armour/magical/helmet/ut-mage-shiny",
+            "shiny": true
+          }
+        ],
+        "bossBarHash": -829226362
+      },
+      "Ophanim": {
+        "drops": [
+          {
+            "name": "Bloodshot Fragment",
+            "chance": 120.0,
+            "kind": "fragment",
+            "part": 1
+          },
+          {
+            "name": "Bloodshot Fragment",
+            "chance": 50.0,
+            "kind": "fragment",
+            "part": 2
+          },
+          {
+            "name": "Bloodshot Fragment",
+            "chance": 33.0,
+            "kind": "fragment",
+            "part": 3
+          },
+          {
+            "name": "Bloodshot Fragment",
+            "chance": 7.5,
+            "kind": "fragment",
+            "from": "specificMob",
+            "part": 3
+          },
+          {
+            "name": "Bloodshot Fragment",
+            "chance": 5.0,
+            "kind": "fragment",
+            "from": "anyMob",
+            "part": 1
+          },
+          {
+            "name": "Bloodshot Fragment",
+            "chance": 3.0,
+            "kind": "fragment",
+            "from": "anyMob",
+            "part": 2
+          },
+          {
+            "name": "Bloodshot Fragment",
+            "chance": 3.0,
+            "kind": "fragment",
+            "from": "anyMob",
+            "part": 3
+          },
+          {
+            "name": "Final Destination",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/staff/ut-destination",
+            "model": "telos:material/weapon/staff/ut-destination",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Oracle's End",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/bow/ut-oracle",
+            "model": "telos:material/weapon/bow/ut-oracle",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Crown Of Ethereal Radiance",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "wikiName": "Crown of Ethereal Radiance",
+            "id": "telos:armour/heavy/helmet/ut-crown",
+            "model": "telos:material/armour/heavy/helmet/ut-crown",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Lumine",
+            "chance": 0.2,
+            "kind": "pet",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:pet/shatters",
+            "model": "telos:material/pet/shatters",
+            "rarity": "exotic"
+          },
+          {
+            "name": "Astralflare",
+            "chance": 0.2,
+            "kind": "mount",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:mount/shatters",
+            "model": "telos:material/mount/shatters",
+            "rarity": "exotic"
+          },
+          {
+            "name": "Chrysalis Of Light",
+            "chance": 0.08,
+            "kind": "item",
+            "from": "specificMob",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "wikiName": "Chrysalis of Light",
+            "id": "telos:armour/heavy/chestplate/ut-chrysalis",
+            "model": "telos:material/armour/heavy/chestplate/ut-chrysalis",
+            "rarity": "royal"
+          },
+          {
+            "name": "Final Destination",
+            "chance": 0.02,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/staff/ut-destination-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/weapon/staff/ut-destination-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Oracle's End",
+            "chance": 0.02,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/bow/ut-oracle-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/weapon/bow/ut-oracle-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Crown Of Ethereal Radiance",
+            "chance": 0.02,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "wikiName": "Crown of Ethereal Radiance",
+            "id": "telos:armour/heavy/helmet/ut-crown-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/armour/heavy/helmet/ut-crown-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Chrysalis Of Light",
+            "chance": 0.00266667,
+            "kind": "item",
+            "from": "specificMob",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "wikiName": "Chrysalis of Light",
+            "id": "telos:armour/heavy/chestplate/ut-chrysalis-shiny",
+            "rarity": "royal",
+            "model": "telos:material/armour/heavy/chestplate/ut-chrysalis-shiny",
+            "shiny": true
+          }
+        ],
+        "bossBarHash": -132585649
+      }
+    },
+    "Dawn Of Creation": {
+      "Valerion": {
+        "drops": [
+          {
+            "name": "Valerion's Poniard",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/dagger/ut-poniard",
+            "model": "telos:material/weapon/dagger/ut-poniard",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Valerion's Bane",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/katana/ut-bane",
+            "model": "telos:material/weapon/katana/ut-bane",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Custodian's Visor",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/light/helmet/ut-sentinel",
+            "model": "telos:material/armour/light/helmet/ut-sentinel",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Valerion's Poniard",
+            "chance": 0.02,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/dagger/ut-poniard-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/weapon/dagger/ut-poniard-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Valerion's Bane",
+            "chance": 0.02,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/katana/ut-bane-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/weapon/katana/ut-bane-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Custodian's Visor",
+            "chance": 0.02,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/light/helmet/ut-sentinel-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/armour/light/helmet/ut-sentinel-shiny",
+            "shiny": true
+          }
+        ],
+        "bossBarHash": -132746136
+      },
+      "Nebula": {
+        "drops": [
+          {
+            "name": "Nebula's Battleaxe",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/sword/ut-battleaxe",
+            "model": "telos:material/weapon/sword/ut-battleaxe",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Dusk Weaver",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/sceptre/ut-dusk",
+            "model": "telos:material/weapon/sceptre/ut-dusk",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Archon's Glare",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/magical/helmet/ut-mage",
+            "model": "telos:material/armour/magical/helmet/ut-mage",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Nebula's Battleaxe",
+            "chance": 0.02,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/sword/ut-battleaxe-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/weapon/sword/ut-battleaxe-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Dusk Weaver",
+            "chance": 0.02,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/sceptre/ut-dusk-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/weapon/sceptre/ut-dusk-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Archon's Glare",
+            "chance": 0.02,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/magical/helmet/ut-mage-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/armour/magical/helmet/ut-mage-shiny",
+            "shiny": true
+          }
+        ],
+        "bossBarHash": -829226362
+      },
+      "Ophanim": {
+        "drops": [
+          {
+            "name": "Final Destination",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/staff/ut-destination",
+            "model": "telos:material/weapon/staff/ut-destination",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Oracle's End",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/bow/ut-oracle",
+            "model": "telos:material/weapon/bow/ut-oracle",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Crown Of Ethereal Radiance",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "wikiName": "Crown of Ethereal Radiance",
+            "id": "telos:armour/heavy/helmet/ut-crown",
+            "model": "telos:material/armour/heavy/helmet/ut-crown",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Lumine",
+            "chance": 0.2,
+            "kind": "pet",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:pet/shatters",
+            "model": "telos:material/pet/shatters",
+            "rarity": "exotic"
+          },
+          {
+            "name": "Astralflare",
+            "chance": 0.2,
+            "kind": "mount",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:mount/shatters",
+            "model": "telos:material/mount/shatters",
+            "rarity": "exotic"
+          },
+          {
+            "name": "Final Destination",
+            "chance": 0.02,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/staff/ut-destination-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/weapon/staff/ut-destination-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Oracle's End",
+            "chance": 0.02,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/bow/ut-oracle-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/weapon/bow/ut-oracle-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Crown Of Ethereal Radiance",
+            "chance": 0.02,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "wikiName": "Crown of Ethereal Radiance",
+            "id": "telos:armour/heavy/helmet/ut-crown-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/armour/heavy/helmet/ut-crown-shiny",
+            "shiny": true
+          }
+        ],
+        "bossBarHash": -132585649
+      },
+      "True Ophan": {
+        "drops": [
+          {
+            "name": "Bloodshot Fragment",
+            "chance": 150.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "The Pendant of Sin",
+            "chance": 0.6,
+            "kind": "material",
+            "loot": "Unholy",
+            "lootKey": "unholy",
+            "damageThreshold": 1.0,
+            "rarity": "unholy"
+          }
+        ],
+        "bossBarHash": -132915272
+      }
+    },
+    "Aurora Sanctum": {
+      "Aetheris": {
+        "drops": [
+          {
+            "name": "Royal Fragment",
+            "chance": 120.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Bloodshot Fragment",
+            "chance": 5.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Royal Fragment",
+            "chance": 2.0,
+            "kind": "fragment",
+            "from": "anyMob"
+          },
+          {
+            "name": "Light's Pull",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/bomb/ut-light",
+            "model": "telos:material/ability/bomb/ut-light",
+            "rarity": "royal"
+          },
+          {
+            "name": "Dagger Of Dissonance",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "wikiName": "Dagger of Dissonance",
+            "id": "telos:weapon/dagger/ut-dissonance",
+            "model": "telos:material/weapon/dagger/ut-dissonance",
+            "rarity": "royal"
+          },
+          {
+            "name": "Heaven's Augmentation",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/emblem/ut-heaven",
+            "model": "telos:material/ability/emblem/ut-heaven",
+            "rarity": "royal"
+          },
+          {
+            "name": "Sun's Blessing",
+            "chance": 0.8,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/scripture/ut-blessing",
+            "model": "telos:material/ability/scripture/ut-blessing",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Radle",
+            "chance": 0.2,
+            "kind": "pet",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:pet/aurora_sanctum",
+            "model": "telos:material/pet/aurora_sanctum",
+            "rarity": "exotic"
+          },
+          {
+            "name": "Glowscale",
+            "chance": 0.2,
+            "kind": "mount",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:mount/aurora_sanctum",
+            "model": "telos:material/mount/aurora_sanctum",
+            "rarity": "exotic"
+          },
+          {
+            "name": "Heaven's Augmentation",
+            "chance": 0.0666667,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/emblem/ut-heaven-shiny",
+            "rarity": "royal",
+            "model": "telos:material/ability/emblem/ut-heaven-shiny",
+            "shiny": true
+          }
+        ],
+        "bossBarHash": -828991878
+      }
+    },
+    "Aviary": {
+      "Solarflare": {
+        "drops": [
+          {
+            "name": "Royal Fragment",
+            "chance": 120.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Bloodshot Fragment",
+            "chance": 5.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Royal Fragment",
+            "chance": 2.0,
+            "kind": "fragment",
+            "from": "anyMob"
+          },
+          {
+            "name": "Aerial Staff",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/staff/ut-aerial",
+            "model": "telos:material/weapon/staff/ut-aerial",
+            "rarity": "royal"
+          },
+          {
+            "name": "Orb Of Purity",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "wikiName": "Orb of Purity",
+            "id": "telos:ability/orb/ut-purity",
+            "model": "telos:material/ability/orb/ut-purity",
+            "rarity": "royal"
+          },
+          {
+            "name": "Phoenix Plate",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/heavy/chestplate/ut-phoenix",
+            "model": "telos:material/armour/heavy/chestplate/ut-phoenix",
+            "rarity": "royal"
+          },
+          {
+            "name": "Resurgence",
+            "chance": 0.8,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/star/ut-resurgence",
+            "model": "telos:material/ability/star/ut-resurgence",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Dragon Warrior",
+            "chance": 0.2,
+            "kind": "pet",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:pet/aviary",
+            "model": "telos:material/pet/aviary",
+            "rarity": "exotic"
+          },
+          {
+            "name": "Sunflare",
+            "chance": 0.2,
+            "kind": "mount",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:mount/aviary",
+            "model": "telos:material/mount/aviary",
+            "rarity": "exotic"
+          },
+          {
+            "name": "Orb Of Purity",
+            "chance": 0.0666667,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "wikiName": "Orb of Purity",
+            "id": "telos:ability/orb/ut-purity-shiny",
+            "rarity": "royal",
+            "model": "telos:material/ability/orb/ut-purity-shiny",
+            "shiny": true
+          }
+        ],
+        "bossBarHash": 1824190226
+      }
+    },
+    "Neo Eden": {
+      "Apostle": {
+        "drops": [
+          {
+            "name": "Se'arah",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/bow/ut-searah",
+            "model": "telos:material/weapon/bow/ut-searah",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Category Six",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/dagger/ut-six",
+            "model": "telos:material/weapon/dagger/ut-six",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Leggings Of False Glory",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "wikiName": "Leggings of False Glory",
+            "id": "telos:armour/magical/leggings/ut-glory",
+            "model": "telos:material/armour/magical/leggings/ut-glory",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Se'arah",
+            "chance": 0.02,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/bow/ut-searah-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/weapon/bow/ut-searah-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Category Six",
+            "chance": 0.02,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/dagger/ut-six-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/weapon/dagger/ut-six-shiny",
+            "shiny": true
+          }
+        ],
+        "bossBarHash": -1329808852
+      },
+      "Hierophant": {
+        "drops": [
+          {
+            "name": "Prominence",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/sword/ut-prominence",
+            "model": "telos:material/weapon/sword/ut-prominence",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Flames Of Pentecost",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "wikiName": "Flame of Pentecost",
+            "id": "telos:weapon/staff/ut-pentecost",
+            "model": "telos:material/weapon/staff/ut-pentecost",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Dauntless Inferno",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/heavy/boots/ut-inferno",
+            "model": "telos:material/armour/heavy/boots/ut-inferno",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Prominence",
+            "chance": 0.02,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/sword/ut-prominence-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/weapon/sword/ut-prominence-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Flames Of Pentecost",
+            "chance": 0.02,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "wikiName": "Flame of Pentecost",
+            "id": "telos:weapon/staff/ut-pentecost-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/weapon/staff/ut-pentecost-shiny",
+            "shiny": true
+          }
+        ],
+        "bossBarHash": -1329807891
+      },
+      "Cherubim": {
+        "drops": [
+          {
+            "name": "Bloodshot Fragment",
+            "chance": 150.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Bloodshot Fragment",
+            "chance": 110.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Bloodshot Fragment",
+            "chance": 20.0,
+            "kind": "fragment",
+            "from": "puzzle"
+          },
+          {
+            "name": "Bloodshot Fragment",
+            "chance": 5.0,
+            "kind": "fragment",
+            "from": "anyMob"
+          },
+          {
+            "name": "Serpent's Soul",
+            "chance": 0.6,
+            "kind": "item",
+            "from": "puzzle",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/light/boots/ut-serpents",
+            "model": "telos:material/armour/light/boots/ut-serpents",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Fractured Firmament",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/sceptre/ut-firmament",
+            "model": "telos:material/weapon/sceptre/ut-firmament",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Nachash Of The First Lie",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "wikiName": "Nachash of the First Lie",
+            "id": "telos:weapon/katana/ut-nachash",
+            "model": "telos:material/weapon/katana/ut-nachash",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Forbidden Fleece",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/light/chestplate/ut-forbidden",
+            "model": "telos:material/armour/light/chestplate/ut-forbidden",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Charm of Blasphemy",
+            "chance": 0.6,
+            "kind": "material",
+            "loot": "Unholy",
+            "lootKey": "unholy",
+            "damageThreshold": 1.0,
+            "rarity": "unholy"
+          },
+          {
+            "name": "Cheracube",
+            "chance": 0.2,
+            "kind": "pet",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:pet/neo_eden",
+            "model": "telos:material/pet/neo_eden",
+            "rarity": "exotic"
+          },
+          {
+            "name": "Ezekyros",
+            "chance": 0.2,
+            "kind": "mount",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:mount/neo_eden",
+            "model": "telos:material/mount/neo_eden",
+            "rarity": "exotic"
+          },
+          {
+            "name": "Serpent's Soul",
+            "chance": 0.04,
+            "kind": "item",
+            "from": "specificMob",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/light/boots/ut-serpents",
+            "model": "telos:material/armour/light/boots/ut-serpents",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Fractured Firmament",
+            "chance": 0.02,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/sceptre/ut-firmament-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/weapon/sceptre/ut-firmament-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Nachash Of The First Lie",
+            "chance": 0.02,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "wikiName": "Nachash of the First Lie",
+            "id": "telos:weapon/katana/ut-nachash-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/weapon/katana/ut-nachash-shiny",
+            "shiny": true
+          }
+        ],
+        "bossBarHash": -132588532
+      }
+    },
+    "Midnight Stronghold": {
+      "???": {
+        "drops": [
+          {
+            "name": "Royal Fragment",
+            "chance": 120.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Bloodshot Fragment",
+            "chance": 5.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Royal Fragment",
+            "chance": 2.0,
+            "kind": "fragment",
+            "from": "anyMob"
+          },
+          {
+            "name": "Hollow Sabatons",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/heavy/boots/ut-hollow",
+            "model": "telos:material/armour/heavy/boots/ut-hollow",
+            "rarity": "royal"
+          },
+          {
+            "name": "Kairos Heart",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/scripture/ut-heart",
+            "model": "telos:material/ability/scripture/ut-heart",
+            "rarity": "royal"
+          },
+          {
+            "name": "Abyssal Wraps",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/magical/leggings/ut-abyssal",
+            "model": "telos:material/armour/magical/leggings/ut-abyssal",
+            "rarity": "royal"
+          },
+          {
+            "name": "Umbrador Cap",
+            "chance": 1.3,
+            "kind": "item",
+            "from": "specificMob",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/light/helmet/ut-umbrador",
+            "model": "telos:material/armour/light/helmet/ut-umbrador",
+            "rarity": "royal"
+          },
+          {
+            "name": "Mantle Of The Last Dusk",
+            "chance": 0.8,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "wikiName": "Mantle of the Last Dusk",
+            "id": "telos:armour/magical/chestplate/ut-dusk",
+            "model": "telos:material/armour/magical/chestplate/ut-dusk",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Night Riser",
+            "chance": 0.4,
+            "kind": "pet",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:pet/midnight_stronghold",
+            "model": "telos:material/pet/midnight_stronghold",
+            "rarity": "fabled"
+          },
+          {
+            "name": "Phantommare",
+            "chance": 0.4,
+            "kind": "mount",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:mount/midnight_stronghold",
+            "model": "telos:material/mount/midnight_stronghold",
+            "rarity": "fabled"
+          },
+          {
+            "name": "Hollow Sabatons",
+            "chance": 0.0666667,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/heavy/boots/ut-hollow-shiny",
+            "rarity": "royal",
+            "model": "telos:material/armour/heavy/boots/ut-hollow-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Kairos Heart",
+            "chance": 0.0666667,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/scripture/ut-heart-shiny",
+            "rarity": "royal",
+            "model": "telos:material/ability/scripture/ut-heart-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Umbrador Cap",
+            "chance": 0.0433333,
+            "kind": "item",
+            "from": "specificMob",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/light/helmet/ut-umbrador-shiny",
+            "rarity": "royal",
+            "model": "telos:material/armour/light/helmet/ut-umbrador-shiny",
+            "shiny": true
+          }
+        ]
+      }
+    },
+    "Valley Of The Lost": {
+      "???": {
+        "drops": [
+          {
+            "name": "Bloodshot Fragment",
+            "chance": 120.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Eternal Maw",
+            "chance": 1.0,
+            "kind": "material",
+            "loot": "Voidbound",
+            "lootKey": "voidbound",
+            "damageThreshold": 1.0,
+            "rarity": "voidbound"
+          },
+          {
+            "name": "Plan B",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/star/ut-plan",
+            "model": "telos:material/ability/star/ut-plan",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "All For One",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "wikiName": "All for One",
+            "id": "telos:ability/scripture/ut-one",
+            "model": "telos:material/ability/scripture/ut-one",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Desperado",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/bomb/ut-desperado",
+            "model": "telos:material/ability/bomb/ut-desperado",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Gemalof",
+            "chance": 0.2,
+            "kind": "pet",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:pet/valley_of_the_lost",
+            "model": "telos:material/pet/valley_of_the_lost",
+            "rarity": "exotic"
+          },
+          {
+            "name": "Yamalof",
+            "chance": 0.2,
+            "kind": "mount",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:mount/valley_of_the_lost",
+            "model": "telos:material/mount/valley_of_the_lost",
+            "rarity": "exotic"
+          },
+          {
+            "name": "Plan B",
+            "chance": 0.02,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/star/ut-plan-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/ability/star/ut-plan-shiny",
+            "shiny": true
+          },
+          {
+            "name": "All For One",
+            "chance": 0.02,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "wikiName": "All for One",
+            "id": "telos:ability/scripture/ut-one-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/ability/scripture/ut-one-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Desperado",
+            "chance": 0.02,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/bomb/ut-desperado-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/ability/bomb/ut-desperado-shiny",
+            "shiny": true
+          }
+        ]
+      }
+    },
+    "Tenebris": {
+      "Voided Omnipotent": {
+        "drops": [
+          {
+            "name": "Bloodshot Fragment",
+            "chance": 120.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Fractured Nihility",
+            "chance": 1.0,
+            "kind": "material",
+            "loot": "Voidbound",
+            "lootKey": "voidbound",
+            "damageThreshold": 1.0,
+            "rarity": "voidbound"
+          },
+          {
+            "name": "Event Horizon",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/orb/ut-horizon",
+            "model": "telos:material/ability/orb/ut-horizon",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Oblivion's Reach",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/emblem/ut-oblivion",
+            "model": "telos:material/ability/emblem/ut-oblivion",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Shadow Silk",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/magical/leggings/ut-shadow",
+            "model": "telos:material/armour/magical/leggings/ut-shadow",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Shadow Chirp",
+            "chance": 0.2,
+            "kind": "pet",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:pet/tenebris",
+            "model": "telos:material/pet/tenebris",
+            "rarity": "exotic"
+          },
+          {
+            "name": "Dreadspire Drake",
+            "chance": 0.2,
+            "kind": "mount",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:mount/tenebris",
+            "model": "telos:material/mount/tenebris",
+            "rarity": "exotic"
+          },
+          {
+            "name": "Event Horizon",
+            "chance": 0.02,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/orb/ut-horizon-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/ability/orb/ut-horizon-shiny",
+            "shiny": true
+          }
+        ],
+        "bossBarHash": -1253581965
+      }
+    },
+    "Dreadwood Thicket": {
+      "Sylvaris": {
+        "drops": [
+          {
+            "name": "Bloodshot Fragment",
+            "chance": 50.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Royal Fragment",
+            "chance": 50.0,
+            "kind": "fragment",
+            "from": "puzzle"
+          },
+          {
+            "name": "Bloodshot Fragment",
+            "chance": 2.0,
+            "kind": "fragment",
+            "from": "anyMob"
+          },
+          {
+            "name": "Decaying Sollerets",
+            "chance": 2.0,
+            "kind": "item",
+            "from": "puzzle",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/heavy/boots/ut-decaying",
+            "model": "telos:material/armour/heavy/boots/ut-decaying",
+            "rarity": "royal"
+          },
+          {
+            "name": "Usnea",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/skull/ut-usnea",
+            "model": "telos:material/ability/skull/ut-usnea",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Nature's Gift",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/light/boots/ut-nature",
+            "model": "telos:material/armour/light/boots/ut-nature",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Spiritbloom Gown",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/magical/chestplate/ut-spiritbloom",
+            "model": "telos:material/armour/magical/chestplate/ut-spiritbloom",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Mosslight",
+            "chance": 0.2,
+            "kind": "pet",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:pet/dreadwood_thicket",
+            "model": "telos:material/pet/dreadwood_thicket",
+            "rarity": "exotic"
+          },
+          {
+            "name": "Vinegleam",
+            "chance": 0.2,
+            "kind": "mount",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:mount/dreadwood_thicket",
+            "model": "telos:material/mount/dreadwood_thicket",
+            "rarity": "exotic"
+          },
+          {
+            "name": "Usnea",
+            "chance": 0.02,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/skull/ut-usnea-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/ability/skull/ut-usnea-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Nature's Gift",
+            "chance": 0.02,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/light/boots/ut-nature-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/armour/light/boots/ut-nature-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Spiritbloom Gown",
+            "chance": 0.02,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/magical/chestplate/ut-spiritbloom-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/armour/magical/chestplate/ut-spiritbloom-shiny",
+            "shiny": true
+          }
+        ],
+        "bossBarHash": 230903377
+      }
+    },
+    "Resounding Ruins": {
+      "Unrest": {
+        "drops": [
+          {
+            "name": "Bloodshot Fragment",
+            "chance": 50.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Royal Fragment",
+            "chance": 15.0,
+            "kind": "fragment",
+            "from": "specificMob"
+          },
+          {
+            "name": "Bloodshot Fragment",
+            "chance": 2.0,
+            "kind": "fragment",
+            "from": "anyMob"
+          },
+          {
+            "name": "Sonic Doom",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/sword/ut-doom",
+            "model": "telos:material/weapon/sword/ut-doom",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Echolurkator",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/staff/ut-echo",
+            "model": "telos:material/weapon/staff/ut-echo",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Spinestone",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/jewel/ut-spinestone",
+            "model": "telos:material/ability/jewel/ut-spinestone",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Legion",
+            "chance": 0.2,
+            "kind": "pet",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:pet/resounding_ruins",
+            "model": "telos:material/pet/resounding_ruins",
+            "rarity": "exotic"
+          },
+          {
+            "name": "Echoraptor",
+            "chance": 0.2,
+            "kind": "mount",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:mount/resounding_ruins",
+            "model": "telos:material/mount/resounding_ruins",
+            "rarity": "exotic"
+          },
+          {
+            "name": "Spinestone",
+            "chance": 0.02,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/jewel/ut-spinestone-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/ability/jewel/ut-spinestone-shiny",
+            "shiny": true
+          }
+        ],
+        "bossBarHash": 1301379752
+      }
+    },
+    "Celestial's Province": {
+      "Asmodeus": {
+        "drops": [
+          {
+            "name": "Visage Of The Night",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "wikiName": "Visage of the Night",
+            "id": "telos:ability/emblem/ut-visage",
+            "model": "telos:material/ability/emblem/ut-visage",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Baphomet's Bomb",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/bomb/ut-baphomet",
+            "model": "telos:material/ability/bomb/ut-baphomet",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Blood Of The Heretics",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "wikiName": "Blood of the Heretics",
+            "id": "telos:ability/poison/ut-heretics",
+            "model": "telos:material/ability/poison/ut-heretics",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Visage Of The Night",
+            "chance": 0.02,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "wikiName": "Visage of the Night",
+            "id": "telos:ability/emblem/ut-visage-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/ability/emblem/ut-visage-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Baphomet's Bomb",
+            "chance": 0.02,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/bomb/ut-baphomet-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/ability/bomb/ut-baphomet-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Blood Of The Heretics",
+            "chance": 0.02,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "wikiName": "Blood of the Heretics",
+            "id": "telos:ability/poison/ut-heretics-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/ability/poison/ut-heretics-shiny",
+            "shiny": true
+          }
+        ],
+        "bossBarHash": -1622067598
+      },
+      "Seraphim": {
+        "drops": [
+          {
+            "name": "Bloodshot Fragment",
+            "chance": 120.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Bloodshot Fragment",
+            "chance": 50.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Bloodshot Fragment",
+            "chance": 10.0,
+            "kind": "fragment",
+            "from": "anyMob"
+          },
+          {
+            "name": "Feathers Of The Seraph",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "wikiName": "Feathers of the Seraph",
+            "id": "telos:ability/kunai/ut-feathers",
+            "model": "telos:material/ability/kunai/ut-feathers",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Seraph's Essence",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/orb/ut-essence",
+            "model": "telos:material/ability/orb/ut-essence",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Empyrean Epitome",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/skull/ut-epitome",
+            "model": "telos:material/ability/skull/ut-epitome",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Repentance",
+            "chance": 0.25,
+            "kind": "item",
+            "from": "anyMob",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/magical/boots/ut-repentance",
+            "model": "telos:material/armour/magical/boots/ut-repentance",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Thanatos",
+            "chance": 0.2,
+            "kind": "pet",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:pet/celestials_province",
+            "model": "telos:material/pet/celestials_province",
+            "rarity": "exotic"
+          },
+          {
+            "name": "Seraphix",
+            "chance": 0.2,
+            "kind": "mount",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:mount/celestials_province",
+            "model": "telos:material/mount/celestials_province",
+            "rarity": "exotic"
+          },
+          {
+            "name": "Feathers Of The Seraph",
+            "chance": 0.02,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "wikiName": "Feathers of the Seraph",
+            "id": "telos:ability/kunai/ut-feathers-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/ability/kunai/ut-feathers-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Seraph's Essence",
+            "chance": 0.02,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/orb/ut-essence-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/ability/orb/ut-essence-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Empyrean Epitome",
+            "chance": 0.02,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/skull/ut-epitome-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/ability/skull/ut-epitome-shiny",
+            "shiny": true
+          }
+        ],
+        "bossBarHash": -1643406096
+      }
+    },
+    "Seraph's Domain": {
+      "Asmodeus": {
+        "drops": [
+          {
+            "name": "Visage Of The Night",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "wikiName": "Visage of the Night",
+            "id": "telos:ability/emblem/ut-visage",
+            "model": "telos:material/ability/emblem/ut-visage",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Baphomet's Bomb",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/bomb/ut-baphomet",
+            "model": "telos:material/ability/bomb/ut-baphomet",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Blood Of The Heretics",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "wikiName": "Blood of the Heretics",
+            "id": "telos:ability/poison/ut-heretics",
+            "model": "telos:material/ability/poison/ut-heretics",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Visage Of The Night",
+            "chance": 0.02,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "wikiName": "Visage of the Night",
+            "id": "telos:ability/emblem/ut-visage-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/ability/emblem/ut-visage-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Baphomet's Bomb",
+            "chance": 0.02,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/bomb/ut-baphomet-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/ability/bomb/ut-baphomet-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Blood Of The Heretics",
+            "chance": 0.02,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "wikiName": "Blood of the Heretics",
+            "id": "telos:ability/poison/ut-heretics-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/ability/poison/ut-heretics-shiny",
+            "shiny": true
+          }
+        ],
+        "bossBarHash": -1622067598
+      },
+      "Seraphim": {
+        "drops": [
+          {
+            "name": "Feathers Of The Seraph",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "wikiName": "Feathers of the Seraph",
+            "id": "telos:ability/kunai/ut-feathers",
+            "model": "telos:material/ability/kunai/ut-feathers",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Seraph's Essence",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/orb/ut-essence",
+            "model": "telos:material/ability/orb/ut-essence",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Empyrean Epitome",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/skull/ut-epitome",
+            "model": "telos:material/ability/skull/ut-epitome",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Thanatos",
+            "chance": 0.2,
+            "kind": "pet",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:pet/celestials_province",
+            "model": "telos:material/pet/celestials_province",
+            "rarity": "exotic"
+          },
+          {
+            "name": "Seraphix",
+            "chance": 0.2,
+            "kind": "mount",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "id": "telos:mount/celestials_province",
+            "model": "telos:material/mount/celestials_province",
+            "rarity": "exotic"
+          },
+          {
+            "name": "Feathers Of The Seraph",
+            "chance": 0.02,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "wikiName": "Feathers of the Seraph",
+            "id": "telos:ability/kunai/ut-feathers-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/ability/kunai/ut-feathers-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Seraph's Essence",
+            "chance": 0.02,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/orb/ut-essence-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/ability/orb/ut-essence-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Empyrean Epitome",
+            "chance": 0.02,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/skull/ut-epitome-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/ability/skull/ut-epitome-shiny",
+            "shiny": true
+          }
+        ],
+        "bossBarHash": -1643406096
+      },
+      "True Seraph": {
+        "drops": [
+          {
+            "name": "Bloodshot Fragment",
+            "chance": 150.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "The Holy Cross",
+            "chance": 0.6,
+            "kind": "material",
+            "loot": "Unholy",
+            "lootKey": "unholy",
+            "damageThreshold": 1.0,
+            "rarity": "unholy"
+          }
+        ],
+        "bossBarHash": -1643245609
+      }
+    },
+    "Realm": {
+      "Brakk": {
+        "drops": [
+          {
+            "name": "Irradiated Fragment",
+            "chance": 120.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Krakatoa",
+            "chance": 33.0,
+            "kind": "item",
+            "loot": "Irradiated",
+            "lootKey": "irradiated",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/bomb/ut-krakatoa",
+            "model": "telos:material/ability/bomb/ut-krakatoa",
+            "rarity": "irradiated"
+          },
+          {
+            "name": "Diver's Plating",
+            "chance": 33.0,
+            "kind": "item",
+            "loot": "Irradiated",
+            "lootKey": "irradiated",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/heavy/chestplate/ut-diver",
+            "model": "telos:material/armour/heavy/chestplate/ut-diver",
+            "rarity": "irradiated"
+          },
+          {
+            "name": "Krakatoa",
+            "chance": 0.66,
+            "kind": "item",
+            "loot": "Irradiated",
+            "lootKey": "irradiated",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/bomb/ut-krakatoa-shiny",
+            "rarity": "irradiated",
+            "model": "telos:material/ability/bomb/ut-krakatoa-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Diver's Plating",
+            "chance": 0.66,
+            "kind": "item",
+            "loot": "Irradiated",
+            "lootKey": "irradiated",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/heavy/chestplate/ut-diver-shiny",
+            "rarity": "irradiated",
+            "model": "telos:material/armour/heavy/chestplate/ut-diver-shiny",
+            "shiny": true
+          }
+        ],
+        "normal_drop": [
+          "T3",
+          "T4"
+        ]
+      },
+      "Grimleaf": {
+        "drops": [
+          {
+            "name": "Irradiated Fragment",
+            "chance": 120.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Leafal Star",
+            "chance": 33.0,
+            "kind": "material",
+            "loot": "Irradiated",
+            "lootKey": "irradiated",
+            "damageThreshold": 1.0,
+            "rarity": "irradiated"
+          },
+          {
+            "name": "Rooted Identity",
+            "chance": 33.0,
+            "kind": "item",
+            "loot": "Irradiated",
+            "lootKey": "irradiated",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/light/helmet/ut-rooted",
+            "model": "telos:material/armour/light/helmet/ut-rooted",
+            "rarity": "irradiated"
+          }
+        ],
+        "normal_drop": [
+          "T4"
+        ]
+      },
+      "Hellmesh": {
+        "drops": [
+          {
+            "name": "Gilded Fragment",
+            "chance": 33.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Chain Combustion",
+            "chance": 10.0,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/sword/ut-chain",
+            "model": "telos:material/weapon/sword/ut-chain",
+            "rarity": "gilded"
+          },
+          {
+            "name": "Star Striker's",
+            "chance": 10.0,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "wikiName": "Star Strikers",
+            "id": "telos:armour/magical/boots/ut-star",
+            "model": "telos:material/armour/magical/boots/ut-star",
+            "rarity": "gilded"
+          }
+        ],
+        "normal_drop": [
+          "T7"
+        ]
+      },
+      "Nocs": {
+        "drops": [
+          {
+            "name": "Gilded Fragment",
+            "chance": 33.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Icy Grasp",
+            "chance": 10.0,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/katana/ut-grasp",
+            "model": "telos:material/weapon/katana/ut-grasp",
+            "rarity": "gilded"
+          },
+          {
+            "name": "Frozen Bearhide",
+            "chance": 10.0,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/light/chestplate/ut-bearhide",
+            "model": "telos:material/armour/light/chestplate/ut-bearhide",
+            "rarity": "gilded"
+          }
+        ],
+        "normal_drop": [
+          "T7"
+        ]
+      },
+      "Gravesbane": {
+        "drops": [
+          {
+            "name": "Gilded Fragment",
+            "chance": 33.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Gravedigger's Shovel",
+            "chance": 10.0,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/dagger/ut-gravedigger",
+            "model": "telos:material/weapon/dagger/ut-gravedigger",
+            "rarity": "gilded"
+          },
+          {
+            "name": "Spiker's Greaves",
+            "chance": 10.0,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/heavy/leggings/ut-spiker",
+            "model": "telos:material/armour/heavy/leggings/ut-spiker",
+            "rarity": "gilded"
+          },
+          {
+            "name": "Spiker's Greaves",
+            "chance": 0.25,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/heavy/leggings/ut-spiker-shiny",
+            "rarity": "gilded",
+            "model": "telos:material/armour/heavy/leggings/ut-spiker-shiny",
+            "shiny": true
+          }
+        ],
+        "normal_drop": [
+          "T7"
+        ]
+      },
+      "Chungus": {
+        "drops": [
+          {
+            "name": "Gilded Fragment",
+            "chance": 50.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Royal Fragment",
+            "chance": 10.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Carrot On A Stick",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "wikiName": "Carrot on a Stick",
+            "id": "telos:weapon/katana/ut-carrot",
+            "model": "telos:material/weapon/katana/ut-carrot",
+            "rarity": "royal"
+          },
+          {
+            "name": "Spring Seasoned Skull",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/skull/ut-spring",
+            "model": "telos:material/ability/skull/ut-spring",
+            "rarity": "royal"
+          },
+          {
+            "name": "Trap Of Eggsellence",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "wikiName": "Trap of Eggsellence",
+            "id": "telos:ability/trap/ut-eggsellence",
+            "model": "telos:material/ability/trap/ut-eggsellence",
+            "rarity": "royal"
+          }
+        ],
+        "normal_drop": [
+          "T7",
+          "T8"
+        ],
+        "bossBarHash": -168181711
+      },
+      "Illarius": {
+        "drops": [
+          {
+            "name": "Gilded Fragment",
+            "chance": 50.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Royal Fragment",
+            "chance": 10.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Bow Of The Forest",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "wikiName": "Bow of the Forest",
+            "id": "telos:weapon/bow/ut-forest",
+            "model": "telos:material/weapon/bow/ut-forest",
+            "rarity": "royal"
+          },
+          {
+            "name": "Branch Of Yggdrasil",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "wikiName": "Branch of Yggdrasil",
+            "id": "telos:weapon/sceptre/ut-branch",
+            "model": "telos:material/weapon/sceptre/ut-branch",
+            "rarity": "royal"
+          },
+          {
+            "name": "Cursed Brigadine",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/light/chestplate/ut-brigadine",
+            "model": "telos:material/armour/light/chestplate/ut-brigadine",
+            "rarity": "royal"
+          },
+          {
+            "name": "Bow Of The Forest",
+            "chance": 0.0666667,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "wikiName": "Bow of the Forest",
+            "id": "telos:weapon/bow/ut-forest-shiny",
+            "rarity": "royal",
+            "model": "telos:material/weapon/bow/ut-forest-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Cursed Brigadine",
+            "chance": 0.0666667,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/light/chestplate/ut-brigadine-shiny",
+            "rarity": "royal",
+            "model": "telos:material/armour/light/chestplate/ut-brigadine-shiny",
+            "shiny": true
+          }
+        ],
+        "normal_drop": [
+          "T7",
+          "T8"
+        ],
+        "bossBarHash": 1368623635
+      },
+      "Astaroth": {
+        "drops": [
+          {
+            "name": "Gilded Fragment",
+            "chance": 50.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Royal Fragment",
+            "chance": 10.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Dirk Of Conflict",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "wikiName": "Dirk of Conflict",
+            "id": "telos:weapon/dagger/ut-conflict",
+            "model": "telos:material/weapon/dagger/ut-conflict",
+            "rarity": "royal"
+          },
+          {
+            "name": "Orb Of Conflict",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "wikiName": "Orb of Conflict",
+            "id": "telos:ability/orb/ut-conflict",
+            "model": "telos:material/ability/orb/ut-conflict",
+            "rarity": "royal"
+          },
+          {
+            "name": "Kunai Of Conflict",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "wikiName": "Kunai of Conflict",
+            "id": "telos:ability/kunai/ut-conflict",
+            "model": "telos:material/ability/kunai/ut-conflict",
+            "rarity": "royal"
+          },
+          {
+            "name": "Dirk Of Conflict",
+            "chance": 0.0666667,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "wikiName": "Dirk of Conflict",
+            "id": "telos:weapon/dagger/ut-conflict-shiny",
+            "rarity": "royal",
+            "model": "telos:material/weapon/dagger/ut-conflict-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Orb Of Conflict",
+            "chance": 0.0666667,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "wikiName": "Orb of Conflict",
+            "id": "telos:ability/orb/ut-conflict-shiny",
+            "rarity": "royal",
+            "model": "telos:material/ability/orb/ut-conflict-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Kunai Of Conflict",
+            "chance": 0.0666667,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "wikiName": "Kunai of Conflict",
+            "id": "telos:ability/kunai/ut-conflict-shiny",
+            "rarity": "royal",
+            "model": "telos:material/ability/kunai/ut-conflict-shiny",
+            "shiny": true
+          }
+        ],
+        "normal_drop": [
+          "T7",
+          "T8"
+        ],
+        "bossBarHash": -1253632898
+      },
+      "Glumi": {
+        "drops": [
+          {
+            "name": "Gilded Fragment",
+            "chance": 50.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Royal Fragment",
+            "chance": 10.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Crystal Poison",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/poison/ut-crystal",
+            "model": "telos:material/ability/poison/ut-crystal",
+            "rarity": "royal"
+          },
+          {
+            "name": "Crystal Kunai",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/kunai/ut-crystal",
+            "model": "telos:material/ability/kunai/ut-crystal",
+            "rarity": "royal"
+          },
+          {
+            "name": "Crystal Gumboots",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/light/boots/ut-gumboots",
+            "model": "telos:material/armour/light/boots/ut-gumboots",
+            "rarity": "royal"
+          },
+          {
+            "name": "Crystal Poison",
+            "chance": 0.0666667,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/poison/ut-crystal-shiny",
+            "rarity": "royal",
+            "model": "telos:material/ability/poison/ut-crystal-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Crystal Kunai",
+            "chance": 0.0666667,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/kunai/ut-crystal-shiny",
+            "rarity": "royal",
+            "model": "telos:material/ability/kunai/ut-crystal-shiny",
+            "shiny": true
+          }
+        ],
+        "normal_drop": [
+          "T7",
+          "T8"
+        ],
+        "bar": "𖁘",
+        "bossBarHash": -168176906,
+        "model": "modelengine:panda_glume"
+      },
+      "Lotil": {
+        "drops": [
+          {
+            "name": "Gilded Fragment",
+            "chance": 50.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Royal Fragment",
+            "chance": 10.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Shield Of Ogmur",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "wikiName": "Shield of Ogmur",
+            "id": "telos:ability/shield/ut-ogmur",
+            "model": "telos:material/ability/shield/ut-ogmur",
+            "rarity": "royal"
+          },
+          {
+            "name": "Cloak Of The Warlord",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "wikiName": "Cloak of the Warlord",
+            "id": "telos:ability/cloak/ut-warlord",
+            "model": "telos:material/ability/cloak/ut-warlord",
+            "rarity": "royal"
+          },
+          {
+            "name": "Star Of Validation",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "wikiName": "Star of Validation",
+            "id": "telos:ability/star/ut-validation",
+            "model": "telos:material/ability/star/ut-validation",
+            "rarity": "royal"
+          },
+          {
+            "name": "Cloak Of The Warlord",
+            "chance": 0.0666667,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "wikiName": "Cloak of the Warlord",
+            "id": "telos:ability/cloak/ut-warlord-shiny",
+            "rarity": "royal",
+            "model": "telos:material/ability/cloak/ut-warlord-shiny",
+            "shiny": true
+          }
+        ],
+        "normal_drop": [
+          "T7",
+          "T8"
+        ],
+        "bossBarHash": -1254008649
+      },
+      "Tidol": {
+        "drops": [
+          {
+            "name": "Gilded Fragment",
+            "chance": 50.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Royal Fragment",
+            "chance": 10.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Emblem Of The Juggernaut",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "wikiName": "Emblem of the Juggernaut",
+            "id": "telos:ability/emblem/ut-juggernaut",
+            "model": "telos:material/ability/emblem/ut-juggernaut",
+            "rarity": "royal"
+          },
+          {
+            "name": "Chief's Crown",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/magical/helmet/ut-chief",
+            "model": "telos:material/armour/magical/helmet/ut-chief",
+            "rarity": "royal"
+          },
+          {
+            "name": "Greaves Of The Juggernaut",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "wikiName": "Greaves of the Juggernaut",
+            "id": "telos:armour/heavy/leggings/ut-crayfish",
+            "model": "telos:material/armour/heavy/leggings/ut-crayfish",
+            "rarity": "royal"
+          },
+          {
+            "name": "Chief's Crown",
+            "chance": 0.0666667,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/magical/helmet/ut-chief-shiny",
+            "rarity": "royal",
+            "model": "telos:material/armour/magical/helmet/ut-chief-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Greaves Of The Juggernaut",
+            "chance": 0.0666667,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "wikiName": "Greaves of the Juggernaut",
+            "id": "telos:armour/heavy/leggings/ut-crayfish-shiny",
+            "rarity": "royal",
+            "model": "telos:material/armour/heavy/leggings/ut-crayfish-shiny",
+            "shiny": true
+          }
+        ],
+        "normal_drop": [
+          "T7",
+          "T8"
+        ],
+        "bossBarHash": 1368934038
+      },
+      "Valus": {
+        "drops": [
+          {
+            "name": "Gilded Fragment",
+            "chance": 50.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Royal Fragment",
+            "chance": 10.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Ghastly Howl",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/sword/ut-howl",
+            "model": "telos:material/weapon/sword/ut-howl",
+            "rarity": "royal"
+          },
+          {
+            "name": "Cloak Of Bloody Surprises",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "wikiName": "Cloak of Bloody Surprises",
+            "id": "telos:ability/cloak/ut-bloody",
+            "model": "telos:material/ability/cloak/ut-bloody",
+            "rarity": "royal"
+          },
+          {
+            "name": "Spooky Sandals",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/light/boots/ut-spooky",
+            "model": "telos:material/armour/light/boots/ut-spooky",
+            "rarity": "royal"
+          }
+        ],
+        "normal_drop": [
+          "T7",
+          "T8"
+        ],
+        "bossBarHash": -1622056066
+      },
+      "Anubis": {
+        "drops": [
+          {
+            "name": "Gilded Fragment",
+            "chance": 50.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Royal Fragment",
+            "chance": 10.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Anubis Staff",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/staff/ut-anubis",
+            "model": "telos:material/weapon/staff/ut-anubis",
+            "rarity": "royal"
+          },
+          {
+            "name": "Jewel Of The Nile",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "wikiName": "Jewel of the Nile",
+            "id": "telos:ability/jewel/ut-nile",
+            "model": "telos:material/ability/jewel/ut-nile",
+            "rarity": "royal"
+          },
+          {
+            "name": "Face Of The Hound",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "wikiName": "Face of the Hound",
+            "id": "telos:armour/heavy/helmet/ut-hound",
+            "model": "telos:material/armour/heavy/helmet/ut-hound",
+            "rarity": "royal"
+          }
+        ],
+        "normal_drop": [
+          "T7",
+          "T8"
+        ],
+        "bossBarHash": -342545608
+      },
+      "Hollowbane": {
+        "drops": [
+          {
+            "name": "Gilded Fragment",
+            "chance": 50.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Royal Fragment",
+            "chance": 10.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Dreadsnatcher",
+            "chance": 0.2,
+            "kind": "mountSkin",
+            "loot": "Companion",
+            "lootKey": "companion",
+            "damageThreshold": 1.0,
+            "wikiName": "Dreadsnatcher Mount Skin",
+            "id": "telos:mount/dreadsnatcher",
+            "model": "telos:material/mount/dreadsnatcher"
+          },
+          {
+            "name": "All Halloween Items",
+            "chance": 0.1,
+            "kind": "item",
+            "each": true
+          }
+        ],
+        "normal_drop": [
+          "T7",
+          "T8"
+        ],
+        "bossBarHash": -1240191621
+      },
+      "Luna": {
+        "drops": [
+          {
+            "name": "Gilded Fragment",
+            "chance": 50.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Lunar Hood",
+            "chance": 10.0,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/magical/helmet/ut-lunar",
+            "model": "telos:material/armour/magical/helmet/ut-lunar",
+            "rarity": "gilded"
+          },
+          {
+            "name": "Jewel Of The Aether",
+            "chance": 10.0,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "wikiName": "Jewel of the Aether",
+            "id": "telos:ability/jewel/ut-aether",
+            "model": "telos:material/ability/jewel/ut-aether",
+            "rarity": "gilded"
+          },
+          {
+            "name": "Royal Fragment",
+            "chance": 7.5,
+            "kind": "fragment"
+          },
+          {
+            "name": "Jewel Of The Aether",
+            "chance": 0.25,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "wikiName": "Jewel of the Aether",
+            "id": "telos:ability/jewel/ut-aether-shiny",
+            "rarity": "gilded",
+            "model": "telos:material/ability/jewel/ut-aether-shiny",
+            "shiny": true
+          }
+        ]
+      },
+      "Aurehog": {
+        "drops": [
+          {
+            "name": "Gilded Fragment",
+            "chance": 50.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Soulfire Sandals",
+            "chance": 10.0,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/light/boots/ut-soulfire",
+            "model": "telos:material/armour/light/boots/ut-soulfire",
+            "rarity": "gilded"
+          },
+          {
+            "name": "Star Of Shimmering Light",
+            "chance": 10.0,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "wikiName": "Star of Shimmering Light",
+            "id": "telos:ability/star/ut-light",
+            "model": "telos:material/ability/star/ut-light",
+            "rarity": "gilded"
+          },
+          {
+            "name": "Royal Fragment",
+            "chance": 7.5,
+            "kind": "fragment"
+          },
+          {
+            "name": "Soulfire Sandals",
+            "chance": 0.25,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/light/boots/ut-soulfire-shiny",
+            "rarity": "gilded",
+            "model": "telos:material/armour/light/boots/ut-soulfire-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Star Of Shimmering Light",
+            "chance": 0.25,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "wikiName": "Star of Shimmering Light",
+            "id": "telos:ability/star/ut-light-shiny",
+            "rarity": "gilded",
+            "model": "telos:material/ability/star/ut-light-shiny",
+            "shiny": true
+          }
+        ]
+      },
+      "Cog Sentinel": {
+        "drops": [
+          {
+            "name": "Gilded Fragment",
+            "chance": 50.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Royal Fragment",
+            "chance": 10.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Engineer's Blueprint",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/skull/ut-engineer",
+            "model": "telos:material/ability/skull/ut-engineer",
+            "rarity": "royal"
+          },
+          {
+            "name": "Cogwheel Shield",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/shield/ut-cogwheel",
+            "model": "telos:material/ability/shield/ut-cogwheel",
+            "rarity": "royal"
+          },
+          {
+            "name": "Master's Key",
+            "chance": 0.8,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/kunai/ut-key",
+            "model": "telos:material/ability/kunai/ut-key",
+            "rarity": "bloodshot"
+          }
+        ],
+        "bossBarHash": -1370503157
+      },
+      "Oozul": {
+        "drops": [
+          {
+            "name": "Gilded Fragment",
+            "chance": 50.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Skull Shaped Slime",
+            "chance": 10.0,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/skull/ut-slime",
+            "model": "telos:material/ability/skull/ut-slime",
+            "rarity": "gilded"
+          },
+          {
+            "name": "Sacrificial Vow",
+            "chance": 10.0,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/heavy/helmet/ut-vow",
+            "model": "telos:material/armour/heavy/helmet/ut-vow",
+            "rarity": "gilded"
+          },
+          {
+            "name": "Royal Fragment",
+            "chance": 7.5,
+            "kind": "fragment"
+          },
+          {
+            "name": "Sacrificial Vow",
+            "chance": 0.25,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/heavy/helmet/ut-vow-shiny",
+            "rarity": "gilded",
+            "model": "telos:material/armour/heavy/helmet/ut-vow-shiny",
+            "shiny": true
+          }
+        ],
+        "bossBarHash": -1907114029
+      },
+      "Vudu": {
+        "drops": [
+          {
+            "name": "Gilded Fragment",
+            "chance": 50.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Sharp Pain",
+            "chance": 10.0,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/staff/ut-sharp",
+            "model": "telos:material/weapon/staff/ut-sharp",
+            "rarity": "gilded"
+          },
+          {
+            "name": "Screech Of Silence",
+            "chance": 10.0,
+            "kind": "item",
+            "loot": "Gilded",
+            "lootKey": "gilded",
+            "damageThreshold": 1.0,
+            "wikiName": "Screech of Silence",
+            "id": "telos:weapon/sceptre/ut-silence",
+            "model": "telos:material/weapon/sceptre/ut-silence",
+            "rarity": "gilded"
+          },
+          {
+            "name": "Royal Fragment",
+            "chance": 7.5,
+            "kind": "fragment"
+          }
+        ]
+      },
+      "Warden": {
+        "drops": [
+          {
+            "name": "Royal Fragment",
+            "chance": 50.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Bloodshot Fragment",
+            "chance": 5.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Warden's Faceguard",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/heavy/helmet/ut-faceguard",
+            "model": "telos:material/armour/heavy/helmet/ut-faceguard",
+            "rarity": "royal"
+          },
+          {
+            "name": "Warden's Garment",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/magical/chestplate/ut-garment",
+            "model": "telos:material/armour/magical/chestplate/ut-garment",
+            "rarity": "royal"
+          },
+          {
+            "name": "Dawnbringer",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/katana/ut-dawnbringer",
+            "model": "telos:material/weapon/katana/ut-dawnbringer",
+            "rarity": "bloodshot"
+          }
+        ],
+        "bossBarHash": -1370656917
+      },
+      "Herald": {
+        "drops": [
+          {
+            "name": "Royal Fragment",
+            "chance": 50.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Bloodshot Fragment",
+            "chance": 5.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Heraldic Heelguards",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/heavy/boots/ut-heelguards",
+            "model": "telos:material/armour/heavy/boots/ut-heelguards",
+            "rarity": "royal"
+          },
+          {
+            "name": "Luminous Flame",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:weapon/sceptre/ut-luminous",
+            "model": "telos:material/weapon/sceptre/ut-luminous",
+            "rarity": "royal"
+          },
+          {
+            "name": "Last Stand",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/trap/ut-last",
+            "model": "telos:material/ability/trap/ut-last",
+            "rarity": "bloodshot"
+          }
+        ],
+        "bossBarHash": -1370655956
+      },
+      "Reaper": {
+        "drops": [
+          {
+            "name": "Royal Fragment",
+            "chance": 50.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Bloodshot Fragment",
+            "chance": 5.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Soulless Shoes",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/magical/boots/ut-soulless",
+            "model": "telos:material/armour/magical/boots/ut-soulless",
+            "rarity": "royal"
+          },
+          {
+            "name": "Chalice Of Rot",
+            "chance": 2.0,
+            "kind": "item",
+            "loot": "Royal",
+            "lootKey": "royal",
+            "damageThreshold": 1.0,
+            "wikiName": "Chalice of Rot",
+            "id": "telos:ability/poison/ut-rot",
+            "model": "telos:material/ability/poison/ut-rot",
+            "rarity": "royal"
+          },
+          {
+            "name": "Reaper's Vest",
+            "chance": 0.6,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/light/chestplate/ut-reaper",
+            "model": "telos:material/armour/light/chestplate/ut-reaper",
+            "rarity": "bloodshot"
+          }
+        ],
+        "bossBarHash": -1370654995
+      },
+      "Defender": {
+        "drops": [
+          {
+            "name": "Bloodshot Fragment",
+            "chance": 20.0,
+            "kind": "fragment"
+          },
+          {
+            "name": "Shrouded Shield",
+            "chance": 0.8,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/shield/ut-shrouded",
+            "model": "telos:material/ability/shield/ut-shrouded",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Phantasmic Greaves",
+            "chance": 0.8,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/heavy/leggings/ut-phantasmic",
+            "model": "telos:material/armour/heavy/leggings/ut-phantasmic",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Afterburner",
+            "chance": 0.8,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/cloak/ut-fire",
+            "model": "telos:material/ability/cloak/ut-fire",
+            "rarity": "bloodshot"
+          },
+          {
+            "name": "Shrouded Shield",
+            "chance": 0.0266667,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/shield/ut-shrouded-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/ability/shield/ut-shrouded-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Phantasmic Greaves",
+            "chance": 0.0266667,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:armour/heavy/leggings/ut-phantasmic-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/armour/heavy/leggings/ut-phantasmic-shiny",
+            "shiny": true
+          },
+          {
+            "name": "Afterburner",
+            "chance": 0.0266667,
+            "kind": "item",
+            "loot": "Bloodshot",
+            "lootKey": "bloodshot",
+            "damageThreshold": 1.0,
+            "id": "telos:ability/cloak/ut-fire-shiny",
+            "rarity": "bloodshot",
+            "model": "telos:material/ability/cloak/ut-fire-shiny",
+            "shiny": true
+          }
+        ],
+        "bossBarHash": -1370654034
+      }
+    }
+  }
+}

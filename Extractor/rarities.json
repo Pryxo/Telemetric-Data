@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "_comment": "Item rarity colours. Key = last part of the item's tooltip style (telos:untiered/bloodshot -> bloodshot). colour = #RRGGBB, from the item name. companions = pet/mount rarities (name colour).",
+  "rarities": {
+    "bloodshot": {
+      "label": "Bloodshot",
+      "color": "#B7220A"
+    },
+    "gilded": {
+      "label": "Gilded",
+      "color": "#DE7500"
+    },
+    "irradiated": {
+      "label": "Irradiated",
+      "color": "#15CD15"
+    },
+    "royal": {
+      "label": "Royal",
+      "color": "#CF08CF"
+    },
+    "unholy": {
+      "label": "Unholy",
+      "color": "#B6D9D4"
+    },
+    "voidbound": {
+      "label": "Voidbound",
+      "color": "#D194F2"
+    },
+    "companion": {
+      "label": "Companion",
+      "color": "#FFAA00"
+    },
+    "shiny": {
+      "label": "Shiny",
+      "color": "#00FFFF"
+    }
+  },
+  "companions": {
+    "usual": {
+      "label": "Usual",
+      "color": "#AAA7AA",
+      "pets": 7,
+      "mounts": 7
+    },
+    "strange": {
+      "label": "Strange",
+      "color": "#7AA88A",
+      "pets": 9,
+      "mounts": 9
+    },
+    "fabled": {
+      "label": "Fabled",
+      "color": "#7A7FAA",
+      "pets": 7,
+      "mounts": 7
+    },
+    "exotic": {
+      "label": "Exotic",
+      "color": "#AA7AAA",
+      "pets": 12,
+      "mounts": 12
+    },
+    "legacy": {
+      "label": "Legacy",
+      "color": "#D7AA7A",
+      "pets": 2,
+      "mounts": 2
+    }
+  }
+}

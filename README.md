@@ -18,15 +18,18 @@ The mod reads files from `https://raw.githubusercontent.com/Pryxo/Telemetric-Dat
 |---|---|
 | `LODs/index.json` | List of prebuilt Voxy maps |
 | `LODs/<dungeon_name>.zip` | Voxy LOD store of one fixed-layout dungeon |
-| `telos/bosses.json` | Bosses (label, type, boss-bar name hash) |
-| `telos/rarities.json` | Item rarity colours, keyed by the last part of the tooltip style |
-| `telos/bags.json` | Loot bag types (drop totem model, drop sound) |
-| `telos/*.json` (others) | Minibosses, dungeons, portals, items, companions, classes, season pass, traits |
+| `Extractor/*.json` | Telos tables generated from the in-game `/wiki` menus (`Extractor/raw/`) + `Extractor/manual/` |
+| `Extractor/bosses.json` | Bosses: type, area, icon, spawn spots, boss-bar hash, Boss Tracker data (`tracker`) |
+| `Extractor/loottable.json` | Dungeon → Boss → drops (chance, loot group, item id + model, shiny variants) |
+| `Extractor/bossbars.json` | Boss bars seen in game: name hash → boss name |
+| `Extractor/rarities.json` / `bags.json` | Rarity colours (tooltip style key) / loot bag types (drop totem model, drop sound) |
+| `Extractor/manual/*.json` | **Hand-written**: dungeon final bosses, multi-boss drop splits, in-game dungeon names, Boss Tracker lines and spots, extra bags / rarities |
 
-The Telos tables in `telos/` (except `rarities.json` / `bags.json`) come from
-[Melinoe](https://github.com/House-Hades/Melinoe) (House-Hades, LGPL-3.0), used with the authors' permission.
-Telemetric bundles a copy of `telos/` in its jar and downloads the newest one on start, so an edit here reaches
-every player on their next game start. Players can override a file locally in `config/telemetric/data/telos/`.
+The hand-written data in `Extractor/manual/` is taken from [Melinoe](https://github.com/House-Hades/Melinoe)
+(House-Hades, LGPL-3.0), used with the authors' permission. Telemetric bundles a copy of `Extractor/*.json` in its
+jar and asks this repo once per game start whether a file changed (ETag, nothing is downloaded when it did not),
+so an edit here reaches every player on their next game start. Players can override a file locally in
+`config/telemetric/data/Extractor/`.
 
 ## Voxy maps
 Used by Telemetric's **Visual → Voxy Modifier**. Every instance of a whitelisted dungeon shares one Voxy

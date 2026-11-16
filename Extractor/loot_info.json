@@ -1,0 +1,112 @@
+{
+  "source": "wiki: FAQ -> Loot Information (read live in game 2026-11-16, not a full scan)",
+  "count": 14,
+  "loot": [
+    {
+      "glyph": "𕑎",
+      "codepoint": "U+1544E",
+      "label": "T2",
+      "key": "t2",
+      "color": "#EFB528"
+    },
+    {
+      "glyph": "𕑏",
+      "codepoint": "U+1544F",
+      "label": "T3",
+      "key": "t3",
+      "color": "#AD4410"
+    },
+    {
+      "glyph": "𕑔",
+      "codepoint": "U+15454",
+      "label": "T4",
+      "key": "t4",
+      "color": "#6F3A0A"
+    },
+    {
+      "glyph": "𕑕",
+      "codepoint": "U+15455",
+      "label": "T5",
+      "key": "t5",
+      "color": "#7A5843"
+    },
+    {
+      "glyph": "𕑗",
+      "codepoint": "U+15457",
+      "label": "T6",
+      "key": "t6",
+      "color": "#7A5843"
+    },
+    {
+      "glyph": "𕑖",
+      "codepoint": "U+15456",
+      "label": "T7",
+      "key": "t7",
+      "color": "#833057"
+    },
+    {
+      "glyph": "𕑘",
+      "codepoint": "U+15458",
+      "label": "T8",
+      "key": "t8",
+      "color": "#91F6BA"
+    },
+    {
+      "glyph": "𕑓",
+      "codepoint": "U+15453",
+      "label": "Companion",
+      "key": "companion",
+      "color": "#AE9000",
+      "damageThreshold": 1.0
+    },
+    {
+      "glyph": "𕑒",
+      "codepoint": "U+15452",
+      "label": "Irradiated",
+      "key": "irradiated",
+      "color": "#189506",
+      "damageThreshold": 1.0
+    },
+    {
+      "glyph": "𖃯",
+      "codepoint": "U+160EF",
+      "label": "Gilded",
+      "key": "gilded",
+      "color": "#B93F12",
+      "damageThreshold": 1.0
+    },
+    {
+      "glyph": "𕑑",
+      "codepoint": "U+15451",
+      "label": "Royal",
+      "key": "royal",
+      "color": "dark_purple",
+      "damageThreshold": 1.0
+    },
+    {
+      "glyph": "𕑐",
+      "codepoint": "U+15450",
+      "label": "Bloodshot",
+      "key": "bloodshot",
+      "color": "#87060B",
+      "damageThreshold": 1.0
+    },
+    {
+      "glyph": "𖈯",
+      "codepoint": "U+1622F",
+      "label": "Voidbound",
+      "key": "voidbound",
+      "color": "#8D15F0",
+      "damageThreshold": 1.0
+    },
+    {
+      "glyph": "𕑝",
+      "codepoint": "U+1545D",
+      "label": "Unholy",
+      "key": "unholy",
+      "color": "#94B0B1",
+      "damageThreshold": 1.0
+    }
+  ],
+  "_comment": "FAQ -> Loot Information. glyph = icon in front of a loot group in the dungeon lore (dungeons.json drops: loot). key = rarity / tier key, color = label colour, damageThreshold = % of the boss's damage you must deal to be able to get that loot (none = always)."
+}

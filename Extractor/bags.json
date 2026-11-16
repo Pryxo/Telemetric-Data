@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "_comment": "Loot bags: one per rarity + the hand-written ones from manual/bags.json (companion, shiny, event bags). color = rarity colour (rarities.json). guessed = totem / sound / model paths guessed from the rarity key (not on the wiki). group = Lifetime Stats row (default: key).",
+  "bags": [
+    {
+      "key": "bloodshot",
+      "label": "Bloodshot",
+      "totem": "mob/pouch/bloodshot_totem",
+      "sound": "bloodshot",
+      "model": "bloodshot_totem",
+      "color": "#B7220A",
+      "guessed": true
+    },
+    {
+      "key": "gilded",
+      "label": "Gilded",
+      "totem": "mob/pouch/gilded_totem",
+      "sound": "gilded",
+      "model": "gilded_totem",
+      "color": "#DE7500",
+      "guessed": true
+    },
+    {
+      "key": "irradiated",
+      "label": "Irradiated",
+      "totem": "mob/pouch/irradiated_totem",
+      "sound": "irradiated",
+      "model": "irradiated_totem",
+      "color": "#15CD15",
+      "guessed": true
+    },
+    {
+      "key": "royal",
+      "label": "Royal",
+      "totem": "mob/pouch/royal_totem",
+      "sound": "royal",
+      "model": "royal_totem",
+      "color": "#CF08CF",
+      "guessed": true
+    },
+    {
+      "key": "unholy",
+      "label": "Unholy",
+      "totem": "mob/pouch/unholy_totem",
+      "sound": "unholy",
+      "model": "unholy_totem",
+      "color": "#B6D9D4",
+      "guessed": true
+    },
+    {
+      "key": "voidbound",
+      "label": "Voidbound",
+      "totem": "mob/pouch/voidbound_totem",
+      "sound": "voidbound",
+      "model": "voidbound_totem",
+      "color": "#D194F2",
+      "guessed": true
+    },
+    {
+      "key": "companion",
+      "label": "Companion",
+      "totem": "mob/pouch/companion",
+      "sound": "companion",
+      "model": "companion",
+      "color": "#FFAA00"
+    },
+    {
+      "key": "shiny",
+      "label": "Shiny",
+      "totem": "mob/pouch/shiny_totem",
+      "sound": "shiny",
+      "model": "shiny_totem",
+      "color": "#00FFFF"
+    },
+    {
+      "key": "halloween",
+      "label": "Halloween",
+      "totem": "mob/pouch/halloween_totem",
+      "sound": "halloween",
+      "model": "halloween_totem",
+      "group": "event"
+    },
+    {
+      "key": "valentine",
+      "label": "Valentine",
+      "totem": "mob/pouch/valentine_totem",
+      "sound": "valentines",
+      "model": "valentine_totem",
+      "group": "event"
+    },
+    {
+      "key": "christmas",
+      "label": "Christmas",
+      "totem": "mob/pouch/christmas_totem",
+      "sound": "christmas",
+      "model": "christmas_totem",
+      "group": "event"
+    }
+  ]
+}
