@@ -181,7 +181,8 @@
       "icon": "telos:material/boss/hollowbane",
       "bossBarHash": -1240191621,
       "positions": [
-        { "x": 233, "y": 200, "z": 703 }
+        { "x": 233, "y": 200, "z": 703 },
+        { "x": 231, "y": 43, "z": 696 }
       ],
       "tracker": { "call": "Hollow is your fate, as it is mine (?<player>.+)!" },
       "drops": [
