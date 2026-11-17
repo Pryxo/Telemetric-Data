@@ -1,7 +1,7 @@
 {
   "source": "wiki: Equipment Information",
-  "scanned": "2026-11-16T00:48:58.136322800Z",
-  "count": 66,
+  "scanned": "2026-11-17T01:31:08.389326200Z",
+  "count": 52,
   "items": [
     {
       "id": "telos:skin/cherub_sword",
@@ -254,132 +254,6 @@
       "description": "The soles never fully touch the ground, nor the living world",
       "appliesTo": ["Light Boots", "Magical Boots", "Heavy Boots"],
       "obtainedFrom": "Season 5 Crate"
-    },
-    {
-      "id": "telos:skin/nexus_sword",
-      "name": "Blade Of The Architect Skin",
-      "model": "telos:material/skin/nexus_sword",
-      "type": "skin",
-      "description": "Forged by D before the Nexus had a name",
-      "appliesTo": ["Sword"],
-      "obtainedFrom": "Empowered Nexus Crate"
-    },
-    {
-      "id": "telos:skin/nexus_katana",
-      "name": "Datastream Katana Skin",
-      "model": "telos:material/skin/nexus_katana",
-      "type": "skin",
-      "description": "Tempered in the currents beneath the Nexus",
-      "appliesTo": ["Katana"],
-      "obtainedFrom": "Empowered Nexus Crate"
-    },
-    {
-      "id": "telos:skin/nexus_dagger",
-      "name": "Root Access Skin",
-      "model": "telos:material/skin/nexus_dagger",
-      "type": "skin",
-      "description": "Carried by D's most trusted engineers",
-      "appliesTo": ["Dagger"],
-      "obtainedFrom": "Empowered Nexus Crate"
-    },
-    {
-      "id": "telos:skin/nexus_bow",
-      "name": "Compiler's Arc Skin",
-      "model": "telos:material/skin/nexus_bow",
-      "type": "skin",
-      "description": "Strung from the first threads of the Nexus",
-      "appliesTo": ["Bow"],
-      "obtainedFrom": "Empowered Nexus Crate"
-    },
-    {
-      "id": "telos:skin/nexus_staff",
-      "name": "Genesis Spire Skin",
-      "model": "telos:material/skin/nexus_staff",
-      "type": "skin",
-      "description": "Raised where the Nexus was first switched on",
-      "appliesTo": ["Staff"],
-      "obtainedFrom": "Empowered Nexus Crate"
-    },
-    {
-      "id": "telos:skin/nexus_sceptre",
-      "name": "Admin's Authority Skin",
-      "model": "telos:material/skin/nexus_sceptre",
-      "type": "skin",
-      "description": "A mark of rank among D's architects",
-      "appliesTo": ["Sceptre"],
-      "obtainedFrom": "Empowered Nexus Crate"
-    },
-    {
-      "id": "telos:skin/nexus_bracelet",
-      "name": "Nexus Binding Skin",
-      "model": "telos:material/skin/nexus_bracelet",
-      "type": "skin",
-      "description": "A token of loyalty to the Nexus",
-      "appliesTo": ["Emblem", "Cloak", "Scripture", "Star", "Bomb", "Orb"],
-      "obtainedFrom": "Empowered Nexus Crate"
-    },
-    {
-      "id": "telos:skin/nexus_gauntlet",
-      "name": "Firewall Hands Skin",
-      "model": "telos:material/skin/nexus_gauntlet",
-      "type": "skin",
-      "description": "Built to guard the gates of the Nexus",
-      "appliesTo": ["Shield", "Poison", "Skull", "Kunai", "Trap", "Jewel"],
-      "obtainedFrom": "Empowered Nexus Crate"
-    },
-    {
-      "id": "telos:skin/nexus_heavy_helmet",
-      "name": "Prototype Faceplate Skin",
-      "model": "telos:material/skin/nexus_heavy_helmet",
-      "type": "skin",
-      "description": "A design D never finished",
-      "appliesTo": ["Heavy Helmet"],
-      "obtainedFrom": "Empowered Nexus Crate"
-    },
-    {
-      "id": "telos:skin/nexus_light_helmet",
-      "name": "Origin Circlet Skin",
-      "model": "telos:material/skin/nexus_light_helmet",
-      "type": "skin",
-      "description": "Recovered from the Nexus's oldest chamber",
-      "appliesTo": ["Light Helmet"],
-      "obtainedFrom": "Empowered Nexus Crate"
-    },
-    {
-      "id": "telos:skin/nexus_magical_helmet",
-      "name": "Archivist's Hood Skin",
-      "model": "telos:material/skin/nexus_magical_helmet",
-      "type": "skin",
-      "description": "Worn by the keepers of D's archives",
-      "appliesTo": ["Magical Helmet"],
-      "obtainedFrom": "Empowered Nexus Crate"
-    },
-    {
-      "id": "telos:skin/nexus_chestplate",
-      "name": "Source Plating Skin",
-      "model": "telos:material/skin/nexus_chestplate",
-      "type": "skin",
-      "description": "Cut from the walls of the Nexus core",
-      "appliesTo": ["Light Chestplate", "Magical Chestplate", "Heavy Chestplate"],
-      "obtainedFrom": "Empowered Nexus Crate"
-    },
-    {
-      "id": "telos:skin/nexus_leggings",
-      "name": "Conduit Striders Skin",
-      "model": "telos:material/skin/nexus_leggings",
-      "type": "skin",
-      "description": "Lined with the Nexus's spare conduits",
-      "appliesTo": ["Light Leggings", "Magical Leggings", "Heavy Leggings"],
-      "obtainedFrom": "Empowered Nexus Crate"
-    },
-    {
-      "id": "telos:skin/nexus_boots",
-      "name": "Pathing Treads Skin",
-      "model": "telos:material/skin/nexus_boots",
-      "type": "skin",
-      "description": "Made to walk the paths D laid out",
-      "appliesTo": ["Light Boots", "Magical Boots", "Heavy Boots"],
-      "obtainedFrom": "Empowered Nexus Crate"
     },
     {
       "id": "telos:skin/splendor_sword",

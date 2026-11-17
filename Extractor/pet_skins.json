@@ -1,7 +1,7 @@
 {
   "source": "wiki: Pet Information",
-  "scanned": "2026-11-16T00:48:19.883539400Z",
-  "count": 17,
+  "scanned": "2026-11-17T01:30:21.491795600Z",
+  "count": 16,
   "skins": [
     {
       "id": "telos:pet/ophanoid",
@@ -38,15 +38,6 @@
       "kind": "Pet Reskin",
       "description": "Unlock a pet reskin which mimics attributes of your selected pet! For damaging pets, this reskin will match the DPS by attacking once every 3s. For healing pets, it will match them exactly.",
       "obtainedFrom": "Season #1: A New Era"
-    },
-    {
-      "id": "telos:pet/d0",
-      "name": "D 0",
-      "model": "telos:material/pet/d0",
-      "nameColor": "#A8D8FF",
-      "kind": "Pet Reskin",
-      "description": "Unlock a pet reskin which mimics attributes of your selected pet! For damaging pets, this reskin will match the DPS by attacking once every 4s. For healing pets, it will match them exactly.",
-      "obtainedFrom": "Seasonal Crate of Season #6: Empowered Nexus"
     },
     {
       "id": "telos:pet/chibi_true_seraphim",

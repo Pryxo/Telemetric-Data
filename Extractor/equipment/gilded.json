@@ -1,6 +1,6 @@
 {
   "source": "wiki: Equipment Information",
-  "scanned": "2026-11-16T00:48:58.136322800Z",
+  "scanned": "2026-11-17T01:31:08.389326200Z",
   "count": 41,
   "items": [
     {
@@ -36,6 +36,7 @@
       "tierPoints": 10,
       "source": { "name": "Depths of Purgatory", "icon": "telos:material/dungeon/depths_of_purgatory" },
       "stats": { "Health": "+1", "Attack": "+6", "Defense": "+11" },
+      "shiny": { "id": "telos:armour/heavy/chestplate/ut-torment-shiny", "model": "telos:material/armour/heavy/chestplate/ut-torment-shiny" },
       "classes": ["Knight", "Samurai"]
     },
     {
@@ -60,7 +61,7 @@
       "tierPoints": 10,
       "source": { "name": "Treasure Cave", "icon": "telos:material/dungeon/treasure_cave" },
       "stats": { "Speed": "0.5", "Evasion": "+5" },
-      "text": ["Ability: Gain stacking", "Speed while moving (max", "48). Stop for 1.5s to", "lose it."],
+      "text": ["Ability: Grants Speed for", "every 0.2s you are", "moving, with a max of 48", "(resets after 1.5s of", "not sprinting)."],
       "shiny": { "id": "telos:armour/heavy/boots/ut-lightning-shiny", "model": "telos:material/armour/heavy/boots/ut-lightning-shiny" },
       "classes": ["Knight", "Samurai"]
     },
@@ -205,6 +206,7 @@
       "source": { "name": "Gravesbane", "icon": "telos:material/boss/gravesbane" },
       "stats": { "Damage": "18.5", "Range": "7.5", "Shots": "1", "Velocity": "20", "Pierces": "No", "Cooldown": "0.8s" },
       "text": ["Ability: Successful hits", "create a mark that", "explodes after 3 hits,", "dealing 0.5x damage in a 4", "block radius."],
+      "shiny": { "id": "telos:weapon/dagger/ut-gravedigger-shiny", "model": "telos:material/weapon/dagger/ut-gravedigger-shiny" },
       "classes": ["Assassin"]
     },
     {
@@ -464,6 +466,7 @@
         "3s healing cooldown",
         "(self-heals unaffected)."
       ],
+      "shiny": { "id": "telos:ability/scripture/ut-frostspark-shiny", "model": "telos:material/ability/scripture/ut-frostspark-shiny" },
       "classes": ["Necromancer"]
     },
     {

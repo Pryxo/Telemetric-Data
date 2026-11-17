@@ -2,7 +2,7 @@
   "_comment": "Hand-written, read by the extractor's Rebuild JSON (never shipped; Boss.json carries all of it). dungeons: dungeon -> its final boss as the nameplate shows it (\"???\" = not written yet), or for a dungeon with several loot bosses: boss -> drop names only that boss gives, final boss last (it gets every drop not listed). aliases: in-game location name -> dungeon name, where they differ beyond case, punctuation, a leading 'The' and ': Part ...'. bosses: realm bosses -> positions (spawn spots), Boss Tracker lines (call = regex for the text after \"[<Boss>] \" naming the player fighting it, group 'player'; idle = always present, grey until its spawn line; spawn / defeat = lines that mark it alive / back to idle; portalSeconds = portal time after a defeat; progress = portal opens once every world boss is down; waypoints = extra fixed markers) and, for bosses the wiki does not list, icon / location / type. zones = separate realm regions: a boss located in one is shown only there. Lines from Melinoe (House-Hades, used with permission).",
   "portalSeconds": 30,
   "zones": ["Shadowlands", "Radiant Isles"],
-  "aliases": { "Raphael's Chamber": "Raph's Chamber", "Raphael's Castle": "Raph's Chamber", "The Aviary": "Aviary" },
+  "aliases": {"Raphael's Chamber": "Raph's Chamber", "Raphael's Castle": "Raph's Chamber", "The Aviary": "Aviary"},
   "dungeons": {
     "Skull Cavern": "Eddie",
     "Thornwood Wargrove": "Zhum",
@@ -28,8 +28,7 @@
     "Cultist's Hideout": "Silex",
     "Illarius' Hideout": "Loa",
     "Raph's Chamber": {
-      "Dark Champion": ["Dark Guardian Sword", "Slow Touch Orb", "Corrupted Chaps"],
-      "Raphael": []
+      "Dark Champion": ["Dark Guardian Sword", "Slow Touch Orb", "Corrupted Chaps"]
     },
     "Rustborn Kingdom": {
       "Valerion": ["Valerion's Poniard", "Valerion's Bane", "Custodian's Visor"],
@@ -37,10 +36,7 @@
       "Ophanim": ["Final Destination", "Oracle's End", "Crown Of Ethereal Radiance", "Lumine", "Astralflare"]
     },
     "Dawn Of Creation": {
-      "Valerion": ["Valerion's Poniard", "Valerion's Bane", "Custodian's Visor"],
-      "Nebula": ["Nebula's Battleaxe", "Dusk Weaver", "Archon's Glare"],
-      "Ophanim": ["Final Destination", "Oracle's End", "Crown Of Ethereal Radiance", "Lumine", "Astralflare"],
-      "True Ophan": []
+      "True Ophan": ["Valerion's Poniard", "Valerion's Bane", "Custodian's Visor", "Nebula's Battleaxe", "Dusk Weaver", "Archon's Glare", "Final Destination", "Oracle's End", "Crown Of Ethereal Radiance", "Lumine", "Astralflare"]
     },
     "Aurora Sanctum": "Aetheris",
     "Aviary": "Solarflare",
@@ -56,12 +52,10 @@
     "Resounding Ruins": "Unrest",
     "Celestial's Province": {
       "Asmodeus": ["Visage Of The Night", "Baphomet's Bomb", "Blood Of The Heretics"],
-      "Seraphim": []
+      "Seraphim": ["Feathers Of The Seraph", "Seraph's Essence", "Empyrean Epitome", "Thanatos", "Seraphix"]
     },
     "Seraph's Domain": {
-      "Asmodeus": ["Visage Of The Night", "Baphomet's Bomb", "Blood Of The Heretics"],
-      "Seraphim": ["Feathers Of The Seraph", "Seraph's Essence", "Empyrean Epitome", "Thanatos", "Seraphix"],
-      "True Seraph": []
+      "True Seraph": ["Visage Of The Night", "Baphomet's Bomb", "Blood Of The Heretics", "Feathers Of The Seraph", "Seraph's Essence", "Empyrean Epitome", "Thanatos", "Seraphix"]
     }
   },
   "bosses": {

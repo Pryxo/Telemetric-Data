@@ -1,6 +1,6 @@
 {
   "source": "wiki: Equipment Information",
-  "scanned": "2026-11-16T00:48:58.136322800Z",
+  "scanned": "2026-11-17T01:31:08.389326200Z",
   "count": 71,
   "items": [
     {
@@ -169,6 +169,7 @@
       "source": { "name": "Raph's Castle", "icon": "telos:material/dungeon/onyx" },
       "stats": { "Damage": "38", "Range": "7", "Shots": "1", "Velocity": "10", "Pierces": "No", "Cooldown": "1.2s" },
       "text": ["Ability: Projectile is a", "rock with an explosion", "that deals AoE damage."],
+      "shiny": { "id": "telos:weapon/sword/ut-guardian-shiny", "model": "telos:material/weapon/sword/ut-guardian-shiny" },
       "classes": ["Knight"]
     },
     {
@@ -311,6 +312,7 @@
       "tierPoints": 11,
       "source": { "name": "Raph's Castle", "icon": "telos:material/dungeon/onyx" },
       "stats": { "Health": "+1", "Attack": "+7", "Defense": "+7", "Speed": "+8" },
+      "shiny": { "id": "telos:armour/light/leggings/ut-corrupted-shiny", "model": "telos:material/armour/light/leggings/ut-corrupted-shiny" },
       "classes": ["Assassin", "Huntress"]
     },
     {
@@ -570,6 +572,7 @@
       "source": { "name": "Raph's Castle", "icon": "telos:material/dungeon/onyx" },
       "stats": { "Damage": "3.5", "Range": "8", "Shots": "1", "Velocity": "20", "Pierces": "Yes", "Cooldown": "7s" },
       "text": ["Ability: Shoots a star", "projectile that leaves", "a lingering fire trail", "for 7.0s, dealing", "damage every 0.25s."],
+      "shiny": { "id": "telos:ability/star/ut-singed-shiny", "model": "telos:material/ability/star/ut-singed-shiny" },
       "classes": ["Samurai"]
     },
     {
@@ -606,6 +609,7 @@
       "source": { "name": "Omnipotent's Citadel", "icon": "telos:material/dungeon/omnipotents_citadel" },
       "stats": { "Defense": "+6", "Evasion": "+5", "Critical Chance": "+13", "Critical Damage": "8" },
       "text": ["Synergy: When paired", "with Omnipotent", "Leggings, gain Critical", "Damage."],
+      "shiny": { "id": "telos:armour/magical/chestplate/ut-omnipotent-shiny", "model": "telos:material/armour/magical/chestplate/ut-omnipotent-shiny" },
       "classes": ["Necromancer", "Arcanist"]
     },
     {
@@ -630,6 +634,7 @@
       "source": { "name": "Omnipotent's Citadel", "icon": "telos:material/dungeon/omnipotents_citadel" },
       "stats": { "Defense": "+6", "Evasion": "+5", "Critical Chance": "+13" },
       "text": ["Synergy: When paired with", "Omnipotent Robe, gain", "Critical Damage."],
+      "shiny": { "id": "telos:armour/magical/leggings/ut-omnipotent-shiny", "model": "telos:material/armour/magical/leggings/ut-omnipotent-shiny" },
       "classes": ["Necromancer", "Arcanist"]
     },
     {
@@ -1004,6 +1009,7 @@
       "source": { "name": "Raph's Castle", "icon": "telos:material/dungeon/onyx" },
       "stats": { "Defense": "30", "Damage": "75", "Range": "7", "Cooldown": "9s" },
       "text": ["Ability: Damages in an", "AoE around you.", "Grants Defense and", "slows enemies for 5s."],
+      "shiny": { "id": "telos:ability/orb/ut-slow-shiny", "model": "telos:material/ability/orb/ut-slow-shiny" },
       "classes": ["Arcanist"]
     },
     {

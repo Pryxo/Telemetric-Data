@@ -1,24 +1,17 @@
 {
   "version": 1,
   "source": "wiki: Dungeons & Bosses + manual/bosses.json + Boss Recorder",
-  "scanned": "2026-11-16T00:48:18.632414900Z",
+  "scanned": "2026-11-17T01:30:19.991741900Z",
   "_comment": "Every boss. type = miniboss / boss / eventBoss (realm) or dungeon. location = where it spawns: biome / Realm / zone, or its dungeon. opens = dungeon portal it drops. icon = menu icon (a dungeon boss: the dungeon's). bossBarHash = Component#hashCode of its boss bar name (Boss Recorder). positions = spawn spots, tracker = Boss Tracker data (manual/bosses.json). tiers = T1-T8 equipment it drops (no chance on the wiki). drops: chance = percent per kill (fragments can be > 100); id = item id (dropped item model = <ns>:material/<id path>); rarity = item / companion rarity (the loot group); shiny = chance of the shiny version (id + -shiny); from = anyMob / specificMob / puzzle (not from the boss kill) or each (expanded from \"All <rarity> Items\"); kind only where it is not implied (id pet/ = pet, mount/ = mount, other id = item, no id: rarity = material, none = fragment). Dungeon boss names: manual/bosses.json (\"???\" = not written yet).",
   "portalSeconds": 30,
-  "zones": ["Shadowlands", "Radiant Isles"],
-  "aliases": { "Raphael's Chamber": "Raph's Chamber", "Raphael's Castle": "Raph's Chamber", "The Aviary": "Aviary" },
+  "zones": [],
+  "aliases": {},
   "bosses": [
     {
       "name": "Brakk",
       "type": "miniboss",
       "location": "Beach",
       "icon": "telos:material/boss/brakk",
-      "positions": [
-        { "x": 701, "y": 196, "z": 128 },
-        { "x": 532, "y": 197, "z": 644 },
-        { "x": -406, "y": 196, "z": 498 },
-        { "x": -571, "y": 196, "z": -303 },
-        { "x": -445, "y": 196, "z": -469 }
-      ],
       "tiers": ["T3", "T4"],
       "drops": [
         { "name": "Irradiated Fragment", "chance": 120.0 },
@@ -31,13 +24,6 @@
       "type": "miniboss",
       "location": "Jungle",
       "icon": "telos:material/boss/grimleaf",
-      "positions": [
-        { "x": -292, "y": 202, "z": -63 },
-        { "x": -287, "y": 204, "z": 315 },
-        { "x": 439, "y": 203, "z": 301 },
-        { "x": 432, "y": 201, "z": 230 },
-        { "x": 570, "y": 205, "z": -134 }
-      ],
       "tiers": ["T4"],
       "drops": [
         { "name": "Irradiated Fragment", "chance": 120.0 },
@@ -50,10 +36,6 @@
       "type": "miniboss",
       "location": "Crimson Forest",
       "icon": "telos:material/boss/hellmesh",
-      "positions": [
-        { "x": 222, "y": 217, "z": -39 },
-        { "x": 134, "y": 216, "z": -13 }
-      ],
       "tiers": ["T7"],
       "drops": [
         { "name": "Gilded Fragment", "chance": 33.0 },
@@ -66,10 +48,6 @@
       "type": "miniboss",
       "location": "Permafrost",
       "icon": "telos:material/boss/nocs",
-      "positions": [
-        { "x": -60, "y": 215, "z": 37 },
-        { "x": -111, "y": 211, "z": 99 }
-      ],
       "tiers": ["T7"],
       "drops": [
         { "name": "Gilded Fragment", "chance": 33.0 },
@@ -82,14 +60,10 @@
       "type": "miniboss",
       "location": "Necropolis",
       "icon": "telos:material/boss/gravesbane",
-      "positions": [
-        { "x": 129, "y": 214, "z": 294 },
-        { "x": -95, "y": 215, "z": 324 }
-      ],
       "tiers": ["T7"],
       "drops": [
         { "name": "Gilded Fragment", "chance": 33.0 },
-        { "name": "Gravedigger's Shovel", "chance": 10.0, "id": "telos:weapon/dagger/ut-gravedigger", "rarity": "gilded" },
+        { "name": "Gravedigger's Shovel", "chance": 10.0, "id": "telos:weapon/dagger/ut-gravedigger", "rarity": "gilded", "shiny": 0.25 },
         { "name": "Spiker's Greaves", "chance": 10.0, "id": "telos:armour/heavy/leggings/ut-spiker", "rarity": "gilded", "shiny": 0.25 }
       ]
     },
@@ -99,11 +73,6 @@
       "location": "Realm",
       "opens": "Rustborn Kingdom",
       "icon": "telos:material/boss/chungus",
-      "bossBarHash": -168181711,
-      "positions": [
-        { "x": 61, "y": 266, "z": -490 }
-      ],
-      "tracker": { "call": "The void strengthens me, (?<player>.+)!" },
       "tiers": ["T7", "T8"],
       "drops": [
         { "name": "Gilded Fragment", "chance": 50.0 },
@@ -119,11 +88,6 @@
       "location": "Realm",
       "opens": "Illarius' Hideout",
       "icon": "telos:material/boss/illarius",
-      "bossBarHash": 1368623635,
-      "positions": [
-        { "x": 479, "y": 211, "z": -44 }
-      ],
-      "tracker": { "call": "Don't send me back to Loa, (?<player>.+)!" },
       "tiers": ["T7", "T8"],
       "drops": [
         { "name": "Gilded Fragment", "chance": 50.0 },
@@ -139,11 +103,6 @@
       "location": "Realm",
       "opens": "Tartarus",
       "icon": "telos:material/boss/astaroth",
-      "bossBarHash": -1253632898,
-      "positions": [
-        { "x": 250, "y": 228, "z": 60 }
-      ],
-      "tracker": { "call": "Your futile struggles are mere entertainment for the denizens of the void, (?<player>.+)" },
       "tiers": ["T7", "T8"],
       "drops": [
         { "name": "Gilded Fragment", "chance": 50.0 },
@@ -159,11 +118,6 @@
       "location": "Realm",
       "opens": "Fungal Cavern",
       "icon": "telos:material/boss/glumi",
-      "bossBarHash": -168176906,
-      "positions": [
-        { "x": 317, "y": 200, "z": 558 }
-      ],
-      "tracker": { "call": "You will not access the sacred caverns, (?<player>.+)!" },
       "tiers": ["T7", "T8"],
       "drops": [
         { "name": "Gilded Fragment", "chance": 50.0 },
@@ -179,11 +133,6 @@
       "location": "Realm",
       "opens": "Omnipotent's Citadel",
       "icon": "telos:material/boss/lotil",
-      "bossBarHash": -1254008649,
-      "positions": [
-        { "x": -138, "y": 223, "z": 17 }
-      ],
-      "tracker": { "call": "You will NOT take my symbolic shield away from me, (?<player>.+)!" },
       "tiers": ["T7", "T8"],
       "drops": [
         { "name": "Gilded Fragment", "chance": 50.0 },
@@ -199,11 +148,6 @@
       "location": "Realm",
       "opens": "Corsair's Conductorium",
       "icon": "telos:material/boss/tidol",
-      "bossBarHash": 1368934038,
-      "positions": [
-        { "x": -543, "y": 199, "z": 364 }
-      ],
-      "tracker": { "call": "Face my trident, (?<player>.+)!" },
       "tiers": ["T7", "T8"],
       "drops": [
         { "name": "Gilded Fragment", "chance": 50.0 },
@@ -219,11 +163,6 @@
       "location": "Realm",
       "opens": "Cultist's Hideout",
       "icon": "telos:material/boss/valus",
-      "bossBarHash": -1622056066,
-      "positions": [
-        { "x": 35, "y": 220, "z": 307 }
-      ],
-      "tracker": { "call": "You are not worthy of joining our worship, (?<player>.+)!" },
       "tiers": ["T7", "T8"],
       "drops": [
         { "name": "Gilded Fragment", "chance": 50.0 },
@@ -239,11 +178,6 @@
       "location": "Realm",
       "opens": "Anubis Lair",
       "icon": "telos:material/boss/anubis",
-      "bossBarHash": -342545608,
-      "positions": [
-        { "x": 458, "y": 214, "z": -467 }
-      ],
-      "tracker": { "call": "You will not disturb their peace, (?<player>.+)!" },
       "tiers": ["T7", "T8"],
       "drops": [
         { "name": "Gilded Fragment", "chance": 50.0 },
@@ -258,11 +192,6 @@
       "type": "boss",
       "location": "Swamp",
       "icon": "telos:material/boss/hollowbane",
-      "bossBarHash": -1240191621,
-      "positions": [
-        { "x": 233, "y": 200, "z": 703 }
-      ],
-      "tracker": { "call": "Hollow is your fate, as it is mine (?<player>.+)!" },
       "tiers": ["T7", "T8"],
       "drops": [
         { "name": "Gilded Fragment", "chance": 50.0 },
@@ -276,12 +205,6 @@
       "type": "miniboss",
       "location": "Radiant Isles",
       "icon": "telos:material/boss/luna",
-      "positions": [
-        { "x": 100408, "y": 103, "z": 100030 },
-        { "x": 100228, "y": 115, "z": 100131 },
-        { "x": 99798, "y": 9, "z": 99718 },
-        { "x": 99567, "y": 69, "z": 100013 }
-      ],
       "drops": [
         { "name": "Gilded Fragment", "chance": 50.0 },
         { "name": "Lunar Hood", "chance": 10.0, "id": "telos:armour/magical/helmet/ut-lunar", "rarity": "gilded" },
@@ -294,12 +217,6 @@
       "type": "miniboss",
       "location": "Radiant Isles",
       "icon": "telos:material/boss/aurehog",
-      "positions": [
-        { "x": 100101, "y": 113, "z": 100305 },
-        { "x": 99884, "y": 200, "z": 100330 },
-        { "x": 99911, "y": 194, "z": 99586 },
-        { "x": 100102, "y": 64, "z": 99646 }
-      ],
       "drops": [
         { "name": "Gilded Fragment", "chance": 50.0 },
         { "name": "Soulfire Sandals", "chance": 10.0, "id": "telos:armour/light/boots/ut-soulfire", "rarity": "gilded", "shiny": 0.25 },
@@ -313,25 +230,6 @@
       "location": "Radiant Isles",
       "opens": "Neo Eden",
       "icon": "telos:material/boss/cog_sentinel",
-      "bossBarHash": -1370503157,
-      "positions": [
-        { "x": 100000, "y": 50, "z": 100000 }
-      ],
-      "tracker": {
-        "idle": true,
-        "waypoints": [
-          { "name": "Cog Stabilizer (1)", "x": 99627, "y": 45, "z": 99992 },
-          { "name": "Cog Stabilizer (2)", "x": 99649, "y": 129, "z": 100180 },
-          { "name": "Cog Stabilizer (3)", "x": 99934, "y": 167, "z": 100313 },
-          { "name": "Cog Stabilizer (4)", "x": 100027, "y": 71, "z": 100211 },
-          { "name": "Cog Stabilizer (5)", "x": 100163, "y": 114, "z": 100110 },
-          { "name": "Cog Stabilizer (6)", "x": 100427, "y": 49, "z": 99959 },
-          { "name": "Cog Stabilizer (7)", "x": 100074, "y": 48, "z": 99716 },
-          { "name": "Cog Stabilizer (8)", "x": 99867, "y": 142, "z": 99594 },
-          { "name": "Cog Stabilizer (9)", "x": 99703, "y": 65, "z": 99730 },
-          { "name": "Cog Stabilizer (10)", "x": 99806, "y": 9, "z": 99869 }
-        ]
-      },
       "drops": [
         { "name": "Gilded Fragment", "chance": 50.0 },
         { "name": "Royal Fragment", "chance": 10.0 },
@@ -345,10 +243,6 @@
       "type": "miniboss",
       "location": "Voided Abyss",
       "icon": "telos:material/boss/oozul",
-      "bossBarHash": -1907114029,
-      "positions": [
-        { "x": -424, "y": 205, "z": 91 }
-      ],
       "drops": [
         { "name": "Gilded Fragment", "chance": 50.0 },
         { "name": "Skull Shaped Slime", "chance": 10.0, "id": "telos:ability/skull/ut-slime", "rarity": "gilded" },
@@ -373,16 +267,6 @@
       "type": "miniboss",
       "location": "Shadowlands",
       "icon": "telos:material/boss/warden",
-      "bossBarHash": -1370656917,
-      "positions": [
-        { "x": -125, "y": -46, "z": -122 }
-      ],
-      "tracker": {
-        "idle": true,
-        "call": "Look at it, (?<player>.+)\\. This battle standard is all I have left to honour my fallen brethren\\.",
-        "spawn": "The flag flies once more\\.",
-        "defeat": "Remember us, warriors\\."
-      },
       "drops": [
         { "name": "Royal Fragment", "chance": 50.0 },
         { "name": "Bloodshot Fragment", "chance": 5.0 },
@@ -396,16 +280,6 @@
       "type": "miniboss",
       "location": "Shadowlands",
       "icon": "telos:material/boss/herald",
-      "bossBarHash": -1370655956,
-      "positions": [
-        { "x": 148, "y": -47, "z": -176 }
-      ],
-      "tracker": {
-        "idle": true,
-        "call": "The flames cast deep shadows, (?<player>.+)\\. There’s a tragic tale within them, growing darker the further you stray\\.",
-        "spawn": "The torch burns bright\\.",
-        "defeat": "Never let go of the light\\."
-      },
       "drops": [
         { "name": "Royal Fragment", "chance": 50.0 },
         { "name": "Bloodshot Fragment", "chance": 5.0 },
@@ -419,16 +293,6 @@
       "type": "miniboss",
       "location": "Shadowlands",
       "icon": "telos:material/boss/reaper",
-      "bossBarHash": -1370654995,
-      "positions": [
-        { "x": 22, "y": -47, "z": 323 }
-      ],
-      "tracker": {
-        "idle": true,
-        "call": "We never knew what fate had in store for us, (?<player>.+)\\. And yet, dead men tell no tales\\.",
-        "spawn": "The spectres watch closely\\.",
-        "defeat": "So we shall persist in spirit\\."
-      },
       "drops": [
         { "name": "Royal Fragment", "chance": 50.0 },
         { "name": "Bloodshot Fragment", "chance": 5.0 },
@@ -443,11 +307,6 @@
       "location": "Shadowlands",
       "opens": "Celestial's Province",
       "icon": "telos:material/boss/defender",
-      "bossBarHash": -1370654034,
-      "positions": [
-        { "x": 65, "y": -51, "z": 64 }
-      ],
-      "tracker": { "call": "I stood for honor, but honor was my undoing (?<player>.+)!" },
       "drops": [
         { "name": "Bloodshot Fragment", "chance": 20.0 },
         { "name": "Shrouded Shield", "chance": 0.8, "id": "telos:ability/shield/ut-shrouded", "rarity": "bloodshot", "shiny": 0.0266667 },
@@ -456,33 +315,10 @@
       ]
     },
     {
-      "name": "Claus",
-      "type": "boss",
-      "location": "Realm",
-      "icon": "telos:material/boss/claus",
-      "bossBarHash": -1048713371,
-      "positions": [
-        { "x": 10, "y": 222, "z": -122 }
-      ],
-      "tracker": { "call": "The only sleighing happening here is YOU, (?<player>.+)!" }
-    },
-    {
-      "name": "Raphael",
-      "type": "boss",
-      "location": "Realm",
-      "icon": "telos:material/pet/onyx",
-      "bossBarHash": 254038329,
-      "positions": [
-        { "x": -15, "y": 243, "z": 88 }
-      ],
-      "tracker": { "progress": true, "portalSeconds": 60 }
-    },
-    {
-      "name": "Eddie",
+      "name": "???",
       "type": "dungeon",
       "location": "Skull Cavern",
       "icon": "telos:material/dungeon/skull_cavern",
-      "bossBarHash": -167372549,
       "tiers": ["T2", "T3"],
       "drops": [
         { "name": "Irradiated Fragment", "chance": 50.0 },
@@ -493,11 +329,10 @@
       ]
     },
     {
-      "name": "Zhum",
+      "name": "???",
       "type": "dungeon",
       "location": "Thornwood Wargrove",
       "icon": "telos:material/dungeon/thornwood_wargrove",
-      "bossBarHash": -1381648356,
       "tiers": ["T3", "T4"],
       "drops": [
         { "name": "Irradiated Fragment", "chance": 75.0 },
@@ -509,11 +344,10 @@
       ]
     },
     {
-      "name": "Drayruk",
+      "name": "???",
       "type": "dungeon",
       "location": "Goblin Lair",
       "icon": "telos:material/dungeon/goblin_lair",
-      "bossBarHash": -1659173216,
       "tiers": ["T3", "T4"],
       "drops": [
         { "name": "Irradiated Fragment", "chance": 75.0 },
@@ -525,15 +359,14 @@
       ]
     },
     {
-      "name": "Miraj",
+      "name": "???",
       "type": "dungeon",
       "location": "Desert Temple",
       "icon": "telos:material/dungeon/desert_temple",
-      "bossBarHash": -973820290,
       "tiers": ["T4", "T5"],
       "drops": [
         { "name": "Irradiated Fragment", "chance": 120.0 },
-        { "name": "Sceptre Of Thorns", "chance": 33.0, "id": "telos:weapon/sceptre/ut-thorns", "rarity": "irradiated" },
+        { "name": "Sceptre Of Thorns", "chance": 33.0, "id": "telos:weapon/sceptre/ut-thorns", "rarity": "irradiated", "shiny": 0.66 },
         { "name": "Sandstone Emblem", "chance": 33.0, "id": "telos:ability/emblem/ut-sandstone", "rarity": "irradiated", "shiny": 0.66 },
         { "name": "Irradiated Fragment", "chance": 25.0, "from": "specificMob" },
         { "name": "Lost Cleric", "chance": 2.0, "id": "telos:pet/desert_temple", "rarity": "usual" },
@@ -541,11 +374,10 @@
       ]
     },
     {
-      "name": "Khufu",
+      "name": "???",
       "type": "dungeon",
       "location": "Tomb Of Shadows",
       "icon": "telos:material/dungeon/tomb_of_shadows",
-      "bossBarHash": 230865898,
       "tiers": ["T4", "T5"],
       "drops": [
         { "name": "Irradiated Fragment", "chance": 120.0 },
@@ -558,11 +390,10 @@
       ]
     },
     {
-      "name": "Choji",
+      "name": "???",
       "type": "dungeon",
       "location": "Sakura Shrine",
       "icon": "telos:material/dungeon/sakura_shrine",
-      "bossBarHash": -167370627,
       "tiers": ["T4", "T5"],
       "drops": [
         { "name": "Irradiated Fragment", "chance": 120.0 },
@@ -574,11 +405,10 @@
       ]
     },
     {
-      "name": "Flora",
+      "name": "???",
       "type": "dungeon",
       "location": "Secluded Woodland",
       "icon": "telos:material/dungeon/secluded_woodland",
-      "bossBarHash": 291455870,
       "tiers": ["T4", "T5"],
       "drops": [
         { "name": "Irradiated Fragment", "chance": 120.0 },
@@ -591,11 +421,10 @@
       ]
     },
     {
-      "name": "Malfas",
+      "name": "???",
       "type": "dungeon",
       "location": "Abyss Of Demons",
       "icon": "telos:material/dungeon/abyss_of_demons",
-      "bossBarHash": -1019671711,
       "tiers": ["T5", "T6", "T7"],
       "drops": [
         { "name": "Gilded Fragment", "chance": 75.0 },
@@ -608,11 +437,10 @@
       ]
     },
     {
-      "name": "Heptavius",
+      "name": "???",
       "type": "dungeon",
       "location": "Undead Lair",
       "icon": "telos:material/dungeon/undead_lair",
-      "bossBarHash": -1659169372,
       "tiers": ["T5", "T6", "T7"],
       "drops": [
         { "name": "Gilded Fragment", "chance": 75.0 },
@@ -625,28 +453,26 @@
       ]
     },
     {
-      "name": "Arctic Colossus",
+      "name": "???",
       "type": "dungeon",
       "location": "Ice Cave",
       "icon": "telos:material/dungeon/ice_cave",
-      "bossBarHash": -1659167450,
       "tiers": ["T5", "T6", "T7"],
       "drops": [
         { "name": "Gilded Fragment", "chance": 75.0 },
         { "name": "Gilded Fragment", "chance": 10.0, "from": "specificMob" },
         { "name": "Frozen Star", "chance": 10.0, "id": "telos:ability/star/ut-frozen", "rarity": "gilded", "shiny": 0.25 },
-        { "name": "Frostspark Scripture", "chance": 10.0, "id": "telos:ability/scripture/ut-frostspark", "rarity": "gilded" },
+        { "name": "Frostspark Scripture", "chance": 10.0, "id": "telos:ability/scripture/ut-frostspark", "rarity": "gilded", "shiny": 0.25 },
         { "name": "Frozen Jewel", "chance": 10.0, "id": "telos:ability/jewel/ut-frozen", "rarity": "gilded" },
         { "name": "Ice Penguin", "chance": 1.0, "id": "telos:pet/ice_cave", "rarity": "strange" },
         { "name": "Frostfang", "chance": 1.0, "id": "telos:mount/ice_cave", "rarity": "strange" }
       ]
     },
     {
-      "name": "Oog",
+      "name": "???",
       "type": "dungeon",
       "location": "Dwarven Frostkeep",
       "icon": "telos:material/dungeon/dwarven_frostkeep",
-      "bossBarHash": -1659168411,
       "tiers": ["T5", "T6", "T7"],
       "drops": [
         { "name": "Gilded Fragment", "chance": 75.0 },
@@ -659,11 +485,10 @@
       ]
     },
     {
-      "name": "Magnus",
+      "name": "???",
       "type": "dungeon",
       "location": "Treasure Cave",
       "icon": "telos:material/dungeon/treasure_cave",
-      "bossBarHash": -1659166489,
       "tiers": ["T5", "T6", "T7"],
       "drops": [
         { "name": "Gilded Fragment", "chance": 75.0 },
@@ -676,29 +501,27 @@
       ]
     },
     {
-      "name": "Pyro",
+      "name": "???",
       "type": "dungeon",
       "location": "Depths Of Purgatory",
       "icon": "telos:material/dungeon/depths_of_purgatory",
-      "bossBarHash": -1253198526,
       "tiers": ["T6", "T7"],
       "drops": [
         { "name": "Gilded Fragment", "chance": 120.0 },
         { "name": "Gilded Fragment", "chance": 15.0, "from": "specificMob" },
         { "name": "Orb Of Torment", "chance": 10.0, "id": "telos:ability/orb/ut-torment", "rarity": "gilded" },
         { "name": "Bomb Of Torment", "chance": 10.0, "id": "telos:ability/bomb/ut-torment", "rarity": "gilded" },
-        { "name": "Chestplate Of Torment", "chance": 10.0, "id": "telos:armour/heavy/chestplate/ut-torment", "rarity": "gilded" },
+        { "name": "Chestplate Of Torment", "chance": 10.0, "id": "telos:armour/heavy/chestplate/ut-torment", "rarity": "gilded", "shiny": 0.25 },
         { "name": "Royal Fragment", "chance": 5.0 },
         { "name": "Pyroc", "chance": 1.0, "id": "telos:pet/purgatory", "rarity": "strange" },
         { "name": "Hydroscorch", "chance": 1.0, "id": "telos:mount/purgatory", "rarity": "strange" }
       ]
     },
     {
-      "name": "Thalor",
+      "name": "???",
       "type": "dungeon",
       "location": "Frozen Ruins",
       "icon": "telos:material/dungeon/frozen_ruins",
-      "bossBarHash": -1621485232,
       "tiers": ["T6", "T7"],
       "drops": [
         { "name": "Gilded Fragment", "chance": 120.0 },
@@ -712,11 +535,10 @@
       ]
     },
     {
-      "name": "Ashenclaw",
+      "name": "???",
       "type": "dungeon",
       "location": "Kobold's Den",
       "icon": "telos:material/dungeon/kobolds_den",
-      "bossBarHash": -167373510,
       "tiers": ["T6", "T7"],
       "drops": [
         { "name": "Gilded Fragment", "chance": 150.0 },
@@ -729,11 +551,10 @@
       ]
     },
     {
-      "name": "Corvack",
+      "name": "???",
       "type": "dungeon",
       "location": "Corvus Crypt",
       "icon": "telos:material/dungeon/corvus_crypt",
-      "bossBarHash": 832610318,
       "tiers": ["T6", "T7"],
       "drops": [
         { "name": "Gilded Fragment", "chance": 120.0 },
@@ -747,17 +568,16 @@
       ]
     },
     {
-      "name": "Omnipotent",
+      "name": "???",
       "type": "dungeon",
       "location": "Omnipotent's Citadel",
       "icon": "telos:material/dungeon/omnipotents_citadel",
-      "bossBarHash": -1254007688,
       "tiers": ["T7", "T8"],
       "drops": [
         { "name": "Royal Fragment", "chance": 50.0 },
         { "name": "Sceptre Of Gloom", "chance": 2.0, "id": "telos:weapon/sceptre/ut-gloom", "rarity": "royal", "shiny": 0.0666667 },
-        { "name": "Omnipotent Robe", "chance": 2.0, "id": "telos:armour/magical/chestplate/ut-omnipotent", "rarity": "royal" },
-        { "name": "Omnipotent Leggings", "chance": 2.0, "id": "telos:armour/magical/leggings/ut-omnipotent", "rarity": "royal" },
+        { "name": "Omnipotent Robe", "chance": 2.0, "id": "telos:armour/magical/chestplate/ut-omnipotent", "rarity": "royal", "shiny": 0.0666667 },
+        { "name": "Omnipotent Leggings", "chance": 2.0, "id": "telos:armour/magical/leggings/ut-omnipotent", "rarity": "royal", "shiny": 0.0666667 },
         { "name": "Void Hat", "chance": 1.3, "id": "telos:armour/light/helmet/ut-void", "rarity": "royal", "shiny": 0.0433333, "from": "specificMob" },
         { "name": "Black Hole Singularity", "chance": 0.8, "id": "telos:ability/trap/ut-blackhole", "rarity": "bloodshot" },
         { "name": "Mini Archmage", "chance": 0.4, "id": "telos:pet/omnipotents_citadel", "rarity": "fabled" },
@@ -765,11 +585,10 @@
       ]
     },
     {
-      "name": "Prismara",
+      "name": "???",
       "type": "dungeon",
       "location": "Fungal Cavern",
       "icon": "telos:material/dungeon/fungal_cavern",
-      "bossBarHash": -708336010,
       "tiers": ["T7", "T8"],
       "drops": [
         { "name": "Royal Fragment", "chance": 50.0 },
@@ -782,11 +601,10 @@
       ]
     },
     {
-      "name": "Thalassar",
+      "name": "???",
       "type": "dungeon",
       "location": "Corsair's Conductorium",
       "icon": "telos:material/dungeon/corsairs_conductorium",
-      "bossBarHash": -1621744702,
       "tiers": ["T7", "T8"],
       "drops": [
         { "name": "Royal Fragment", "chance": 50.0 },
@@ -799,11 +617,10 @@
       ]
     },
     {
-      "name": "Kurvaros",
+      "name": "???",
       "type": "dungeon",
       "location": "Anubis Lair",
       "icon": "telos:material/dungeon/anubis_lair",
-      "bossBarHash": -342534076,
       "tiers": ["T8"],
       "drops": [
         { "name": "Royal Fragment", "chance": 75.0 },
@@ -817,11 +634,10 @@
       ]
     },
     {
-      "name": "Malthar",
+      "name": "???",
       "type": "dungeon",
       "location": "Tartarus",
       "icon": "telos:material/dungeon/tartarus",
-      "bossBarHash": 1420701227,
       "tiers": ["T8"],
       "drops": [
         { "name": "Royal Fragment", "chance": 100.0 },
@@ -833,11 +649,10 @@
       ]
     },
     {
-      "name": "Silex",
+      "name": "???",
       "type": "dungeon",
       "location": "Cultist's Hideout",
       "icon": "telos:material/dungeon/cultists_hideout",
-      "bossBarHash": -1643392642,
       "drops": [
         { "name": "Royal Fragment", "chance": 120.0 },
         { "name": "Bloodshot Fragment", "chance": 5.0 },
@@ -851,11 +666,10 @@
       ]
     },
     {
-      "name": "Loa",
+      "name": "???",
       "type": "dungeon",
       "location": "Illarius' Hideout",
       "icon": "telos:material/dungeon/illarius_hideout",
-      "bossBarHash": -1382454635,
       "drops": [
         { "name": "Royal Fragment", "chance": 120.0 },
         { "name": "Royal Fragment", "chance": 20.0, "from": "specificMob" },
@@ -870,30 +684,21 @@
       ]
     },
     {
-      "name": "Dark Champion",
+      "name": "???",
       "type": "dungeon",
       "location": "Raph's Chamber",
       "icon": "telos:material/dungeon/onyx",
-      "drops": [
-        { "name": "Dark Guardian Sword", "chance": 2.0, "id": "telos:weapon/sword/ut-guardian", "rarity": "royal" },
-        { "name": "Slow Touch Orb", "chance": 2.0, "id": "telos:ability/orb/ut-slow", "rarity": "royal" },
-        { "name": "Corrupted Chaps", "chance": 2.0, "id": "telos:armour/light/leggings/ut-corrupted", "rarity": "royal" }
-      ]
-    },
-    {
-      "name": "Raphael",
-      "type": "dungeon",
-      "location": "Raph's Chamber",
-      "icon": "telos:material/dungeon/onyx",
-      "bossBarHash": 254038329,
       "tiers": ["T8"],
       "drops": [
         { "name": "Royal Fragment", "chance": 75.0 },
         { "name": "Bloodshot Fragment", "chance": 50.0 },
         { "name": "Royal Fragment", "chance": 20.0, "from": "specificMob" },
         { "name": "Royal Fragment", "chance": 10.0, "from": "puzzle" },
-        { "name": "Singed Star", "chance": 2.5, "id": "telos:ability/star/ut-singed", "rarity": "royal", "from": "specificMob" },
+        { "name": "Singed Star", "chance": 2.5, "id": "telos:ability/star/ut-singed", "rarity": "royal", "shiny": 0.0833333, "from": "specificMob" },
         { "name": "Royal Fragment", "chance": 2.0, "from": "anyMob" },
+        { "name": "Dark Guardian Sword", "chance": 2.0, "id": "telos:weapon/sword/ut-guardian", "rarity": "royal", "shiny": 0.0666667 },
+        { "name": "Slow Touch Orb", "chance": 2.0, "id": "telos:ability/orb/ut-slow", "rarity": "royal", "shiny": 0.0666667 },
+        { "name": "Corrupted Chaps", "chance": 2.0, "id": "telos:armour/light/leggings/ut-corrupted", "rarity": "royal", "shiny": 0.0666667 },
         { "name": "Crimson Sourcestone", "chance": 1.0, "rarity": "bloodshot" },
         { "name": "Exaltling", "chance": 0.2, "id": "telos:pet/onyx", "rarity": "exotic" },
         { "name": "Celestial Serpent", "chance": 0.2, "id": "telos:mount/onyx", "rarity": "exotic" },
@@ -909,35 +714,10 @@
       ]
     },
     {
-      "name": "Valerion",
+      "name": "???",
       "type": "dungeon",
       "location": "Rustborn Kingdom",
       "icon": "telos:material/dungeon/shatters",
-      "bossBarHash": -132746136,
-      "drops": [
-        { "name": "Valerion's Poniard", "chance": 0.6, "id": "telos:weapon/dagger/ut-poniard", "rarity": "bloodshot", "shiny": 0.02 },
-        { "name": "Valerion's Bane", "chance": 0.6, "id": "telos:weapon/katana/ut-bane", "rarity": "bloodshot", "shiny": 0.02 },
-        { "name": "Custodian's Visor", "chance": 0.6, "id": "telos:armour/light/helmet/ut-sentinel", "rarity": "bloodshot", "shiny": 0.02 }
-      ]
-    },
-    {
-      "name": "Nebula",
-      "type": "dungeon",
-      "location": "Rustborn Kingdom",
-      "icon": "telos:material/dungeon/shatters",
-      "bossBarHash": -829226362,
-      "drops": [
-        { "name": "Nebula's Battleaxe", "chance": 0.6, "id": "telos:weapon/sword/ut-battleaxe", "rarity": "bloodshot", "shiny": 0.02 },
-        { "name": "Dusk Weaver", "chance": 0.6, "id": "telos:weapon/sceptre/ut-dusk", "rarity": "bloodshot", "shiny": 0.02 },
-        { "name": "Archon's Glare", "chance": 0.6, "id": "telos:armour/magical/helmet/ut-mage", "rarity": "bloodshot", "shiny": 0.02 }
-      ]
-    },
-    {
-      "name": "Ophanim",
-      "type": "dungeon",
-      "location": "Rustborn Kingdom",
-      "icon": "telos:material/dungeon/shatters",
-      "bossBarHash": -132585649,
       "drops": [
         { "name": "Bloodshot Fragment", "chance": 120.0, "part": 1 },
         { "name": "Bloodshot Fragment", "chance": 50.0, "part": 2 },
@@ -946,6 +726,12 @@
         { "name": "Bloodshot Fragment", "chance": 5.0, "from": "anyMob", "part": 1 },
         { "name": "Bloodshot Fragment", "chance": 3.0, "from": "anyMob", "part": 2 },
         { "name": "Bloodshot Fragment", "chance": 3.0, "from": "anyMob", "part": 3 },
+        { "name": "Valerion's Poniard", "chance": 0.6, "id": "telos:weapon/dagger/ut-poniard", "rarity": "bloodshot", "shiny": 0.02 },
+        { "name": "Valerion's Bane", "chance": 0.6, "id": "telos:weapon/katana/ut-bane", "rarity": "bloodshot", "shiny": 0.02 },
+        { "name": "Custodian's Visor", "chance": 0.6, "id": "telos:armour/light/helmet/ut-sentinel", "rarity": "bloodshot", "shiny": 0.02 },
+        { "name": "Nebula's Battleaxe", "chance": 0.6, "id": "telos:weapon/sword/ut-battleaxe", "rarity": "bloodshot", "shiny": 0.02 },
+        { "name": "Dusk Weaver", "chance": 0.6, "id": "telos:weapon/sceptre/ut-dusk", "rarity": "bloodshot", "shiny": 0.02 },
+        { "name": "Archon's Glare", "chance": 0.6, "id": "telos:armour/magical/helmet/ut-mage", "rarity": "bloodshot", "shiny": 0.02 },
         { "name": "Final Destination", "chance": 0.6, "id": "telos:weapon/staff/ut-destination", "rarity": "bloodshot", "shiny": 0.02 },
         { "name": "Oracle's End", "chance": 0.6, "id": "telos:weapon/bow/ut-oracle", "rarity": "bloodshot", "shiny": 0.02 },
         { "name": "Crown Of Ethereal Radiance", "chance": 0.6, "id": "telos:armour/heavy/helmet/ut-crown", "rarity": "bloodshot", "shiny": 0.02 },
@@ -962,60 +748,31 @@
       ]
     },
     {
-      "name": "Valerion",
+      "name": "???",
       "type": "dungeon",
       "location": "Dawn Of Creation",
       "icon": "telos:material/dungeon/hardmode_shatters",
-      "bossBarHash": -132746136,
       "drops": [
+        { "name": "Bloodshot Fragment", "chance": 150.0 },
         { "name": "Valerion's Poniard", "chance": 0.6, "id": "telos:weapon/dagger/ut-poniard", "rarity": "bloodshot", "shiny": 0.02 },
         { "name": "Valerion's Bane", "chance": 0.6, "id": "telos:weapon/katana/ut-bane", "rarity": "bloodshot", "shiny": 0.02 },
-        { "name": "Custodian's Visor", "chance": 0.6, "id": "telos:armour/light/helmet/ut-sentinel", "rarity": "bloodshot", "shiny": 0.02 }
-      ]
-    },
-    {
-      "name": "Nebula",
-      "type": "dungeon",
-      "location": "Dawn Of Creation",
-      "icon": "telos:material/dungeon/hardmode_shatters",
-      "bossBarHash": -829226362,
-      "drops": [
+        { "name": "Custodian's Visor", "chance": 0.6, "id": "telos:armour/light/helmet/ut-sentinel", "rarity": "bloodshot", "shiny": 0.02 },
         { "name": "Nebula's Battleaxe", "chance": 0.6, "id": "telos:weapon/sword/ut-battleaxe", "rarity": "bloodshot", "shiny": 0.02 },
         { "name": "Dusk Weaver", "chance": 0.6, "id": "telos:weapon/sceptre/ut-dusk", "rarity": "bloodshot", "shiny": 0.02 },
-        { "name": "Archon's Glare", "chance": 0.6, "id": "telos:armour/magical/helmet/ut-mage", "rarity": "bloodshot", "shiny": 0.02 }
-      ]
-    },
-    {
-      "name": "Ophanim",
-      "type": "dungeon",
-      "location": "Dawn Of Creation",
-      "icon": "telos:material/dungeon/hardmode_shatters",
-      "bossBarHash": -132585649,
-      "drops": [
+        { "name": "Archon's Glare", "chance": 0.6, "id": "telos:armour/magical/helmet/ut-mage", "rarity": "bloodshot", "shiny": 0.02 },
         { "name": "Final Destination", "chance": 0.6, "id": "telos:weapon/staff/ut-destination", "rarity": "bloodshot", "shiny": 0.02 },
         { "name": "Oracle's End", "chance": 0.6, "id": "telos:weapon/bow/ut-oracle", "rarity": "bloodshot", "shiny": 0.02 },
         { "name": "Crown Of Ethereal Radiance", "chance": 0.6, "id": "telos:armour/heavy/helmet/ut-crown", "rarity": "bloodshot", "shiny": 0.02 },
+        { "name": "The Pendant of Sin", "chance": 0.6, "rarity": "unholy" },
         { "name": "Lumine", "chance": 0.2, "id": "telos:pet/shatters", "rarity": "exotic" },
         { "name": "Astralflare", "chance": 0.2, "id": "telos:mount/shatters", "rarity": "exotic" }
       ]
     },
     {
-      "name": "True Ophan",
-      "type": "dungeon",
-      "location": "Dawn Of Creation",
-      "icon": "telos:material/dungeon/hardmode_shatters",
-      "bossBarHash": -132915272,
-      "drops": [
-        { "name": "Bloodshot Fragment", "chance": 150.0 },
-        { "name": "The Pendant of Sin", "chance": 0.6, "rarity": "unholy" }
-      ]
-    },
-    {
-      "name": "Aetheris",
+      "name": "???",
       "type": "dungeon",
       "location": "Aurora Sanctum",
       "icon": "telos:material/dungeon/aurora_sanctum",
-      "bossBarHash": -828991878,
       "drops": [
         { "name": "Royal Fragment", "chance": 120.0 },
         { "name": "Bloodshot Fragment", "chance": 5.0 },
@@ -1029,11 +786,10 @@
       ]
     },
     {
-      "name": "Solarflare",
+      "name": "???",
       "type": "dungeon",
       "location": "Aviary",
       "icon": "telos:material/dungeon/aviary",
-      "bossBarHash": 1824190226,
       "drops": [
         { "name": "Royal Fragment", "chance": 120.0 },
         { "name": "Bloodshot Fragment", "chance": 5.0 },
@@ -1047,41 +803,22 @@
       ]
     },
     {
-      "name": "Apostle",
+      "name": "???",
       "type": "dungeon",
       "location": "Neo Eden",
       "icon": "telos:material/dungeon/neo_eden",
-      "bossBarHash": -1329808852,
-      "drops": [
-        { "name": "Se'arah", "chance": 0.6, "id": "telos:weapon/bow/ut-searah", "rarity": "bloodshot", "shiny": 0.02 },
-        { "name": "Category Six", "chance": 0.6, "id": "telos:weapon/dagger/ut-six", "rarity": "bloodshot", "shiny": 0.02 },
-        { "name": "Leggings Of False Glory", "chance": 0.6, "id": "telos:armour/magical/leggings/ut-glory", "rarity": "bloodshot" }
-      ]
-    },
-    {
-      "name": "Hierophant",
-      "type": "dungeon",
-      "location": "Neo Eden",
-      "icon": "telos:material/dungeon/neo_eden",
-      "bossBarHash": -1329807891,
-      "drops": [
-        { "name": "Prominence", "chance": 0.6, "id": "telos:weapon/sword/ut-prominence", "rarity": "bloodshot", "shiny": 0.02 },
-        { "name": "Flames Of Pentecost", "chance": 0.6, "id": "telos:weapon/staff/ut-pentecost", "rarity": "bloodshot", "shiny": 0.02 },
-        { "name": "Dauntless Inferno", "chance": 0.6, "id": "telos:armour/heavy/boots/ut-inferno", "rarity": "bloodshot" }
-      ]
-    },
-    {
-      "name": "Cherubim",
-      "type": "dungeon",
-      "location": "Neo Eden",
-      "icon": "telos:material/dungeon/neo_eden",
-      "bossBarHash": -132588532,
       "drops": [
         { "name": "Bloodshot Fragment", "chance": 150.0 },
         { "name": "Bloodshot Fragment", "chance": 110.0 },
         { "name": "Bloodshot Fragment", "chance": 20.0, "from": "puzzle" },
         { "name": "Bloodshot Fragment", "chance": 5.0, "from": "anyMob" },
         { "name": "Serpent's Soul", "chance": 0.6, "id": "telos:armour/light/boots/ut-serpents", "rarity": "bloodshot", "from": "puzzle" },
+        { "name": "Prominence", "chance": 0.6, "id": "telos:weapon/sword/ut-prominence", "rarity": "bloodshot", "shiny": 0.02 },
+        { "name": "Flames Of Pentecost", "chance": 0.6, "id": "telos:weapon/staff/ut-pentecost", "rarity": "bloodshot", "shiny": 0.02 },
+        { "name": "Dauntless Inferno", "chance": 0.6, "id": "telos:armour/heavy/boots/ut-inferno", "rarity": "bloodshot" },
+        { "name": "Se'arah", "chance": 0.6, "id": "telos:weapon/bow/ut-searah", "rarity": "bloodshot", "shiny": 0.02 },
+        { "name": "Category Six", "chance": 0.6, "id": "telos:weapon/dagger/ut-six", "rarity": "bloodshot", "shiny": 0.02 },
+        { "name": "Leggings Of False Glory", "chance": 0.6, "id": "telos:armour/magical/leggings/ut-glory", "rarity": "bloodshot" },
         { "name": "Fractured Firmament", "chance": 0.6, "id": "telos:weapon/sceptre/ut-firmament", "rarity": "bloodshot", "shiny": 0.02 },
         { "name": "Nachash Of The First Lie", "chance": 0.6, "id": "telos:weapon/katana/ut-nachash", "rarity": "bloodshot", "shiny": 0.02 },
         { "name": "Forbidden Fleece", "chance": 0.6, "id": "telos:armour/light/chestplate/ut-forbidden", "rarity": "bloodshot" },
@@ -1125,11 +862,10 @@
       ]
     },
     {
-      "name": "Voided Omnipotent",
+      "name": "???",
       "type": "dungeon",
       "location": "Tenebris",
       "icon": "telos:material/dungeon/tenebris",
-      "bossBarHash": -1253581965,
       "drops": [
         { "name": "Bloodshot Fragment", "chance": 120.0 },
         { "name": "Fractured Nihility", "chance": 1.0, "rarity": "voidbound" },
@@ -1141,11 +877,10 @@
       ]
     },
     {
-      "name": "Sylvaris",
+      "name": "???",
       "type": "dungeon",
       "location": "Dreadwood Thicket",
       "icon": "telos:material/dungeon/dreadwood_thicket",
-      "bossBarHash": 230903377,
       "drops": [
         { "name": "Bloodshot Fragment", "chance": 50.0 },
         { "name": "Royal Fragment", "chance": 50.0, "from": "puzzle" },
@@ -1159,44 +894,33 @@
       ]
     },
     {
-      "name": "Unrest",
+      "name": "???",
       "type": "dungeon",
       "location": "Resounding Ruins",
       "icon": "telos:material/dungeon/resounding_ruins",
-      "bossBarHash": 1301379752,
       "drops": [
         { "name": "Bloodshot Fragment", "chance": 50.0 },
         { "name": "Royal Fragment", "chance": 15.0, "from": "specificMob" },
         { "name": "Bloodshot Fragment", "chance": 2.0, "from": "anyMob" },
         { "name": "Sonic Doom", "chance": 0.6, "id": "telos:weapon/sword/ut-doom", "rarity": "bloodshot" },
-        { "name": "Echolurkator", "chance": 0.6, "id": "telos:weapon/staff/ut-echo", "rarity": "bloodshot" },
+        { "name": "Echolurkator", "chance": 0.6, "id": "telos:weapon/staff/ut-echo", "rarity": "bloodshot", "shiny": 0.02 },
         { "name": "Spinestone", "chance": 0.6, "id": "telos:ability/jewel/ut-spinestone", "rarity": "bloodshot", "shiny": 0.02 },
         { "name": "Legion", "chance": 0.2, "id": "telos:pet/resounding_ruins", "rarity": "exotic" },
         { "name": "Echoraptor", "chance": 0.2, "id": "telos:mount/resounding_ruins", "rarity": "exotic" }
       ]
     },
     {
-      "name": "Asmodeus",
+      "name": "???",
       "type": "dungeon",
       "location": "Celestial's Province",
       "icon": "telos:material/dungeon/celestials_province",
-      "bossBarHash": -1622067598,
-      "drops": [
-        { "name": "Visage Of The Night", "chance": 0.6, "id": "telos:ability/emblem/ut-visage", "rarity": "bloodshot", "shiny": 0.02 },
-        { "name": "Baphomet's Bomb", "chance": 0.6, "id": "telos:ability/bomb/ut-baphomet", "rarity": "bloodshot", "shiny": 0.02 },
-        { "name": "Blood Of The Heretics", "chance": 0.6, "id": "telos:ability/poison/ut-heretics", "rarity": "bloodshot", "shiny": 0.02 }
-      ]
-    },
-    {
-      "name": "Seraphim",
-      "type": "dungeon",
-      "location": "Celestial's Province",
-      "icon": "telos:material/dungeon/celestials_province",
-      "bossBarHash": -1643406096,
       "drops": [
         { "name": "Bloodshot Fragment", "chance": 120.0 },
         { "name": "Bloodshot Fragment", "chance": 50.0 },
         { "name": "Bloodshot Fragment", "chance": 10.0, "from": "anyMob" },
+        { "name": "Visage Of The Night", "chance": 0.6, "id": "telos:ability/emblem/ut-visage", "rarity": "bloodshot", "shiny": 0.02 },
+        { "name": "Baphomet's Bomb", "chance": 0.6, "id": "telos:ability/bomb/ut-baphomet", "rarity": "bloodshot", "shiny": 0.02 },
+        { "name": "Blood Of The Heretics", "chance": 0.6, "id": "telos:ability/poison/ut-heretics", "rarity": "bloodshot", "shiny": 0.02 },
         { "name": "Feathers Of The Seraph", "chance": 0.6, "id": "telos:ability/kunai/ut-feathers", "rarity": "bloodshot", "shiny": 0.02 },
         { "name": "Seraph's Essence", "chance": 0.6, "id": "telos:ability/orb/ut-essence", "rarity": "bloodshot", "shiny": 0.02 },
         { "name": "Empyrean Epitome", "chance": 0.6, "id": "telos:ability/skull/ut-epitome", "rarity": "bloodshot", "shiny": 0.02 },
@@ -1206,46 +930,22 @@
       ]
     },
     {
-      "name": "Asmodeus",
+      "name": "???",
       "type": "dungeon",
       "location": "Seraph's Domain",
       "icon": "telos:material/dungeon/hardmode_celestials_province",
-      "bossBarHash": -1622067598,
       "drops": [
+        { "name": "Bloodshot Fragment", "chance": 150.0 },
         { "name": "Visage Of The Night", "chance": 0.6, "id": "telos:ability/emblem/ut-visage", "rarity": "bloodshot", "shiny": 0.02 },
         { "name": "Baphomet's Bomb", "chance": 0.6, "id": "telos:ability/bomb/ut-baphomet", "rarity": "bloodshot", "shiny": 0.02 },
-        { "name": "Blood Of The Heretics", "chance": 0.6, "id": "telos:ability/poison/ut-heretics", "rarity": "bloodshot", "shiny": 0.02 }
-      ]
-    },
-    {
-      "name": "Seraphim",
-      "type": "dungeon",
-      "location": "Seraph's Domain",
-      "icon": "telos:material/dungeon/hardmode_celestials_province",
-      "bossBarHash": -1643406096,
-      "drops": [
+        { "name": "Blood Of The Heretics", "chance": 0.6, "id": "telos:ability/poison/ut-heretics", "rarity": "bloodshot", "shiny": 0.02 },
         { "name": "Feathers Of The Seraph", "chance": 0.6, "id": "telos:ability/kunai/ut-feathers", "rarity": "bloodshot", "shiny": 0.02 },
         { "name": "Seraph's Essence", "chance": 0.6, "id": "telos:ability/orb/ut-essence", "rarity": "bloodshot", "shiny": 0.02 },
         { "name": "Empyrean Epitome", "chance": 0.6, "id": "telos:ability/skull/ut-epitome", "rarity": "bloodshot", "shiny": 0.02 },
+        { "name": "The Holy Cross", "chance": 0.6, "rarity": "unholy" },
         { "name": "Thanatos", "chance": 0.2, "id": "telos:pet/celestials_province", "rarity": "exotic" },
         { "name": "Seraphix", "chance": 0.2, "id": "telos:mount/celestials_province", "rarity": "exotic" }
       ]
-    },
-    {
-      "name": "True Seraph",
-      "type": "dungeon",
-      "location": "Seraph's Domain",
-      "icon": "telos:material/dungeon/hardmode_celestials_province",
-      "bossBarHash": -1643245609,
-      "drops": [
-        { "name": "Bloodshot Fragment", "chance": 150.0 },
-        { "name": "The Holy Cross", "chance": 0.6, "rarity": "unholy" }
-      ]
-    },
-    { "name": "Freddy", "type": "boss", "location": "Realm", "bossBarHash": -1343349613 },
-    { "name": "Golden Freddy", "type": "dungeon", "bossBarHash": -422985676 },
-    { "name": "Chronos", "type": "dungeon", "bossBarHash": 290925398 },
-    { "name": "Orion & Osiris", "type": "dungeon", "bossBarHash": 2131893865 },
-    { "name": "Mithrion", "type": "dungeon", "bossBarHash": -707883379 }
+    }
   ]
 }

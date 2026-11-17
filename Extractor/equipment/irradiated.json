@@ -1,6 +1,6 @@
 {
   "source": "wiki: Equipment Information",
-  "scanned": "2026-11-16T00:48:58.136322800Z",
+  "scanned": "2026-11-17T01:31:08.389326200Z",
   "count": 22,
   "items": [
     {
@@ -94,7 +94,7 @@
       "tierPoints": 9,
       "source": { "name": "Thornwood Wargrove", "icon": "telos:material/dungeon/thornwood_wargrove" },
       "stats": { "Speed": "+9", "Evasion": "+4", "Cooldown": "10s" },
-      "text": ["Ability: Lunge forward", "upon sneaking whilst", "airborne. Alternatively,", "sneak 3 times in quick", "succession to lunge", "forward from the", "ground."],
+      "text": ["Ability: Lunge forward", "upon sneaking whilst", "airborne."],
       "shiny": { "id": "telos:armour/light/boots/ut-wartorn-shiny", "model": "telos:material/armour/light/boots/ut-wartorn-shiny" },
       "classes": ["Assassin", "Huntress"]
     },
@@ -304,6 +304,7 @@
       "source": { "name": "Desert Temple", "icon": "telos:material/dungeon/desert_temple" },
       "stats": { "Damage": "5.5", "Range": "9", "Beams": "3", "Pierces": "Yes", "Cooldown": "1s" },
       "text": ["Ability: Each hit has a", "50% chance to spawn a", "mummy hand that deals", "AoE 0.33x damage", "every 1.0s for 3.0s."],
+      "shiny": { "id": "telos:weapon/sceptre/ut-thorns-shiny", "model": "telos:material/weapon/sceptre/ut-thorns-shiny" },
       "classes": ["Arcanist"]
     },
     {

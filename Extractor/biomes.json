@@ -1,6 +1,6 @@
 {
   "source": "wiki: Biome Information",
-  "scanned": "2026-11-16T00:48:09.282290400Z",
+  "scanned": "2026-11-17T01:30:08.840101200Z",
   "count": 10,
   "biomes": [
     {
@@ -10,8 +10,7 @@
       "minibosses": ["Scorpion King", "Brakk"],
       "eventBosses": [
         { "boss": "Tidol", "dungeon": "Corsair's Conductorium" }
-      ],
-      "weatherEvent": []
+      ]
     },
     {
       "name": "The Jungle",
@@ -20,8 +19,7 @@
       "minibosses": ["Ku", "Kane", "Lono", "Grimleaf"],
       "eventBosses": [
         { "boss": "Illarius", "dungeon": "Illarius' Hideout" }
-      ],
-      "weatherEvent": []
+      ]
     },
     {
       "name": "Swamp",
@@ -31,8 +29,7 @@
       "eventBosses": [
         { "boss": "Chungus", "dungeon": "Rustborn Kingdom" },
         { "boss": "Glumi", "dungeon": "Fungal Cavern" }
-      ],
-      "weatherEvent": []
+      ]
     },
     {
       "name": "Desert",
@@ -41,8 +38,7 @@
       "minibosses": ["Desert Drake"],
       "eventBosses": [
         { "boss": "Anubis", "dungeon": "Anubis Lair" }
-      ],
-      "weatherEvent": []
+      ]
     },
     {
       "name": "Crimson Forest",
@@ -51,8 +47,7 @@
       "minibosses": ["Hellmesh"],
       "eventBosses": [
         { "boss": "Astaroth", "dungeon": "Tartarus" }
-      ],
-      "weatherEvent": []
+      ]
     },
     {
       "name": "Permafrost",
@@ -61,8 +56,7 @@
       "minibosses": ["Nocs"],
       "eventBosses": [
         { "boss": "Lotil", "dungeon": "Omnipotent's Citadel" }
-      ],
-      "weatherEvent": []
+      ]
     },
     {
       "name": "Necropolis",
@@ -71,16 +65,14 @@
       "minibosses": ["Gravesbane"],
       "eventBosses": [
         { "boss": "Valus", "dungeon": "Cultist's Hideout" }
-      ],
-      "weatherEvent": []
+      ]
     },
     {
       "name": "Shadowlands",
       "description": "A dark biome hidden beneath the surface. Accessible via the Shadow Teleporter located at the centre plaza.",
       "dungeons": ["Dreadwood Thicket", "Resounding Ruins"],
       "minibosses": ["Reaper", "Herald", "Warden"],
-      "bosses": ["Defender (Celestial's Province)"],
-      "weatherEvent": []
+      "bosses": ["Defender (Celestial's Province)"]
     },
     {
       "name": "Radiant Isles",
@@ -89,15 +81,13 @@
       "minibosses": ["Luna", "Aurehog"],
       "eventBosses": [
         { "boss": "Cog Sentinel", "dungeon": "Neo Eden" }
-      ],
-      "weatherEvent": []
+      ]
     },
     {
       "name": "Voided Abyss",
       "description": "A voided area located far from the main realm island. Accessible via the void teleporter at the gate in the centre plaza.",
       "dungeons": ["Midnight Stronghold", "Valley of the Lost", "Tenebris"],
-      "minibosses": ["Oozul", "Vudu"],
-      "weatherEvent": []
+      "minibosses": ["Oozul", "Vudu"]
     }
   ]
 }
