@@ -36,7 +36,7 @@ e.g. `"The Aviary": "Aviary"`), `bosses` (list). One boss:
 | Field | Needed for | What |
 |---|---|---|
 | `name` | always | Boss name as the game shows it. Dungeon boss not known yet: `"???"` |
-| `dungeon` | dungeon bosses | Dungeon it is fought in (dungeon name from the HUD location box). No `dungeon` = realm boss |
+| `dungeon` | dungeon bosses | Dungeon it is fought in (dungeon name from the HUD location box). Multi-part dungeons may name the part (`"Rustborn Kingdom: Part II"`): the Pity Counter then shows only that part's bosses, and each part's last boss counts a run. No `dungeon` = realm boss |
 | `zone` | realm bosses in a zone | `Shadowlands` / `Radiant Isles` — the Boss Tracker / Pity Counter only list it there. No `zone` = open realm |
 | `bossBarHash` | Boss Bar Scale, "which boss is up" | Hash of its boss bar name (one number, or a list) |
 | `positions` | Pity Counter, Boss Tracker | Spawn spots `{ "x", "y", "z" }` (optional `name`) |

@@ -684,18 +684,18 @@
     },
     {
       "name": "Valerion",
-      "dungeon": "Rustborn Kingdom",
+      "dungeon": "Rustborn Kingdom: Part I",
       "bossBarHash": -132746136,
       "drops": [
         { "name": "Valerion's Poniard", "chance": 0.6, "id": "telos:weapon/dagger/ut-poniard", "rarity": "bloodshot", "shiny": true },
         { "name": "Valerion's Bane", "chance": 0.6, "id": "telos:weapon/katana/ut-bane", "rarity": "bloodshot", "shiny": true },
         { "name": "Custodian's Visor", "chance": 0.6, "id": "telos:armour/light/helmet/ut-sentinel", "rarity": "bloodshot", "shiny": true },
-        {"name": "Chrysalis Of Light", "chance": 0.08, "id": "telos:armour/heavy/chestplate/ut-chrysalis", "rarity": "royal", "shiny": true, "mob": "Guardian Of Light" }
+        { "name": "Chrysalis Of Light", "chance": 0.08, "id": "telos:armour/heavy/chestplate/ut-chrysalis", "rarity": "royal", "shiny": true, "mob": "Guardian Of Light" }
       ]
     },
     {
       "name": "Nebula",
-      "dungeon": "Rustborn Kingdom",
+      "dungeon": "Rustborn Kingdom: Part II",
       "bossBarHash": -829226362,
       "drops": [
         { "name": "Nebula's Battleaxe", "chance": 0.6, "id": "telos:weapon/sword/ut-battleaxe", "rarity": "bloodshot", "shiny": true },
@@ -705,7 +705,7 @@
     },
     {
       "name": "Ophanim",
-      "dungeon": "Rustborn Kingdom",
+      "dungeon": "Rustborn Kingdom: Part III",
       "bossBarHash": -132585649,
       "drops": [
         { "name": "Final Destination", "chance": 0.6, "id": "telos:weapon/staff/ut-destination", "rarity": "bloodshot", "shiny": true },
