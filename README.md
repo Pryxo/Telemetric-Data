@@ -58,7 +58,7 @@ Only drops with pity belong here — no fragments, no drops from random mobs / p
 and `shiny` as loot groups) → `label`, `color` (`#RRGGBB`), `glyph` (chat icon), `icon` (pouch glyph, Lifetime
 Stats), `bag` (loot bag totem: item model `telos:mob/pouch/<bag>`), `sound` (drop sound suffix
 `noise:player.bags.create_<sound>`, default = key), `group` (Lifetime Stats row, default = key).
-`eventBags`: bags that are no rarity (same fields, `group` default `event`).
+`eventBags`: bags that are no rarity (same fields, `group` default `event`). An event bag with a `color` can be a Boss.json drop `rarity` (e.g. `"rarity": "halloween"`): the Pity Counter then uses its colour / label, on any drop; without a `rarity` pets, mounts and skins show as Companion.
 
 ### `tables/traits.json`
 `tiers`: tier letters, lowest first (`["D", "C", "B", "A", "S"]`). `weapon` / `ability` / `armour`: unique traits,
