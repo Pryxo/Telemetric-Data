@@ -1,5 +1,4 @@
 {
-  "_comment": "Hand-written (Callouts module, from Melinoe's Keybinds tab, with permission). cooldown: a boss/portal already called out in this realm by anyone (public chat only) blocks your own call for 'seconds', or 'hpChangedSeconds' once its HP moved by 'hpStep' %. bars: bosses whose bar only covers part of it (Apostle & Hierophant share one fight: each bar runs from 'from'% to 100%). duos: bosses called out together. phases: boss phase by HP (first stage with hp >= from). portals: portal model names (Evoker head model, last path part) whose label is neither a known dungeon name nor the title-cased name ('' = not a dungeon portal, ignored). unmodelledPortal: the portal whose Evoker wears no head model, only valid in that area.",
   "version": 1,
   "cooldown": { "seconds": 15, "hpChangedSeconds": 10, "hpStep": 10 },
   "bars": {

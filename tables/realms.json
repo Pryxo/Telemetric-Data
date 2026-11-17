@@ -1,5 +1,4 @@
 {
-  "_comment": "Hand-written (Keybinds -> Realm Selector, from Melinoe's realm lists, with permission). A region is picked by the region part of the Tab 'Server' value ('[<region>, <realm>]'): the first region whose 'prefix' starts it (case-insensitive). realms = normal realms, hubs = hub / mission servers (own row). Every button runs /joinq <name>.",
   "version": 1,
   "regions": [
     {

@@ -1,5 +1,4 @@
 {
-  "_comment": "Hand-written (Chat module, from Melinoe's Chat tab, with permission). tabs: chat tabs in bar order after 'All'. A message gets the FIRST category in 'categories' whose regex (Java, find anywhere in the plain text) matches; 'builtin: callout' = a player callout (chat/Callouts). A tab shows its own category plus the ones in 'also'. shown = ticked by default in Chat -> Tabs. channel = server chat mode (/chat <id>) the tab switches to while open (leaving it for 'All' switches back to default). utility: whole-message regexes of server lines Chat -> Hide Utility Messages removes.",
   "version": 1,
   "categories": [
     {

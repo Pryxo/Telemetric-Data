@@ -1,6 +1,0 @@
-{
-  "_comment": "Shiny drop chance = the normal drop's chance / divisor, by the normal item's rarity (default = every other rarity). Boss.json drops only mark \"shiny\": true.",
-  "irradiated": 50,
-  "gilded": 40,
-  "default": 30
-}

@@ -1,5 +1,4 @@
 {
-  "_comment": "Hand-written (Social -> Discord RPC, from Melinoe's Discord RPC, with permission). applicationId: the Discord application whose name and art the presence shows (image keys = that application's Rich Presence art assets). modeImages: small image per character mode (Tab 'Class' mode). areaTexts: second line while in that area and not fighting. Texts may use {mod} (mod name). Max 2 buttons.",
   "version": 1,
   "applicationId": "1571787993952428052",
   "largeImage": "large",
