@@ -186,13 +186,13 @@
       "tracker": { "call": "Hollow is your fate, as it is mine (?<player>.+)!" },
       "drops": [
         { "name": "Dreadsnatcher", "chance": 0.2, "id": "telos:mount/dreadsnatcher"},
-        { "name": "Bramble Bow Skin", "chance": 0.1, "id": "telos:material/skin/hallowed_bow", "rarity": "halloween" },
-        { "name": "Dirk Of Horrors Skin", "chance": 0.1, "id": "telos:material/skin/hallowed_dagger", "rarity": "halloween" },
-        { "name": "Sceptre Of Soulbound Terror Skin", "chance": 0.1, "id": "telos:material/skin/hallowed_sceptre", "rarity": "halloween" },
-        { "name": "Kunai Of Cursed Souls Skin", "chance": 0.1, "id": "telos:material/skin/hallowed_kunai", "rarity": "halloween" },
-        { "name": "Eye Of Confliction Skin", "chance": 0.1, "id": "telos:material/skin/hallowed_orb", "rarity": "halloween" },
-        { "name": "Hollow's Harvest Skin", "chance": 0.1, "id": "telos:material/skin/hallowed_scripture", "rarity": "halloween" },
-        { "name": "Solar Eclipse Staff Skin", "chance": 0.1, "id": "telos:material/skin/hallowed_staff", "rarity": "halloween" }
+        { "name": "Bramble Bow Skin", "chance": 0.1, "id": "telos:material/weapon/bow/skin_hallowed", "rarity": "halloween" },
+        { "name": "Dirk Of Horrors Skin", "chance": 0.1, "id": "telos:material/weapon/dagger/skin_hallowed", "rarity": "halloween" },
+        { "name": "Sceptre Of Soulbound Terror Skin", "chance": 0.1, "id": "telos:material/weapon/sceptre/skin_hallowed", "rarity": "halloween" },
+        { "name": "Kunai Of Cursed Souls Skin", "chance": 0.1, "id": "telos:material/ability/kunai/skin_hallowed", "rarity": "halloween" },
+        { "name": "Eye Of Confliction Skin", "chance": 0.1, "id": "telos:material/ability/orb/skin_hallowed", "rarity": "halloween" },
+        { "name": "Hollow's Harvest Skin", "chance": 0.1, "id": "telos:material/ability/scripture/skin_hallowed", "rarity": "halloween" },
+        { "name": "Solar Eclipse Staff Skin", "chance": 0.1, "id": "telos:material/weapon/staff/skin_hallowed", "rarity": "halloween" }
       ]
     },
     {
