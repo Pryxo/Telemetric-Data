@@ -10,24 +10,10 @@
       "type": "armour/heavy/helmet",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Rustborn Kingdom",
-        "icon": "telos:material/dungeon/shatters"
-      },
-      "stats": {
-        "Health": "+2",
-        "Attack": "+8",
-        "Defense": "+16",
-        "Critical Chance": "+9"
-      },
-      "shiny": {
-        "id": "telos:armour/heavy/helmet/ut-crown-shiny",
-        "model": "telos:material/armour/heavy/helmet/ut-crown-shiny"
-      },
-      "classes": [
-        "Knight",
-        "Samurai"
-      ]
+      "source": { "name": "Rustborn Kingdom", "icon": "telos:material/dungeon/shatters" },
+      "stats": { "Health": "+2", "Attack": "+8", "Defense": "+16", "Critical Chance": "+9" },
+      "shiny": { "id": "telos:armour/heavy/helmet/ut-crown-shiny", "model": "telos:material/armour/heavy/helmet/ut-crown-shiny" },
+      "classes": ["Knight", "Samurai"]
     },
     {
       "id": "telos:armour/heavy/helmet/ut-contract",
@@ -36,25 +22,10 @@
       "type": "armour/heavy/helmet",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "stats": {
-        "Attack": "1",
-        "Defense": "+10",
-        "Vitality": "+6",
-        "Critical Chance": "+35"
-      },
-      "text": [
-        "Ability: Every time you",
-        "critical hit, gain Attack for",
-        "10.0s (1.0s cooldown)."
-      ],
-      "shiny": {
-        "id": "telos:armour/heavy/helmet/ut-contract-shiny",
-        "model": "telos:material/armour/heavy/helmet/ut-contract-shiny"
-      },
-      "classes": [
-        "Knight",
-        "Samurai"
-      ]
+      "stats": { "Attack": "1", "Defense": "+10", "Vitality": "+6", "Critical Chance": "+35" },
+      "text": ["Ability: Every time you", "critical hit, gain Attack for", "10.0s (1.0s cooldown)."],
+      "shiny": { "id": "telos:armour/heavy/helmet/ut-contract-shiny", "model": "telos:material/armour/heavy/helmet/ut-contract-shiny" },
+      "classes": ["Knight", "Samurai"]
     },
     {
       "id": "telos:armour/heavy/chestplate/ut-onyx",
@@ -63,24 +34,10 @@
       "type": "armour/heavy/chestplate",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Raph's Chamber",
-        "icon": "telos:material/dungeon/onyx"
-      },
-      "stats": {
-        "Attack": "+12",
-        "Defense": "+13",
-        "Evasion": "+4",
-        "Critical Chance": "+6"
-      },
-      "shiny": {
-        "id": "telos:armour/heavy/chestplate/ut-onyx-shiny",
-        "model": "telos:material/armour/heavy/chestplate/ut-onyx-shiny"
-      },
-      "classes": [
-        "Knight",
-        "Samurai"
-      ]
+      "source": { "name": "Raph's Chamber", "icon": "telos:material/dungeon/onyx" },
+      "stats": { "Attack": "+12", "Defense": "+13", "Evasion": "+4", "Critical Chance": "+6" },
+      "shiny": { "id": "telos:armour/heavy/chestplate/ut-onyx-shiny", "model": "telos:material/armour/heavy/chestplate/ut-onyx-shiny" },
+      "classes": ["Knight", "Samurai"]
     },
     {
       "id": "telos:armour/heavy/chestplate/ut-berserker",
@@ -89,11 +46,7 @@
       "type": "armour/heavy/chestplate",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "stats": {
-        "Health": "+12",
-        "Critical Damage": "10",
-        "Cooldown": "10s"
-      },
+      "stats": { "Health": "+12", "Critical Damage": "10", "Cooldown": "10s" },
       "text": [
         "Ability: On ability use, gain",
         "Critical Damage for 9.0s and",
@@ -102,14 +55,8 @@
         "Critical Damage for each HP",
         "missing."
       ],
-      "shiny": {
-        "id": "telos:armour/heavy/chestplate/ut-berserker-shiny",
-        "model": "telos:material/armour/heavy/chestplate/ut-berserker-shiny"
-      },
-      "classes": [
-        "Knight",
-        "Samurai"
-      ]
+      "shiny": { "id": "telos:armour/heavy/chestplate/ut-berserker-shiny", "model": "telos:material/armour/heavy/chestplate/ut-berserker-shiny" },
+      "classes": ["Knight", "Samurai"]
     },
     {
       "id": "telos:armour/heavy/leggings/ut-phantasmic",
@@ -118,24 +65,10 @@
       "type": "armour/heavy/leggings",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Defender",
-        "icon": "telos:material/boss/defender"
-      },
-      "stats": {
-        "Attack": "+9",
-        "Defense": "+12",
-        "Speed": "+13",
-        "Critical Chance": "+8"
-      },
-      "shiny": {
-        "id": "telos:armour/heavy/leggings/ut-phantasmic-shiny",
-        "model": "telos:material/armour/heavy/leggings/ut-phantasmic-shiny"
-      },
-      "classes": [
-        "Knight",
-        "Samurai"
-      ]
+      "source": { "name": "Defender", "icon": "telos:material/boss/defender" },
+      "stats": { "Attack": "+9", "Defense": "+12", "Speed": "+13", "Critical Chance": "+8" },
+      "shiny": { "id": "telos:armour/heavy/leggings/ut-phantasmic-shiny", "model": "telos:material/armour/heavy/leggings/ut-phantasmic-shiny" },
+      "classes": ["Knight", "Samurai"]
     },
     {
       "id": "telos:armour/heavy/leggings/ut-lost",
@@ -144,15 +77,7 @@
       "type": "armour/heavy/leggings",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "stats": {
-        "Health": "+3",
-        "Defense": "+16",
-        "Vitality": "30",
-        "Critical Chance": "+6",
-        "Damage": "4",
-        "Summons": "4",
-        "Cooldown": "20s"
-      },
+      "stats": { "Health": "+3", "Defense": "+16", "Vitality": "30", "Critical Chance": "+6", "Damage": "4", "Summons": "4", "Cooldown": "20s" },
       "text": [
         "Ability: Sneak 3 times in",
         "quick succession to",
@@ -167,14 +92,8 @@
         "if the armour is",
         "unequipped."
       ],
-      "shiny": {
-        "id": "telos:armour/heavy/leggings/ut-lost-shiny",
-        "model": "telos:material/armour/heavy/leggings/ut-lost-shiny"
-      },
-      "classes": [
-        "Knight",
-        "Samurai"
-      ]
+      "shiny": { "id": "telos:armour/heavy/leggings/ut-lost-shiny", "model": "telos:material/armour/heavy/leggings/ut-lost-shiny" },
+      "classes": ["Knight", "Samurai"]
     },
     {
       "id": "telos:armour/heavy/boots/ut-inferno",
@@ -183,18 +102,8 @@
       "type": "armour/heavy/boots",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Neo Eden",
-        "icon": "telos:material/dungeon/neo_eden"
-      },
-      "stats": {
-        "Defense": "+8",
-        "Speed": "+7",
-        "Critical Damage": "+9",
-        "Damage": "8",
-        "Summons": "4",
-        "Cooldown": "15s"
-      },
+      "source": { "name": "Neo Eden", "icon": "telos:material/dungeon/neo_eden" },
+      "stats": { "Defense": "+8", "Speed": "+7", "Critical Damage": "+9", "Damage": "8", "Summons": "4", "Cooldown": "15s" },
       "text": [
         "Ability: After damaging",
         "with your weapon, your",
@@ -205,10 +114,7 @@
         "hammer that deals 6.25x",
         "damage in a small AoE."
       ],
-      "classes": [
-        "Knight",
-        "Samurai"
-      ]
+      "classes": ["Knight", "Samurai"]
     },
     {
       "id": "telos:armour/heavy/boots/ut-hypersonic",
@@ -217,26 +123,10 @@
       "type": "armour/heavy/boots",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "stats": {
-        "Speed": "0.5",
-        "Evasion": "+10"
-      },
-      "text": [
-        "Ability: Gain stacking",
-        "Speed while moving (max",
-        "48). Stop for 1.5s to lose",
-        "it. Gain 0.1 Attack and",
-        "Critical Chance per point",
-        "of total Speed."
-      ],
-      "shiny": {
-        "id": "telos:armour/heavy/boots/ut-hypersonic-shiny",
-        "model": "telos:material/armour/heavy/boots/ut-hypersonic-shiny"
-      },
-      "classes": [
-        "Knight",
-        "Samurai"
-      ]
+      "stats": { "Speed": "0.5", "Evasion": "+10" },
+      "text": ["Ability: Gain stacking", "Speed while moving (max", "48). Stop for 1.5s to lose", "it. Gain 0.1 Attack and", "Critical Chance per point", "of total Speed."],
+      "shiny": { "id": "telos:armour/heavy/boots/ut-hypersonic-shiny", "model": "telos:material/armour/heavy/boots/ut-hypersonic-shiny" },
+      "classes": ["Knight", "Samurai"]
     },
     {
       "id": "telos:weapon/sword/ut-doom",
@@ -245,17 +135,8 @@
       "type": "weapon/sword",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Resounding Ruins",
-        "icon": "telos:material/dungeon/resounding_ruins"
-      },
-      "stats": {
-        "Damage": "13",
-        "Range": "5",
-        "Slashes": "1",
-        "Pierces": "Yes",
-        "Cooldown": "0.4s"
-      },
+      "source": { "name": "Resounding Ruins", "icon": "telos:material/dungeon/resounding_ruins" },
+      "stats": { "Damage": "13", "Range": "5", "Slashes": "1", "Pierces": "Yes", "Cooldown": "0.4s" },
       "text": [
         "Ability: This sword",
         "auto-attacks without",
@@ -271,9 +152,7 @@
         "successfully targeting",
         "an enemy."
       ],
-      "classes": [
-        "Knight"
-      ]
+      "classes": ["Knight"]
     },
     {
       "id": "telos:weapon/sword/ut-battleaxe",
@@ -282,29 +161,11 @@
       "type": "weapon/sword",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Rustborn Kingdom",
-        "icon": "telos:material/dungeon/shatters"
-      },
-      "stats": {
-        "Damage": "22.5",
-        "Range": "9",
-        "Shots": "1",
-        "Velocity": "25",
-        "Pierces": "Yes",
-        "Cooldown": "0.6s"
-      },
-      "text": [
-        "Ability: Projectile is a",
-        "throwing axe."
-      ],
-      "shiny": {
-        "id": "telos:weapon/sword/ut-battleaxe-shiny",
-        "model": "telos:material/weapon/sword/ut-battleaxe-shiny"
-      },
-      "classes": [
-        "Knight"
-      ]
+      "source": { "name": "Rustborn Kingdom", "icon": "telos:material/dungeon/shatters" },
+      "stats": { "Damage": "22.5", "Range": "9", "Shots": "1", "Velocity": "25", "Pierces": "Yes", "Cooldown": "0.6s" },
+      "text": ["Ability: Projectile is a", "throwing axe."],
+      "shiny": { "id": "telos:weapon/sword/ut-battleaxe-shiny", "model": "telos:material/weapon/sword/ut-battleaxe-shiny" },
+      "classes": ["Knight"]
     },
     {
       "id": "telos:weapon/sword/ut-onyx",
@@ -313,17 +174,8 @@
       "type": "weapon/sword",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Raph's Chamber",
-        "icon": "telos:material/dungeon/onyx"
-      },
-      "stats": {
-        "Damage": "70",
-        "Range": "4.5",
-        "Slashes": "1",
-        "Pierces": "Yes",
-        "Cooldown": "1.6s"
-      },
+      "source": { "name": "Raph's Chamber", "icon": "telos:material/dungeon/onyx" },
+      "stats": { "Damage": "70", "Range": "4.5", "Slashes": "1", "Pierces": "Yes", "Cooldown": "1.6s" },
       "text": [
         "Ability: After hitting 2",
         "slashes in a row, your",
@@ -334,13 +186,8 @@
         "successfully targeting",
         "an enemy."
       ],
-      "shiny": {
-        "id": "telos:weapon/sword/ut-onyx-shiny",
-        "model": "telos:material/weapon/sword/ut-onyx-shiny"
-      },
-      "classes": [
-        "Knight"
-      ]
+      "shiny": { "id": "telos:weapon/sword/ut-onyx-shiny", "model": "telos:material/weapon/sword/ut-onyx-shiny" },
+      "classes": ["Knight"]
     },
     {
       "id": "telos:weapon/sword/ut-prominence",
@@ -349,29 +196,11 @@
       "type": "weapon/sword",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Neo Eden",
-        "icon": "telos:material/dungeon/neo_eden"
-      },
-      "stats": {
-        "Damage": "142",
-        "Range": "6.5",
-        "Slashes": "1",
-        "Pierces": "Yes",
-        "Cooldown": "3s"
-      },
-      "text": [
-        "Ability: Summons a mace",
-        "that swings from left",
-        "to right (alternates)."
-      ],
-      "shiny": {
-        "id": "telos:weapon/sword/ut-prominence-shiny",
-        "model": "telos:material/weapon/sword/ut-prominence-shiny"
-      },
-      "classes": [
-        "Knight"
-      ]
+      "source": { "name": "Neo Eden", "icon": "telos:material/dungeon/neo_eden" },
+      "stats": { "Damage": "142", "Range": "6.5", "Slashes": "1", "Pierces": "Yes", "Cooldown": "3s" },
+      "text": ["Ability: Summons a mace", "that swings from left", "to right (alternates)."],
+      "shiny": { "id": "telos:weapon/sword/ut-prominence-shiny", "model": "telos:material/weapon/sword/ut-prominence-shiny" },
+      "classes": ["Knight"]
     },
     {
       "id": "telos:ability/shield/ut-torrent",
@@ -380,18 +209,8 @@
       "type": "ability/shield",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Corsair's Conductorium",
-        "icon": "telos:material/dungeon/corsairs_conductorium"
-      },
-      "stats": {
-        "Damage": "5.5",
-        "Range": "8",
-        "Shots": "10",
-        "Velocity": "15",
-        "Pierces": "No",
-        "Cooldown": "12s"
-      },
+      "source": { "name": "Corsair's Conductorium", "icon": "telos:material/dungeon/corsairs_conductorium" },
+      "stats": { "Damage": "5.5", "Range": "8", "Shots": "10", "Velocity": "15", "Pierces": "No", "Cooldown": "12s" },
       "text": [
         "Ability: Shoots a school of",
         "fish. On hit, they will jump",
@@ -403,9 +222,7 @@
         "you for 0.2 HP if you are",
         "below 66% HP."
       ],
-      "classes": [
-        "Knight"
-      ]
+      "classes": ["Knight"]
     },
     {
       "id": "telos:ability/shield/ut-shrouded",
@@ -414,18 +231,8 @@
       "type": "ability/shield",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Defender",
-        "icon": "telos:material/boss/defender"
-      },
-      "stats": {
-        "Damage": "25",
-        "Range": "5",
-        "Shots": "3",
-        "Velocity": "10",
-        "Pierces": "Yes",
-        "Cooldown": "10s"
-      },
+      "source": { "name": "Defender", "icon": "telos:material/boss/defender" },
+      "stats": { "Damage": "25", "Range": "5", "Shots": "3", "Velocity": "10", "Pierces": "Yes", "Cooldown": "10s" },
       "text": [
         "Passive: Shoots a",
         "barrage of",
@@ -436,13 +243,8 @@
         "damage before",
         "breaking."
       ],
-      "shiny": {
-        "id": "telos:ability/shield/ut-shrouded-shiny",
-        "model": "telos:material/ability/shield/ut-shrouded-shiny"
-      },
-      "classes": [
-        "Knight"
-      ]
+      "shiny": { "id": "telos:ability/shield/ut-shrouded-shiny", "model": "telos:material/ability/shield/ut-shrouded-shiny" },
+      "classes": ["Knight"]
     },
     {
       "id": "telos:ability/shield/ut-totalreflection",
@@ -451,13 +253,7 @@
       "type": "ability/shield",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "stats": {
-        "Speed": "80",
-        "Invulnerability": "2s",
-        "Damage": "30",
-        "Range": "15",
-        "Cooldown": "11s"
-      },
+      "stats": { "Speed": "80", "Invulnerability": "2s", "Damage": "30", "Range": "15", "Cooldown": "11s" },
       "text": [
         "Passive: Deals damage to the",
         "nearest enemy upon taking",
@@ -471,13 +267,8 @@
         "each shield owned. Colliding with",
         "an enemy breaks the shields."
       ],
-      "shiny": {
-        "id": "telos:ability/shield/ut-totalreflection-shiny",
-        "model": "telos:material/ability/shield/ut-totalreflection-shiny"
-      },
-      "classes": [
-        "Knight"
-      ]
+      "shiny": { "id": "telos:ability/shield/ut-totalreflection-shiny", "model": "telos:material/ability/shield/ut-totalreflection-shiny" },
+      "classes": ["Knight"]
     },
     {
       "id": "telos:ability/emblem/ut-visage",
@@ -486,15 +277,8 @@
       "type": "ability/emblem",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Celestial's Province",
-        "icon": "telos:material/dungeon/celestials_province"
-      },
-      "stats": {
-        "Critical Chance": "10",
-        "Range": "4",
-        "Cooldown": "11s"
-      },
+      "source": { "name": "Celestial's Province", "icon": "telos:material/dungeon/celestials_province" },
+      "stats": { "Critical Chance": "10", "Range": "4", "Cooldown": "11s" },
       "text": [
         "Passive: Buffs your",
         "attack speed by +25%.",
@@ -507,13 +291,8 @@
         "everyone buffed for",
         "8.0s."
       ],
-      "shiny": {
-        "id": "telos:ability/emblem/ut-visage-shiny",
-        "model": "telos:material/ability/emblem/ut-visage-shiny"
-      },
-      "classes": [
-        "Knight"
-      ]
+      "shiny": { "id": "telos:ability/emblem/ut-visage-shiny", "model": "telos:material/ability/emblem/ut-visage-shiny" },
+      "classes": ["Knight"]
     },
     {
       "id": "telos:ability/emblem/ut-oblivion",
@@ -522,16 +301,8 @@
       "type": "ability/emblem",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Tenebris",
-        "icon": "telos:material/dungeon/tenebris"
-      },
-      "stats": {
-        "Vitality": "15",
-        "Damage": "222",
-        "Range": "6",
-        "Cooldown": "12s"
-      },
+      "source": { "name": "Tenebris", "icon": "telos:material/dungeon/tenebris" },
+      "stats": { "Vitality": "15", "Damage": "222", "Range": "6", "Cooldown": "12s" },
       "text": [
         "Ability: Summon a voided",
         "blade above you and",
@@ -556,9 +327,7 @@
         "for 6.0s and Vitality",
         "for 8.0s."
       ],
-      "classes": [
-        "Knight"
-      ]
+      "classes": ["Knight"]
     },
     {
       "id": "telos:armour/light/helmet/ut-sentinel",
@@ -567,25 +336,10 @@
       "type": "armour/light/helmet",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Rustborn Kingdom",
-        "icon": "telos:material/dungeon/shatters"
-      },
-      "stats": {
-        "Health": "+2",
-        "Attack": "+10",
-        "Speed": "+11",
-        "Evasion": "+5",
-        "Critical Chance": "+10"
-      },
-      "shiny": {
-        "id": "telos:armour/light/helmet/ut-sentinel-shiny",
-        "model": "telos:material/armour/light/helmet/ut-sentinel-shiny"
-      },
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "source": { "name": "Rustborn Kingdom", "icon": "telos:material/dungeon/shatters" },
+      "stats": { "Health": "+2", "Attack": "+10", "Speed": "+11", "Evasion": "+5", "Critical Chance": "+10" },
+      "shiny": { "id": "telos:armour/light/helmet/ut-sentinel-shiny", "model": "telos:material/armour/light/helmet/ut-sentinel-shiny" },
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:armour/light/helmet/ut-memories",
@@ -594,17 +348,7 @@
       "type": "armour/light/helmet",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "stats": {
-        "Attack": "+8",
-        "Defense": "+16",
-        "Speed": "-12",
-        "Critical Chance": "+8",
-        "Range": "9",
-        "Shots": "1",
-        "Velocity": "25",
-        "Pierces": "Yes",
-        "Cooldown": "5s"
-      },
+      "stats": { "Attack": "+8", "Defense": "+16", "Speed": "-12", "Critical Chance": "+8", "Range": "9", "Shots": "1", "Velocity": "25", "Pierces": "Yes", "Cooldown": "5s" },
       "text": [
         "Ability: On ability use, lose",
         "40% of your Speed for",
@@ -615,14 +359,8 @@
         "Speed lost in a 0.75x",
         "block radius."
       ],
-      "shiny": {
-        "id": "telos:armour/light/helmet/ut-memories-shiny",
-        "model": "telos:material/armour/light/helmet/ut-memories-shiny"
-      },
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "shiny": { "id": "telos:armour/light/helmet/ut-memories-shiny", "model": "telos:material/armour/light/helmet/ut-memories-shiny" },
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:armour/light/chestplate/ut-reaper",
@@ -631,20 +369,9 @@
       "type": "armour/light/chestplate",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Reaper",
-        "icon": "telos:material/boss/reaper"
-      },
-      "stats": {
-        "Attack": "+13",
-        "Defense": "+12",
-        "Evasion": "+3",
-        "Critical Chance": "+7"
-      },
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "source": { "name": "Reaper", "icon": "telos:material/boss/reaper" },
+      "stats": { "Attack": "+13", "Defense": "+12", "Evasion": "+3", "Critical Chance": "+7" },
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:armour/light/chestplate/ut-forbidden",
@@ -653,20 +380,8 @@
       "type": "armour/light/chestplate",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Neo Eden",
-        "icon": "telos:material/dungeon/neo_eden"
-      },
-      "stats": {
-        "Health": "+2",
-        "Speed": "+11",
-        "Evasion": "+10",
-        "Critical Chance": "+10",
-        "Damage": "2.5",
-        "Shots": "30",
-        "Pierces": "No",
-        "Cooldown": "7.5s"
-      },
+      "source": { "name": "Neo Eden", "icon": "telos:material/dungeon/neo_eden" },
+      "stats": { "Health": "+2", "Speed": "+11", "Evasion": "+10", "Critical Chance": "+10", "Damage": "2.5", "Shots": "30", "Pierces": "No", "Cooldown": "7.5s" },
       "text": [
         "Ability: After damaging",
         "with your weapon, begin",
@@ -678,10 +393,7 @@
         "enemy every 0.75s",
         "before dissipating."
       ],
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:armour/light/chestplate/ut-barter",
@@ -690,27 +402,10 @@
       "type": "armour/light/chestplate",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "stats": {
-        "Health": "+2",
-        "Defense": "+12",
-        "Speed": "+14",
-        "Vitality": "+6",
-        "Attack": "0.4"
-      },
-      "text": [
-        "Ability: Each point of",
-        "Vitality grants Attack",
-        "and 0.25% increased",
-        "weapon damage."
-      ],
-      "shiny": {
-        "id": "telos:armour/light/chestplate/ut-barter-shiny",
-        "model": "telos:material/armour/light/chestplate/ut-barter-shiny"
-      },
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "stats": { "Health": "+2", "Defense": "+12", "Speed": "+14", "Vitality": "+6", "Attack": "0.4" },
+      "text": ["Ability: Each point of", "Vitality grants Attack", "and 0.25% increased", "weapon damage."],
+      "shiny": { "id": "telos:armour/light/chestplate/ut-barter-shiny", "model": "telos:material/armour/light/chestplate/ut-barter-shiny" },
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:armour/light/leggings/ut-onyx",
@@ -719,24 +414,10 @@
       "type": "armour/light/leggings",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Raph's Chamber",
-        "icon": "telos:material/dungeon/onyx"
-      },
-      "stats": {
-        "Attack": "+11",
-        "Defense": "+12",
-        "Speed": "+15",
-        "Critical Chance": "+7"
-      },
-      "shiny": {
-        "id": "telos:armour/light/leggings/ut-onyx-shiny",
-        "model": "telos:material/armour/light/leggings/ut-onyx-shiny"
-      },
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "source": { "name": "Raph's Chamber", "icon": "telos:material/dungeon/onyx" },
+      "stats": { "Attack": "+11", "Defense": "+12", "Speed": "+15", "Critical Chance": "+7" },
+      "shiny": { "id": "telos:armour/light/leggings/ut-onyx-shiny", "model": "telos:material/armour/light/leggings/ut-onyx-shiny" },
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:armour/light/boots/ut-nature",
@@ -745,33 +426,11 @@
       "type": "armour/light/boots",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Dreadwood Thicket",
-        "icon": "telos:material/dungeon/dreadwood_thicket"
-      },
-      "stats": {
-        "Health": "+2",
-        "Attack": "+6",
-        "Defense": "+7",
-        "Vitality": "+4",
-        "Heal": "9",
-        "Cooldown": "360s"
-      },
-      "text": [
-        "Ability: When below 30%",
-        "health, heal HP over",
-        "1.5s. Cooldown resets",
-        "upon changing worlds",
-        "or dungeons."
-      ],
-      "shiny": {
-        "id": "telos:armour/light/boots/ut-nature-shiny",
-        "model": "telos:material/armour/light/boots/ut-nature-shiny"
-      },
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "source": { "name": "Dreadwood Thicket", "icon": "telos:material/dungeon/dreadwood_thicket" },
+      "stats": { "Health": "+2", "Attack": "+6", "Defense": "+7", "Vitality": "+4", "Heal": "9", "Cooldown": "360s" },
+      "text": ["Ability: When below 30%", "health, heal HP over", "1.5s. Cooldown resets", "upon changing worlds", "or dungeons."],
+      "shiny": { "id": "telos:armour/light/boots/ut-nature-shiny", "model": "telos:material/armour/light/boots/ut-nature-shiny" },
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:armour/light/boots/ut-serpents",
@@ -780,21 +439,9 @@
       "type": "armour/light/boots",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Neo Eden",
-        "icon": "telos:material/dungeon/neo_eden"
-      },
-      "stats": {
-        "Attack": "+4",
-        "Speed": "+9",
-        "Evasion": "+5",
-        "Critical Chance": "+12",
-        "Critical Damage": "+10"
-      },
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "source": { "name": "Neo Eden", "icon": "telos:material/dungeon/neo_eden" },
+      "stats": { "Attack": "+4", "Speed": "+9", "Evasion": "+5", "Critical Chance": "+12", "Critical Damage": "+10" },
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:armour/light/boots/ut-daybreak",
@@ -803,15 +450,7 @@
       "type": "armour/light/boots",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "stats": {
-        "Health": "+3",
-        "Attack": "+15",
-        "Speed": "+10",
-        "Evasion": "+6",
-        "Damage": "8",
-        "Range": "15",
-        "Cooldown": "10s"
-      },
+      "stats": { "Health": "+3", "Attack": "+15", "Speed": "+10", "Evasion": "+6", "Damage": "8", "Range": "15", "Cooldown": "10s" },
       "text": [
         "Ability: Deal damage to",
         "the nearest target",
@@ -827,14 +466,8 @@
         "while airborne to",
         "double jump."
       ],
-      "shiny": {
-        "id": "telos:armour/light/boots/ut-daybreak-shiny",
-        "model": "telos:material/armour/light/boots/ut-daybreak-shiny"
-      },
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "shiny": { "id": "telos:armour/light/boots/ut-daybreak-shiny", "model": "telos:material/armour/light/boots/ut-daybreak-shiny" },
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:weapon/dagger/ut-poniard",
@@ -843,33 +476,11 @@
       "type": "weapon/dagger",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Rustborn Kingdom",
-        "icon": "telos:material/dungeon/shatters"
-      },
-      "stats": {
-        "Damage": "10",
-        "Range": "10",
-        "Shots": "1",
-        "Velocity": "25",
-        "Pierces": "Yes",
-        "Cooldown": "0.6s"
-      },
-      "text": [
-        "Ability: Successful hits",
-        "inflict a DoT debuff that",
-        "deals 0.025 damage 6",
-        "times before exploding,",
-        "dealing 1.4x damage in a",
-        "4 block radius."
-      ],
-      "shiny": {
-        "id": "telos:weapon/dagger/ut-poniard-shiny",
-        "model": "telos:material/weapon/dagger/ut-poniard-shiny"
-      },
-      "classes": [
-        "Assassin"
-      ]
+      "source": { "name": "Rustborn Kingdom", "icon": "telos:material/dungeon/shatters" },
+      "stats": { "Damage": "10", "Range": "10", "Shots": "1", "Velocity": "25", "Pierces": "Yes", "Cooldown": "0.6s" },
+      "text": ["Ability: Successful hits", "inflict a DoT debuff that", "deals 0.025 damage 6", "times before exploding,", "dealing 1.4x damage in a", "4 block radius."],
+      "shiny": { "id": "telos:weapon/dagger/ut-poniard-shiny", "model": "telos:material/weapon/dagger/ut-poniard-shiny" },
+      "classes": ["Assassin"]
     },
     {
       "id": "telos:weapon/dagger/ut-onyx",
@@ -878,16 +489,8 @@
       "type": "weapon/dagger",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Raph's Chamber",
-        "icon": "telos:material/dungeon/onyx"
-      },
-      "stats": {
-        "Damage": "2.25",
-        "Range": "7",
-        "Velocity": "15",
-        "Pierces": "No"
-      },
+      "source": { "name": "Raph's Chamber", "icon": "telos:material/dungeon/onyx" },
+      "stats": { "Damage": "2.25", "Range": "7", "Velocity": "15", "Pierces": "No" },
       "text": [
         "Ability: This dagger",
         "auto-attacks without",
@@ -897,13 +500,8 @@
         "storm of daggers to",
         "the nearest enemy."
       ],
-      "shiny": {
-        "id": "telos:weapon/dagger/ut-onyx-shiny",
-        "model": "telos:material/weapon/dagger/ut-onyx-shiny"
-      },
-      "classes": [
-        "Assassin"
-      ]
+      "shiny": { "id": "telos:weapon/dagger/ut-onyx-shiny", "model": "telos:material/weapon/dagger/ut-onyx-shiny" },
+      "classes": ["Assassin"]
     },
     {
       "id": "telos:weapon/dagger/ut-six",
@@ -912,25 +510,10 @@
       "type": "weapon/dagger",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Neo Eden",
-        "icon": "telos:material/dungeon/neo_eden"
-      },
-      "stats": {
-        "Damage": "6",
-        "Range": "6",
-        "Shots": "6",
-        "Velocity": "20",
-        "Pierces": "No",
-        "Cooldown": "0.7s"
-      },
-      "shiny": {
-        "id": "telos:weapon/dagger/ut-six-shiny",
-        "model": "telos:material/weapon/dagger/ut-six-shiny"
-      },
-      "classes": [
-        "Assassin"
-      ]
+      "source": { "name": "Neo Eden", "icon": "telos:material/dungeon/neo_eden" },
+      "stats": { "Damage": "6", "Range": "6", "Shots": "6", "Velocity": "20", "Pierces": "No", "Cooldown": "0.7s" },
+      "shiny": { "id": "telos:weapon/dagger/ut-six-shiny", "model": "telos:material/weapon/dagger/ut-six-shiny" },
+      "classes": ["Assassin"]
     },
     {
       "id": "telos:weapon/dagger/ut-lastrites",
@@ -939,14 +522,7 @@
       "type": "weapon/dagger",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "stats": {
-        "Damage": "36",
-        "Range": "8",
-        "Shots": "1",
-        "Velocity": "25",
-        "Pierces": "No",
-        "Cooldown": "1s"
-      },
+      "stats": { "Damage": "36", "Range": "8", "Shots": "1", "Velocity": "25", "Pierces": "No", "Cooldown": "1s" },
       "text": [
         "Ability: Every 6th hit",
         "dashes you into the",
@@ -962,13 +538,8 @@
         "switching weapons",
         "resets it."
       ],
-      "shiny": {
-        "id": "telos:weapon/dagger/ut-lastrites-shiny",
-        "model": "telos:material/weapon/dagger/ut-lastrites-shiny"
-      },
-      "classes": [
-        "Assassin"
-      ]
+      "shiny": { "id": "telos:weapon/dagger/ut-lastrites-shiny", "model": "telos:material/weapon/dagger/ut-lastrites-shiny" },
+      "classes": ["Assassin"]
     },
     {
       "id": "telos:ability/cloak/ut-darkness",
@@ -977,16 +548,8 @@
       "type": "ability/cloak",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Anubis Lair",
-        "icon": "telos:material/dungeon/anubis_lair"
-      },
-      "stats": {
-        "Critical Chance": "10",
-        "Speed": "35",
-        "Invulnerability": "1s",
-        "Cooldown": "10s"
-      },
+      "source": { "name": "Anubis Lair", "icon": "telos:material/dungeon/anubis_lair" },
+      "stats": { "Critical Chance": "10", "Speed": "35", "Invulnerability": "1s", "Cooldown": "10s" },
       "text": [
         "Ability: Makes you invisible for",
         "6.0s. Grants Invulnerability and",
@@ -997,9 +560,7 @@
         "Grants Critical Chance and",
         "Speed while invisible."
       ],
-      "classes": [
-        "Assassin"
-      ]
+      "classes": ["Assassin"]
     },
     {
       "id": "telos:ability/cloak/ut-fire",
@@ -1008,18 +569,8 @@
       "type": "ability/cloak",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Defender",
-        "icon": "telos:material/boss/defender"
-      },
-      "stats": {
-        "Damage": "13",
-        "Range": "7",
-        "Flames": "2",
-        "Velocity": "20",
-        "Pierces": "Yes",
-        "Cooldown": "12s"
-      },
+      "source": { "name": "Defender", "icon": "telos:material/boss/defender" },
+      "stats": { "Damage": "13", "Range": "7", "Flames": "2", "Velocity": "20", "Pierces": "Yes", "Cooldown": "12s" },
       "text": [
         "Passive: Summons 2",
         "orbiting flames.",
@@ -1033,13 +584,8 @@
         "projectiles are fired",
         "dealing 3.6x damage."
       ],
-      "shiny": {
-        "id": "telos:ability/cloak/ut-fire-shiny",
-        "model": "telos:material/ability/cloak/ut-fire-shiny"
-      },
-      "classes": [
-        "Assassin"
-      ]
+      "shiny": { "id": "telos:ability/cloak/ut-fire-shiny", "model": "telos:material/ability/cloak/ut-fire-shiny" },
+      "classes": ["Assassin"]
     },
     {
       "id": "telos:ability/cloak/ut-gust",
@@ -1048,12 +594,7 @@
       "type": "ability/cloak",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "stats": {
-        "Speed": "45",
-        "Attack": "25",
-        "Critical Chance": "20",
-        "Cooldown": "8s"
-      },
+      "stats": { "Speed": "45", "Attack": "25", "Critical Chance": "20", "Cooldown": "8s" },
       "text": [
         "Passive: Makes you",
         "invisible and grants",
@@ -1069,13 +610,8 @@
         "enemies in a 7 block",
         "radius for 1.5s."
       ],
-      "shiny": {
-        "id": "telos:ability/cloak/ut-gust-shiny",
-        "model": "telos:material/ability/cloak/ut-gust-shiny"
-      },
-      "classes": [
-        "Assassin"
-      ]
+      "shiny": { "id": "telos:ability/cloak/ut-gust-shiny", "model": "telos:material/ability/cloak/ut-gust-shiny" },
+      "classes": ["Assassin"]
     },
     {
       "id": "telos:ability/poison/ut-heretics",
@@ -1084,30 +620,11 @@
       "type": "ability/poison",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Celestial's Province",
-        "icon": "telos:material/dungeon/celestials_province"
-      },
-      "stats": {
-        "Damage": "75",
-        "Range": "18",
-        "Velocity": "25",
-        "Cooldown": "11s"
-      },
-      "text": [
-        "Ability: Instantly deals",
-        "damage to the target and",
-        "inflicts a poison effect to",
-        "enemies dealing 1.2x",
-        "damage over 4s (6 ticks)."
-      ],
-      "shiny": {
-        "id": "telos:ability/poison/ut-heretics-shiny",
-        "model": "telos:material/ability/poison/ut-heretics-shiny"
-      },
-      "classes": [
-        "Assassin"
-      ]
+      "source": { "name": "Celestial's Province", "icon": "telos:material/dungeon/celestials_province" },
+      "stats": { "Damage": "75", "Range": "18", "Velocity": "25", "Cooldown": "11s" },
+      "text": ["Ability: Instantly deals", "damage to the target and", "inflicts a poison effect to", "enemies dealing 1.2x", "damage over 4s (6 ticks)."],
+      "shiny": { "id": "telos:ability/poison/ut-heretics-shiny", "model": "telos:material/ability/poison/ut-heretics-shiny" },
+      "classes": ["Assassin"]
     },
     {
       "id": "telos:ability/poison/ut-panacea",
@@ -1116,13 +633,7 @@
       "type": "ability/poison",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "stats": {
-        "Damage": "75",
-        "Range": "15",
-        "Velocity": "15",
-        "Defense": "1.5",
-        "Cooldown": "6s"
-      },
+      "stats": { "Damage": "75", "Range": "15", "Velocity": "15", "Defense": "1.5", "Cooldown": "6s" },
       "text": [
         "Ability: Inflicts a poison",
         "effect to enemies in a",
@@ -1141,13 +652,8 @@
         "granting you Defense",
         "for 5s."
       ],
-      "shiny": {
-        "id": "telos:ability/poison/ut-panacea-shiny",
-        "model": "telos:material/ability/poison/ut-panacea-shiny"
-      },
-      "classes": [
-        "Assassin"
-      ]
+      "shiny": { "id": "telos:ability/poison/ut-panacea-shiny", "model": "telos:material/ability/poison/ut-panacea-shiny" },
+      "classes": ["Assassin"]
     },
     {
       "id": "telos:weapon/katana/ut-bane",
@@ -1156,17 +662,8 @@
       "type": "weapon/katana",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Rustborn Kingdom",
-        "icon": "telos:material/dungeon/shatters"
-      },
-      "stats": {
-        "Damage": "24",
-        "Range": "5",
-        "Slashes": "2",
-        "Pierces": "Yes",
-        "Cooldown": "1.2s"
-      },
+      "source": { "name": "Rustborn Kingdom", "icon": "telos:material/dungeon/shatters" },
+      "stats": { "Damage": "24", "Range": "5", "Slashes": "2", "Pierces": "Yes", "Cooldown": "1.2s" },
       "text": [
         "Ability: After hitting 4",
         "slashes in a row, your",
@@ -1179,13 +676,8 @@
         "after successfully",
         "targeting an enemy."
       ],
-      "shiny": {
-        "id": "telos:weapon/katana/ut-bane-shiny",
-        "model": "telos:material/weapon/katana/ut-bane-shiny"
-      },
-      "classes": [
-        "Samurai"
-      ]
+      "shiny": { "id": "telos:weapon/katana/ut-bane-shiny", "model": "telos:material/weapon/katana/ut-bane-shiny" },
+      "classes": ["Samurai"]
     },
     {
       "id": "telos:weapon/katana/ut-onyx",
@@ -1194,25 +686,10 @@
       "type": "weapon/katana",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Raph's Chamber",
-        "icon": "telos:material/dungeon/onyx"
-      },
-      "stats": {
-        "Damage": "18",
-        "Range": "9",
-        "Shots": "4",
-        "Velocity": "25",
-        "Pierces": "No",
-        "Cooldown": "1.8s"
-      },
-      "shiny": {
-        "id": "telos:weapon/katana/ut-onyx-shiny",
-        "model": "telos:material/weapon/katana/ut-onyx-shiny"
-      },
-      "classes": [
-        "Samurai"
-      ]
+      "source": { "name": "Raph's Chamber", "icon": "telos:material/dungeon/onyx" },
+      "stats": { "Damage": "18", "Range": "9", "Shots": "4", "Velocity": "25", "Pierces": "No", "Cooldown": "1.8s" },
+      "shiny": { "id": "telos:weapon/katana/ut-onyx-shiny", "model": "telos:material/weapon/katana/ut-onyx-shiny" },
+      "classes": ["Samurai"]
     },
     {
       "id": "telos:weapon/katana/ut-dawnbringer",
@@ -1221,26 +698,10 @@
       "type": "weapon/katana",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Warden",
-        "icon": "telos:material/boss/warden"
-      },
-      "stats": {
-        "Damage": "15.5",
-        "Range": "6",
-        "Shots": "2",
-        "Velocity": "25",
-        "Pierces": "Yes",
-        "Cooldown": "0.6s"
-      },
-      "text": [
-        "Ability: Projectiles are",
-        "axeheads that follow a",
-        "specific pattern."
-      ],
-      "classes": [
-        "Samurai"
-      ]
+      "source": { "name": "Warden", "icon": "telos:material/boss/warden" },
+      "stats": { "Damage": "15.5", "Range": "6", "Shots": "2", "Velocity": "25", "Pierces": "Yes", "Cooldown": "0.6s" },
+      "text": ["Ability: Projectiles are", "axeheads that follow a", "specific pattern."],
+      "classes": ["Samurai"]
     },
     {
       "id": "telos:weapon/katana/ut-nachash",
@@ -1249,17 +710,8 @@
       "type": "weapon/katana",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Neo Eden",
-        "icon": "telos:material/dungeon/neo_eden"
-      },
-      "stats": {
-        "Damage": "16.5",
-        "Range": "6.5",
-        "Slashes": "1",
-        "Pierces": "Yes",
-        "Cooldown": "0.6s"
-      },
+      "source": { "name": "Neo Eden", "icon": "telos:material/dungeon/neo_eden" },
+      "stats": { "Damage": "16.5", "Range": "6.5", "Slashes": "1", "Pierces": "Yes", "Cooldown": "0.6s" },
       "text": [
         "Ability: After landing 2 hits",
         "within 1.0s, summon snakes",
@@ -1268,13 +720,8 @@
         "after successfully targeting",
         "an enemy."
       ],
-      "shiny": {
-        "id": "telos:weapon/katana/ut-nachash-shiny",
-        "model": "telos:material/weapon/katana/ut-nachash-shiny"
-      },
-      "classes": [
-        "Samurai"
-      ]
+      "shiny": { "id": "telos:weapon/katana/ut-nachash-shiny", "model": "telos:material/weapon/katana/ut-nachash-shiny" },
+      "classes": ["Samurai"]
     },
     {
       "id": "telos:ability/kunai/ut-key",
@@ -1283,20 +730,8 @@
       "type": "ability/kunai",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Cog Sentinel",
-        "icon": "telos:material/boss/cog_sentinel"
-      },
-      "stats": {
-        "Defense": "10",
-        "Evasion": "10",
-        "Damage": "7.5",
-        "Range": "8",
-        "Shots": "3",
-        "Velocity": "20",
-        "Pierces": "Yes",
-        "Cooldown": "11s"
-      },
+      "source": { "name": "Cog Sentinel", "icon": "telos:material/boss/cog_sentinel" },
+      "stats": { "Defense": "10", "Evasion": "10", "Damage": "7.5", "Range": "8", "Shots": "3", "Velocity": "20", "Pierces": "Yes", "Cooldown": "11s" },
       "text": [
         "Ability: Shoots kunai",
         "projectiles that",
@@ -1314,9 +749,7 @@
         "Defense, and Evasion",
         "for 7s."
       ],
-      "classes": [
-        "Samurai"
-      ]
+      "classes": ["Samurai"]
     },
     {
       "id": "telos:ability/star/ut-resurgence",
@@ -1325,29 +758,10 @@
       "type": "ability/star",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Aviary",
-        "icon": "telos:material/dungeon/aviary"
-      },
-      "stats": {
-        "Damage": "100",
-        "Range": "10",
-        "Shots": "1",
-        "Velocity": "20",
-        "Pierces": "No",
-        "Cooldown": "10s"
-      },
-      "text": [
-        "Ability: Shoots a star",
-        "projectile that splits",
-        "into 4 shots that",
-        "converge onto a",
-        "target, each dealing",
-        "0.08x damage."
-      ],
-      "classes": [
-        "Samurai"
-      ]
+      "source": { "name": "Aviary", "icon": "telos:material/dungeon/aviary" },
+      "stats": { "Damage": "100", "Range": "10", "Shots": "1", "Velocity": "20", "Pierces": "No", "Cooldown": "10s" },
+      "text": ["Ability: Shoots a star", "projectile that splits", "into 4 shots that", "converge onto a", "target, each dealing", "0.08x damage."],
+      "classes": ["Samurai"]
     },
     {
       "id": "telos:ability/star/ut-plan",
@@ -1356,18 +770,8 @@
       "type": "ability/star",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Valley of the Lost",
-        "icon": "telos:material/dungeon/valley_of_the_lost"
-      },
-      "stats": {
-        "Attack": "12",
-        "Damage": "11.5",
-        "Range": "7",
-        "Velocity": "20",
-        "Pierces": "No",
-        "Cooldown": "4s"
-      },
+      "source": { "name": "Valley of the Lost", "icon": "telos:material/dungeon/valley_of_the_lost" },
+      "stats": { "Attack": "12", "Damage": "11.5", "Range": "7", "Velocity": "20", "Pierces": "No", "Cooldown": "4s" },
       "text": [
         "Passive: Have a chance",
         "to gain and store a",
@@ -1391,13 +795,8 @@
         "ability will remove all",
         "past stacks)"
       ],
-      "shiny": {
-        "id": "telos:ability/star/ut-plan-shiny",
-        "model": "telos:material/ability/star/ut-plan-shiny"
-      },
-      "classes": [
-        "Samurai"
-      ]
+      "shiny": { "id": "telos:ability/star/ut-plan-shiny", "model": "telos:material/ability/star/ut-plan-shiny" },
+      "classes": ["Samurai"]
     },
     {
       "id": "telos:ability/kunai/ut-feathers",
@@ -1406,18 +805,8 @@
       "type": "ability/kunai",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Seraph's Domain",
-        "icon": "telos:material/dungeon/hardmode_celestials_province"
-      },
-      "stats": {
-        "Damage": "8",
-        "Range": "6",
-        "Shots": "5",
-        "Velocity": "25",
-        "Pierces": "Yes",
-        "Cooldown": "8s"
-      },
+      "source": { "name": "Seraph's Domain", "icon": "telos:material/dungeon/hardmode_celestials_province" },
+      "stats": { "Damage": "8", "Range": "6", "Shots": "5", "Velocity": "25", "Pierces": "Yes", "Cooldown": "8s" },
       "text": [
         "Ability: Shoots kunai",
         "projectiles that pause then",
@@ -1427,13 +816,8 @@
         "+20% damage to them for",
         "3.5s."
       ],
-      "shiny": {
-        "id": "telos:ability/kunai/ut-feathers-shiny",
-        "model": "telos:material/ability/kunai/ut-feathers-shiny"
-      },
-      "classes": [
-        "Samurai"
-      ]
+      "shiny": { "id": "telos:ability/kunai/ut-feathers-shiny", "model": "telos:material/ability/kunai/ut-feathers-shiny" },
+      "classes": ["Samurai"]
     },
     {
       "id": "telos:ability/kunai/ut-worlds",
@@ -1442,14 +826,7 @@
       "type": "ability/kunai",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "stats": {
-        "Damage": "30",
-        "Range": "6",
-        "Shots": "1",
-        "Velocity": "35",
-        "Pierces": "Yes",
-        "Cooldown": "10s"
-      },
+      "stats": { "Damage": "30", "Range": "6", "Shots": "1", "Velocity": "35", "Pierces": "Yes", "Cooldown": "10s" },
       "text": [
         "Ability: Shoots a kunai",
         "projectile that returns",
@@ -1469,13 +846,8 @@
         "+20% damage to them for",
         "4.0s."
       ],
-      "shiny": {
-        "id": "telos:ability/kunai/ut-worlds-shiny",
-        "model": "telos:material/ability/kunai/ut-worlds-shiny"
-      },
-      "classes": [
-        "Samurai"
-      ]
+      "shiny": { "id": "telos:ability/kunai/ut-worlds-shiny", "model": "telos:material/ability/kunai/ut-worlds-shiny" },
+      "classes": ["Samurai"]
     },
     {
       "id": "telos:armour/magical/helmet/ut-mage",
@@ -1484,24 +856,10 @@
       "type": "armour/magical/helmet",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Rustborn Kingdom",
-        "icon": "telos:material/dungeon/shatters"
-      },
-      "stats": {
-        "Attack": "+17",
-        "Defense": "+9",
-        "Speed": "+10",
-        "Critical Chance": "+10"
-      },
-      "shiny": {
-        "id": "telos:armour/magical/helmet/ut-mage-shiny",
-        "model": "telos:material/armour/magical/helmet/ut-mage-shiny"
-      },
-      "classes": [
-        "Necromancer",
-        "Arcanist"
-      ]
+      "source": { "name": "Rustborn Kingdom", "icon": "telos:material/dungeon/shatters" },
+      "stats": { "Attack": "+17", "Defense": "+9", "Speed": "+10", "Critical Chance": "+10" },
+      "shiny": { "id": "telos:armour/magical/helmet/ut-mage-shiny", "model": "telos:material/armour/magical/helmet/ut-mage-shiny" },
+      "classes": ["Necromancer", "Arcanist"]
     },
     {
       "id": "telos:armour/magical/helmet/ut-nightfall",
@@ -1510,14 +868,7 @@
       "type": "armour/magical/helmet",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "stats": {
-        "Defense": "50",
-        "Speed": "20",
-        "Evasion": "+5",
-        "Vitality": "+6",
-        "Range": "8",
-        "Cooldown": "30s"
-      },
+      "stats": { "Defense": "50", "Speed": "20", "Evasion": "+5", "Vitality": "+6", "Range": "8", "Cooldown": "30s" },
       "text": [
         "Ability: Upon falling",
         "below 50% HP, cover",
@@ -1528,14 +879,8 @@
         "invisible and gain",
         "Defense and Speed."
       ],
-      "shiny": {
-        "id": "telos:armour/magical/helmet/ut-nightfall-shiny",
-        "model": "telos:material/armour/magical/helmet/ut-nightfall-shiny"
-      },
-      "classes": [
-        "Necromancer",
-        "Arcanist"
-      ]
+      "shiny": { "id": "telos:armour/magical/helmet/ut-nightfall-shiny", "model": "telos:material/armour/magical/helmet/ut-nightfall-shiny" },
+      "classes": ["Necromancer", "Arcanist"]
     },
     {
       "id": "telos:armour/magical/chestplate/ut-dusk",
@@ -1544,20 +889,9 @@
       "type": "armour/magical/chestplate",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Midnight Stronghold",
-        "icon": "telos:material/dungeon/midnight_stronghold"
-      },
-      "stats": {
-        "Health": "+3",
-        "Attack": "+15",
-        "Defense": "+7",
-        "Critical Damage": "+6"
-      },
-      "classes": [
-        "Necromancer",
-        "Arcanist"
-      ]
+      "source": { "name": "Midnight Stronghold", "icon": "telos:material/dungeon/midnight_stronghold" },
+      "stats": { "Health": "+3", "Attack": "+15", "Defense": "+7", "Critical Damage": "+6" },
+      "classes": ["Necromancer", "Arcanist"]
     },
     {
       "id": "telos:armour/magical/chestplate/ut-spiritbloom",
@@ -1566,29 +900,11 @@
       "type": "armour/magical/chestplate",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Dreadwood Thicket",
-        "icon": "telos:material/dungeon/dreadwood_thicket"
-      },
-      "stats": {
-        "Speed": "+16",
-        "Evasion": "+4",
-        "Vitality": "+5",
-        "Critical Chance": "+12"
-      },
-      "text": [
-        "Ability: Adds a 1.45x",
-        "multiplier to all",
-        "off-hand ability damage."
-      ],
-      "shiny": {
-        "id": "telos:armour/magical/chestplate/ut-spiritbloom-shiny",
-        "model": "telos:material/armour/magical/chestplate/ut-spiritbloom-shiny"
-      },
-      "classes": [
-        "Necromancer",
-        "Arcanist"
-      ]
+      "source": { "name": "Dreadwood Thicket", "icon": "telos:material/dungeon/dreadwood_thicket" },
+      "stats": { "Speed": "+16", "Evasion": "+4", "Vitality": "+5", "Critical Chance": "+12" },
+      "text": ["Ability: Adds a 1.45x", "multiplier to all", "off-hand ability damage."],
+      "shiny": { "id": "telos:armour/magical/chestplate/ut-spiritbloom-shiny", "model": "telos:material/armour/magical/chestplate/ut-spiritbloom-shiny" },
+      "classes": ["Necromancer", "Arcanist"]
     },
     {
       "id": "telos:armour/magical/leggings/ut-shadow",
@@ -1597,10 +913,7 @@
       "type": "armour/magical/leggings",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Tenebris",
-        "icon": "telos:material/dungeon/tenebris"
-      },
+      "source": { "name": "Tenebris", "icon": "telos:material/dungeon/tenebris" },
       "stats": {
         "Attack": "+6",
         "Defense": "+7",
@@ -1612,17 +925,8 @@
         "Pierces": "Yes",
         "Cooldown": "15s"
       },
-      "text": [
-        "Ability: Sneak 3 times in",
-        "quick succession to",
-        "summon a voided beam",
-        "that will slam down in",
-        "front of you."
-      ],
-      "classes": [
-        "Necromancer",
-        "Arcanist"
-      ]
+      "text": ["Ability: Sneak 3 times in", "quick succession to", "summon a voided beam", "that will slam down in", "front of you."],
+      "classes": ["Necromancer", "Arcanist"]
     },
     {
       "id": "telos:armour/magical/leggings/ut-glory",
@@ -1631,18 +935,8 @@
       "type": "armour/magical/leggings",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Neo Eden",
-        "icon": "telos:material/dungeon/neo_eden"
-      },
-      "stats": {
-        "Health": "+2",
-        "Attack": "+12",
-        "Speed": "+10",
-        "Vitality": "+4",
-        "Heal": "0.03",
-        "Damage": "0.6"
-      },
+      "source": { "name": "Neo Eden", "icon": "telos:material/dungeon/neo_eden" },
+      "stats": { "Health": "+2", "Attack": "+12", "Speed": "+10", "Vitality": "+4", "Heal": "0.03", "Damage": "0.6" },
       "text": [
         "Ability: On ability use, start",
         "gaining electric charge for",
@@ -1655,10 +949,7 @@
         "activate and restart the",
         "charge cycle."
       ],
-      "classes": [
-        "Necromancer",
-        "Arcanist"
-      ]
+      "classes": ["Necromancer", "Arcanist"]
     },
     {
       "id": "telos:armour/magical/leggings/ut-deepnorth",
@@ -1667,14 +958,7 @@
       "type": "armour/magical/leggings",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "stats": {
-        "Defense": "+13",
-        "Speed": "12",
-        "Vitality": "+6",
-        "Critical Damage": "6",
-        "Range": "8",
-        "Cooldown": "10s"
-      },
+      "stats": { "Defense": "+13", "Speed": "12", "Vitality": "+6", "Critical Damage": "6", "Range": "8", "Cooldown": "10s" },
       "text": [
         "Ability: Taking damage",
         "inflicts slowness to",
@@ -1688,14 +972,8 @@
         "and Critical Damage for",
         "5s."
       ],
-      "shiny": {
-        "id": "telos:armour/magical/leggings/ut-deepnorth-shiny",
-        "model": "telos:material/armour/magical/leggings/ut-deepnorth-shiny"
-      },
-      "classes": [
-        "Necromancer",
-        "Arcanist"
-      ]
+      "shiny": { "id": "telos:armour/magical/leggings/ut-deepnorth-shiny", "model": "telos:material/armour/magical/leggings/ut-deepnorth-shiny" },
+      "classes": ["Necromancer", "Arcanist"]
     },
     {
       "id": "telos:armour/magical/boots/ut-onyx",
@@ -1704,24 +982,10 @@
       "type": "armour/magical/boots",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Raph's Chamber",
-        "icon": "telos:material/dungeon/onyx"
-      },
-      "stats": {
-        "Health": "+2",
-        "Attack": "+16",
-        "Defense": "+6",
-        "Critical Chance": "+11"
-      },
-      "shiny": {
-        "id": "telos:armour/magical/boots/ut-onyx-shiny",
-        "model": "telos:material/armour/magical/boots/ut-onyx-shiny"
-      },
-      "classes": [
-        "Necromancer",
-        "Arcanist"
-      ]
+      "source": { "name": "Raph's Chamber", "icon": "telos:material/dungeon/onyx" },
+      "stats": { "Health": "+2", "Attack": "+16", "Defense": "+6", "Critical Chance": "+11" },
+      "shiny": { "id": "telos:armour/magical/boots/ut-onyx-shiny", "model": "telos:material/armour/magical/boots/ut-onyx-shiny" },
+      "classes": ["Necromancer", "Arcanist"]
     },
     {
       "id": "telos:armour/magical/boots/ut-repentance",
@@ -1730,16 +994,8 @@
       "type": "armour/magical/boots",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Celestial's Province",
-        "icon": "telos:material/dungeon/celestials_province"
-      },
-      "stats": {
-        "Speed": "+14",
-        "Critical Chance": "+7",
-        "Damage": "300",
-        "Cooldown": "15s"
-      },
+      "source": { "name": "Celestial's Province", "icon": "telos:material/dungeon/celestials_province" },
+      "stats": { "Speed": "+14", "Critical Chance": "+7", "Damage": "300", "Cooldown": "15s" },
       "text": [
         "Ability: After damaging",
         "with your weapon, begin",
@@ -1754,10 +1010,7 @@
         "your current HP if",
         "caught in the radius."
       ],
-      "classes": [
-        "Necromancer",
-        "Arcanist"
-      ]
+      "classes": ["Necromancer", "Arcanist"]
     },
     {
       "id": "telos:weapon/staff/ut-onyx",
@@ -1766,18 +1019,8 @@
       "type": "weapon/staff",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Raph's Chamber",
-        "icon": "telos:material/dungeon/onyx"
-      },
-      "stats": {
-        "Damage": "12.25",
-        "Range": "10",
-        "Shots": "3",
-        "Velocity": "20",
-        "Pierces": "Yes",
-        "Cooldown": "1s"
-      },
+      "source": { "name": "Raph's Chamber", "icon": "telos:material/dungeon/onyx" },
+      "stats": { "Damage": "12.25", "Range": "10", "Shots": "3", "Velocity": "20", "Pierces": "Yes", "Cooldown": "1s" },
       "text": [
         "Ability: Summons a",
         "stream of projectiles",
@@ -1788,13 +1031,8 @@
         "otherwise firing them",
         "at the maximum range."
       ],
-      "shiny": {
-        "id": "telos:weapon/staff/ut-onyx-shiny",
-        "model": "telos:material/weapon/staff/ut-onyx-shiny"
-      },
-      "classes": [
-        "Necromancer"
-      ]
+      "shiny": { "id": "telos:weapon/staff/ut-onyx-shiny", "model": "telos:material/weapon/staff/ut-onyx-shiny" },
+      "classes": ["Necromancer"]
     },
     {
       "id": "telos:weapon/staff/ut-echo",
@@ -1803,18 +1041,8 @@
       "type": "weapon/staff",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Resounding Ruins",
-        "icon": "telos:material/dungeon/resounding_ruins"
-      },
-      "stats": {
-        "Damage": "10.5",
-        "Range": "14",
-        "Shots": "1",
-        "Velocity": "30",
-        "Pierces": "Yes",
-        "Cooldown": "0.5s"
-      },
+      "source": { "name": "Resounding Ruins", "icon": "telos:material/dungeon/resounding_ruins" },
+      "stats": { "Damage": "10.5", "Range": "14", "Shots": "1", "Velocity": "30", "Pierces": "Yes", "Cooldown": "0.5s" },
       "text": [
         "Ability: Instead of firing",
         "a projectile, summon a",
@@ -1824,9 +1052,7 @@
         "these spikes up to 4",
         "times every 1.0s."
       ],
-      "classes": [
-        "Necromancer"
-      ]
+      "classes": ["Necromancer"]
     },
     {
       "id": "telos:weapon/staff/ut-destination",
@@ -1835,25 +1061,10 @@
       "type": "weapon/staff",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Rustborn Kingdom",
-        "icon": "telos:material/dungeon/shatters"
-      },
-      "stats": {
-        "Damage": "2",
-        "Range": "9",
-        "Shots": "44",
-        "Velocity": "20",
-        "Pierces": "No",
-        "Cooldown": "2s"
-      },
-      "shiny": {
-        "id": "telos:weapon/staff/ut-destination-shiny",
-        "model": "telos:material/weapon/staff/ut-destination-shiny"
-      },
-      "classes": [
-        "Necromancer"
-      ]
+      "source": { "name": "Rustborn Kingdom", "icon": "telos:material/dungeon/shatters" },
+      "stats": { "Damage": "2", "Range": "9", "Shots": "44", "Velocity": "20", "Pierces": "No", "Cooldown": "2s" },
+      "shiny": { "id": "telos:weapon/staff/ut-destination-shiny", "model": "telos:material/weapon/staff/ut-destination-shiny" },
+      "classes": ["Necromancer"]
     },
     {
       "id": "telos:weapon/staff/ut-pentecost",
@@ -1862,32 +1073,11 @@
       "type": "weapon/staff",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Neo Eden",
-        "icon": "telos:material/dungeon/neo_eden"
-      },
-      "stats": {
-        "Damage": "18",
-        "Range": "8",
-        "Shots": "5",
-        "Velocity": "20",
-        "Pierces": "No",
-        "Cooldown": "2.4s"
-      },
-      "text": [
-        "Ability: After hitting all 5",
-        "shots, create an",
-        "explosion that deals 1.4x",
-        "damage in a 1.0x block",
-        "radius."
-      ],
-      "shiny": {
-        "id": "telos:weapon/staff/ut-pentecost-shiny",
-        "model": "telos:material/weapon/staff/ut-pentecost-shiny"
-      },
-      "classes": [
-        "Necromancer"
-      ]
+      "source": { "name": "Neo Eden", "icon": "telos:material/dungeon/neo_eden" },
+      "stats": { "Damage": "18", "Range": "8", "Shots": "5", "Velocity": "20", "Pierces": "No", "Cooldown": "2.4s" },
+      "text": ["Ability: After hitting all 5", "shots, create an", "explosion that deals 1.4x", "damage in a 1.0x block", "radius."],
+      "shiny": { "id": "telos:weapon/staff/ut-pentecost-shiny", "model": "telos:material/weapon/staff/ut-pentecost-shiny" },
+      "classes": ["Necromancer"]
     },
     {
       "id": "telos:ability/skull/ut-terrarium",
@@ -1896,18 +1086,8 @@
       "type": "ability/skull",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Illarius' Hideout",
-        "icon": "telos:material/dungeon/illarius_hideout"
-      },
-      "stats": {
-        "Vitality": "6",
-        "Damage": "3",
-        "Range": "22",
-        "Velocity": "15",
-        "Pierces": "No",
-        "Cooldown": "15s"
-      },
+      "source": { "name": "Illarius' Hideout", "icon": "telos:material/dungeon/illarius_hideout" },
+      "stats": { "Vitality": "6", "Damage": "3", "Range": "22", "Velocity": "15", "Pierces": "No", "Cooldown": "15s" },
       "text": [
         "Ability: Summons 5 ent",
         "minions that disappear",
@@ -1928,9 +1108,7 @@
         "Vitality to players in",
         "0.6x range"
       ],
-      "classes": [
-        "Necromancer"
-      ]
+      "classes": ["Necromancer"]
     },
     {
       "id": "telos:ability/skull/ut-usnea",
@@ -1939,18 +1117,8 @@
       "type": "ability/skull",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Dreadwood Thicket",
-        "icon": "telos:material/dungeon/dreadwood_thicket"
-      },
-      "stats": {
-        "Damage": "4",
-        "Range": "20",
-        "Velocity": "20",
-        "Summons": "3",
-        "Pierces": "No",
-        "Cooldown": "10s"
-      },
+      "source": { "name": "Dreadwood Thicket", "icon": "telos:material/dungeon/dreadwood_thicket" },
+      "stats": { "Damage": "4", "Range": "20", "Velocity": "20", "Summons": "3", "Pierces": "No", "Cooldown": "10s" },
       "text": [
         "Ability: Summons ram",
         "riders that disappear",
@@ -1970,13 +1138,8 @@
         "despawning after 5",
         "waves."
       ],
-      "shiny": {
-        "id": "telos:ability/skull/ut-usnea-shiny",
-        "model": "telos:material/ability/skull/ut-usnea-shiny"
-      },
-      "classes": [
-        "Necromancer"
-      ]
+      "shiny": { "id": "telos:ability/skull/ut-usnea-shiny", "model": "telos:material/ability/skull/ut-usnea-shiny" },
+      "classes": ["Necromancer"]
     },
     {
       "id": "telos:ability/skull/ut-epitome",
@@ -1985,20 +1148,8 @@
       "type": "ability/skull",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Seraph's Domain",
-        "icon": "telos:material/dungeon/hardmode_celestials_province"
-      },
-      "stats": {
-        "Critical Chance": "15",
-        "Evasion": "10",
-        "Damage": "5.5",
-        "Range": "24",
-        "Velocity": "15",
-        "Summons": "3",
-        "Pierces": "No",
-        "Cooldown": "8s"
-      },
+      "source": { "name": "Seraph's Domain", "icon": "telos:material/dungeon/hardmode_celestials_province" },
+      "stats": { "Critical Chance": "15", "Evasion": "10", "Damage": "5.5", "Range": "24", "Velocity": "15", "Summons": "3", "Pierces": "No", "Cooldown": "8s" },
       "text": [
         "Ability: Summons 3",
         "seraphim that disappear",
@@ -2018,13 +1169,8 @@
         "enemies in a 1.0x block",
         "range"
       ],
-      "shiny": {
-        "id": "telos:ability/skull/ut-epitome-shiny",
-        "model": "telos:material/ability/skull/ut-epitome-shiny"
-      },
-      "classes": [
-        "Necromancer"
-      ]
+      "shiny": { "id": "telos:ability/skull/ut-epitome-shiny", "model": "telos:material/ability/skull/ut-epitome-shiny" },
+      "classes": ["Necromancer"]
     },
     {
       "id": "telos:ability/scripture/ut-blessing",
@@ -2033,20 +1179,8 @@
       "type": "ability/scripture",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Aurora Sanctum",
-        "icon": "telos:material/dungeon/aurora_sanctum"
-      },
-      "stats": {
-        "Defense": "10",
-        "Vitality": "10",
-        "Attack": "10",
-        "Heal": "6",
-        "Damage": "70",
-        "Range": "7",
-        "Pierces": "No",
-        "Cooldown": "10s"
-      },
+      "source": { "name": "Aurora Sanctum", "icon": "telos:material/dungeon/aurora_sanctum" },
+      "stats": { "Defense": "10", "Vitality": "10", "Attack": "10", "Heal": "6", "Damage": "70", "Range": "7", "Pierces": "No", "Cooldown": "10s" },
       "text": [
         "Ability: Passively",
         "summons 2 mirrors at",
@@ -2074,9 +1208,7 @@
         "heal them for 50% of",
         "your heal."
       ],
-      "classes": [
-        "Necromancer"
-      ]
+      "classes": ["Necromancer"]
     },
     {
       "id": "telos:ability/scripture/ut-one",
@@ -2085,20 +1217,8 @@
       "type": "ability/scripture",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Valley of the Lost",
-        "icon": "telos:material/dungeon/valley_of_the_lost"
-      },
-      "stats": {
-        "Defense": "8",
-        "Evasion": "7.5",
-        "Vitality": "7.5",
-        "Critical Damage": "2",
-        "Invulnerability": "2s",
-        "Heal": "5",
-        "Range": "10",
-        "Cooldown": "12s"
-      },
+      "source": { "name": "Valley of the Lost", "icon": "telos:material/dungeon/valley_of_the_lost" },
+      "stats": { "Defense": "8", "Evasion": "7.5", "Vitality": "7.5", "Critical Damage": "2", "Invulnerability": "2s", "Heal": "5", "Range": "10", "Cooldown": "12s" },
       "text": [
         "Ability: Immediately heal",
         "yourself and nearby",
@@ -2122,13 +1242,8 @@
         "allies, allies have a",
         "10.0s CD for marking)"
       ],
-      "shiny": {
-        "id": "telos:ability/scripture/ut-one-shiny",
-        "model": "telos:material/ability/scripture/ut-one-shiny"
-      },
-      "classes": [
-        "Necromancer"
-      ]
+      "shiny": { "id": "telos:ability/scripture/ut-one-shiny", "model": "telos:material/ability/scripture/ut-one-shiny" },
+      "classes": ["Necromancer"]
     },
     {
       "id": "telos:weapon/bow/ut-amethyst",
@@ -2137,18 +1252,8 @@
       "type": "weapon/bow",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Fungal Cavern",
-        "icon": "telos:material/dungeon/fungal_cavern"
-      },
-      "stats": {
-        "Damage": "80",
-        "Range": "12",
-        "Shots": "1",
-        "Velocity": "25",
-        "Pierces": "No",
-        "Cooldown": "2s"
-      },
+      "source": { "name": "Fungal Cavern", "icon": "telos:material/dungeon/fungal_cavern" },
+      "stats": { "Damage": "80", "Range": "12", "Shots": "1", "Velocity": "25", "Pierces": "No", "Cooldown": "2s" },
       "text": [
         "Ability: After sneaking for",
         "2.0s, your next shot will",
@@ -2157,9 +1262,7 @@
         "1.3x damage. You may store",
         "up to 3 empowered shots."
       ],
-      "classes": [
-        "Huntress"
-      ]
+      "classes": ["Huntress"]
     },
     {
       "id": "telos:weapon/bow/ut-onyx",
@@ -2168,31 +1271,11 @@
       "type": "weapon/bow",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Raph's Chamber",
-        "icon": "telos:material/dungeon/onyx"
-      },
-      "stats": {
-        "Damage": "17.75",
-        "Range": "10",
-        "Shots": "1",
-        "Velocity": "35",
-        "Pierces": "Yes",
-        "Cooldown": "0.8s"
-      },
-      "text": [
-        "Ability: Projectile will",
-        "return to you at max",
-        "range and deals",
-        "damage a second time."
-      ],
-      "shiny": {
-        "id": "telos:weapon/bow/ut-onyx-shiny",
-        "model": "telos:material/weapon/bow/ut-onyx-shiny"
-      },
-      "classes": [
-        "Huntress"
-      ]
+      "source": { "name": "Raph's Chamber", "icon": "telos:material/dungeon/onyx" },
+      "stats": { "Damage": "17.75", "Range": "10", "Shots": "1", "Velocity": "35", "Pierces": "Yes", "Cooldown": "0.8s" },
+      "text": ["Ability: Projectile will", "return to you at max", "range and deals", "damage a second time."],
+      "shiny": { "id": "telos:weapon/bow/ut-onyx-shiny", "model": "telos:material/weapon/bow/ut-onyx-shiny" },
+      "classes": ["Huntress"]
     },
     {
       "id": "telos:weapon/bow/ut-oracle",
@@ -2201,32 +1284,11 @@
       "type": "weapon/bow",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Rustborn Kingdom",
-        "icon": "telos:material/dungeon/shatters"
-      },
-      "stats": {
-        "Damage": "11.25",
-        "Range": "8.5",
-        "Shots": "1",
-        "Velocity": "20",
-        "Pierces": "No",
-        "Cooldown": "0.9s"
-      },
-      "text": [
-        "Ability: Projectile marks a",
-        "target without dealing",
-        "damage, summoning 4",
-        "homing arrows to damage",
-        "the target."
-      ],
-      "shiny": {
-        "id": "telos:weapon/bow/ut-oracle-shiny",
-        "model": "telos:material/weapon/bow/ut-oracle-shiny"
-      },
-      "classes": [
-        "Huntress"
-      ]
+      "source": { "name": "Rustborn Kingdom", "icon": "telos:material/dungeon/shatters" },
+      "stats": { "Damage": "11.25", "Range": "8.5", "Shots": "1", "Velocity": "20", "Pierces": "No", "Cooldown": "0.9s" },
+      "text": ["Ability: Projectile marks a", "target without dealing", "damage, summoning 4", "homing arrows to damage", "the target."],
+      "shiny": { "id": "telos:weapon/bow/ut-oracle-shiny", "model": "telos:material/weapon/bow/ut-oracle-shiny" },
+      "classes": ["Huntress"]
     },
     {
       "id": "telos:weapon/bow/ut-searah",
@@ -2235,18 +1297,8 @@
       "type": "weapon/bow",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Neo Eden",
-        "icon": "telos:material/dungeon/neo_eden"
-      },
-      "stats": {
-        "Damage": "3.5",
-        "Range": "7",
-        "Shots": "5",
-        "Velocity": "15",
-        "Pierces": "No",
-        "Cooldown": "1.2s"
-      },
+      "source": { "name": "Neo Eden", "icon": "telos:material/dungeon/neo_eden" },
+      "stats": { "Damage": "3.5", "Range": "7", "Shots": "5", "Velocity": "15", "Pierces": "No", "Cooldown": "1.2s" },
       "text": [
         "Ability: Projectiles are",
         "tornadoes that pause",
@@ -2257,13 +1309,8 @@
         "additional 0.6x damage",
         "every 1.0s."
       ],
-      "shiny": {
-        "id": "telos:weapon/bow/ut-searah-shiny",
-        "model": "telos:material/weapon/bow/ut-searah-shiny"
-      },
-      "classes": [
-        "Huntress"
-      ]
+      "shiny": { "id": "telos:weapon/bow/ut-searah-shiny", "model": "telos:material/weapon/bow/ut-searah-shiny" },
+      "classes": ["Huntress"]
     },
     {
       "id": "telos:weapon/bow/ut-keraunos",
@@ -2272,14 +1319,7 @@
       "type": "weapon/bow",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "stats": {
-        "Damage": "6",
-        "Range": "8",
-        "Shots": "5",
-        "Velocity": "35",
-        "Pierces": "No",
-        "Cooldown": "1s"
-      },
+      "stats": { "Damage": "6", "Range": "8", "Shots": "5", "Velocity": "35", "Pierces": "No", "Cooldown": "1s" },
       "text": [
         "Ability: Hitting all 5",
         "shots summons a",
@@ -2292,13 +1332,8 @@
         "Slowness and take 0.2x",
         "damage every 0.4s."
       ],
-      "shiny": {
-        "id": "telos:weapon/bow/ut-keraunos-shiny",
-        "model": "telos:material/weapon/bow/ut-keraunos-shiny"
-      },
-      "classes": [
-        "Huntress"
-      ]
+      "shiny": { "id": "telos:weapon/bow/ut-keraunos-shiny", "model": "telos:material/weapon/bow/ut-keraunos-shiny" },
+      "classes": ["Huntress"]
     },
     {
       "id": "telos:ability/trap/ut-blackhole",
@@ -2307,17 +1342,8 @@
       "type": "ability/trap",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Omnipotent's Citadel",
-        "icon": "telos:material/dungeon/omnipotents_citadel"
-      },
-      "stats": {
-        "Attack": "10",
-        "Damage": "16.5",
-        "Range": "20",
-        "Velocity": "15",
-        "Cooldown": "12s"
-      },
+      "source": { "name": "Omnipotent's Citadel", "icon": "telos:material/dungeon/omnipotents_citadel" },
+      "stats": { "Attack": "10", "Damage": "16.5", "Range": "20", "Velocity": "15", "Cooldown": "12s" },
       "text": [
         "Ability: Inflicts paralysis to",
         "enemies in a 0.25x block",
@@ -2327,9 +1353,7 @@
         "damage. Also gives attack",
         "for 5s when thrown."
       ],
-      "classes": [
-        "Huntress"
-      ]
+      "classes": ["Huntress"]
     },
     {
       "id": "telos:ability/trap/ut-last",
@@ -2338,16 +1362,8 @@
       "type": "ability/trap",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Herald",
-        "icon": "telos:material/boss/herald"
-      },
-      "stats": {
-        "Damage": "11.5",
-        "Range": "20",
-        "Velocity": "15",
-        "Cooldown": "14s"
-      },
+      "source": { "name": "Herald", "icon": "telos:material/boss/herald" },
+      "stats": { "Damage": "11.5", "Range": "20", "Velocity": "15", "Cooldown": "14s" },
       "text": [
         "Ability: Throws a trap",
         "that effects the",
@@ -2365,9 +1381,7 @@
         "to slam them into the",
         "enemy."
       ],
-      "classes": [
-        "Huntress"
-      ]
+      "classes": ["Huntress"]
     },
     {
       "id": "telos:ability/trap/ut-arrowhurricane",
@@ -2376,12 +1390,7 @@
       "type": "ability/trap",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "stats": {
-        "Damage": "6.5",
-        "Range": "15",
-        "Velocity": "25",
-        "Cooldown": "10s"
-      },
+      "stats": { "Damage": "6.5", "Range": "15", "Velocity": "25", "Cooldown": "10s" },
       "text": [
         "Ability: Throws a trap that",
         "paralyzes targets in a",
@@ -2393,13 +1402,8 @@
         "5.0s in a 0.4x block",
         "radius."
       ],
-      "shiny": {
-        "id": "telos:ability/trap/ut-arrowhurricane-shiny",
-        "model": "telos:material/ability/trap/ut-arrowhurricane-shiny"
-      },
-      "classes": [
-        "Huntress"
-      ]
+      "shiny": { "id": "telos:ability/trap/ut-arrowhurricane-shiny", "model": "telos:material/ability/trap/ut-arrowhurricane-shiny" },
+      "classes": ["Huntress"]
     },
     {
       "id": "telos:ability/bomb/ut-desperado",
@@ -2408,16 +1412,8 @@
       "type": "ability/bomb",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Valley of the Lost",
-        "icon": "telos:material/dungeon/valley_of_the_lost"
-      },
-      "stats": {
-        "Speed": "50",
-        "Damage": "125",
-        "Range": "6",
-        "Cooldown": "9s"
-      },
+      "source": { "name": "Valley of the Lost", "icon": "telos:material/dungeon/valley_of_the_lost" },
+      "stats": { "Speed": "50", "Damage": "125", "Range": "6", "Cooldown": "9s" },
       "text": [
         "Ability: Become unstable",
         "for 3.0s and gain",
@@ -2443,13 +1439,8 @@
         "to implode, reducing",
         "your health by 66%."
       ],
-      "shiny": {
-        "id": "telos:ability/bomb/ut-desperado-shiny",
-        "model": "telos:material/ability/bomb/ut-desperado-shiny"
-      },
-      "classes": [
-        "Huntress"
-      ]
+      "shiny": { "id": "telos:ability/bomb/ut-desperado-shiny", "model": "telos:material/ability/bomb/ut-desperado-shiny" },
+      "classes": ["Huntress"]
     },
     {
       "id": "telos:ability/bomb/ut-baphomet",
@@ -2458,15 +1449,8 @@
       "type": "ability/bomb",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Celestial's Province",
-        "icon": "telos:material/dungeon/celestials_province"
-      },
-      "stats": {
-        "Damage": "40",
-        "Range": "5",
-        "Cooldown": "12s"
-      },
+      "source": { "name": "Celestial's Province", "icon": "telos:material/dungeon/celestials_province" },
+      "stats": { "Damage": "40", "Range": "5", "Cooldown": "12s" },
       "text": [
         "Ability: Creates a small",
         "explosion that damages",
@@ -2480,13 +1464,8 @@
         "Cooldown begins upon",
         "landing."
       ],
-      "shiny": {
-        "id": "telos:ability/bomb/ut-baphomet-shiny",
-        "model": "telos:material/ability/bomb/ut-baphomet-shiny"
-      },
-      "classes": [
-        "Huntress"
-      ]
+      "shiny": { "id": "telos:ability/bomb/ut-baphomet-shiny", "model": "telos:material/ability/bomb/ut-baphomet-shiny" },
+      "classes": ["Huntress"]
     },
     {
       "id": "telos:weapon/sceptre/ut-onyx",
@@ -2495,32 +1474,11 @@
       "type": "weapon/sceptre",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Raph's Chamber",
-        "icon": "telos:material/dungeon/onyx"
-      },
-      "stats": {
-        "Damage": "16.5",
-        "Range": "7",
-        "Beams": "3",
-        "Pierces": "Yes",
-        "Cooldown": "1.2s"
-      },
-      "text": [
-        "Ability: After hitting the",
-        "first 2 beams, the third",
-        "beam will become a",
-        "laser with 1.25 range",
-        "that deals 1.5x more",
-        "damage"
-      ],
-      "shiny": {
-        "id": "telos:weapon/sceptre/ut-onyx-shiny",
-        "model": "telos:material/weapon/sceptre/ut-onyx-shiny"
-      },
-      "classes": [
-        "Arcanist"
-      ]
+      "source": { "name": "Raph's Chamber", "icon": "telos:material/dungeon/onyx" },
+      "stats": { "Damage": "16.5", "Range": "7", "Beams": "3", "Pierces": "Yes", "Cooldown": "1.2s" },
+      "text": ["Ability: After hitting the", "first 2 beams, the third", "beam will become a", "laser with 1.25 range", "that deals 1.5x more", "damage"],
+      "shiny": { "id": "telos:weapon/sceptre/ut-onyx-shiny", "model": "telos:material/weapon/sceptre/ut-onyx-shiny" },
+      "classes": ["Arcanist"]
     },
     {
       "id": "telos:weapon/sceptre/ut-dusk",
@@ -2529,30 +1487,11 @@
       "type": "weapon/sceptre",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Rustborn Kingdom",
-        "icon": "telos:material/dungeon/shatters"
-      },
-      "stats": {
-        "Damage": "9",
-        "Range": "8",
-        "Beams": "1",
-        "Pierces": "Yes",
-        "Cooldown": "2.8s"
-      },
-      "text": [
-        "Ability: Summons a static",
-        "beam that damages all",
-        "enemies in its path every",
-        "0.2s for 3s."
-      ],
-      "shiny": {
-        "id": "telos:weapon/sceptre/ut-dusk-shiny",
-        "model": "telos:material/weapon/sceptre/ut-dusk-shiny"
-      },
-      "classes": [
-        "Arcanist"
-      ]
+      "source": { "name": "Rustborn Kingdom", "icon": "telos:material/dungeon/shatters" },
+      "stats": { "Damage": "9", "Range": "8", "Beams": "1", "Pierces": "Yes", "Cooldown": "2.8s" },
+      "text": ["Ability: Summons a static", "beam that damages all", "enemies in its path every", "0.2s for 3s."],
+      "shiny": { "id": "telos:weapon/sceptre/ut-dusk-shiny", "model": "telos:material/weapon/sceptre/ut-dusk-shiny" },
+      "classes": ["Arcanist"]
     },
     {
       "id": "telos:weapon/sceptre/ut-firmament",
@@ -2561,17 +1500,8 @@
       "type": "weapon/sceptre",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Neo Eden",
-        "icon": "telos:material/dungeon/neo_eden"
-      },
-      "stats": {
-        "Damage": "37",
-        "Range": "7",
-        "Beams": "1",
-        "Pierces": "Yes",
-        "Cooldown": "1.2s"
-      },
+      "source": { "name": "Neo Eden", "icon": "telos:material/dungeon/neo_eden" },
+      "stats": { "Damage": "37", "Range": "7", "Beams": "1", "Pierces": "Yes", "Cooldown": "1.2s" },
       "text": [
         "Ability: Summons a meteor.",
         "After 4 successful",
@@ -2583,13 +1513,8 @@
         "ground that deals 0.25x",
         "damage for 4 ticks."
       ],
-      "shiny": {
-        "id": "telos:weapon/sceptre/ut-firmament-shiny",
-        "model": "telos:material/weapon/sceptre/ut-firmament-shiny"
-      },
-      "classes": [
-        "Arcanist"
-      ]
+      "shiny": { "id": "telos:weapon/sceptre/ut-firmament-shiny", "model": "telos:material/weapon/sceptre/ut-firmament-shiny" },
+      "classes": ["Arcanist"]
     },
     {
       "id": "telos:ability/orb/ut-essence",
@@ -2598,31 +1523,11 @@
       "type": "ability/orb",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Seraph's Domain",
-        "icon": "telos:material/dungeon/hardmode_celestials_province"
-      },
-      "stats": {
-        "Damage": "22",
-        "Velocity": "20",
-        "Range": "4",
-        "Shots": "8",
-        "Pierces": "Yes",
-        "Cooldown": "10s"
-      },
-      "text": [
-        "Ability: Summons",
-        "projectiles in front of",
-        "you that converge into",
-        "the middle."
-      ],
-      "shiny": {
-        "id": "telos:ability/orb/ut-essence-shiny",
-        "model": "telos:material/ability/orb/ut-essence-shiny"
-      },
-      "classes": [
-        "Arcanist"
-      ]
+      "source": { "name": "Seraph's Domain", "icon": "telos:material/dungeon/hardmode_celestials_province" },
+      "stats": { "Damage": "22", "Velocity": "20", "Range": "4", "Shots": "8", "Pierces": "Yes", "Cooldown": "10s" },
+      "text": ["Ability: Summons", "projectiles in front of", "you that converge into", "the middle."],
+      "shiny": { "id": "telos:ability/orb/ut-essence-shiny", "model": "telos:material/ability/orb/ut-essence-shiny" },
+      "classes": ["Arcanist"]
     },
     {
       "id": "telos:ability/orb/ut-horizon",
@@ -2631,14 +1536,8 @@
       "type": "ability/orb",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Tenebris",
-        "icon": "telos:material/dungeon/tenebris"
-      },
-      "stats": {
-        "Damage": "6.5",
-        "Cooldown": "7s"
-      },
+      "source": { "name": "Tenebris", "icon": "telos:material/dungeon/tenebris" },
+      "stats": { "Damage": "6.5", "Cooldown": "7s" },
       "text": [
         "Passive: Damages in an",
         "AoE around you every",
@@ -2652,13 +1551,8 @@
         "Critical Chance equal to",
         "(2xRange)."
       ],
-      "shiny": {
-        "id": "telos:ability/orb/ut-horizon-shiny",
-        "model": "telos:material/ability/orb/ut-horizon-shiny"
-      },
-      "classes": [
-        "Arcanist"
-      ]
+      "shiny": { "id": "telos:ability/orb/ut-horizon-shiny", "model": "telos:material/ability/orb/ut-horizon-shiny" },
+      "classes": ["Arcanist"]
     },
     {
       "id": "telos:ability/jewel/ut-souls",
@@ -2667,18 +1561,8 @@
       "type": "ability/jewel",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Cultist's Hideout",
-        "icon": "telos:material/dungeon/cultists_hideout"
-      },
-      "stats": {
-        "Damage": "4",
-        "Range": "11",
-        "Shots": "3",
-        "Velocity": "20",
-        "Pierces": "No",
-        "Cooldown": "10s"
-      },
+      "source": { "name": "Cultist's Hideout", "icon": "telos:material/dungeon/cultists_hideout" },
+      "stats": { "Damage": "4", "Range": "11", "Shots": "3", "Velocity": "20", "Pierces": "No", "Cooldown": "10s" },
       "text": [
         "Passive: Summons souls",
         "that rotate around",
@@ -2690,9 +1574,7 @@
         "1.25x damage but have",
         "0.75x range for 6s."
       ],
-      "classes": [
-        "Arcanist"
-      ]
+      "classes": ["Arcanist"]
     },
     {
       "id": "telos:ability/jewel/ut-spinestone",
@@ -2701,18 +1583,8 @@
       "type": "ability/jewel",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "source": {
-        "name": "Resounding Ruins",
-        "icon": "telos:material/dungeon/resounding_ruins"
-      },
-      "stats": {
-        "Damage": "30",
-        "Range": "10",
-        "Shots": "4",
-        "Velocity": "20",
-        "Pierces": "No",
-        "Cooldown": "12s"
-      },
+      "source": { "name": "Resounding Ruins", "icon": "telos:material/dungeon/resounding_ruins" },
+      "stats": { "Damage": "30", "Range": "10", "Shots": "4", "Velocity": "20", "Pierces": "No", "Cooldown": "12s" },
       "text": [
         "Ability: Summons jewels",
         "that rotate around",
@@ -2726,13 +1598,8 @@
         "dealing 0.2x damage",
         "each."
       ],
-      "shiny": {
-        "id": "telos:ability/jewel/ut-spinestone-shiny",
-        "model": "telos:material/ability/jewel/ut-spinestone-shiny"
-      },
-      "classes": [
-        "Arcanist"
-      ]
+      "shiny": { "id": "telos:ability/jewel/ut-spinestone-shiny", "model": "telos:material/ability/jewel/ut-spinestone-shiny" },
+      "classes": ["Arcanist"]
     },
     {
       "id": "telos:ability/jewel/ut-wildtides",
@@ -2741,14 +1608,7 @@
       "type": "ability/jewel",
       "rarity": "bloodshot",
       "tierPoints": 12,
-      "stats": {
-        "Damage": "10.8",
-        "Range": "9",
-        "Shots": "6",
-        "Velocity": "15",
-        "Pierces": "No",
-        "Cooldown": "12s"
-      },
+      "stats": { "Damage": "10.8", "Range": "9", "Shots": "6", "Velocity": "15", "Pierces": "No", "Cooldown": "12s" },
       "text": [
         "Ability: Summons jewels",
         "that rotate around",
@@ -2767,13 +1627,8 @@
         "radius (0.85s delay",
         "per shot)."
       ],
-      "shiny": {
-        "id": "telos:ability/jewel/ut-wildtides-shiny",
-        "model": "telos:material/ability/jewel/ut-wildtides-shiny"
-      },
-      "classes": [
-        "Arcanist"
-      ]
+      "shiny": { "id": "telos:ability/jewel/ut-wildtides-shiny", "model": "telos:material/ability/jewel/ut-wildtides-shiny" },
+      "classes": ["Arcanist"]
     }
   ],
   "color": "#B7220A"

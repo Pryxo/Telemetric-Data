@@ -10,28 +10,11 @@
       "type": "armour/heavy/chestplate",
       "rarity": "irradiated",
       "tierPoints": 9,
-      "source": {
-        "name": "Brakk",
-        "icon": "telos:material/boss/brakk"
-      },
-      "stats": {
-        "Health": "+4",
-        "Critical Damage": "10",
-        "Cooldown": "10s"
-      },
-      "text": [
-        "Ability: Grants Critical",
-        "Damage for 5s on ability",
-        "use."
-      ],
-      "shiny": {
-        "id": "telos:armour/heavy/chestplate/ut-diver-shiny",
-        "model": "telos:material/armour/heavy/chestplate/ut-diver-shiny"
-      },
-      "classes": [
-        "Knight",
-        "Samurai"
-      ]
+      "source": { "name": "Brakk", "icon": "telos:material/boss/brakk" },
+      "stats": { "Health": "+4", "Critical Damage": "10", "Cooldown": "10s" },
+      "text": ["Ability: Grants Critical", "Damage for 5s on ability", "use."],
+      "shiny": { "id": "telos:armour/heavy/chestplate/ut-diver-shiny", "model": "telos:material/armour/heavy/chestplate/ut-diver-shiny" },
+      "classes": ["Knight", "Samurai"]
     },
     {
       "id": "telos:armour/heavy/leggings/ut-drayruk",
@@ -40,19 +23,9 @@
       "type": "armour/heavy/leggings",
       "rarity": "irradiated",
       "tierPoints": 9,
-      "source": {
-        "name": "Goblin Lair",
-        "icon": "telos:material/dungeon/goblin_lair"
-      },
-      "stats": {
-        "Attack": "+5",
-        "Defense": "+8",
-        "Speed": "+5"
-      },
-      "classes": [
-        "Knight",
-        "Samurai"
-      ]
+      "source": { "name": "Goblin Lair", "icon": "telos:material/dungeon/goblin_lair" },
+      "stats": { "Attack": "+5", "Defense": "+8", "Speed": "+5" },
+      "classes": ["Knight", "Samurai"]
     },
     {
       "id": "telos:weapon/sword/ut-cleaver",
@@ -61,17 +34,8 @@
       "type": "weapon/sword",
       "rarity": "irradiated",
       "tierPoints": 9,
-      "source": {
-        "name": "Goblin Lair",
-        "icon": "telos:material/dungeon/goblin_lair"
-      },
-      "stats": {
-        "Damage": "19",
-        "Range": "5",
-        "Slashes": "1",
-        "Pierces": "Yes",
-        "Cooldown": "0.8s"
-      },
+      "source": { "name": "Goblin Lair", "icon": "telos:material/dungeon/goblin_lair" },
+      "stats": { "Damage": "19", "Range": "5", "Slashes": "1", "Pierces": "Yes", "Cooldown": "0.8s" },
       "text": [
         "Ability: After hitting 2",
         "slashes in a row, your",
@@ -82,9 +46,7 @@
         "successfully targeting",
         "an enemy."
       ],
-      "classes": [
-        "Knight"
-      ]
+      "classes": ["Knight"]
     },
     {
       "id": "telos:ability/emblem/ut-sandstone",
@@ -93,25 +55,11 @@
       "type": "ability/emblem",
       "rarity": "irradiated",
       "tierPoints": 9,
-      "source": {
-        "name": "Desert Temple",
-        "icon": "telos:material/dungeon/desert_temple"
-      },
-      "stats": {
-        "Speed": "40",
-        "Cooldown": "7s"
-      },
-      "text": [
-        "Ability: Grants Speed",
-        "for 7.0s."
-      ],
-      "shiny": {
-        "id": "telos:ability/emblem/ut-sandstone-shiny",
-        "model": "telos:material/ability/emblem/ut-sandstone-shiny"
-      },
-      "classes": [
-        "Knight"
-      ]
+      "source": { "name": "Desert Temple", "icon": "telos:material/dungeon/desert_temple" },
+      "stats": { "Speed": "40", "Cooldown": "7s" },
+      "text": ["Ability: Grants Speed", "for 7.0s."],
+      "shiny": { "id": "telos:ability/emblem/ut-sandstone-shiny", "model": "telos:material/ability/emblem/ut-sandstone-shiny" },
+      "classes": ["Knight"]
     },
     {
       "id": "telos:armour/light/helmet/ut-rooted",
@@ -120,29 +68,10 @@
       "type": "armour/light/helmet",
       "rarity": "irradiated",
       "tierPoints": 9,
-      "source": {
-        "name": "Grimleaf",
-        "icon": "telos:material/boss/grimleaf"
-      },
-      "stats": {
-        "Health": "+1",
-        "Attack": "+3",
-        "Speed": "-8",
-        "Evasion": "+4",
-        "Heal": "3",
-        "Range": "3",
-        "Cooldown": "30s"
-      },
-      "text": [
-        "Ability: Taking damage",
-        "will spawn a flower",
-        "around you that heals",
-        "HP after 3s."
-      ],
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "source": { "name": "Grimleaf", "icon": "telos:material/boss/grimleaf" },
+      "stats": { "Health": "+1", "Attack": "+3", "Speed": "-8", "Evasion": "+4", "Heal": "3", "Range": "3", "Cooldown": "30s" },
+      "text": ["Ability: Taking damage", "will spawn a flower", "around you that heals", "HP after 3s."],
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:armour/light/chestplate/ut-tunic",
@@ -151,22 +80,10 @@
       "type": "armour/light/chestplate",
       "rarity": "irradiated",
       "tierPoints": 9,
-      "source": {
-        "name": "Sakura Shrine",
-        "icon": "telos:material/dungeon/sakura_shrine"
-      },
-      "stats": {
-        "Attack": "+6",
-        "Defense": "+8"
-      },
-      "shiny": {
-        "id": "telos:armour/light/chestplate/ut-tunic-shiny",
-        "model": "telos:material/armour/light/chestplate/ut-tunic-shiny"
-      },
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "source": { "name": "Sakura Shrine", "icon": "telos:material/dungeon/sakura_shrine" },
+      "stats": { "Attack": "+6", "Defense": "+8" },
+      "shiny": { "id": "telos:armour/light/chestplate/ut-tunic-shiny", "model": "telos:material/armour/light/chestplate/ut-tunic-shiny" },
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:armour/light/boots/ut-wartorn",
@@ -175,32 +92,11 @@
       "type": "armour/light/boots",
       "rarity": "irradiated",
       "tierPoints": 9,
-      "source": {
-        "name": "Thornwood Wargrove",
-        "icon": "telos:material/dungeon/thornwood_wargrove"
-      },
-      "stats": {
-        "Speed": "+9",
-        "Evasion": "+4",
-        "Cooldown": "10s"
-      },
-      "text": [
-        "Ability: Lunge forward",
-        "upon sneaking whilst",
-        "airborne. Alternatively,",
-        "sneak 3 times in quick",
-        "succession to lunge",
-        "forward from the",
-        "ground."
-      ],
-      "shiny": {
-        "id": "telos:armour/light/boots/ut-wartorn-shiny",
-        "model": "telos:material/armour/light/boots/ut-wartorn-shiny"
-      },
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "source": { "name": "Thornwood Wargrove", "icon": "telos:material/dungeon/thornwood_wargrove" },
+      "stats": { "Speed": "+9", "Evasion": "+4", "Cooldown": "10s" },
+      "text": ["Ability: Lunge forward", "upon sneaking whilst", "airborne. Alternatively,", "sneak 3 times in quick", "succession to lunge", "forward from the", "ground."],
+      "shiny": { "id": "telos:armour/light/boots/ut-wartorn-shiny", "model": "telos:material/armour/light/boots/ut-wartorn-shiny" },
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:weapon/dagger/ut-grass",
@@ -209,21 +105,9 @@
       "type": "weapon/dagger",
       "rarity": "irradiated",
       "tierPoints": 9,
-      "source": {
-        "name": "Secluded Woodland",
-        "icon": "telos:material/dungeon/secluded_woodland"
-      },
-      "stats": {
-        "Damage": "9.5",
-        "Range": "6",
-        "Shots": "2",
-        "Velocity": "20",
-        "Pierces": "No",
-        "Cooldown": "0.8s"
-      },
-      "classes": [
-        "Assassin"
-      ]
+      "source": { "name": "Secluded Woodland", "icon": "telos:material/dungeon/secluded_woodland" },
+      "stats": { "Damage": "9.5", "Range": "6", "Shots": "2", "Velocity": "20", "Pierces": "No", "Cooldown": "0.8s" },
+      "classes": ["Assassin"]
     },
     {
       "id": "telos:ability/cloak/ut-shadows",
@@ -232,28 +116,10 @@
       "type": "ability/cloak",
       "rarity": "irradiated",
       "tierPoints": 9,
-      "source": {
-        "name": "Tomb of Shadows",
-        "icon": "telos:material/dungeon/tomb_of_shadows"
-      },
-      "stats": {
-        "Speed": "25",
-        "Damage": "15",
-        "Range": "9",
-        "Shots": "4",
-        "Velocity": "30",
-        "Cooldown": "10s"
-      },
-      "text": [
-        "Ability: Makes you",
-        "invisible for 3.0s. Fires",
-        "4 daggers towards",
-        "your cursor and",
-        "grants Speed for 5.0s."
-      ],
-      "classes": [
-        "Assassin"
-      ]
+      "source": { "name": "Tomb of Shadows", "icon": "telos:material/dungeon/tomb_of_shadows" },
+      "stats": { "Speed": "25", "Damage": "15", "Range": "9", "Shots": "4", "Velocity": "30", "Cooldown": "10s" },
+      "text": ["Ability: Makes you", "invisible for 3.0s. Fires", "4 daggers towards", "your cursor and", "grants Speed for 5.0s."],
+      "classes": ["Assassin"]
     },
     {
       "id": "telos:ability/poison/ut-flask",
@@ -262,31 +128,11 @@
       "type": "ability/poison",
       "rarity": "irradiated",
       "tierPoints": 9,
-      "source": {
-        "name": "Thornwood Wargrove",
-        "icon": "telos:material/dungeon/thornwood_wargrove"
-      },
-      "stats": {
-        "Heal": "4",
-        "Damage": "70",
-        "Range": "20",
-        "Velocity": "15",
-        "Cooldown": "15s"
-      },
-      "text": [
-        "Ability: Inflicts a poison",
-        "effect to enemies in an",
-        "0.4x block radius for 2s",
-        "(2 ticks). Heals you over",
-        "2s."
-      ],
-      "shiny": {
-        "id": "telos:ability/poison/ut-flask-shiny",
-        "model": "telos:material/ability/poison/ut-flask-shiny"
-      },
-      "classes": [
-        "Assassin"
-      ]
+      "source": { "name": "Thornwood Wargrove", "icon": "telos:material/dungeon/thornwood_wargrove" },
+      "stats": { "Heal": "4", "Damage": "70", "Range": "20", "Velocity": "15", "Cooldown": "15s" },
+      "text": ["Ability: Inflicts a poison", "effect to enemies in an", "0.4x block radius for 2s", "(2 ticks). Heals you over", "2s."],
+      "shiny": { "id": "telos:ability/poison/ut-flask-shiny", "model": "telos:material/ability/poison/ut-flask-shiny" },
+      "classes": ["Assassin"]
     },
     {
       "id": "telos:weapon/katana/ut-kendo",
@@ -295,25 +141,10 @@
       "type": "weapon/katana",
       "rarity": "irradiated",
       "tierPoints": 9,
-      "source": {
-        "name": "Sakura Shrine",
-        "icon": "telos:material/dungeon/sakura_shrine"
-      },
-      "stats": {
-        "Damage": "8",
-        "Range": "6",
-        "Slashes": "3",
-        "Pierces": "Yes",
-        "Cooldown": "1s"
-      },
-      "text": [
-        "Ability: You only attack",
-        "after successfully",
-        "targeting an enemy."
-      ],
-      "classes": [
-        "Samurai"
-      ]
+      "source": { "name": "Sakura Shrine", "icon": "telos:material/dungeon/sakura_shrine" },
+      "stats": { "Damage": "8", "Range": "6", "Slashes": "3", "Pierces": "Yes", "Cooldown": "1s" },
+      "text": ["Ability: You only attack", "after successfully", "targeting an enemy."],
+      "classes": ["Samurai"]
     },
     {
       "id": "telos:ability/star/ut-leafal",
@@ -322,18 +153,8 @@
       "type": "ability/star",
       "rarity": "irradiated",
       "tierPoints": 9,
-      "source": {
-        "name": "Grimleaf",
-        "icon": "telos:material/boss/grimleaf"
-      },
-      "stats": {
-        "Damage": "35",
-        "Range": "9",
-        "Shots": "1",
-        "Velocity": "25",
-        "Pierces": "No",
-        "Cooldown": "10s"
-      },
+      "source": { "name": "Grimleaf", "icon": "telos:material/boss/grimleaf" },
+      "stats": { "Damage": "35", "Range": "9", "Shots": "1", "Velocity": "25", "Pierces": "No", "Cooldown": "10s" },
       "text": [
         "Ability: Shoots a star",
         "projectile that",
@@ -345,9 +166,7 @@
         "into the target for",
         "0.23x damage each."
       ],
-      "classes": [
-        "Samurai"
-      ]
+      "classes": ["Samurai"]
     },
     {
       "id": "telos:armour/magical/helmet/ut-stealth",
@@ -356,29 +175,11 @@
       "type": "armour/magical/helmet",
       "rarity": "irradiated",
       "tierPoints": 9,
-      "source": {
-        "name": "Tomb of Shadows",
-        "icon": "telos:material/dungeon/tomb_of_shadows"
-      },
-      "stats": {
-        "Defense": "+6",
-        "Speed": "+8",
-        "Evasion": "+3",
-        "Cooldown": "30s"
-      },
-      "text": [
-        "Ability: Turns you",
-        "invisible for 3s when",
-        "below under 50% HP."
-      ],
-      "shiny": {
-        "id": "telos:armour/magical/helmet/ut-stealth-shiny",
-        "model": "telos:material/armour/magical/helmet/ut-stealth-shiny"
-      },
-      "classes": [
-        "Necromancer",
-        "Arcanist"
-      ]
+      "source": { "name": "Tomb of Shadows", "icon": "telos:material/dungeon/tomb_of_shadows" },
+      "stats": { "Defense": "+6", "Speed": "+8", "Evasion": "+3", "Cooldown": "30s" },
+      "text": ["Ability: Turns you", "invisible for 3s when", "below under 50% HP."],
+      "shiny": { "id": "telos:armour/magical/helmet/ut-stealth-shiny", "model": "telos:material/armour/magical/helmet/ut-stealth-shiny" },
+      "classes": ["Necromancer", "Arcanist"]
     },
     {
       "id": "telos:armour/magical/boots/ut-flora",
@@ -387,18 +188,9 @@
       "type": "armour/magical/boots",
       "rarity": "irradiated",
       "tierPoints": 9,
-      "source": {
-        "name": "Secluded Woodland",
-        "icon": "telos:material/dungeon/secluded_woodland"
-      },
-      "stats": {
-        "Health": "+2",
-        "Defense": "+9"
-      },
-      "classes": [
-        "Necromancer",
-        "Arcanist"
-      ]
+      "source": { "name": "Secluded Woodland", "icon": "telos:material/dungeon/secluded_woodland" },
+      "stats": { "Health": "+2", "Defense": "+9" },
+      "classes": ["Necromancer", "Arcanist"]
     },
     {
       "id": "telos:weapon/staff/ut-asteroid",
@@ -407,18 +199,8 @@
       "type": "weapon/staff",
       "rarity": "irradiated",
       "tierPoints": 9,
-      "source": {
-        "name": "Thornwood Wargrove",
-        "icon": "telos:material/dungeon/thornwood_wargrove"
-      },
-      "stats": {
-        "Damage": "4",
-        "Range": "12",
-        "Shots": "5",
-        "Velocity": "25",
-        "Pierces": "Yes",
-        "Cooldown": "1s"
-      },
+      "source": { "name": "Thornwood Wargrove", "icon": "telos:material/dungeon/thornwood_wargrove" },
+      "stats": { "Damage": "4", "Range": "12", "Shots": "5", "Velocity": "25", "Pierces": "Yes", "Cooldown": "1s" },
       "text": [
         "Ability: Summons a stream",
         "of asteroids that travel",
@@ -428,13 +210,8 @@
         "firing them at the maximum",
         "range."
       ],
-      "shiny": {
-        "id": "telos:weapon/staff/ut-asteroid-shiny",
-        "model": "telos:material/weapon/staff/ut-asteroid-shiny"
-      },
-      "classes": [
-        "Necromancer"
-      ]
+      "shiny": { "id": "telos:weapon/staff/ut-asteroid-shiny", "model": "telos:material/weapon/staff/ut-asteroid-shiny" },
+      "classes": ["Necromancer"]
     },
     {
       "id": "telos:ability/skull/ut-khufu",
@@ -443,28 +220,10 @@
       "type": "ability/skull",
       "rarity": "irradiated",
       "tierPoints": 9,
-      "source": {
-        "name": "Tomb of Shadows",
-        "icon": "telos:material/dungeon/tomb_of_shadows"
-      },
-      "stats": {
-        "Damage": "3.75",
-        "Range": "20",
-        "Velocity": "15",
-        "Summons": "5",
-        "Pierces": "No",
-        "Cooldown": "11s"
-      },
-      "text": [
-        "Ability: Summon mummies",
-        "that disappear after",
-        "10s or after 4 attacks",
-        "which have a 1.5 CD",
-        "between each throw."
-      ],
-      "classes": [
-        "Necromancer"
-      ]
+      "source": { "name": "Tomb of Shadows", "icon": "telos:material/dungeon/tomb_of_shadows" },
+      "stats": { "Damage": "3.75", "Range": "20", "Velocity": "15", "Summons": "5", "Pierces": "No", "Cooldown": "11s" },
+      "text": ["Ability: Summon mummies", "that disappear after", "10s or after 4 attacks", "which have a 1.5 CD", "between each throw."],
+      "classes": ["Necromancer"]
     },
     {
       "id": "telos:ability/scripture/ut-treasure",
@@ -473,19 +232,8 @@
       "type": "ability/scripture",
       "rarity": "irradiated",
       "tierPoints": 9,
-      "source": {
-        "name": "Skull Cavern",
-        "icon": "telos:material/dungeon/skull_cavern"
-      },
-      "stats": {
-        "Attack": "5",
-        "Heal": "0.45",
-        "Damage": "50",
-        "Range": "11",
-        "Summons": "4",
-        "Pierces": "No",
-        "Cooldown": "12s"
-      },
+      "source": { "name": "Skull Cavern", "icon": "telos:material/dungeon/skull_cavern" },
+      "stats": { "Attack": "5", "Heal": "0.45", "Damage": "50", "Range": "11", "Summons": "4", "Pierces": "No", "Cooldown": "12s" },
       "text": [
         "Ability: Unleashes 10 ingots from",
         "your target that home in on you",
@@ -498,9 +246,7 @@
         "get a 3s healing cooldown",
         "(self-heals unaffected)."
       ],
-      "classes": [
-        "Necromancer"
-      ]
+      "classes": ["Necromancer"]
     },
     {
       "id": "telos:weapon/bow/ut-blunder",
@@ -509,25 +255,10 @@
       "type": "weapon/bow",
       "rarity": "irradiated",
       "tierPoints": 9,
-      "source": {
-        "name": "Skull Cavern",
-        "icon": "telos:material/dungeon/skull_cavern"
-      },
-      "stats": {
-        "Damage": "13",
-        "Range": "20",
-        "Shots": "1",
-        "Velocity": "15",
-        "Pierces": "No",
-        "Cooldown": "0.6s"
-      },
-      "shiny": {
-        "id": "telos:weapon/bow/ut-blunder-shiny",
-        "model": "telos:material/weapon/bow/ut-blunder-shiny"
-      },
-      "classes": [
-        "Huntress"
-      ]
+      "source": { "name": "Skull Cavern", "icon": "telos:material/dungeon/skull_cavern" },
+      "stats": { "Damage": "13", "Range": "20", "Shots": "1", "Velocity": "15", "Pierces": "No", "Cooldown": "0.6s" },
+      "shiny": { "id": "telos:weapon/bow/ut-blunder-shiny", "model": "telos:material/weapon/bow/ut-blunder-shiny" },
+      "classes": ["Huntress"]
     },
     {
       "id": "telos:ability/trap/ut-arrowstorm",
@@ -536,32 +267,11 @@
       "type": "ability/trap",
       "rarity": "irradiated",
       "tierPoints": 9,
-      "source": {
-        "name": "Goblin Lair",
-        "icon": "telos:material/dungeon/goblin_lair"
-      },
-      "stats": {
-        "Damage": "6.5",
-        "Range": "15",
-        "Shots": "8",
-        "Velocity": "25",
-        "Cooldown": "10s"
-      },
-      "text": [
-        "Ability: Throws a trap",
-        "that paralyzes targets",
-        "in a 0.15x block radius",
-        "for 1.5s and summons",
-        "arrows which home into",
-        "them."
-      ],
-      "shiny": {
-        "id": "telos:ability/trap/ut-arrowstorm-shiny",
-        "model": "telos:material/ability/trap/ut-arrowstorm-shiny"
-      },
-      "classes": [
-        "Huntress"
-      ]
+      "source": { "name": "Goblin Lair", "icon": "telos:material/dungeon/goblin_lair" },
+      "stats": { "Damage": "6.5", "Range": "15", "Shots": "8", "Velocity": "25", "Cooldown": "10s" },
+      "text": ["Ability: Throws a trap", "that paralyzes targets", "in a 0.15x block radius", "for 1.5s and summons", "arrows which home into", "them."],
+      "shiny": { "id": "telos:ability/trap/ut-arrowstorm-shiny", "model": "telos:material/ability/trap/ut-arrowstorm-shiny" },
+      "classes": ["Huntress"]
     },
     {
       "id": "telos:ability/bomb/ut-krakatoa",
@@ -570,15 +280,8 @@
       "type": "ability/bomb",
       "rarity": "irradiated",
       "tierPoints": 9,
-      "source": {
-        "name": "Brakk",
-        "icon": "telos:material/boss/brakk"
-      },
-      "stats": {
-        "Damage": "28",
-        "Range": "3",
-        "Cooldown": "7s"
-      },
+      "source": { "name": "Brakk", "icon": "telos:material/boss/brakk" },
+      "stats": { "Damage": "28", "Range": "3", "Cooldown": "7s" },
       "text": [
         "Ability: Creates a large",
         "explosion that damages",
@@ -588,13 +291,8 @@
         "landing and grants you",
         "Invisibility for 3s."
       ],
-      "shiny": {
-        "id": "telos:ability/bomb/ut-krakatoa-shiny",
-        "model": "telos:material/ability/bomb/ut-krakatoa-shiny"
-      },
-      "classes": [
-        "Huntress"
-      ]
+      "shiny": { "id": "telos:ability/bomb/ut-krakatoa-shiny", "model": "telos:material/ability/bomb/ut-krakatoa-shiny" },
+      "classes": ["Huntress"]
     },
     {
       "id": "telos:weapon/sceptre/ut-thorns",
@@ -603,27 +301,10 @@
       "type": "weapon/sceptre",
       "rarity": "irradiated",
       "tierPoints": 9,
-      "source": {
-        "name": "Desert Temple",
-        "icon": "telos:material/dungeon/desert_temple"
-      },
-      "stats": {
-        "Damage": "5.5",
-        "Range": "9",
-        "Beams": "3",
-        "Pierces": "Yes",
-        "Cooldown": "1s"
-      },
-      "text": [
-        "Ability: Each hit has a",
-        "50% chance to spawn a",
-        "mummy hand that deals",
-        "AoE 0.33x damage",
-        "every 1.0s for 3.0s."
-      ],
-      "classes": [
-        "Arcanist"
-      ]
+      "source": { "name": "Desert Temple", "icon": "telos:material/dungeon/desert_temple" },
+      "stats": { "Damage": "5.5", "Range": "9", "Beams": "3", "Pierces": "Yes", "Cooldown": "1s" },
+      "text": ["Ability: Each hit has a", "50% chance to spawn a", "mummy hand that deals", "AoE 0.33x damage", "every 1.0s for 3.0s."],
+      "classes": ["Arcanist"]
     },
     {
       "id": "telos:ability/orb/ut-overgrown",
@@ -632,24 +313,10 @@
       "type": "ability/orb",
       "rarity": "irradiated",
       "tierPoints": 9,
-      "source": {
-        "name": "Secluded Woodland",
-        "icon": "telos:material/dungeon/secluded_woodland"
-      },
-      "stats": {
-        "Damage": "85",
-        "Range": "4",
-        "Cooldown": "12s"
-      },
-      "text": [
-        "Ability: Damages in an",
-        "AoE around you and",
-        "paralyzes enemies for",
-        "2s."
-      ],
-      "classes": [
-        "Arcanist"
-      ]
+      "source": { "name": "Secluded Woodland", "icon": "telos:material/dungeon/secluded_woodland" },
+      "stats": { "Damage": "85", "Range": "4", "Cooldown": "12s" },
+      "text": ["Ability: Damages in an", "AoE around you and", "paralyzes enemies for", "2s."],
+      "classes": ["Arcanist"]
     }
   ],
   "color": "#15CD15"

@@ -10,22 +10,9 @@
       "type": "ability/bomb",
       "tier": 1,
       "tierPoints": 1,
-      "stats": {
-        "Damage": "10.5",
-        "Range": "2.5",
-        "Cooldown": "9s"
-      },
-      "text": [
-        "Ability: Creates a small",
-        "explosion that damages",
-        "enemies and propels",
-        "you backward.",
-        "Cooldown begins upon",
-        "landing."
-      ],
-      "classes": [
-        "Huntress"
-      ]
+      "stats": { "Damage": "10.5", "Range": "2.5", "Cooldown": "9s" },
+      "text": ["Ability: Creates a small", "explosion that damages", "enemies and propels", "you backward.", "Cooldown begins upon", "landing."],
+      "classes": ["Huntress"]
     },
     {
       "id": "telos:ability/cloak/t1",
@@ -34,22 +21,9 @@
       "type": "ability/cloak",
       "tier": 1,
       "tierPoints": 1,
-      "stats": {
-        "Speed": "7",
-        "Attack": "4",
-        "Critical Chance": "9",
-        "Cooldown": "14s"
-      },
-      "text": [
-        "Ability: Makes you",
-        "invisible for 2.0s.",
-        "Grants Speed, Attack,",
-        "and Critical Chance for",
-        "3.0s."
-      ],
-      "classes": [
-        "Assassin"
-      ]
+      "stats": { "Speed": "7", "Attack": "4", "Critical Chance": "9", "Cooldown": "14s" },
+      "text": ["Ability: Makes you", "invisible for 2.0s.", "Grants Speed, Attack,", "and Critical Chance for", "3.0s."],
+      "classes": ["Assassin"]
     },
     {
       "id": "telos:ability/emblem/t1",
@@ -58,22 +32,9 @@
       "type": "ability/emblem",
       "tier": 1,
       "tierPoints": 1,
-      "stats": {
-        "Speed": "20",
-        "Range": "4",
-        "Cooldown": "15s"
-      },
-      "text": [
-        "Ability: Buffs your",
-        "attack speed by 33%",
-        "and your allies' by 25%",
-        "for 4.0s (does not",
-        "stack). Grants Speed",
-        "for 4.0s."
-      ],
-      "classes": [
-        "Knight"
-      ]
+      "stats": { "Speed": "20", "Range": "4", "Cooldown": "15s" },
+      "text": ["Ability: Buffs your", "attack speed by 33%", "and your allies' by 25%", "for 4.0s (does not", "stack). Grants Speed", "for 4.0s."],
+      "classes": ["Knight"]
     },
     {
       "id": "telos:ability/jewel/t1",
@@ -82,24 +43,9 @@
       "type": "ability/jewel",
       "tier": 1,
       "tierPoints": 1,
-      "stats": {
-        "Damage": "7",
-        "Range": "10",
-        "Shots": "3",
-        "Velocity": "15",
-        "Pierces": "No",
-        "Cooldown": "13s"
-      },
-      "text": [
-        "Ability: Summons jewels",
-        "that rotate around",
-        "you and seek the",
-        "nearest enemy (lasts",
-        "6s)."
-      ],
-      "classes": [
-        "Arcanist"
-      ]
+      "stats": { "Damage": "7", "Range": "10", "Shots": "3", "Velocity": "15", "Pierces": "No", "Cooldown": "13s" },
+      "text": ["Ability: Summons jewels", "that rotate around", "you and seek the", "nearest enemy (lasts", "6s)."],
+      "classes": ["Arcanist"]
     },
     {
       "id": "telos:ability/kunai/t1",
@@ -108,14 +54,7 @@
       "type": "ability/kunai",
       "tier": 1,
       "tierPoints": 1,
-      "stats": {
-        "Damage": "2",
-        "Range": "7",
-        "Shots": "3",
-        "Velocity": "25",
-        "Pierces": "Yes",
-        "Cooldown": "10s"
-      },
+      "stats": { "Damage": "2", "Range": "7", "Shots": "3", "Velocity": "25", "Pierces": "Yes", "Cooldown": "10s" },
       "text": [
         "Ability: Shoots kunai",
         "projectiles that return",
@@ -125,9 +64,7 @@
         "deal +20% damage to",
         "them for 2.0s."
       ],
-      "classes": [
-        "Samurai"
-      ]
+      "classes": ["Samurai"]
     },
     {
       "id": "telos:ability/orb/t1",
@@ -136,20 +73,9 @@
       "type": "ability/orb",
       "tier": 1,
       "tierPoints": 1,
-      "stats": {
-        "Speed": "9",
-        "Damage": "30",
-        "Range": "6",
-        "Cooldown": "13s"
-      },
-      "text": [
-        "Ability: Damages in an",
-        "AoE around you and",
-        "grants Speed for 3s."
-      ],
-      "classes": [
-        "Arcanist"
-      ]
+      "stats": { "Speed": "9", "Damage": "30", "Range": "6", "Cooldown": "13s" },
+      "text": ["Ability: Damages in an", "AoE around you and", "grants Speed for 3s."],
+      "classes": ["Arcanist"]
     },
     {
       "id": "telos:ability/poison/t1",
@@ -158,21 +84,9 @@
       "type": "ability/poison",
       "tier": 1,
       "tierPoints": 1,
-      "stats": {
-        "Damage": "35",
-        "Range": "20",
-        "Velocity": "15",
-        "Cooldown": "14s"
-      },
-      "text": [
-        "Ability: Inflicts a poison",
-        "effect to enemies in a",
-        "0.25x block radius for",
-        "4s (4 ticks)."
-      ],
-      "classes": [
-        "Assassin"
-      ]
+      "stats": { "Damage": "35", "Range": "20", "Velocity": "15", "Cooldown": "14s" },
+      "text": ["Ability: Inflicts a poison", "effect to enemies in a", "0.25x block radius for", "4s (4 ticks)."],
+      "classes": ["Assassin"]
     },
     {
       "id": "telos:ability/scripture/t1",
@@ -181,13 +95,7 @@
       "type": "ability/scripture",
       "tier": 1,
       "tierPoints": 1,
-      "stats": {
-        "Heal": "1",
-        "Damage": "10",
-        "Range": "10",
-        "Pierces": "No",
-        "Cooldown": "12s"
-      },
+      "stats": { "Heal": "1", "Damage": "10", "Range": "10", "Pierces": "No", "Cooldown": "12s" },
       "text": [
         "Ability: Unleashes 2",
         "projectiles from your",
@@ -202,9 +110,7 @@
         "cooldown (self-heals",
         "unaffected)."
       ],
-      "classes": [
-        "Necromancer"
-      ]
+      "classes": ["Necromancer"]
     },
     {
       "id": "telos:ability/shield/t1",
@@ -213,24 +119,9 @@
       "type": "ability/shield",
       "tier": 1,
       "tierPoints": 1,
-      "stats": {
-        "Defense": "10",
-        "Damage": "9",
-        "Range": "5",
-        "Shots": "4",
-        "Velocity": "10",
-        "Pierces": "Yes",
-        "Cooldown": "15s"
-      },
-      "text": [
-        "Ability: Shoots a",
-        "barrage of projectiles",
-        "and grants Defense",
-        "for 3s."
-      ],
-      "classes": [
-        "Knight"
-      ]
+      "stats": { "Defense": "10", "Damage": "9", "Range": "5", "Shots": "4", "Velocity": "10", "Pierces": "Yes", "Cooldown": "15s" },
+      "text": ["Ability: Shoots a", "barrage of projectiles", "and grants Defense", "for 3s."],
+      "classes": ["Knight"]
     },
     {
       "id": "telos:ability/skull/t1",
@@ -239,14 +130,7 @@
       "type": "ability/skull",
       "tier": 1,
       "tierPoints": 1,
-      "stats": {
-        "Damage": "1.5",
-        "Range": "30",
-        "Velocity": "20",
-        "Summons": "3",
-        "Pierces": "No",
-        "Cooldown": "10s"
-      },
+      "stats": { "Damage": "1.5", "Range": "30", "Velocity": "20", "Summons": "3", "Pierces": "No", "Cooldown": "10s" },
       "text": [
         "Ability: Summons 3",
         "skeletal minions that",
@@ -259,9 +143,7 @@
         "Melee:",
         "0.75x DMG/2.0s (2x)"
       ],
-      "classes": [
-        "Necromancer"
-      ]
+      "classes": ["Necromancer"]
     },
     {
       "id": "telos:ability/star/t1",
@@ -270,23 +152,9 @@
       "type": "ability/star",
       "tier": 1,
       "tierPoints": 1,
-      "stats": {
-        "Speed": "10",
-        "Damage": "20",
-        "Range": "12",
-        "Shots": "1",
-        "Velocity": "35",
-        "Pierces": "No",
-        "Cooldown": "11s"
-      },
-      "text": [
-        "Ability: Shoots a star",
-        "projectile and grants",
-        "Speed for 3s."
-      ],
-      "classes": [
-        "Samurai"
-      ]
+      "stats": { "Speed": "10", "Damage": "20", "Range": "12", "Shots": "1", "Velocity": "35", "Pierces": "No", "Cooldown": "11s" },
+      "text": ["Ability: Shoots a star", "projectile and grants", "Speed for 3s."],
+      "classes": ["Samurai"]
     },
     {
       "id": "telos:ability/trap/t1",
@@ -295,21 +163,9 @@
       "type": "ability/trap",
       "tier": 1,
       "tierPoints": 1,
-      "stats": {
-        "Damage": "19",
-        "Range": "20",
-        "Velocity": "15",
-        "Cooldown": "12s"
-      },
-      "text": [
-        "Ability: Throws a trap",
-        "that inflicts slowness",
-        "to enemies in a 0.3x",
-        "block radius for 3s."
-      ],
-      "classes": [
-        "Huntress"
-      ]
+      "stats": { "Damage": "19", "Range": "20", "Velocity": "15", "Cooldown": "12s" },
+      "text": ["Ability: Throws a trap", "that inflicts slowness", "to enemies in a 0.3x", "block radius for 3s."],
+      "classes": ["Huntress"]
     },
     {
       "id": "telos:armour/heavy/boots/t1",
@@ -318,14 +174,8 @@
       "type": "armour/heavy/boots",
       "tier": 1,
       "tierPoints": 1,
-      "stats": {
-        "Defense": "+5",
-        "Vitality": "+1"
-      },
-      "classes": [
-        "Knight",
-        "Samurai"
-      ]
+      "stats": { "Defense": "+5", "Vitality": "+1" },
+      "classes": ["Knight", "Samurai"]
     },
     {
       "id": "telos:armour/heavy/chestplate/t1",
@@ -334,14 +184,8 @@
       "type": "armour/heavy/chestplate",
       "tier": 1,
       "tierPoints": 1,
-      "stats": {
-        "Defense": "+5",
-        "Vitality": "+1"
-      },
-      "classes": [
-        "Knight",
-        "Samurai"
-      ]
+      "stats": { "Defense": "+5", "Vitality": "+1" },
+      "classes": ["Knight", "Samurai"]
     },
     {
       "id": "telos:armour/heavy/helmet/t1",
@@ -350,14 +194,8 @@
       "type": "armour/heavy/helmet",
       "tier": 1,
       "tierPoints": 1,
-      "stats": {
-        "Defense": "+5",
-        "Vitality": "+1"
-      },
-      "classes": [
-        "Knight",
-        "Samurai"
-      ]
+      "stats": { "Defense": "+5", "Vitality": "+1" },
+      "classes": ["Knight", "Samurai"]
     },
     {
       "id": "telos:armour/heavy/leggings/t1",
@@ -366,14 +204,8 @@
       "type": "armour/heavy/leggings",
       "tier": 1,
       "tierPoints": 1,
-      "stats": {
-        "Defense": "+5",
-        "Vitality": "+1"
-      },
-      "classes": [
-        "Knight",
-        "Samurai"
-      ]
+      "stats": { "Defense": "+5", "Vitality": "+1" },
+      "classes": ["Knight", "Samurai"]
     },
     {
       "id": "telos:armour/light/boots/t1",
@@ -382,14 +214,8 @@
       "type": "armour/light/boots",
       "tier": 1,
       "tierPoints": 1,
-      "stats": {
-        "Defense": "+2",
-        "Speed": "+2"
-      },
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "stats": { "Defense": "+2", "Speed": "+2" },
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:armour/light/chestplate/t1",
@@ -398,14 +224,8 @@
       "type": "armour/light/chestplate",
       "tier": 1,
       "tierPoints": 1,
-      "stats": {
-        "Defense": "+2",
-        "Speed": "+2"
-      },
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "stats": { "Defense": "+2", "Speed": "+2" },
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:armour/light/helmet/t1",
@@ -414,14 +234,8 @@
       "type": "armour/light/helmet",
       "tier": 1,
       "tierPoints": 1,
-      "stats": {
-        "Defense": "+2",
-        "Speed": "+2"
-      },
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "stats": { "Defense": "+2", "Speed": "+2" },
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:armour/light/leggings/t1",
@@ -430,14 +244,8 @@
       "type": "armour/light/leggings",
       "tier": 1,
       "tierPoints": 1,
-      "stats": {
-        "Defense": "+2",
-        "Speed": "+2"
-      },
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "stats": { "Defense": "+2", "Speed": "+2" },
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:armour/magical/boots/t1",
@@ -446,14 +254,8 @@
       "type": "armour/magical/boots",
       "tier": 1,
       "tierPoints": 1,
-      "stats": {
-        "Attack": "+1",
-        "Defense": "+1"
-      },
-      "classes": [
-        "Necromancer",
-        "Arcanist"
-      ]
+      "stats": { "Attack": "+1", "Defense": "+1" },
+      "classes": ["Necromancer", "Arcanist"]
     },
     {
       "id": "telos:armour/magical/chestplate/t1",
@@ -462,14 +264,8 @@
       "type": "armour/magical/chestplate",
       "tier": 1,
       "tierPoints": 1,
-      "stats": {
-        "Attack": "+1",
-        "Defense": "+1"
-      },
-      "classes": [
-        "Necromancer",
-        "Arcanist"
-      ]
+      "stats": { "Attack": "+1", "Defense": "+1" },
+      "classes": ["Necromancer", "Arcanist"]
     },
     {
       "id": "telos:armour/magical/helmet/t1",
@@ -478,14 +274,8 @@
       "type": "armour/magical/helmet",
       "tier": 1,
       "tierPoints": 1,
-      "stats": {
-        "Attack": "+1",
-        "Defense": "+1"
-      },
-      "classes": [
-        "Necromancer",
-        "Arcanist"
-      ]
+      "stats": { "Attack": "+1", "Defense": "+1" },
+      "classes": ["Necromancer", "Arcanist"]
     },
     {
       "id": "telos:armour/magical/leggings/t1",
@@ -494,14 +284,8 @@
       "type": "armour/magical/leggings",
       "tier": 1,
       "tierPoints": 1,
-      "stats": {
-        "Attack": "+1",
-        "Defense": "+1"
-      },
-      "classes": [
-        "Necromancer",
-        "Arcanist"
-      ]
+      "stats": { "Attack": "+1", "Defense": "+1" },
+      "classes": ["Necromancer", "Arcanist"]
     },
     {
       "id": "telos:weapon/bow/t1",
@@ -510,17 +294,8 @@
       "type": "weapon/bow",
       "tier": 1,
       "tierPoints": 1,
-      "stats": {
-        "Damage": "1.25",
-        "Range": "13",
-        "Shots": "3",
-        "Velocity": "20",
-        "Pierces": "Yes",
-        "Cooldown": "0.6s"
-      },
-      "classes": [
-        "Huntress"
-      ]
+      "stats": { "Damage": "1.25", "Range": "13", "Shots": "3", "Velocity": "20", "Pierces": "Yes", "Cooldown": "0.6s" },
+      "classes": ["Huntress"]
     },
     {
       "id": "telos:weapon/dagger/t1",
@@ -529,17 +304,8 @@
       "type": "weapon/dagger",
       "tier": 1,
       "tierPoints": 1,
-      "stats": {
-        "Damage": "3.75",
-        "Range": "9",
-        "Shots": "1",
-        "Velocity": "30",
-        "Pierces": "No",
-        "Cooldown": "0.6s"
-      },
-      "classes": [
-        "Assassin"
-      ]
+      "stats": { "Damage": "3.75", "Range": "9", "Shots": "1", "Velocity": "30", "Pierces": "No", "Cooldown": "0.6s" },
+      "classes": ["Assassin"]
     },
     {
       "id": "telos:weapon/katana/t1",
@@ -548,21 +314,9 @@
       "type": "weapon/katana",
       "tier": 1,
       "tierPoints": 1,
-      "stats": {
-        "Damage": "4.75",
-        "Range": "6",
-        "Slashes": "1",
-        "Pierces": "Yes",
-        "Cooldown": "0.5s"
-      },
-      "text": [
-        "Ability: You only attack",
-        "after successfully",
-        "targeting an enemy."
-      ],
-      "classes": [
-        "Samurai"
-      ]
+      "stats": { "Damage": "4.75", "Range": "6", "Slashes": "1", "Pierces": "Yes", "Cooldown": "0.5s" },
+      "text": ["Ability: You only attack", "after successfully", "targeting an enemy."],
+      "classes": ["Samurai"]
     },
     {
       "id": "telos:weapon/sceptre/t1",
@@ -571,16 +325,8 @@
       "type": "weapon/sceptre",
       "tier": 1,
       "tierPoints": 1,
-      "stats": {
-        "Damage": "5",
-        "Range": "8",
-        "Beams": "1",
-        "Pierces": "Yes",
-        "Cooldown": "0.8s"
-      },
-      "classes": [
-        "Arcanist"
-      ]
+      "stats": { "Damage": "5", "Range": "8", "Beams": "1", "Pierces": "Yes", "Cooldown": "0.8s" },
+      "classes": ["Arcanist"]
     },
     {
       "id": "telos:weapon/staff/t1",
@@ -589,17 +335,8 @@
       "type": "weapon/staff",
       "tier": 1,
       "tierPoints": 1,
-      "stats": {
-        "Damage": "3.25",
-        "Range": "15",
-        "Shots": "1",
-        "Velocity": "35",
-        "Pierces": "No",
-        "Cooldown": "0.6s"
-      },
-      "classes": [
-        "Necromancer"
-      ]
+      "stats": { "Damage": "3.25", "Range": "15", "Shots": "1", "Velocity": "35", "Pierces": "No", "Cooldown": "0.6s" },
+      "classes": ["Necromancer"]
     },
     {
       "id": "telos:weapon/sword/t1",
@@ -608,21 +345,9 @@
       "type": "weapon/sword",
       "tier": 1,
       "tierPoints": 1,
-      "stats": {
-        "Damage": "8.5",
-        "Range": "5",
-        "Slashes": "1",
-        "Pierces": "Yes",
-        "Cooldown": "1s"
-      },
-      "text": [
-        "Ability: You only attack",
-        "after successfully",
-        "targeting an enemy."
-      ],
-      "classes": [
-        "Knight"
-      ]
+      "stats": { "Damage": "8.5", "Range": "5", "Slashes": "1", "Pierces": "Yes", "Cooldown": "1s" },
+      "text": ["Ability: You only attack", "after successfully", "targeting an enemy."],
+      "classes": ["Knight"]
     },
     {
       "id": "telos:ability/bomb/t2",
@@ -631,21 +356,9 @@
       "type": "ability/bomb",
       "tier": 2,
       "tierPoints": 2,
-      "stats": {
-        "Damage": "16",
-        "Range": "2.5",
-        "Cooldown": "9s"
-      },
-      "text": [
-        "Ability: Creates a small",
-        "explosion that damages",
-        "enemies and propels",
-        "you backward. Cooldown",
-        "begins upon landing."
-      ],
-      "classes": [
-        "Huntress"
-      ]
+      "stats": { "Damage": "16", "Range": "2.5", "Cooldown": "9s" },
+      "text": ["Ability: Creates a small", "explosion that damages", "enemies and propels", "you backward. Cooldown", "begins upon landing."],
+      "classes": ["Huntress"]
     },
     {
       "id": "telos:ability/cloak/t2",
@@ -654,22 +367,9 @@
       "type": "ability/cloak",
       "tier": 2,
       "tierPoints": 2,
-      "stats": {
-        "Speed": "7",
-        "Attack": "4",
-        "Critical Chance": "9",
-        "Cooldown": "13s"
-      },
-      "text": [
-        "Ability: Makes you",
-        "invisible for 2.0s.",
-        "Grants Speed, Attack,",
-        "and Critical Chance for",
-        "3.0s."
-      ],
-      "classes": [
-        "Assassin"
-      ]
+      "stats": { "Speed": "7", "Attack": "4", "Critical Chance": "9", "Cooldown": "13s" },
+      "text": ["Ability: Makes you", "invisible for 2.0s.", "Grants Speed, Attack,", "and Critical Chance for", "3.0s."],
+      "classes": ["Assassin"]
     },
     {
       "id": "telos:ability/emblem/t2",
@@ -678,22 +378,9 @@
       "type": "ability/emblem",
       "tier": 2,
       "tierPoints": 2,
-      "stats": {
-        "Speed": "25",
-        "Range": "4",
-        "Cooldown": "15s"
-      },
-      "text": [
-        "Ability: Buffs your",
-        "attack speed by 33%",
-        "and your allies' by 25%",
-        "for 4.0s (does not",
-        "stack). Grants Speed",
-        "for 4.0s."
-      ],
-      "classes": [
-        "Knight"
-      ]
+      "stats": { "Speed": "25", "Range": "4", "Cooldown": "15s" },
+      "text": ["Ability: Buffs your", "attack speed by 33%", "and your allies' by 25%", "for 4.0s (does not", "stack). Grants Speed", "for 4.0s."],
+      "classes": ["Knight"]
     },
     {
       "id": "telos:ability/jewel/t2",
@@ -702,23 +389,9 @@
       "type": "ability/jewel",
       "tier": 2,
       "tierPoints": 2,
-      "stats": {
-        "Damage": "9",
-        "Range": "10",
-        "Shots": "3",
-        "Velocity": "15",
-        "Pierces": "No",
-        "Cooldown": "12s"
-      },
-      "text": [
-        "Ability: Summons jewels",
-        "that rotate around you",
-        "and seek the nearest",
-        "enemy (lasts 6s)."
-      ],
-      "classes": [
-        "Arcanist"
-      ]
+      "stats": { "Damage": "9", "Range": "10", "Shots": "3", "Velocity": "15", "Pierces": "No", "Cooldown": "12s" },
+      "text": ["Ability: Summons jewels", "that rotate around you", "and seek the nearest", "enemy (lasts 6s)."],
+      "classes": ["Arcanist"]
     },
     {
       "id": "telos:ability/kunai/t2",
@@ -727,14 +400,7 @@
       "type": "ability/kunai",
       "tier": 2,
       "tierPoints": 2,
-      "stats": {
-        "Damage": "3",
-        "Range": "7",
-        "Shots": "3",
-        "Velocity": "25",
-        "Pierces": "Yes",
-        "Cooldown": "10s"
-      },
+      "stats": { "Damage": "3", "Range": "7", "Shots": "3", "Velocity": "25", "Pierces": "Yes", "Cooldown": "10s" },
       "text": [
         "Ability: Shoots kunai",
         "projectiles that return",
@@ -744,9 +410,7 @@
         "deal +20% damage to",
         "them for 2.0s."
       ],
-      "classes": [
-        "Samurai"
-      ]
+      "classes": ["Samurai"]
     },
     {
       "id": "telos:ability/orb/t2",
@@ -755,20 +419,9 @@
       "type": "ability/orb",
       "tier": 2,
       "tierPoints": 2,
-      "stats": {
-        "Speed": "12",
-        "Damage": "35",
-        "Range": "6",
-        "Cooldown": "13s"
-      },
-      "text": [
-        "Ability: Damages in an",
-        "AoE around you and",
-        "grants Speed for 3s."
-      ],
-      "classes": [
-        "Arcanist"
-      ]
+      "stats": { "Speed": "12", "Damage": "35", "Range": "6", "Cooldown": "13s" },
+      "text": ["Ability: Damages in an", "AoE around you and", "grants Speed for 3s."],
+      "classes": ["Arcanist"]
     },
     {
       "id": "telos:ability/poison/t2",
@@ -777,21 +430,9 @@
       "type": "ability/poison",
       "tier": 2,
       "tierPoints": 2,
-      "stats": {
-        "Damage": "45",
-        "Range": "20",
-        "Velocity": "15",
-        "Cooldown": "14s"
-      },
-      "text": [
-        "Ability: Inflicts a poison",
-        "effect to enemies in a",
-        "0.25x block radius for",
-        "4s (4 ticks)."
-      ],
-      "classes": [
-        "Assassin"
-      ]
+      "stats": { "Damage": "45", "Range": "20", "Velocity": "15", "Cooldown": "14s" },
+      "text": ["Ability: Inflicts a poison", "effect to enemies in a", "0.25x block radius for", "4s (4 ticks)."],
+      "classes": ["Assassin"]
     },
     {
       "id": "telos:ability/scripture/t2",
@@ -800,13 +441,7 @@
       "type": "ability/scripture",
       "tier": 2,
       "tierPoints": 2,
-      "stats": {
-        "Heal": "1",
-        "Damage": "15",
-        "Range": "10",
-        "Pierces": "No",
-        "Cooldown": "12s"
-      },
+      "stats": { "Heal": "1", "Damage": "15", "Range": "10", "Pierces": "No", "Cooldown": "12s" },
       "text": [
         "Ability: Unleashes 2",
         "projectiles from your target",
@@ -819,9 +454,7 @@
         "healing cooldown (self-heals",
         "unaffected)."
       ],
-      "classes": [
-        "Necromancer"
-      ]
+      "classes": ["Necromancer"]
     },
     {
       "id": "telos:ability/shield/t2",
@@ -830,24 +463,9 @@
       "type": "ability/shield",
       "tier": 2,
       "tierPoints": 2,
-      "stats": {
-        "Defense": "10",
-        "Damage": "9",
-        "Range": "5",
-        "Shots": "4",
-        "Velocity": "10",
-        "Pierces": "Yes",
-        "Cooldown": "14s"
-      },
-      "text": [
-        "Ability: Shoots a",
-        "barrage of projectiles",
-        "and grants Defense",
-        "for 3s."
-      ],
-      "classes": [
-        "Knight"
-      ]
+      "stats": { "Defense": "10", "Damage": "9", "Range": "5", "Shots": "4", "Velocity": "10", "Pierces": "Yes", "Cooldown": "14s" },
+      "text": ["Ability: Shoots a", "barrage of projectiles", "and grants Defense", "for 3s."],
+      "classes": ["Knight"]
     },
     {
       "id": "telos:ability/skull/t2",
@@ -856,14 +474,7 @@
       "type": "ability/skull",
       "tier": 2,
       "tierPoints": 2,
-      "stats": {
-        "Damage": "2",
-        "Range": "30",
-        "Velocity": "20",
-        "Summons": "3",
-        "Pierces": "No",
-        "Cooldown": "10s"
-      },
+      "stats": { "Damage": "2", "Range": "30", "Velocity": "20", "Summons": "3", "Pierces": "No", "Cooldown": "10s" },
       "text": [
         "Ability: Summons 3",
         "skeletal minions that",
@@ -876,9 +487,7 @@
         "Melee:",
         "0.75x DMG/2.0s (2x)"
       ],
-      "classes": [
-        "Necromancer"
-      ]
+      "classes": ["Necromancer"]
     },
     {
       "id": "telos:ability/star/t2",
@@ -887,23 +496,9 @@
       "type": "ability/star",
       "tier": 2,
       "tierPoints": 2,
-      "stats": {
-        "Speed": "10",
-        "Damage": "20",
-        "Range": "12",
-        "Shots": "1",
-        "Velocity": "35",
-        "Pierces": "No",
-        "Cooldown": "10s"
-      },
-      "text": [
-        "Ability: Shoots a star",
-        "projectile and grants",
-        "Speed for 4s."
-      ],
-      "classes": [
-        "Samurai"
-      ]
+      "stats": { "Speed": "10", "Damage": "20", "Range": "12", "Shots": "1", "Velocity": "35", "Pierces": "No", "Cooldown": "10s" },
+      "text": ["Ability: Shoots a star", "projectile and grants", "Speed for 4s."],
+      "classes": ["Samurai"]
     },
     {
       "id": "telos:ability/trap/t2",
@@ -912,21 +507,9 @@
       "type": "ability/trap",
       "tier": 2,
       "tierPoints": 2,
-      "stats": {
-        "Damage": "19",
-        "Range": "20",
-        "Velocity": "15",
-        "Cooldown": "11s"
-      },
-      "text": [
-        "Ability: Throws a trap",
-        "that inflicts slowness to",
-        "enemies in a 0.3x block",
-        "radius for 3s."
-      ],
-      "classes": [
-        "Huntress"
-      ]
+      "stats": { "Damage": "19", "Range": "20", "Velocity": "15", "Cooldown": "11s" },
+      "text": ["Ability: Throws a trap", "that inflicts slowness to", "enemies in a 0.3x block", "radius for 3s."],
+      "classes": ["Huntress"]
     },
     {
       "id": "telos:armour/heavy/boots/t2",
@@ -935,14 +518,8 @@
       "type": "armour/heavy/boots",
       "tier": 2,
       "tierPoints": 2,
-      "stats": {
-        "Defense": "+6",
-        "Vitality": "+1"
-      },
-      "classes": [
-        "Knight",
-        "Samurai"
-      ]
+      "stats": { "Defense": "+6", "Vitality": "+1" },
+      "classes": ["Knight", "Samurai"]
     },
     {
       "id": "telos:armour/heavy/chestplate/t2",
@@ -951,14 +528,8 @@
       "type": "armour/heavy/chestplate",
       "tier": 2,
       "tierPoints": 2,
-      "stats": {
-        "Defense": "+6",
-        "Vitality": "+1"
-      },
-      "classes": [
-        "Knight",
-        "Samurai"
-      ]
+      "stats": { "Defense": "+6", "Vitality": "+1" },
+      "classes": ["Knight", "Samurai"]
     },
     {
       "id": "telos:armour/heavy/helmet/t2",
@@ -967,14 +538,8 @@
       "type": "armour/heavy/helmet",
       "tier": 2,
       "tierPoints": 2,
-      "stats": {
-        "Defense": "+6",
-        "Vitality": "+1"
-      },
-      "classes": [
-        "Knight",
-        "Samurai"
-      ]
+      "stats": { "Defense": "+6", "Vitality": "+1" },
+      "classes": ["Knight", "Samurai"]
     },
     {
       "id": "telos:armour/heavy/leggings/t2",
@@ -983,14 +548,8 @@
       "type": "armour/heavy/leggings",
       "tier": 2,
       "tierPoints": 2,
-      "stats": {
-        "Defense": "+6",
-        "Vitality": "+1"
-      },
-      "classes": [
-        "Knight",
-        "Samurai"
-      ]
+      "stats": { "Defense": "+6", "Vitality": "+1" },
+      "classes": ["Knight", "Samurai"]
     },
     {
       "id": "telos:armour/light/boots/t2",
@@ -999,14 +558,8 @@
       "type": "armour/light/boots",
       "tier": 2,
       "tierPoints": 2,
-      "stats": {
-        "Defense": "+3",
-        "Speed": "+3"
-      },
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "stats": { "Defense": "+3", "Speed": "+3" },
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:armour/light/chestplate/t2",
@@ -1015,14 +568,8 @@
       "type": "armour/light/chestplate",
       "tier": 2,
       "tierPoints": 2,
-      "stats": {
-        "Defense": "+3",
-        "Speed": "+3"
-      },
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "stats": { "Defense": "+3", "Speed": "+3" },
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:armour/light/helmet/t2",
@@ -1031,14 +578,8 @@
       "type": "armour/light/helmet",
       "tier": 2,
       "tierPoints": 2,
-      "stats": {
-        "Defense": "+3",
-        "Speed": "+3"
-      },
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "stats": { "Defense": "+3", "Speed": "+3" },
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:armour/light/leggings/t2",
@@ -1047,14 +588,8 @@
       "type": "armour/light/leggings",
       "tier": 2,
       "tierPoints": 2,
-      "stats": {
-        "Defense": "+3",
-        "Speed": "+3"
-      },
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "stats": { "Defense": "+3", "Speed": "+3" },
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:armour/magical/boots/t2",
@@ -1063,14 +598,8 @@
       "type": "armour/magical/boots",
       "tier": 2,
       "tierPoints": 2,
-      "stats": {
-        "Attack": "+1",
-        "Defense": "+2"
-      },
-      "classes": [
-        "Necromancer",
-        "Arcanist"
-      ]
+      "stats": { "Attack": "+1", "Defense": "+2" },
+      "classes": ["Necromancer", "Arcanist"]
     },
     {
       "id": "telos:armour/magical/chestplate/t2",
@@ -1079,14 +608,8 @@
       "type": "armour/magical/chestplate",
       "tier": 2,
       "tierPoints": 2,
-      "stats": {
-        "Attack": "+1",
-        "Defense": "+2"
-      },
-      "classes": [
-        "Necromancer",
-        "Arcanist"
-      ]
+      "stats": { "Attack": "+1", "Defense": "+2" },
+      "classes": ["Necromancer", "Arcanist"]
     },
     {
       "id": "telos:armour/magical/helmet/t2",
@@ -1095,14 +618,8 @@
       "type": "armour/magical/helmet",
       "tier": 2,
       "tierPoints": 2,
-      "stats": {
-        "Attack": "+1",
-        "Defense": "+2"
-      },
-      "classes": [
-        "Necromancer",
-        "Arcanist"
-      ]
+      "stats": { "Attack": "+1", "Defense": "+2" },
+      "classes": ["Necromancer", "Arcanist"]
     },
     {
       "id": "telos:armour/magical/leggings/t2",
@@ -1111,14 +628,8 @@
       "type": "armour/magical/leggings",
       "tier": 2,
       "tierPoints": 2,
-      "stats": {
-        "Attack": "+1",
-        "Defense": "+2"
-      },
-      "classes": [
-        "Necromancer",
-        "Arcanist"
-      ]
+      "stats": { "Attack": "+1", "Defense": "+2" },
+      "classes": ["Necromancer", "Arcanist"]
     },
     {
       "id": "telos:weapon/bow/t2",
@@ -1127,17 +638,8 @@
       "type": "weapon/bow",
       "tier": 2,
       "tierPoints": 2,
-      "stats": {
-        "Damage": "1.5",
-        "Range": "13",
-        "Shots": "3",
-        "Velocity": "20",
-        "Pierces": "Yes",
-        "Cooldown": "0.6s"
-      },
-      "classes": [
-        "Huntress"
-      ]
+      "stats": { "Damage": "1.5", "Range": "13", "Shots": "3", "Velocity": "20", "Pierces": "Yes", "Cooldown": "0.6s" },
+      "classes": ["Huntress"]
     },
     {
       "id": "telos:weapon/dagger/t2",
@@ -1146,17 +648,8 @@
       "type": "weapon/dagger",
       "tier": 2,
       "tierPoints": 2,
-      "stats": {
-        "Damage": "4.5",
-        "Range": "9",
-        "Shots": "1",
-        "Velocity": "30",
-        "Pierces": "No",
-        "Cooldown": "0.6s"
-      },
-      "classes": [
-        "Assassin"
-      ]
+      "stats": { "Damage": "4.5", "Range": "9", "Shots": "1", "Velocity": "30", "Pierces": "No", "Cooldown": "0.6s" },
+      "classes": ["Assassin"]
     },
     {
       "id": "telos:weapon/katana/t2",
@@ -1165,21 +658,9 @@
       "type": "weapon/katana",
       "tier": 2,
       "tierPoints": 2,
-      "stats": {
-        "Damage": "5.5",
-        "Range": "6",
-        "Slashes": "1",
-        "Pierces": "Yes",
-        "Cooldown": "0.5s"
-      },
-      "text": [
-        "Ability: You only attack",
-        "after successfully",
-        "targeting an enemy."
-      ],
-      "classes": [
-        "Samurai"
-      ]
+      "stats": { "Damage": "5.5", "Range": "6", "Slashes": "1", "Pierces": "Yes", "Cooldown": "0.5s" },
+      "text": ["Ability: You only attack", "after successfully", "targeting an enemy."],
+      "classes": ["Samurai"]
     },
     {
       "id": "telos:weapon/sceptre/t2",
@@ -1188,16 +669,8 @@
       "type": "weapon/sceptre",
       "tier": 2,
       "tierPoints": 2,
-      "stats": {
-        "Damage": "6",
-        "Range": "8",
-        "Beams": "1",
-        "Pierces": "Yes",
-        "Cooldown": "0.8s"
-      },
-      "classes": [
-        "Arcanist"
-      ]
+      "stats": { "Damage": "6", "Range": "8", "Beams": "1", "Pierces": "Yes", "Cooldown": "0.8s" },
+      "classes": ["Arcanist"]
     },
     {
       "id": "telos:weapon/staff/t2",
@@ -1206,17 +679,8 @@
       "type": "weapon/staff",
       "tier": 2,
       "tierPoints": 2,
-      "stats": {
-        "Damage": "3.75",
-        "Range": "15",
-        "Shots": "1",
-        "Velocity": "35",
-        "Pierces": "No",
-        "Cooldown": "0.6s"
-      },
-      "classes": [
-        "Necromancer"
-      ]
+      "stats": { "Damage": "3.75", "Range": "15", "Shots": "1", "Velocity": "35", "Pierces": "No", "Cooldown": "0.6s" },
+      "classes": ["Necromancer"]
     },
     {
       "id": "telos:weapon/sword/t2",
@@ -1225,21 +689,9 @@
       "type": "weapon/sword",
       "tier": 2,
       "tierPoints": 2,
-      "stats": {
-        "Damage": "10.5",
-        "Range": "5",
-        "Slashes": "1",
-        "Pierces": "Yes",
-        "Cooldown": "1s"
-      },
-      "text": [
-        "Ability: You only attack",
-        "after successfully",
-        "targeting an enemy."
-      ],
-      "classes": [
-        "Knight"
-      ]
+      "stats": { "Damage": "10.5", "Range": "5", "Slashes": "1", "Pierces": "Yes", "Cooldown": "1s" },
+      "text": ["Ability: You only attack", "after successfully", "targeting an enemy."],
+      "classes": ["Knight"]
     },
     {
       "id": "telos:ability/bomb/t3",
@@ -1248,22 +700,9 @@
       "type": "ability/bomb",
       "tier": 3,
       "tierPoints": 3,
-      "stats": {
-        "Damage": "16",
-        "Range": "2.5",
-        "Cooldown": "8s"
-      },
-      "text": [
-        "Ability: Creates a small",
-        "explosion that damages",
-        "enemies and propels",
-        "you backward.",
-        "Cooldown begins upon",
-        "landing."
-      ],
-      "classes": [
-        "Huntress"
-      ]
+      "stats": { "Damage": "16", "Range": "2.5", "Cooldown": "8s" },
+      "text": ["Ability: Creates a small", "explosion that damages", "enemies and propels", "you backward.", "Cooldown begins upon", "landing."],
+      "classes": ["Huntress"]
     },
     {
       "id": "telos:ability/cloak/t3",
@@ -1272,21 +711,9 @@
       "type": "ability/cloak",
       "tier": 3,
       "tierPoints": 3,
-      "stats": {
-        "Speed": "14",
-        "Attack": "8",
-        "Critical Chance": "12",
-        "Cooldown": "13s"
-      },
-      "text": [
-        "Ability: Makes you",
-        "invisible for 2.0s. Grants",
-        "Speed, Attack, and",
-        "Critical Chance for 3.0s."
-      ],
-      "classes": [
-        "Assassin"
-      ]
+      "stats": { "Speed": "14", "Attack": "8", "Critical Chance": "12", "Cooldown": "13s" },
+      "text": ["Ability: Makes you", "invisible for 2.0s. Grants", "Speed, Attack, and", "Critical Chance for 3.0s."],
+      "classes": ["Assassin"]
     },
     {
       "id": "telos:ability/emblem/t3",
@@ -1295,22 +722,9 @@
       "type": "ability/emblem",
       "tier": 3,
       "tierPoints": 3,
-      "stats": {
-        "Speed": "25",
-        "Range": "4",
-        "Cooldown": "14s"
-      },
-      "text": [
-        "Ability: Buffs your",
-        "attack speed by 33%",
-        "and your allies' by 25%",
-        "for 5.0s (does not",
-        "stack). Grants Speed",
-        "for 5.0s."
-      ],
-      "classes": [
-        "Knight"
-      ]
+      "stats": { "Speed": "25", "Range": "4", "Cooldown": "14s" },
+      "text": ["Ability: Buffs your", "attack speed by 33%", "and your allies' by 25%", "for 5.0s (does not", "stack). Grants Speed", "for 5.0s."],
+      "classes": ["Knight"]
     },
     {
       "id": "telos:ability/jewel/t3",
@@ -1319,23 +733,9 @@
       "type": "ability/jewel",
       "tier": 3,
       "tierPoints": 3,
-      "stats": {
-        "Damage": "11",
-        "Range": "10",
-        "Shots": "3",
-        "Velocity": "15",
-        "Pierces": "No",
-        "Cooldown": "12s"
-      },
-      "text": [
-        "Ability: Summons jewels",
-        "that rotate around you",
-        "and seek the nearest",
-        "enemy (lasts 6s)."
-      ],
-      "classes": [
-        "Arcanist"
-      ]
+      "stats": { "Damage": "11", "Range": "10", "Shots": "3", "Velocity": "15", "Pierces": "No", "Cooldown": "12s" },
+      "text": ["Ability: Summons jewels", "that rotate around you", "and seek the nearest", "enemy (lasts 6s)."],
+      "classes": ["Arcanist"]
     },
     {
       "id": "telos:ability/kunai/t3",
@@ -1344,14 +744,7 @@
       "type": "ability/kunai",
       "tier": 3,
       "tierPoints": 3,
-      "stats": {
-        "Damage": "3",
-        "Range": "7",
-        "Shots": "3",
-        "Velocity": "25",
-        "Pierces": "Yes",
-        "Cooldown": "9s"
-      },
+      "stats": { "Damage": "3", "Range": "7", "Shots": "3", "Velocity": "25", "Pierces": "Yes", "Cooldown": "9s" },
       "text": [
         "Ability: Shoots kunai",
         "projectiles that",
@@ -1362,9 +755,7 @@
         "damage to them for",
         "2.0s."
       ],
-      "classes": [
-        "Samurai"
-      ]
+      "classes": ["Samurai"]
     },
     {
       "id": "telos:ability/orb/t3",
@@ -1373,20 +764,9 @@
       "type": "ability/orb",
       "tier": 3,
       "tierPoints": 3,
-      "stats": {
-        "Speed": "15",
-        "Damage": "40",
-        "Range": "6",
-        "Cooldown": "13s"
-      },
-      "text": [
-        "Ability: Damages in an",
-        "AoE around you and",
-        "grants Speed for 4s."
-      ],
-      "classes": [
-        "Arcanist"
-      ]
+      "stats": { "Speed": "15", "Damage": "40", "Range": "6", "Cooldown": "13s" },
+      "text": ["Ability: Damages in an", "AoE around you and", "grants Speed for 4s."],
+      "classes": ["Arcanist"]
     },
     {
       "id": "telos:ability/poison/t3",
@@ -1395,21 +775,9 @@
       "type": "ability/poison",
       "tier": 3,
       "tierPoints": 3,
-      "stats": {
-        "Damage": "45",
-        "Range": "20",
-        "Velocity": "15",
-        "Cooldown": "13s"
-      },
-      "text": [
-        "Ability: Inflicts a poison",
-        "effect to enemies in a",
-        "0.25x block radius for",
-        "4s (4 ticks)."
-      ],
-      "classes": [
-        "Assassin"
-      ]
+      "stats": { "Damage": "45", "Range": "20", "Velocity": "15", "Cooldown": "13s" },
+      "text": ["Ability: Inflicts a poison", "effect to enemies in a", "0.25x block radius for", "4s (4 ticks)."],
+      "classes": ["Assassin"]
     },
     {
       "id": "telos:ability/scripture/t3",
@@ -1418,13 +786,7 @@
       "type": "ability/scripture",
       "tier": 3,
       "tierPoints": 3,
-      "stats": {
-        "Heal": "1",
-        "Damage": "15",
-        "Range": "10",
-        "Pierces": "No",
-        "Cooldown": "11s"
-      },
+      "stats": { "Heal": "1", "Damage": "15", "Range": "10", "Pierces": "No", "Cooldown": "11s" },
       "text": [
         "Ability: Unleashes 2 projectiles from",
         "your target that home in on you and",
@@ -1435,9 +797,7 @@
         "3s healing cooldown (self-heals",
         "unaffected)."
       ],
-      "classes": [
-        "Necromancer"
-      ]
+      "classes": ["Necromancer"]
     },
     {
       "id": "telos:ability/shield/t3",
@@ -1446,23 +806,9 @@
       "type": "ability/shield",
       "tier": 3,
       "tierPoints": 3,
-      "stats": {
-        "Defense": "10",
-        "Damage": "12",
-        "Range": "5",
-        "Shots": "4",
-        "Velocity": "10",
-        "Pierces": "Yes",
-        "Cooldown": "14s"
-      },
-      "text": [
-        "Ability: Shoots a barrage",
-        "of projectiles and",
-        "grants Defense for 3s."
-      ],
-      "classes": [
-        "Knight"
-      ]
+      "stats": { "Defense": "10", "Damage": "12", "Range": "5", "Shots": "4", "Velocity": "10", "Pierces": "Yes", "Cooldown": "14s" },
+      "text": ["Ability: Shoots a barrage", "of projectiles and", "grants Defense for 3s."],
+      "classes": ["Knight"]
     },
     {
       "id": "telos:ability/skull/t3",
@@ -1471,14 +817,7 @@
       "type": "ability/skull",
       "tier": 3,
       "tierPoints": 3,
-      "stats": {
-        "Damage": "2",
-        "Range": "30",
-        "Velocity": "20",
-        "Summons": "3",
-        "Pierces": "No",
-        "Cooldown": "9s"
-      },
+      "stats": { "Damage": "2", "Range": "30", "Velocity": "20", "Summons": "3", "Pierces": "No", "Cooldown": "9s" },
       "text": [
         "Ability: Summons 3",
         "skeletal minions that",
@@ -1491,9 +830,7 @@
         "Melee:",
         "0.75x DMG/2.0s (2x)"
       ],
-      "classes": [
-        "Necromancer"
-      ]
+      "classes": ["Necromancer"]
     },
     {
       "id": "telos:ability/star/t3",
@@ -1502,23 +839,9 @@
       "type": "ability/star",
       "tier": 3,
       "tierPoints": 3,
-      "stats": {
-        "Speed": "10",
-        "Damage": "25",
-        "Range": "12",
-        "Shots": "1",
-        "Velocity": "35",
-        "Pierces": "No",
-        "Cooldown": "10s"
-      },
-      "text": [
-        "Ability: Shoots a star",
-        "projectile and grants",
-        "Speed for 4s."
-      ],
-      "classes": [
-        "Samurai"
-      ]
+      "stats": { "Speed": "10", "Damage": "25", "Range": "12", "Shots": "1", "Velocity": "35", "Pierces": "No", "Cooldown": "10s" },
+      "text": ["Ability: Shoots a star", "projectile and grants", "Speed for 4s."],
+      "classes": ["Samurai"]
     },
     {
       "id": "telos:ability/trap/t3",
@@ -1527,21 +850,9 @@
       "type": "ability/trap",
       "tier": 3,
       "tierPoints": 3,
-      "stats": {
-        "Damage": "35",
-        "Range": "20",
-        "Velocity": "15",
-        "Cooldown": "11s"
-      },
-      "text": [
-        "Ability: Throws a trap",
-        "that inflicts slowness to",
-        "enemies in a 0.3x block",
-        "radius for 3s."
-      ],
-      "classes": [
-        "Huntress"
-      ]
+      "stats": { "Damage": "35", "Range": "20", "Velocity": "15", "Cooldown": "11s" },
+      "text": ["Ability: Throws a trap", "that inflicts slowness to", "enemies in a 0.3x block", "radius for 3s."],
+      "classes": ["Huntress"]
     },
     {
       "id": "telos:armour/heavy/boots/t3",
@@ -1550,14 +861,8 @@
       "type": "armour/heavy/boots",
       "tier": 3,
       "tierPoints": 3,
-      "stats": {
-        "Defense": "+7",
-        "Vitality": "+1"
-      },
-      "classes": [
-        "Knight",
-        "Samurai"
-      ]
+      "stats": { "Defense": "+7", "Vitality": "+1" },
+      "classes": ["Knight", "Samurai"]
     },
     {
       "id": "telos:armour/heavy/chestplate/t3",
@@ -1566,14 +871,8 @@
       "type": "armour/heavy/chestplate",
       "tier": 3,
       "tierPoints": 3,
-      "stats": {
-        "Defense": "+7",
-        "Vitality": "+1"
-      },
-      "classes": [
-        "Knight",
-        "Samurai"
-      ]
+      "stats": { "Defense": "+7", "Vitality": "+1" },
+      "classes": ["Knight", "Samurai"]
     },
     {
       "id": "telos:armour/heavy/helmet/t3",
@@ -1582,14 +881,8 @@
       "type": "armour/heavy/helmet",
       "tier": 3,
       "tierPoints": 3,
-      "stats": {
-        "Defense": "+7",
-        "Vitality": "+1"
-      },
-      "classes": [
-        "Knight",
-        "Samurai"
-      ]
+      "stats": { "Defense": "+7", "Vitality": "+1" },
+      "classes": ["Knight", "Samurai"]
     },
     {
       "id": "telos:armour/heavy/leggings/t3",
@@ -1598,14 +891,8 @@
       "type": "armour/heavy/leggings",
       "tier": 3,
       "tierPoints": 3,
-      "stats": {
-        "Defense": "+7",
-        "Vitality": "+1"
-      },
-      "classes": [
-        "Knight",
-        "Samurai"
-      ]
+      "stats": { "Defense": "+7", "Vitality": "+1" },
+      "classes": ["Knight", "Samurai"]
     },
     {
       "id": "telos:armour/light/boots/t3",
@@ -1614,14 +901,8 @@
       "type": "armour/light/boots",
       "tier": 3,
       "tierPoints": 3,
-      "stats": {
-        "Defense": "+4",
-        "Speed": "+4"
-      },
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "stats": { "Defense": "+4", "Speed": "+4" },
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:armour/light/chestplate/t3",
@@ -1630,14 +911,8 @@
       "type": "armour/light/chestplate",
       "tier": 3,
       "tierPoints": 3,
-      "stats": {
-        "Defense": "+4",
-        "Speed": "+4"
-      },
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "stats": { "Defense": "+4", "Speed": "+4" },
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:armour/light/helmet/t3",
@@ -1646,14 +921,8 @@
       "type": "armour/light/helmet",
       "tier": 3,
       "tierPoints": 3,
-      "stats": {
-        "Defense": "+4",
-        "Speed": "+4"
-      },
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "stats": { "Defense": "+4", "Speed": "+4" },
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:armour/light/leggings/t3",
@@ -1662,14 +931,8 @@
       "type": "armour/light/leggings",
       "tier": 3,
       "tierPoints": 3,
-      "stats": {
-        "Defense": "+4",
-        "Speed": "+4"
-      },
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "stats": { "Defense": "+4", "Speed": "+4" },
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:armour/magical/boots/t3",
@@ -1678,14 +941,8 @@
       "type": "armour/magical/boots",
       "tier": 3,
       "tierPoints": 3,
-      "stats": {
-        "Attack": "+2",
-        "Defense": "+3"
-      },
-      "classes": [
-        "Necromancer",
-        "Arcanist"
-      ]
+      "stats": { "Attack": "+2", "Defense": "+3" },
+      "classes": ["Necromancer", "Arcanist"]
     },
     {
       "id": "telos:armour/magical/chestplate/t3",
@@ -1694,14 +951,8 @@
       "type": "armour/magical/chestplate",
       "tier": 3,
       "tierPoints": 3,
-      "stats": {
-        "Attack": "+2",
-        "Defense": "+3"
-      },
-      "classes": [
-        "Necromancer",
-        "Arcanist"
-      ]
+      "stats": { "Attack": "+2", "Defense": "+3" },
+      "classes": ["Necromancer", "Arcanist"]
     },
     {
       "id": "telos:armour/magical/helmet/t3",
@@ -1710,14 +961,8 @@
       "type": "armour/magical/helmet",
       "tier": 3,
       "tierPoints": 3,
-      "stats": {
-        "Attack": "+2",
-        "Defense": "+3"
-      },
-      "classes": [
-        "Necromancer",
-        "Arcanist"
-      ]
+      "stats": { "Attack": "+2", "Defense": "+3" },
+      "classes": ["Necromancer", "Arcanist"]
     },
     {
       "id": "telos:armour/magical/leggings/t3",
@@ -1726,14 +971,8 @@
       "type": "armour/magical/leggings",
       "tier": 3,
       "tierPoints": 3,
-      "stats": {
-        "Attack": "+2",
-        "Defense": "+3"
-      },
-      "classes": [
-        "Necromancer",
-        "Arcanist"
-      ]
+      "stats": { "Attack": "+2", "Defense": "+3" },
+      "classes": ["Necromancer", "Arcanist"]
     },
     {
       "id": "telos:weapon/bow/t3",
@@ -1742,17 +981,8 @@
       "type": "weapon/bow",
       "tier": 3,
       "tierPoints": 3,
-      "stats": {
-        "Damage": "1.75",
-        "Range": "13",
-        "Shots": "3",
-        "Velocity": "20",
-        "Pierces": "Yes",
-        "Cooldown": "0.6s"
-      },
-      "classes": [
-        "Huntress"
-      ]
+      "stats": { "Damage": "1.75", "Range": "13", "Shots": "3", "Velocity": "20", "Pierces": "Yes", "Cooldown": "0.6s" },
+      "classes": ["Huntress"]
     },
     {
       "id": "telos:weapon/dagger/t3",
@@ -1761,17 +991,8 @@
       "type": "weapon/dagger",
       "tier": 3,
       "tierPoints": 3,
-      "stats": {
-        "Damage": "5.25",
-        "Range": "9",
-        "Shots": "1",
-        "Velocity": "30",
-        "Pierces": "No",
-        "Cooldown": "0.6s"
-      },
-      "classes": [
-        "Assassin"
-      ]
+      "stats": { "Damage": "5.25", "Range": "9", "Shots": "1", "Velocity": "30", "Pierces": "No", "Cooldown": "0.6s" },
+      "classes": ["Assassin"]
     },
     {
       "id": "telos:weapon/katana/t3",
@@ -1780,21 +1001,9 @@
       "type": "weapon/katana",
       "tier": 3,
       "tierPoints": 3,
-      "stats": {
-        "Damage": "6.5",
-        "Range": "6",
-        "Slashes": "1",
-        "Pierces": "Yes",
-        "Cooldown": "0.5s"
-      },
-      "text": [
-        "Ability: You only attack",
-        "after successfully",
-        "targeting an enemy."
-      ],
-      "classes": [
-        "Samurai"
-      ]
+      "stats": { "Damage": "6.5", "Range": "6", "Slashes": "1", "Pierces": "Yes", "Cooldown": "0.5s" },
+      "text": ["Ability: You only attack", "after successfully", "targeting an enemy."],
+      "classes": ["Samurai"]
     },
     {
       "id": "telos:weapon/sceptre/t3",
@@ -1803,16 +1012,8 @@
       "type": "weapon/sceptre",
       "tier": 3,
       "tierPoints": 3,
-      "stats": {
-        "Damage": "8",
-        "Range": "8",
-        "Beams": "1",
-        "Pierces": "Yes",
-        "Cooldown": "0.8s"
-      },
-      "classes": [
-        "Arcanist"
-      ]
+      "stats": { "Damage": "8", "Range": "8", "Beams": "1", "Pierces": "Yes", "Cooldown": "0.8s" },
+      "classes": ["Arcanist"]
     },
     {
       "id": "telos:weapon/staff/t3",
@@ -1821,17 +1022,8 @@
       "type": "weapon/staff",
       "tier": 3,
       "tierPoints": 3,
-      "stats": {
-        "Damage": "4.75",
-        "Range": "15",
-        "Shots": "1",
-        "Velocity": "35",
-        "Pierces": "No",
-        "Cooldown": "0.6s"
-      },
-      "classes": [
-        "Necromancer"
-      ]
+      "stats": { "Damage": "4.75", "Range": "15", "Shots": "1", "Velocity": "35", "Pierces": "No", "Cooldown": "0.6s" },
+      "classes": ["Necromancer"]
     },
     {
       "id": "telos:weapon/sword/t3",
@@ -1840,21 +1032,9 @@
       "type": "weapon/sword",
       "tier": 3,
       "tierPoints": 3,
-      "stats": {
-        "Damage": "13",
-        "Range": "5",
-        "Slashes": "1",
-        "Pierces": "Yes",
-        "Cooldown": "1s"
-      },
-      "text": [
-        "Ability: You only attack",
-        "after successfully",
-        "targeting an enemy."
-      ],
-      "classes": [
-        "Knight"
-      ]
+      "stats": { "Damage": "13", "Range": "5", "Slashes": "1", "Pierces": "Yes", "Cooldown": "1s" },
+      "text": ["Ability: You only attack", "after successfully", "targeting an enemy."],
+      "classes": ["Knight"]
     },
     {
       "id": "telos:ability/bomb/t4",
@@ -1863,21 +1043,9 @@
       "type": "ability/bomb",
       "tier": 4,
       "tierPoints": 4,
-      "stats": {
-        "Damage": "16",
-        "Range": "3",
-        "Cooldown": "8s"
-      },
-      "text": [
-        "Ability: Creates a large",
-        "explosion that damages",
-        "enemies and propels",
-        "you backward. Cooldown",
-        "begins upon landing."
-      ],
-      "classes": [
-        "Huntress"
-      ]
+      "stats": { "Damage": "16", "Range": "3", "Cooldown": "8s" },
+      "text": ["Ability: Creates a large", "explosion that damages", "enemies and propels", "you backward. Cooldown", "begins upon landing."],
+      "classes": ["Huntress"]
     },
     {
       "id": "telos:ability/cloak/t4",
@@ -1886,21 +1054,9 @@
       "type": "ability/cloak",
       "tier": 4,
       "tierPoints": 4,
-      "stats": {
-        "Speed": "14",
-        "Attack": "8",
-        "Critical Chance": "12",
-        "Cooldown": "13s"
-      },
-      "text": [
-        "Ability: Makes you",
-        "invisible for 3.0s. Grants",
-        "Speed, Attack, and",
-        "Critical Chance for 4.0s."
-      ],
-      "classes": [
-        "Assassin"
-      ]
+      "stats": { "Speed": "14", "Attack": "8", "Critical Chance": "12", "Cooldown": "13s" },
+      "text": ["Ability: Makes you", "invisible for 3.0s. Grants", "Speed, Attack, and", "Critical Chance for 4.0s."],
+      "classes": ["Assassin"]
     },
     {
       "id": "telos:ability/emblem/t4",
@@ -1909,22 +1065,9 @@
       "type": "ability/emblem",
       "tier": 4,
       "tierPoints": 4,
-      "stats": {
-        "Speed": "28",
-        "Range": "4",
-        "Cooldown": "14s"
-      },
-      "text": [
-        "Ability: Buffs your",
-        "attack speed by 33%",
-        "and your allies' by 25%",
-        "for 5.0s (does not",
-        "stack). Grants Speed",
-        "for 5.0s."
-      ],
-      "classes": [
-        "Knight"
-      ]
+      "stats": { "Speed": "28", "Range": "4", "Cooldown": "14s" },
+      "text": ["Ability: Buffs your", "attack speed by 33%", "and your allies' by 25%", "for 5.0s (does not", "stack). Grants Speed", "for 5.0s."],
+      "classes": ["Knight"]
     },
     {
       "id": "telos:ability/jewel/t4",
@@ -1933,23 +1076,9 @@
       "type": "ability/jewel",
       "tier": 4,
       "tierPoints": 4,
-      "stats": {
-        "Damage": "13",
-        "Range": "10",
-        "Shots": "3",
-        "Velocity": "15",
-        "Pierces": "No",
-        "Cooldown": "12s"
-      },
-      "text": [
-        "Ability: Summons jewels",
-        "that rotate around you",
-        "and seek the nearest",
-        "enemy (lasts 6s)."
-      ],
-      "classes": [
-        "Arcanist"
-      ]
+      "stats": { "Damage": "13", "Range": "10", "Shots": "3", "Velocity": "15", "Pierces": "No", "Cooldown": "12s" },
+      "text": ["Ability: Summons jewels", "that rotate around you", "and seek the nearest", "enemy (lasts 6s)."],
+      "classes": ["Arcanist"]
     },
     {
       "id": "telos:ability/kunai/t4",
@@ -1958,14 +1087,7 @@
       "type": "ability/kunai",
       "tier": 4,
       "tierPoints": 4,
-      "stats": {
-        "Damage": "3",
-        "Range": "7",
-        "Shots": "3",
-        "Velocity": "25",
-        "Pierces": "Yes",
-        "Cooldown": "9s"
-      },
+      "stats": { "Damage": "3", "Range": "7", "Shots": "3", "Velocity": "25", "Pierces": "Yes", "Cooldown": "9s" },
       "text": [
         "Ability: Shoots kunai",
         "projectiles that return",
@@ -1975,9 +1097,7 @@
         "deal +20% damage to",
         "them for 2.5s."
       ],
-      "classes": [
-        "Samurai"
-      ]
+      "classes": ["Samurai"]
     },
     {
       "id": "telos:ability/orb/t4",
@@ -1986,20 +1106,9 @@
       "type": "ability/orb",
       "tier": 4,
       "tierPoints": 4,
-      "stats": {
-        "Speed": "15",
-        "Damage": "50",
-        "Range": "6",
-        "Cooldown": "13s"
-      },
-      "text": [
-        "Ability: Damages in an",
-        "AoE around you and",
-        "grants Speed for 4s."
-      ],
-      "classes": [
-        "Arcanist"
-      ]
+      "stats": { "Speed": "15", "Damage": "50", "Range": "6", "Cooldown": "13s" },
+      "text": ["Ability: Damages in an", "AoE around you and", "grants Speed for 4s."],
+      "classes": ["Arcanist"]
     },
     {
       "id": "telos:ability/poison/t4",
@@ -2008,21 +1117,9 @@
       "type": "ability/poison",
       "tier": 4,
       "tierPoints": 4,
-      "stats": {
-        "Damage": "45",
-        "Range": "20",
-        "Velocity": "15",
-        "Cooldown": "13s"
-      },
-      "text": [
-        "Ability: Inflicts a poison",
-        "effect to enemies in a",
-        "0.3x block radius for",
-        "4s (4 ticks)."
-      ],
-      "classes": [
-        "Assassin"
-      ]
+      "stats": { "Damage": "45", "Range": "20", "Velocity": "15", "Cooldown": "13s" },
+      "text": ["Ability: Inflicts a poison", "effect to enemies in a", "0.3x block radius for", "4s (4 ticks)."],
+      "classes": ["Assassin"]
     },
     {
       "id": "telos:ability/scripture/t4",
@@ -2031,13 +1128,7 @@
       "type": "ability/scripture",
       "tier": 4,
       "tierPoints": 4,
-      "stats": {
-        "Heal": "1",
-        "Damage": "15",
-        "Range": "10",
-        "Pierces": "No",
-        "Cooldown": "11s"
-      },
+      "stats": { "Heal": "1", "Damage": "15", "Range": "10", "Pierces": "No", "Cooldown": "11s" },
       "text": [
         "Ability: Unleashes 3 projectiles",
         "from your target that home in on",
@@ -2048,9 +1139,7 @@
         "others get a 3s healing cooldown",
         "(self-heals unaffected)."
       ],
-      "classes": [
-        "Necromancer"
-      ]
+      "classes": ["Necromancer"]
     },
     {
       "id": "telos:ability/shield/t4",
@@ -2059,24 +1148,9 @@
       "type": "ability/shield",
       "tier": 4,
       "tierPoints": 4,
-      "stats": {
-        "Defense": "15",
-        "Damage": "12",
-        "Range": "5",
-        "Shots": "4",
-        "Velocity": "10",
-        "Pierces": "Yes",
-        "Cooldown": "14s"
-      },
-      "text": [
-        "Ability: Shoots a",
-        "barrage of projectiles",
-        "and grants Defense",
-        "for 4s."
-      ],
-      "classes": [
-        "Knight"
-      ]
+      "stats": { "Defense": "15", "Damage": "12", "Range": "5", "Shots": "4", "Velocity": "10", "Pierces": "Yes", "Cooldown": "14s" },
+      "text": ["Ability: Shoots a", "barrage of projectiles", "and grants Defense", "for 4s."],
+      "classes": ["Knight"]
     },
     {
       "id": "telos:ability/skull/t4",
@@ -2085,14 +1159,7 @@
       "type": "ability/skull",
       "tier": 4,
       "tierPoints": 4,
-      "stats": {
-        "Damage": "2.5",
-        "Range": "30",
-        "Velocity": "20",
-        "Summons": "3",
-        "Pierces": "No",
-        "Cooldown": "9s"
-      },
+      "stats": { "Damage": "2.5", "Range": "30", "Velocity": "20", "Summons": "3", "Pierces": "No", "Cooldown": "9s" },
       "text": [
         "Ability: Summons 3",
         "skeletal minions that",
@@ -2105,9 +1172,7 @@
         "Melee:",
         "0.75x DMG/2.0s (2x)"
       ],
-      "classes": [
-        "Necromancer"
-      ]
+      "classes": ["Necromancer"]
     },
     {
       "id": "telos:ability/star/t4",
@@ -2116,23 +1181,9 @@
       "type": "ability/star",
       "tier": 4,
       "tierPoints": 4,
-      "stats": {
-        "Speed": "20",
-        "Damage": "30",
-        "Range": "12",
-        "Shots": "1",
-        "Velocity": "35",
-        "Pierces": "No",
-        "Cooldown": "10s"
-      },
-      "text": [
-        "Ability: Shoots a star",
-        "projectile and grants",
-        "Speed for 4s."
-      ],
-      "classes": [
-        "Samurai"
-      ]
+      "stats": { "Speed": "20", "Damage": "30", "Range": "12", "Shots": "1", "Velocity": "35", "Pierces": "No", "Cooldown": "10s" },
+      "text": ["Ability: Shoots a star", "projectile and grants", "Speed for 4s."],
+      "classes": ["Samurai"]
     },
     {
       "id": "telos:ability/trap/t4",
@@ -2141,21 +1192,9 @@
       "type": "ability/trap",
       "tier": 4,
       "tierPoints": 4,
-      "stats": {
-        "Damage": "35",
-        "Range": "20",
-        "Velocity": "15",
-        "Cooldown": "11s"
-      },
-      "text": [
-        "Ability: Throws a trap",
-        "that inflicts slowness to",
-        "enemies in a 0.2x block",
-        "radius for 4s."
-      ],
-      "classes": [
-        "Huntress"
-      ]
+      "stats": { "Damage": "35", "Range": "20", "Velocity": "15", "Cooldown": "11s" },
+      "text": ["Ability: Throws a trap", "that inflicts slowness to", "enemies in a 0.2x block", "radius for 4s."],
+      "classes": ["Huntress"]
     },
     {
       "id": "telos:armour/heavy/boots/t4",
@@ -2164,14 +1203,8 @@
       "type": "armour/heavy/boots",
       "tier": 4,
       "tierPoints": 4,
-      "stats": {
-        "Defense": "+8",
-        "Vitality": "+2"
-      },
-      "classes": [
-        "Knight",
-        "Samurai"
-      ]
+      "stats": { "Defense": "+8", "Vitality": "+2" },
+      "classes": ["Knight", "Samurai"]
     },
     {
       "id": "telos:armour/heavy/chestplate/t4",
@@ -2180,14 +1213,8 @@
       "type": "armour/heavy/chestplate",
       "tier": 4,
       "tierPoints": 4,
-      "stats": {
-        "Defense": "+8",
-        "Vitality": "+2"
-      },
-      "classes": [
-        "Knight",
-        "Samurai"
-      ]
+      "stats": { "Defense": "+8", "Vitality": "+2" },
+      "classes": ["Knight", "Samurai"]
     },
     {
       "id": "telos:armour/heavy/helmet/t4",
@@ -2196,14 +1223,8 @@
       "type": "armour/heavy/helmet",
       "tier": 4,
       "tierPoints": 4,
-      "stats": {
-        "Defense": "+8",
-        "Vitality": "+2"
-      },
-      "classes": [
-        "Knight",
-        "Samurai"
-      ]
+      "stats": { "Defense": "+8", "Vitality": "+2" },
+      "classes": ["Knight", "Samurai"]
     },
     {
       "id": "telos:armour/heavy/leggings/t4",
@@ -2212,14 +1233,8 @@
       "type": "armour/heavy/leggings",
       "tier": 4,
       "tierPoints": 4,
-      "stats": {
-        "Defense": "+8",
-        "Vitality": "+2"
-      },
-      "classes": [
-        "Knight",
-        "Samurai"
-      ]
+      "stats": { "Defense": "+8", "Vitality": "+2" },
+      "classes": ["Knight", "Samurai"]
     },
     {
       "id": "telos:armour/light/boots/t4",
@@ -2228,14 +1243,8 @@
       "type": "armour/light/boots",
       "tier": 4,
       "tierPoints": 4,
-      "stats": {
-        "Defense": "+5",
-        "Speed": "+6"
-      },
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "stats": { "Defense": "+5", "Speed": "+6" },
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:armour/light/chestplate/t4",
@@ -2244,14 +1253,8 @@
       "type": "armour/light/chestplate",
       "tier": 4,
       "tierPoints": 4,
-      "stats": {
-        "Defense": "+5",
-        "Speed": "+6"
-      },
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "stats": { "Defense": "+5", "Speed": "+6" },
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:armour/light/helmet/t4",
@@ -2260,14 +1263,8 @@
       "type": "armour/light/helmet",
       "tier": 4,
       "tierPoints": 4,
-      "stats": {
-        "Defense": "+5",
-        "Speed": "+6"
-      },
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "stats": { "Defense": "+5", "Speed": "+6" },
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:armour/light/leggings/t4",
@@ -2276,14 +1273,8 @@
       "type": "armour/light/leggings",
       "tier": 4,
       "tierPoints": 4,
-      "stats": {
-        "Defense": "+5",
-        "Speed": "+6"
-      },
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "stats": { "Defense": "+5", "Speed": "+6" },
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:armour/magical/boots/t4",
@@ -2292,14 +1283,8 @@
       "type": "armour/magical/boots",
       "tier": 4,
       "tierPoints": 4,
-      "stats": {
-        "Attack": "+3",
-        "Defense": "+4"
-      },
-      "classes": [
-        "Necromancer",
-        "Arcanist"
-      ]
+      "stats": { "Attack": "+3", "Defense": "+4" },
+      "classes": ["Necromancer", "Arcanist"]
     },
     {
       "id": "telos:armour/magical/chestplate/t4",
@@ -2308,14 +1293,8 @@
       "type": "armour/magical/chestplate",
       "tier": 4,
       "tierPoints": 4,
-      "stats": {
-        "Attack": "+3",
-        "Defense": "+4"
-      },
-      "classes": [
-        "Necromancer",
-        "Arcanist"
-      ]
+      "stats": { "Attack": "+3", "Defense": "+4" },
+      "classes": ["Necromancer", "Arcanist"]
     },
     {
       "id": "telos:armour/magical/helmet/t4",
@@ -2324,14 +1303,8 @@
       "type": "armour/magical/helmet",
       "tier": 4,
       "tierPoints": 4,
-      "stats": {
-        "Attack": "+3",
-        "Defense": "+4"
-      },
-      "classes": [
-        "Necromancer",
-        "Arcanist"
-      ]
+      "stats": { "Attack": "+3", "Defense": "+4" },
+      "classes": ["Necromancer", "Arcanist"]
     },
     {
       "id": "telos:armour/magical/leggings/t4",
@@ -2340,14 +1313,8 @@
       "type": "armour/magical/leggings",
       "tier": 4,
       "tierPoints": 4,
-      "stats": {
-        "Attack": "+3",
-        "Defense": "+4"
-      },
-      "classes": [
-        "Necromancer",
-        "Arcanist"
-      ]
+      "stats": { "Attack": "+3", "Defense": "+4" },
+      "classes": ["Necromancer", "Arcanist"]
     },
     {
       "id": "telos:weapon/bow/t4",
@@ -2356,17 +1323,8 @@
       "type": "weapon/bow",
       "tier": 4,
       "tierPoints": 4,
-      "stats": {
-        "Damage": "2.25",
-        "Range": "13",
-        "Shots": "3",
-        "Velocity": "20",
-        "Pierces": "Yes",
-        "Cooldown": "0.6s"
-      },
-      "classes": [
-        "Huntress"
-      ]
+      "stats": { "Damage": "2.25", "Range": "13", "Shots": "3", "Velocity": "20", "Pierces": "Yes", "Cooldown": "0.6s" },
+      "classes": ["Huntress"]
     },
     {
       "id": "telos:weapon/dagger/t4",
@@ -2375,17 +1333,8 @@
       "type": "weapon/dagger",
       "tier": 4,
       "tierPoints": 4,
-      "stats": {
-        "Damage": "6.75",
-        "Range": "9",
-        "Shots": "1",
-        "Velocity": "30",
-        "Pierces": "No",
-        "Cooldown": "0.6s"
-      },
-      "classes": [
-        "Assassin"
-      ]
+      "stats": { "Damage": "6.75", "Range": "9", "Shots": "1", "Velocity": "30", "Pierces": "No", "Cooldown": "0.6s" },
+      "classes": ["Assassin"]
     },
     {
       "id": "telos:weapon/katana/t4",
@@ -2394,21 +1343,9 @@
       "type": "weapon/katana",
       "tier": 4,
       "tierPoints": 4,
-      "stats": {
-        "Damage": "7.75",
-        "Range": "6",
-        "Slashes": "1",
-        "Pierces": "Yes",
-        "Cooldown": "0.5s"
-      },
-      "text": [
-        "Ability: You only attack",
-        "after successfully",
-        "targeting an enemy."
-      ],
-      "classes": [
-        "Samurai"
-      ]
+      "stats": { "Damage": "7.75", "Range": "6", "Slashes": "1", "Pierces": "Yes", "Cooldown": "0.5s" },
+      "text": ["Ability: You only attack", "after successfully", "targeting an enemy."],
+      "classes": ["Samurai"]
     },
     {
       "id": "telos:weapon/sceptre/t4",
@@ -2417,16 +1354,8 @@
       "type": "weapon/sceptre",
       "tier": 4,
       "tierPoints": 4,
-      "stats": {
-        "Damage": "10",
-        "Range": "8",
-        "Beams": "1",
-        "Pierces": "Yes",
-        "Cooldown": "0.8s"
-      },
-      "classes": [
-        "Arcanist"
-      ]
+      "stats": { "Damage": "10", "Range": "8", "Beams": "1", "Pierces": "Yes", "Cooldown": "0.8s" },
+      "classes": ["Arcanist"]
     },
     {
       "id": "telos:weapon/staff/t4",
@@ -2435,17 +1364,8 @@
       "type": "weapon/staff",
       "tier": 4,
       "tierPoints": 4,
-      "stats": {
-        "Damage": "6",
-        "Range": "15",
-        "Shots": "1",
-        "Velocity": "35",
-        "Pierces": "No",
-        "Cooldown": "0.6s"
-      },
-      "classes": [
-        "Necromancer"
-      ]
+      "stats": { "Damage": "6", "Range": "15", "Shots": "1", "Velocity": "35", "Pierces": "No", "Cooldown": "0.6s" },
+      "classes": ["Necromancer"]
     },
     {
       "id": "telos:weapon/sword/t4",
@@ -2454,21 +1374,9 @@
       "type": "weapon/sword",
       "tier": 4,
       "tierPoints": 4,
-      "stats": {
-        "Damage": "15.5",
-        "Range": "5",
-        "Slashes": "1",
-        "Pierces": "Yes",
-        "Cooldown": "1s"
-      },
-      "text": [
-        "Ability: You only attack",
-        "after successfully",
-        "targeting an enemy."
-      ],
-      "classes": [
-        "Knight"
-      ]
+      "stats": { "Damage": "15.5", "Range": "5", "Slashes": "1", "Pierces": "Yes", "Cooldown": "1s" },
+      "text": ["Ability: You only attack", "after successfully", "targeting an enemy."],
+      "classes": ["Knight"]
     },
     {
       "id": "telos:ability/bomb/t5",
@@ -2477,22 +1385,9 @@
       "type": "ability/bomb",
       "tier": 5,
       "tierPoints": 5,
-      "stats": {
-        "Damage": "16",
-        "Range": "3",
-        "Cooldown": "7s"
-      },
-      "text": [
-        "Ability: Creates a large",
-        "explosion that damages",
-        "enemies and propels",
-        "you backward.",
-        "Cooldown begins upon",
-        "landing."
-      ],
-      "classes": [
-        "Huntress"
-      ]
+      "stats": { "Damage": "16", "Range": "3", "Cooldown": "7s" },
+      "text": ["Ability: Creates a large", "explosion that damages", "enemies and propels", "you backward.", "Cooldown begins upon", "landing."],
+      "classes": ["Huntress"]
     },
     {
       "id": "telos:ability/cloak/t5",
@@ -2501,21 +1396,9 @@
       "type": "ability/cloak",
       "tier": 5,
       "tierPoints": 5,
-      "stats": {
-        "Speed": "14",
-        "Attack": "8",
-        "Critical Chance": "12",
-        "Cooldown": "12s"
-      },
-      "text": [
-        "Ability: Makes you",
-        "invisible for 3.0s. Grants",
-        "Speed, Attack, and",
-        "Critical Chance for 4.0s."
-      ],
-      "classes": [
-        "Assassin"
-      ]
+      "stats": { "Speed": "14", "Attack": "8", "Critical Chance": "12", "Cooldown": "12s" },
+      "text": ["Ability: Makes you", "invisible for 3.0s. Grants", "Speed, Attack, and", "Critical Chance for 4.0s."],
+      "classes": ["Assassin"]
     },
     {
       "id": "telos:ability/emblem/t5",
@@ -2524,22 +1407,9 @@
       "type": "ability/emblem",
       "tier": 5,
       "tierPoints": 5,
-      "stats": {
-        "Speed": "30",
-        "Range": "4",
-        "Cooldown": "14s"
-      },
-      "text": [
-        "Ability: Buffs your",
-        "attack speed by 33%",
-        "and your allies' by 25%",
-        "for 5.0s (does not",
-        "stack). Grants Speed",
-        "for 5.0s."
-      ],
-      "classes": [
-        "Knight"
-      ]
+      "stats": { "Speed": "30", "Range": "4", "Cooldown": "14s" },
+      "text": ["Ability: Buffs your", "attack speed by 33%", "and your allies' by 25%", "for 5.0s (does not", "stack). Grants Speed", "for 5.0s."],
+      "classes": ["Knight"]
     },
     {
       "id": "telos:ability/jewel/t5",
@@ -2548,23 +1418,9 @@
       "type": "ability/jewel",
       "tier": 5,
       "tierPoints": 5,
-      "stats": {
-        "Damage": "15",
-        "Range": "10",
-        "Shots": "3",
-        "Velocity": "15",
-        "Pierces": "No",
-        "Cooldown": "12s"
-      },
-      "text": [
-        "Ability: Summons jewels",
-        "that rotate around you",
-        "and seek the nearest",
-        "enemy (lasts 6s)."
-      ],
-      "classes": [
-        "Arcanist"
-      ]
+      "stats": { "Damage": "15", "Range": "10", "Shots": "3", "Velocity": "15", "Pierces": "No", "Cooldown": "12s" },
+      "text": ["Ability: Summons jewels", "that rotate around you", "and seek the nearest", "enemy (lasts 6s)."],
+      "classes": ["Arcanist"]
     },
     {
       "id": "telos:ability/kunai/t5",
@@ -2573,14 +1429,7 @@
       "type": "ability/kunai",
       "tier": 5,
       "tierPoints": 5,
-      "stats": {
-        "Damage": "3",
-        "Range": "7",
-        "Shots": "3",
-        "Velocity": "25",
-        "Pierces": "Yes",
-        "Cooldown": "8s"
-      },
+      "stats": { "Damage": "3", "Range": "7", "Shots": "3", "Velocity": "25", "Pierces": "Yes", "Cooldown": "8s" },
       "text": [
         "Ability: Shoots kunai",
         "projectiles that",
@@ -2591,9 +1440,7 @@
         "damage to them for",
         "2.5s."
       ],
-      "classes": [
-        "Samurai"
-      ]
+      "classes": ["Samurai"]
     },
     {
       "id": "telos:ability/orb/t5",
@@ -2602,20 +1449,9 @@
       "type": "ability/orb",
       "tier": 5,
       "tierPoints": 5,
-      "stats": {
-        "Speed": "15",
-        "Damage": "50",
-        "Range": "6",
-        "Cooldown": "12s"
-      },
-      "text": [
-        "Ability: Damages in an",
-        "AoE around you and",
-        "grants Speed for 4s."
-      ],
-      "classes": [
-        "Arcanist"
-      ]
+      "stats": { "Speed": "15", "Damage": "50", "Range": "6", "Cooldown": "12s" },
+      "text": ["Ability: Damages in an", "AoE around you and", "grants Speed for 4s."],
+      "classes": ["Arcanist"]
     },
     {
       "id": "telos:ability/poison/t5",
@@ -2624,21 +1460,9 @@
       "type": "ability/poison",
       "tier": 5,
       "tierPoints": 5,
-      "stats": {
-        "Damage": "55",
-        "Range": "20",
-        "Velocity": "15",
-        "Cooldown": "13s"
-      },
-      "text": [
-        "Ability: Inflicts a poison",
-        "effect to enemies in a",
-        "0.3x block radius for",
-        "4s (4 ticks)."
-      ],
-      "classes": [
-        "Assassin"
-      ]
+      "stats": { "Damage": "55", "Range": "20", "Velocity": "15", "Cooldown": "13s" },
+      "text": ["Ability: Inflicts a poison", "effect to enemies in a", "0.3x block radius for", "4s (4 ticks)."],
+      "classes": ["Assassin"]
     },
     {
       "id": "telos:ability/scripture/t5",
@@ -2647,13 +1471,7 @@
       "type": "ability/scripture",
       "tier": 5,
       "tierPoints": 5,
-      "stats": {
-        "Heal": "1",
-        "Damage": "20",
-        "Range": "10",
-        "Pierces": "No",
-        "Cooldown": "10s"
-      },
+      "stats": { "Heal": "1", "Damage": "20", "Range": "10", "Pierces": "No", "Cooldown": "10s" },
       "text": [
         "Ability: Unleashes 3",
         "projectiles from your target",
@@ -2666,9 +1484,7 @@
         "healing cooldown (self-heals",
         "unaffected)."
       ],
-      "classes": [
-        "Necromancer"
-      ]
+      "classes": ["Necromancer"]
     },
     {
       "id": "telos:ability/shield/t5",
@@ -2677,24 +1493,9 @@
       "type": "ability/shield",
       "tier": 5,
       "tierPoints": 5,
-      "stats": {
-        "Defense": "15",
-        "Damage": "15",
-        "Range": "5",
-        "Shots": "4",
-        "Velocity": "10",
-        "Pierces": "Yes",
-        "Cooldown": "14s"
-      },
-      "text": [
-        "Ability: Shoots a",
-        "barrage of projectiles",
-        "and grants Defense",
-        "for 4s."
-      ],
-      "classes": [
-        "Knight"
-      ]
+      "stats": { "Defense": "15", "Damage": "15", "Range": "5", "Shots": "4", "Velocity": "10", "Pierces": "Yes", "Cooldown": "14s" },
+      "text": ["Ability: Shoots a", "barrage of projectiles", "and grants Defense", "for 4s."],
+      "classes": ["Knight"]
     },
     {
       "id": "telos:ability/skull/t5",
@@ -2703,14 +1504,7 @@
       "type": "ability/skull",
       "tier": 5,
       "tierPoints": 5,
-      "stats": {
-        "Damage": "3",
-        "Range": "30",
-        "Velocity": "20",
-        "Summons": "3",
-        "Pierces": "No",
-        "Cooldown": "9s"
-      },
+      "stats": { "Damage": "3", "Range": "30", "Velocity": "20", "Summons": "3", "Pierces": "No", "Cooldown": "9s" },
       "text": [
         "Ability: Summons 3 skeletal",
         "minions that disappear after",
@@ -2722,9 +1516,7 @@
         "Melee:",
         "0.75x DMG/2.0s (2x)"
       ],
-      "classes": [
-        "Necromancer"
-      ]
+      "classes": ["Necromancer"]
     },
     {
       "id": "telos:ability/star/t5",
@@ -2733,23 +1525,9 @@
       "type": "ability/star",
       "tier": 5,
       "tierPoints": 5,
-      "stats": {
-        "Speed": "20",
-        "Damage": "30",
-        "Range": "12",
-        "Shots": "1",
-        "Velocity": "35",
-        "Pierces": "No",
-        "Cooldown": "9s"
-      },
-      "text": [
-        "Ability: Shoots a star",
-        "projectile and grants",
-        "Speed for 4s."
-      ],
-      "classes": [
-        "Samurai"
-      ]
+      "stats": { "Speed": "20", "Damage": "30", "Range": "12", "Shots": "1", "Velocity": "35", "Pierces": "No", "Cooldown": "9s" },
+      "text": ["Ability: Shoots a star", "projectile and grants", "Speed for 4s."],
+      "classes": ["Samurai"]
     },
     {
       "id": "telos:ability/trap/t5",
@@ -2758,21 +1536,9 @@
       "type": "ability/trap",
       "tier": 5,
       "tierPoints": 5,
-      "stats": {
-        "Damage": "35",
-        "Range": "20",
-        "Velocity": "15",
-        "Cooldown": "10s"
-      },
-      "text": [
-        "Ability: Throws a trap",
-        "that inflicts slowness",
-        "to enemies in a 0.2x",
-        "block radius for 4s."
-      ],
-      "classes": [
-        "Huntress"
-      ]
+      "stats": { "Damage": "35", "Range": "20", "Velocity": "15", "Cooldown": "10s" },
+      "text": ["Ability: Throws a trap", "that inflicts slowness", "to enemies in a 0.2x", "block radius for 4s."],
+      "classes": ["Huntress"]
     },
     {
       "id": "telos:armour/heavy/boots/t5",
@@ -2781,14 +1547,8 @@
       "type": "armour/heavy/boots",
       "tier": 5,
       "tierPoints": 5,
-      "stats": {
-        "Defense": "+9",
-        "Vitality": "+2"
-      },
-      "classes": [
-        "Knight",
-        "Samurai"
-      ]
+      "stats": { "Defense": "+9", "Vitality": "+2" },
+      "classes": ["Knight", "Samurai"]
     },
     {
       "id": "telos:armour/heavy/chestplate/t5",
@@ -2797,14 +1557,8 @@
       "type": "armour/heavy/chestplate",
       "tier": 5,
       "tierPoints": 5,
-      "stats": {
-        "Defense": "+9",
-        "Vitality": "+2"
-      },
-      "classes": [
-        "Knight",
-        "Samurai"
-      ]
+      "stats": { "Defense": "+9", "Vitality": "+2" },
+      "classes": ["Knight", "Samurai"]
     },
     {
       "id": "telos:armour/heavy/helmet/t5",
@@ -2813,14 +1567,8 @@
       "type": "armour/heavy/helmet",
       "tier": 5,
       "tierPoints": 5,
-      "stats": {
-        "Defense": "+9",
-        "Vitality": "+2"
-      },
-      "classes": [
-        "Knight",
-        "Samurai"
-      ]
+      "stats": { "Defense": "+9", "Vitality": "+2" },
+      "classes": ["Knight", "Samurai"]
     },
     {
       "id": "telos:armour/heavy/leggings/t5",
@@ -2829,14 +1577,8 @@
       "type": "armour/heavy/leggings",
       "tier": 5,
       "tierPoints": 5,
-      "stats": {
-        "Defense": "+9",
-        "Vitality": "+2"
-      },
-      "classes": [
-        "Knight",
-        "Samurai"
-      ]
+      "stats": { "Defense": "+9", "Vitality": "+2" },
+      "classes": ["Knight", "Samurai"]
     },
     {
       "id": "telos:armour/light/boots/t5",
@@ -2845,14 +1587,8 @@
       "type": "armour/light/boots",
       "tier": 5,
       "tierPoints": 5,
-      "stats": {
-        "Defense": "+6",
-        "Speed": "+7"
-      },
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "stats": { "Defense": "+6", "Speed": "+7" },
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:armour/light/chestplate/t5",
@@ -2861,14 +1597,8 @@
       "type": "armour/light/chestplate",
       "tier": 5,
       "tierPoints": 5,
-      "stats": {
-        "Defense": "+6",
-        "Speed": "+7"
-      },
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "stats": { "Defense": "+6", "Speed": "+7" },
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:armour/light/helmet/t5",
@@ -2877,14 +1607,8 @@
       "type": "armour/light/helmet",
       "tier": 5,
       "tierPoints": 5,
-      "stats": {
-        "Defense": "+6",
-        "Speed": "+7"
-      },
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "stats": { "Defense": "+6", "Speed": "+7" },
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:armour/light/leggings/t5",
@@ -2893,14 +1617,8 @@
       "type": "armour/light/leggings",
       "tier": 5,
       "tierPoints": 5,
-      "stats": {
-        "Defense": "+6",
-        "Speed": "+7"
-      },
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "stats": { "Defense": "+6", "Speed": "+7" },
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:armour/magical/boots/t5",
@@ -2909,14 +1627,8 @@
       "type": "armour/magical/boots",
       "tier": 5,
       "tierPoints": 5,
-      "stats": {
-        "Attack": "+4",
-        "Defense": "+5"
-      },
-      "classes": [
-        "Necromancer",
-        "Arcanist"
-      ]
+      "stats": { "Attack": "+4", "Defense": "+5" },
+      "classes": ["Necromancer", "Arcanist"]
     },
     {
       "id": "telos:armour/magical/chestplate/t5",
@@ -2925,14 +1637,8 @@
       "type": "armour/magical/chestplate",
       "tier": 5,
       "tierPoints": 5,
-      "stats": {
-        "Attack": "+4",
-        "Defense": "+5"
-      },
-      "classes": [
-        "Necromancer",
-        "Arcanist"
-      ]
+      "stats": { "Attack": "+4", "Defense": "+5" },
+      "classes": ["Necromancer", "Arcanist"]
     },
     {
       "id": "telos:armour/magical/helmet/t5",
@@ -2941,14 +1647,8 @@
       "type": "armour/magical/helmet",
       "tier": 5,
       "tierPoints": 5,
-      "stats": {
-        "Attack": "+4",
-        "Defense": "+5"
-      },
-      "classes": [
-        "Necromancer",
-        "Arcanist"
-      ]
+      "stats": { "Attack": "+4", "Defense": "+5" },
+      "classes": ["Necromancer", "Arcanist"]
     },
     {
       "id": "telos:armour/magical/leggings/t5",
@@ -2957,14 +1657,8 @@
       "type": "armour/magical/leggings",
       "tier": 5,
       "tierPoints": 5,
-      "stats": {
-        "Attack": "+4",
-        "Defense": "+5"
-      },
-      "classes": [
-        "Necromancer",
-        "Arcanist"
-      ]
+      "stats": { "Attack": "+4", "Defense": "+5" },
+      "classes": ["Necromancer", "Arcanist"]
     },
     {
       "id": "telos:weapon/bow/t5",
@@ -2973,17 +1667,8 @@
       "type": "weapon/bow",
       "tier": 5,
       "tierPoints": 5,
-      "stats": {
-        "Damage": "2.75",
-        "Range": "13",
-        "Shots": "3",
-        "Velocity": "20",
-        "Pierces": "Yes",
-        "Cooldown": "0.6s"
-      },
-      "classes": [
-        "Huntress"
-      ]
+      "stats": { "Damage": "2.75", "Range": "13", "Shots": "3", "Velocity": "20", "Pierces": "Yes", "Cooldown": "0.6s" },
+      "classes": ["Huntress"]
     },
     {
       "id": "telos:weapon/dagger/t5",
@@ -2992,17 +1677,8 @@
       "type": "weapon/dagger",
       "tier": 5,
       "tierPoints": 5,
-      "stats": {
-        "Damage": "8",
-        "Range": "9",
-        "Shots": "1",
-        "Velocity": "30",
-        "Pierces": "No",
-        "Cooldown": "0.6s"
-      },
-      "classes": [
-        "Assassin"
-      ]
+      "stats": { "Damage": "8", "Range": "9", "Shots": "1", "Velocity": "30", "Pierces": "No", "Cooldown": "0.6s" },
+      "classes": ["Assassin"]
     },
     {
       "id": "telos:weapon/katana/t5",
@@ -3011,21 +1687,9 @@
       "type": "weapon/katana",
       "tier": 5,
       "tierPoints": 5,
-      "stats": {
-        "Damage": "8.75",
-        "Range": "6",
-        "Slashes": "1",
-        "Pierces": "Yes",
-        "Cooldown": "0.5s"
-      },
-      "text": [
-        "Ability: You only attack",
-        "after successfully",
-        "targeting an enemy."
-      ],
-      "classes": [
-        "Samurai"
-      ]
+      "stats": { "Damage": "8.75", "Range": "6", "Slashes": "1", "Pierces": "Yes", "Cooldown": "0.5s" },
+      "text": ["Ability: You only attack", "after successfully", "targeting an enemy."],
+      "classes": ["Samurai"]
     },
     {
       "id": "telos:weapon/sceptre/t5",
@@ -3034,16 +1698,8 @@
       "type": "weapon/sceptre",
       "tier": 5,
       "tierPoints": 5,
-      "stats": {
-        "Damage": "12.5",
-        "Range": "8",
-        "Beams": "1",
-        "Pierces": "Yes",
-        "Cooldown": "0.8s"
-      },
-      "classes": [
-        "Arcanist"
-      ]
+      "stats": { "Damage": "12.5", "Range": "8", "Beams": "1", "Pierces": "Yes", "Cooldown": "0.8s" },
+      "classes": ["Arcanist"]
     },
     {
       "id": "telos:weapon/staff/t5",
@@ -3052,17 +1708,8 @@
       "type": "weapon/staff",
       "tier": 5,
       "tierPoints": 5,
-      "stats": {
-        "Damage": "7.25",
-        "Range": "15",
-        "Shots": "1",
-        "Velocity": "35",
-        "Pierces": "No",
-        "Cooldown": "0.6s"
-      },
-      "classes": [
-        "Necromancer"
-      ]
+      "stats": { "Damage": "7.25", "Range": "15", "Shots": "1", "Velocity": "35", "Pierces": "No", "Cooldown": "0.6s" },
+      "classes": ["Necromancer"]
     },
     {
       "id": "telos:weapon/sword/t5",
@@ -3071,21 +1718,9 @@
       "type": "weapon/sword",
       "tier": 5,
       "tierPoints": 5,
-      "stats": {
-        "Damage": "18",
-        "Range": "5",
-        "Slashes": "1",
-        "Pierces": "Yes",
-        "Cooldown": "1s"
-      },
-      "text": [
-        "Ability: You only attack",
-        "after successfully",
-        "targeting an enemy."
-      ],
-      "classes": [
-        "Knight"
-      ]
+      "stats": { "Damage": "18", "Range": "5", "Slashes": "1", "Pierces": "Yes", "Cooldown": "1s" },
+      "text": ["Ability: You only attack", "after successfully", "targeting an enemy."],
+      "classes": ["Knight"]
     },
     {
       "id": "telos:ability/bomb/t6",
@@ -3094,22 +1729,9 @@
       "type": "ability/bomb",
       "tier": 6,
       "tierPoints": 6,
-      "stats": {
-        "Damage": "24",
-        "Range": "3",
-        "Cooldown": "7s"
-      },
-      "text": [
-        "Ability: Creates a large",
-        "explosion that damages",
-        "enemies and propels",
-        "you backward.",
-        "Cooldown begins upon",
-        "landing."
-      ],
-      "classes": [
-        "Huntress"
-      ]
+      "stats": { "Damage": "24", "Range": "3", "Cooldown": "7s" },
+      "text": ["Ability: Creates a large", "explosion that damages", "enemies and propels", "you backward.", "Cooldown begins upon", "landing."],
+      "classes": ["Huntress"]
     },
     {
       "id": "telos:ability/cloak/t6",
@@ -3118,21 +1740,9 @@
       "type": "ability/cloak",
       "tier": 6,
       "tierPoints": 6,
-      "stats": {
-        "Speed": "14",
-        "Attack": "8",
-        "Critical Chance": "12",
-        "Cooldown": "11s"
-      },
-      "text": [
-        "Ability: Makes you",
-        "invisible for 3.0s. Grants",
-        "Speed, Attack, and",
-        "Critical Chance for 4.0s."
-      ],
-      "classes": [
-        "Assassin"
-      ]
+      "stats": { "Speed": "14", "Attack": "8", "Critical Chance": "12", "Cooldown": "11s" },
+      "text": ["Ability: Makes you", "invisible for 3.0s. Grants", "Speed, Attack, and", "Critical Chance for 4.0s."],
+      "classes": ["Assassin"]
     },
     {
       "id": "telos:ability/emblem/t6",
@@ -3141,22 +1751,9 @@
       "type": "ability/emblem",
       "tier": 6,
       "tierPoints": 6,
-      "stats": {
-        "Speed": "30",
-        "Range": "4",
-        "Cooldown": "13s"
-      },
-      "text": [
-        "Ability: Buffs your",
-        "attack speed by 33%",
-        "and your allies' by 25%",
-        "for 5.0s (does not",
-        "stack). Grants Speed",
-        "for 5.0s."
-      ],
-      "classes": [
-        "Knight"
-      ]
+      "stats": { "Speed": "30", "Range": "4", "Cooldown": "13s" },
+      "text": ["Ability: Buffs your", "attack speed by 33%", "and your allies' by 25%", "for 5.0s (does not", "stack). Grants Speed", "for 5.0s."],
+      "classes": ["Knight"]
     },
     {
       "id": "telos:ability/jewel/t6",
@@ -3165,23 +1762,9 @@
       "type": "ability/jewel",
       "tier": 6,
       "tierPoints": 6,
-      "stats": {
-        "Damage": "15",
-        "Range": "10",
-        "Shots": "3",
-        "Velocity": "15",
-        "Pierces": "No",
-        "Cooldown": "11s"
-      },
-      "text": [
-        "Ability: Summons jewels",
-        "that rotate around you",
-        "and seek the nearest",
-        "enemy (lasts 6s)."
-      ],
-      "classes": [
-        "Arcanist"
-      ]
+      "stats": { "Damage": "15", "Range": "10", "Shots": "3", "Velocity": "15", "Pierces": "No", "Cooldown": "11s" },
+      "text": ["Ability: Summons jewels", "that rotate around you", "and seek the nearest", "enemy (lasts 6s)."],
+      "classes": ["Arcanist"]
     },
     {
       "id": "telos:ability/kunai/t6",
@@ -3190,14 +1773,7 @@
       "type": "ability/kunai",
       "tier": 6,
       "tierPoints": 6,
-      "stats": {
-        "Damage": "4",
-        "Range": "7",
-        "Shots": "3",
-        "Velocity": "25",
-        "Pierces": "Yes",
-        "Cooldown": "8s"
-      },
+      "stats": { "Damage": "4", "Range": "7", "Shots": "3", "Velocity": "25", "Pierces": "Yes", "Cooldown": "8s" },
       "text": [
         "Ability: Shoots kunai",
         "projectiles that",
@@ -3208,9 +1784,7 @@
         "damage to them for",
         "2.5s."
       ],
-      "classes": [
-        "Samurai"
-      ]
+      "classes": ["Samurai"]
     },
     {
       "id": "telos:ability/orb/t6",
@@ -3219,20 +1793,9 @@
       "type": "ability/orb",
       "tier": 6,
       "tierPoints": 6,
-      "stats": {
-        "Speed": "20",
-        "Damage": "55",
-        "Range": "6",
-        "Cooldown": "12s"
-      },
-      "text": [
-        "Ability: Damages in an",
-        "AoE around you and",
-        "grants Speed for 4s."
-      ],
-      "classes": [
-        "Arcanist"
-      ]
+      "stats": { "Speed": "20", "Damage": "55", "Range": "6", "Cooldown": "12s" },
+      "text": ["Ability: Damages in an", "AoE around you and", "grants Speed for 4s."],
+      "classes": ["Arcanist"]
     },
     {
       "id": "telos:ability/poison/t6",
@@ -3241,21 +1804,9 @@
       "type": "ability/poison",
       "tier": 6,
       "tierPoints": 6,
-      "stats": {
-        "Damage": "65",
-        "Range": "20",
-        "Velocity": "15",
-        "Cooldown": "13s"
-      },
-      "text": [
-        "Ability: Inflicts a poison",
-        "effect to enemies in a",
-        "0.3x block radius for 4s",
-        "(4 ticks)."
-      ],
-      "classes": [
-        "Assassin"
-      ]
+      "stats": { "Damage": "65", "Range": "20", "Velocity": "15", "Cooldown": "13s" },
+      "text": ["Ability: Inflicts a poison", "effect to enemies in a", "0.3x block radius for 4s", "(4 ticks)."],
+      "classes": ["Assassin"]
     },
     {
       "id": "telos:ability/scripture/t6",
@@ -3264,13 +1815,7 @@
       "type": "ability/scripture",
       "tier": 6,
       "tierPoints": 6,
-      "stats": {
-        "Heal": "1",
-        "Damage": "25",
-        "Range": "10",
-        "Pierces": "No",
-        "Cooldown": "10s"
-      },
+      "stats": { "Heal": "1", "Damage": "25", "Range": "10", "Pierces": "No", "Cooldown": "10s" },
       "text": [
         "Ability: Unleashes 3",
         "projectiles from your target",
@@ -3283,9 +1828,7 @@
         "healing cooldown (self-heals",
         "unaffected)."
       ],
-      "classes": [
-        "Necromancer"
-      ]
+      "classes": ["Necromancer"]
     },
     {
       "id": "telos:ability/shield/t6",
@@ -3294,24 +1837,9 @@
       "type": "ability/shield",
       "tier": 6,
       "tierPoints": 6,
-      "stats": {
-        "Defense": "15",
-        "Damage": "15",
-        "Range": "5",
-        "Shots": "4",
-        "Velocity": "10",
-        "Pierces": "Yes",
-        "Cooldown": "13s"
-      },
-      "text": [
-        "Ability: Shoots a",
-        "barrage of",
-        "projectiles and grants",
-        "Defense for 4s."
-      ],
-      "classes": [
-        "Knight"
-      ]
+      "stats": { "Defense": "15", "Damage": "15", "Range": "5", "Shots": "4", "Velocity": "10", "Pierces": "Yes", "Cooldown": "13s" },
+      "text": ["Ability: Shoots a", "barrage of", "projectiles and grants", "Defense for 4s."],
+      "classes": ["Knight"]
     },
     {
       "id": "telos:ability/skull/t6",
@@ -3320,14 +1848,7 @@
       "type": "ability/skull",
       "tier": 6,
       "tierPoints": 6,
-      "stats": {
-        "Damage": "3.5",
-        "Range": "30",
-        "Velocity": "20",
-        "Summons": "3",
-        "Pierces": "No",
-        "Cooldown": "9s"
-      },
+      "stats": { "Damage": "3.5", "Range": "30", "Velocity": "20", "Summons": "3", "Pierces": "No", "Cooldown": "9s" },
       "text": [
         "Ability: Summons 3",
         "skeletal minions that",
@@ -3340,9 +1861,7 @@
         "Melee:",
         "0.75x DMG/2.0s (2x)"
       ],
-      "classes": [
-        "Necromancer"
-      ]
+      "classes": ["Necromancer"]
     },
     {
       "id": "telos:ability/star/t6",
@@ -3351,23 +1870,9 @@
       "type": "ability/star",
       "tier": 6,
       "tierPoints": 6,
-      "stats": {
-        "Speed": "20",
-        "Damage": "35",
-        "Range": "12",
-        "Shots": "1",
-        "Velocity": "35",
-        "Pierces": "No",
-        "Cooldown": "9s"
-      },
-      "text": [
-        "Ability: Shoots a star",
-        "projectile and grants",
-        "Speed for 4s."
-      ],
-      "classes": [
-        "Samurai"
-      ]
+      "stats": { "Speed": "20", "Damage": "35", "Range": "12", "Shots": "1", "Velocity": "35", "Pierces": "No", "Cooldown": "9s" },
+      "text": ["Ability: Shoots a star", "projectile and grants", "Speed for 4s."],
+      "classes": ["Samurai"]
     },
     {
       "id": "telos:ability/trap/t6",
@@ -3376,21 +1881,9 @@
       "type": "ability/trap",
       "tier": 6,
       "tierPoints": 6,
-      "stats": {
-        "Damage": "35",
-        "Range": "20",
-        "Velocity": "15",
-        "Cooldown": "10s"
-      },
-      "text": [
-        "Ability: Throws a trap",
-        "that inflicts slowness to",
-        "enemies in a 0.2x block",
-        "radius for 4s."
-      ],
-      "classes": [
-        "Huntress"
-      ]
+      "stats": { "Damage": "35", "Range": "20", "Velocity": "15", "Cooldown": "10s" },
+      "text": ["Ability: Throws a trap", "that inflicts slowness to", "enemies in a 0.2x block", "radius for 4s."],
+      "classes": ["Huntress"]
     },
     {
       "id": "telos:armour/heavy/boots/t6",
@@ -3399,14 +1892,8 @@
       "type": "armour/heavy/boots",
       "tier": 6,
       "tierPoints": 6,
-      "stats": {
-        "Defense": "+10",
-        "Vitality": "+2"
-      },
-      "classes": [
-        "Knight",
-        "Samurai"
-      ]
+      "stats": { "Defense": "+10", "Vitality": "+2" },
+      "classes": ["Knight", "Samurai"]
     },
     {
       "id": "telos:armour/heavy/chestplate/t6",
@@ -3415,14 +1902,8 @@
       "type": "armour/heavy/chestplate",
       "tier": 6,
       "tierPoints": 6,
-      "stats": {
-        "Defense": "+10",
-        "Vitality": "+2"
-      },
-      "classes": [
-        "Knight",
-        "Samurai"
-      ]
+      "stats": { "Defense": "+10", "Vitality": "+2" },
+      "classes": ["Knight", "Samurai"]
     },
     {
       "id": "telos:armour/heavy/helmet/t6",
@@ -3431,14 +1912,8 @@
       "type": "armour/heavy/helmet",
       "tier": 6,
       "tierPoints": 6,
-      "stats": {
-        "Defense": "+10",
-        "Vitality": "+2"
-      },
-      "classes": [
-        "Knight",
-        "Samurai"
-      ]
+      "stats": { "Defense": "+10", "Vitality": "+2" },
+      "classes": ["Knight", "Samurai"]
     },
     {
       "id": "telos:armour/heavy/leggings/t6",
@@ -3447,14 +1922,8 @@
       "type": "armour/heavy/leggings",
       "tier": 6,
       "tierPoints": 6,
-      "stats": {
-        "Defense": "+10",
-        "Vitality": "+2"
-      },
-      "classes": [
-        "Knight",
-        "Samurai"
-      ]
+      "stats": { "Defense": "+10", "Vitality": "+2" },
+      "classes": ["Knight", "Samurai"]
     },
     {
       "id": "telos:armour/light/boots/t6",
@@ -3463,14 +1932,8 @@
       "type": "armour/light/boots",
       "tier": 6,
       "tierPoints": 6,
-      "stats": {
-        "Defense": "+7",
-        "Speed": "+8"
-      },
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "stats": { "Defense": "+7", "Speed": "+8" },
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:armour/light/chestplate/t6",
@@ -3479,14 +1942,8 @@
       "type": "armour/light/chestplate",
       "tier": 6,
       "tierPoints": 6,
-      "stats": {
-        "Defense": "+7",
-        "Speed": "+8"
-      },
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "stats": { "Defense": "+7", "Speed": "+8" },
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:armour/light/helmet/t6",
@@ -3495,14 +1952,8 @@
       "type": "armour/light/helmet",
       "tier": 6,
       "tierPoints": 6,
-      "stats": {
-        "Defense": "+7",
-        "Speed": "+8"
-      },
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "stats": { "Defense": "+7", "Speed": "+8" },
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:armour/light/leggings/t6",
@@ -3511,14 +1962,8 @@
       "type": "armour/light/leggings",
       "tier": 6,
       "tierPoints": 6,
-      "stats": {
-        "Defense": "+7",
-        "Speed": "+8"
-      },
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "stats": { "Defense": "+7", "Speed": "+8" },
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:armour/magical/boots/t6",
@@ -3527,14 +1972,8 @@
       "type": "armour/magical/boots",
       "tier": 6,
       "tierPoints": 6,
-      "stats": {
-        "Attack": "+5",
-        "Defense": "+6"
-      },
-      "classes": [
-        "Necromancer",
-        "Arcanist"
-      ]
+      "stats": { "Attack": "+5", "Defense": "+6" },
+      "classes": ["Necromancer", "Arcanist"]
     },
     {
       "id": "telos:armour/magical/chestplate/t6",
@@ -3543,14 +1982,8 @@
       "type": "armour/magical/chestplate",
       "tier": 6,
       "tierPoints": 6,
-      "stats": {
-        "Attack": "+5",
-        "Defense": "+6"
-      },
-      "classes": [
-        "Necromancer",
-        "Arcanist"
-      ]
+      "stats": { "Attack": "+5", "Defense": "+6" },
+      "classes": ["Necromancer", "Arcanist"]
     },
     {
       "id": "telos:armour/magical/helmet/t6",
@@ -3559,14 +1992,8 @@
       "type": "armour/magical/helmet",
       "tier": 6,
       "tierPoints": 6,
-      "stats": {
-        "Attack": "+5",
-        "Defense": "+6"
-      },
-      "classes": [
-        "Necromancer",
-        "Arcanist"
-      ]
+      "stats": { "Attack": "+5", "Defense": "+6" },
+      "classes": ["Necromancer", "Arcanist"]
     },
     {
       "id": "telos:armour/magical/leggings/t6",
@@ -3575,14 +2002,8 @@
       "type": "armour/magical/leggings",
       "tier": 6,
       "tierPoints": 6,
-      "stats": {
-        "Attack": "+5",
-        "Defense": "+6"
-      },
-      "classes": [
-        "Necromancer",
-        "Arcanist"
-      ]
+      "stats": { "Attack": "+5", "Defense": "+6" },
+      "classes": ["Necromancer", "Arcanist"]
     },
     {
       "id": "telos:weapon/bow/t6",
@@ -3591,17 +2012,8 @@
       "type": "weapon/bow",
       "tier": 6,
       "tierPoints": 6,
-      "stats": {
-        "Damage": "3.25",
-        "Range": "13",
-        "Shots": "3",
-        "Velocity": "20",
-        "Pierces": "Yes",
-        "Cooldown": "0.6s"
-      },
-      "classes": [
-        "Huntress"
-      ]
+      "stats": { "Damage": "3.25", "Range": "13", "Shots": "3", "Velocity": "20", "Pierces": "Yes", "Cooldown": "0.6s" },
+      "classes": ["Huntress"]
     },
     {
       "id": "telos:weapon/dagger/t6",
@@ -3610,17 +2022,8 @@
       "type": "weapon/dagger",
       "tier": 6,
       "tierPoints": 6,
-      "stats": {
-        "Damage": "9.75",
-        "Range": "9",
-        "Shots": "1",
-        "Velocity": "30",
-        "Pierces": "No",
-        "Cooldown": "0.6s"
-      },
-      "classes": [
-        "Assassin"
-      ]
+      "stats": { "Damage": "9.75", "Range": "9", "Shots": "1", "Velocity": "30", "Pierces": "No", "Cooldown": "0.6s" },
+      "classes": ["Assassin"]
     },
     {
       "id": "telos:weapon/katana/t6",
@@ -3629,21 +2032,9 @@
       "type": "weapon/katana",
       "tier": 6,
       "tierPoints": 6,
-      "stats": {
-        "Damage": "9.5",
-        "Range": "6",
-        "Slashes": "1",
-        "Pierces": "Yes",
-        "Cooldown": "0.5s"
-      },
-      "text": [
-        "Ability: You only attack",
-        "after successfully",
-        "targeting an enemy."
-      ],
-      "classes": [
-        "Samurai"
-      ]
+      "stats": { "Damage": "9.5", "Range": "6", "Slashes": "1", "Pierces": "Yes", "Cooldown": "0.5s" },
+      "text": ["Ability: You only attack", "after successfully", "targeting an enemy."],
+      "classes": ["Samurai"]
     },
     {
       "id": "telos:weapon/sceptre/t6",
@@ -3652,16 +2043,8 @@
       "type": "weapon/sceptre",
       "tier": 6,
       "tierPoints": 6,
-      "stats": {
-        "Damage": "14.5",
-        "Range": "8",
-        "Beams": "1",
-        "Pierces": "Yes",
-        "Cooldown": "0.8s"
-      },
-      "classes": [
-        "Arcanist"
-      ]
+      "stats": { "Damage": "14.5", "Range": "8", "Beams": "1", "Pierces": "Yes", "Cooldown": "0.8s" },
+      "classes": ["Arcanist"]
     },
     {
       "id": "telos:weapon/staff/t6",
@@ -3670,17 +2053,8 @@
       "type": "weapon/staff",
       "tier": 6,
       "tierPoints": 6,
-      "stats": {
-        "Damage": "8.75",
-        "Range": "15",
-        "Shots": "1",
-        "Velocity": "35",
-        "Pierces": "No",
-        "Cooldown": "0.6s"
-      },
-      "classes": [
-        "Necromancer"
-      ]
+      "stats": { "Damage": "8.75", "Range": "15", "Shots": "1", "Velocity": "35", "Pierces": "No", "Cooldown": "0.6s" },
+      "classes": ["Necromancer"]
     },
     {
       "id": "telos:weapon/sword/t6",
@@ -3689,21 +2063,9 @@
       "type": "weapon/sword",
       "tier": 6,
       "tierPoints": 6,
-      "stats": {
-        "Damage": "20",
-        "Range": "5",
-        "Slashes": "1",
-        "Pierces": "Yes",
-        "Cooldown": "1s"
-      },
-      "text": [
-        "Ability: You only attack after",
-        "successfully targeting an",
-        "enemy."
-      ],
-      "classes": [
-        "Knight"
-      ]
+      "stats": { "Damage": "20", "Range": "5", "Slashes": "1", "Pierces": "Yes", "Cooldown": "1s" },
+      "text": ["Ability: You only attack after", "successfully targeting an", "enemy."],
+      "classes": ["Knight"]
     },
     {
       "id": "telos:ability/bomb/t7",
@@ -3712,22 +2074,9 @@
       "type": "ability/bomb",
       "tier": 7,
       "tierPoints": 7,
-      "stats": {
-        "Damage": "32",
-        "Range": "3",
-        "Cooldown": "7s"
-      },
-      "text": [
-        "Ability: Creates a large",
-        "explosion that damages",
-        "enemies and propels",
-        "you backward.",
-        "Cooldown begins upon",
-        "landing."
-      ],
-      "classes": [
-        "Huntress"
-      ]
+      "stats": { "Damage": "32", "Range": "3", "Cooldown": "7s" },
+      "text": ["Ability: Creates a large", "explosion that damages", "enemies and propels", "you backward.", "Cooldown begins upon", "landing."],
+      "classes": ["Huntress"]
     },
     {
       "id": "telos:ability/cloak/t7",
@@ -3736,21 +2085,9 @@
       "type": "ability/cloak",
       "tier": 7,
       "tierPoints": 7,
-      "stats": {
-        "Speed": "21",
-        "Attack": "12",
-        "Critical Chance": "15",
-        "Cooldown": "11s"
-      },
-      "text": [
-        "Ability: Makes you invisible",
-        "for 3.0s. Grants Speed,",
-        "Attack, and Critical Chance",
-        "for 4.0s."
-      ],
-      "classes": [
-        "Assassin"
-      ]
+      "stats": { "Speed": "21", "Attack": "12", "Critical Chance": "15", "Cooldown": "11s" },
+      "text": ["Ability: Makes you invisible", "for 3.0s. Grants Speed,", "Attack, and Critical Chance", "for 4.0s."],
+      "classes": ["Assassin"]
     },
     {
       "id": "telos:ability/emblem/t7",
@@ -3759,22 +2096,9 @@
       "type": "ability/emblem",
       "tier": 7,
       "tierPoints": 7,
-      "stats": {
-        "Speed": "35",
-        "Range": "4",
-        "Cooldown": "13s"
-      },
-      "text": [
-        "Ability: Buffs your",
-        "attack speed by 33%",
-        "and your allies' by 25%",
-        "for 5.0s (does not",
-        "stack). Grants Speed",
-        "for 5.0s."
-      ],
-      "classes": [
-        "Knight"
-      ]
+      "stats": { "Speed": "35", "Range": "4", "Cooldown": "13s" },
+      "text": ["Ability: Buffs your", "attack speed by 33%", "and your allies' by 25%", "for 5.0s (does not", "stack). Grants Speed", "for 5.0s."],
+      "classes": ["Knight"]
     },
     {
       "id": "telos:ability/jewel/t7",
@@ -3783,24 +2107,9 @@
       "type": "ability/jewel",
       "tier": 7,
       "tierPoints": 7,
-      "stats": {
-        "Damage": "17",
-        "Range": "10",
-        "Shots": "3",
-        "Velocity": "15",
-        "Pierces": "No",
-        "Cooldown": "11s"
-      },
-      "text": [
-        "Ability: Summons jewels",
-        "that rotate around",
-        "you and seek the",
-        "nearest enemy (lasts",
-        "6s)."
-      ],
-      "classes": [
-        "Arcanist"
-      ]
+      "stats": { "Damage": "17", "Range": "10", "Shots": "3", "Velocity": "15", "Pierces": "No", "Cooldown": "11s" },
+      "text": ["Ability: Summons jewels", "that rotate around", "you and seek the", "nearest enemy (lasts", "6s)."],
+      "classes": ["Arcanist"]
     },
     {
       "id": "telos:ability/kunai/t7",
@@ -3809,14 +2118,7 @@
       "type": "ability/kunai",
       "tier": 7,
       "tierPoints": 7,
-      "stats": {
-        "Damage": "4",
-        "Range": "7",
-        "Shots": "3",
-        "Velocity": "25",
-        "Pierces": "Yes",
-        "Cooldown": "7s"
-      },
+      "stats": { "Damage": "4", "Range": "7", "Shots": "3", "Velocity": "25", "Pierces": "Yes", "Cooldown": "7s" },
       "text": [
         "Ability: Shoots kunai",
         "projectiles that return",
@@ -3826,9 +2128,7 @@
         "deal +20% damage to",
         "them for 2.5s."
       ],
-      "classes": [
-        "Samurai"
-      ]
+      "classes": ["Samurai"]
     },
     {
       "id": "telos:ability/orb/t7",
@@ -3837,20 +2137,9 @@
       "type": "ability/orb",
       "tier": 7,
       "tierPoints": 7,
-      "stats": {
-        "Speed": "20",
-        "Damage": "55",
-        "Range": "6",
-        "Cooldown": "11s"
-      },
-      "text": [
-        "Ability: Damages in an",
-        "AoE around you and",
-        "grants Speed for 4s."
-      ],
-      "classes": [
-        "Arcanist"
-      ]
+      "stats": { "Speed": "20", "Damage": "55", "Range": "6", "Cooldown": "11s" },
+      "text": ["Ability: Damages in an", "AoE around you and", "grants Speed for 4s."],
+      "classes": ["Arcanist"]
     },
     {
       "id": "telos:ability/poison/t7",
@@ -3859,21 +2148,9 @@
       "type": "ability/poison",
       "tier": 7,
       "tierPoints": 7,
-      "stats": {
-        "Damage": "65",
-        "Range": "20",
-        "Velocity": "15",
-        "Cooldown": "12s"
-      },
-      "text": [
-        "Ability: Inflicts a poison",
-        "effect to enemies in a",
-        "0.3 xblock radius for",
-        "4s (4 ticks)."
-      ],
-      "classes": [
-        "Assassin"
-      ]
+      "stats": { "Damage": "65", "Range": "20", "Velocity": "15", "Cooldown": "12s" },
+      "text": ["Ability: Inflicts a poison", "effect to enemies in a", "0.3 xblock radius for", "4s (4 ticks)."],
+      "classes": ["Assassin"]
     },
     {
       "id": "telos:ability/scripture/t7",
@@ -3882,13 +2159,7 @@
       "type": "ability/scripture",
       "tier": 7,
       "tierPoints": 7,
-      "stats": {
-        "Heal": "1",
-        "Damage": "25",
-        "Range": "10",
-        "Pierces": "No",
-        "Cooldown": "10s"
-      },
+      "stats": { "Heal": "1", "Damage": "25", "Range": "10", "Pierces": "No", "Cooldown": "10s" },
       "text": [
         "Ability: Unleashes 4 projectiles",
         "from your target that home in",
@@ -3900,9 +2171,7 @@
         "cooldown (self-heals",
         "unaffected)."
       ],
-      "classes": [
-        "Necromancer"
-      ]
+      "classes": ["Necromancer"]
     },
     {
       "id": "telos:ability/shield/t7",
@@ -3911,23 +2180,9 @@
       "type": "ability/shield",
       "tier": 7,
       "tierPoints": 7,
-      "stats": {
-        "Defense": "15",
-        "Damage": "18",
-        "Range": "5",
-        "Shots": "4",
-        "Velocity": "10",
-        "Pierces": "Yes",
-        "Cooldown": "13s"
-      },
-      "text": [
-        "Ability: Shoots a barrage",
-        "of projectiles and",
-        "grants Defense for 4s."
-      ],
-      "classes": [
-        "Knight"
-      ]
+      "stats": { "Defense": "15", "Damage": "18", "Range": "5", "Shots": "4", "Velocity": "10", "Pierces": "Yes", "Cooldown": "13s" },
+      "text": ["Ability: Shoots a barrage", "of projectiles and", "grants Defense for 4s."],
+      "classes": ["Knight"]
     },
     {
       "id": "telos:ability/skull/t7",
@@ -3936,14 +2191,7 @@
       "type": "ability/skull",
       "tier": 7,
       "tierPoints": 7,
-      "stats": {
-        "Damage": "4",
-        "Range": "30",
-        "Velocity": "20",
-        "Summons": "3",
-        "Pierces": "No",
-        "Cooldown": "9s"
-      },
+      "stats": { "Damage": "4", "Range": "30", "Velocity": "20", "Summons": "3", "Pierces": "No", "Cooldown": "9s" },
       "text": [
         "Ability: Summons 3 skeletal",
         "minions that disappear",
@@ -3956,9 +2204,7 @@
         "Melee:",
         "0.75x DMG/2.0s (2x)"
       ],
-      "classes": [
-        "Necromancer"
-      ]
+      "classes": ["Necromancer"]
     },
     {
       "id": "telos:ability/star/t7",
@@ -3967,23 +2213,9 @@
       "type": "ability/star",
       "tier": 7,
       "tierPoints": 7,
-      "stats": {
-        "Speed": "20",
-        "Damage": "35",
-        "Range": "12",
-        "Shots": "1",
-        "Velocity": "35",
-        "Pierces": "No",
-        "Cooldown": "8s"
-      },
-      "text": [
-        "Ability: Shoots a star",
-        "projectile and grants",
-        "Speed for 4s."
-      ],
-      "classes": [
-        "Samurai"
-      ]
+      "stats": { "Speed": "20", "Damage": "35", "Range": "12", "Shots": "1", "Velocity": "35", "Pierces": "No", "Cooldown": "8s" },
+      "text": ["Ability: Shoots a star", "projectile and grants", "Speed for 4s."],
+      "classes": ["Samurai"]
     },
     {
       "id": "telos:ability/trap/t7",
@@ -3992,21 +2224,9 @@
       "type": "ability/trap",
       "tier": 7,
       "tierPoints": 7,
-      "stats": {
-        "Damage": "35",
-        "Range": "20",
-        "Velocity": "15",
-        "Cooldown": "9s"
-      },
-      "text": [
-        "Ability: Throws a trap",
-        "that inflicts slowness",
-        "to enemies in a 0.2x",
-        "block radius for 4s."
-      ],
-      "classes": [
-        "Huntress"
-      ]
+      "stats": { "Damage": "35", "Range": "20", "Velocity": "15", "Cooldown": "9s" },
+      "text": ["Ability: Throws a trap", "that inflicts slowness", "to enemies in a 0.2x", "block radius for 4s."],
+      "classes": ["Huntress"]
     },
     {
       "id": "telos:armour/heavy/boots/t7",
@@ -4015,14 +2235,8 @@
       "type": "armour/heavy/boots",
       "tier": 7,
       "tierPoints": 7,
-      "stats": {
-        "Defense": "+11",
-        "Vitality": "+2"
-      },
-      "classes": [
-        "Knight",
-        "Samurai"
-      ]
+      "stats": { "Defense": "+11", "Vitality": "+2" },
+      "classes": ["Knight", "Samurai"]
     },
     {
       "id": "telos:armour/heavy/chestplate/t7",
@@ -4031,14 +2245,8 @@
       "type": "armour/heavy/chestplate",
       "tier": 7,
       "tierPoints": 7,
-      "stats": {
-        "Defense": "+11",
-        "Vitality": "+2"
-      },
-      "classes": [
-        "Knight",
-        "Samurai"
-      ]
+      "stats": { "Defense": "+11", "Vitality": "+2" },
+      "classes": ["Knight", "Samurai"]
     },
     {
       "id": "telos:armour/heavy/helmet/t7",
@@ -4047,14 +2255,8 @@
       "type": "armour/heavy/helmet",
       "tier": 7,
       "tierPoints": 7,
-      "stats": {
-        "Defense": "+11",
-        "Vitality": "+2"
-      },
-      "classes": [
-        "Knight",
-        "Samurai"
-      ]
+      "stats": { "Defense": "+11", "Vitality": "+2" },
+      "classes": ["Knight", "Samurai"]
     },
     {
       "id": "telos:armour/heavy/leggings/t7",
@@ -4063,14 +2265,8 @@
       "type": "armour/heavy/leggings",
       "tier": 7,
       "tierPoints": 7,
-      "stats": {
-        "Defense": "+11",
-        "Vitality": "+2"
-      },
-      "classes": [
-        "Knight",
-        "Samurai"
-      ]
+      "stats": { "Defense": "+11", "Vitality": "+2" },
+      "classes": ["Knight", "Samurai"]
     },
     {
       "id": "telos:armour/light/boots/t7",
@@ -4079,14 +2275,8 @@
       "type": "armour/light/boots",
       "tier": 7,
       "tierPoints": 7,
-      "stats": {
-        "Defense": "+8",
-        "Speed": "+9"
-      },
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "stats": { "Defense": "+8", "Speed": "+9" },
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:armour/light/chestplate/t7",
@@ -4095,14 +2285,8 @@
       "type": "armour/light/chestplate",
       "tier": 7,
       "tierPoints": 7,
-      "stats": {
-        "Defense": "+8",
-        "Speed": "+9"
-      },
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "stats": { "Defense": "+8", "Speed": "+9" },
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:armour/light/helmet/t7",
@@ -4111,14 +2295,8 @@
       "type": "armour/light/helmet",
       "tier": 7,
       "tierPoints": 7,
-      "stats": {
-        "Defense": "+8",
-        "Speed": "+9"
-      },
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "stats": { "Defense": "+8", "Speed": "+9" },
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:armour/light/leggings/t7",
@@ -4127,14 +2305,8 @@
       "type": "armour/light/leggings",
       "tier": 7,
       "tierPoints": 7,
-      "stats": {
-        "Defense": "+8",
-        "Speed": "+9"
-      },
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "stats": { "Defense": "+8", "Speed": "+9" },
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:armour/magical/boots/t7",
@@ -4143,14 +2315,8 @@
       "type": "armour/magical/boots",
       "tier": 7,
       "tierPoints": 7,
-      "stats": {
-        "Attack": "+6",
-        "Defense": "+7"
-      },
-      "classes": [
-        "Necromancer",
-        "Arcanist"
-      ]
+      "stats": { "Attack": "+6", "Defense": "+7" },
+      "classes": ["Necromancer", "Arcanist"]
     },
     {
       "id": "telos:armour/magical/chestplate/t7",
@@ -4159,14 +2325,8 @@
       "type": "armour/magical/chestplate",
       "tier": 7,
       "tierPoints": 7,
-      "stats": {
-        "Attack": "+6",
-        "Defense": "+7"
-      },
-      "classes": [
-        "Necromancer",
-        "Arcanist"
-      ]
+      "stats": { "Attack": "+6", "Defense": "+7" },
+      "classes": ["Necromancer", "Arcanist"]
     },
     {
       "id": "telos:armour/magical/helmet/t7",
@@ -4175,14 +2335,8 @@
       "type": "armour/magical/helmet",
       "tier": 7,
       "tierPoints": 7,
-      "stats": {
-        "Attack": "+6",
-        "Defense": "+7"
-      },
-      "classes": [
-        "Necromancer",
-        "Arcanist"
-      ]
+      "stats": { "Attack": "+6", "Defense": "+7" },
+      "classes": ["Necromancer", "Arcanist"]
     },
     {
       "id": "telos:armour/magical/leggings/t7",
@@ -4191,14 +2345,8 @@
       "type": "armour/magical/leggings",
       "tier": 7,
       "tierPoints": 7,
-      "stats": {
-        "Attack": "+6",
-        "Defense": "+7"
-      },
-      "classes": [
-        "Necromancer",
-        "Arcanist"
-      ]
+      "stats": { "Attack": "+6", "Defense": "+7" },
+      "classes": ["Necromancer", "Arcanist"]
     },
     {
       "id": "telos:weapon/bow/t7",
@@ -4207,17 +2355,8 @@
       "type": "weapon/bow",
       "tier": 7,
       "tierPoints": 7,
-      "stats": {
-        "Damage": "3.75",
-        "Range": "13",
-        "Shots": "3",
-        "Velocity": "20",
-        "Pierces": "Yes",
-        "Cooldown": "0.6s"
-      },
-      "classes": [
-        "Huntress"
-      ]
+      "stats": { "Damage": "3.75", "Range": "13", "Shots": "3", "Velocity": "20", "Pierces": "Yes", "Cooldown": "0.6s" },
+      "classes": ["Huntress"]
     },
     {
       "id": "telos:weapon/dagger/t7",
@@ -4226,17 +2365,8 @@
       "type": "weapon/dagger",
       "tier": 7,
       "tierPoints": 7,
-      "stats": {
-        "Damage": "11",
-        "Range": "9",
-        "Shots": "1",
-        "Velocity": "30",
-        "Pierces": "No",
-        "Cooldown": "0.6s"
-      },
-      "classes": [
-        "Assassin"
-      ]
+      "stats": { "Damage": "11", "Range": "9", "Shots": "1", "Velocity": "30", "Pierces": "No", "Cooldown": "0.6s" },
+      "classes": ["Assassin"]
     },
     {
       "id": "telos:weapon/katana/t7",
@@ -4245,21 +2375,9 @@
       "type": "weapon/katana",
       "tier": 7,
       "tierPoints": 7,
-      "stats": {
-        "Damage": "10",
-        "Range": "6",
-        "Slashes": "1",
-        "Pierces": "Yes",
-        "Cooldown": "0.5s"
-      },
-      "text": [
-        "Ability: You only attack",
-        "after successfully",
-        "targeting an enemy."
-      ],
-      "classes": [
-        "Samurai"
-      ]
+      "stats": { "Damage": "10", "Range": "6", "Slashes": "1", "Pierces": "Yes", "Cooldown": "0.5s" },
+      "text": ["Ability: You only attack", "after successfully", "targeting an enemy."],
+      "classes": ["Samurai"]
     },
     {
       "id": "telos:weapon/sceptre/t7",
@@ -4268,16 +2386,8 @@
       "type": "weapon/sceptre",
       "tier": 7,
       "tierPoints": 7,
-      "stats": {
-        "Damage": "16",
-        "Range": "8",
-        "Beams": "1",
-        "Pierces": "Yes",
-        "Cooldown": "0.8s"
-      },
-      "classes": [
-        "Arcanist"
-      ]
+      "stats": { "Damage": "16", "Range": "8", "Beams": "1", "Pierces": "Yes", "Cooldown": "0.8s" },
+      "classes": ["Arcanist"]
     },
     {
       "id": "telos:weapon/staff/t7",
@@ -4286,17 +2396,8 @@
       "type": "weapon/staff",
       "tier": 7,
       "tierPoints": 7,
-      "stats": {
-        "Damage": "10",
-        "Range": "15",
-        "Shots": "1",
-        "Velocity": "35",
-        "Pierces": "No",
-        "Cooldown": "0.6s"
-      },
-      "classes": [
-        "Necromancer"
-      ]
+      "stats": { "Damage": "10", "Range": "15", "Shots": "1", "Velocity": "35", "Pierces": "No", "Cooldown": "0.6s" },
+      "classes": ["Necromancer"]
     },
     {
       "id": "telos:weapon/sword/t7",
@@ -4305,21 +2406,9 @@
       "type": "weapon/sword",
       "tier": 7,
       "tierPoints": 7,
-      "stats": {
-        "Damage": "22.5",
-        "Range": "5",
-        "Slashes": "1",
-        "Pierces": "Yes",
-        "Cooldown": "1s"
-      },
-      "text": [
-        "Ability: You only attack",
-        "after successfully",
-        "targeting an enemy."
-      ],
-      "classes": [
-        "Knight"
-      ]
+      "stats": { "Damage": "22.5", "Range": "5", "Slashes": "1", "Pierces": "Yes", "Cooldown": "1s" },
+      "text": ["Ability: You only attack", "after successfully", "targeting an enemy."],
+      "classes": ["Knight"]
     },
     {
       "id": "telos:ability/bomb/t8",
@@ -4328,22 +2417,9 @@
       "type": "ability/bomb",
       "tier": 8,
       "tierPoints": 8,
-      "stats": {
-        "Damage": "32",
-        "Range": "3.75",
-        "Cooldown": "7s"
-      },
-      "text": [
-        "Ability: Creates a",
-        "massive explosion that",
-        "damages enemies and",
-        "propels you backward.",
-        "Cooldown begins upon",
-        "landing."
-      ],
-      "classes": [
-        "Huntress"
-      ]
+      "stats": { "Damage": "32", "Range": "3.75", "Cooldown": "7s" },
+      "text": ["Ability: Creates a", "massive explosion that", "damages enemies and", "propels you backward.", "Cooldown begins upon", "landing."],
+      "classes": ["Huntress"]
     },
     {
       "id": "telos:ability/cloak/t8",
@@ -4352,21 +2428,9 @@
       "type": "ability/cloak",
       "tier": 8,
       "tierPoints": 8,
-      "stats": {
-        "Speed": "21",
-        "Attack": "12",
-        "Critical Chance": "15",
-        "Cooldown": "11s"
-      },
-      "text": [
-        "Ability: Makes you",
-        "invisible for 4.0s. Grants",
-        "Speed, Attack, and",
-        "Critical Chance for 5.0s."
-      ],
-      "classes": [
-        "Assassin"
-      ]
+      "stats": { "Speed": "21", "Attack": "12", "Critical Chance": "15", "Cooldown": "11s" },
+      "text": ["Ability: Makes you", "invisible for 4.0s. Grants", "Speed, Attack, and", "Critical Chance for 5.0s."],
+      "classes": ["Assassin"]
     },
     {
       "id": "telos:ability/emblem/t8",
@@ -4375,22 +2439,9 @@
       "type": "ability/emblem",
       "tier": 8,
       "tierPoints": 8,
-      "stats": {
-        "Speed": "35",
-        "Range": "4",
-        "Cooldown": "13s"
-      },
-      "text": [
-        "Ability: Buffs your",
-        "attack speed by 33%",
-        "and your allies' by 25%",
-        "for 6.0s (does not",
-        "stack). Grants Speed",
-        "for 6.0s."
-      ],
-      "classes": [
-        "Knight"
-      ]
+      "stats": { "Speed": "35", "Range": "4", "Cooldown": "13s" },
+      "text": ["Ability: Buffs your", "attack speed by 33%", "and your allies' by 25%", "for 6.0s (does not", "stack). Grants Speed", "for 6.0s."],
+      "classes": ["Knight"]
     },
     {
       "id": "telos:ability/jewel/t8",
@@ -4399,23 +2450,9 @@
       "type": "ability/jewel",
       "tier": 8,
       "tierPoints": 8,
-      "stats": {
-        "Damage": "19",
-        "Range": "10",
-        "Shots": "3",
-        "Velocity": "15",
-        "Pierces": "No",
-        "Cooldown": "11s"
-      },
-      "text": [
-        "Ability: Summons jewels",
-        "that rotate around you",
-        "and seek the nearest",
-        "enemy (lasts 6s)."
-      ],
-      "classes": [
-        "Arcanist"
-      ]
+      "stats": { "Damage": "19", "Range": "10", "Shots": "3", "Velocity": "15", "Pierces": "No", "Cooldown": "11s" },
+      "text": ["Ability: Summons jewels", "that rotate around you", "and seek the nearest", "enemy (lasts 6s)."],
+      "classes": ["Arcanist"]
     },
     {
       "id": "telos:ability/kunai/t8",
@@ -4424,14 +2461,7 @@
       "type": "ability/kunai",
       "tier": 8,
       "tierPoints": 8,
-      "stats": {
-        "Damage": "4",
-        "Range": "7",
-        "Shots": "3",
-        "Velocity": "25",
-        "Pierces": "Yes",
-        "Cooldown": "7s"
-      },
+      "stats": { "Damage": "4", "Range": "7", "Shots": "3", "Velocity": "25", "Pierces": "Yes", "Cooldown": "7s" },
       "text": [
         "Ability: Shoots kunai",
         "projectiles that",
@@ -4442,9 +2472,7 @@
         "damage to them for",
         "3.0s."
       ],
-      "classes": [
-        "Samurai"
-      ]
+      "classes": ["Samurai"]
     },
     {
       "id": "telos:ability/orb/t8",
@@ -4453,19 +2481,9 @@
       "type": "ability/orb",
       "tier": 8,
       "tierPoints": 8,
-      "stats": {
-        "Speed": "20",
-        "Damage": "65",
-        "Range": "6",
-        "Cooldown": "11s"
-      },
-      "text": [
-        "Ability: Damages in an AoE around",
-        "you and grants Speed for 5s."
-      ],
-      "classes": [
-        "Arcanist"
-      ]
+      "stats": { "Speed": "20", "Damage": "65", "Range": "6", "Cooldown": "11s" },
+      "text": ["Ability: Damages in an AoE around", "you and grants Speed for 5s."],
+      "classes": ["Arcanist"]
     },
     {
       "id": "telos:ability/poison/t8",
@@ -4474,21 +2492,9 @@
       "type": "ability/poison",
       "tier": 8,
       "tierPoints": 8,
-      "stats": {
-        "Damage": "65",
-        "Range": "20",
-        "Velocity": "15",
-        "Cooldown": "12s"
-      },
-      "text": [
-        "Ability: Inflicts a poison",
-        "effect to enemies in a",
-        "0.35x block radius for",
-        "4s (4 ticks)."
-      ],
-      "classes": [
-        "Assassin"
-      ]
+      "stats": { "Damage": "65", "Range": "20", "Velocity": "15", "Cooldown": "12s" },
+      "text": ["Ability: Inflicts a poison", "effect to enemies in a", "0.35x block radius for", "4s (4 ticks)."],
+      "classes": ["Assassin"]
     },
     {
       "id": "telos:ability/scripture/t8",
@@ -4497,13 +2503,7 @@
       "type": "ability/scripture",
       "tier": 8,
       "tierPoints": 8,
-      "stats": {
-        "Heal": "1",
-        "Damage": "30",
-        "Range": "10",
-        "Pierces": "No",
-        "Cooldown": "9s"
-      },
+      "stats": { "Heal": "1", "Damage": "30", "Range": "10", "Pierces": "No", "Cooldown": "9s" },
       "text": [
         "Ability: Unleashes 4 projectiles",
         "from your target that home in on",
@@ -4514,9 +2514,7 @@
         "others get a 3s healing cooldown",
         "(self-heals unaffected)."
       ],
-      "classes": [
-        "Necromancer"
-      ]
+      "classes": ["Necromancer"]
     },
     {
       "id": "telos:ability/shield/t8",
@@ -4525,24 +2523,9 @@
       "type": "ability/shield",
       "tier": 8,
       "tierPoints": 8,
-      "stats": {
-        "Defense": "25",
-        "Damage": "18",
-        "Range": "5",
-        "Shots": "4",
-        "Velocity": "10",
-        "Pierces": "Yes",
-        "Cooldown": "13s"
-      },
-      "text": [
-        "Ability: Shoots a",
-        "barrage of",
-        "projectiles and grants",
-        "Defense for 5s."
-      ],
-      "classes": [
-        "Knight"
-      ]
+      "stats": { "Defense": "25", "Damage": "18", "Range": "5", "Shots": "4", "Velocity": "10", "Pierces": "Yes", "Cooldown": "13s" },
+      "text": ["Ability: Shoots a", "barrage of", "projectiles and grants", "Defense for 5s."],
+      "classes": ["Knight"]
     },
     {
       "id": "telos:ability/skull/t8",
@@ -4551,14 +2534,7 @@
       "type": "ability/skull",
       "tier": 8,
       "tierPoints": 8,
-      "stats": {
-        "Damage": "4",
-        "Range": "30",
-        "Velocity": "20",
-        "Summons": "3",
-        "Pierces": "No",
-        "Cooldown": "8s"
-      },
+      "stats": { "Damage": "4", "Range": "30", "Velocity": "20", "Summons": "3", "Pierces": "No", "Cooldown": "8s" },
       "text": [
         "Ability: Summons 3",
         "skeletal minions that",
@@ -4571,9 +2547,7 @@
         "Melee:",
         "0.75x DMG/2.0s (2x)"
       ],
-      "classes": [
-        "Necromancer"
-      ]
+      "classes": ["Necromancer"]
     },
     {
       "id": "telos:ability/star/t8",
@@ -4582,23 +2556,9 @@
       "type": "ability/star",
       "tier": 8,
       "tierPoints": 8,
-      "stats": {
-        "Speed": "30",
-        "Damage": "40",
-        "Range": "12",
-        "Shots": "1",
-        "Velocity": "35",
-        "Pierces": "No",
-        "Cooldown": "8s"
-      },
-      "text": [
-        "Ability: Shoots a star",
-        "projectile and grants",
-        "Speed for 4s."
-      ],
-      "classes": [
-        "Samurai"
-      ]
+      "stats": { "Speed": "30", "Damage": "40", "Range": "12", "Shots": "1", "Velocity": "35", "Pierces": "No", "Cooldown": "8s" },
+      "text": ["Ability: Shoots a star", "projectile and grants", "Speed for 4s."],
+      "classes": ["Samurai"]
     },
     {
       "id": "telos:ability/trap/t8",
@@ -4607,21 +2567,9 @@
       "type": "ability/trap",
       "tier": 8,
       "tierPoints": 8,
-      "stats": {
-        "Damage": "35",
-        "Range": "20",
-        "Velocity": "15",
-        "Cooldown": "9s"
-      },
-      "text": [
-        "Ability: Throws a trap",
-        "that inflicts slowness",
-        "to enemies in a 0.25x",
-        "block radius for 5s."
-      ],
-      "classes": [
-        "Huntress"
-      ]
+      "stats": { "Damage": "35", "Range": "20", "Velocity": "15", "Cooldown": "9s" },
+      "text": ["Ability: Throws a trap", "that inflicts slowness", "to enemies in a 0.25x", "block radius for 5s."],
+      "classes": ["Huntress"]
     },
     {
       "id": "telos:armour/heavy/boots/t8",
@@ -4630,14 +2578,8 @@
       "type": "armour/heavy/boots",
       "tier": 8,
       "tierPoints": 8,
-      "stats": {
-        "Defense": "+12",
-        "Vitality": "+3"
-      },
-      "classes": [
-        "Knight",
-        "Samurai"
-      ]
+      "stats": { "Defense": "+12", "Vitality": "+3" },
+      "classes": ["Knight", "Samurai"]
     },
     {
       "id": "telos:armour/heavy/chestplate/t8",
@@ -4646,14 +2588,8 @@
       "type": "armour/heavy/chestplate",
       "tier": 8,
       "tierPoints": 8,
-      "stats": {
-        "Defense": "+12",
-        "Vitality": "+3"
-      },
-      "classes": [
-        "Knight",
-        "Samurai"
-      ]
+      "stats": { "Defense": "+12", "Vitality": "+3" },
+      "classes": ["Knight", "Samurai"]
     },
     {
       "id": "telos:armour/heavy/helmet/t8",
@@ -4662,14 +2598,8 @@
       "type": "armour/heavy/helmet",
       "tier": 8,
       "tierPoints": 8,
-      "stats": {
-        "Defense": "+12",
-        "Vitality": "+3"
-      },
-      "classes": [
-        "Knight",
-        "Samurai"
-      ]
+      "stats": { "Defense": "+12", "Vitality": "+3" },
+      "classes": ["Knight", "Samurai"]
     },
     {
       "id": "telos:armour/heavy/leggings/t8",
@@ -4678,14 +2608,8 @@
       "type": "armour/heavy/leggings",
       "tier": 8,
       "tierPoints": 8,
-      "stats": {
-        "Defense": "+12",
-        "Vitality": "+3"
-      },
-      "classes": [
-        "Knight",
-        "Samurai"
-      ]
+      "stats": { "Defense": "+12", "Vitality": "+3" },
+      "classes": ["Knight", "Samurai"]
     },
     {
       "id": "telos:armour/light/boots/t8",
@@ -4694,14 +2618,8 @@
       "type": "armour/light/boots",
       "tier": 8,
       "tierPoints": 8,
-      "stats": {
-        "Defense": "+9",
-        "Speed": "+11"
-      },
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "stats": { "Defense": "+9", "Speed": "+11" },
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:armour/light/chestplate/t8",
@@ -4710,14 +2628,8 @@
       "type": "armour/light/chestplate",
       "tier": 8,
       "tierPoints": 8,
-      "stats": {
-        "Defense": "+9",
-        "Speed": "+11"
-      },
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "stats": { "Defense": "+9", "Speed": "+11" },
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:armour/light/helmet/t8",
@@ -4726,14 +2638,8 @@
       "type": "armour/light/helmet",
       "tier": 8,
       "tierPoints": 8,
-      "stats": {
-        "Defense": "+9",
-        "Speed": "+11"
-      },
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "stats": { "Defense": "+9", "Speed": "+11" },
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:armour/light/leggings/t8",
@@ -4742,14 +2648,8 @@
       "type": "armour/light/leggings",
       "tier": 8,
       "tierPoints": 8,
-      "stats": {
-        "Defense": "+9",
-        "Speed": "+11"
-      },
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "stats": { "Defense": "+9", "Speed": "+11" },
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:armour/magical/boots/t8",
@@ -4758,14 +2658,8 @@
       "type": "armour/magical/boots",
       "tier": 8,
       "tierPoints": 8,
-      "stats": {
-        "Attack": "+6",
-        "Defense": "+8"
-      },
-      "classes": [
-        "Necromancer",
-        "Arcanist"
-      ]
+      "stats": { "Attack": "+6", "Defense": "+8" },
+      "classes": ["Necromancer", "Arcanist"]
     },
     {
       "id": "telos:armour/magical/chestplate/t8",
@@ -4774,14 +2668,8 @@
       "type": "armour/magical/chestplate",
       "tier": 8,
       "tierPoints": 8,
-      "stats": {
-        "Attack": "+6",
-        "Defense": "+8"
-      },
-      "classes": [
-        "Necromancer",
-        "Arcanist"
-      ]
+      "stats": { "Attack": "+6", "Defense": "+8" },
+      "classes": ["Necromancer", "Arcanist"]
     },
     {
       "id": "telos:armour/magical/helmet/t8",
@@ -4790,14 +2678,8 @@
       "type": "armour/magical/helmet",
       "tier": 8,
       "tierPoints": 8,
-      "stats": {
-        "Attack": "+6",
-        "Defense": "+8"
-      },
-      "classes": [
-        "Necromancer",
-        "Arcanist"
-      ]
+      "stats": { "Attack": "+6", "Defense": "+8" },
+      "classes": ["Necromancer", "Arcanist"]
     },
     {
       "id": "telos:armour/magical/leggings/t8",
@@ -4806,14 +2688,8 @@
       "type": "armour/magical/leggings",
       "tier": 8,
       "tierPoints": 8,
-      "stats": {
-        "Attack": "+6",
-        "Defense": "+8"
-      },
-      "classes": [
-        "Necromancer",
-        "Arcanist"
-      ]
+      "stats": { "Attack": "+6", "Defense": "+8" },
+      "classes": ["Necromancer", "Arcanist"]
     },
     {
       "id": "telos:weapon/bow/t8",
@@ -4822,17 +2698,8 @@
       "type": "weapon/bow",
       "tier": 8,
       "tierPoints": 8,
-      "stats": {
-        "Damage": "4",
-        "Range": "13",
-        "Shots": "3",
-        "Velocity": "20",
-        "Pierces": "Yes",
-        "Cooldown": "0.6s"
-      },
-      "classes": [
-        "Huntress"
-      ]
+      "stats": { "Damage": "4", "Range": "13", "Shots": "3", "Velocity": "20", "Pierces": "Yes", "Cooldown": "0.6s" },
+      "classes": ["Huntress"]
     },
     {
       "id": "telos:weapon/dagger/t8",
@@ -4841,17 +2708,8 @@
       "type": "weapon/dagger",
       "tier": 8,
       "tierPoints": 8,
-      "stats": {
-        "Damage": "12",
-        "Range": "9",
-        "Shots": "1",
-        "Velocity": "30",
-        "Pierces": "No",
-        "Cooldown": "0.6s"
-      },
-      "classes": [
-        "Assassin"
-      ]
+      "stats": { "Damage": "12", "Range": "9", "Shots": "1", "Velocity": "30", "Pierces": "No", "Cooldown": "0.6s" },
+      "classes": ["Assassin"]
     },
     {
       "id": "telos:weapon/katana/t8",
@@ -4860,21 +2718,9 @@
       "type": "weapon/katana",
       "tier": 8,
       "tierPoints": 8,
-      "stats": {
-        "Damage": "11",
-        "Range": "6",
-        "Slashes": "1",
-        "Pierces": "Yes",
-        "Cooldown": "0.5s"
-      },
-      "text": [
-        "Ability: You only attack",
-        "after successfully",
-        "targeting an enemy."
-      ],
-      "classes": [
-        "Samurai"
-      ]
+      "stats": { "Damage": "11", "Range": "6", "Slashes": "1", "Pierces": "Yes", "Cooldown": "0.5s" },
+      "text": ["Ability: You only attack", "after successfully", "targeting an enemy."],
+      "classes": ["Samurai"]
     },
     {
       "id": "telos:weapon/sceptre/t8",
@@ -4883,16 +2729,8 @@
       "type": "weapon/sceptre",
       "tier": 8,
       "tierPoints": 8,
-      "stats": {
-        "Damage": "17",
-        "Range": "8",
-        "Beams": "1",
-        "Pierces": "Yes",
-        "Cooldown": "0.8s"
-      },
-      "classes": [
-        "Arcanist"
-      ]
+      "stats": { "Damage": "17", "Range": "8", "Beams": "1", "Pierces": "Yes", "Cooldown": "0.8s" },
+      "classes": ["Arcanist"]
     },
     {
       "id": "telos:weapon/staff/t8",
@@ -4901,17 +2739,8 @@
       "type": "weapon/staff",
       "tier": 8,
       "tierPoints": 8,
-      "stats": {
-        "Damage": "10.75",
-        "Range": "15",
-        "Shots": "1",
-        "Velocity": "35",
-        "Pierces": "No",
-        "Cooldown": "0.6s"
-      },
-      "classes": [
-        "Necromancer"
-      ]
+      "stats": { "Damage": "10.75", "Range": "15", "Shots": "1", "Velocity": "35", "Pierces": "No", "Cooldown": "0.6s" },
+      "classes": ["Necromancer"]
     },
     {
       "id": "telos:weapon/sword/t8",
@@ -4920,21 +2749,9 @@
       "type": "weapon/sword",
       "tier": 8,
       "tierPoints": 8,
-      "stats": {
-        "Damage": "24.5",
-        "Range": "5",
-        "Slashes": "1",
-        "Pierces": "Yes",
-        "Cooldown": "1s"
-      },
-      "text": [
-        "Ability: You only attack",
-        "after successfully",
-        "targeting an enemy."
-      ],
-      "classes": [
-        "Knight"
-      ]
+      "stats": { "Damage": "24.5", "Range": "5", "Slashes": "1", "Pierces": "Yes", "Cooldown": "1s" },
+      "text": ["Ability: You only attack", "after successfully", "targeting an enemy."],
+      "classes": ["Knight"]
     }
   ]
 }

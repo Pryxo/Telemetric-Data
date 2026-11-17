@@ -10,24 +10,10 @@
       "type": "armour/heavy/helmet",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Anubis",
-        "icon": "telos:material/boss/anubis"
-      },
-      "stats": {
-        "Health": "+6",
-        "Speed": "+10",
-        "Critical Chance": "+5",
-        "Attack": "0.5"
-      },
-      "text": [
-        "Ability: Gain Attack for",
-        "every HP over 30."
-      ],
-      "classes": [
-        "Knight",
-        "Samurai"
-      ]
+      "source": { "name": "Anubis", "icon": "telos:material/boss/anubis" },
+      "stats": { "Health": "+6", "Speed": "+10", "Critical Chance": "+5", "Attack": "0.5" },
+      "text": ["Ability: Gain Attack for", "every HP over 30."],
+      "classes": ["Knight", "Samurai"]
     },
     {
       "id": "telos:armour/heavy/helmet/ut-faceguard",
@@ -36,16 +22,8 @@
       "type": "armour/heavy/helmet",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Warden",
-        "icon": "telos:material/boss/warden"
-      },
-      "stats": {
-        "Attack": "+8",
-        "Defense": "+8",
-        "Evasion": "+4",
-        "Vitality": "3"
-      },
+      "source": { "name": "Warden", "icon": "telos:material/boss/warden" },
+      "stats": { "Attack": "+8", "Defense": "+8", "Evasion": "+4", "Vitality": "3" },
       "text": [
         "Synergy: When paired",
         "with Heraldic",
@@ -55,10 +33,7 @@
         "times (resets after 8.0s",
         "of not taking damage)."
       ],
-      "classes": [
-        "Knight",
-        "Samurai"
-      ]
+      "classes": ["Knight", "Samurai"]
     },
     {
       "id": "telos:armour/heavy/chestplate/ut-phoenix",
@@ -67,19 +42,9 @@
       "type": "armour/heavy/chestplate",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Aviary",
-        "icon": "telos:material/dungeon/aviary"
-      },
-      "stats": {
-        "Health": "+4",
-        "Defense": "+11",
-        "Vitality": "+4"
-      },
-      "classes": [
-        "Knight",
-        "Samurai"
-      ]
+      "source": { "name": "Aviary", "icon": "telos:material/dungeon/aviary" },
+      "stats": { "Health": "+4", "Defense": "+11", "Vitality": "+4" },
+      "classes": ["Knight", "Samurai"]
     },
     {
       "id": "telos:armour/heavy/chestplate/ut-chrysalis",
@@ -88,34 +53,11 @@
       "type": "armour/heavy/chestplate",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Rustborn Kingdom",
-        "icon": "telos:material/dungeon/shatters"
-      },
-      "stats": {
-        "Speed": "+8",
-        "Evasion": "+7",
-        "Critical Chance": "+12",
-        "Attack": "15",
-        "Heal": "4",
-        "Range": "5",
-        "Cooldown": "40s"
-      },
-      "text": [
-        "Ability: Upon being hit",
-        "while below 60% HP, you",
-        "heal HP and grant",
-        "Attack to all nearby",
-        "players for 8.0s."
-      ],
-      "shiny": {
-        "id": "telos:armour/heavy/chestplate/ut-chrysalis-shiny",
-        "model": "telos:material/armour/heavy/chestplate/ut-chrysalis-shiny"
-      },
-      "classes": [
-        "Knight",
-        "Samurai"
-      ]
+      "source": { "name": "Rustborn Kingdom", "icon": "telos:material/dungeon/shatters" },
+      "stats": { "Speed": "+8", "Evasion": "+7", "Critical Chance": "+12", "Attack": "15", "Heal": "4", "Range": "5", "Cooldown": "40s" },
+      "text": ["Ability: Upon being hit", "while below 60% HP, you", "heal HP and grant", "Attack to all nearby", "players for 8.0s."],
+      "shiny": { "id": "telos:armour/heavy/chestplate/ut-chrysalis-shiny", "model": "telos:material/armour/heavy/chestplate/ut-chrysalis-shiny" },
+      "classes": ["Knight", "Samurai"]
     },
     {
       "id": "telos:armour/heavy/leggings/ut-crayfish",
@@ -124,29 +66,11 @@
       "type": "armour/heavy/leggings",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Tidol",
-        "icon": "telos:material/boss/tidol"
-      },
-      "stats": {
-        "Health": "+2",
-        "Defense": "+18",
-        "Speed": "-6",
-        "Vitality": "25",
-        "Cooldown": "20s"
-      },
-      "text": [
-        "Ability: After sneaking for 2.0s,",
-        "gain Vitality for 5s."
-      ],
-      "shiny": {
-        "id": "telos:armour/heavy/leggings/ut-crayfish-shiny",
-        "model": "telos:material/armour/heavy/leggings/ut-crayfish-shiny"
-      },
-      "classes": [
-        "Knight",
-        "Samurai"
-      ]
+      "source": { "name": "Tidol", "icon": "telos:material/boss/tidol" },
+      "stats": { "Health": "+2", "Defense": "+18", "Speed": "-6", "Vitality": "25", "Cooldown": "20s" },
+      "text": ["Ability: After sneaking for 2.0s,", "gain Vitality for 5s."],
+      "shiny": { "id": "telos:armour/heavy/leggings/ut-crayfish-shiny", "model": "telos:material/armour/heavy/leggings/ut-crayfish-shiny" },
+      "classes": ["Knight", "Samurai"]
     },
     {
       "id": "telos:armour/heavy/leggings/ut-greatwood",
@@ -155,20 +79,9 @@
       "type": "armour/heavy/leggings",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Illarius' Hideout",
-        "icon": "telos:material/dungeon/illarius_hideout"
-      },
-      "stats": {
-        "Health": "+2",
-        "Attack": "+6",
-        "Defense": "+9",
-        "Vitality": "+5"
-      },
-      "classes": [
-        "Knight",
-        "Samurai"
-      ]
+      "source": { "name": "Illarius' Hideout", "icon": "telos:material/dungeon/illarius_hideout" },
+      "stats": { "Health": "+2", "Attack": "+6", "Defense": "+9", "Vitality": "+5" },
+      "classes": ["Knight", "Samurai"]
     },
     {
       "id": "telos:armour/heavy/boots/ut-hollow",
@@ -177,23 +90,10 @@
       "type": "armour/heavy/boots",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Midnight Stronghold",
-        "icon": "telos:material/dungeon/midnight_stronghold"
-      },
-      "stats": {
-        "Health": "+2",
-        "Defense": "+12",
-        "Critical Chance": "+7"
-      },
-      "shiny": {
-        "id": "telos:armour/heavy/boots/ut-hollow-shiny",
-        "model": "telos:material/armour/heavy/boots/ut-hollow-shiny"
-      },
-      "classes": [
-        "Knight",
-        "Samurai"
-      ]
+      "source": { "name": "Midnight Stronghold", "icon": "telos:material/dungeon/midnight_stronghold" },
+      "stats": { "Health": "+2", "Defense": "+12", "Critical Chance": "+7" },
+      "shiny": { "id": "telos:armour/heavy/boots/ut-hollow-shiny", "model": "telos:material/armour/heavy/boots/ut-hollow-shiny" },
+      "classes": ["Knight", "Samurai"]
     },
     {
       "id": "telos:armour/heavy/boots/ut-heelguards",
@@ -202,17 +102,8 @@
       "type": "armour/heavy/boots",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Herald",
-        "icon": "telos:material/boss/herald"
-      },
-      "stats": {
-        "Attack": "+10",
-        "Defense": "+12",
-        "Critical Chance": "+8",
-        "Speed": "4",
-        "Cooldown": "1s"
-      },
+      "source": { "name": "Herald", "icon": "telos:material/boss/herald" },
+      "stats": { "Attack": "+10", "Defense": "+12", "Critical Chance": "+8", "Speed": "4", "Cooldown": "1s" },
       "text": [
         "Synergy: When paired with",
         "Warden's Faceguard, gain",
@@ -221,10 +112,7 @@
         "times (resets after 5.0s",
         "of not hitting an enemy)."
       ],
-      "classes": [
-        "Knight",
-        "Samurai"
-      ]
+      "classes": ["Knight", "Samurai"]
     },
     {
       "id": "telos:armour/heavy/boots/ut-decaying",
@@ -233,29 +121,10 @@
       "type": "armour/heavy/boots",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Dreadwood Thicket",
-        "icon": "telos:material/dungeon/dreadwood_thicket"
-      },
-      "stats": {
-        "Health": "+2",
-        "Attack": "+10",
-        "Evasion": "+5",
-        "Damage": "4",
-        "Cooldown": "10s"
-      },
-      "text": [
-        "Ability: After damaging",
-        "with your weapon, a",
-        "withering effect will be",
-        "inflicted that deals",
-        "damage every second",
-        "for 10.0."
-      ],
-      "classes": [
-        "Knight",
-        "Samurai"
-      ]
+      "source": { "name": "Dreadwood Thicket", "icon": "telos:material/dungeon/dreadwood_thicket" },
+      "stats": { "Health": "+2", "Attack": "+10", "Evasion": "+5", "Damage": "4", "Cooldown": "10s" },
+      "text": ["Ability: After damaging", "with your weapon, a", "withering effect will be", "inflicted that deals", "damage every second", "for 10.0."],
+      "classes": ["Knight", "Samurai"]
     },
     {
       "id": "telos:weapon/sword/ut-howl",
@@ -264,27 +133,10 @@
       "type": "weapon/sword",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Valus",
-        "icon": "telos:material/boss/valus"
-      },
-      "stats": {
-        "Damage": "4.5",
-        "Range": "6",
-        "Shots": "8",
-        "Velocity": "10",
-        "Pierces": "Yes",
-        "Cooldown": "0.6s"
-      },
-      "text": [
-        "Ability: Projectiles are",
-        "shot outward in all",
-        "directions instead of",
-        "at your cursor."
-      ],
-      "classes": [
-        "Knight"
-      ]
+      "source": { "name": "Valus", "icon": "telos:material/boss/valus" },
+      "stats": { "Damage": "4.5", "Range": "6", "Shots": "8", "Velocity": "10", "Pierces": "Yes", "Cooldown": "0.6s" },
+      "text": ["Ability: Projectiles are", "shot outward in all", "directions instead of", "at your cursor."],
+      "classes": ["Knight"]
     },
     {
       "id": "telos:weapon/sword/ut-cutlass",
@@ -293,18 +145,8 @@
       "type": "weapon/sword",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Anubis Lair",
-        "icon": "telos:material/dungeon/anubis_lair"
-      },
-      "stats": {
-        "Damage": "11.5",
-        "Range": "4.5",
-        "Slashes": "3",
-        "Velocity": "20",
-        "Pierces": "Yes",
-        "Cooldown": "1s"
-      },
+      "source": { "name": "Anubis Lair", "icon": "telos:material/dungeon/anubis_lair" },
+      "stats": { "Damage": "11.5", "Range": "4.5", "Slashes": "3", "Velocity": "20", "Pierces": "Yes", "Cooldown": "1s" },
       "text": [
         "Ability: After hitting the",
         "flurry of 3 slashes in a",
@@ -315,9 +157,7 @@
         "successfully targeting",
         "an enemy."
       ],
-      "classes": [
-        "Knight"
-      ]
+      "classes": ["Knight"]
     },
     {
       "id": "telos:weapon/sword/ut-guardian",
@@ -326,26 +166,10 @@
       "type": "weapon/sword",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Raph's Castle",
-        "icon": "telos:material/dungeon/onyx"
-      },
-      "stats": {
-        "Damage": "38",
-        "Range": "7",
-        "Shots": "1",
-        "Velocity": "10",
-        "Pierces": "No",
-        "Cooldown": "1.2s"
-      },
-      "text": [
-        "Ability: Projectile is a",
-        "rock with an explosion",
-        "that deals AoE damage."
-      ],
-      "classes": [
-        "Knight"
-      ]
+      "source": { "name": "Raph's Castle", "icon": "telos:material/dungeon/onyx" },
+      "stats": { "Damage": "38", "Range": "7", "Shots": "1", "Velocity": "10", "Pierces": "No", "Cooldown": "1.2s" },
+      "text": ["Ability: Projectile is a", "rock with an explosion", "that deals AoE damage."],
+      "classes": ["Knight"]
     },
     {
       "id": "telos:ability/shield/ut-ogmur",
@@ -354,26 +178,10 @@
       "type": "ability/shield",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Lotil",
-        "icon": "telos:material/boss/lotil"
-      },
-      "stats": {
-        "Damage": "23.75",
-        "Range": "7",
-        "Shots": "5",
-        "Velocity": "10",
-        "Pierces": "Yes",
-        "Cooldown": "10s"
-      },
-      "text": [
-        "Ability: Shoots a",
-        "barrage of",
-        "projectiles."
-      ],
-      "classes": [
-        "Knight"
-      ]
+      "source": { "name": "Lotil", "icon": "telos:material/boss/lotil" },
+      "stats": { "Damage": "23.75", "Range": "7", "Shots": "5", "Velocity": "10", "Pierces": "Yes", "Cooldown": "10s" },
+      "text": ["Ability: Shoots a", "barrage of", "projectiles."],
+      "classes": ["Knight"]
     },
     {
       "id": "telos:ability/shield/ut-crystal",
@@ -382,27 +190,11 @@
       "type": "ability/shield",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Fungal Cavern",
-        "icon": "telos:material/dungeon/fungal_cavern"
-      },
-      "stats": {
-        "Speed": "-40",
-        "Invulnerability": "3s",
-        "Cooldown": "15s"
-      },
-      "text": [
-        "Ability: Grants negative",
-        "speed for 5s and",
-        "Invulnerability."
-      ],
-      "shiny": {
-        "id": "telos:ability/shield/ut-crystal-shiny",
-        "model": "telos:material/ability/shield/ut-crystal-shiny"
-      },
-      "classes": [
-        "Knight"
-      ]
+      "source": { "name": "Fungal Cavern", "icon": "telos:material/dungeon/fungal_cavern" },
+      "stats": { "Speed": "-40", "Invulnerability": "3s", "Cooldown": "15s" },
+      "text": ["Ability: Grants negative", "speed for 5s and", "Invulnerability."],
+      "shiny": { "id": "telos:ability/shield/ut-crystal-shiny", "model": "telos:material/ability/shield/ut-crystal-shiny" },
+      "classes": ["Knight"]
     },
     {
       "id": "telos:ability/shield/ut-cogwheel",
@@ -411,19 +203,8 @@
       "type": "ability/shield",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Cog Sentinel",
-        "icon": "telos:material/boss/cog_sentinel"
-      },
-      "stats": {
-        "Vitality": "8",
-        "Damage": "42",
-        "Range": "6",
-        "Shots": "3",
-        "Velocity": "20",
-        "Pierces": "No",
-        "Cooldown": "12s"
-      },
+      "source": { "name": "Cog Sentinel", "icon": "telos:material/boss/cog_sentinel" },
+      "stats": { "Vitality": "8", "Damage": "42", "Range": "6", "Shots": "3", "Velocity": "20", "Pierces": "No", "Cooldown": "12s" },
       "text": [
         "Ability: Shoots a",
         "barrage of",
@@ -434,9 +215,7 @@
         "standing within 1.1x",
         "blocks of the cog."
       ],
-      "classes": [
-        "Knight"
-      ]
+      "classes": ["Knight"]
     },
     {
       "id": "telos:ability/emblem/ut-juggernaut",
@@ -445,28 +224,10 @@
       "type": "ability/emblem",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Tidol",
-        "icon": "telos:material/boss/tidol"
-      },
-      "stats": {
-        "Speed": "25",
-        "Damage": "10.5",
-        "Range": "10",
-        "Shots": "16",
-        "Velocity": "10",
-        "Pierces": "No",
-        "Cooldown": "10s"
-      },
-      "text": [
-        "Ability: Projectiles are shot",
-        "outwards in all directions",
-        "instead of at your cursor.",
-        "Grants Speed for 6.0s."
-      ],
-      "classes": [
-        "Knight"
-      ]
+      "source": { "name": "Tidol", "icon": "telos:material/boss/tidol" },
+      "stats": { "Speed": "25", "Damage": "10.5", "Range": "10", "Shots": "16", "Velocity": "10", "Pierces": "No", "Cooldown": "10s" },
+      "text": ["Ability: Projectiles are shot", "outwards in all directions", "instead of at your cursor.", "Grants Speed for 6.0s."],
+      "classes": ["Knight"]
     },
     {
       "id": "telos:ability/emblem/ut-heaven",
@@ -475,14 +236,8 @@
       "type": "ability/emblem",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Aurora Sanctum",
-        "icon": "telos:material/dungeon/aurora_sanctum"
-      },
-      "stats": {
-        "Range": "5",
-        "Cooldown": "10s"
-      },
+      "source": { "name": "Aurora Sanctum", "icon": "telos:material/dungeon/aurora_sanctum" },
+      "stats": { "Range": "5", "Cooldown": "10s" },
       "text": [
         "Ability: Buffs your attack",
         "speed by 33% and your",
@@ -495,13 +250,8 @@
         "dealt while marked (Max 60",
         "damage, ignores crits)."
       ],
-      "shiny": {
-        "id": "telos:ability/emblem/ut-heaven-shiny",
-        "model": "telos:material/ability/emblem/ut-heaven-shiny"
-      },
-      "classes": [
-        "Knight"
-      ]
+      "shiny": { "id": "telos:ability/emblem/ut-heaven-shiny", "model": "telos:material/ability/emblem/ut-heaven-shiny" },
+      "classes": ["Knight"]
     },
     {
       "id": "telos:armour/light/helmet/ut-void",
@@ -510,23 +260,10 @@
       "type": "armour/light/helmet",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Omnipotent's Citadel",
-        "icon": "telos:material/dungeon/omnipotents_citadel"
-      },
-      "stats": {
-        "Health": "+3",
-        "Evasion": "+6",
-        "Vitality": "+6"
-      },
-      "shiny": {
-        "id": "telos:armour/light/helmet/ut-void-shiny",
-        "model": "telos:material/armour/light/helmet/ut-void-shiny"
-      },
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "source": { "name": "Omnipotent's Citadel", "icon": "telos:material/dungeon/omnipotents_citadel" },
+      "stats": { "Health": "+3", "Evasion": "+6", "Vitality": "+6" },
+      "shiny": { "id": "telos:armour/light/helmet/ut-void-shiny", "model": "telos:material/armour/light/helmet/ut-void-shiny" },
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:armour/light/helmet/ut-umbrador",
@@ -535,35 +272,11 @@
       "type": "armour/light/helmet",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Midnight Stronghold",
-        "icon": "telos:material/dungeon/midnight_stronghold"
-      },
-      "stats": {
-        "Defense": "+12",
-        "Speed": "+12",
-        "Critical Chance": "+7",
-        "Range": "6",
-        "Shots": "3",
-        "Velocity": "25",
-        "Pierces": "Yes",
-        "Cooldown": "10s"
-      },
-      "text": [
-        "Ability: On ability use,",
-        "your next main attack",
-        "will fire shots dealing",
-        "damage equal to",
-        "Speed/8."
-      ],
-      "shiny": {
-        "id": "telos:armour/light/helmet/ut-umbrador-shiny",
-        "model": "telos:material/armour/light/helmet/ut-umbrador-shiny"
-      },
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "source": { "name": "Midnight Stronghold", "icon": "telos:material/dungeon/midnight_stronghold" },
+      "stats": { "Defense": "+12", "Speed": "+12", "Critical Chance": "+7", "Range": "6", "Shots": "3", "Velocity": "25", "Pierces": "Yes", "Cooldown": "10s" },
+      "text": ["Ability: On ability use,", "your next main attack", "will fire shots dealing", "damage equal to", "Speed/8."],
+      "shiny": { "id": "telos:armour/light/helmet/ut-umbrador-shiny", "model": "telos:material/armour/light/helmet/ut-umbrador-shiny" },
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:armour/light/chestplate/ut-brigadine",
@@ -572,24 +285,10 @@
       "type": "armour/light/chestplate",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Illarius",
-        "icon": "telos:material/boss/illarius"
-      },
-      "stats": {
-        "Health": "+2",
-        "Defense": "+8",
-        "Speed": "+12",
-        "Vitality": "+4"
-      },
-      "shiny": {
-        "id": "telos:armour/light/chestplate/ut-brigadine-shiny",
-        "model": "telos:material/armour/light/chestplate/ut-brigadine-shiny"
-      },
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "source": { "name": "Illarius", "icon": "telos:material/boss/illarius" },
+      "stats": { "Health": "+2", "Defense": "+8", "Speed": "+12", "Vitality": "+4" },
+      "shiny": { "id": "telos:armour/light/chestplate/ut-brigadine-shiny", "model": "telos:material/armour/light/chestplate/ut-brigadine-shiny" },
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:armour/light/chestplate/ut-spectral",
@@ -598,24 +297,10 @@
       "type": "armour/light/chestplate",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Corsair's Conductorium",
-        "icon": "telos:material/dungeon/corsairs_conductorium"
-      },
-      "stats": {
-        "Attack": "+11",
-        "Defense": "+6",
-        "Speed": "+9",
-        "Evasion": "+4"
-      },
-      "shiny": {
-        "id": "telos:armour/light/chestplate/ut-spectral-shiny",
-        "model": "telos:material/armour/light/chestplate/ut-spectral-shiny"
-      },
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "source": { "name": "Corsair's Conductorium", "icon": "telos:material/dungeon/corsairs_conductorium" },
+      "stats": { "Attack": "+11", "Defense": "+6", "Speed": "+9", "Evasion": "+4" },
+      "shiny": { "id": "telos:armour/light/chestplate/ut-spectral-shiny", "model": "telos:material/armour/light/chestplate/ut-spectral-shiny" },
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:armour/light/leggings/ut-corrupted",
@@ -624,20 +309,9 @@
       "type": "armour/light/leggings",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Raph's Castle",
-        "icon": "telos:material/dungeon/onyx"
-      },
-      "stats": {
-        "Health": "+1",
-        "Attack": "+7",
-        "Defense": "+7",
-        "Speed": "+8"
-      },
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "source": { "name": "Raph's Castle", "icon": "telos:material/dungeon/onyx" },
+      "stats": { "Health": "+1", "Attack": "+7", "Defense": "+7", "Speed": "+8" },
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:armour/light/leggings/ut-scorchscale",
@@ -646,19 +320,8 @@
       "type": "armour/light/leggings",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Tartarus",
-        "icon": "telos:material/dungeon/tartarus"
-      },
-      "stats": {
-        "Attack": "+4",
-        "Speed": "+9",
-        "Vitality": "+5",
-        "Critical Chance": "10",
-        "Critical Damage": "10",
-        "Heal": "6",
-        "Cooldown": "18s"
-      },
+      "source": { "name": "Tartarus", "icon": "telos:material/dungeon/tartarus" },
+      "stats": { "Attack": "+4", "Speed": "+9", "Vitality": "+5", "Critical Chance": "10", "Critical Damage": "10", "Heal": "6", "Cooldown": "18s" },
       "text": [
         "Ability: Sneak 3 times in",
         "quick succession to summon",
@@ -668,14 +331,8 @@
         "Critical Chance and Critical",
         "Damage for 6s."
       ],
-      "shiny": {
-        "id": "telos:armour/light/leggings/ut-scorchscale-shiny",
-        "model": "telos:material/armour/light/leggings/ut-scorchscale-shiny"
-      },
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "shiny": { "id": "telos:armour/light/leggings/ut-scorchscale-shiny", "model": "telos:material/armour/light/leggings/ut-scorchscale-shiny" },
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:armour/light/boots/ut-spooky",
@@ -684,19 +341,9 @@
       "type": "armour/light/boots",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Valus",
-        "icon": "telos:material/boss/valus"
-      },
-      "stats": {
-        "Health": "+2",
-        "Defense": "+8",
-        "Evasion": "+7"
-      },
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "source": { "name": "Valus", "icon": "telos:material/boss/valus" },
+      "stats": { "Health": "+2", "Defense": "+8", "Evasion": "+7" },
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:armour/light/boots/ut-blackhole",
@@ -705,19 +352,9 @@
       "type": "armour/light/boots",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Anubis Lair",
-        "icon": "telos:material/dungeon/anubis_lair"
-      },
-      "stats": {
-        "Attack": "+9",
-        "Defense": "+12",
-        "Critical Chance": "+5"
-      },
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "source": { "name": "Anubis Lair", "icon": "telos:material/dungeon/anubis_lair" },
+      "stats": { "Attack": "+9", "Defense": "+12", "Critical Chance": "+5" },
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:armour/light/boots/ut-gumboots",
@@ -726,29 +363,10 @@
       "type": "armour/light/boots",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Glumi",
-        "icon": "telos:material/boss/glumi"
-      },
-      "stats": {
-        "Attack": "+7",
-        "Defense": "+9",
-        "Speed": "+9",
-        "Damage": "12",
-        "Velocity": "20",
-        "Range": "12",
-        "Shots": "5",
-        "Cooldown": "12s"
-      },
-      "text": [
-        "Ability: After sneaking,",
-        "shoot a burst of",
-        "projectiles."
-      ],
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "source": { "name": "Glumi", "icon": "telos:material/boss/glumi" },
+      "stats": { "Attack": "+7", "Defense": "+9", "Speed": "+9", "Damage": "12", "Velocity": "20", "Range": "12", "Shots": "5", "Cooldown": "12s" },
+      "text": ["Ability: After sneaking,", "shoot a burst of", "projectiles."],
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:weapon/dagger/ut-conflict",
@@ -757,29 +375,11 @@
       "type": "weapon/dagger",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Astaroth",
-        "icon": "telos:material/boss/astaroth"
-      },
-      "stats": {
-        "Damage": "12.5",
-        "Range": "7",
-        "Shots": "4",
-        "Pierces": "No",
-        "Cooldown": "1.5s"
-      },
-      "text": [
-        "Ability: You only attack",
-        "after successfully",
-        "targeting an enemy."
-      ],
-      "shiny": {
-        "id": "telos:weapon/dagger/ut-conflict-shiny",
-        "model": "telos:material/weapon/dagger/ut-conflict-shiny"
-      },
-      "classes": [
-        "Assassin"
-      ]
+      "source": { "name": "Astaroth", "icon": "telos:material/boss/astaroth" },
+      "stats": { "Damage": "12.5", "Range": "7", "Shots": "4", "Pierces": "No", "Cooldown": "1.5s" },
+      "text": ["Ability: You only attack", "after successfully", "targeting an enemy."],
+      "shiny": { "id": "telos:weapon/dagger/ut-conflict-shiny", "model": "telos:material/weapon/dagger/ut-conflict-shiny" },
+      "classes": ["Assassin"]
     },
     {
       "id": "telos:weapon/dagger/ut-spirit",
@@ -788,21 +388,9 @@
       "type": "weapon/dagger",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Corsair's Conductorium",
-        "icon": "telos:material/dungeon/corsairs_conductorium"
-      },
-      "stats": {
-        "Damage": "5",
-        "Range": "12.5",
-        "Shots": "5",
-        "Velocity": "25",
-        "Pierces": "No",
-        "Cooldown": "1s"
-      },
-      "classes": [
-        "Assassin"
-      ]
+      "source": { "name": "Corsair's Conductorium", "icon": "telos:material/dungeon/corsairs_conductorium" },
+      "stats": { "Damage": "5", "Range": "12.5", "Shots": "5", "Velocity": "25", "Pierces": "No", "Cooldown": "1s" },
+      "classes": ["Assassin"]
     },
     {
       "id": "telos:weapon/dagger/ut-dissonance",
@@ -811,27 +399,10 @@
       "type": "weapon/dagger",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Aurora Sanctum",
-        "icon": "telos:material/dungeon/aurora_sanctum"
-      },
-      "stats": {
-        "Damage": "21",
-        "Range": "9",
-        "Pierces": "Yes",
-        "Cooldown": "0.5s"
-      },
-      "text": [
-        "Ability: This dagger",
-        "continously spins around",
-        "you on a chain, damaging",
-        "enemies it passes through.",
-        "Attacking reverses its",
-        "direction."
-      ],
-      "classes": [
-        "Assassin"
-      ]
+      "source": { "name": "Aurora Sanctum", "icon": "telos:material/dungeon/aurora_sanctum" },
+      "stats": { "Damage": "21", "Range": "9", "Pierces": "Yes", "Cooldown": "0.5s" },
+      "text": ["Ability: This dagger", "continously spins around", "you on a chain, damaging", "enemies it passes through.", "Attacking reverses its", "direction."],
+      "classes": ["Assassin"]
     },
     {
       "id": "telos:ability/cloak/ut-warlord",
@@ -840,14 +411,8 @@
       "type": "ability/cloak",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Lotil",
-        "icon": "telos:material/boss/lotil"
-      },
-      "stats": {
-        "Speed": "30",
-        "Cooldown": "8s"
-      },
+      "source": { "name": "Lotil", "icon": "telos:material/boss/lotil" },
+      "stats": { "Speed": "30", "Cooldown": "8s" },
       "text": [
         "Passive: Makes you",
         "invisible and grants",
@@ -857,13 +422,8 @@
         "effects of this cloak and",
         "put you on cooldown."
       ],
-      "shiny": {
-        "id": "telos:ability/cloak/ut-warlord-shiny",
-        "model": "telos:material/ability/cloak/ut-warlord-shiny"
-      },
-      "classes": [
-        "Assassin"
-      ]
+      "shiny": { "id": "telos:ability/cloak/ut-warlord-shiny", "model": "telos:material/ability/cloak/ut-warlord-shiny" },
+      "classes": ["Assassin"]
     },
     {
       "id": "telos:ability/cloak/ut-bloody",
@@ -872,23 +432,10 @@
       "type": "ability/cloak",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Valus",
-        "icon": "telos:material/boss/valus"
-      },
-      "stats": {
-        "Attack": "35",
-        "Speed": "20",
-        "Cooldown": "12s"
-      },
-      "text": [
-        "Ability: Makes you invisible for",
-        "4.0s. Grants Speed and Attack",
-        "for 5.0s."
-      ],
-      "classes": [
-        "Assassin"
-      ]
+      "source": { "name": "Valus", "icon": "telos:material/boss/valus" },
+      "stats": { "Attack": "35", "Speed": "20", "Cooldown": "12s" },
+      "text": ["Ability: Makes you invisible for", "4.0s. Grants Speed and Attack", "for 5.0s."],
+      "classes": ["Assassin"]
     },
     {
       "id": "telos:ability/poison/ut-crystal",
@@ -897,29 +444,11 @@
       "type": "ability/poison",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Glumi",
-        "icon": "telos:material/boss/glumi"
-      },
-      "stats": {
-        "Damage": "48",
-        "Range": "18",
-        "Velocity": "25",
-        "Cooldown": "5s"
-      },
-      "text": [
-        "Ability: Inflicts a poison",
-        "effect to enemies in a",
-        "0.3x block radius (3",
-        "ticks)."
-      ],
-      "shiny": {
-        "id": "telos:ability/poison/ut-crystal-shiny",
-        "model": "telos:material/ability/poison/ut-crystal-shiny"
-      },
-      "classes": [
-        "Assassin"
-      ]
+      "source": { "name": "Glumi", "icon": "telos:material/boss/glumi" },
+      "stats": { "Damage": "48", "Range": "18", "Velocity": "25", "Cooldown": "5s" },
+      "text": ["Ability: Inflicts a poison", "effect to enemies in a", "0.3x block radius (3", "ticks)."],
+      "shiny": { "id": "telos:ability/poison/ut-crystal-shiny", "model": "telos:material/ability/poison/ut-crystal-shiny" },
+      "classes": ["Assassin"]
     },
     {
       "id": "telos:ability/poison/ut-rot",
@@ -928,26 +457,10 @@
       "type": "ability/poison",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Reaper",
-        "icon": "telos:material/boss/reaper"
-      },
-      "stats": {
-        "Damage": "120",
-        "Range": "4",
-        "Cooldown": "10s"
-      },
-      "text": [
-        "Ability: Summon a toxic",
-        "puddle in an AoE",
-        "around you for 7s.",
-        "Inflicts a poison",
-        "effect to enemies (8",
-        "ticks)."
-      ],
-      "classes": [
-        "Assassin"
-      ]
+      "source": { "name": "Reaper", "icon": "telos:material/boss/reaper" },
+      "stats": { "Damage": "120", "Range": "4", "Cooldown": "10s" },
+      "text": ["Ability: Summon a toxic", "puddle in an AoE", "around you for 7s.", "Inflicts a poison", "effect to enemies (8", "ticks)."],
+      "classes": ["Assassin"]
     },
     {
       "id": "telos:weapon/katana/ut-carrot",
@@ -956,25 +469,10 @@
       "type": "weapon/katana",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Chungus",
-        "icon": "telos:material/boss/chungus"
-      },
-      "stats": {
-        "Damage": "14",
-        "Range": "11",
-        "Shots": "1",
-        "Velocity": "20",
-        "Pierces": "Yes",
-        "Cooldown": "0.5s"
-      },
-      "text": [
-        "Ability: Projectile is a",
-        "carrot."
-      ],
-      "classes": [
-        "Samurai"
-      ]
+      "source": { "name": "Chungus", "icon": "telos:material/boss/chungus" },
+      "stats": { "Damage": "14", "Range": "11", "Shots": "1", "Velocity": "20", "Pierces": "Yes", "Cooldown": "0.5s" },
+      "text": ["Ability: Projectile is a", "carrot."],
+      "classes": ["Samurai"]
     },
     {
       "id": "telos:weapon/katana/ut-soulrend",
@@ -983,18 +481,8 @@
       "type": "weapon/katana",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Cultist's Hideout",
-        "icon": "telos:material/dungeon/cultists_hideout"
-      },
-      "stats": {
-        "Damage": "55",
-        "Range": "6",
-        "Slashes": "1",
-        "Velocity": "15",
-        "Pierces": "Yes",
-        "Cooldown": "1.8s"
-      },
+      "source": { "name": "Cultist's Hideout", "icon": "telos:material/dungeon/cultists_hideout" },
+      "stats": { "Damage": "55", "Range": "6", "Slashes": "1", "Velocity": "15", "Pierces": "Yes", "Cooldown": "1.8s" },
       "text": [
         "Ability: Projectile is a",
         "slash that travels",
@@ -1009,9 +497,7 @@
         "5.0s of not hitting an",
         "enemy)."
       ],
-      "classes": [
-        "Samurai"
-      ]
+      "classes": ["Samurai"]
     },
     {
       "id": "telos:weapon/katana/ut-blossom",
@@ -1020,24 +506,10 @@
       "type": "weapon/katana",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Illarius' Hideout",
-        "icon": "telos:material/dungeon/illarius_hideout"
-      },
-      "stats": {
-        "Damage": "8.75",
-        "Range": "6",
-        "Slashes": "4",
-        "Pierces": "Yes",
-        "Cooldown": "1s"
-      },
-      "shiny": {
-        "id": "telos:weapon/katana/ut-blossom-shiny",
-        "model": "telos:material/weapon/katana/ut-blossom-shiny"
-      },
-      "classes": [
-        "Samurai"
-      ]
+      "source": { "name": "Illarius' Hideout", "icon": "telos:material/dungeon/illarius_hideout" },
+      "stats": { "Damage": "8.75", "Range": "6", "Slashes": "4", "Pierces": "Yes", "Cooldown": "1s" },
+      "shiny": { "id": "telos:weapon/katana/ut-blossom-shiny", "model": "telos:material/weapon/katana/ut-blossom-shiny" },
+      "classes": ["Samurai"]
     },
     {
       "id": "telos:ability/star/ut-validation",
@@ -1046,28 +518,10 @@
       "type": "ability/star",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Lotil",
-        "icon": "telos:material/boss/lotil"
-      },
-      "stats": {
-        "Speed": "25",
-        "Damage": "22",
-        "Range": "10",
-        "Shots": "3",
-        "Velocity": "30",
-        "Pierces": "Yes",
-        "Cooldown": "7s"
-      },
-      "text": [
-        "Ability: Shoots a burst",
-        "of star projectiles that",
-        "accelerate over time.",
-        "Grants Speed for 7s."
-      ],
-      "classes": [
-        "Samurai"
-      ]
+      "source": { "name": "Lotil", "icon": "telos:material/boss/lotil" },
+      "stats": { "Speed": "25", "Damage": "22", "Range": "10", "Shots": "3", "Velocity": "30", "Pierces": "Yes", "Cooldown": "7s" },
+      "text": ["Ability: Shoots a burst", "of star projectiles that", "accelerate over time.", "Grants Speed for 7s."],
+      "classes": ["Samurai"]
     },
     {
       "id": "telos:ability/kunai/ut-conflict",
@@ -1076,18 +530,8 @@
       "type": "ability/kunai",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Astaroth",
-        "icon": "telos:material/boss/astaroth"
-      },
-      "stats": {
-        "Damage": "28",
-        "Range": "6",
-        "Shots": "1",
-        "Velocity": "30",
-        "Pierces": "Yes",
-        "Cooldown": "10s"
-      },
+      "source": { "name": "Astaroth", "icon": "telos:material/boss/astaroth" },
+      "stats": { "Damage": "28", "Range": "6", "Shots": "1", "Velocity": "30", "Pierces": "Yes", "Cooldown": "10s" },
       "text": [
         "Ability: Shoots a kunai",
         "projectile that",
@@ -1100,13 +544,8 @@
         "damage to them for",
         "4.0s."
       ],
-      "shiny": {
-        "id": "telos:ability/kunai/ut-conflict-shiny",
-        "model": "telos:material/ability/kunai/ut-conflict-shiny"
-      },
-      "classes": [
-        "Samurai"
-      ]
+      "shiny": { "id": "telos:ability/kunai/ut-conflict-shiny", "model": "telos:material/ability/kunai/ut-conflict-shiny" },
+      "classes": ["Samurai"]
     },
     {
       "id": "telos:ability/kunai/ut-crystal",
@@ -1115,34 +554,11 @@
       "type": "ability/kunai",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Glumi",
-        "icon": "telos:material/boss/glumi"
-      },
-      "stats": {
-        "Vitality": "7",
-        "Damage": "20",
-        "Range": "10",
-        "Shots": "1",
-        "Velocity": "30",
-        "Pierces": "Yes",
-        "Cooldown": "6s"
-      },
-      "text": [
-        "Ability: Shoots a kunai",
-        "projectile that returns",
-        "to you at max range.",
-        "Enemies hit are",
-        "paralyzed for 4s and",
-        "grants Vitality."
-      ],
-      "shiny": {
-        "id": "telos:ability/kunai/ut-crystal-shiny",
-        "model": "telos:material/ability/kunai/ut-crystal-shiny"
-      },
-      "classes": [
-        "Samurai"
-      ]
+      "source": { "name": "Glumi", "icon": "telos:material/boss/glumi" },
+      "stats": { "Vitality": "7", "Damage": "20", "Range": "10", "Shots": "1", "Velocity": "30", "Pierces": "Yes", "Cooldown": "6s" },
+      "text": ["Ability: Shoots a kunai", "projectile that returns", "to you at max range.", "Enemies hit are", "paralyzed for 4s and", "grants Vitality."],
+      "shiny": { "id": "telos:ability/kunai/ut-crystal-shiny", "model": "telos:material/ability/kunai/ut-crystal-shiny" },
+      "classes": ["Samurai"]
     },
     {
       "id": "telos:ability/star/ut-singed",
@@ -1151,28 +567,10 @@
       "type": "ability/star",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Raph's Castle",
-        "icon": "telos:material/dungeon/onyx"
-      },
-      "stats": {
-        "Damage": "3.5",
-        "Range": "8",
-        "Shots": "1",
-        "Velocity": "20",
-        "Pierces": "Yes",
-        "Cooldown": "7s"
-      },
-      "text": [
-        "Ability: Shoots a star",
-        "projectile that leaves",
-        "a lingering fire trail",
-        "for 7.0s, dealing",
-        "damage every 0.25s."
-      ],
-      "classes": [
-        "Samurai"
-      ]
+      "source": { "name": "Raph's Castle", "icon": "telos:material/dungeon/onyx" },
+      "stats": { "Damage": "3.5", "Range": "8", "Shots": "1", "Velocity": "20", "Pierces": "Yes", "Cooldown": "7s" },
+      "text": ["Ability: Shoots a star", "projectile that leaves", "a lingering fire trail", "for 7.0s, dealing", "damage every 0.25s."],
+      "classes": ["Samurai"]
     },
     {
       "id": "telos:armour/magical/helmet/ut-chief",
@@ -1181,23 +579,10 @@
       "type": "armour/magical/helmet",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Tidol",
-        "icon": "telos:material/boss/tidol"
-      },
-      "stats": {
-        "Attack": "+11",
-        "Defense": "+9",
-        "Vitality": "+4"
-      },
-      "shiny": {
-        "id": "telos:armour/magical/helmet/ut-chief-shiny",
-        "model": "telos:material/armour/magical/helmet/ut-chief-shiny"
-      },
-      "classes": [
-        "Necromancer",
-        "Arcanist"
-      ]
+      "source": { "name": "Tidol", "icon": "telos:material/boss/tidol" },
+      "stats": { "Attack": "+11", "Defense": "+9", "Vitality": "+4" },
+      "shiny": { "id": "telos:armour/magical/helmet/ut-chief-shiny", "model": "telos:material/armour/magical/helmet/ut-chief-shiny" },
+      "classes": ["Necromancer", "Arcanist"]
     },
     {
       "id": "telos:armour/magical/helmet/ut-cultist",
@@ -1206,23 +591,10 @@
       "type": "armour/magical/helmet",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Cultist's Hideout",
-        "icon": "telos:material/dungeon/cultists_hideout"
-      },
-      "stats": {
-        "Defense": "+6",
-        "Evasion": "+6",
-        "Vitality": "+6"
-      },
-      "shiny": {
-        "id": "telos:armour/magical/helmet/ut-cultist-shiny",
-        "model": "telos:material/armour/magical/helmet/ut-cultist-shiny"
-      },
-      "classes": [
-        "Necromancer",
-        "Arcanist"
-      ]
+      "source": { "name": "Cultist's Hideout", "icon": "telos:material/dungeon/cultists_hideout" },
+      "stats": { "Defense": "+6", "Evasion": "+6", "Vitality": "+6" },
+      "shiny": { "id": "telos:armour/magical/helmet/ut-cultist-shiny", "model": "telos:material/armour/magical/helmet/ut-cultist-shiny" },
+      "classes": ["Necromancer", "Arcanist"]
     },
     {
       "id": "telos:armour/magical/chestplate/ut-omnipotent",
@@ -1231,26 +603,10 @@
       "type": "armour/magical/chestplate",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Omnipotent's Citadel",
-        "icon": "telos:material/dungeon/omnipotents_citadel"
-      },
-      "stats": {
-        "Defense": "+6",
-        "Evasion": "+5",
-        "Critical Chance": "+13",
-        "Critical Damage": "8"
-      },
-      "text": [
-        "Synergy: When paired",
-        "with Omnipotent",
-        "Leggings, gain Critical",
-        "Damage."
-      ],
-      "classes": [
-        "Necromancer",
-        "Arcanist"
-      ]
+      "source": { "name": "Omnipotent's Citadel", "icon": "telos:material/dungeon/omnipotents_citadel" },
+      "stats": { "Defense": "+6", "Evasion": "+5", "Critical Chance": "+13", "Critical Damage": "8" },
+      "text": ["Synergy: When paired", "with Omnipotent", "Leggings, gain Critical", "Damage."],
+      "classes": ["Necromancer", "Arcanist"]
     },
     {
       "id": "telos:armour/magical/chestplate/ut-garment",
@@ -1259,30 +615,10 @@
       "type": "armour/magical/chestplate",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Warden",
-        "icon": "telos:material/boss/warden"
-      },
-      "stats": {
-        "Attack": "+13",
-        "Defense": "+6",
-        "Speed": "+5",
-        "Damage": "8",
-        "Velocity": "10",
-        "Shots": "3",
-        "Pierces": "No",
-        "Cooldown": "5s"
-      },
-      "text": [
-        "Ability: On ability use,",
-        "shoot cog projectiles",
-        "that bounce off walls",
-        "and despawn after 20s."
-      ],
-      "classes": [
-        "Necromancer",
-        "Arcanist"
-      ]
+      "source": { "name": "Warden", "icon": "telos:material/boss/warden" },
+      "stats": { "Attack": "+13", "Defense": "+6", "Speed": "+5", "Damage": "8", "Velocity": "10", "Shots": "3", "Pierces": "No", "Cooldown": "5s" },
+      "text": ["Ability: On ability use,", "shoot cog projectiles", "that bounce off walls", "and despawn after 20s."],
+      "classes": ["Necromancer", "Arcanist"]
     },
     {
       "id": "telos:armour/magical/leggings/ut-omnipotent",
@@ -1291,24 +627,10 @@
       "type": "armour/magical/leggings",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Omnipotent's Citadel",
-        "icon": "telos:material/dungeon/omnipotents_citadel"
-      },
-      "stats": {
-        "Defense": "+6",
-        "Evasion": "+5",
-        "Critical Chance": "+13"
-      },
-      "text": [
-        "Synergy: When paired with",
-        "Omnipotent Robe, gain",
-        "Critical Damage."
-      ],
-      "classes": [
-        "Necromancer",
-        "Arcanist"
-      ]
+      "source": { "name": "Omnipotent's Citadel", "icon": "telos:material/dungeon/omnipotents_citadel" },
+      "stats": { "Defense": "+6", "Evasion": "+5", "Critical Chance": "+13" },
+      "text": ["Synergy: When paired with", "Omnipotent Robe, gain", "Critical Damage."],
+      "classes": ["Necromancer", "Arcanist"]
     },
     {
       "id": "telos:armour/magical/leggings/ut-abyssal",
@@ -1317,19 +639,9 @@
       "type": "armour/magical/leggings",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Midnight Stronghold",
-        "icon": "telos:material/dungeon/midnight_stronghold"
-      },
-      "stats": {
-        "Health": "+2",
-        "Attack": "+13",
-        "Defense": "+7"
-      },
-      "classes": [
-        "Necromancer",
-        "Arcanist"
-      ]
+      "source": { "name": "Midnight Stronghold", "icon": "telos:material/dungeon/midnight_stronghold" },
+      "stats": { "Health": "+2", "Attack": "+13", "Defense": "+7" },
+      "classes": ["Necromancer", "Arcanist"]
     },
     {
       "id": "telos:armour/magical/boots/ut-fungal",
@@ -1338,23 +650,10 @@
       "type": "armour/magical/boots",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Fungal Cavern",
-        "icon": "telos:material/dungeon/fungal_cavern"
-      },
-      "stats": {
-        "Attack": "+16",
-        "Defense": "+6",
-        "Speed": "+13"
-      },
-      "shiny": {
-        "id": "telos:armour/magical/boots/ut-fungal-shiny",
-        "model": "telos:material/armour/magical/boots/ut-fungal-shiny"
-      },
-      "classes": [
-        "Necromancer",
-        "Arcanist"
-      ]
+      "source": { "name": "Fungal Cavern", "icon": "telos:material/dungeon/fungal_cavern" },
+      "stats": { "Attack": "+16", "Defense": "+6", "Speed": "+13" },
+      "shiny": { "id": "telos:armour/magical/boots/ut-fungal-shiny", "model": "telos:material/armour/magical/boots/ut-fungal-shiny" },
+      "classes": ["Necromancer", "Arcanist"]
     },
     {
       "id": "telos:armour/magical/boots/ut-soulless",
@@ -1363,19 +662,9 @@
       "type": "armour/magical/boots",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Reaper",
-        "icon": "telos:material/boss/reaper"
-      },
-      "stats": {
-        "Health": "+2",
-        "Defense": "+9",
-        "Vitality": "+7"
-      },
-      "classes": [
-        "Necromancer",
-        "Arcanist"
-      ]
+      "source": { "name": "Reaper", "icon": "telos:material/boss/reaper" },
+      "stats": { "Health": "+2", "Defense": "+9", "Vitality": "+7" },
+      "classes": ["Necromancer", "Arcanist"]
     },
     {
       "id": "telos:weapon/staff/ut-anubis",
@@ -1384,26 +673,10 @@
       "type": "weapon/staff",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Anubis",
-        "icon": "telos:material/boss/anubis"
-      },
-      "stats": {
-        "Damage": "8",
-        "Range": "12",
-        "Shots": "4",
-        "Velocity": "20",
-        "Pierces": "No",
-        "Cooldown": "1.2s"
-      },
-      "text": [
-        "Ability: You only attack",
-        "after successfully",
-        "targeting an enemy."
-      ],
-      "classes": [
-        "Necromancer"
-      ]
+      "source": { "name": "Anubis", "icon": "telos:material/boss/anubis" },
+      "stats": { "Damage": "8", "Range": "12", "Shots": "4", "Velocity": "20", "Pierces": "No", "Cooldown": "1.2s" },
+      "text": ["Ability: You only attack", "after successfully", "targeting an enemy."],
+      "classes": ["Necromancer"]
     },
     {
       "id": "telos:weapon/staff/ut-unholy",
@@ -1412,17 +685,8 @@
       "type": "weapon/staff",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Cultist's Hideout",
-        "icon": "telos:material/dungeon/cultists_hideout"
-      },
-      "stats": {
-        "Damage": "13",
-        "Range": "8",
-        "Shots": "4",
-        "Pierces": "No",
-        "Cooldown": "2s"
-      },
+      "source": { "name": "Cultist's Hideout", "icon": "telos:material/dungeon/cultists_hideout" },
+      "stats": { "Damage": "13", "Range": "8", "Shots": "4", "Pierces": "No", "Cooldown": "2s" },
       "text": [
         "Ability: Shoot 4 homing",
         "projectiles towards an enemy,",
@@ -1433,9 +697,7 @@
         "attack after successfully",
         "targeting an enemy."
       ],
-      "classes": [
-        "Necromancer"
-      ]
+      "classes": ["Necromancer"]
     },
     {
       "id": "telos:weapon/staff/ut-aerial",
@@ -1444,21 +706,9 @@
       "type": "weapon/staff",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Aviary",
-        "icon": "telos:material/dungeon/aviary"
-      },
-      "stats": {
-        "Damage": "5",
-        "Range": "8",
-        "Shots": "5",
-        "Velocity": "15",
-        "Pierces": "Yes",
-        "Cooldown": "0.8s"
-      },
-      "classes": [
-        "Necromancer"
-      ]
+      "source": { "name": "Aviary", "icon": "telos:material/dungeon/aviary" },
+      "stats": { "Damage": "5", "Range": "8", "Shots": "5", "Velocity": "15", "Pierces": "Yes", "Cooldown": "0.8s" },
+      "classes": ["Necromancer"]
     },
     {
       "id": "telos:ability/skull/ut-spring",
@@ -1467,27 +717,10 @@
       "type": "ability/skull",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Chungus",
-        "icon": "telos:material/boss/chungus"
-      },
-      "stats": {
-        "Damage": "20",
-        "Range": "25",
-        "Velocity": "15",
-        "Pierces": "No",
-        "Cooldown": "2s"
-      },
-      "text": [
-        "Ability: Summons a bunny",
-        "that hops to the nearest",
-        "enemy and explodes dealing",
-        "a small AoE on impact (10s",
-        "despawn)"
-      ],
-      "classes": [
-        "Necromancer"
-      ]
+      "source": { "name": "Chungus", "icon": "telos:material/boss/chungus" },
+      "stats": { "Damage": "20", "Range": "25", "Velocity": "15", "Pierces": "No", "Cooldown": "2s" },
+      "text": ["Ability: Summons a bunny", "that hops to the nearest", "enemy and explodes dealing", "a small AoE on impact (10s", "despawn)"],
+      "classes": ["Necromancer"]
     },
     {
       "id": "telos:ability/scripture/ut-cinder",
@@ -1496,28 +729,10 @@
       "type": "ability/scripture",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Tartarus",
-        "icon": "telos:material/dungeon/tartarus"
-      },
-      "stats": {
-        "Heal": "0.05",
-        "Damage": "0.6",
-        "Range": "8",
-        "Pierces": "No",
-        "Cooldown": "10s"
-      },
-      "text": [
-        "Ability: Spawns 3 fire",
-        "totems around the",
-        "target that spray the",
-        "nearest enemy every",
-        "0.1s for 5s. Each tick",
-        "of damage heals you."
-      ],
-      "classes": [
-        "Necromancer"
-      ]
+      "source": { "name": "Tartarus", "icon": "telos:material/dungeon/tartarus" },
+      "stats": { "Heal": "0.05", "Damage": "0.6", "Range": "8", "Pierces": "No", "Cooldown": "10s" },
+      "text": ["Ability: Spawns 3 fire", "totems around the", "target that spray the", "nearest enemy every", "0.1s for 5s. Each tick", "of damage heals you."],
+      "classes": ["Necromancer"]
     },
     {
       "id": "telos:ability/scripture/ut-dilapidated",
@@ -1526,28 +741,10 @@
       "type": "ability/scripture",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Illarius' Hideout",
-        "icon": "telos:material/dungeon/illarius_hideout"
-      },
-      "stats": {
-        "Heal": "2",
-        "Damage": "15",
-        "Range": "11",
-        "Shots": "5",
-        "Velocity": "10",
-        "Pierces": "No",
-        "Cooldown": "10s"
-      },
-      "text": [
-        "Ability: Shoots projectiles",
-        "that instantly heal you",
-        "when they hit a vulnerable",
-        "enemy."
-      ],
-      "classes": [
-        "Necromancer"
-      ]
+      "source": { "name": "Illarius' Hideout", "icon": "telos:material/dungeon/illarius_hideout" },
+      "stats": { "Heal": "2", "Damage": "15", "Range": "11", "Shots": "5", "Velocity": "10", "Pierces": "No", "Cooldown": "10s" },
+      "text": ["Ability: Shoots projectiles", "that instantly heal you", "when they hit a vulnerable", "enemy."],
+      "classes": ["Necromancer"]
     },
     {
       "id": "telos:ability/skull/ut-engineer",
@@ -1556,18 +753,8 @@
       "type": "ability/skull",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Cog Sentinel",
-        "icon": "telos:material/boss/cog_sentinel"
-      },
-      "stats": {
-        "Damage": "0.55",
-        "Velocity": "20",
-        "Range": "9",
-        "Summons": "1",
-        "Pierces": "No",
-        "Cooldown": "1s"
-      },
+      "source": { "name": "Cog Sentinel", "icon": "telos:material/boss/cog_sentinel" },
+      "stats": { "Damage": "0.55", "Velocity": "20", "Range": "9", "Summons": "1", "Pierces": "No", "Cooldown": "1s" },
       "text": [
         "Ability: Summons a turret",
         "that shoots every 0.5 and",
@@ -1580,9 +767,7 @@
         "move further than its max",
         "attacking range."
       ],
-      "classes": [
-        "Necromancer"
-      ]
+      "classes": ["Necromancer"]
     },
     {
       "id": "telos:ability/scripture/ut-heart",
@@ -1591,15 +776,8 @@
       "type": "ability/scripture",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Midnight Stronghold",
-        "icon": "telos:material/dungeon/midnight_stronghold"
-      },
-      "stats": {
-        "Heal": "7",
-        "Range": "3",
-        "Cooldown": "10s"
-      },
+      "source": { "name": "Midnight Stronghold", "icon": "telos:material/dungeon/midnight_stronghold" },
+      "stats": { "Heal": "7", "Range": "3", "Cooldown": "10s" },
       "text": [
         "Ability: Instantly Heal",
         "yourself as well as",
@@ -1610,13 +788,8 @@
         "cooldown (self-heals",
         "unaffected)."
       ],
-      "shiny": {
-        "id": "telos:ability/scripture/ut-heart-shiny",
-        "model": "telos:material/ability/scripture/ut-heart-shiny"
-      },
-      "classes": [
-        "Necromancer"
-      ]
+      "shiny": { "id": "telos:ability/scripture/ut-heart-shiny", "model": "telos:material/ability/scripture/ut-heart-shiny" },
+      "classes": ["Necromancer"]
     },
     {
       "id": "telos:weapon/bow/ut-ethereal",
@@ -1625,31 +798,11 @@
       "type": "weapon/bow",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Corsair's Conductorium",
-        "icon": "telos:material/dungeon/corsairs_conductorium"
-      },
-      "stats": {
-        "Damage": "11",
-        "Range": "8",
-        "Shots": "3",
-        "Velocity": "20",
-        "Pierces": "No",
-        "Cooldown": "1.2s"
-      },
-      "text": [
-        "Ability: After hitting the",
-        "flurry of 3 shots in a row,",
-        "create a ghastly explosion",
-        "that deals 0.83x damage."
-      ],
-      "shiny": {
-        "id": "telos:weapon/bow/ut-ethereal-shiny",
-        "model": "telos:material/weapon/bow/ut-ethereal-shiny"
-      },
-      "classes": [
-        "Huntress"
-      ]
+      "source": { "name": "Corsair's Conductorium", "icon": "telos:material/dungeon/corsairs_conductorium" },
+      "stats": { "Damage": "11", "Range": "8", "Shots": "3", "Velocity": "20", "Pierces": "No", "Cooldown": "1.2s" },
+      "text": ["Ability: After hitting the", "flurry of 3 shots in a row,", "create a ghastly explosion", "that deals 0.83x damage."],
+      "shiny": { "id": "telos:weapon/bow/ut-ethereal-shiny", "model": "telos:material/weapon/bow/ut-ethereal-shiny" },
+      "classes": ["Huntress"]
     },
     {
       "id": "telos:weapon/bow/ut-forest",
@@ -1658,25 +811,10 @@
       "type": "weapon/bow",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Illarius",
-        "icon": "telos:material/boss/illarius"
-      },
-      "stats": {
-        "Damage": "9.5",
-        "Range": "12",
-        "Shots": "2",
-        "Velocity": "25",
-        "Pierces": "Yes",
-        "Cooldown": "0.6s"
-      },
-      "shiny": {
-        "id": "telos:weapon/bow/ut-forest-shiny",
-        "model": "telos:material/weapon/bow/ut-forest-shiny"
-      },
-      "classes": [
-        "Huntress"
-      ]
+      "source": { "name": "Illarius", "icon": "telos:material/boss/illarius" },
+      "stats": { "Damage": "9.5", "Range": "12", "Shots": "2", "Velocity": "25", "Pierces": "Yes", "Cooldown": "0.6s" },
+      "shiny": { "id": "telos:weapon/bow/ut-forest-shiny", "model": "telos:material/weapon/bow/ut-forest-shiny" },
+      "classes": ["Huntress"]
     },
     {
       "id": "telos:weapon/bow/ut-cinder",
@@ -1685,31 +823,11 @@
       "type": "weapon/bow",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Tartarus",
-        "icon": "telos:material/dungeon/tartarus"
-      },
-      "stats": {
-        "Damage": "4.25",
-        "Range": "9",
-        "Shots": "3",
-        "Velocity": "20",
-        "Pierces": "No",
-        "Cooldown": "0.5s"
-      },
-      "text": [
-        "Ability: Every third",
-        "shot summons 4",
-        "piercing bats that deal",
-        "1.1x damage each."
-      ],
-      "shiny": {
-        "id": "telos:weapon/bow/ut-cinder-shiny",
-        "model": "telos:material/weapon/bow/ut-cinder-shiny"
-      },
-      "classes": [
-        "Huntress"
-      ]
+      "source": { "name": "Tartarus", "icon": "telos:material/dungeon/tartarus" },
+      "stats": { "Damage": "4.25", "Range": "9", "Shots": "3", "Velocity": "20", "Pierces": "No", "Cooldown": "0.5s" },
+      "text": ["Ability: Every third", "shot summons 4", "piercing bats that deal", "1.1x damage each."],
+      "shiny": { "id": "telos:weapon/bow/ut-cinder-shiny", "model": "telos:material/weapon/bow/ut-cinder-shiny" },
+      "classes": ["Huntress"]
     },
     {
       "id": "telos:ability/trap/ut-eggsellence",
@@ -1718,26 +836,10 @@
       "type": "ability/trap",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Chungus",
-        "icon": "telos:material/boss/chungus"
-      },
-      "stats": {
-        "Damage": "175",
-        "Range": "20",
-        "Velocity": "15",
-        "Cooldown": "15s"
-      },
-      "text": [
-        "Ability: Throws a trap that",
-        "inflicts slowness to",
-        "enemies in a 0.35x block",
-        "radius, dealing damage",
-        "over 7.5s."
-      ],
-      "classes": [
-        "Huntress"
-      ]
+      "source": { "name": "Chungus", "icon": "telos:material/boss/chungus" },
+      "stats": { "Damage": "175", "Range": "20", "Velocity": "15", "Cooldown": "15s" },
+      "text": ["Ability: Throws a trap that", "inflicts slowness to", "enemies in a 0.35x block", "radius, dealing damage", "over 7.5s."],
+      "classes": ["Huntress"]
     },
     {
       "id": "telos:ability/trap/ut-crystal",
@@ -1746,17 +848,8 @@
       "type": "ability/trap",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Fungal Cavern",
-        "icon": "telos:material/dungeon/fungal_cavern"
-      },
-      "stats": {
-        "Vitality": "2",
-        "Damage": "20",
-        "Range": "8",
-        "Velocity": "15",
-        "Cooldown": "8s"
-      },
+      "source": { "name": "Fungal Cavern", "icon": "telos:material/dungeon/fungal_cavern" },
+      "stats": { "Vitality": "2", "Damage": "20", "Range": "8", "Velocity": "15", "Cooldown": "8s" },
       "text": [
         "Ability: Throws a trap",
         "that effects the",
@@ -1771,9 +864,7 @@
         "vitality for 4s (max 5x",
         "vitality stack)"
       ],
-      "classes": [
-        "Huntress"
-      ]
+      "classes": ["Huntress"]
     },
     {
       "id": "telos:ability/bomb/ut-voltaic",
@@ -1782,15 +873,8 @@
       "type": "ability/bomb",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Anubis Lair",
-        "icon": "telos:material/dungeon/anubis_lair"
-      },
-      "stats": {
-        "Damage": "21",
-        "Range": "2.5",
-        "Cooldown": "7s"
-      },
+      "source": { "name": "Anubis Lair", "icon": "telos:material/dungeon/anubis_lair" },
+      "stats": { "Damage": "21", "Range": "2.5", "Cooldown": "7s" },
       "text": [
         "Ability: Creates a small",
         "explosion that damages",
@@ -1801,9 +885,7 @@
         "after 1.0s. Cooldown",
         "begins upon landing."
       ],
-      "classes": [
-        "Huntress"
-      ]
+      "classes": ["Huntress"]
     },
     {
       "id": "telos:ability/bomb/ut-light",
@@ -1812,15 +894,8 @@
       "type": "ability/bomb",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Aurora Sanctum",
-        "icon": "telos:material/dungeon/aurora_sanctum"
-      },
-      "stats": {
-        "Damage": "17.5",
-        "Range": "2.5",
-        "Cooldown": "8s"
-      },
+      "source": { "name": "Aurora Sanctum", "icon": "telos:material/dungeon/aurora_sanctum" },
+      "stats": { "Damage": "17.5", "Range": "2.5", "Cooldown": "8s" },
       "text": [
         "Ability: Creates a small",
         "explosion that damages",
@@ -1836,9 +911,7 @@
         "Cooldown begins upon",
         "landing."
       ],
-      "classes": [
-        "Huntress"
-      ]
+      "classes": ["Huntress"]
     },
     {
       "id": "telos:weapon/sceptre/ut-gloom",
@@ -1847,17 +920,8 @@
       "type": "weapon/sceptre",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Omnipotent's Citadel",
-        "icon": "telos:material/dungeon/omnipotents_citadel"
-      },
-      "stats": {
-        "Damage": "7",
-        "Range": "7",
-        "Beams": "1",
-        "Pierces": "No",
-        "Cooldown": "1.6s"
-      },
+      "source": { "name": "Omnipotent's Citadel", "icon": "telos:material/dungeon/omnipotents_citadel" },
+      "stats": { "Damage": "7", "Range": "7", "Beams": "1", "Pierces": "No", "Cooldown": "1.6s" },
       "text": [
         "Ability: Initial shot",
         "marks an enemy without",
@@ -1868,13 +932,8 @@
         "successfully targeting",
         "an enemy."
       ],
-      "shiny": {
-        "id": "telos:weapon/sceptre/ut-gloom-shiny",
-        "model": "telos:material/weapon/sceptre/ut-gloom-shiny"
-      },
-      "classes": [
-        "Arcanist"
-      ]
+      "shiny": { "id": "telos:weapon/sceptre/ut-gloom-shiny", "model": "telos:material/weapon/sceptre/ut-gloom-shiny" },
+      "classes": ["Arcanist"]
     },
     {
       "id": "telos:weapon/sceptre/ut-branch",
@@ -1883,17 +942,8 @@
       "type": "weapon/sceptre",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Illarius",
-        "icon": "telos:material/boss/illarius"
-      },
-      "stats": {
-        "Damage": "24",
-        "Range": "9",
-        "Beams": "1",
-        "Pierces": "No",
-        "Cooldown": "1s"
-      },
+      "source": { "name": "Illarius", "icon": "telos:material/boss/illarius" },
+      "stats": { "Damage": "24", "Range": "9", "Beams": "1", "Pierces": "No", "Cooldown": "1s" },
       "text": [
         "Ability: Initial shot will",
         "chain to 2 extra enemies",
@@ -1903,9 +953,7 @@
         "successfully targeting",
         "an enemy."
       ],
-      "classes": [
-        "Arcanist"
-      ]
+      "classes": ["Arcanist"]
     },
     {
       "id": "telos:weapon/sceptre/ut-luminous",
@@ -1914,17 +962,8 @@
       "type": "weapon/sceptre",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Herald",
-        "icon": "telos:material/boss/herald"
-      },
-      "stats": {
-        "Damage": "32.5",
-        "Range": "7",
-        "Beams": "1",
-        "Pierces": "No",
-        "Cooldown": "1.7s"
-      },
+      "source": { "name": "Herald", "icon": "telos:material/boss/herald" },
+      "stats": { "Damage": "32.5", "Range": "7", "Beams": "1", "Pierces": "No", "Cooldown": "1.7s" },
       "text": [
         "Ability: Summon a light",
         "disc that deals 0.2x",
@@ -1940,9 +979,7 @@
         "after successfully",
         "targeting an enemy."
       ],
-      "classes": [
-        "Arcanist"
-      ]
+      "classes": ["Arcanist"]
     },
     {
       "id": "telos:ability/orb/ut-conflict",
@@ -1951,28 +988,11 @@
       "type": "ability/orb",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Astaroth",
-        "icon": "telos:material/boss/astaroth"
-      },
-      "stats": {
-        "Speed": "33",
-        "Damage": "125",
-        "Range": "4",
-        "Cooldown": "10s"
-      },
-      "text": [
-        "Ability: Damages in an",
-        "AoE around you and",
-        "grants Speed for 2s."
-      ],
-      "shiny": {
-        "id": "telos:ability/orb/ut-conflict-shiny",
-        "model": "telos:material/ability/orb/ut-conflict-shiny"
-      },
-      "classes": [
-        "Arcanist"
-      ]
+      "source": { "name": "Astaroth", "icon": "telos:material/boss/astaroth" },
+      "stats": { "Speed": "33", "Damage": "125", "Range": "4", "Cooldown": "10s" },
+      "text": ["Ability: Damages in an", "AoE around you and", "grants Speed for 2s."],
+      "shiny": { "id": "telos:ability/orb/ut-conflict-shiny", "model": "telos:material/ability/orb/ut-conflict-shiny" },
+      "classes": ["Arcanist"]
     },
     {
       "id": "telos:ability/orb/ut-slow",
@@ -1981,25 +1001,10 @@
       "type": "ability/orb",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Raph's Castle",
-        "icon": "telos:material/dungeon/onyx"
-      },
-      "stats": {
-        "Defense": "30",
-        "Damage": "75",
-        "Range": "7",
-        "Cooldown": "9s"
-      },
-      "text": [
-        "Ability: Damages in an",
-        "AoE around you.",
-        "Grants Defense and",
-        "slows enemies for 5s."
-      ],
-      "classes": [
-        "Arcanist"
-      ]
+      "source": { "name": "Raph's Castle", "icon": "telos:material/dungeon/onyx" },
+      "stats": { "Defense": "30", "Damage": "75", "Range": "7", "Cooldown": "9s" },
+      "text": ["Ability: Damages in an", "AoE around you.", "Grants Defense and", "slows enemies for 5s."],
+      "classes": ["Arcanist"]
     },
     {
       "id": "telos:ability/jewel/ut-nile",
@@ -2008,28 +1013,10 @@
       "type": "ability/jewel",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Anubis",
-        "icon": "telos:material/boss/anubis"
-      },
-      "stats": {
-        "Damage": "18.5",
-        "Range": "10",
-        "Shots": "4",
-        "Velocity": "15",
-        "Pierces": "No",
-        "Cooldown": "8s"
-      },
-      "text": [
-        "Ability: Summons jewels",
-        "that rotate around",
-        "you and seek the",
-        "nearest enemy (lasts",
-        "6s)."
-      ],
-      "classes": [
-        "Arcanist"
-      ]
+      "source": { "name": "Anubis", "icon": "telos:material/boss/anubis" },
+      "stats": { "Damage": "18.5", "Range": "10", "Shots": "4", "Velocity": "15", "Pierces": "No", "Cooldown": "8s" },
+      "text": ["Ability: Summons jewels", "that rotate around", "you and seek the", "nearest enemy (lasts", "6s)."],
+      "classes": ["Arcanist"]
     },
     {
       "id": "telos:ability/jewel/ut-wisp",
@@ -2038,18 +1025,8 @@
       "type": "ability/jewel",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Illarius Hideout",
-        "icon": "telos:material/dungeon/illarius_hideout"
-      },
-      "stats": {
-        "Damage": "17.5",
-        "Range": "10",
-        "Shots": "6",
-        "Velocity": "10",
-        "Pierces": "No",
-        "Cooldown": "12s"
-      },
+      "source": { "name": "Illarius Hideout", "icon": "telos:material/dungeon/illarius_hideout" },
+      "stats": { "Damage": "17.5", "Range": "10", "Shots": "6", "Velocity": "10", "Pierces": "No", "Cooldown": "12s" },
       "text": [
         "Ability: Summons wisps",
         "that rotate around",
@@ -2060,13 +1037,8 @@
         "0.8s (0.85s delay per",
         "shot)."
       ],
-      "shiny": {
-        "id": "telos:ability/jewel/ut-wisp-shiny",
-        "model": "telos:material/ability/jewel/ut-wisp-shiny"
-      },
-      "classes": [
-        "Arcanist"
-      ]
+      "shiny": { "id": "telos:ability/jewel/ut-wisp-shiny", "model": "telos:material/ability/jewel/ut-wisp-shiny" },
+      "classes": ["Arcanist"]
     },
     {
       "id": "telos:ability/orb/ut-purity",
@@ -2075,14 +1047,8 @@
       "type": "ability/orb",
       "rarity": "royal",
       "tierPoints": 11,
-      "source": {
-        "name": "Aviary",
-        "icon": "telos:material/dungeon/aviary"
-      },
-      "stats": {
-        "Damage": "5",
-        "Cooldown": "7s"
-      },
+      "source": { "name": "Aviary", "icon": "telos:material/dungeon/aviary" },
+      "stats": { "Damage": "5", "Cooldown": "7s" },
       "text": [
         "Passive: Summon an orb",
         "with a 3 block radius",
@@ -2095,13 +1061,8 @@
         "damage by +30% for",
         "3s."
       ],
-      "shiny": {
-        "id": "telos:ability/orb/ut-purity-shiny",
-        "model": "telos:material/ability/orb/ut-purity-shiny"
-      },
-      "classes": [
-        "Arcanist"
-      ]
+      "shiny": { "id": "telos:ability/orb/ut-purity-shiny", "model": "telos:material/ability/orb/ut-purity-shiny" },
+      "classes": ["Arcanist"]
     }
   ],
   "color": "#CF08CF"

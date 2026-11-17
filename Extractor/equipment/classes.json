@@ -8,60 +8,42 @@
       "model": "telos:material/weapon/sword/t10",
       "weapon": "Sword",
       "armour": "Heavy",
-      "abilities": [
-        "Shield",
-        "Emblem"
-      ]
+      "abilities": ["Shield", "Emblem"]
     },
     {
       "name": "Assassin",
       "model": "telos:material/weapon/dagger/t10",
       "weapon": "Dagger",
       "armour": "Light",
-      "abilities": [
-        "Poison",
-        "Cloak"
-      ]
+      "abilities": ["Poison", "Cloak"]
     },
     {
       "name": "Samurai",
       "model": "telos:material/weapon/katana/t10",
       "weapon": "Katana",
       "armour": "Heavy",
-      "abilities": [
-        "Kunai",
-        "Star"
-      ]
+      "abilities": ["Kunai", "Star"]
     },
     {
       "name": "Necromancer",
       "model": "telos:material/weapon/staff/t10",
       "weapon": "Staff",
       "armour": "Magical",
-      "abilities": [
-        "Skull",
-        "Scripture"
-      ]
+      "abilities": ["Skull", "Scripture"]
     },
     {
       "name": "Huntress",
       "model": "telos:material/weapon/bow/t10",
       "weapon": "Bow",
       "armour": "Light",
-      "abilities": [
-        "Trap",
-        "Bomb"
-      ]
+      "abilities": ["Trap", "Bomb"]
     },
     {
       "name": "Arcanist",
       "model": "telos:material/weapon/sceptre/t10",
       "weapon": "Sceptre",
       "armour": "Magical",
-      "abilities": [
-        "Jewel",
-        "Orb"
-      ]
+      "abilities": ["Jewel", "Orb"]
     }
   ]
 }

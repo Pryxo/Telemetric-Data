@@ -10,13 +10,7 @@
       "type": "armour/heavy/boots",
       "rarity": "voidbound",
       "tierPoints": 12,
-      "stats": {
-        "Health": "+3",
-        "Defense": "+15",
-        "Vitality": "+3",
-        "Critical Chance": "+9",
-        "Cooldown": "40s"
-      },
+      "stats": { "Health": "+3", "Defense": "+15", "Vitality": "+3", "Critical Chance": "+9", "Cooldown": "40s" },
       "text": [
         "Ability: Taking damage",
         "spawns a orb that",
@@ -27,10 +21,7 @@
         "Right Click for Crafting",
         "info"
       ],
-      "classes": [
-        "Knight",
-        "Samurai"
-      ]
+      "classes": ["Knight", "Samurai"]
     },
     {
       "id": "telos:ability/emblem/ut-corrupted",
@@ -39,11 +30,7 @@
       "type": "ability/emblem",
       "rarity": "voidbound",
       "tierPoints": 12,
-      "stats": {
-        "Critical Damage": "2",
-        "Range": "6",
-        "Cooldown": "10s"
-      },
+      "stats": { "Critical Damage": "2", "Range": "6", "Cooldown": "10s" },
       "text": [
         "Ability: Buffs your attack",
         "speed by 33% and your allies'",
@@ -66,9 +53,7 @@
         "Right Click for Crafting",
         "info"
       ],
-      "classes": [
-        "Knight"
-      ]
+      "classes": ["Knight"]
     },
     {
       "id": "telos:armour/light/helmet/ut-persistent",
@@ -77,12 +62,7 @@
       "type": "armour/light/helmet",
       "rarity": "voidbound",
       "tierPoints": 12,
-      "stats": {
-        "Health": "+4",
-        "Evasion": "1",
-        "Vitality": "+8",
-        "Damage": "4"
-      },
+      "stats": { "Health": "+4", "Evasion": "1", "Vitality": "+8", "Damage": "4" },
       "text": [
         "Ability: Taking damage will",
         "permanently void your",
@@ -93,10 +73,7 @@
         "Left Click to view Shiny",
         "Right Click for Crafting info"
       ],
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:armour/light/leggings/ut-darkscale",
@@ -105,16 +82,7 @@
       "type": "armour/light/leggings",
       "rarity": "voidbound",
       "tierPoints": 12,
-      "stats": {
-        "Attack": "+8",
-        "Speed": "+9",
-        "Vitality": "+6",
-        "Critical Chance": "10",
-        "Critical Damage": "10",
-        "Heal": "6",
-        "Damage": "18",
-        "Cooldown": "18s"
-      },
+      "stats": { "Attack": "+8", "Speed": "+9", "Vitality": "+6", "Critical Chance": "10", "Critical Damage": "10", "Heal": "6", "Damage": "18", "Cooldown": "18s" },
       "text": [
         "Ability: Sneak 3 times in",
         "quick succession to",
@@ -137,10 +105,7 @@
         "Right Click for Crafting",
         "info"
       ],
-      "classes": [
-        "Assassin",
-        "Huntress"
-      ]
+      "classes": ["Assassin", "Huntress"]
     },
     {
       "id": "telos:ability/scripture/ut-darkness",
@@ -149,14 +114,7 @@
       "type": "ability/scripture",
       "rarity": "voidbound",
       "tierPoints": 12,
-      "stats": {
-        "Heal": "7",
-        "Damage": "4",
-        "Range": "3",
-        "Shots": "16",
-        "Velocity": "20",
-        "Cooldown": "10s"
-      },
+      "stats": { "Heal": "7", "Damage": "4", "Range": "3", "Shots": "16", "Velocity": "20", "Cooldown": "10s" },
       "text": [
         "Ability: Immediately heal",
         "yourself and nearby",
@@ -173,13 +131,8 @@
         "Right Click for Crafting",
         "info"
       ],
-      "shiny": {
-        "id": "telos:ability/scripture/ut-darkness-shiny",
-        "model": "telos:material/ability/scripture/ut-darkness-shiny"
-      },
-      "classes": [
-        "Necromancer"
-      ]
+      "shiny": { "id": "telos:ability/scripture/ut-darkness-shiny", "model": "telos:material/ability/scripture/ut-darkness-shiny" },
+      "classes": ["Necromancer"]
     },
     {
       "id": "telos:weapon/sceptre/ut-maelstrom",
@@ -188,13 +141,7 @@
       "type": "weapon/sceptre",
       "rarity": "voidbound",
       "tierPoints": 12,
-      "stats": {
-        "Damage": "6.26",
-        "Range": "6.5",
-        "Beams": "1",
-        "Pierces": "Yes",
-        "Cooldown": "1s"
-      },
+      "stats": { "Damage": "6.26", "Range": "6.5", "Beams": "1", "Pierces": "Yes", "Cooldown": "1s" },
       "text": [
         "Ability: Successful hits",
         "will mark an enemy and",
@@ -207,9 +154,7 @@
         "Right Click for Crafting",
         "info"
       ],
-      "classes": [
-        "Arcanist"
-      ]
+      "classes": ["Arcanist"]
     },
     {
       "id": "telos:ability/orb/ut-putridity",
@@ -218,10 +163,7 @@
       "type": "ability/orb",
       "rarity": "voidbound",
       "tierPoints": 12,
-      "stats": {
-        "Damage": "7",
-        "Cooldown": "7s"
-      },
+      "stats": { "Damage": "7", "Cooldown": "7s" },
       "text": [
         "Passive: Summon an orb",
         "with a 3 block radius",
@@ -245,9 +187,7 @@
         "Right Click for Crafting",
         "info"
       ],
-      "classes": [
-        "Arcanist"
-      ]
+      "classes": ["Arcanist"]
     }
   ],
   "color": "#D194F2"

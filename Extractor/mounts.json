@@ -9,14 +9,8 @@
       "model": "telos:material/mount/skull_cavern",
       "rarity": "usual",
       "nameColor": "#AAA7AA",
-      "source": {
-        "name": "Skull Cavern",
-        "icon": "telos:material/dungeon/skull_cavern"
-      },
-      "stats": {
-        "Speed": "+165%",
-        "Type": "Land"
-      }
+      "source": { "name": "Skull Cavern", "icon": "telos:material/dungeon/skull_cavern" },
+      "stats": { "Speed": "+165%", "Type": "Land" }
     },
     {
       "id": "telos:mount/thornwood_wargrove",
@@ -24,14 +18,8 @@
       "model": "telos:material/mount/thornwood_wargrove",
       "rarity": "usual",
       "nameColor": "#AAA7AA",
-      "source": {
-        "name": "Thornwood Wargrove",
-        "icon": "telos:material/dungeon/thornwood_wargrove"
-      },
-      "stats": {
-        "Speed": "+165%",
-        "Type": "Land"
-      }
+      "source": { "name": "Thornwood Wargrove", "icon": "telos:material/dungeon/thornwood_wargrove" },
+      "stats": { "Speed": "+165%", "Type": "Land" }
     },
     {
       "id": "telos:mount/goblin_lair",
@@ -39,14 +27,8 @@
       "model": "telos:material/mount/goblin_lair",
       "rarity": "usual",
       "nameColor": "#AAA7AA",
-      "source": {
-        "name": "Goblin Lair",
-        "icon": "telos:material/dungeon/goblin_lair"
-      },
-      "stats": {
-        "Speed": "+165%",
-        "Type": "Land"
-      }
+      "source": { "name": "Goblin Lair", "icon": "telos:material/dungeon/goblin_lair" },
+      "stats": { "Speed": "+165%", "Type": "Land" }
     },
     {
       "id": "telos:mount/sakura_shrine",
@@ -54,14 +36,8 @@
       "model": "telos:material/mount/sakura_shrine",
       "rarity": "usual",
       "nameColor": "#AAA7AA",
-      "source": {
-        "name": "Sakura Shrine",
-        "icon": "telos:material/dungeon/sakura_shrine"
-      },
-      "stats": {
-        "Speed": "+165%",
-        "Type": "Land"
-      }
+      "source": { "name": "Sakura Shrine", "icon": "telos:material/dungeon/sakura_shrine" },
+      "stats": { "Speed": "+165%", "Type": "Land" }
     },
     {
       "id": "telos:mount/secluded_woodland",
@@ -69,14 +45,8 @@
       "model": "telos:material/mount/secluded_woodland",
       "rarity": "usual",
       "nameColor": "#AAA7AA",
-      "source": {
-        "name": "Secluded Woodland",
-        "icon": "telos:material/dungeon/secluded_woodland"
-      },
-      "stats": {
-        "Speed": "+165%",
-        "Type": "Land"
-      }
+      "source": { "name": "Secluded Woodland", "icon": "telos:material/dungeon/secluded_woodland" },
+      "stats": { "Speed": "+165%", "Type": "Land" }
     },
     {
       "id": "telos:mount/desert_temple",
@@ -84,14 +54,8 @@
       "model": "telos:material/mount/desert_temple",
       "rarity": "usual",
       "nameColor": "#AAA7AA",
-      "source": {
-        "name": "Desert Temple",
-        "icon": "telos:material/dungeon/desert_temple"
-      },
-      "stats": {
-        "Speed": "+165%",
-        "Type": "Land"
-      }
+      "source": { "name": "Desert Temple", "icon": "telos:material/dungeon/desert_temple" },
+      "stats": { "Speed": "+165%", "Type": "Land" }
     },
     {
       "id": "telos:mount/tomb_of_shadows",
@@ -99,14 +63,8 @@
       "model": "telos:material/mount/tomb_of_shadows",
       "rarity": "usual",
       "nameColor": "#AAA7AA",
-      "source": {
-        "name": "Tomb of Shadows",
-        "icon": "telos:material/dungeon/tomb_of_shadows"
-      },
-      "stats": {
-        "Speed": "+165%",
-        "Type": "Land"
-      }
+      "source": { "name": "Tomb of Shadows", "icon": "telos:material/dungeon/tomb_of_shadows" },
+      "stats": { "Speed": "+165%", "Type": "Land" }
     },
     {
       "id": "telos:mount/abyss_of_demons",
@@ -114,14 +72,8 @@
       "model": "telos:material/mount/abyss_of_demons",
       "rarity": "strange",
       "nameColor": "#7AA88A",
-      "source": {
-        "name": "Abyss of Demons",
-        "icon": "telos:material/dungeon/abyss_of_demons"
-      },
-      "stats": {
-        "Speed": "+245%",
-        "Type": "Land"
-      }
+      "source": { "name": "Abyss of Demons", "icon": "telos:material/dungeon/abyss_of_demons" },
+      "stats": { "Speed": "+245%", "Type": "Land" }
     },
     {
       "id": "telos:mount/ice_cave",
@@ -129,14 +81,8 @@
       "model": "telos:material/mount/ice_cave",
       "rarity": "strange",
       "nameColor": "#7AA88A",
-      "source": {
-        "name": "Ice Cave",
-        "icon": "telos:material/dungeon/ice_cave"
-      },
-      "stats": {
-        "Speed": "+245%",
-        "Type": "Land"
-      }
+      "source": { "name": "Ice Cave", "icon": "telos:material/dungeon/ice_cave" },
+      "stats": { "Speed": "+245%", "Type": "Land" }
     },
     {
       "id": "telos:mount/dwarven_frostkeep",
@@ -144,14 +90,8 @@
       "model": "telos:material/mount/dwarven_frostkeep",
       "rarity": "strange",
       "nameColor": "#7AA88A",
-      "source": {
-        "name": "Dwarven Frostkeep",
-        "icon": "telos:material/dungeon/dwarven_frostkeep"
-      },
-      "stats": {
-        "Speed": "+245%",
-        "Type": "Land"
-      }
+      "source": { "name": "Dwarven Frostkeep", "icon": "telos:material/dungeon/dwarven_frostkeep" },
+      "stats": { "Speed": "+245%", "Type": "Land" }
     },
     {
       "id": "telos:mount/undead_lair",
@@ -159,14 +99,8 @@
       "model": "telos:material/mount/undead_lair",
       "rarity": "strange",
       "nameColor": "#7AA88A",
-      "source": {
-        "name": "Undead Lair",
-        "icon": "telos:material/dungeon/undead_lair"
-      },
-      "stats": {
-        "Speed": "+245%",
-        "Type": "Land"
-      }
+      "source": { "name": "Undead Lair", "icon": "telos:material/dungeon/undead_lair" },
+      "stats": { "Speed": "+245%", "Type": "Land" }
     },
     {
       "id": "telos:mount/treasure_cave",
@@ -174,14 +108,8 @@
       "model": "telos:material/mount/treasure_cave",
       "rarity": "strange",
       "nameColor": "#7AA88A",
-      "source": {
-        "name": "Treasure Cave",
-        "icon": "telos:material/dungeon/treasure_cave"
-      },
-      "stats": {
-        "Speed": "+245%",
-        "Type": "Land"
-      }
+      "source": { "name": "Treasure Cave", "icon": "telos:material/dungeon/treasure_cave" },
+      "stats": { "Speed": "+245%", "Type": "Land" }
     },
     {
       "id": "telos:mount/kobolds_den",
@@ -189,14 +117,8 @@
       "model": "telos:material/mount/kobolds_den",
       "rarity": "strange",
       "nameColor": "#7AA88A",
-      "source": {
-        "name": "Kobold's Den",
-        "icon": "telos:material/dungeon/kobolds_den"
-      },
-      "stats": {
-        "Speed": "+245%",
-        "Type": "Land"
-      }
+      "source": { "name": "Kobold's Den", "icon": "telos:material/dungeon/kobolds_den" },
+      "stats": { "Speed": "+245%", "Type": "Land" }
     },
     {
       "id": "telos:mount/purgatory",
@@ -204,14 +126,8 @@
       "model": "telos:material/mount/purgatory",
       "rarity": "strange",
       "nameColor": "#7AA88A",
-      "source": {
-        "name": "Depths of Purgatory",
-        "icon": "telos:material/dungeon/depths_of_purgatory"
-      },
-      "stats": {
-        "Speed": "+245%",
-        "Type": "Land"
-      }
+      "source": { "name": "Depths of Purgatory", "icon": "telos:material/dungeon/depths_of_purgatory" },
+      "stats": { "Speed": "+245%", "Type": "Land" }
     },
     {
       "id": "telos:mount/corvus_crypt",
@@ -219,14 +135,8 @@
       "model": "telos:material/mount/corvus_crypt",
       "rarity": "strange",
       "nameColor": "#7AA88A",
-      "source": {
-        "name": "Corvus Crypt",
-        "icon": "telos:material/dungeon/corvus_crypt"
-      },
-      "stats": {
-        "Speed": "+245%",
-        "Type": "Land"
-      }
+      "source": { "name": "Corvus Crypt", "icon": "telos:material/dungeon/corvus_crypt" },
+      "stats": { "Speed": "+245%", "Type": "Land" }
     },
     {
       "id": "telos:mount/frozen_ruins",
@@ -234,14 +144,8 @@
       "model": "telos:material/mount/frozen_ruins",
       "rarity": "strange",
       "nameColor": "#7AA88A",
-      "source": {
-        "name": "Frozen Ruins",
-        "icon": "telos:material/dungeon/frozen_ruins"
-      },
-      "stats": {
-        "Speed": "+245%",
-        "Type": "Land"
-      }
+      "source": { "name": "Frozen Ruins", "icon": "telos:material/dungeon/frozen_ruins" },
+      "stats": { "Speed": "+245%", "Type": "Land" }
     },
     {
       "id": "telos:mount/omnipotents_citadel",
@@ -249,14 +153,8 @@
       "model": "telos:material/mount/omnipotents_citadel",
       "rarity": "fabled",
       "nameColor": "#7A7FAA",
-      "source": {
-        "name": "Omnipotent's Citadel",
-        "icon": "telos:material/dungeon/omnipotents_citadel"
-      },
-      "stats": {
-        "Speed": "+300%",
-        "Type": "Flying"
-      }
+      "source": { "name": "Omnipotent's Citadel", "icon": "telos:material/dungeon/omnipotents_citadel" },
+      "stats": { "Speed": "+300%", "Type": "Flying" }
     },
     {
       "id": "telos:mount/fungal_cavern",
@@ -264,14 +162,8 @@
       "model": "telos:material/mount/fungal_cavern",
       "rarity": "fabled",
       "nameColor": "#7A7FAA",
-      "source": {
-        "name": "Fungal Cavern",
-        "icon": "telos:material/dungeon/fungal_cavern"
-      },
-      "stats": {
-        "Speed": "+300%",
-        "Type": "Flying"
-      }
+      "source": { "name": "Fungal Cavern", "icon": "telos:material/dungeon/fungal_cavern" },
+      "stats": { "Speed": "+300%", "Type": "Flying" }
     },
     {
       "id": "telos:mount/corsairs_conductorium",
@@ -279,14 +171,8 @@
       "model": "telos:material/mount/corsairs_conductorium",
       "rarity": "fabled",
       "nameColor": "#7A7FAA",
-      "source": {
-        "name": "Corsair's Conductorium",
-        "icon": "telos:material/dungeon/corsairs_conductorium"
-      },
-      "stats": {
-        "Speed": "+300%",
-        "Type": "Flying"
-      }
+      "source": { "name": "Corsair's Conductorium", "icon": "telos:material/dungeon/corsairs_conductorium" },
+      "stats": { "Speed": "+300%", "Type": "Flying" }
     },
     {
       "id": "telos:mount/midnight_stronghold",
@@ -294,14 +180,8 @@
       "model": "telos:material/mount/midnight_stronghold",
       "rarity": "fabled",
       "nameColor": "#7A7FAA",
-      "source": {
-        "name": "Midnight Stronghold",
-        "icon": "telos:material/dungeon/midnight_stronghold"
-      },
-      "stats": {
-        "Speed": "+300%",
-        "Type": "Flying"
-      }
+      "source": { "name": "Midnight Stronghold", "icon": "telos:material/dungeon/midnight_stronghold" },
+      "stats": { "Speed": "+300%", "Type": "Flying" }
     },
     {
       "id": "telos:mount/anubis_lair",
@@ -309,14 +189,8 @@
       "model": "telos:material/mount/anubis_lair",
       "rarity": "fabled",
       "nameColor": "#7A7FAA",
-      "source": {
-        "name": "Anubis Lair",
-        "icon": "telos:material/dungeon/anubis_lair"
-      },
-      "stats": {
-        "Speed": "+300%",
-        "Type": "Flying"
-      }
+      "source": { "name": "Anubis Lair", "icon": "telos:material/dungeon/anubis_lair" },
+      "stats": { "Speed": "+300%", "Type": "Flying" }
     },
     {
       "id": "telos:mount/tartarus",
@@ -324,14 +198,8 @@
       "model": "telos:material/mount/tartarus",
       "rarity": "fabled",
       "nameColor": "#7A7FAA",
-      "source": {
-        "name": "Tartarus",
-        "icon": "telos:material/dungeon/tartarus"
-      },
-      "stats": {
-        "Speed": "+300%",
-        "Type": "Flying"
-      }
+      "source": { "name": "Tartarus", "icon": "telos:material/dungeon/tartarus" },
+      "stats": { "Speed": "+300%", "Type": "Flying" }
     },
     {
       "id": "telos:mount/cultists_hideout",
@@ -339,14 +207,8 @@
       "model": "telos:material/mount/cultists_hideout",
       "rarity": "exotic",
       "nameColor": "#AA7AAA",
-      "source": {
-        "name": "Cultist's Hideout",
-        "icon": "telos:material/dungeon/cultists_hideout"
-      },
-      "stats": {
-        "Speed": "+500%",
-        "Type": "Flying"
-      }
+      "source": { "name": "Cultist's Hideout", "icon": "telos:material/dungeon/cultists_hideout" },
+      "stats": { "Speed": "+500%", "Type": "Flying" }
     },
     {
       "id": "telos:mount/illarius_hideout",
@@ -354,14 +216,8 @@
       "model": "telos:material/mount/illarius_hideout",
       "rarity": "exotic",
       "nameColor": "#AA7AAA",
-      "source": {
-        "name": "Illarius' Hideout",
-        "icon": "telos:material/dungeon/illarius_hideout"
-      },
-      "stats": {
-        "Speed": "+500%",
-        "Type": "Flying"
-      }
+      "source": { "name": "Illarius' Hideout", "icon": "telos:material/dungeon/illarius_hideout" },
+      "stats": { "Speed": "+500%", "Type": "Flying" }
     },
     {
       "id": "telos:mount/aurora_sanctum",
@@ -369,14 +225,8 @@
       "model": "telos:material/mount/aurora_sanctum",
       "rarity": "exotic",
       "nameColor": "#AA7AAA",
-      "source": {
-        "name": "Aurora Sanctum",
-        "icon": "telos:material/dungeon/aurora_sanctum"
-      },
-      "stats": {
-        "Speed": "+500%",
-        "Type": "Flying"
-      }
+      "source": { "name": "Aurora Sanctum", "icon": "telos:material/dungeon/aurora_sanctum" },
+      "stats": { "Speed": "+500%", "Type": "Flying" }
     },
     {
       "id": "telos:mount/aviary",
@@ -384,14 +234,8 @@
       "model": "telos:material/mount/aviary",
       "rarity": "exotic",
       "nameColor": "#AA7AAA",
-      "source": {
-        "name": "Aviary",
-        "icon": "telos:material/dungeon/aviary"
-      },
-      "stats": {
-        "Speed": "+500%",
-        "Type": "Flying"
-      }
+      "source": { "name": "Aviary", "icon": "telos:material/dungeon/aviary" },
+      "stats": { "Speed": "+500%", "Type": "Flying" }
     },
     {
       "id": "telos:mount/dreadwood_thicket",
@@ -399,14 +243,8 @@
       "model": "telos:material/mount/dreadwood_thicket",
       "rarity": "exotic",
       "nameColor": "#AA7AAA",
-      "source": {
-        "name": "Dreadwood Thicket",
-        "icon": "telos:material/dungeon/dreadwood_thicket"
-      },
-      "stats": {
-        "Speed": "+500%",
-        "Type": "Flying"
-      }
+      "source": { "name": "Dreadwood Thicket", "icon": "telos:material/dungeon/dreadwood_thicket" },
+      "stats": { "Speed": "+500%", "Type": "Flying" }
     },
     {
       "id": "telos:mount/resounding_ruins",
@@ -414,14 +252,8 @@
       "model": "telos:material/mount/resounding_ruins",
       "rarity": "exotic",
       "nameColor": "#AA7AAA",
-      "source": {
-        "name": "Resounding Ruins",
-        "icon": "telos:material/dungeon/resounding_ruins"
-      },
-      "stats": {
-        "Speed": "+500%",
-        "Type": "Flying"
-      }
+      "source": { "name": "Resounding Ruins", "icon": "telos:material/dungeon/resounding_ruins" },
+      "stats": { "Speed": "+500%", "Type": "Flying" }
     },
     {
       "id": "telos:mount/shatters",
@@ -429,14 +261,8 @@
       "model": "telos:material/mount/shatters",
       "rarity": "exotic",
       "nameColor": "#AA7AAA",
-      "source": {
-        "name": "Rustborn Kingdom",
-        "icon": "telos:material/dungeon/shatters"
-      },
-      "stats": {
-        "Speed": "+500%",
-        "Type": "Flying"
-      }
+      "source": { "name": "Rustborn Kingdom", "icon": "telos:material/dungeon/shatters" },
+      "stats": { "Speed": "+500%", "Type": "Flying" }
     },
     {
       "id": "telos:mount/onyx",
@@ -444,14 +270,8 @@
       "model": "telos:material/mount/onyx",
       "rarity": "exotic",
       "nameColor": "#AA7AAA",
-      "source": {
-        "name": "Raph's Chamber",
-        "icon": "telos:material/dungeon/onyx"
-      },
-      "stats": {
-        "Speed": "+500%",
-        "Type": "Flying"
-      }
+      "source": { "name": "Raph's Chamber", "icon": "telos:material/dungeon/onyx" },
+      "stats": { "Speed": "+500%", "Type": "Flying" }
     },
     {
       "id": "telos:mount/celestials_province",
@@ -459,14 +279,8 @@
       "model": "telos:material/mount/celestials_province",
       "rarity": "exotic",
       "nameColor": "#AA7AAA",
-      "source": {
-        "name": "Seraph's Domain",
-        "icon": "telos:material/dungeon/hardmode_celestials_province"
-      },
-      "stats": {
-        "Speed": "+500%",
-        "Type": "Flying"
-      }
+      "source": { "name": "Seraph's Domain", "icon": "telos:material/dungeon/hardmode_celestials_province" },
+      "stats": { "Speed": "+500%", "Type": "Flying" }
     },
     {
       "id": "telos:mount/tenebris",
@@ -474,14 +288,8 @@
       "model": "telos:material/mount/tenebris",
       "rarity": "exotic",
       "nameColor": "#AA7AAA",
-      "source": {
-        "name": "Tenebris",
-        "icon": "telos:material/dungeon/tenebris"
-      },
-      "stats": {
-        "Speed": "+500%",
-        "Type": "Flying"
-      }
+      "source": { "name": "Tenebris", "icon": "telos:material/dungeon/tenebris" },
+      "stats": { "Speed": "+500%", "Type": "Flying" }
     },
     {
       "id": "telos:mount/neo_eden",
@@ -489,14 +297,8 @@
       "model": "telos:material/mount/neo_eden",
       "rarity": "exotic",
       "nameColor": "#AA7AAA",
-      "source": {
-        "name": "Neo Eden",
-        "icon": "telos:material/dungeon/neo_eden"
-      },
-      "stats": {
-        "Speed": "+500%",
-        "Type": "Flying"
-      }
+      "source": { "name": "Neo Eden", "icon": "telos:material/dungeon/neo_eden" },
+      "stats": { "Speed": "+500%", "Type": "Flying" }
     },
     {
       "id": "telos:mount/valley_of_the_lost",
@@ -504,14 +306,8 @@
       "model": "telos:material/mount/valley_of_the_lost",
       "rarity": "exotic",
       "nameColor": "#AA7AAA",
-      "source": {
-        "name": "Valley of the Lost",
-        "icon": "telos:material/dungeon/valley_of_the_lost"
-      },
-      "stats": {
-        "Speed": "+500%",
-        "Type": "Flying"
-      }
+      "source": { "name": "Valley of the Lost", "icon": "telos:material/dungeon/valley_of_the_lost" },
+      "stats": { "Speed": "+500%", "Type": "Flying" }
     },
     {
       "id": "telos:mount/starter",
@@ -519,10 +315,7 @@
       "model": "telos:material/mount/starter",
       "rarity": "legacy",
       "nameColor": "#D7AA7A",
-      "stats": {
-        "Speed": "+100%",
-        "Type": "Land"
-      }
+      "stats": { "Speed": "+100%", "Type": "Land" }
     },
     {
       "id": "telos:mount/supporter",
@@ -530,10 +323,7 @@
       "model": "telos:material/mount/supporter",
       "rarity": "legacy",
       "nameColor": "#D7AA7A",
-      "stats": {
-        "Speed": "+300%",
-        "Type": "Land"
-      }
+      "stats": { "Speed": "+300%", "Type": "Land" }
     },
     {
       "id": "telos:mount/freddys_pizzeria",
@@ -541,10 +331,7 @@
       "model": "telos:material/mount/freddys_pizzeria",
       "rarity": "fabled",
       "nameColor": "#7A7FAA",
-      "stats": {
-        "Speed": "+300%",
-        "Type": "Flying"
-      }
+      "stats": { "Speed": "+300%", "Type": "Flying" }
     }
   ]
 }

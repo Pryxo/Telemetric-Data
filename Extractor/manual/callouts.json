@@ -7,37 +7,74 @@
     "Hierophant": { "from": 50 }
   },
   "duos": [
-    { "name": "Apostle & Hierophant", "bosses": ["Apostle", "Hierophant"] }
+    {
+      "name": "Apostle & Hierophant",
+      "bosses": ["Apostle", "Hierophant"]
+    }
   ],
   "phases": [
-    { "bosses": ["Ophanim", "True Ophan"], "stages": [
-      { "from": 86, "name": "First Phase" }, { "from": 61, "name": "Walls/Eyeballs" }, { "from": 41, "name": "Clock" },
-      { "from": 16, "name": "Wheel/America" }, { "from": 0, "name": "Grid" }
-    ] },
-    { "bosses": ["Asmodeus"], "stages": [
-      { "from": 76, "name": "First Phase" }, { "from": 51, "name": "Second Phase" }, { "from": 21, "name": "Third Phase" },
-      { "from": 0, "name": "Fourth Phase" }
-    ] },
-    { "bosses": ["Seraphim", "True Seraph"], "stages": [
-      { "from": 82, "name": "First Phase" }, { "from": 80, "name": "Chicken" }, { "from": 52, "name": "Slow Beams/Dance" },
-      { "from": 50, "name": "QR Code" }, { "from": 21, "name": "Fast Beams/Rain" }, { "from": 0, "name": "Desperation" }
-    ] },
-    { "bosses": ["Voided Omnipotent"], "stages": [
-      { "from": 100, "name": "Unchaining" }, { "from": 86, "name": "Second Phase" }, { "from": 66, "name": "Chase" },
-      { "from": 31, "name": "Snakes/Pillars/Black Holes" }, { "from": 16, "name": "Bells" }, { "from": 0, "name": "Desperation" }
-    ] },
-    { "bosses": ["Raphael"], "stages": [
-      { "from": 77, "name": "First Phase" }, { "from": 75, "name": "Memorise" }, { "from": 52, "name": "Swords/Beams" },
-      { "from": 50, "name": "Bell" }, { "from": 16, "name": "Dash/Denmark/Tridents" }, { "from": 0, "name": "Desperation" }
-    ] },
-    { "bosses": ["Sylvaris"], "stages": [
-      { "from": 76, "name": "First Phase" }, { "from": 51, "name": "Shulker" }, { "from": 26, "name": "Third Phase" },
-      { "from": 0, "name": "Arrows" }
-    ] }
+    {
+      "bosses": ["Ophanim", "True Ophan"],
+      "stages": [
+        { "from": 86, "name": "First Phase" },
+        { "from": 61, "name": "Walls/Eyeballs" },
+        { "from": 41, "name": "Clock" },
+        { "from": 16, "name": "Wheel/America" },
+        { "from": 0, "name": "Grid" }
+      ]
+    },
+    {
+      "bosses": ["Asmodeus"],
+      "stages": [
+        { "from": 76, "name": "First Phase" },
+        { "from": 51, "name": "Second Phase" },
+        { "from": 21, "name": "Third Phase" },
+        { "from": 0, "name": "Fourth Phase" }
+      ]
+    },
+    {
+      "bosses": ["Seraphim", "True Seraph"],
+      "stages": [
+        { "from": 82, "name": "First Phase" },
+        { "from": 80, "name": "Chicken" },
+        { "from": 52, "name": "Slow Beams/Dance" },
+        { "from": 50, "name": "QR Code" },
+        { "from": 21, "name": "Fast Beams/Rain" },
+        { "from": 0, "name": "Desperation" }
+      ]
+    },
+    {
+      "bosses": ["Voided Omnipotent"],
+      "stages": [
+        { "from": 100, "name": "Unchaining" },
+        { "from": 86, "name": "Second Phase" },
+        { "from": 66, "name": "Chase" },
+        { "from": 31, "name": "Snakes/Pillars/Black Holes" },
+        { "from": 16, "name": "Bells" },
+        { "from": 0, "name": "Desperation" }
+      ]
+    },
+    {
+      "bosses": ["Raphael"],
+      "stages": [
+        { "from": 77, "name": "First Phase" },
+        { "from": 75, "name": "Memorise" },
+        { "from": 52, "name": "Swords/Beams" },
+        { "from": 50, "name": "Bell" },
+        { "from": 16, "name": "Dash/Denmark/Tridents" },
+        { "from": 0, "name": "Desperation" }
+      ]
+    },
+    {
+      "bosses": ["Sylvaris"],
+      "stages": [
+        { "from": 76, "name": "First Phase" },
+        { "from": 51, "name": "Shulker" },
+        { "from": 26, "name": "Third Phase" },
+        { "from": 0, "name": "Arrows" }
+      ]
+    }
   ],
-  "portals": {
-    "NEO_EDEN": "Neo Eden",
-    "RETURN": ""
-  },
+  "portals": { "NEO_EDEN": "Neo Eden", "RETURN": "" },
   "unmodelledPortal": { "area": "Radiant Isles", "portal": "NEO_EDEN" }
 }

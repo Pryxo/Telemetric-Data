@@ -6,13 +6,7 @@
         "text": "Every hit feeds your soul. After 10 stacks, next hit deals (56, 61, 66, 73, 78) bonus damage. (1.2s cooldown per stack)",
         "template": "Every hit feeds your soul. After 10 stacks, next hit deals {0} bonus damage. (1.2s cooldown per stack)",
         "values": [
-          {
-            "D": "56",
-            "C": "61",
-            "B": "66",
-            "A": "73",
-            "S": "78"
-          }
+          { "D": "56", "C": "61", "B": "66", "A": "73", "S": "78" }
         ]
       },
       {
@@ -20,13 +14,7 @@
         "text": "Every weapon hit lifesteals for (0.16, 0.18, 0.20, 0.23, 0.25)% of the base damage dealt.",
         "template": "Every weapon hit lifesteals for {0}% of the base damage dealt.",
         "values": [
-          {
-            "D": "0.16",
-            "C": "0.18",
-            "B": "0.20",
-            "A": "0.23",
-            "S": "0.25"
-          }
+          { "D": "0.16", "C": "0.18", "B": "0.20", "A": "0.23", "S": "0.25" }
         ]
       },
       {
@@ -34,13 +22,7 @@
         "text": "Hitting enemies causes them to bleed for (2, 2.5, 3, 4.5, 5) damage/sec for 4s. Refreshes on hit.",
         "template": "Hitting enemies causes them to bleed for {0} damage/sec for 4s. Refreshes on hit.",
         "values": [
-          {
-            "D": "2",
-            "C": "2.5",
-            "B": "3",
-            "A": "4.5",
-            "S": "5"
-          }
+          { "D": "2", "C": "2.5", "B": "3", "A": "4.5", "S": "5" }
         ]
       },
       {
@@ -48,13 +30,7 @@
         "text": "On weapon hit, summons a fiery quake forward dealing (13, 16, 19, 23, 26.0) damage up to 9 blocks away. (5s cooldown)",
         "template": "On weapon hit, summons a fiery quake forward dealing {0} damage up to 9 blocks away. (5s cooldown)",
         "values": [
-          {
-            "D": "13",
-            "C": "16",
-            "B": "19",
-            "A": "23",
-            "S": "26.0"
-          }
+          { "D": "13", "C": "16", "B": "19", "A": "23", "S": "26.0" }
         ]
       },
       {
@@ -62,13 +38,7 @@
         "text": "Your first hit after not attacking for (1.97x, 1.94x, 1.91x, 1.87x, 1.85x) of your weapons cooldown causes you to deal 2x damage until your weapon is off cooldown again. (Cancels when swapping)",
         "template": "Your first hit after not attacking for {0} of your weapons cooldown causes you to deal 2x damage until your weapon is off cooldown again. (Cancels when swapping)",
         "values": [
-          {
-            "D": "1.97x",
-            "C": "1.94x",
-            "B": "1.91x",
-            "A": "1.87x",
-            "S": "1.85x"
-          }
+          { "D": "1.97x", "C": "1.94x", "B": "1.91x", "A": "1.87x", "S": "1.85x" }
         ]
       },
       {
@@ -76,13 +46,7 @@
         "text": "On hit, summons a meteor dealing massive (75, 85, 95, 110, 120) AoE damage in a 5 block radius. (20s cooldown)",
         "template": "On hit, summons a meteor dealing massive {0} AoE damage in a 5 block radius. (20s cooldown)",
         "values": [
-          {
-            "D": "75",
-            "C": "85",
-            "B": "95",
-            "A": "110",
-            "S": "120"
-          }
+          { "D": "75", "C": "85", "B": "95", "A": "110", "S": "120" }
         ]
       }
     ],
@@ -114,13 +78,7 @@
         "text": "Crouching 3 times quickly fires a laser in front of you for (63, 72, 82.5, 102, 112.5) damage. (15s CD)",
         "template": "Crouching 3 times quickly fires a laser in front of you for {0} damage. (15s CD)",
         "values": [
-          {
-            "D": "63",
-            "C": "72",
-            "B": "82.5",
-            "A": "102",
-            "S": "112.5"
-          }
+          { "D": "63", "C": "72", "B": "82.5", "A": "102", "S": "112.5" }
         ]
       },
       {
@@ -128,13 +86,7 @@
         "text": "On ability use, draws a line on the ground. Enemies caught on it take (2.5, 3, 3.5, 5.0, 5.5) damage every 0.5 seconds. Line lasts for 5s. (5s CD)",
         "template": "On ability use, draws a line on the ground. Enemies caught on it take {0} damage every 0.5 seconds. Line lasts for 5s. (5s CD)",
         "values": [
-          {
-            "D": "2.5",
-            "C": "3",
-            "B": "3.5",
-            "A": "5.0",
-            "S": "5.5"
-          }
+          { "D": "2.5", "C": "3", "B": "3.5", "A": "5.0", "S": "5.5" }
         ]
       },
       {
@@ -142,13 +94,7 @@
         "text": "Gain +(0.5, 0.75, 1, 1.35, 1.6) Atk for every ally within an 15 block radius (Max 10 Players).",
         "template": "Gain +{0} Atk for every ally within an 15 block radius (Max 10 Players).",
         "values": [
-          {
-            "D": "0.5",
-            "C": "0.75",
-            "B": "1",
-            "A": "1.35",
-            "S": "1.6"
-          }
+          { "D": "0.5", "C": "0.75", "B": "1", "A": "1.35", "S": "1.6" }
         ]
       },
       {
@@ -156,13 +102,7 @@
         "text": "Abilities have a (5, 7, 9, 13, 15)% chance to deal double damage on damage.",
         "template": "Abilities have a {0}% chance to deal double damage on damage.",
         "values": [
-          {
-            "D": "5",
-            "C": "7",
-            "B": "9",
-            "A": "13",
-            "S": "15"
-          }
+          { "D": "5", "C": "7", "B": "9", "A": "13", "S": "15" }
         ]
       },
       {
@@ -170,13 +110,7 @@
         "text": "On ability use, summons a massive orb in the sky that rains mini orbs, striking enemies within 20 blocks 4 times for (12, 16, 20, 26, 30) damage per hit. (30s CD)",
         "template": "On ability use, summons a massive orb in the sky that rains mini orbs, striking enemies within 20 blocks 4 times for {0} damage per hit. (30s CD)",
         "values": [
-          {
-            "D": "12",
-            "C": "16",
-            "B": "20",
-            "A": "26",
-            "S": "30"
-          }
+          { "D": "12", "C": "16", "B": "20", "A": "26", "S": "30" }
         ]
       },
       {
@@ -184,13 +118,7 @@
         "text": "On ability use, fires a fireball dealing (11, 18, 25, 38, 45) damage on impact. (5s CD)",
         "template": "On ability use, fires a fireball dealing {0} damage on impact. (5s CD)",
         "values": [
-          {
-            "D": "11",
-            "C": "18",
-            "B": "25",
-            "A": "38",
-            "S": "45"
-          }
+          { "D": "11", "C": "18", "B": "25", "A": "38", "S": "45" }
         ]
       }
     ],
@@ -239,20 +167,8 @@
         "text": "Drinking a flask grants +(2, 3, 4, 6, 7) Atk for 10 seconds and +(0.8, 1.0, 1.2, 1.4, 1.5) Atk passively per missing flask.",
         "template": "Drinking a flask grants +{0} Atk for 10 seconds and +{1} Atk passively per missing flask.",
         "values": [
-          {
-            "D": "2",
-            "C": "3",
-            "B": "4",
-            "A": "6",
-            "S": "7"
-          },
-          {
-            "D": "0.8",
-            "C": "1.0",
-            "B": "1.2",
-            "A": "1.4",
-            "S": "1.5"
-          }
+          { "D": "2", "C": "3", "B": "4", "A": "6", "S": "7" },
+          { "D": "0.8", "C": "1.0", "B": "1.2", "A": "1.4", "S": "1.5" }
         ]
       },
       {
@@ -261,20 +177,8 @@
         "text": "Drinking a flask grants +(1.5, 2, 2.5, 4, 5) Vit and +(3, 4, 5, 6.5, 7.5) Def for 10 seconds.",
         "template": "Drinking a flask grants +{0} Vit and +{1} Def for 10 seconds.",
         "values": [
-          {
-            "D": "1.5",
-            "C": "2",
-            "B": "2.5",
-            "A": "4",
-            "S": "5"
-          },
-          {
-            "D": "3",
-            "C": "4",
-            "B": "5",
-            "A": "6.5",
-            "S": "7.5"
-          }
+          { "D": "1.5", "C": "2", "B": "2.5", "A": "4", "S": "5" },
+          { "D": "3", "C": "4", "B": "5", "A": "6.5", "S": "7.5" }
         ]
       },
       {
@@ -283,13 +187,7 @@
         "text": "Flasks heal (25, 30, 35, 45, 50%) more Health.",
         "template": "Flasks heal {0} more Health.",
         "values": [
-          {
-            "D": "25",
-            "C": "30",
-            "B": "35",
-            "A": "45",
-            "S": "50%"
-          }
+          { "D": "25", "C": "30", "B": "35", "A": "45", "S": "50%" }
         ]
       },
       {
@@ -298,13 +196,7 @@
         "text": "Taking damage throws 3 shards outward dealing (3, 4, 5, 7, 8) damage. (0.2s CD)",
         "template": "Taking damage throws 3 shards outward dealing {0} damage. (0.2s CD)",
         "values": [
-          {
-            "D": "3",
-            "C": "4",
-            "B": "5",
-            "A": "7",
-            "S": "8"
-          }
+          { "D": "3", "C": "4", "B": "5", "A": "7", "S": "8" }
         ]
       },
       {
@@ -313,13 +205,7 @@
         "text": "Enemies within 6 blocks that attack you are tethered, constantly burning for (2, 2.5, 3, 4, 4.5) damage/sec while within 8 blocks.",
         "template": "Enemies within 6 blocks that attack you are tethered, constantly burning for {0} damage/sec while within 8 blocks.",
         "values": [
-          {
-            "D": "2",
-            "C": "2.5",
-            "B": "3",
-            "A": "4",
-            "S": "4.5"
-          }
+          { "D": "2", "C": "2.5", "B": "3", "A": "4", "S": "4.5" }
         ]
       },
       {
@@ -328,13 +214,7 @@
         "text": "When health drops below 50%, gain a surge of +(5, 7, 9, 12, 14) Vit.",
         "template": "When health drops below 50%, gain a surge of +{0} Vit.",
         "values": [
-          {
-            "D": "5",
-            "C": "7",
-            "B": "9",
-            "A": "12",
-            "S": "14"
-          }
+          { "D": "5", "C": "7", "B": "9", "A": "12", "S": "14" }
         ]
       },
       {
@@ -343,13 +223,7 @@
         "text": "Damage dealt by your pets ignites enemies for (2.5, 3.0, 3.5, 4.5, 5.0) damage/s for 8s. (5s CD)",
         "template": "Damage dealt by your pets ignites enemies for {0} damage/s for 8s. (5s CD)",
         "values": [
-          {
-            "D": "2.5",
-            "C": "3.0",
-            "B": "3.5",
-            "A": "4.5",
-            "S": "5.0"
-          }
+          { "D": "2.5", "C": "3.0", "B": "3.5", "A": "4.5", "S": "5.0" }
         ]
       },
       {
@@ -358,13 +232,7 @@
         "text": "Gain +(1, 2, 3, 5, 6) Crit DMG and Def while playing with atleast 2 allies within 100 blocks.",
         "template": "Gain +{0} Crit DMG and Def while playing with atleast 2 allies within 100 blocks.",
         "values": [
-          {
-            "D": "1",
-            "C": "2",
-            "B": "3",
-            "A": "5",
-            "S": "6"
-          }
+          { "D": "1", "C": "2", "B": "3", "A": "5", "S": "6" }
         ]
       },
       {
@@ -373,13 +241,7 @@
         "text": "Gain +(1, 2, 3, 5, 6) Crit DMG and Def while playing less than 6 allies within 100 blocks.",
         "template": "Gain +{0} Crit DMG and Def while playing less than 6 allies within 100 blocks.",
         "values": [
-          {
-            "D": "1",
-            "C": "2",
-            "B": "3",
-            "A": "5",
-            "S": "6"
-          }
+          { "D": "1", "C": "2", "B": "3", "A": "5", "S": "6" }
         ]
       },
       {
@@ -388,13 +250,7 @@
         "text": "Avoiding damage for 8s multiplies your weapon by (1.05x, 1.075x, 1.1x, 1.15x, 1.175x) until hit.",
         "template": "Avoiding damage for 8s multiplies your weapon by {0} until hit.",
         "values": [
-          {
-            "D": "1.05x",
-            "C": "1.075x",
-            "B": "1.1x",
-            "A": "1.15x",
-            "S": "1.175x"
-          }
+          { "D": "1.05x", "C": "1.075x", "B": "1.1x", "A": "1.15x", "S": "1.175x" }
         ]
       },
       {
@@ -403,20 +259,8 @@
         "text": "Pets deal (7, 8.5, 10, 13.5, 15)% more damage or heal for (12, 15, 18, 22, 25)% more health.",
         "template": "Pets deal {0}% more damage or heal for {1}% more health.",
         "values": [
-          {
-            "D": "7",
-            "C": "8.5",
-            "B": "10",
-            "A": "13.5",
-            "S": "15"
-          },
-          {
-            "D": "12",
-            "C": "15",
-            "B": "18",
-            "A": "22",
-            "S": "25"
-          }
+          { "D": "7", "C": "8.5", "B": "10", "A": "13.5", "S": "15" },
+          { "D": "12", "C": "15", "B": "18", "A": "22", "S": "25" }
         ]
       },
       {
@@ -425,13 +269,7 @@
         "text": "Places a Phoenix Totem every 10s. Standing near it for 2.5s explodes for (45, 55, 65, 80, 90) AoE damage in a 10 block radius. Totem lasts 5s.",
         "template": "Places a Phoenix Totem every 10s. Standing near it for 2.5s explodes for {0} AoE damage in a 10 block radius. Totem lasts 5s.",
         "values": [
-          {
-            "D": "45",
-            "C": "55",
-            "B": "65",
-            "A": "80",
-            "S": "90"
-          }
+          { "D": "45", "C": "55", "B": "65", "A": "80", "S": "90" }
         ]
       },
       {
@@ -440,13 +278,7 @@
         "text": "Places a Guardian Totem every 10s. Standing within 7 blocks of it grants +(5, 6, 7, 9, 10) Def. Totem lasts 8s.",
         "template": "Places a Guardian Totem every 10s. Standing within 7 blocks of it grants +{0} Def. Totem lasts 8s.",
         "values": [
-          {
-            "D": "5",
-            "C": "6",
-            "B": "7",
-            "A": "9",
-            "S": "10"
-          }
+          { "D": "5", "C": "6", "B": "7", "A": "9", "S": "10" }
         ]
       },
       {
@@ -455,13 +287,7 @@
         "text": "Weapons deal +(6, 8, 10, 13, 15)% more damage to enemies above 60% HP.",
         "template": "Weapons deal +{0}% more damage to enemies above 60% HP.",
         "values": [
-          {
-            "D": "6",
-            "C": "8",
-            "B": "10",
-            "A": "13",
-            "S": "15"
-          }
+          { "D": "6", "C": "8", "B": "10", "A": "13", "S": "15" }
         ]
       },
       {
@@ -470,13 +296,7 @@
         "text": "Weapons deal +(6, 8, 10, 13, 15)% more damage to enemies below 40% HP.",
         "template": "Weapons deal +{0}% more damage to enemies below 40% HP.",
         "values": [
-          {
-            "D": "6",
-            "C": "8",
-            "B": "10",
-            "A": "13",
-            "S": "15"
-          }
+          { "D": "6", "C": "8", "B": "10", "A": "13", "S": "15" }
         ]
       },
       {
@@ -485,13 +305,7 @@
         "text": "Jumping in dungeons grants a massive +(40, 50, 60, 80, 90) Spd burst for 4s. (10s CD)",
         "template": "Jumping in dungeons grants a massive +{0} Spd burst for 4s. (10s CD)",
         "values": [
-          {
-            "D": "40",
-            "C": "50",
-            "B": "60",
-            "A": "80",
-            "S": "90"
-          }
+          { "D": "40", "C": "50", "B": "60", "A": "80", "S": "90" }
         ]
       },
       {
@@ -500,13 +314,7 @@
         "text": "Evading an attack counters for (45, 50, 55, 65, 70) damage to the nearest enemy. (0.2s CD)",
         "template": "Evading an attack counters for {0} damage to the nearest enemy. (0.2s CD)",
         "values": [
-          {
-            "D": "45",
-            "C": "50",
-            "B": "55",
-            "A": "65",
-            "S": "70"
-          }
+          { "D": "45", "C": "50", "B": "55", "A": "65", "S": "70" }
         ]
       },
       {
@@ -515,24 +323,9 @@
         "text": "A flame trails behind you, dealing (8.75, 12.5, 15, 20, 22) contact damage and igniting enemies for (1.75, 2.5, 3, 4, 4.5) damage/s for 5s. (4s CD on impact, burning doesn't stack)",
         "template": "A flame trails behind you, dealing {0} contact damage and igniting enemies for {1} damage/s for 5s. {2}",
         "values": [
-          {
-            "D": "8.75",
-            "C": "12.5",
-            "B": "15",
-            "A": "20",
-            "S": "22"
-          },
-          {
-            "D": "1.75",
-            "C": "2.5",
-            "B": "3",
-            "A": "4",
-            "S": "4.5"
-          },
-          {
-            "D": "4s CD on impact",
-            "C": "burning doesn't stack"
-          }
+          { "D": "8.75", "C": "12.5", "B": "15", "A": "20", "S": "22" },
+          { "D": "1.75", "C": "2.5", "B": "3", "A": "4", "S": "4.5" },
+          { "D": "4s CD on impact", "C": "burning doesn't stack" }
         ]
       },
       {
@@ -541,13 +334,7 @@
         "text": "Gain +1 Spd for every second you move, up to Max (10, 15, 20, 30, 35). Lost after stopping for 2s.",
         "template": "Gain +1 Spd for every second you move, up to Max {0}. Lost after stopping for 2s.",
         "values": [
-          {
-            "D": "10",
-            "C": "15",
-            "B": "20",
-            "A": "30",
-            "S": "35"
-          }
+          { "D": "10", "C": "15", "B": "20", "A": "30", "S": "35" }
         ]
       },
       {
@@ -556,13 +343,7 @@
         "text": "Gain +0.5 Atk every second avoiding damage, up to Max (10, 11, 12, 14, 15). Resets on hit.",
         "template": "Gain +0.5 Atk every second avoiding damage, up to Max {0}. Resets on hit.",
         "values": [
-          {
-            "D": "10",
-            "C": "11",
-            "B": "12",
-            "A": "14",
-            "S": "15"
-          }
+          { "D": "10", "C": "11", "B": "12", "A": "14", "S": "15" }
         ]
       }
     ],
@@ -610,82 +391,19 @@
     ]
   },
   "tiers": [
-    {
-      "tier": "D",
-      "color": "#B4ADB5"
-    },
-    {
-      "tier": "C",
-      "color": "#B9E353"
-    },
-    {
-      "tier": "B",
-      "color": "#5EBCE5"
-    },
-    {
-      "tier": "A",
-      "color": "#FC0505"
-    },
-    {
-      "tier": "S",
-      "color": "#BCECEA"
-    }
+    { "tier": "D", "color": "#B4ADB5" },
+    { "tier": "C", "color": "#B9E353" },
+    { "tier": "B", "color": "#5EBCE5" },
+    { "tier": "A", "color": "#FC0505" },
+    { "tier": "S", "color": "#BCECEA" }
   ],
   "rarities": [
-    {
-      "rarity": "irradiated",
-      "label": "Irradiated",
-      "color": "#189506",
-      "maxTier": "B",
-      "sqGlory": 110,
-      "hqGlory": 330,
-      "hqFragments": 1
-    },
-    {
-      "rarity": "gilded",
-      "label": "Gilded",
-      "color": "#B93F12",
-      "maxTier": "A",
-      "sqGlory": 250,
-      "hqGlory": 1500,
-      "hqFragments": 1
-    },
-    {
-      "rarity": "royal",
-      "label": "Royal",
-      "color": "#7D1775",
-      "maxTier": "S",
-      "sqGlory": 850,
-      "hqGlory": 20000,
-      "hqFragments": 5
-    },
-    {
-      "rarity": "bloodshot",
-      "label": "Bloodshot",
-      "color": "#87060B",
-      "maxTier": "S",
-      "sqGlory": 2500,
-      "hqGlory": 200000,
-      "hqFragments": 15
-    },
-    {
-      "rarity": "voidbound",
-      "label": "Voidbound",
-      "color": "#8D15F0",
-      "maxTier": "S",
-      "sqGlory": 3000,
-      "hqGlory": 225000,
-      "hqFragments": 18
-    },
-    {
-      "rarity": "unholy",
-      "label": "Unholy",
-      "color": "#94B0B1",
-      "maxTier": "S",
-      "sqGlory": 5000,
-      "hqGlory": 325000,
-      "hqFragments": 20
-    }
+    { "rarity": "irradiated", "label": "Irradiated", "color": "#189506", "maxTier": "B", "sqGlory": 110, "hqGlory": 330, "hqFragments": 1 },
+    { "rarity": "gilded", "label": "Gilded", "color": "#B93F12", "maxTier": "A", "sqGlory": 250, "hqGlory": 1500, "hqFragments": 1 },
+    { "rarity": "royal", "label": "Royal", "color": "#7D1775", "maxTier": "S", "sqGlory": 850, "hqGlory": 20000, "hqFragments": 5 },
+    { "rarity": "bloodshot", "label": "Bloodshot", "color": "#87060B", "maxTier": "S", "sqGlory": 2500, "hqGlory": 200000, "hqFragments": 15 },
+    { "rarity": "voidbound", "label": "Voidbound", "color": "#8D15F0", "maxTier": "S", "sqGlory": 3000, "hqGlory": 225000, "hqFragments": 18 },
+    { "rarity": "unholy", "label": "Unholy", "color": "#94B0B1", "maxTier": "S", "sqGlory": 5000, "hqGlory": 325000, "hqFragments": 20 }
   ],
   "source": "wiki: Traits",
   "scanned": "2026-11-16T00:48:23.283689600Z"

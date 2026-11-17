@@ -9,9 +9,7 @@
       "model": "telos:material/skin/cherub_sword",
       "type": "skin",
       "description": "Forged for those permitted to witness judgement",
-      "appliesTo": [
-        "Sword"
-      ],
+      "appliesTo": ["Sword"],
       "obtainedFrom": "Season 4 Crate"
     },
     {
@@ -20,9 +18,7 @@
       "model": "telos:material/skin/cherub_katana",
       "type": "skin",
       "description": "Every strike sounds like distant piano keys",
-      "appliesTo": [
-        "Katana"
-      ],
+      "appliesTo": ["Katana"],
       "obtainedFrom": "Season 4 Crate"
     },
     {
@@ -31,9 +27,7 @@
       "model": "telos:material/skin/cherub_dagger",
       "type": "skin",
       "description": "Small enough to conceal. Sharp enough to remember",
-      "appliesTo": [
-        "Dagger"
-      ],
+      "appliesTo": ["Dagger"],
       "obtainedFrom": "Season 4 Crate"
     },
     {
@@ -42,9 +36,7 @@
       "model": "telos:material/skin/cherub_bow",
       "type": "skin",
       "description": "The string vibrates without being touched",
-      "appliesTo": [
-        "Bow"
-      ],
+      "appliesTo": ["Bow"],
       "obtainedFrom": "Season 4 Crate"
     },
     {
@@ -53,9 +45,7 @@
       "model": "telos:material/skin/void_sword",
       "type": "skin",
       "description": "Its edge rots whatever it does not kill outright",
-      "appliesTo": [
-        "Sword"
-      ],
+      "appliesTo": ["Sword"],
       "obtainedFrom": "Season 5 Crate"
     },
     {
@@ -64,9 +54,7 @@
       "model": "telos:material/skin/void_katana",
       "type": "skin",
       "description": "Every strike echoes like a dying breath",
-      "appliesTo": [
-        "Katana"
-      ],
+      "appliesTo": ["Katana"],
       "obtainedFrom": "Season 5 Crate"
     },
     {
@@ -75,9 +63,7 @@
       "model": "telos:material/skin/void_dagger",
       "type": "skin",
       "description": "A single scratch festers for a lifetime",
-      "appliesTo": [
-        "Dagger"
-      ],
+      "appliesTo": ["Dagger"],
       "obtainedFrom": "Season 5 Crate"
     },
     {
@@ -86,9 +72,7 @@
       "model": "telos:material/skin/void_bow",
       "type": "skin",
       "description": "The string hums with a sickness no ear can place",
-      "appliesTo": [
-        "Bow"
-      ],
+      "appliesTo": ["Bow"],
       "obtainedFrom": "Season 5 Crate"
     },
     {
@@ -97,9 +81,7 @@
       "model": "telos:material/skin/cherub_staff",
       "type": "skin",
       "description": "Used during the earliest Neo-Eden rituals",
-      "appliesTo": [
-        "Staff"
-      ],
+      "appliesTo": ["Staff"],
       "obtainedFrom": "Season 4 Crate"
     },
     {
@@ -108,9 +90,7 @@
       "model": "telos:material/skin/cherub_sceptre",
       "type": "skin",
       "description": "Its glow resembles a watching eye",
-      "appliesTo": [
-        "Sceptre"
-      ],
+      "appliesTo": ["Sceptre"],
       "obtainedFrom": "Season 4 Crate"
     },
     {
@@ -119,14 +99,7 @@
       "model": "telos:material/skin/cherub_bracelet",
       "type": "skin",
       "description": "The bracelet vibrates with distant music, especially if it's OXBLOODXIX.",
-      "appliesTo": [
-        "Emblem",
-        "Cloak",
-        "Scripture",
-        "Star",
-        "Bomb",
-        "Orb"
-      ],
+      "appliesTo": ["Emblem", "Cloak", "Scripture", "Star", "Bomb", "Orb"],
       "obtainedFrom": "Season 4 Crate"
     },
     {
@@ -135,14 +108,7 @@
       "model": "telos:material/skin/cherub_gauntlet",
       "type": "skin",
       "description": "Used during the earliest Neo-Eden rituals",
-      "appliesTo": [
-        "Shield",
-        "Poison",
-        "Skull",
-        "Kunai",
-        "Trap",
-        "Jewel"
-      ],
+      "appliesTo": ["Shield", "Poison", "Skull", "Kunai", "Trap", "Jewel"],
       "obtainedFrom": "Season 4 Crate"
     },
     {
@@ -151,9 +117,7 @@
       "model": "telos:material/skin/void_staff",
       "type": "skin",
       "description": "Wielded by the first to embrace the rot",
-      "appliesTo": [
-        "Staff"
-      ],
+      "appliesTo": ["Staff"],
       "obtainedFrom": "Season 5 Crate"
     },
     {
@@ -162,9 +126,7 @@
       "model": "telos:material/skin/void_sceptre",
       "type": "skin",
       "description": "Its glow pulses like a spreading infection",
-      "appliesTo": [
-        "Sceptre"
-      ],
+      "appliesTo": ["Sceptre"],
       "obtainedFrom": "Season 5 Crate"
     },
     {
@@ -173,14 +135,7 @@
       "model": "telos:material/skin/void_bracelet",
       "type": "skin",
       "description": "The bracelet hums with a rot that has no source",
-      "appliesTo": [
-        "Emblem",
-        "Cloak",
-        "Scripture",
-        "Star",
-        "Bomb",
-        "Orb"
-      ],
+      "appliesTo": ["Emblem", "Cloak", "Scripture", "Star", "Bomb", "Orb"],
       "obtainedFrom": "Season 5 Crate"
     },
     {
@@ -189,14 +144,7 @@
       "model": "telos:material/skin/void_gauntlet",
       "type": "skin",
       "description": "Used during the earliest plague rites",
-      "appliesTo": [
-        "Shield",
-        "Poison",
-        "Skull",
-        "Kunai",
-        "Trap",
-        "Jewel"
-      ],
+      "appliesTo": ["Shield", "Poison", "Skull", "Kunai", "Trap", "Jewel"],
       "obtainedFrom": "Season 5 Crate"
     },
     {
@@ -205,9 +153,7 @@
       "model": "telos:material/skin/cherub_heavy_helmet",
       "type": "skin",
       "description": "The abyss stares back at you",
-      "appliesTo": [
-        "Heavy Helmet"
-      ],
+      "appliesTo": ["Heavy Helmet"],
       "obtainedFrom": "Season 4 Crate"
     },
     {
@@ -216,9 +162,7 @@
       "model": "telos:material/skin/cherub_light_helmet",
       "type": "skin",
       "description": "It remains perfectly clean despite age",
-      "appliesTo": [
-        "Light Helmet"
-      ],
+      "appliesTo": ["Light Helmet"],
       "obtainedFrom": "Season 4 Crate"
     },
     {
@@ -227,9 +171,7 @@
       "model": "telos:material/skin/cherub_magical_helmet",
       "type": "skin",
       "description": "Its glow resembles a watching eye",
-      "appliesTo": [
-        "Magical Helmet"
-      ],
+      "appliesTo": ["Magical Helmet"],
       "obtainedFrom": "Season 4 Crate"
     },
     {
@@ -238,11 +180,7 @@
       "model": "telos:material/skin/cherub_chestplate",
       "type": "skin",
       "description": "A defensive relic of the Third Choir",
-      "appliesTo": [
-        "Light Chestplate",
-        "Magical Chestplate",
-        "Heavy Chestplate"
-      ],
+      "appliesTo": ["Light Chestplate", "Magical Chestplate", "Heavy Chestplate"],
       "obtainedFrom": "Season 4 Crate"
     },
     {
@@ -251,9 +189,7 @@
       "model": "telos:material/skin/void_heavy_helmet",
       "type": "skin",
       "description": "The abyss stares back, and it is patient",
-      "appliesTo": [
-        "Heavy Helmet"
-      ],
+      "appliesTo": ["Heavy Helmet"],
       "obtainedFrom": "Season 5 Crate"
     },
     {
@@ -262,9 +198,7 @@
       "model": "telos:material/skin/void_light_helmet",
       "type": "skin",
       "description": "It blackens further with every passing year",
-      "appliesTo": [
-        "Light Helmet"
-      ],
+      "appliesTo": ["Light Helmet"],
       "obtainedFrom": "Season 5 Crate"
     },
     {
@@ -273,9 +207,7 @@
       "model": "telos:material/skin/void_magical_helmet",
       "type": "skin",
       "description": "Nothing living wears it twice",
-      "appliesTo": [
-        "Magical Helmet"
-      ],
+      "appliesTo": ["Magical Helmet"],
       "obtainedFrom": "Season 5 Crate"
     },
     {
@@ -284,11 +216,7 @@
       "model": "telos:material/skin/void_chestplate",
       "type": "skin",
       "description": "A corrupted relic of the Third Choir",
-      "appliesTo": [
-        "Light Chestplate",
-        "Magical Chestplate",
-        "Heavy Chestplate"
-      ],
+      "appliesTo": ["Light Chestplate", "Magical Chestplate", "Heavy Chestplate"],
       "obtainedFrom": "Season 5 Crate"
     },
     {
@@ -297,11 +225,7 @@
       "model": "telos:material/skin/cherub_leggings",
       "type": "skin",
       "description": "Each stitch follows sacred geometry",
-      "appliesTo": [
-        "Light Leggings",
-        "Magical Leggings",
-        "Heavy Leggings"
-      ],
+      "appliesTo": ["Light Leggings", "Magical Leggings", "Heavy Leggings"],
       "obtainedFrom": "Season 4 Crate"
     },
     {
@@ -310,11 +234,7 @@
       "model": "telos:material/skin/cherub_boots",
       "type": "skin",
       "description": "The soles never fully touch the ground",
-      "appliesTo": [
-        "Light Boots",
-        "Magical Boots",
-        "Heavy Boots"
-      ],
+      "appliesTo": ["Light Boots", "Magical Boots", "Heavy Boots"],
       "obtainedFrom": "Season 4 Crate"
     },
     {
@@ -323,11 +243,7 @@
       "model": "telos:material/skin/void_leggings",
       "type": "skin",
       "description": "Each step leaves the grass dead behind it",
-      "appliesTo": [
-        "Light Leggings",
-        "Magical Leggings",
-        "Heavy Leggings"
-      ],
+      "appliesTo": ["Light Leggings", "Magical Leggings", "Heavy Leggings"],
       "obtainedFrom": "Season 5 Crate"
     },
     {
@@ -336,11 +252,7 @@
       "model": "telos:material/skin/void_boots",
       "type": "skin",
       "description": "The soles never fully touch the ground, nor the living world",
-      "appliesTo": [
-        "Light Boots",
-        "Magical Boots",
-        "Heavy Boots"
-      ],
+      "appliesTo": ["Light Boots", "Magical Boots", "Heavy Boots"],
       "obtainedFrom": "Season 5 Crate"
     },
     {
@@ -349,9 +261,7 @@
       "model": "telos:material/skin/nexus_sword",
       "type": "skin",
       "description": "Forged by D before the Nexus had a name",
-      "appliesTo": [
-        "Sword"
-      ],
+      "appliesTo": ["Sword"],
       "obtainedFrom": "Empowered Nexus Crate"
     },
     {
@@ -360,9 +270,7 @@
       "model": "telos:material/skin/nexus_katana",
       "type": "skin",
       "description": "Tempered in the currents beneath the Nexus",
-      "appliesTo": [
-        "Katana"
-      ],
+      "appliesTo": ["Katana"],
       "obtainedFrom": "Empowered Nexus Crate"
     },
     {
@@ -371,9 +279,7 @@
       "model": "telos:material/skin/nexus_dagger",
       "type": "skin",
       "description": "Carried by D's most trusted engineers",
-      "appliesTo": [
-        "Dagger"
-      ],
+      "appliesTo": ["Dagger"],
       "obtainedFrom": "Empowered Nexus Crate"
     },
     {
@@ -382,9 +288,7 @@
       "model": "telos:material/skin/nexus_bow",
       "type": "skin",
       "description": "Strung from the first threads of the Nexus",
-      "appliesTo": [
-        "Bow"
-      ],
+      "appliesTo": ["Bow"],
       "obtainedFrom": "Empowered Nexus Crate"
     },
     {
@@ -393,9 +297,7 @@
       "model": "telos:material/skin/nexus_staff",
       "type": "skin",
       "description": "Raised where the Nexus was first switched on",
-      "appliesTo": [
-        "Staff"
-      ],
+      "appliesTo": ["Staff"],
       "obtainedFrom": "Empowered Nexus Crate"
     },
     {
@@ -404,9 +306,7 @@
       "model": "telos:material/skin/nexus_sceptre",
       "type": "skin",
       "description": "A mark of rank among D's architects",
-      "appliesTo": [
-        "Sceptre"
-      ],
+      "appliesTo": ["Sceptre"],
       "obtainedFrom": "Empowered Nexus Crate"
     },
     {
@@ -415,14 +315,7 @@
       "model": "telos:material/skin/nexus_bracelet",
       "type": "skin",
       "description": "A token of loyalty to the Nexus",
-      "appliesTo": [
-        "Emblem",
-        "Cloak",
-        "Scripture",
-        "Star",
-        "Bomb",
-        "Orb"
-      ],
+      "appliesTo": ["Emblem", "Cloak", "Scripture", "Star", "Bomb", "Orb"],
       "obtainedFrom": "Empowered Nexus Crate"
     },
     {
@@ -431,14 +324,7 @@
       "model": "telos:material/skin/nexus_gauntlet",
       "type": "skin",
       "description": "Built to guard the gates of the Nexus",
-      "appliesTo": [
-        "Shield",
-        "Poison",
-        "Skull",
-        "Kunai",
-        "Trap",
-        "Jewel"
-      ],
+      "appliesTo": ["Shield", "Poison", "Skull", "Kunai", "Trap", "Jewel"],
       "obtainedFrom": "Empowered Nexus Crate"
     },
     {
@@ -447,9 +333,7 @@
       "model": "telos:material/skin/nexus_heavy_helmet",
       "type": "skin",
       "description": "A design D never finished",
-      "appliesTo": [
-        "Heavy Helmet"
-      ],
+      "appliesTo": ["Heavy Helmet"],
       "obtainedFrom": "Empowered Nexus Crate"
     },
     {
@@ -458,9 +342,7 @@
       "model": "telos:material/skin/nexus_light_helmet",
       "type": "skin",
       "description": "Recovered from the Nexus's oldest chamber",
-      "appliesTo": [
-        "Light Helmet"
-      ],
+      "appliesTo": ["Light Helmet"],
       "obtainedFrom": "Empowered Nexus Crate"
     },
     {
@@ -469,9 +351,7 @@
       "model": "telos:material/skin/nexus_magical_helmet",
       "type": "skin",
       "description": "Worn by the keepers of D's archives",
-      "appliesTo": [
-        "Magical Helmet"
-      ],
+      "appliesTo": ["Magical Helmet"],
       "obtainedFrom": "Empowered Nexus Crate"
     },
     {
@@ -480,11 +360,7 @@
       "model": "telos:material/skin/nexus_chestplate",
       "type": "skin",
       "description": "Cut from the walls of the Nexus core",
-      "appliesTo": [
-        "Light Chestplate",
-        "Magical Chestplate",
-        "Heavy Chestplate"
-      ],
+      "appliesTo": ["Light Chestplate", "Magical Chestplate", "Heavy Chestplate"],
       "obtainedFrom": "Empowered Nexus Crate"
     },
     {
@@ -493,11 +369,7 @@
       "model": "telos:material/skin/nexus_leggings",
       "type": "skin",
       "description": "Lined with the Nexus's spare conduits",
-      "appliesTo": [
-        "Light Leggings",
-        "Magical Leggings",
-        "Heavy Leggings"
-      ],
+      "appliesTo": ["Light Leggings", "Magical Leggings", "Heavy Leggings"],
       "obtainedFrom": "Empowered Nexus Crate"
     },
     {
@@ -506,11 +378,7 @@
       "model": "telos:material/skin/nexus_boots",
       "type": "skin",
       "description": "Made to walk the paths D laid out",
-      "appliesTo": [
-        "Light Boots",
-        "Magical Boots",
-        "Heavy Boots"
-      ],
+      "appliesTo": ["Light Boots", "Magical Boots", "Heavy Boots"],
       "obtainedFrom": "Empowered Nexus Crate"
     },
     {
@@ -519,9 +387,7 @@
       "model": "telos:material/skin/splendor_sword",
       "type": "skin",
       "description": "Sugary, minty, and ruthlessly sharp.",
-      "appliesTo": [
-        "Sword"
-      ],
+      "appliesTo": ["Sword"],
       "obtainedFrom": "Christmas Event"
     },
     {
@@ -530,9 +396,7 @@
       "model": "telos:material/skin/splendor_katana",
       "type": "skin",
       "description": "A lethal edge preserved perfectly within glacial ice.",
-      "appliesTo": [
-        "Katana"
-      ],
+      "appliesTo": ["Katana"],
       "obtainedFrom": "Christmas Event"
     },
     {
@@ -541,9 +405,7 @@
       "model": "telos:material/skin/splendor_bow",
       "type": "skin",
       "description": "Carved from the undying pines of the frozen north.",
-      "appliesTo": [
-        "Bow"
-      ],
+      "appliesTo": ["Bow"],
       "obtainedFrom": "Christmas Event"
     },
     {
@@ -552,9 +414,7 @@
       "model": "telos:material/skin/splendor_star",
       "type": "skin",
       "description": "A brilliant ornament ripped straight from the top of the tree.",
-      "appliesTo": [
-        "Star"
-      ],
+      "appliesTo": ["Star"],
       "obtainedFrom": "Christmas Event"
     },
     {
@@ -562,14 +422,9 @@
       "name": "Dirk Of Horrors Skin",
       "model": "telos:material/skin/hallowed_dagger",
       "type": "skin",
-      "source": {
-        "name": "Hollowbane",
-        "icon": "telos:material/boss/hollowbane"
-      },
+      "source": { "name": "Hollowbane", "icon": "telos:material/boss/hollowbane" },
       "description": "A jagged blade reflecting your deepest, darkest fears.",
-      "appliesTo": [
-        "Dagger"
-      ],
+      "appliesTo": ["Dagger"],
       "obtainedFrom": "Halloween Event"
     },
     {
@@ -577,14 +432,9 @@
       "name": "Solar Eclipse Staff Skin",
       "model": "telos:material/skin/hallowed_staff",
       "type": "skin",
-      "source": {
-        "name": "Hollowbane",
-        "icon": "telos:material/boss/hollowbane"
-      },
+      "source": { "name": "Hollowbane", "icon": "telos:material/boss/hollowbane" },
       "description": "Channels the cosmic dread of a sun blotted from the sky.",
-      "appliesTo": [
-        "Staff"
-      ],
+      "appliesTo": ["Staff"],
       "obtainedFrom": "Halloween Event"
     },
     {
@@ -592,14 +442,9 @@
       "name": "Bramble Bow Skin",
       "model": "telos:material/skin/hallowed_bow",
       "type": "skin",
-      "source": {
-        "name": "Hollowbane",
-        "icon": "telos:material/boss/hollowbane"
-      },
+      "source": { "name": "Hollowbane", "icon": "telos:material/boss/hollowbane" },
       "description": "Woven from cursed brambles that thirst for wandering souls.",
-      "appliesTo": [
-        "Bow"
-      ],
+      "appliesTo": ["Bow"],
       "obtainedFrom": "Halloween Event"
     },
     {
@@ -607,14 +452,9 @@
       "name": "Kunai Of Cursed Souls Skin",
       "model": "telos:material/skin/hallowed_kunai",
       "type": "skin",
-      "source": {
-        "name": "Hollowbane",
-        "icon": "telos:material/boss/hollowbane"
-      },
+      "source": { "name": "Hollowbane", "icon": "telos:material/boss/hollowbane" },
       "description": "Throwing knives guided by the wails of the damned.",
-      "appliesTo": [
-        "Kunai"
-      ],
+      "appliesTo": ["Kunai"],
       "obtainedFrom": "Halloween Event"
     },
     {
@@ -623,9 +463,7 @@
       "model": "telos:material/skin/splendor_poison",
       "type": "skin",
       "description": "A volatile concoction wrapped neatly with a bow.",
-      "appliesTo": [
-        "Poison"
-      ],
+      "appliesTo": ["Poison"],
       "obtainedFrom": "Christmas Event"
     },
     {
@@ -634,9 +472,7 @@
       "model": "telos:material/skin/splendor_scripture",
       "type": "skin",
       "description": "Contains incantations that summon the fiercest blizzards.",
-      "appliesTo": [
-        "Scripture"
-      ],
+      "appliesTo": ["Scripture"],
       "obtainedFrom": "Christmas Event"
     },
     {
@@ -645,9 +481,7 @@
       "model": "telos:material/skin/splendor_magical_chestplate",
       "type": "skin",
       "description": "Warm, festive garments woven from the hide of a frost wyrm.",
-      "appliesTo": [
-        "Magical Chestplate"
-      ],
+      "appliesTo": ["Magical Chestplate"],
       "obtainedFrom": "Christmas Event"
     },
     {
@@ -656,9 +490,7 @@
       "model": "telos:material/skin/splendor_shield",
       "type": "skin",
       "description": "Holiday spirit, same solid protection.",
-      "appliesTo": [
-        "Shield"
-      ],
+      "appliesTo": ["Shield"],
       "obtainedFrom": "Christmas Event"
     },
     {
@@ -666,14 +498,9 @@
       "name": "Hollow's Harvest Skin",
       "model": "telos:material/skin/hallowed_scripture",
       "type": "skin",
-      "source": {
-        "name": "Hollowbane",
-        "icon": "telos:material/boss/hollowbane"
-      },
+      "source": { "name": "Hollowbane", "icon": "telos:material/boss/hollowbane" },
       "description": "An ancient tome bound in necrotic, autumn vines.",
-      "appliesTo": [
-        "Scripture"
-      ],
+      "appliesTo": ["Scripture"],
       "obtainedFrom": "Halloween Event"
     },
     {
@@ -681,14 +508,9 @@
       "name": "Sceptre Of Soulbound Terror Skin",
       "model": "telos:material/skin/hallowed_sceptre",
       "type": "skin",
-      "source": {
-        "name": "Hollowbane",
-        "icon": "telos:material/boss/hollowbane"
-      },
+      "source": { "name": "Hollowbane", "icon": "telos:material/boss/hollowbane" },
       "description": "A cursed sceptre bound to restless souls.",
-      "appliesTo": [
-        "Sceptre"
-      ],
+      "appliesTo": ["Sceptre"],
       "obtainedFrom": "Halloween Event"
     },
     {
@@ -696,14 +518,9 @@
       "name": "Eye Of Confliction Skin",
       "model": "telos:material/skin/hallowed_orb",
       "type": "skin",
-      "source": {
-        "name": "Hollowbane",
-        "icon": "telos:material/boss/hollowbane"
-      },
+      "source": { "name": "Hollowbane", "icon": "telos:material/boss/hollowbane" },
       "description": "A twitching, bloodshot eye that sees all timelines at once.",
-      "appliesTo": [
-        "Orb"
-      ],
+      "appliesTo": ["Orb"],
       "obtainedFrom": "Halloween Event"
     },
     {
@@ -712,9 +529,7 @@
       "model": "telos:material/skin/lovebound_dagger",
       "type": "skin",
       "description": "Struck by this blade, one's heart is bound forever.",
-      "appliesTo": [
-        "Dagger"
-      ],
+      "appliesTo": ["Dagger"],
       "obtainedFrom": "Valentine's Event"
     },
     {
@@ -723,9 +538,7 @@
       "model": "telos:material/skin/lovebound_emblem",
       "type": "skin",
       "description": "A shimmering seal representing an unbreakable vow.",
-      "appliesTo": [
-        "Emblem"
-      ],
+      "appliesTo": ["Emblem"],
       "obtainedFrom": "Valentine's Event"
     },
     {
@@ -734,9 +547,7 @@
       "model": "telos:material/skin/lovebound_skull",
       "type": "skin",
       "description": "Sweets to die for. Quite literally.",
-      "appliesTo": [
-        "Skull"
-      ],
+      "appliesTo": ["Skull"],
       "obtainedFrom": "Valentine's Event"
     },
     {
@@ -745,9 +556,7 @@
       "model": "telos:material/skin/lovebound_light_helmet",
       "type": "skin",
       "description": "A feathery cap blessed by the deity of love.",
-      "appliesTo": [
-        "Light Helmet"
-      ],
+      "appliesTo": ["Light Helmet"],
       "obtainedFrom": "Valentine's Event"
     },
     {
@@ -756,11 +565,7 @@
       "model": "telos:material/skin/aphrow_magical_helmet",
       "type": "skin",
       "description": "The signature headpiece of a social media wizard, bestowed for grand contributions to the realm.",
-      "appliesTo": [
-        "Heavy Helmet",
-        "Magical Helmet",
-        "Light Helmet"
-      ],
+      "appliesTo": ["Heavy Helmet", "Magical Helmet", "Light Helmet"],
       "obtainedFrom": "Aphrow (100 TikToks Reward)"
     },
     {
@@ -769,11 +574,7 @@
       "model": "telos:material/skin/yinlin_enjoyer_magical_chestplate",
       "type": "skin",
       "description": "A haori woven in tribute to a beloved sister. It is a relic of remembrance not to be squandered.",
-      "appliesTo": [
-        "Heavy Chestplate",
-        "Magical Chestplate",
-        "Light Chestplate"
-      ],
+      "appliesTo": ["Heavy Chestplate", "Magical Chestplate", "Light Chestplate"],
       "obtainedFrom": "yinlin_enjoyer (3rd Place - Boss Rush)"
     },
     {
@@ -782,11 +583,7 @@
       "model": "telos:material/skin/mikuperino_magical_helmet",
       "type": "skin",
       "description": "The most desired synthetic headpiece for any true Hatsune Miku cosplayer.",
-      "appliesTo": [
-        "Heavy Helmet",
-        "Magical Helmet",
-        "Light Helmet"
-      ],
+      "appliesTo": ["Heavy Helmet", "Magical Helmet", "Light Helmet"],
       "obtainedFrom": "MikuPerino (2nd Place - Boss Rush)"
     },
     {
@@ -795,11 +592,7 @@
       "model": "telos:material/skin/xmelongaming_heavy_helmet",
       "type": "skin",
       "description": "Forged from the auctioneer's produce section, this juicy crown acts as a refreshing snack in a pinch.",
-      "appliesTo": [
-        "Heavy Helmet",
-        "Magical Helmet",
-        "Light Helmet"
-      ],
+      "appliesTo": ["Heavy Helmet", "Magical Helmet", "Light Helmet"],
       "obtainedFrom": "xMelonGaming (1st Place - Boss Rush)"
     },
     {
@@ -808,11 +601,7 @@
       "model": "telos:material/skin/qtrotem_heavy_helmet",
       "type": "skin",
       "description": "For a flower born of light will always rise from ash.",
-      "appliesTo": [
-        "Heavy Helmet",
-        "Magical Helmet",
-        "Light Helmet"
-      ],
+      "appliesTo": ["Heavy Helmet", "Magical Helmet", "Light Helmet"],
       "obtainedFrom": "qtRotem (First to reach Level 1000)"
     }
   ]

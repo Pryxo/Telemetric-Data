@@ -10,27 +10,9 @@
       "type": "armour/all/helmet",
       "rarity": "unholy",
       "tierPoints": 14,
-      "stats": {
-        "Health": "+2",
-        "Attack": "+17",
-        "Defense": "+16",
-        "Speed": "+11",
-        "Evasion": "+5",
-        "Critical Chance": "+10"
-      },
-      "text": [
-        "Left Click to view Shiny",
-        "Right Click for Crafting",
-        "info"
-      ],
-      "classes": [
-        "Knight",
-        "Assassin",
-        "Samurai",
-        "Necromancer",
-        "Huntress",
-        "Arcanist"
-      ]
+      "stats": { "Health": "+2", "Attack": "+17", "Defense": "+16", "Speed": "+11", "Evasion": "+5", "Critical Chance": "+10" },
+      "text": ["Left Click to view Shiny", "Right Click for Crafting", "info"],
+      "classes": ["Knight", "Assassin", "Samurai", "Necromancer", "Huntress", "Arcanist"]
     },
     {
       "id": "telos:weapon/sword/ut-revelation",
@@ -39,13 +21,7 @@
       "type": "weapon/sword",
       "rarity": "unholy",
       "tierPoints": 14,
-      "stats": {
-        "Damage": "38.5",
-        "Range": "6.5",
-        "Slashes": "1",
-        "Pierces": "Yes",
-        "Cooldown": "1s"
-      },
+      "stats": { "Damage": "38.5", "Range": "6.5", "Slashes": "1", "Pierces": "Yes", "Cooldown": "1s" },
       "text": [
         "Ability: Each swing",
         "summons 5 homing",
@@ -64,9 +40,7 @@
         "Right Click for Crafting",
         "info"
       ],
-      "classes": [
-        "Knight"
-      ]
+      "classes": ["Knight"]
     },
     {
       "id": "telos:weapon/dagger/ut-javelin",
@@ -75,14 +49,7 @@
       "type": "weapon/dagger",
       "rarity": "unholy",
       "tierPoints": 14,
-      "stats": {
-        "Damage": "82.5",
-        "Range": "9",
-        "Shots": "1",
-        "Velocity": "25",
-        "Pierces": "Yes",
-        "Cooldown": "2s"
-      },
+      "stats": { "Damage": "82.5", "Range": "9", "Shots": "1", "Velocity": "25", "Pierces": "Yes", "Cooldown": "2s" },
       "text": [
         "Ability: Projectile is a",
         "giant javelin that",
@@ -99,9 +66,7 @@
         "Right Click for Crafting",
         "info"
       ],
-      "classes": [
-        "Assassin"
-      ]
+      "classes": ["Assassin"]
     },
     {
       "id": "telos:weapon/katana/ut-exodus",
@@ -110,13 +75,7 @@
       "type": "weapon/katana",
       "rarity": "unholy",
       "tierPoints": 14,
-      "stats": {
-        "Damage": "12.1",
-        "Range": "7.5",
-        "Slashes": "12",
-        "Pierces": "Yes",
-        "Cooldown": "3s"
-      },
+      "stats": { "Damage": "12.1", "Range": "7.5", "Slashes": "12", "Pierces": "Yes", "Cooldown": "3s" },
       "text": [
         "Ability: After hitting 12",
         "slashes in a row,",
@@ -132,9 +91,7 @@
         "Right Click for Crafting",
         "info"
       ],
-      "classes": [
-        "Samurai"
-      ]
+      "classes": ["Samurai"]
     },
     {
       "id": "telos:weapon/staff/ut-chariot",
@@ -143,13 +100,7 @@
       "type": "weapon/staff",
       "rarity": "unholy",
       "tierPoints": 14,
-      "stats": {
-        "Damage": "1.6",
-        "Range": "8",
-        "Velocity": "20",
-        "Pierces": "No",
-        "Cooldown": "3s"
-      },
+      "stats": { "Damage": "1.6", "Range": "8", "Velocity": "20", "Pierces": "No", "Cooldown": "3s" },
       "text": [
         "Ability: Projectile is an",
         "unholy mass that deals",
@@ -164,9 +115,7 @@
         "Right Click for Crafting",
         "info"
       ],
-      "classes": [
-        "Necromancer"
-      ]
+      "classes": ["Necromancer"]
     },
     {
       "id": "telos:weapon/bow/ut-psalm",
@@ -175,13 +124,7 @@
       "type": "weapon/bow",
       "rarity": "unholy",
       "tierPoints": 14,
-      "stats": {
-        "Damage": "9.7",
-        "Range": "10",
-        "Velocity": "25",
-        "Pierces": "Yes",
-        "Cooldown": "0.75s"
-      },
+      "stats": { "Damage": "9.7", "Range": "10", "Velocity": "25", "Pierces": "Yes", "Cooldown": "0.75s" },
       "text": [
         "Ability: Each attack",
         "fires 2, 2, 4 and 4",
@@ -200,9 +143,7 @@
         "Right Click for Crafting",
         "info"
       ],
-      "classes": [
-        "Huntress"
-      ]
+      "classes": ["Huntress"]
     },
     {
       "id": "telos:weapon/sceptre/ut-magnificat",
@@ -211,13 +152,7 @@
       "type": "weapon/sceptre",
       "rarity": "unholy",
       "tierPoints": 14,
-      "stats": {
-        "Damage": "10",
-        "Range": "8",
-        "Beams": "1",
-        "Pierces": "Yes",
-        "Cooldown": "0.8s"
-      },
+      "stats": { "Damage": "10", "Range": "8", "Beams": "1", "Pierces": "Yes", "Cooldown": "0.8s" },
       "text": [
         "Ability: Successful hits",
         "will mark an enemy and",
@@ -233,9 +168,7 @@
         "Right Click for Crafting",
         "info"
       ],
-      "classes": [
-        "Arcanist"
-      ]
+      "classes": ["Arcanist"]
     }
   ],
   "color": "#B6D9D4"

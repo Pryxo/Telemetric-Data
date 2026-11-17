@@ -18,12 +18,10 @@ The mod reads files from `https://raw.githubusercontent.com/Pryxo/Telemetric-Dat
 |---|---|
 | `LODs/index.json` | List of prebuilt Voxy maps |
 | `LODs/<dungeon_name>.zip` | Voxy LOD store of one fixed-layout dungeon |
-| `Extractor/*.json` | Telos tables generated from the in-game `/wiki` menus (`Extractor/raw/`) + `Extractor/manual/` |
-| `Extractor/bosses.json` | Bosses: type, area, icon, spawn spots, boss-bar hash, Boss Tracker data (`tracker`) |
-| `Extractor/loottable.json` | Dungeon → Boss → drops (chance, loot group, item id + model, shiny variants) |
-| `Extractor/bossbars.json` | Boss bars seen in game: name hash → boss name |
-| `Extractor/rarities.json` / `bags.json` | Rarity colours (tooltip style key) / loot bag types (drop totem model, drop sound) |
-| `Extractor/manual/*.json` | **Hand-written**: dungeon final bosses, multi-boss drop splits, in-game dungeon names, Boss Tracker lines and spots, extra bags / rarities |
+| `Extractor/*.json` | Telos tables generated from the in-game `/wiki` menus + `Extractor/manual/` |
+| `Extractor/Boss.json` | Every boss: type, where it spawns, icon, spawn spots, portal it drops, drops (chance, item id, rarity, shiny chance), boss-bar hash, Boss Tracker data (`tracker`) |
+| `Extractor/rarities.json` | Rarity colours (tooltip style key), chat / loot glyphs, loot bags (drop totem, sound) |
+| `Extractor/manual/*.json` | **Hand-written**: dungeon final bosses, multi-boss drop splits, in-game dungeon names, boss spawn spots, Boss Tracker lines, chat tabs, call-outs, realms, Discord texts |
 
 The hand-written data in `Extractor/manual/` is taken from [Melinoe](https://github.com/House-Hades/Melinoe)
 (House-Hades, LGPL-3.0), used with the authors' permission. Telemetric bundles a copy of `Extractor/*.json` in its
