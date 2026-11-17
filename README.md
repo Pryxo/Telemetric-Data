@@ -25,9 +25,6 @@ Telemetric bundles a copy of `tables/*.json` in its jar and asks this repo once 
 Players can override a file locally in `config/telemetric/data/overrides/tables/`. Only fields listed here are read —
 leave out anything else (no descriptions, sources or notes in the files).
 
-The chat, call-out, realm and Discord tables, Boss Tracker lines, spawn spots and the bag list come from
-[Melinoe](https://github.com/House-Hades/Melinoe) (House-Hades, LGPL-3.0), used with the authors' permission.
-
 ## Tables
 ### `tables/Boss.json`
 Root: `version`, `portalSeconds` (default portal time of tracked bosses), `aliases` (in-game place name → dungeon name,
