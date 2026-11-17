@@ -5,7 +5,7 @@
   "_comment": "Every boss. type = miniboss / boss / eventBoss (realm) or dungeon. location = where it spawns: biome / Realm / zone, or its dungeon. opens = dungeon portal it drops. icon = menu icon (a dungeon boss: the dungeon's). bossBarHash = Component#hashCode of its boss bar name (Boss Recorder). pityOnly = the only drops (names) a kill adds pity to (none = every drop, manual/bosses.json). positions = spawn spots, tracker = Boss Tracker data (manual/bosses.json). tiers = T1-T8 equipment it drops (no chance on the wiki). drops: chance = percent per kill (fragments can be > 100); id = item id (dropped item model = <ns>:material/<id path>); rarity = item / companion rarity (the loot group); shiny = chance of the shiny version (id + -shiny); from = anyMob / specificMob / puzzle (not from the boss kill) or each (expanded from \"All <rarity> Items\"); mob = the mob a specificMob drop comes from (manual/bosses.json mobDrops); kind only where it is not implied (id pet/ = pet, mount/ = mount, other id = item, no id: rarity = material, none = fragment). Dungeon boss names: manual/bosses.json (\"???\" = not written yet).",
   "portalSeconds": 30,
   "zones": ["Shadowlands", "Radiant Isles"],
-  "aliases": { "Raphael's Chamber": "Raph's Chamber", "Raphael's Castle": "Raph's Chamber", "The Aviary": "Aviary" },
+  "aliases": { "Raphael's Chamber": "Raph's Chamber", "The Aviary": "Aviary" },
   "bosses": [
     {
       "name": "Brakk",
