@@ -40,6 +40,7 @@ e.g. `"The Aviary": "Aviary"`), `bosses` (list). One boss:
 | `zone` | realm bosses in a zone | `Shadowlands` / `Radiant Isles` — the Boss Tracker / Pity Counter only list it there. No `zone` = open realm |
 | `bossBarHash` | Boss Bar Scale, "which boss is up" | Hash of its boss bar name (one number, or a list) |
 | `positions` | Pity Counter, Boss Tracker | Spawn spots `{ "x", "y", "z" }` (optional `name`) |
+| `areas` | Pity Counter | Realm bosses: HUD location names (bottom-right box, string or list) where its pity is shown when no boss is near and no boss bar is up |
 | `tracker` | Boss Tracker | `call` / `spawn` / `defeat` (regex of a chat line), `idle`, `progress` (true/false), `portalSeconds`, `waypoints` (spots) |
 | `icon` | Boss Tracker | Item model of its icon (`telos:material/boss/anubis`) |
 | `pityOnly` | multi-boss dungeons | Names of the only drops a kill of this boss adds pity to (none = all its drops) |

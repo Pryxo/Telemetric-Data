@@ -646,7 +646,8 @@
     },
     {
       "name": "Dark Champion",
-      "dungeon": "Raph's Castle",
+      "dungeon": "Raphael's Castle",
+      "bossBarHash": 2131893865,
       "drops": [
         { "name": "Singed Star", "chance": 2.5, "id": "telos:ability/star/ut-singed", "rarity": "royal", "shiny": true, "mob": "Castle Goliath" },
         { "name": "Dark Guardian Sword", "chance": 2.0, "id": "telos:weapon/sword/ut-guardian", "rarity": "royal", "shiny": true },
@@ -681,14 +682,7 @@
         { "name": "Valerion's Poniard", "chance": 0.6, "id": "telos:weapon/dagger/ut-poniard", "rarity": "bloodshot", "shiny": true },
         { "name": "Valerion's Bane", "chance": 0.6, "id": "telos:weapon/katana/ut-bane", "rarity": "bloodshot", "shiny": true },
         { "name": "Custodian's Visor", "chance": 0.6, "id": "telos:armour/light/helmet/ut-sentinel", "rarity": "bloodshot", "shiny": true },
-        {
-          "name": "Chrysalis Of Light",
-          "chance": 0.08,
-          "id": "telos:armour/heavy/chestplate/ut-chrysalis",
-          "rarity": "royal",
-          "shiny": true,
-          "mob": "Guardian Of Light"
-        }
+        {"name": "Chrysalis Of Light", "chance": 0.08, "id": "telos:armour/heavy/chestplate/ut-chrysalis", "rarity": "royal", "shiny": true, "mob": "Guardian Of Light" }
       ]
     },
     {
@@ -793,8 +787,9 @@
       ]
     },
     {
-      "name": "???",
+      "name": "Kairos",
       "dungeon": "Midnight Stronghold",
+      "bossBarHash": 290925398,
       "drops": [
         { "name": "Hollow Sabatons", "chance": 2.0, "id": "telos:armour/heavy/boots/ut-hollow", "rarity": "royal", "shiny": true },
         { "name": "Kairos Heart", "chance": 2.0, "id": "telos:ability/scripture/ut-heart", "rarity": "royal", "shiny": true },
@@ -806,8 +801,9 @@
       ]
     },
     {
-      "name": "???",
+      "name": "Oblivion",
       "dungeon": "Valley Of The Lost",
+      "bossBarHash": -77383762,
       "drops": [
         { "name": "Eternal Maw", "chance": 1.0, "rarity": "voidbound" },
         { "name": "Plan B", "chance": 0.6, "id": "telos:ability/star/ut-plan", "rarity": "bloodshot", "shiny": true },
@@ -892,11 +888,6 @@
         { "name": "Thanatos", "chance": 0.2, "id": "telos:pet/celestials_province", "rarity": "exotic" },
         { "name": "Seraphix", "chance": 0.2, "id": "telos:mount/celestials_province", "rarity": "exotic" }
       ]
-    },
-    { "name": "Freddy", "bossBarHash": -1343349613 },
-    { "name": "Golden Freddy", "dungeon": "", "bossBarHash": -422985676 },
-    { "name": "Chronos", "dungeon": "", "bossBarHash": 290925398 },
-    { "name": "Orion & Osiris", "dungeon": "", "bossBarHash": 2131893865 },
-    { "name": "Mithrion", "dungeon": "", "bossBarHash": -707883379 }
+    }
   ]
 }
