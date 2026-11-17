@@ -1,5 +1,5 @@
 {
-  "_comment": "Hand-written, read by the extractor's Rebuild JSON (never shipped; Boss.json carries all of it). dungeons: dungeon -> its final boss as the nameplate shows it (\"???\" = not written yet), or for a dungeon with several loot bosses: boss -> drop names only that boss gives, final boss last (it gets every drop not listed). aliases: in-game location name -> dungeon name, where they differ beyond case, punctuation, a leading 'The' and ': Part ...'. bosses: realm bosses -> positions (spawn spots), Boss Tracker lines (call = regex for the text after \"[<Boss>] \" naming the player fighting it, group 'player'; idle = always present, grey until its spawn line; spawn / defeat = lines that mark it alive / back to idle; portalSeconds = portal time after a defeat; progress = portal opens once every world boss is down; waypoints = extra fixed markers) and, for bosses the wiki does not list, icon / location / type. zones = separate realm regions: a boss located in one is shown only there. Lines from Melinoe (House-Hades, used with permission).",
+  "_comment": "Hand-written, read by the extractor's Rebuild JSON (never shipped; Boss.json carries all of it). dungeons: dungeon -> its final boss as the nameplate shows it (\"???\" = not written yet), or for a dungeon with several loot bosses: boss -> drop names only that boss gives, final boss last (it gets every drop not listed). aliases: in-game location name -> dungeon name, where they differ beyond case, punctuation, a leading 'The' and ': Part ...'. bosses: realm bosses -> positions (spawn spots), Boss Tracker lines (call = regex for the text after \"[<Boss>] \" naming the player fighting it, group 'player'; idle = always present, grey until its spawn line; spawn / defeat = lines that mark it alive / back to idle; portalSeconds = portal time after a defeat; progress = portal opens once every world boss is down; waypoints = extra fixed markers) and, for bosses the wiki does not list, icon / location / type. zones = separate realm regions: a boss located in one is shown only there. pityOnly: boss -> the only drop names its kill adds pity to (it drops more, e.g. Seraph's Domain also drops the earlier bosses' loot; boss not listed = every drop). Lines from Melinoe (House-Hades, used with permission).",
   "portalSeconds": 30,
   "zones": ["Shadowlands", "Radiant Isles"],
   "aliases": {"Raphael's Chamber": "Raph's Chamber", "Raphael's Castle": "Raph's Chamber", "The Aviary": "Aviary"},
@@ -238,5 +238,9 @@
         { "x": -15, "y": 243, "z": 88 }
       ]
     }
+  },
+  "pityOnly": {
+    "True Ophan": ["The Pendant of Sin"],
+    "True Seraph": ["The Holy Cross"]
   }
 }
