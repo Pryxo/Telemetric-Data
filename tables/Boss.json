@@ -372,8 +372,9 @@
       ],
       "tracker": {
         "call": "I stood for honor, but honor was my undoing (?<player>.+)!",
+        "spawn": "\\.\\.\\.",
         "countFrom": ["Reaper", "Warden", "Herald"],
-        "down": "[Defender] I must protect the final sphere!",
+        "defeat": "I must protect the final sphere!",
         "portalSeconds": 60,
         "counterMax": 4
       },
