@@ -11,8 +11,8 @@
     "shiny": { "label": "Shiny", "color": "#00FFFF", "glyph": "𖊀", "icon": "𖊀", "bag": "shiny_totem" }
   },
   "eventBags": {
-    "halloween": { "label": "Halloween", "color": "#CD712B", "icon": "𕑠", "bag": "halloween_totem" },
+    "halloween": { "label": "Halloween", "color": "#CD712B", "glyph": "𕑉", "icon": "𕑠", "bag": "halloween_totem" },
     "valentine": { "label": "Valentine", "icon": "𕑞", "bag": "valentine_totem", "sound": "valentines" },
-    "christmas": { "label": "Christmas", "icon": "𕑟", "bag": "christmas_totem" }
+    "christmas": { "label": "Christmas", "glyph": "𘈆", "icon": "𕑟", "bag": "christmas_totem" }
   }
 }
