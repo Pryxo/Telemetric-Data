@@ -197,6 +197,26 @@
       ]
     },
     {
+      "name": "Claus",
+      "icon": "telos:material/boss/claus",
+      "bossBarHash": -132914311,
+      "positions": [
+        { "x": 10, "y": 212, "z": -118 }
+      ],
+      "tracker": { "call": "The only sleighing happening here is YOU, (?<player>.+)!" },
+      "drops": [
+        { "name": "Hollywyrm", "chance": 0.2, "id": "telos:mount/hollywyrm"},
+        { "name": "Evergreen Bow Skin", "chance": 0.1, "id": "telos:skin/splendor_bow", "rarity": "christmas" },
+        { "name": "Ice Encased Katana Skin", "chance": 0.1, "id": "telos:skin/splendor_katana", "rarity": "christmas" },
+        { "name": "Yuletide Wyrmskin Skin", "chance": 0.1, "id": "telos:skin/splendor_magical_chestplate", "rarity": "christmas" },
+        { "name": "Giftwrap Venom Skin", "chance": 0.1, "id": "telos:skin/splendor_poison", "rarity": "christmas" },
+        { "name": "Scripture Of Snow Skin", "chance": 0.1, "id": "telos:skin/splendor_scripture", "rarity": "christmas" },
+        { "name": "Star Of Christmas Skin", "chance": 0.1, "id": "telos:skin/splendor_star", "rarity": "christmas" },
+        { "name": "Sharpened Candy Cane Skin", "chance": 0.1, "id": "telos:skin/splendor_sword", "rarity": "christmas" },
+        { "name": "Gingerbread Shield Skin", "chance": 0.1, "id": "telos:skin/splendor_shield", "rarity": "christmas" }
+      ]
+    },
+    {
       "name": "Luna",
       "zone": "Radiant Isles",
       "positions": [
