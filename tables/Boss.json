@@ -373,6 +373,8 @@
       "tracker": {
         "call": "I stood for honor, but honor was my undoing (?<player>.+)!",
         "countFrom": ["Reaper", "Warden", "Herald"],
+        "down": "[Defender] I must protect the final sphere!",
+        "portalSeconds": 60,
         "counterMax": 4
       },
       "drops": [
@@ -697,7 +699,7 @@
       "positions": [
         { "x": -15, "y": 243, "z": 88 }
       ],
-      "tracker": { "progress": true, "portalSeconds": 60, "counterMax": 10 },
+      "tracker": { "progress": true, "portalSeconds": 60, "counterMax": 8 },
       "drops": [
         { "name": "Crimson Sourcestone", "chance": 1.0, "rarity": "bloodshot" },
         { "name": "Exaltling", "chance": 0.2, "id": "telos:pet/onyx" },
@@ -857,6 +859,9 @@
       "dungeon": "Tenebris",
       "icon": "telos:material/boss/tenebris_portal",
       "bossBarHash": -1253581965,
+      "positions": [
+        { "x": -99581, "y": 151, "z": -99606 }
+      ],
       "tracker": {
         "menuName": "Tenebris Portal",
         "counter": "\\((?<n>\\d+)/(?<max>\\d+)\\) Void Crystals shattered",
