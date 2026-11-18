@@ -247,13 +247,15 @@
     {
       "name": "Cog Sentinel",
       "zone": "Radiant Isles",
-      "icon": "telos:material/boss/cog_sentinel",
+      "icon": "telos:material/bosses/cog_sentinel",
       "bossBarHash": -1370503157,
       "positions": [
         { "x": 100000, "y": 50, "z": 100000 }
       ],
       "tracker": {
         "idle": true,
+        "counter": "\\((?<n>\\d+)/(?<max>\\d+)\\) Cog Stabilisers destroyed",
+        "readyText": "Vulnerable",
         "waypoints": [
           { "name": "Cog Stabilizer (1)", "x": 99627, "y": 45, "z": 99992 },
           { "name": "Cog Stabilizer (2)", "x": 99649, "y": 129, "z": 100180 },
@@ -359,7 +361,11 @@
       "positions": [
         { "x": 65, "y": -51, "z": 64 }
       ],
-      "tracker": { "call": "I stood for honor, but honor was my undoing (?<player>.+)!" },
+      "tracker": {
+        "call": "I stood for honor, but honor was my undoing (?<player>.+)!",
+        "countFrom": ["Reaper", "Warden", "Herald"],
+        "counterMax": 4
+      },
       "drops": [
         { "name": "Shrouded Shield", "chance": 0.8, "id": "telos:ability/shield/ut-shrouded", "rarity": "bloodshot", "shiny": true },
         { "name": "Phantasmic Greaves", "chance": 0.8, "id": "telos:armour/heavy/leggings/ut-phantasmic", "rarity": "bloodshot", "shiny": true },
@@ -844,7 +850,14 @@
     {
       "name": "Voided Omnipotent",
       "dungeon": "Tenebris",
+      "icon": "telos:material/boss/tenebris_portal",
       "bossBarHash": -1253581965,
+      "tracker": {
+        "menuName": "Tenebris Portal",
+        "counter": "\\((?<n>\\d+)/(?<max>\\d+)\\) Void Crystals shattered",
+        "ready": "A portal to Tenebris has opened in .+",
+        "readyText": "Open"
+      },
       "drops": [
         { "name": "Fractured Nihility", "chance": 1.0, "rarity": "voidbound" },
         { "name": "Event Horizon", "chance": 0.6, "id": "telos:ability/orb/ut-horizon", "rarity": "bloodshot", "shiny": true },
