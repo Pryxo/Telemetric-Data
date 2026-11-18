@@ -1,13 +1,13 @@
 {
   "version": 3,
   "rarities": {
-    "bloodshot": { "label": "Bloodshot", "color": "#B7220A", "glyph": "𕌜", "icon": "𕑐", "bag": "bloodshot_totem" },
-    "gilded": { "label": "Gilded", "color": "#DE7500", "glyph": "𖃱", "icon": "𖃯", "bag": "gilded_totem" },
-    "irradiated": { "label": "Irradiated", "color": "#15CD15", "glyph": "𕌙", "icon": "𕑒", "bag": "irradiated_totem" },
-    "royal": { "label": "Royal", "color": "#CF08CF", "glyph": "𕌛", "icon": "𕑑", "bag": "royal_totem" },
-    "unholy": { "label": "Unholy", "color": "#B6D9D4", "glyph": "𕑦", "icon": "𕑝", "bag": "unholy_totem" },
-    "voidbound": { "label": "Voidbound", "color": "#D194F2", "glyph": "𖈵", "icon": "𖈯", "bag": "voidbound_totem" },
-    "companion": { "label": "Companion", "color": "#FFAA00", "glyph": "𕌚", "icon": "𕑓", "bag": "companion" },
+    "bloodshot": { "label": "Bloodshot", "color": "#87060B", "glyph": "𕌜", "icon": "𕑐", "bag": "bloodshot_totem" },
+    "gilded": { "label": "Gilded", "color": "#B93F12", "glyph": "𖃱", "icon": "𖃯", "bag": "gilded_totem" },
+    "irradiated": { "label": "Irradiated", "color": "#189506", "glyph": "𕌙", "icon": "𕑒", "bag": "irradiated_totem" },
+    "royal": { "label": "Royal", "color": "#AA00AA", "glyph": "𕌛", "icon": "𕑑", "bag": "royal_totem" },
+    "unholy": { "label": "Unholy", "color": "#94B0B1", "glyph": "𕑦", "icon": "𕑝", "bag": "unholy_totem" },
+    "voidbound": { "label": "Voidbound", "color": "#8D15F0", "glyph": "𖈵", "icon": "𖈯", "bag": "voidbound_totem" },
+    "companion": { "label": "Companion", "color": "#AE9000", "glyph": "𕌚", "icon": "𕑓", "bag": "companion" },
     "shiny": { "label": "Shiny", "color": "#00FFFF", "glyph": "𖊀", "icon": "𖊀", "bag": "shiny_totem" }
   },
   "eventBags": {
