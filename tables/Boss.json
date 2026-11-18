@@ -1,6 +1,7 @@
 {
   "version": 2,
   "portalSeconds": 30,
+  "disabled": [],
   "aliases": { "Raphael's Chamber": "Raph's Chamber", "The Aviary": "Aviary" },
   "bosses": [
     {
