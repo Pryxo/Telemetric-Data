@@ -2,7 +2,6 @@
   "version": 2,
   "portalSeconds": 30,
   "disabled": [],
-  "aliases": { "Raphael's Chamber": "Raph's Chamber", "The Aviary": "Aviary" },
   "bosses": [
     {
       "name": "Brakk",
@@ -666,7 +665,7 @@
     },
     {
       "name": "Raphael",
-      "dungeon": "Raph's Chamber",
+      "dungeon": "Raphael's Chamber",
       "bossBarHash": 254038329,
       "drops": [
         { "name": "Crimson Sourcestone", "chance": 1.0, "rarity": "bloodshot" },
