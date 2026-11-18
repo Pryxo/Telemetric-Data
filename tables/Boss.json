@@ -3,6 +3,12 @@
   "portalSeconds": 30,
   "disabled": [],
   "emptyZones": ["Voided Abyss"],
+  "menuText": {
+    "alive": "This boss is alive",
+    "defeated": "This boss has been defeated",
+    "notSpawned": "This boss has not spawned",
+    "waiting": ["not spawned", "hasn't", "invulnerable"]
+  },
   "bosses": [
     {
       "name": "Brakk",
@@ -257,6 +263,8 @@
         "idle": true,
         "counter": "\\((?<n>\\d+)/(?<max>\\d+)\\) Cog Stabilisers destroyed",
         "readyText": "Vulnerable",
+        "down": "A tear in reality reveals the entrance to a hidden sanctuary.?",
+        "portalSeconds": 60,
         "waypoints": [
           { "name": "Cog Stabilizer (1)", "x": 99627, "y": 45, "z": 99992 },
           { "name": "Cog Stabilizer (2)", "x": 99649, "y": 129, "z": 100180 },
@@ -381,15 +389,6 @@
         { "x": 10, "y": 222, "z": -122 }
       ],
       "tracker": { "call": "The only sleighing happening here is YOU, (?<player>.+)!" }
-    },
-    {
-      "name": "Raphael",
-      "icon": "telos:material/pet/onyx",
-      "bossBarHash": 254038329,
-      "positions": [
-        { "x": -15, "y": 243, "z": 88 }
-      ],
-      "tracker": { "progress": true, "portalSeconds": 60 }
     },
     {
       "name": "Eddie",
@@ -693,7 +692,12 @@
     {
       "name": "Raphael",
       "dungeon": "Raphael's Chamber",
+      "icon": "telos:material/pet/onyx",
       "bossBarHash": 254038329,
+      "positions": [
+        { "x": -15, "y": 243, "z": 88 }
+      ],
+      "tracker": { "progress": true, "portalSeconds": 60, "counterMax": 10 },
       "drops": [
         { "name": "Crimson Sourcestone", "chance": 1.0, "rarity": "bloodshot" },
         { "name": "Exaltling", "chance": 0.2, "id": "telos:pet/onyx" },
@@ -856,7 +860,8 @@
       "tracker": {
         "menuName": "Tenebris Portal",
         "counter": "\\((?<n>\\d+)/(?<max>\\d+)\\) Void Crystals shattered",
-        "ready": "A portal to Tenebris has opened in .+",
+        "down": "A portal to Tenebris has opened in .+",
+        "portalSeconds": 60,
         "readyText": "Open"
       },
       "drops": [
