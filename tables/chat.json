@@ -56,6 +56,5 @@
     { "name": "Drops", "category": "drops", "shown": true },
     { "name": "Deaths", "category": "deaths", "shown": false },
     { "name": "Crafts", "category": "crafts", "shown": false }
-  ],
-  "utility": ["Auction items have been updated\\.", "Auto-sell earnings: .*", "\\+.* Fame gained!.*"]
+  ]
 }

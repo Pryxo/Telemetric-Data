@@ -254,7 +254,7 @@
     {
       "name": "Cog Sentinel",
       "zone": "Radiant Isles",
-      "icon": "telos:material/bosses/cog_sentinel",
+      "icon": "telos:material/boss/cog_sentinel",
       "bossBarHash": -1370503157,
       "positions": [
         { "x": 100000, "y": 50, "z": 100000 }
@@ -372,11 +372,7 @@
       ],
       "tracker": {
         "call": "I stood for honor, but honor was my undoing (?<player>.+)!",
-        "spawn": "\\.\\.\\.",
-        "countFrom": ["Reaper", "Warden", "Herald"],
-        "defeat": "I must protect the final sphere!",
-        "portalSeconds": 60,
-        "counterMax": 4
+        "spawn": "\\.\\.\\."
       },
       "drops": [
         { "name": "Shrouded Shield", "chance": 0.8, "id": "telos:ability/shield/ut-shrouded", "rarity": "bloodshot", "shiny": true },
@@ -861,7 +857,7 @@
       "icon": "telos:material/boss/tenebris_portal",
       "bossBarHash": -1253581965,
       "positions": [
-        { "x": -99581, "y": 151, "z": -99606 }
+        { "x": -99365, "y": 144, "z": -99660 }
       ],
       "tracker": {
         "menuName": "Tenebris Portal",

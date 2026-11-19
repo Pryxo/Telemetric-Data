@@ -1,0 +1,136 @@
+{
+  "version": 1,
+  "bosses": {
+    "Brakk": [
+      "Brakk has been defeated.*",
+      "Brakk has spawned at .*"
+    ],
+    "Grimleaf": [
+      "Grimleaf has been defeated.*",
+      "Grimleaf has spawned at .*"
+    ],
+    "Hellmesh": [
+      "Hellmesh has been defeated.*",
+      "Hellmesh has spawned at .*"
+    ],
+    "Nocs": [
+      "Nocs has been defeated.*",
+      "Nocs has spawned at .*"
+    ],
+    "Gravesbane": [
+      "Gravesbane has been defeated.*",
+      "Gravesbane has spawned at .*"
+    ],
+    "Chungus": [
+      "Chungus has been defeated.*",
+      "Chungus has spawned at .*",
+      "\\[Chungus\\] The void strengthens me, .+!"
+    ],
+    "Illarius": [
+      "Illarius has been defeated.*",
+      "Illarius has spawned at .*",
+      "\\[Illarius\\] Don't send me back to Loa, .+!"
+    ],
+    "Astaroth": [
+      "Astaroth has been defeated.*",
+      "Astaroth has spawned at .*",
+      "\\[Astaroth\\] Your futile struggles are mere entertainment for the denizens of the void, .+"
+    ],
+    "Glumi": [
+      "Glumi has been defeated.*",
+      "Glumi has spawned at .*",
+      "\\[Glumi\\] You will not access the sacred caverns, .+!"
+    ],
+    "Lotil": [
+      "Lotil has been defeated.*",
+      "Lotil has spawned at .*",
+      "\\[Lotil\\] You will NOT take my symbolic shield away from me, .+!"
+    ],
+    "Tidol": [
+      "Tidol has been defeated.*",
+      "Tidol has spawned at .*",
+      "\\[Tidol\\] Face my trident, .+!"
+    ],
+    "Valus": [
+      "Valus has been defeated.*",
+      "Valus has spawned at .*",
+      "\\[Valus\\] You are not worthy of joining our worship, .+!"
+    ],
+    "Anubis": [
+      "Anubis has been defeated.*",
+      "Anubis has spawned at .*",
+      "\\[Anubis\\] You will not disturb their peace, .+!"
+    ],
+    "Hollowbane": [
+      "Hollowbane has been defeated.*",
+      "Hollowbane has spawned at .*",
+      "\\[Hollowbane\\] Hollow is your fate, as it is mine .+!"
+    ],
+    "Claus": [
+      "Claus has been defeated.*",
+      "Claus has spawned at .*",
+      "\\[Claus\\] The only sleighing happening here is YOU, .+!"
+    ],
+    "Luna": [
+      "Luna has been defeated.*",
+      "Luna has spawned at .*"
+    ],
+    "Aurehog": [
+      "Aurehog has been defeated.*",
+      "Aurehog has spawned at .*"
+    ],
+    "Cog Sentinel": [
+      "Cog Sentinel has been defeated.*",
+      "Cog Sentinel has spawned at .*",
+      "\\(\\d+/\\d+\\) Cog Stabilisers destroyed",
+      "A tear in reality reveals the entrance to a hidden sanctuary.?"
+    ],
+    "Oozul": [
+      "Oozul has been defeated.*",
+      "Oozul has spawned at .*"
+    ],
+    "Warden": [
+      "Warden has been defeated.*",
+      "Warden has spawned at .*",
+      "\\[Warden\\] Look at it, .+\\. This battle standard is all I have left to honour my fallen brethren\\.",
+      "\\[Warden\\] The flag flies once more\\.",
+      "\\[Warden\\] Remember us, warriors\\."
+    ],
+    "Herald": [
+      "Herald has been defeated.*",
+      "Herald has spawned at .*",
+      "\\[Herald\\] The flames cast deep shadows, .+\\. There’s a tragic tale within them, growing darker the further you stray\\.",
+      "\\[Herald\\] The torch burns bright\\.",
+      "\\[Herald\\] Never let go of the light\\."
+    ],
+    "Reaper": [
+      "Reaper has been defeated.*",
+      "Reaper has spawned at .*",
+      "\\[Reaper\\] We never knew what fate had in store for us, .+\\. And yet, dead men tell no tales\\.",
+      "\\[Reaper\\] The spectres watch closely\\.",
+      "\\[Reaper\\] So we shall persist in spirit\\."
+    ],
+    "Defender": [
+      "Defender has been defeated.*",
+      "Defender has spawned at .*",
+      "\\[Defender\\] I stood for honor, but honor was my undoing .+!",
+      "\\[Defender\\] \\.\\.\\."
+    ],
+    "Raphael": [
+      "Raphael has been defeated.*",
+      "Raphael has spawned at .*"
+    ],
+    "Voided Omnipotent": [
+      "Voided Omnipotent has been defeated.*",
+      "Voided Omnipotent has spawned at .*",
+      "\\(\\d+/\\d+\\) Void Crystals shattered",
+      "A portal to Tenebris has opened in .+"
+    ]
+  },
+  "misc": [
+    "Auction items have been updated\\.",
+    "Auto-sell earnings: .*",
+    "\\+.* Fame gained!.*",
+    "(?:[A-Za-z' ]{1,40})?[^A-Za-z0-9:\\n]*Bonus (?:dungeon )?chest has (?:spawned|been unlocked)[^\\n]*(?:\\n[^\\n]*)?"
+  ]
+}
