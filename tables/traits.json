@@ -1,5 +1,4 @@
 {
-  "version": 2,
   "tiers": ["D", "C", "B", "A", "S"],
   "weapon": [
     {

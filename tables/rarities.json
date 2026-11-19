@@ -1,5 +1,4 @@
 {
-  "version": 3,
   "rarities": {
     "bloodshot": { "label": "Bloodshot", "color": "#87060B", "glyph": "𕌜", "icon": "𕑐", "bag": "bloodshot_totem" },
     "gilded": { "label": "Gilded", "color": "#B93F12", "glyph": "𖃱", "icon": "𖃯", "bag": "gilded_totem" },

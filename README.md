@@ -11,7 +11,7 @@ The mod reads files from `https://raw.githubusercontent.com/Pryxo/Telemetric-Dat
   item/mount tables, prebuilt maps.
 - **No sensitive info. Ever.** No account names, UUIDs, emails, IPs, tokens, API keys, session ids, chat logs,
   or anything from a player's own stash/inventory. If unsure, leave it out.
-- Keep a file's format stable; when it must change, add a `"version"` field and bump it.
+- Keep a file's format stable (old jars download new files too). No version field — updates are found by the GitHub ETag.
 
 ## Layout
 | Path | What |
@@ -27,7 +27,7 @@ leave out anything else (no descriptions, sources or notes in the files).
 
 ## Tables
 ### `tables/Boss.json`
-Root: `version`, `portalSeconds` (default portal time of tracked bosses), `aliases` (in-game place name → dungeon name,
+Root: `portalSeconds` (default portal time of tracked bosses), `aliases` (in-game place name → dungeon name,
 e.g. `"The Aviary": "Aviary"`), `bosses` (list). One boss:
 
 | Field | Needed for | What |

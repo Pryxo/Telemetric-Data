@@ -1,5 +1,4 @@
 {
-  "version": 1,
   "cooldown": { "seconds": 15, "hpChangedSeconds": 10, "hpStep": 10 },
   "bars": {
     "Apostle": { "from": 50 },
