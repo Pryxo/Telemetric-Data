@@ -47,7 +47,7 @@
     "STATUS-SOLARFLARE": "",
     "STATUS-SILEX": "",
     "STATUS-SYLVARIS": "",
-    "STATUS-CHERUBIM": "",
+    "STATUS-CHERUBIM": "telos:material/bosses/cherubim",
     "STATUS-THALASSAR": "",
     "STATUS-THALOR": "",
     "STATUS-TIDOL": "telos:material/boss/tidol",
