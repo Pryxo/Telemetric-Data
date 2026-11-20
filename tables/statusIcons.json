@@ -6,9 +6,9 @@
     "Slots": { "singular": "Slot", "plural": "Slots" }
   },
   "icons": {
-    "STATUS-TRUE-OPHAN": { "Name": "True Ophanim", "icon": "telos:material/bosses/true_ophanim", "category": "Kills" },
-    "STATUS-TRUE-SERAPH": { "Name": "True Seraphim", "icon": "telos:material/bosses/true_seraphim", "category": "Kills" },
-    "STATUS-VOIDED-OMNIPOTENT": { "Name": "Voided Omnipotent", "icon": "telos:material/bosses/voided_omnipotent", "category": "Kills" },
+    "STATUS-TRUE-OPHAN": { "Name": "True Opha", "icon": "telos:material/bosses/true_ophanim", "category": "Kills" },
+    "STATUS-TRUE-SERAPH": { "Name": "True Sera", "icon": "telos:material/bosses/true_seraphim", "category": "Kills" },
+    "STATUS-VOIDED-OMNIPOTENT": { "Name": "Vomni", "icon": "telos:material/bosses/voided_omnipotent", "category": "Kills" },
     "STATUS-DEFENDER": { "Name": "Defender", "icon": "telos:material/boss/defender", "category": "Kills" },
     "STATUS-ANUBIS": { "Name": "Anubis", "icon": "telos:material/boss/anubis", "category": "Kills" },
     "STATUS-ARCTIC-COLOSSUS": { "Name": "Arctic Colossus", "icon": "telos:material/bosses/arctic_colossus", "category": "Kills" },
