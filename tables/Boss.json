@@ -185,7 +185,7 @@
     {
       "name": "Hollowbane",
       "icon": "telos:material/boss/hollowbane",
-      "bossBarHash": -1240191621,
+      "bossBarHash": [-1240191621, 832510374],
       "positions": [
         { "x": 233, "y": 200, "z": 703 },
         { "x": 231, "y": 43, "z": 696 }
