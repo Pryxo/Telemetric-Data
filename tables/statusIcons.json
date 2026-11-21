@@ -3,7 +3,10 @@
     "Kills": { "singular": "Kill", "plural": "Kills" },
     "Fame": { "singular": "Fame", "plural": "Fame" },
     "Glory": { "singular": "Glory", "plural": "Glory" },
-    "Slots": { "singular": "Slot", "plural": "Slots" }
+    "Slots": { "singular": "Slot", "plural": "Slots" },
+    "Drops": { "singular": "Drop", "plural": "Drops" },
+    "Hours": { "singular": "Hour", "plural": "Hours" },
+    "Deaths": { "singular": "Death", "plural": "Deaths" }
   },
   "icons": {
     "STATUS-TRUE-OPHAN": { "Name": "True Opha", "icon": "telos:material/bosses/true_ophanim", "category": "Kills" },
@@ -65,10 +68,24 @@
     "STATUS-MALTHAR": { "Name": "Malthar", "icon": "telos:material/bosses/malthar", "category": "Kills" },
     "STATUS-AETHERIS": { "Name": "Aetheris", "icon": "telos:material/bosses/aetheris", "category": "Kills" },
     "STATUS-HELLMESH": { "Name": "Hellmesh", "icon": "telos:material/boss/hellmesh", "category": "Kills" },
-    "STATUS-FAME": { "Name": "Fame", "icon": "telos:icon/ruleset/normal", "category": "Fame" },
+    "STATUS-FAME": { "Name": "Total Fame", "icon": "telos:icon/ruleset/normal", "category": "Fame" },
     "STATUS-SEASONAL-FAME": { "Name": "Seasonal Fame", "icon": "telos:icon/ruleset/seasonal", "category": "Fame" },
     "STATUS-GLORY": { "Name": "Glory", "icon": "telos:material/misc/wiki_economy", "category": "Glory" },
     "STATUS-SEASONAL-GLORY": { "Name": "Seasonal Glory", "icon": "telos:material/misc/wiki_economy", "category": "Glory" },
-    "STATUS-CHARACTER-SLOTS": { "Name": "Character Slots", "icon": "telos:material/misc/character_slot", "category": "Slots" }
+    "STATUS-CHARACTER-SLOTS": { "Name": "Character Slots", "icon": "telos:material/misc/character_slot", "category": "Slots" },
+    "STATUS-UNHOLY-DROPS": { "Name": "Unholy", "icon": "telos:material/pouch/unholy", "category": "Drops" },
+    "STATUS-SHINY-DROPS": { "Name": "Shiny", "icon": "telos:material/pouch/shiny", "category": "Drops" },
+    "STATUS-VOIDBOUND-DROPS": { "Name": "Voidbound", "icon": "telos:material/pouch/voidbound", "category": "Drops" },
+    "STATUS-BLOODSHOT-DROPS": { "Name": "Bloodshot", "icon": "telos:material/pouch/bloodshot", "category": "Drops" },
+    "STATUS-ROYAL-DROPS": { "Name": "Royal", "icon": "telos:material/pouch/royal", "category": "Drops" },
+    "STATUS-COMPANION-DROPS": { "Name": "Companion", "icon": "telos:material/pouch/companion", "category": "Drops" },
+    "STATUS-RUNE-DROPS": { "Name": "Rune", "icon": "telos:material/pouch/rune", "category": "Drops" },
+    "STATUS-GILDED-DROPS": { "Name": "Gilded", "icon": "telos:material/pouch/gilded", "category": "Drops" },
+    "STATUS-IRRADIATED-DROPS": { "Name": "Irradiated", "icon": "telos:material/pouch/irradiated", "category": "Drops" },
+    "STATUS-HALLOWEEN-DROPS": { "Name": "Halloween", "icon": "telos:material/pouch/halloween", "category": "Drops" },
+    "STATUS-CHRISTMAS-DROPS": { "Name": "Christmas", "icon": "telos:material/pouch/christmas", "category": "Drops" },
+    "STATUS-NORMAL-FAME": { "Name": "Normal Fame", "icon": "telos:icon/ruleset/normal", "category": "Fame" },
+    "STATUS-PLAYTIME": { "Name": "Playtime", "icon": "minecraft:clock", "category": "Hours" },
+    "STATUS-DEATHS": { "Name": "Deaths", "icon": "minecraft:skeleton_skull", "category": "Deaths" }
   }
 }
