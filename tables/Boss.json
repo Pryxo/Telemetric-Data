@@ -697,7 +697,7 @@
       ],
       "tracker": { "progress": true, "portalSeconds": 60, "counterMax": 8 },
       "drops": [
-        { "name": "Crimson Sourcestone", "chance": 1.0, "rarity": "bloodshot" },
+        { "name": "Crimson Sourcestone", "chance": 1.0, "rarity": "bloodshot", "shiny": true  },
         { "name": "Exaltling", "chance": 0.2, "id": "telos:pet/onyx" },
         { "name": "Celestial Serpent", "chance": 0.2, "id": "telos:mount/onyx" },
         { "name": "Wrathguard", "chance": 0.1, "id": "telos:armour/heavy/chestplate/ut-onyx", "rarity": "bloodshot", "shiny": true },
