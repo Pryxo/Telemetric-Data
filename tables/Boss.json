@@ -910,10 +910,10 @@
       "dungeon": "Celestial's Province",
       "bossBarHash": -1622067598,
       "drops": [
+        { "name": "Repentance", "chance": 0.25, "id": "telos:armour/magical/boots/ut-repentance", "rarity": "bloodshot", "mob": "Deimos" },
         { "name": "Visage Of The Night", "chance": 0.6, "id": "telos:ability/emblem/ut-visage", "rarity": "bloodshot", "shiny": true },
         { "name": "Baphomet's Bomb", "chance": 0.6, "id": "telos:ability/bomb/ut-baphomet", "rarity": "bloodshot", "shiny": true },
-        { "name": "Blood Of The Heretics", "chance": 0.6, "id": "telos:ability/poison/ut-heretics", "rarity": "bloodshot", "shiny": true },
-        { "name": "Repentance", "chance": 0.25, "id": "telos:armour/magical/boots/ut-repentance", "rarity": "bloodshot", "mob": "Deimos" }
+        { "name": "Blood Of The Heretics", "chance": 0.6, "id": "telos:ability/poison/ut-heretics", "rarity": "bloodshot", "shiny": true }
       ]
     },
     {
