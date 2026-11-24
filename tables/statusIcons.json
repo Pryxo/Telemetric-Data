@@ -68,7 +68,7 @@
     "STATUS-MALTHAR": { "Name": "Malthar", "icon": "telos:material/bosses/malthar", "category": "Kills" },
     "STATUS-AETHERIS": { "Name": "Aetheris", "icon": "telos:material/bosses/aetheris", "category": "Kills" },
     "STATUS-HELLMESH": { "Name": "Hellmesh", "icon": "telos:material/boss/hellmesh", "category": "Kills" },
-    "STATUS-FAME": { "Name": "Total Fame", "icon": "telos:icon/ruleset/normal", "category": "Fame" },
+    "STATUS-FAME": { "Name": "Total Fame", "icon": "telos:icon/misc/battlepass", "category": "Fame" },
     "STATUS-SEASONAL-FAME": { "Name": "Seasonal Fame", "icon": "telos:icon/ruleset/seasonal", "category": "Fame" },
     "STATUS-GLORY": { "Name": "Glory", "icon": "telos:material/misc/wiki_economy", "category": "Glory" },
     "STATUS-SEASONAL-GLORY": { "Name": "Seasonal Glory", "icon": "telos:material/misc/wiki_economy", "category": "Glory" },
@@ -85,7 +85,7 @@
     "STATUS-HALLOWEEN-DROPS": { "Name": "Halloween", "icon": "telos:material/pouch/halloween", "category": "Drops" },
     "STATUS-CHRISTMAS-DROPS": { "Name": "Christmas", "icon": "telos:material/pouch/christmas", "category": "Drops" },
     "STATUS-NORMAL-FAME": { "Name": "Normal Fame", "icon": "telos:icon/ruleset/normal", "category": "Fame" },
-    "STATUS-PLAYTIME": { "Name": "Playtime", "icon": "minecraft:clock", "category": "Hours" },
-    "STATUS-DEATHS": { "Name": "Deaths", "icon": "minecraft:skeleton_skull", "category": "Deaths" }
+    "STATUS-PLAYTIME": { "Name": "Playtime", "icon": "telos:icon/material/nexus", "category": "Hours" },
+    "STATUS-DEATHS": { "Name": "Deaths", "icon": "telos:icon/misc/dead", "category": "Deaths" }
   }
 }
