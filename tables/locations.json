@@ -3,6 +3,7 @@
     "telos:hub": "The Nexus",
     "telos:beach": "Beach",
     "telos:permafrost": "Permafrost",
+    "telos:shadowlands": "Shadowlands",
     "telos:neo_eden": "Neo Eden",
     "telos:skull_cavern": "Skull Cavern",
     "telos:thornwood_wargrove": "Thornwood Wargrove",
@@ -82,5 +83,6 @@
     "Tomb of Shadows",
     "Treasure Cave",
     "Undead Lair"
-  ]
+  ],
+  "liveMap": ["Shadowlands"]
 }
