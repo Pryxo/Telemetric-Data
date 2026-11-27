@@ -45,7 +45,7 @@
       ],
       "drops": [
         { "name": "Chain Combustion", "chance": 10.0, "id": "telos:weapon/sword/ut-chain", "rarity": "gilded" },
-        { "name": "Star Striker's", "chance": 10.0, "id": "telos:armour/magical/boots/ut-star", "rarity": "gilded" }
+        { "name": "Star Striker's", "chance": 10.0, "id": "telos:armour/magical/boots/ut-star", "rarity": "gilded", "shiny": true }
       ]
     },
     {
@@ -94,7 +94,7 @@
       "tracker": { "call": "Don't send me back to Loa, (?<player>.+)!" },
       "drops": [
         { "name": "Bow Of The Forest", "chance": 2.0, "id": "telos:weapon/bow/ut-forest", "rarity": "royal", "shiny": true },
-        { "name": "Branch Of Yggdrasil", "chance": 2.0, "id": "telos:weapon/sceptre/ut-branch", "rarity": "royal" },
+        { "name": "Branch Of Yggdrasil", "chance": 2.0, "id": "telos:weapon/sceptre/ut-branch", "rarity": "royal", "shiny": true },
         { "name": "Cursed Brigadine", "chance": 2.0, "id": "telos:armour/light/chestplate/ut-brigadine", "rarity": "royal", "shiny": true }
       ]
     },
@@ -123,7 +123,7 @@
       "drops": [
         { "name": "Crystal Poison", "chance": 2.0, "id": "telos:ability/poison/ut-crystal", "rarity": "royal", "shiny": true },
         { "name": "Crystal Kunai", "chance": 2.0, "id": "telos:ability/kunai/ut-crystal", "rarity": "royal", "shiny": true },
-        { "name": "Crystal Gumboots", "chance": 2.0, "id": "telos:armour/light/boots/ut-gumboots", "rarity": "royal" }
+        { "name": "Crystal Gumboots", "chance": 2.0, "id": "telos:armour/light/boots/ut-gumboots", "rarity": "royal", "shiny": true }
       ]
     },
     {
@@ -137,7 +137,7 @@
       "drops": [
         { "name": "Shield Of Ogmur", "chance": 2.0, "id": "telos:ability/shield/ut-ogmur", "rarity": "royal" },
         { "name": "Cloak Of The Warlord", "chance": 2.0, "id": "telos:ability/cloak/ut-warlord", "rarity": "royal", "shiny": true },
-        { "name": "Star Of Validation", "chance": 2.0, "id": "telos:ability/star/ut-validation", "rarity": "royal" }
+        { "name": "Star Of Validation", "chance": 2.0, "id": "telos:ability/star/ut-validation", "rarity": "royal", "shiny": true }
       ]
     },
     {
@@ -177,9 +177,9 @@
       ],
       "tracker": { "call": "You will not disturb their peace, (?<player>.+)!" },
       "drops": [
-        { "name": "Anubis Staff", "chance": 2.0, "id": "telos:weapon/staff/ut-anubis", "rarity": "royal" },
+        { "name": "Anubis Staff", "chance": 2.0, "id": "telos:weapon/staff/ut-anubis", "rarity": "royal", "shiny": true },
         { "name": "Jewel Of The Nile", "chance": 2.0, "id": "telos:ability/jewel/ut-nile", "rarity": "royal" },
-        { "name": "Face Of The Hound", "chance": 2.0, "id": "telos:armour/heavy/helmet/ut-hound", "rarity": "royal" }
+        { "name": "Face Of The Hound", "chance": 2.0, "id": "telos:armour/heavy/helmet/ut-hound", "rarity": "royal", "shiny": true }
       ]
     },
     {
@@ -290,15 +290,15 @@
         { "x": -424, "y": 205, "z": 91 }
       ],
       "drops": [
-        { "name": "Skull Shaped Slime", "chance": 10.0, "id": "telos:ability/skull/ut-slime", "rarity": "gilded" },
+        { "name": "Skull Shaped Slime", "chance": 10.0, "id": "telos:ability/skull/ut-slime", "rarity": "gilded", "shiny": true},
         { "name": "Sacrificial Vow", "chance": 10.0, "id": "telos:armour/heavy/helmet/ut-vow", "rarity": "gilded", "shiny": true }
       ]
     },
     {
       "name": "Vudu",
       "drops": [
-        { "name": "Sharp Pain", "chance": 10.0, "id": "telos:weapon/staff/ut-sharp", "rarity": "gilded" },
-        { "name": "Screech Of Silence", "chance": 10.0, "id": "telos:weapon/sceptre/ut-silence", "rarity": "gilded" }
+        { "name": "Sharp Pain", "chance": 10.0, "id": "telos:weapon/staff/ut-sharp", "rarity": "gilded", "shiny": true },
+        { "name": "Screech Of Silence", "chance": 10.0, "id": "telos:weapon/sceptre/ut-silence", "rarity": "gilded", "shiny": true }
       ]
     },
     {
@@ -340,7 +340,7 @@
       "drops": [
         { "name": "Heraldic Heelguards", "chance": 2.0, "id": "telos:armour/heavy/boots/ut-heelguards", "rarity": "royal" },
         { "name": "Luminous Flame", "chance": 2.0, "id": "telos:weapon/sceptre/ut-luminous", "rarity": "royal" },
-        { "name": "Last Stand", "chance": 0.6, "id": "telos:ability/trap/ut-last", "rarity": "bloodshot" }
+        { "name": "Last Stand", "chance": 0.6, "id": "telos:ability/trap/ut-last", "rarity": "bloodshot", "shiny": true }
       ]
     },
     {
@@ -361,7 +361,7 @@
       "drops": [
         { "name": "Soulless Shoes", "chance": 2.0, "id": "telos:armour/magical/boots/ut-soulless", "rarity": "royal" },
         { "name": "Chalice Of Rot", "chance": 2.0, "id": "telos:ability/poison/ut-rot", "rarity": "royal" },
-        { "name": "Reaper's Vest", "chance": 0.6, "id": "telos:armour/light/chestplate/ut-reaper", "rarity": "bloodshot" }
+        { "name": "Reaper's Vest", "chance": 0.6, "id": "telos:armour/light/chestplate/ut-reaper", "rarity": "bloodshot", "shiny": true }
       ]
     },
     {
@@ -443,7 +443,7 @@
       "bossBarHash": 230865898,
       "drops": [
         { "name": "Khufu's Skull", "chance": 33.0, "id": "telos:ability/skull/ut-khufu", "rarity": "irradiated" },
-        { "name": "Veil Of Shadows", "chance": 33.0, "id": "telos:ability/cloak/ut-shadows", "rarity": "irradiated" },
+        { "name": "Veil Of Shadows", "chance": 33.0, "id": "telos:ability/cloak/ut-shadows", "rarity": "irradiated", "shiny": true },
         { "name": "Hood Of Stealth", "chance": 33.0, "id": "telos:armour/magical/helmet/ut-stealth", "rarity": "irradiated", "shiny": true },
         { "name": "Khufy", "chance": 2.0, "id": "telos:pet/tomb_of_shadows" },
         { "name": "Shadow Scorpid", "chance": 2.0, "id": "telos:mount/tomb_of_shadows" }
@@ -466,7 +466,7 @@
       "bossBarHash": 291455870,
       "drops": [
         { "name": "Flora Boots", "chance": 33.0, "id": "telos:armour/magical/boots/ut-flora", "rarity": "irradiated" },
-        { "name": "Cross Grass Dagger", "chance": 33.0, "id": "telos:weapon/dagger/ut-grass", "rarity": "irradiated" },
+        { "name": "Cross Grass Dagger", "chance": 33.0, "id": "telos:weapon/dagger/ut-grass", "rarity": "irradiated", "shiny": true },
         { "name": "Overgrown Orb", "chance": 33.0, "id": "telos:ability/orb/ut-overgrown", "rarity": "irradiated" },
         { "name": "Undead Ent", "chance": 2.0, "id": "telos:pet/secluded_woodland" },
         { "name": "Thornscale", "chance": 2.0, "id": "telos:mount/secluded_woodland" }
@@ -503,7 +503,7 @@
       "drops": [
         { "name": "Frozen Star", "chance": 10.0, "id": "telos:ability/star/ut-frozen", "rarity": "gilded", "shiny": true },
         { "name": "Frostspark Scripture", "chance": 10.0, "id": "telos:ability/scripture/ut-frostspark", "rarity": "gilded", "shiny": true },
-        { "name": "Frozen Jewel", "chance": 10.0, "id": "telos:ability/jewel/ut-frozen", "rarity": "gilded" },
+        { "name": "Frozen Jewel", "chance": 10.0, "id": "telos:ability/jewel/ut-frozen", "rarity": "gilded", "shiny": true },
         { "name": "Ice Penguin", "chance": 1.0, "id": "telos:pet/ice_cave" },
         { "name": "Frostfang", "chance": 1.0, "id": "telos:mount/ice_cave" }
       ]
@@ -515,7 +515,7 @@
       "drops": [
         { "name": "Dwarven Kunai", "chance": 10.0, "id": "telos:ability/kunai/ut-dwarven", "rarity": "gilded" },
         { "name": "Dwarven Emblem", "chance": 10.0, "id": "telos:ability/emblem/ut-dwarven", "rarity": "gilded", "shiny": true },
-        { "name": "Dwarven Cloak", "chance": 10.0, "id": "telos:ability/cloak/ut-dwarven", "rarity": "gilded" },
+        { "name": "Dwarven Cloak", "chance": 10.0, "id": "telos:ability/cloak/ut-dwarven", "rarity": "gilded", "shiny": true },
         { "name": "Mini Dwarf", "chance": 1.0, "id": "telos:pet/dwarven_frostkeep" },
         { "name": "Glacial Runner", "chance": 1.0, "id": "telos:mount/dwarven_frostkeep" }
       ]
@@ -538,7 +538,7 @@
       "bossBarHash": -1253198526,
       "drops": [
         { "name": "Orb Of Torment", "chance": 10.0, "id": "telos:ability/orb/ut-torment", "rarity": "gilded" },
-        { "name": "Bomb Of Torment", "chance": 10.0, "id": "telos:ability/bomb/ut-torment", "rarity": "gilded" },
+        { "name": "Bomb Of Torment", "chance": 10.0, "id": "telos:ability/bomb/ut-torment", "rarity": "gilded", "shiny": true },
         { "name": "Chestplate Of Torment", "chance": 10.0, "id": "telos:armour/heavy/chestplate/ut-torment", "rarity": "gilded", "shiny": true },
         { "name": "Pyroc", "chance": 1.0, "id": "telos:pet/purgatory" },
         { "name": "Hydroscorch", "chance": 1.0, "id": "telos:mount/purgatory" }
@@ -606,7 +606,7 @@
       "dungeon": "Fungal Cavern",
       "bossBarHash": -708336010,
       "drops": [
-        { "name": "Crystal Trap", "chance": 2.0, "id": "telos:ability/trap/ut-crystal", "rarity": "royal" },
+        { "name": "Crystal Trap", "chance": 2.0, "id": "telos:ability/trap/ut-crystal", "rarity": "royal", "shiny": true },
         { "name": "Crystal Shield", "chance": 2.0, "id": "telos:ability/shield/ut-crystal", "rarity": "royal", "shiny": true },
         { "name": "Crystal Boots", "chance": 2.0, "id": "telos:armour/magical/boots/ut-fungal", "rarity": "royal", "shiny": true },
         { "name": "Amethyst Wormpiercer", "chance": 0.8, "id": "telos:weapon/bow/ut-amethyst", "rarity": "bloodshot" },
@@ -632,9 +632,9 @@
       "dungeon": "Anubis Lair",
       "bossBarHash": -342534076,
       "drops": [
-        { "name": "Mechanical Cutlass", "chance": 2.0, "id": "telos:weapon/sword/ut-cutlass", "rarity": "royal" },
+        { "name": "Mechanical Cutlass", "chance": 2.0, "id": "telos:weapon/sword/ut-cutlass", "rarity": "royal", "shiny": true },
         { "name": "Black Hole Sandals", "chance": 2.0, "id": "telos:armour/light/boots/ut-blackhole", "rarity": "royal" },
-        { "name": "Voltaic Bomb", "chance": 2.0, "id": "telos:ability/bomb/ut-voltaic", "rarity": "royal" },
+        { "name": "Voltaic Bomb", "chance": 2.0, "id": "telos:ability/bomb/ut-voltaic", "rarity": "royal", "shiny": true },
         { "name": "Cloak Of Ionised Darkness", "chance": 0.8, "id": "telos:ability/cloak/ut-darkness", "rarity": "bloodshot" },
         { "name": "Beast Master", "chance": 0.4, "id": "telos:pet/anubis_lair" },
         { "name": "Necrowyrm", "chance": 0.4, "id": "telos:mount/anubis_lair" }
@@ -657,8 +657,8 @@
       "dungeon": "Cultist's Hideout",
       "bossBarHash": -1643392642,
       "drops": [
-        { "name": "Soulrend Ravager", "chance": 2.0, "id": "telos:weapon/katana/ut-soulrend", "rarity": "royal" },
-        { "name": "Staff Of Unholy Sacrifice", "chance": 2.0, "id": "telos:weapon/staff/ut-unholy", "rarity": "royal" },
+        { "name": "Soulrend Ravager", "chance": 2.0, "id": "telos:weapon/katana/ut-soulrend", "rarity": "royal", "shiny": true },
+        { "name": "Staff Of Unholy Sacrifice", "chance": 2.0, "id": "telos:weapon/staff/ut-unholy", "rarity": "royal", "shiny": true },
         { "name": "Hood Of The Cultist", "chance": 2.0, "id": "telos:armour/magical/helmet/ut-cultist", "rarity": "royal", "shiny": true },
         { "name": "Souls Of The Cult", "chance": 0.8, "id": "telos:ability/jewel/ut-souls", "rarity": "bloodshot" },
         { "name": "Lil' Monk", "chance": 0.2, "id": "telos:pet/cultists_hideout" },
@@ -773,7 +773,7 @@
       "bossBarHash": -828991878,
       "drops": [
         { "name": "Light's Pull", "chance": 2.0, "id": "telos:ability/bomb/ut-light", "rarity": "royal" },
-        { "name": "Dagger Of Dissonance", "chance": 2.0, "id": "telos:weapon/dagger/ut-dissonance", "rarity": "royal" },
+        { "name": "Dagger Of Dissonance", "chance": 2.0, "id": "telos:weapon/dagger/ut-dissonance", "rarity": "royal", "shiny": true },
         { "name": "Heaven's Augmentation", "chance": 2.0, "id": "telos:ability/emblem/ut-heaven", "rarity": "royal", "shiny": true },
         { "name": "Sun's Blessing", "chance": 0.8, "id": "telos:ability/scripture/ut-blessing", "rarity": "bloodshot" },
         { "name": "Radle", "chance": 0.2, "id": "telos:pet/aurora_sanctum" },
@@ -800,7 +800,7 @@
       "drops": [
         { "name": "Se'arah", "chance": 0.6, "id": "telos:weapon/bow/ut-searah", "rarity": "bloodshot", "shiny": true },
         { "name": "Category Six", "chance": 0.6, "id": "telos:weapon/dagger/ut-six", "rarity": "bloodshot", "shiny": true },
-        { "name": "Leggings Of False Glory", "chance": 0.6, "id": "telos:armour/magical/leggings/ut-glory", "rarity": "bloodshot" }
+        { "name": "Leggings Of False Glory", "chance": 0.6, "id": "telos:armour/magical/leggings/ut-glory", "rarity": "bloodshot", "shiny": true }
       ]
     },
     {
@@ -820,7 +820,7 @@
       "drops": [
         { "name": "Fractured Firmament", "chance": 0.6, "id": "telos:weapon/sceptre/ut-firmament", "rarity": "bloodshot", "shiny": true },
         { "name": "Nachash Of The First Lie", "chance": 0.6, "id": "telos:weapon/katana/ut-nachash", "rarity": "bloodshot", "shiny": true },
-        { "name": "Forbidden Fleece", "chance": 0.6, "id": "telos:armour/light/chestplate/ut-forbidden", "rarity": "bloodshot" },
+        { "name": "Forbidden Fleece", "chance": 0.6, "id": "telos:armour/light/chestplate/ut-forbidden", "rarity": "bloodshot", "shiny": true },
         { "name": "Charm of Blasphemy", "chance": 0.6, "rarity": "unholy" },
         { "name": "Cheracube", "chance": 0.2, "id": "telos:pet/neo_eden" },
         { "name": "Ezekyros", "chance": 0.2, "id": "telos:mount/neo_eden" }
