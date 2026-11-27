@@ -15,8 +15,9 @@ Everything the Telos Map and minimap mark — the mod has no marker data of its 
   `idle`, `defeated`, `unseen` = the tracker hasn't seen it).
 - `categories` (legend rows, drawing order): `id`, `label` (legend + settings name), `source` (`markers` = the list
   below, `players` = loaded players), `live` (state + state colour from the Boss Tracker, matched by marker name),
-  `shape` (`icon` — a dot if the icon isn't in the pack —, `dot`, `diamond`, `head`), optional `icon` (item model for
-  the legend and markers without one), `color` (`#RRGGBB` or a Boss Tracker state: `alive`, `fighting`, `portal`,
+  `shape` (`icon`, `dot`, `diamond`, `head`; with an icon `icon`/`dot` are a round badge and `diamond` a diamond
+  badge around it, without one a dot / diamond), optional `icon` (item model for the legend and markers without
+  one; the legend falls back to the first marker's icon), `color` (`#RRGGBB` or a Boss Tracker state: `alive`, `fighting`, `portal`,
   `idle`, `defeated`), `size` (factor), `labelZoom` (names from this zoom in GUI px/block; leave out = hover only),
   `fade` (opacity of inactive markers), `map` / `minimap` (shown by default).
 - `markers`: `category`, `name`, `region` (`map.json` id), optional `icon`, `color`, `note` (tooltip line), and

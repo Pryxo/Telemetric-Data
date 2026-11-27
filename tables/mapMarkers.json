@@ -10,8 +10,8 @@
   "categories": [
     {"id": "bosses", "label": "Bosses", "source": "markers", "live": true, "shape": "icon", "color": "alive", "size": 1.0, "labelZoom": 2.5, "fade": 0.9, "map": true, "minimap": true},
     {"id": "minibosses", "label": "Minibosses", "source": "markers", "shape": "icon", "color": "idle", "size": 1.0, "labelZoom": 2.5, "fade": 0.75, "map": true, "minimap": false},
-    {"id": "stabilizers", "label": "Cog Stabilizers", "source": "markers", "shape": "diamond", "color": "idle", "size": 1.0, "fade": 0.9, "map": true, "minimap": true},
-    {"id": "crstal", "label": "Void Crystal", "source": "markers", "shape": "diamond", "color": "idle", "size": 1.0, "fade": 0.9, "map": true, "minimap": true},
+    {"id": "stabilizers", "label": "Cog Stabilizers", "source": "markers", "shape": "diamond", "icon": "telos:material/boss/cog_sentinel", "color": "idle", "size": 1.0, "fade": 0.9, "map": true, "minimap": true},
+    {"id": "crystal", "label": "Void Crystals", "source": "markers", "shape": "diamond", "icon": "telos:material/misc/nihility", "color": "idle", "size": 1.0, "fade": 0.9, "map": true, "minimap": true},
     {"id": "players", "label": "Players", "source": "players", "shape": "head", "color": "#FFFFFF", "size": 1.0, "labelZoom": 2.5, "map": true, "minimap": true}
   ],
   "markers": [
