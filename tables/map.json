@@ -1,0 +1,28 @@
+{
+  "regions": [
+    {
+      "id": "main", "label": "Realm", "zone": "",
+      "tiles": [
+        { "file": "maps/main.png", "x1": -768, "z1": -768, "x2": 895, "z2": 895, "sha256": "dd6905738f9b41ea4a218ce7f73517bfe8c57eb818b739bc7462571c32eb51ee" }
+      ]
+    },
+    {
+      "id": "shadowlands", "label": "Shadowlands", "zone": "Shadowlands",
+      "tiles": [
+        { "file": "maps/shadowlands.png", "x1": -354, "z1": -354, "x2": 486, "z2": 494, "sha256": "afe574d10e6ab4ab70a9a32706e24f7dbb0d1dcc5590879c62c91adf91bae0f8" }
+      ]
+    },
+    {
+      "id": "radiant_isles", "label": "Radiant Isles", "zone": "Radiant Isles",
+      "tiles": [
+        { "file": "maps/radiant_isles.png", "x1": 99432, "z1": 99475, "x2": 100502, "z2": 100461, "sha256": "586f9f5b8fa3331d722b6d29d9936ecffe41a7994cad620ad919fd3c0be624bf" }
+      ]
+    },
+    {
+      "id": "voided_abyss", "label": "Voided Abyss", "zone": "Voided Abyss",
+      "tiles": [
+        { "file": "maps/voided_abyss.png", "x1": -100002, "z1": -100002, "x2": -99154, "z2": -99475, "sha256": "f6166751b065ff7c2526a757e34a48703f3211c2a80942d39cbbcd672190ab67" }
+      ]
+    }
+  ]
+}
