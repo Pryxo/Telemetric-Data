@@ -11,6 +11,7 @@
     {"id": "bosses", "label": "Bosses", "source": "markers", "live": true, "shape": "icon", "color": "alive", "size": 1.0, "labelZoom": 2.5, "fade": 0.9, "map": true, "minimap": true},
     {"id": "minibosses", "label": "Minibosses", "source": "markers", "shape": "icon", "color": "idle", "size": 1.0, "labelZoom": 2.5, "fade": 0.75, "map": true, "minimap": false},
     {"id": "stabilizers", "label": "Cog Stabilizers", "source": "markers", "shape": "diamond", "color": "idle", "size": 1.0, "fade": 0.9, "map": true, "minimap": true},
+    {"id": "crstal", "label": "Void Crystal", "source": "markers", "shape": "diamond", "color": "idle", "size": 1.0, "fade": 0.9, "map": true, "minimap": true},
     {"id": "players", "label": "Players", "source": "players", "shape": "head", "color": "#FFFFFF", "size": 1.0, "labelZoom": 2.5, "map": true, "minimap": true}
   ],
   "markers": [
@@ -27,7 +28,6 @@
     {"category": "bosses", "name": "Tidol", "region": "main", "icon": "telos:material/boss/tidol", "spots": [{"x": -543, "y": 199, "z": 364}]},
     {"category": "bosses", "name": "Valus", "region": "main", "icon": "telos:material/boss/valus", "spots": [{"x": 35, "y": 220, "z": 307}]},
     {"category": "bosses", "name": "Anubis", "region": "main", "icon": "telos:material/boss/anubis", "spots": [{"x": 458, "y": 214, "z": -467}]},
-    {"category": "bosses", "name": "Hollowbane", "region": "main", "icon": "telos:material/boss/hollowbane", "spots": [{"x": 233, "y": 200, "z": 703}, {"x": 231, "y": 43, "z": 696}]},
     {"category": "bosses", "name": "Claus", "region": "main", "icon": "telos:material/boss/claus", "spots": [{"x": 10, "y": 212, "z": -118}]},
     {"category": "minibosses", "name": "Luna", "region": "radiant_isles", "icon": "telos:material/boss/luna", "note": "Miniboss", "spots": [{"x": 100408, "y": 103, "z": 100030}, {"x": 100228, "y": 115, "z": 100131}, {"x": 99798, "y": 9, "z": 99718}, {"x": 99567, "y": 69, "z": 100013}]},
     {"category": "minibosses", "name": "Aurehog", "region": "radiant_isles", "icon": "telos:material/boss/aurehog", "note": "Miniboss", "spots": [{"x": 100101, "y": 113, "z": 100305}, {"x": 99884, "y": 200, "z": 100330}, {"x": 99911, "y": 194, "z": 99586}, {"x": 100102, "y": 64, "z": 99646}]},
@@ -42,10 +42,18 @@
     {"category": "stabilizers", "name": "Cog Stabilizer (8)", "region": "radiant_isles", "icon": "telos:material/boss/cog_sentinel", "note": "Cog Sentinel", "spots": [{"x": 99867, "y": 142, "z": 99594}]},
     {"category": "stabilizers", "name": "Cog Stabilizer (9)", "region": "radiant_isles", "icon": "telos:material/boss/cog_sentinel", "note": "Cog Sentinel", "spots": [{"x": 99703, "y": 65, "z": 99730}]},
     {"category": "stabilizers", "name": "Cog Stabilizer (10)", "region": "radiant_isles", "note": "Cog Sentinel", "spots": [{"x": 99806, "y": 9, "z": 99869}]},
-    {"category": "minibosses", "name": "Oozul", "region": "main", "icon": "telos:material/boss/oozul", "note": "Miniboss", "spots": [{"x": -424, "y": 205, "z": 91}]},
     {"category": "bosses", "name": "Warden", "region": "shadowlands", "icon": "telos:material/boss/warden", "spots": [{"x": -125, "y": -46, "z": -122}]},
     {"category": "bosses", "name": "Herald", "region": "shadowlands", "icon": "telos:material/boss/herald", "spots": [{"x": 148, "y": -47, "z": -176}]},
     {"category": "bosses", "name": "Reaper", "region": "shadowlands", "icon": "telos:material/boss/reaper", "spots": [{"x": 22, "y": -47, "z": 323}]},
-    {"category": "bosses", "name": "Defender", "region": "shadowlands", "icon": "telos:material/boss/defender", "spots": [{"x": 65, "y": -51, "z": 64}]}
+    {"category": "bosses", "name": "Defender", "region": "shadowlands", "icon": "telos:material/boss/defender", "spots": [{"x": 65, "y": -51, "z": 64}]},
+    {"category": "minibosses", "name": "Oozul", "region": "voided_abyss", "icon": "telos:material/boss/oozul", "note": "Miniboss", "spots": [{"x": -99324, "y": 148, "z": -99957}, {"x": -99454, "y": 152, "z": -99957}, {"x": -99596, "y": 152, "z": -99692}]},
+    {"category": "minibosses", "name": "Vudu", "region": "voided_abyss", "icon": "telos:material/boss/vudu", "note": "Miniboss", "spots": [{"x": -99249, "y": 157, "z": -99681}, {"x": -99965, "y": 158, "z": -99864}, {"x": -99948, "y": 154, "z": -99619}]},
+    {"category": "crystal", "name": "Void Crystal (1)", "region": "voided_abyss", "icon": "telos:material/misc/nihility", "note": "Void Crystal", "spots": [{"x": -99716, "y": 151, "z": -99855}]},
+    {"category": "crystal", "name": "Void Crystal (2)", "region": "voided_abyss", "icon": "telos:material/misc/nihility", "note": "Void Crystal", "spots": [{"x": -99709, "y": 144, "z": -99726}]},
+    {"category": "crystal", "name": "Void Crystal (3)", "region": "voided_abyss", "icon": "telos:material/misc/nihility", "note": "Void Crystal", "spots": [{"x": -99805, "y": 146, "z": -99546}]},
+    {"category": "crystal", "name": "Void Crystal (4)", "region": "voided_abyss", "icon": "telos:material/misc/nihility", "note": "Void Crystal", "spots": [{"x": -99853, "y": 145, "z": -99687}]},
+    {"category": "crystal", "name": "Void Crystal (5)", "region": "voided_abyss", "icon": "telos:material/misc/nihility", "note": "Void Crystal", "spots": [{"x": -99553, "y": 145, "z": -99861}]},
+    {"category": "crystal", "name": "Void Crystal (6)", "region": "voided_abyss", "icon": "telos:material/misc/nihility", "note": "Void Crystal", "spots": [{"x": -99422, "y": 145, "z": -99694}]},
+    {"category": "crystal", "name": "Void Crystal (7)", "region": "voided_abyss", "icon": "telos:material/misc/nihility", "note": "Void Crystal", "spots": [{"x": -99537, "y": 144, "z": -99639}]}
   ]
 }
