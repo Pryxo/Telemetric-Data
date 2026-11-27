@@ -3,13 +3,13 @@
     {
       "id": "main", "label": "Realm", "zone": "",
       "tiles": [
-        { "file": "maps/main.png", "x1": -768, "z1": -768, "x2": 895, "z2": 895, "sha256": "dd6905738f9b41ea4a218ce7f73517bfe8c57eb818b739bc7462571c32eb51ee" }
+        { "file": "maps/main.png", "x1": -768, "z1": -768, "x2": 895, "z2": 895, "sha256": "6e13fb99bd0840fe2d518fce1917bdf5cab5d84def7150bbcc46a4b6ef3c8e95" }
       ]
     },
     {
       "id": "shadowlands", "label": "Shadowlands", "zone": "Shadowlands",
       "tiles": [
-        { "file": "maps/shadowlands.png", "x1": -352, "z1": -352, "x2": 479, "z2": 479, "sha256": "afe574d10e6ab4ab70a9a32706e24f7dbb0d1dcc5590879c62c91adf91bae0f8" }
+        { "file": "maps/shadowlands.png", "x1": -352, "z1": -352, "x2": 479, "z2": 479, "sha256": "b50642ddea875b6be67dd383474146f9be669e5e6165f6a527d41c4ea043ab28" }
       ]
     },
     {
@@ -21,7 +21,7 @@
     {
       "id": "voided_abyss", "label": "Voided Abyss", "zone": "Voided Abyss",
       "tiles": [
-        { "file": "maps/voided_abyss.png", "x1": -100000, "z1": -100000, "x2": -99169, "z2": -99489, "sha256": "f6166751b065ff7c2526a757e34a48703f3211c2a80942d39cbbcd672190ab67" }
+        { "file": "maps/voided_abyss.png", "x1": -100000, "z1": -100000, "x2": -99169, "z2": -99489, "sha256": "a9874b9f0a040957f6cc975cb3a00858842fdbff3767ca0f755539b32d4b6483" }
       ]
     }
   ]
