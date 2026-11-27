@@ -1,0 +1,51 @@
+{
+  "states": {
+    "alive": "Alive",
+    "fighting": "Fighting: {player}",
+    "portal": "Portal open · {seconds}s",
+    "idle": "Not spawned",
+    "defeated": "Defeated",
+    "unseen": "Not up"
+  },
+  "categories": [
+    {"id": "bosses", "label": "Bosses", "source": "markers", "live": true, "shape": "icon", "color": "alive", "size": 1.0, "labelZoom": 2.5, "fade": 0.9, "map": true, "minimap": true},
+    {"id": "minibosses", "label": "Minibosses", "source": "markers", "shape": "icon", "color": "idle", "size": 1.0, "labelZoom": 2.5, "fade": 0.75, "map": true, "minimap": false},
+    {"id": "stabilizers", "label": "Cog Stabilizers", "source": "markers", "shape": "diamond", "color": "idle", "size": 1.0, "fade": 0.9, "map": true, "minimap": true},
+    {"id": "players", "label": "Players", "source": "players", "shape": "head", "color": "#FFFFFF", "size": 1.0, "labelZoom": 2.5, "map": true, "minimap": true}
+  ],
+  "markers": [
+    {"category": "minibosses", "name": "Brakk", "region": "main", "icon": "telos:material/boss/brakk", "note": "Miniboss", "spots": [{"x": 701, "y": 196, "z": 128}, {"x": 532, "y": 197, "z": 644}, {"x": -406, "y": 196, "z": 498}, {"x": -571, "y": 196, "z": -303}, {"x": -445, "y": 196, "z": -469}]},
+    {"category": "minibosses", "name": "Grimleaf", "region": "main", "icon": "telos:material/boss/grimleaf", "note": "Miniboss", "spots": [{"x": -292, "y": 202, "z": -63}, {"x": -287, "y": 204, "z": 315}, {"x": 439, "y": 203, "z": 301}, {"x": 432, "y": 201, "z": 230}, {"x": 570, "y": 205, "z": -134}]},
+    {"category": "minibosses", "name": "Hellmesh", "region": "main", "icon": "telos:material/boss/hellmesh", "note": "Miniboss", "spots": [{"x": 222, "y": 217, "z": -39}, {"x": 134, "y": 216, "z": -13}]},
+    {"category": "minibosses", "name": "Nocs", "region": "main", "icon": "telos:material/boss/nocs", "note": "Miniboss", "spots": [{"x": -60, "y": 215, "z": 37}, {"x": -111, "y": 211, "z": 99}]},
+    {"category": "minibosses", "name": "Gravesbane", "region": "main", "icon": "telos:material/boss/gravesbane", "note": "Miniboss", "spots": [{"x": 108, "y": 171, "z": 288}, {"x": -103, "y": 169, "z": 334}]},
+    {"category": "bosses", "name": "Chungus", "region": "main", "icon": "telos:material/boss/chungus", "spots": [{"x": 61, "y": 266, "z": -490}]},
+    {"category": "bosses", "name": "Illarius", "region": "main", "icon": "telos:material/boss/illarius", "spots": [{"x": 479, "y": 211, "z": -44}]},
+    {"category": "bosses", "name": "Astaroth", "region": "main", "icon": "telos:material/boss/astaroth", "spots": [{"x": 250, "y": 228, "z": 60}]},
+    {"category": "bosses", "name": "Glumi", "region": "main", "icon": "telos:material/boss/glumi", "spots": [{"x": 317, "y": 200, "z": 558}]},
+    {"category": "bosses", "name": "Lotil", "region": "main", "icon": "telos:material/boss/lotil", "spots": [{"x": -138, "y": 223, "z": 17}]},
+    {"category": "bosses", "name": "Tidol", "region": "main", "icon": "telos:material/boss/tidol", "spots": [{"x": -543, "y": 199, "z": 364}]},
+    {"category": "bosses", "name": "Valus", "region": "main", "icon": "telos:material/boss/valus", "spots": [{"x": 35, "y": 220, "z": 307}]},
+    {"category": "bosses", "name": "Anubis", "region": "main", "icon": "telos:material/boss/anubis", "spots": [{"x": 458, "y": 214, "z": -467}]},
+    {"category": "bosses", "name": "Hollowbane", "region": "main", "icon": "telos:material/boss/hollowbane", "spots": [{"x": 233, "y": 200, "z": 703}, {"x": 231, "y": 43, "z": 696}]},
+    {"category": "bosses", "name": "Claus", "region": "main", "icon": "telos:material/boss/claus", "spots": [{"x": 10, "y": 212, "z": -118}]},
+    {"category": "minibosses", "name": "Luna", "region": "radiant_isles", "icon": "telos:material/boss/luna", "note": "Miniboss", "spots": [{"x": 100408, "y": 103, "z": 100030}, {"x": 100228, "y": 115, "z": 100131}, {"x": 99798, "y": 9, "z": 99718}, {"x": 99567, "y": 69, "z": 100013}]},
+    {"category": "minibosses", "name": "Aurehog", "region": "radiant_isles", "icon": "telos:material/boss/aurehog", "note": "Miniboss", "spots": [{"x": 100101, "y": 113, "z": 100305}, {"x": 99884, "y": 200, "z": 100330}, {"x": 99911, "y": 194, "z": 99586}, {"x": 100102, "y": 64, "z": 99646}]},
+    {"category": "bosses", "name": "Cog Sentinel", "region": "radiant_isles", "icon": "telos:material/boss/cog_sentinel", "spots": [{"x": 100000, "y": 50, "z": 100000}]},
+    {"category": "stabilizers", "name": "Cog Stabilizer (1)", "region": "radiant_isles", "icon": "telos:material/boss/cog_sentinel", "note": "Cog Sentinel", "spots": [{"x": 99627, "y": 45, "z": 99992}]},
+    {"category": "stabilizers", "name": "Cog Stabilizer (2)", "region": "radiant_isles", "icon": "telos:material/boss/cog_sentinel", "note": "Cog Sentinel", "spots": [{"x": 99649, "y": 129, "z": 100180}]},
+    {"category": "stabilizers", "name": "Cog Stabilizer (3)", "region": "radiant_isles", "icon": "telos:material/boss/cog_sentinel", "note": "Cog Sentinel", "spots": [{"x": 99934, "y": 167, "z": 100313}]},
+    {"category": "stabilizers", "name": "Cog Stabilizer (4)", "region": "radiant_isles", "icon": "telos:material/boss/cog_sentinel", "note": "Cog Sentinel", "spots": [{"x": 100027, "y": 71, "z": 100211}]},
+    {"category": "stabilizers", "name": "Cog Stabilizer (5)", "region": "radiant_isles", "icon": "telos:material/boss/cog_sentinel", "note": "Cog Sentinel", "spots": [{"x": 100163, "y": 114, "z": 100110}]},
+    {"category": "stabilizers", "name": "Cog Stabilizer (6)", "region": "radiant_isles", "icon": "telos:material/boss/cog_sentinel", "note": "Cog Sentinel", "spots": [{"x": 100427, "y": 49, "z": 99959}]},
+    {"category": "stabilizers", "name": "Cog Stabilizer (7)", "region": "radiant_isles", "icon": "telos:material/boss/cog_sentinel", "note": "Cog Sentinel", "spots": [{"x": 100074, "y": 48, "z": 99716}]},
+    {"category": "stabilizers", "name": "Cog Stabilizer (8)", "region": "radiant_isles", "icon": "telos:material/boss/cog_sentinel", "note": "Cog Sentinel", "spots": [{"x": 99867, "y": 142, "z": 99594}]},
+    {"category": "stabilizers", "name": "Cog Stabilizer (9)", "region": "radiant_isles", "icon": "telos:material/boss/cog_sentinel", "note": "Cog Sentinel", "spots": [{"x": 99703, "y": 65, "z": 99730}]},
+    {"category": "stabilizers", "name": "Cog Stabilizer (10)", "region": "radiant_isles", "note": "Cog Sentinel", "spots": [{"x": 99806, "y": 9, "z": 99869}]},
+    {"category": "minibosses", "name": "Oozul", "region": "main", "icon": "telos:material/boss/oozul", "note": "Miniboss", "spots": [{"x": -424, "y": 205, "z": 91}]},
+    {"category": "bosses", "name": "Warden", "region": "shadowlands", "icon": "telos:material/boss/warden", "spots": [{"x": -125, "y": -46, "z": -122}]},
+    {"category": "bosses", "name": "Herald", "region": "shadowlands", "icon": "telos:material/boss/herald", "spots": [{"x": 148, "y": -47, "z": -176}]},
+    {"category": "bosses", "name": "Reaper", "region": "shadowlands", "icon": "telos:material/boss/reaper", "spots": [{"x": 22, "y": -47, "z": 323}]},
+    {"category": "bosses", "name": "Defender", "region": "shadowlands", "icon": "telos:material/boss/defender", "spots": [{"x": 65, "y": -51, "z": 64}]}
+  ]
+}
