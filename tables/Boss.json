@@ -39,6 +39,7 @@
     },
     {
       "name": "Hellmesh",
+      "plateKill": true,
       "positions": [
         { "x": 222, "y": 217, "z": -39 },
         { "x": 134, "y": 216, "z": -13 }
