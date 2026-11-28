@@ -1,0 +1,10 @@
+{
+  "_comment": "Companion tiers for /profile: a pet or mount definition's name colour (style.boldStyle) -> its tier, lowest first. Definitions without a companion_amulet component are skins, not companions.",
+  "tiers": [
+    { "label": "Usual", "color": "#AAA7AA" },
+    { "label": "Strange", "color": "#7AA88A" },
+    { "label": "Fabled", "color": "#7A7FAA" },
+    { "label": "Exotic", "color": "#AA7AAA" },
+    { "label": "Special", "color": "#D7AA7A" }
+  ]
+}
